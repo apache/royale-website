@@ -61,6 +61,7 @@ function buildCompilerCommand(sourcePath, targetFile) {
 
     // Concatenate compiler command
     var command = sdkPath + "/royale-asjs/js/bin/mxmlc.bat" +
+                    " -debug=true" +
                     " -source-path+=\"" + sourcePath + "\"" +
                     " -targets=JSRoyale" + 
                     " -locale=en_US" +
