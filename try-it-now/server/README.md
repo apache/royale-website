@@ -3,13 +3,10 @@
 # 1. Installation of NodeJS and required modules
 
 Install [NodeJS](https://nodejs.org/en/)  
-Install [Restify](http://restify.com/)
 
-    npm install restify
-    
-Instal [uuid](https://www.npmjs.com/package/uuid)
+Install all dependencies: 
 
-    npm install uuid
+    npm install
 
 # 2. Clone server/server.js from this repo to your local machine
 Search for
@@ -22,6 +19,14 @@ in server.js and point it to your local "Royale jsonly SDK"
     node server.js
 
 # 4. How to use
+
+**Using the UI:** 
+
+Navigate to http://localhost:8080/static/ui/index.html
+Type Royale code on the left panel, Click on Run.  The right panel should show the 
+compiled Royale app.
+
+**Using the APIs:**
 
 Send a POST request with your Royale source code as payload:
 

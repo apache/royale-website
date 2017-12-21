@@ -30,7 +30,7 @@ var fs = require('fs');
 // Define some constants
 const sdkPath = "C:/local/apache-royale/sdks/apache-royale-jsonly-0.9.0-bin";
 const projectRootURL = "http://localhost:8080";
-const targetDirName = "static";
+const targetDirName = "static/generated";
 const compilerOutputFilename = "compilerOutput.txt";
 const compilerErrorFilename = "compilerError.txt";
 
@@ -48,6 +48,10 @@ server.get(/\/static\/?.*/, restify.plugins.serveStatic({
     directory: __dirname
 }));
 
+server.get(/\/node_modules\/?.*/, restify.plugins.serveStatic({
+    directory: __dirname
+}));
+
 
 /**
  * Build compiler command... mostly hardcoded for now
@@ -61,12 +65,12 @@ function buildCompilerCommand(sourcePath, targetFile) {
 
     // Concatenate compiler command
     var command = sdkPath + "/royale-asjs/js/bin/mxmlc.bat" +
-                    " -debug=true" +
                     " -source-path+=\"" + sourcePath + "\"" +
                     " -targets=JSRoyale" + 
                     " -locale=en_US" +
                     " -external-library-path+=\"" + sdkPath + "/royale-asjs/js/libs/js.swc\"" + 
                     " -allow-subclass-overrides=true" +
+                    " -debug=true" +
                     " \"" + targetFile + "\"";
     return command;
 }
