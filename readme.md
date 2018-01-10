@@ -1,1 +1,0 @@
-***** First Version of Apache Royale *****
