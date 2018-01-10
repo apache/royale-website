@@ -2014,6 +2014,9 @@ h6:last-child,
 }
 
 /* Menu Icon */
+#grve-top-bar  .grve-menu-icon,
+#grve-footer  .grve-menu-icon,
+.grve-anchor-menu   .grve-menu-icon,
 #grve-header .grve-main-menu .grve-menu-icon,
 #grve-hidden-menu .grve-menu-icon {
 	margin-right: 5px;
@@ -5300,6 +5303,8 @@ img.avatar {
 	visibility: hidden;
 	height: 0;
 	overflow: hidden;
+	position: relative;
+	z-index: 10;
 }
 
 #grve-safebutton-area.grve-show-area {

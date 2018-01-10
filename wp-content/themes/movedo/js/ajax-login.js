@@ -29,8 +29,14 @@ jQuery(function($){
 
 			$('.grve-login-form .grve-form-errors').html(obj.message);
 
+
 			if(obj.error == false){
-				window.location.reload(true);
+				var link = grve_form.redirect_url;
+				if ( "" != link ) {
+					location.href = link;
+				} else {
+					window.location.reload(true);
+				}
 			}
 
 		});
