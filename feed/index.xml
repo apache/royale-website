@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Apache Royale™</title>
+	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Code once. Run everywhere</description>
+	<lastBuildDate>Sat, 06 Jan 2018 11:13:35 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.1</generator>
+	<item>
+		<title>Creating a Hello World in Apache Royale</title>
+		<link>/creating-a-hello-world-in-apache-royale/</link>
+		<comments>/creating-a-hello-world-in-apache-royale/#respond</comments>
+		<pubDate>Fri, 10 Nov 2017 18:04:45 +0000</pubDate>
+		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
+				<category><![CDATA[Royale Examples]]></category>
+		<category><![CDATA[js:Label]]></category>
+
+		<guid isPermaLink="false">/?p=15027</guid>
+		<description><![CDATA[This is the classical Hello World code snippet done in Apache Royale with just MXML]]></description>
+		<wfw:commentRss>/creating-a-hello-world-in-apache-royale/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Welcome to Apache Royale!</title>
+		<link>/welcome-to-apache-royale/</link>
+		<comments>/welcome-to-apache-royale/#respond</comments>
+		<pubDate>Fri, 06 Oct 2017 11:38:25 +0000</pubDate>
+		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
+				<category><![CDATA[General]]></category>
+
+		<guid isPermaLink="false">/?p=1</guid>
+		<description><![CDATA[Welcome to Apache Royale Blog. This is our first post and we want to let you know the kind of content you can expect to see here. We will try to post about all important things that will be happen in this project, like new version releases, important changes, design choices, events, articles covering different [&#8230;]]]></description>
+		<wfw:commentRss>/welcome-to-apache-royale/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
