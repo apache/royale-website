@@ -12,7 +12,7 @@
 	<atom:link href="/tag/jslabel/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Code once. Run everywhere</description>
-	<lastBuildDate>Wed, 10 Jan 2018 22:25:36 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 11 Jan 2018 15:43:21 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
@@ -27,7 +27,9 @@
 		<category><![CDATA[js:Label]]></category>
 
 		<guid isPermaLink="false">/?p=15027</guid>
-		<description><![CDATA[This is the classical Hello World code snippet done in Apache Royale with just MXML]]></description>
+		<description><![CDATA[<p>This is the classical Hello World code snippet done in Apache Royale with just MXML</p>
+<p>The post <a rel="nofollow" href="/creating-a-hello-world-in-apache-royale/">Creating a Hello World in Apache Royale</a> appeared first on <a rel="nofollow" href="/">Apache Royale™</a>.</p>
+]]></description>
 		<wfw:commentRss>/creating-a-hello-world-in-apache-royale/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 		</item>

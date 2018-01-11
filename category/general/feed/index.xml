@@ -12,7 +12,7 @@
 	<atom:link href="/category/general/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Code once. Run everywhere</description>
-	<lastBuildDate>Wed, 10 Jan 2018 22:25:36 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 11 Jan 2018 15:43:21 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
@@ -26,7 +26,9 @@
 				<category><![CDATA[General]]></category>
 
 		<guid isPermaLink="false">/?p=1</guid>
-		<description><![CDATA[Welcome to Apache Royale Blog. This is our first post and we want to let you know the kind of content you can expect to see here. We will try to post about all important things that will be happen in this project, like new version releases, important changes, design choices, events, articles covering different [&#8230;]]]></description>
+		<description><![CDATA[<p>Welcome to Apache Royale Blog. This is our first post and we want to let you know the kind of content you can expect to see here. We will try to post about all important things that will be happen in this project, like new version releases, important changes, design choices, events, articles covering different [&#8230;]</p>
+<p>The post <a rel="nofollow" href="/welcome-to-apache-royale/">Welcome to Apache Royale!</a> appeared first on <a rel="nofollow" href="/">Apache Royale™</a>.</p>
+]]></description>
 		<wfw:commentRss>/welcome-to-apache-royale/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 		</item>
