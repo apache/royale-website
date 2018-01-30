@@ -12,11 +12,11 @@
 	<atom:link href="/tag/jslabel/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Code once. Run everywhere</description>
-	<lastBuildDate>Tue, 16 Jan 2018 22:27:34 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 30 Jan 2018 22:25:33 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.9.1</generator>
+	<generator>https://wordpress.org/?v=4.9.2</generator>
 	<item>
 		<title>Creating a Hello World in Apache Royale</title>
 		<link>/creating-a-hello-world-in-apache-royale/</link>

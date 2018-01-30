@@ -12,12 +12,24 @@
 	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Code once. Run everywhere</description>
-	<lastBuildDate>Tue, 16 Jan 2018 22:27:34 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 30 Jan 2018 22:25:33 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.9.1</generator>
+	<generator>https://wordpress.org/?v=4.9.2</generator>
 	<item>
+		<title>Apache Royale v0.9.0 released!</title>
+		<link>/apache-royale-v0-9-0-released/</link>
+		<pubDate>Tue, 30 Jan 2018 22:11:09 +0000</pubDate>
+		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
+				<category><![CDATA[General]]></category>
+
+		<guid isPermaLink="false">/?p=15462</guid>
+		<description><![CDATA[<p>The Apache Royale community is pleased to announce the release of Apache Royale 0.9.0.</p>
+<p>The post <a rel="nofollow" href="/apache-royale-v0-9-0-released/">Apache Royale v0.9.0 released!</a> appeared first on <a rel="nofollow" href="/">Apache Royale™</a>.</p>
+]]></description>
+		</item>
+		<item>
 		<title>Creating a Hello World in Apache Royale</title>
 		<link>/creating-a-hello-world-in-apache-royale/</link>
 		<comments>/creating-a-hello-world-in-apache-royale/#respond</comments>
