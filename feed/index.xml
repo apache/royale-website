@@ -12,7 +12,7 @@
 	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Code once. Run everywhere</description>
-	<lastBuildDate>Wed, 31 Jan 2018 11:31:16 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 31 Jan 2018 12:18:03 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
@@ -22,7 +22,8 @@
 		<link>/apache-royale-v0-9-0-released/</link>
 		<pubDate>Tue, 30 Jan 2018 22:11:09 +0000</pubDate>
 		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
-				<category><![CDATA[General]]></category>
+				<category><![CDATA[Announcements]]></category>
+		<category><![CDATA[releases]]></category>
 
 		<guid isPermaLink="false">/?p=15462</guid>
 		<description><![CDATA[<p>The Apache Royale community is pleased to announce the release of Apache Royale 0.9.0.</p>
