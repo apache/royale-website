@@ -10,9 +10,9 @@
 	<atom:link href="/welcome-to-apache-royale/feed/" rel="self" type="application/rss+xml" />
 	<link>/welcome-to-apache-royale/</link>
 	<description>Code once. Run everywhere</description>
-	<lastBuildDate>Mon, 05 Feb 2018 12:53:11 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 08 Feb 2018 19:45:55 +0000</lastBuildDate>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.9.2</generator>
+	<generator>https://wordpress.org/?v=4.9.4</generator>
 </channel>
 </rss>

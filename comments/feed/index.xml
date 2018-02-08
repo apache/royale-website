@@ -10,9 +10,9 @@
 	<atom:link href="/comments/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Code once. Run everywhere</description>
-	<lastBuildDate>Mon, 05 Feb 2018 12:53:05 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 08 Feb 2018 19:45:49 +0000</lastBuildDate>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.9.2</generator>
+	<generator>https://wordpress.org/?v=4.9.4</generator>
 </channel>
 </rss>
