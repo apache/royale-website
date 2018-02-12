@@ -12,7 +12,7 @@
 	<atom:link href="/category/royale-examples/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Code once. Run everywhere</description>
-	<lastBuildDate>Thu, 08 Feb 2018 19:43:10 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 12 Feb 2018 16:27:59 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
@@ -21,7 +21,7 @@
 		<title>Creating a Hello World in Apache Royale</title>
 		<link>/creating-a-hello-world-in-apache-royale/</link>
 		<comments>/creating-a-hello-world-in-apache-royale/#respond</comments>
-		<pubDate>Fri, 10 Nov 2017 18:04:45 +0000</pubDate>
+		<pubDate>Mon, 12 Feb 2018 08:04:45 +0000</pubDate>
 		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
 				<category><![CDATA[Royale Examples]]></category>
 		<category><![CDATA[js:Label]]></category>
