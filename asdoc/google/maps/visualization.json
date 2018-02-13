@@ -1,0 +1,138 @@
+{ "type": "class",
+  "qname": "google.maps.visualization",
+  "baseClassname": ""
+  ,
+    "description": "",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["[google_maps_api_v3_11]"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "google.maps.visualization",
+        "namespace": "",
+          "description": "",
+        "tags": [
+        {  "tagName": "see",
+               "values": ["[google_maps_api_v3_11]"]}  ],
+          "return": "void",
+          "params": []}
+      ,
+      { "type": "field",
+        "qname": "MapsEngineStatus",
+        "return": "google.maps.visualization.MapsEngineStatus",
+        "namespace": "public",
+          "description": "",
+        "tags": [
+        {  "tagName": "see",
+               "values": ["[google_maps_api_v3_11]"]}  ]},
+      { "type": "method",
+        "qname": "DemographicsLayerOptions",
+        "namespace": "public",
+        "static": true,
+          "description": "",
+        "tags": [
+        {  "tagName": "see",
+               "values": ["[google_maps_api_v3_11]"]}  ],
+          "return": "void",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "HeatmapLayerOptions",
+        "namespace": "public",
+        "static": true,
+          "description": "",
+        "tags": [
+        {  "tagName": "see",
+               "values": ["[google_maps_api_v3_11]"]}  ],
+          "return": "void",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "DemographicsStyle",
+        "namespace": "public",
+        "static": true,
+          "description": "",
+        "tags": [
+        {  "tagName": "see",
+               "values": ["[google_maps_api_v3_11]"]}  ],
+          "return": "void",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "MapsEngineLayerOptions",
+        "namespace": "public",
+        "static": true,
+          "description": "",
+        "tags": [
+        {  "tagName": "see",
+               "values": ["[google_maps_api_v3_11]"]}  ],
+          "return": "void",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "DemographicsPolygonOptions",
+        "namespace": "public",
+        "static": true,
+          "description": "",
+        "tags": [
+        {  "tagName": "see",
+               "values": ["[google_maps_api_v3_11]"]}  ],
+          "return": "void",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "DemographicsQuery",
+        "namespace": "public",
+        "static": true,
+          "description": "",
+        "tags": [
+        {  "tagName": "see",
+               "values": ["[google_maps_api_v3_11]"]}  ],
+          "return": "void",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "MapsEngineLayerProperties",
+        "namespace": "public",
+        "static": true,
+          "description": "",
+        "tags": [
+        {  "tagName": "see",
+               "values": ["[google_maps_api_v3_11]"]}  ],
+          "return": "void",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "WeightedLocation",
+        "namespace": "public",
+        "static": true,
+          "description": "",
+        "tags": [
+        {  "tagName": "see",
+               "values": ["[google_maps_api_v3_11]"]}  ],
+          "return": "void",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "DemographicsPropertyStyle",
+        "namespace": "public",
+        "static": true,
+          "description": "",
+        "tags": [
+        {  "tagName": "see",
+               "values": ["[google_maps_api_v3_11]"]}  ],
+          "return": "void",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "MapsEngineMouseEvent",
+        "namespace": "public",
+        "static": true,
+          "description": "",
+        "tags": [
+        {  "tagName": "see",
+               "values": ["[google_maps_api_v3_11]"]}  ],
+          "return": "void",
+          "params": []}
+      ]
+  }

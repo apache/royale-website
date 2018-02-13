@@ -1,0 +1,31 @@
+{ "type": "class",
+  "qname": "org.apache.royale.events.EventDispatcher",
+  "baseClassname": "goog.events.EventTarget"
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.events.EventDispatcher",
+        "namespace": "",
+          "return": "",
+          "params": [{ "name": "target", "type": "org.apache.royale.events.IEventDispatcher"}]}
+      ,
+      { "type": "method",
+        "qname": "hasEventListener",
+        "namespace": "public",
+          "return": "Boolean",
+          "params": [{ "name": "type", "type": "String"}]}
+      ,
+      { "type": "method",
+        "qname": "dispatchEvent",
+        "namespace": "public",
+        "override": true,
+          "return": "Boolean",
+          "params": [{ "name": "event", "type": "Object"}]}
+      ,
+      { "type": "method",
+        "qname": "toString",
+        "namespace": "public",
+          "return": "String",
+          "params": []}
+      ]
+  }

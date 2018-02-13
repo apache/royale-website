@@ -1,0 +1,27 @@
+{ "type": "class",
+  "qname": "org.apache.royale.graphics.QuadraticCurve",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.graphics.QuadraticCurve",
+        "namespace": "",
+          "return": "",
+          "params": [{ "name": "controlX", "type": "Number"},
+        { "name": "controlY", "type": "Number"},
+        { "name": "anchorX", "type": "Number"},
+        { "name": "anchorY", "type": "Number"}]}
+      ,
+      { "type": "method",
+        "qname": "toString",
+        "namespace": "public",
+          "return": "String",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "execute",
+        "namespace": "public",
+          "return": "void",
+          "params": [{ "name": "ctx", "type": "Object"}]}
+      ]
+  }

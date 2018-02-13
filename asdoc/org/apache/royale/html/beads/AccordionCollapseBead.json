@@ -1,0 +1,33 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.beads.AccordionCollapseBead",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html.beads.AccordionCollapseBead",
+        "namespace": "",
+          "return": "",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "write-only",
+        "return": "org.apache.royale.core.IStrand",
+        "qname": "strand",
+        "namespace": "public"},
+      { "type": "accessor",
+        "access": "read-only",
+        "return": "org.apache.royale.html.Accordion",
+        "qname": "host",
+        "namespace": "protected"},
+      { "type": "method",
+        "qname": "selectedIndexChangedHandler",
+        "namespace": "protected",
+          "return": "void",
+          "params": [{ "name": "event", "type": "org.apache.royale.events.Event"}]}
+      ,
+      { "type": "accessor",
+        "access": "read-only",
+        "return": "org.apache.royale.html.beads.layouts.IOneFlexibleChildLayout",
+        "qname": "layout",
+        "namespace": "protected"}]
+  }

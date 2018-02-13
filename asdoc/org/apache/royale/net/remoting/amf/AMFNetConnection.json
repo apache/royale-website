@@ -1,0 +1,59 @@
+{ "type": "class",
+  "qname": "org.apache.royale.net.remoting.amf.AMFNetConnection",
+  "baseClassname": ""
+  ,
+    "description": "Send data via AMF to a server.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["BlazeDS 4", "LCDS 3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.net.remoting.amf.AMFNetConnection",
+        "namespace": "",
+          "description": "Constructor",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["BlazeDS 4", "LCDS 3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "connect",
+        "namespace": "public",
+          "description": "Connect to a server.  Pass in an http URL as the commmand for connection to AMF server.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["BlazeDS 4", "LCDS 3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "void",
+          "params": [{ "name": "command", "type": "String"},
+        { "name": "params", "type": "Array"}]}
+      ,
+      { "type": "method",
+        "qname": "call",
+        "namespace": "public",
+          "description": "Call a server function.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["BlazeDS 4", "LCDS 3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "void",
+          "params": [{ "name": "command", "type": "String"},
+        { "name": "responder", "type": "org.apache.royale.net.Responder"},
+        { "name": "params", "type": "Array"}]}
+      ]
+  }

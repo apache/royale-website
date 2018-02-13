@@ -1,0 +1,57 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.beads.layouts.TreeGridLayout",
+  "baseClassname": ""
+  ,
+    "description": "The TreeGridLayout class provides the sizing and positioning for the sub-components that make up the TreeGrid.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html.beads.layouts.TreeGridLayout",
+        "namespace": "",
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "write-only",
+        "return": "org.apache.royale.core.IStrand",
+        "qname": "strand",
+        "namespace": "public",
+          "description": "",
+        "tags": [
+        {  "tagName": "see",
+               "values": ["org.apache.royale.core.IStrand"]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]},
+      { "type": "method",
+        "qname": "layout",
+        "namespace": "public",
+          "description": "Performs the layout function, placing the ButtonBar header at the top and spread across the width and the columns below that, laid out horizontally. The size of the columns is taken from the TreeGridColumn definitions stored in the TreeGridModel.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "Boolean",
+          "params": []}
+      ]
+  }

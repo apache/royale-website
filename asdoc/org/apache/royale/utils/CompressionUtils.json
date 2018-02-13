@@ -1,0 +1,20 @@
+{ "type": "class",
+  "qname": "org.apache.royale.utils.CompressionUtils",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "inflate",
+        "namespace": "public",
+        "static": true,
+          "return": "org.apache.royale.utils.BinaryData",
+          "params": [{ "name": "data", "type": "org.apache.royale.utils.BinaryData"}]}
+      ,
+      { "type": "method",
+        "qname": "deflate",
+        "namespace": "public",
+        "static": true,
+          "return": "org.apache.royale.utils.BinaryData",
+          "params": [{ "name": "data", "type": "org.apache.royale.utils.BinaryData"}]}
+      ]
+  }

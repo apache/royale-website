@@ -1,0 +1,17 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.NodeElementBase",
+  "baseClassname": "org.apache.royale.html.Group"
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html.NodeElementBase",
+        "namespace": "",
+          "return": "",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "String",
+        "qname": "nodeValue",
+        "namespace": "public"}]
+  }

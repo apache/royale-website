@@ -1,0 +1,17 @@
+{ "type": "class",
+  "qname": "org.apache.royale.effects.beads.ParallelReverseBead",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.effects.beads.ParallelReverseBead",
+        "namespace": "",
+          "return": "",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "write-only",
+        "return": "org.apache.royale.core.IStrand",
+        "qname": "strand",
+        "namespace": "public"}]
+  }

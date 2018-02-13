@@ -1,0 +1,39 @@
+{ "type": "class",
+  "qname": "google.maps.adsense",
+  "baseClassname": ""
+  ,
+    "description": "",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["[google_maps_api_v3_11]"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "google.maps.adsense",
+        "namespace": "",
+          "description": "",
+        "tags": [
+        {  "tagName": "see",
+               "values": ["[google_maps_api_v3_11]"]}  ],
+          "return": "void",
+          "params": []}
+      ,
+      { "type": "field",
+        "qname": "AdFormat",
+        "return": "google.maps.adsense.AdFormat",
+        "namespace": "public",
+          "description": "",
+        "tags": [
+        {  "tagName": "see",
+               "values": ["[google_maps_api_v3_11]"]}  ]},
+      { "type": "method",
+        "qname": "AdUnitOptions",
+        "namespace": "public",
+        "static": true,
+          "description": "",
+        "tags": [
+        {  "tagName": "see",
+               "values": ["[google_maps_api_v3_11]"]}  ],
+          "return": "void",
+          "params": []}
+      ]
+  }

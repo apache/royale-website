@@ -1,0 +1,19 @@
+{ "type": "class",
+  "qname": "org.apache.royale.utils.ResizeGenerator",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.utils.ResizeGenerator",
+        "namespace": "",
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "generateEffect",
+        "namespace": "public",
+          "return": "org.apache.royale.effects.IEffect",
+          "params": [{ "name": "source", "type": "org.apache.royale.core.ILayoutChild"},
+        { "name": "destination", "type": "org.apache.royale.core.ILayoutChild"}]}
+      ]
+  }

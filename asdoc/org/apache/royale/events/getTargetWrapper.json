@@ -1,0 +1,5 @@
+{ "type": "method",
+  "qname": "org.apache.royale.events.getTargetWrapper",
+  "namespace": "public",
+    "return": "Object",
+    "params": [{ "name": "obj", "type": "Object"}]}

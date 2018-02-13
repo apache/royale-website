@@ -1,0 +1,18 @@
+{ "type": "class",
+  "qname": "org.apache.royale.utils.ObjectMap",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.utils.ObjectMap",
+        "namespace": "",
+          "return": "",
+          "params": [{ "name": "weak", "type": "Boolean"}]}
+      ,
+      { "type": "method",
+        "qname": "clear",
+        "namespace": "public",
+          "return": "void",
+          "params": []}
+      ]
+  }

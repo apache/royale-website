@@ -1,0 +1,17 @@
+{ "type": "class",
+  "qname": "org.apache.royale.core.TransformMoveXModel",
+  "baseClassname": "org.apache.royale.core.TransformModel"
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.core.TransformMoveXModel",
+        "namespace": "",
+          "return": "",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "Number",
+        "qname": "x",
+        "namespace": "public"}]
+  }

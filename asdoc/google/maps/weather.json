@@ -1,0 +1,99 @@
+{ "type": "class",
+  "qname": "google.maps.weather",
+  "baseClassname": ""
+  ,
+    "description": "",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["[google_maps_api_v3_11]"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "google.maps.weather",
+        "namespace": "",
+          "description": "",
+        "tags": [
+        {  "tagName": "see",
+               "values": ["[google_maps_api_v3_11]"]}  ],
+          "return": "void",
+          "params": []}
+      ,
+      { "type": "field",
+        "qname": "TemperatureUnit",
+        "return": "google.maps.weather.TemperatureUnit",
+        "namespace": "public",
+          "description": "",
+        "tags": [
+        {  "tagName": "see",
+               "values": ["[google_maps_api_v3_11]"]}  ]},
+      { "type": "field",
+        "qname": "LabelColor",
+        "return": "google.maps.weather.LabelColor",
+        "namespace": "public",
+          "description": "",
+        "tags": [
+        {  "tagName": "see",
+               "values": ["[google_maps_api_v3_11]"]}  ]},
+      { "type": "field",
+        "qname": "WindSpeedUnit",
+        "return": "google.maps.weather.WindSpeedUnit",
+        "namespace": "public",
+          "description": "",
+        "tags": [
+        {  "tagName": "see",
+               "values": ["[google_maps_api_v3_11]"]}  ]},
+      { "type": "method",
+        "qname": "WeatherMouseEvent",
+        "namespace": "public",
+        "static": true,
+          "description": "",
+        "tags": [
+        {  "tagName": "see",
+               "values": ["[google_maps_api_v3_11]"]}  ],
+          "return": "void",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "WeatherForecast",
+        "namespace": "public",
+        "static": true,
+          "description": "",
+        "tags": [
+        {  "tagName": "see",
+               "values": ["[google_maps_api_v3_11]"]}  ],
+          "return": "void",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "WeatherConditions",
+        "namespace": "public",
+        "static": true,
+          "description": "",
+        "tags": [
+        {  "tagName": "see",
+               "values": ["[google_maps_api_v3_11]"]}  ],
+          "return": "void",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "WeatherFeature",
+        "namespace": "public",
+        "static": true,
+          "description": "",
+        "tags": [
+        {  "tagName": "see",
+               "values": ["[google_maps_api_v3_11]"]}  ],
+          "return": "void",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "WeatherLayerOptions",
+        "namespace": "public",
+        "static": true,
+          "description": "",
+        "tags": [
+        {  "tagName": "see",
+               "values": ["[google_maps_api_v3_11]"]}  ],
+          "return": "void",
+          "params": []}
+      ]
+  }

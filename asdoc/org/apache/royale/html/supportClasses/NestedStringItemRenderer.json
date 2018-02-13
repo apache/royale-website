@@ -1,0 +1,48 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.supportClasses.NestedStringItemRenderer",
+  "baseClassname": "org.apache.royale.html.supportClasses.StringItemRenderer"
+  ,
+    "description": "The NestedStringItemRenderer can be used with lists or DataGridColumns for items that are not at the top level of the data. For example, if the data is an Object having: {title: \"Something\", address:{street: \"Main\", zip: \"02118\"}} using NestedStringItemRenderer for the address field can extract any of its consitutents: labelField=\"address.zip\".",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html.supportClasses.NestedStringItemRenderer",
+        "namespace": "",
+          "description": "Constructor",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "getValueFromField",
+        "namespace": "public",
+          "description": "Takes a labelField (or dataField) path (eg, \"foo.bar.goo\") and returns the value associated with it from the data property by doing data[foo][bar][goo]. Returns null if the value cannot be determined.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "Object",
+          "params": [{ "name": "useField", "type": "String"}]}
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "Object",
+        "qname": "data",
+        "namespace": "public",
+        "override": true}]
+  }

@@ -1,0 +1,13 @@
+{ "type": "class",
+  "qname": "org.apache.royale.events.utils.MouseEventConverter",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "convert",
+        "namespace": "public",
+        "static": true,
+          "return": "org.apache.royale.events.MouseEvent",
+          "params": [{ "name": "nativeEvent", "type": "Object"}]}
+      ]
+  }

@@ -1,0 +1,19 @@
+{ "type": "class",
+  "qname": "org.apache.royale.effects.beads.EasyAccordionCollapseBead",
+  "baseClassname": "org.apache.royale.html.beads.AccordionCollapseBead"
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.effects.beads.EasyAccordionCollapseBead",
+        "namespace": "",
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "selectedIndexChangedHandler",
+        "namespace": "protected",
+        "override": true,
+          "return": "void",
+          "params": [{ "name": "event", "type": "org.apache.royale.events.Event"}]}
+      ]
+  }

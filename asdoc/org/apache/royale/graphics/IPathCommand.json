@@ -1,0 +1,16 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.graphics.IPathCommand",
+  "members": [
+  { "type": "method",
+    "qname": "toString",
+    "namespace": "public",
+      "return": "String",
+      "params": []}
+  ,
+  { "type": "method",
+    "qname": "execute",
+    "namespace": "public",
+      "return": "void",
+      "params": [{ "name": "ctx", "type": "Object"}]}
+  ]
+  }

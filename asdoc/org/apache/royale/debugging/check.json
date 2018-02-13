@@ -1,0 +1,7 @@
+{ "type": "method",
+  "qname": "org.apache.royale.debugging.check",
+  "namespace": "public",
+    "description": "Traces a warning if the condition is not met.",
+    "return": "void",
+    "params": [{ "name": "condition", "type": "Boolean"},
+  { "name": "message", "type": "String"}]}

@@ -1,0 +1,66 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.supportClasses.TreeGridControlItemRenderer",
+  "baseClassname": "org.apache.royale.html.supportClasses.UIItemRendererBase"
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html.supportClasses.TreeGridControlItemRenderer",
+        "namespace": "",
+          "return": "",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "read-only",
+        "return": "org.apache.royale.html.TextButton",
+        "qname": "controlButton",
+        "namespace": "public"},
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "org.apache.royale.core.IItemRendererClassFactory",
+        "qname": "originalItemRenderer",
+        "namespace": "public"},
+      { "type": "method",
+        "qname": "adjustSize",
+        "namespace": "public",
+        "override": true,
+          "return": "void",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "addItemRenderer",
+        "namespace": "public",
+          "return": "void",
+          "params": [{ "name": "renderer", "type": "org.apache.royale.core.IItemRenderer"}]}
+      ,
+      { "type": "method",
+        "qname": "addItemRendererAt",
+        "namespace": "public",
+          "return": "void",
+          "params": [{ "name": "renderer", "type": "org.apache.royale.core.IItemRenderer"},
+        { "name": "index", "type": "int"}]}
+      ,
+      { "type": "method",
+        "qname": "removeItemRenderer",
+        "namespace": "public",
+          "return": "void",
+          "params": [{ "name": "renderer", "type": "org.apache.royale.core.IItemRenderer"}]}
+      ,
+      { "type": "method",
+        "qname": "getItemRendererForIndex",
+        "namespace": "public",
+          "return": "org.apache.royale.core.IItemRenderer",
+          "params": [{ "name": "index", "type": "int"}]}
+      ,
+      { "type": "method",
+        "qname": "removeAllItemRenderers",
+        "namespace": "public",
+          "return": "void",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "updateAllItemRenderers",
+        "namespace": "public",
+          "return": "void",
+          "params": []}
+      ]
+  }

@@ -1,0 +1,13 @@
+{ "type": "class",
+  "qname": "org.apache.royale.express.VView",
+  "baseClassname": "org.apache.royale.express.View"
+  ,
+    "description": "This class extends View and adds the VerticalLayout bead for convenience.",
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.express.VView",
+        "namespace": "",
+          "return": "",
+          "params": []}
+      ]
+  }

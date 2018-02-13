@@ -1,0 +1,36 @@
+{ "type": "class",
+  "qname": "Namespace",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "Namespace",
+        "namespace": "",
+          "return": "",
+          "params": [{ "name": "prefixOrUri", "type": "Object"},
+        { "name": "uriValue", "type": "Object"}]}
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "String",
+        "qname": "uri",
+        "namespace": "public"},
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "String",
+        "qname": "prefix",
+        "namespace": "public"},
+      { "type": "method",
+        "qname": "toString",
+        "namespace": "public",
+          "return": "String",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "valueOf",
+        "namespace": "public",
+        "override": true,
+          "return": "*",
+          "params": []}
+      ]
+  }

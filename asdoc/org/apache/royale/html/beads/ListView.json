@@ -1,0 +1,34 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.beads.ListView",
+  "baseClassname": "org.apache.royale.html.beads.DataContainerView"
+  ,
+    "description": "The List class creates the visual elements of the org.apache.royale.html.List component. A List consists of the area to display the data (in the dataGroup), any scrollbars, and so forth.",
+  "tags": [
+  {  "tagName": "viewbead",
+         "values": []},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html.beads.ListView",
+        "namespace": "",
+          "return": "",
+          "params": []}
+      ,
+      { "type": "field",
+        "qname": "listModel",
+        "return": "org.apache.royale.core.ISelectionModel",
+        "namespace": "protected"},
+      { "type": "field",
+        "qname": "lastSelectedIndex",
+        "return": "int",
+        "namespace": "protected"},
+      { "type": "field",
+        "qname": "lastRollOverIndex",
+        "return": "int",
+        "namespace": "protected"}]
+  }

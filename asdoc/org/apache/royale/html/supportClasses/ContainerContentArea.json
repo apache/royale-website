@@ -1,0 +1,37 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.supportClasses.ContainerContentArea",
+  "baseClassname": "org.apache.royale.core.UIBase"
+  ,
+    "description": "The ContainerContentArea class implements the contentView for a Container on the SWF platform.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html.supportClasses.ContainerContentArea",
+        "namespace": "",
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "field",
+        "qname": "host",
+        "return": "org.apache.royale.core.IStrand",
+        "namespace": "protected"},
+      { "type": "accessor",
+        "access": "write-only",
+        "return": "org.apache.royale.core.IStrand",
+        "qname": "strand",
+        "namespace": "public"}]
+  }

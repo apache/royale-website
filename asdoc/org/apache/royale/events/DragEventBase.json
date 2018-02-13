@@ -1,0 +1,10 @@
+{ "type": "class",
+  "qname": "org.apache.royale.events.DragEventBase",
+  "baseClassname": "goog.events.BrowserEvent"
+  ,
+  "members": [
+  { "type": "field",
+        "qname": "bubbles",
+        "return": "Boolean",
+        "namespace": "public"}]
+  }

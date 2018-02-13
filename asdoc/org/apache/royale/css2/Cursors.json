@@ -1,0 +1,98 @@
+{ "type": "class",
+  "qname": "CursorData",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "field",
+        "qname": "cursor",
+        "return": "String",
+        "namespace": "public"},
+      { "type": "accessor",
+        "access": "write-only",
+        "return": "org.apache.royale.core.IStrand",
+        "qname": "strand",
+        "namespace": "public"}]
+  }
+{ "type": "class",
+  "qname": "org.apache.royale.css2.Cursors",
+  "baseClassname": ""
+  ,
+    "description": "The Label class implements the basic control for labeling other controls.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "toplevel",
+         "values": []},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "field",
+        "qname": "AUTO",
+        "return": "String",
+        "namespace": "public",
+        "static": true},
+      { "type": "field",
+        "qname": "DEFAULT",
+        "return": "String",
+        "namespace": "public",
+        "static": true},
+      { "type": "field",
+        "qname": "POINTER",
+        "return": "String",
+        "namespace": "public",
+        "static": true},
+      { "type": "field",
+        "qname": "MOVE",
+        "return": "String",
+        "namespace": "public",
+        "static": true},
+      { "type": "field",
+        "qname": "TEXT",
+        "return": "String",
+        "namespace": "public",
+        "static": true},
+      { "type": "method",
+        "qname": "org.apache.royale.css2.Cursors",
+        "namespace": "",
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "getCursor",
+        "namespace": "public",
+        "static": true,
+          "description": "The name of the cursor",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "String",
+          "params": [{ "name": "obj", "type": "org.apache.royale.core.IUIBase"}]}
+      ]
+  }
+
+
+
+{ "type": "class",
+  "qname": "CursorData",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "field",
+        "qname": "cursor",
+        "return": "String",
+        "namespace": "public"}]
+  }

@@ -1,0 +1,13 @@
+{ "type": "method",
+  "qname": "org.apache.royale.utils.string.trim",
+  "namespace": "public",
+    "description": "Trims all whitespace off the beginning and end of a string.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+    "return": "String",
+    "params": [{ "name": "str", "type": "String"}]}

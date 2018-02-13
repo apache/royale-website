@@ -1,0 +1,12 @@
+{ "type": "class",
+  "qname": "org.apache.royale.express.HSlider",
+  "baseClassname": "org.apache.royale.html.Slider"
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.express.HSlider",
+        "namespace": "",
+          "return": "",
+          "params": []}
+      ]
+  }

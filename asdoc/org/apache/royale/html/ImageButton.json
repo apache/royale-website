@@ -1,0 +1,48 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.ImageButton",
+  "baseClassname": "org.apache.royale.html.Button"
+  ,
+    "description": "The ImageButton class presents an image as a button.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "toplevel",
+         "values": []},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html.ImageButton",
+        "namespace": "",
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "createElement",
+        "namespace": "protected",
+        "override": true,
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.WrappedHTMLElement"]}  ],
+          "return": "org.apache.royale.core.WrappedHTMLElement",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "String",
+        "qname": "src",
+        "namespace": "public",
+        "bindable": ["srcChanged"],
+          "description": "Sets the image for the button. This is a URL. TODO: figure out how to set the source in the style, rather than using backgroundImage behind the scenes."}]
+  }

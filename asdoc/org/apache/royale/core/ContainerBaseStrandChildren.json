@@ -1,0 +1,43 @@
+{ "type": "class",
+  "qname": "org.apache.royale.core.ContainerBaseStrandChildren",
+  "baseClassname": ""
+  ,
+    "description": "The ContainerBaseStrandChildren class the provides a way for advanced components to place children directly into the strand unlike the addElement() APIs on the Container which place children into the contentView.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.core.ContainerBaseStrandChildren",
+        "namespace": "",
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.ContainerBase"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": [{ "name": "owner", "type": "org.apache.royale.core.IParent"}]}
+      ,
+      { "type": "field",
+        "qname": "owner",
+        "return": "org.apache.royale.core.IStrandPrivate",
+        "namespace": "public"},
+      { "type": "accessor",
+        "access": "read-only",
+        "return": "int",
+        "qname": "numElements",
+        "namespace": "public",
+          "description": "",
+        "tags": [
+        {  "tagName": "private",
+               "values": []}  ]}]
+  }

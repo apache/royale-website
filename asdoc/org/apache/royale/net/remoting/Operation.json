@@ -1,0 +1,20 @@
+{ "type": "class",
+  "qname": "org.apache.royale.net.remoting.Operation",
+  "baseClassname": "org.apache.royale.events.EventDispatcher"
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.net.remoting.Operation",
+        "namespace": "",
+          "return": "",
+          "params": [{ "name": "name", "type": "String"},
+        { "name": "remoteObject", "type": "org.apache.royale.net.RemoteObject"},
+        { "name": "args", "type": "Array"}]}
+      ,
+      { "type": "method",
+        "qname": "send",
+        "namespace": "public",
+          "return": "void",
+          "params": []}
+      ]
+  }

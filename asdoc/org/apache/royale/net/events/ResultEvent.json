@@ -1,0 +1,24 @@
+{ "type": "class",
+  "qname": "org.apache.royale.net.events.ResultEvent",
+  "baseClassname": "org.apache.royale.events.Event"
+  ,
+  "members": [
+  { "type": "field",
+        "qname": "RESULT",
+        "return": "String",
+        "namespace": "public",
+        "static": true},
+      { "type": "field",
+        "qname": "data",
+        "return": "Object",
+        "namespace": "public"},
+      { "type": "method",
+        "qname": "org.apache.royale.net.events.ResultEvent",
+        "namespace": "",
+          "return": "",
+          "params": [{ "name": "type", "type": "String"},
+        { "name": "resultData", "type": "Object"},
+        { "name": "bubbles", "type": "Boolean"},
+        { "name": "cancelable", "type": "Boolean"}]}
+      ]
+  }

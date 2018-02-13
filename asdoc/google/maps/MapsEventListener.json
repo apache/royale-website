@@ -1,0 +1,20 @@
+{ "type": "class",
+  "qname": "google.maps.MapsEventListener",
+  "baseClassname": ""
+  ,
+    "description": "",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["[google_maps_api_v3_11]"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "google.maps.MapsEventListener",
+        "namespace": "",
+          "description": "",
+        "tags": [
+        {  "tagName": "see",
+               "values": ["[google_maps_api_v3_11]"]}  ],
+          "return": "",
+          "params": []}
+      ]
+  }

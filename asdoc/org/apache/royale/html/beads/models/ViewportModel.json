@@ -1,0 +1,39 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.beads.models.ViewportModel",
+  "baseClassname": "org.apache.royale.events.EventDispatcher"
+  ,
+    "description": "",
+  "tags": [
+  {  "tagName": "copy",
+         "values": ["org.apache.royale.core.IViewportModel"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html.beads.models.ViewportModel",
+        "namespace": "",
+          "return": "",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "org.apache.royale.geom.Rectangle",
+        "qname": "borderMetrics",
+        "namespace": "public",
+          "description": "",
+        "tags": [
+        {  "tagName": "copy",
+               "values": ["org.apache.royale.core.IViewportModel"]}  ]},
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "org.apache.royale.geom.Rectangle",
+        "qname": "chromeMetrics",
+        "namespace": "public",
+          "description": "",
+        "tags": [
+        {  "tagName": "copy",
+               "values": ["org.apache.royale.core.IViewportModel"]}  ]},
+      { "type": "accessor",
+        "access": "write-only",
+        "return": "org.apache.royale.core.IStrand",
+        "qname": "strand",
+        "namespace": "public"}]
+  }
