@@ -7,6 +7,7 @@
 - Media Box
 - Message Box
 - Empty Space
+- Quote
 - Divider
 - Buttons
 - Arrow Buttons
@@ -31,6 +32,8 @@
 - Progress Bars
 - Counters
 - Video
+- Modal
+- Map
 - Carousel & Sliders
 --- Carousel & Slider Animations
 --- Content Sliders (Portfolio - Blog - Woo)
@@ -98,8 +101,10 @@
 /* =============================================================================
 - Title
 ============================================================================= */
-.grve-title > span {
+.grve-title > span,
+.grve-title.grve-clipping-animation .grve-clipping-wrapper {
 	display: inline-block;
+	vertical-align: top;
 }
 
 .grve-title-line {
@@ -124,6 +129,20 @@
 .grve-align-right .grve-title-line,
 .grve-align-right.grve-title-line {
 	margin-left: auto;
+}
+
+.grve-title.grve-title-gradient span {
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+	display: inline-block;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	.grve-title-gradient span {
+		background: transparent !important;
+	}
 }
 
 
@@ -299,6 +318,46 @@
 }
 
 /* =============================================================================
+- Quote
+============================================================================= */
+blockquote.grve-with-line {
+	padding: 18px 0px 18px 36px;
+}
+
+.grve-quote-line {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 3px;
+	height: 100%;
+}
+
+.grve-quote-icon {
+	margin-bottom: 12px;
+}
+
+.grve-quote-icon i.grve-extra-large {
+	font-size: 90px;
+	line-height: 90px;
+}
+
+.grve-quote-icon i.grve-large {
+	font-size: 72px;
+	line-height: 72px;
+}
+
+.grve-quote-icon i.grve-medium {
+	font-size: 48px;
+	line-height: 48px;
+}
+
+.grve-quote-icon i.grve-small {
+	font-size: 32px;
+	line-height: 32px;
+}
+
+
+/* =============================================================================
 - Divider
 ============================================================================= */
 hr {
@@ -427,11 +486,11 @@ a.grve-btn,
 	text-decoration: none;
 	position: relative;
 	overflow: hidden;
-	-webkit-transition : color .5s ease, background-color .5s ease, border-color .5s ease;
-	-moz-transition    : color .5s ease, background-color .5s ease, border-color .5s ease;
-	-o-transition      : color .5s ease, background-color .5s ease, border-color .5s ease;
-	-ms-transition     : color .5s ease, background-color .5s ease, border-color .5s ease;
-	transition         : color .5s ease, background-color .5s ease, border-color .5s ease;
+	-webkit-transition : color .5s ease, background-color .5s ease, background-size .5s ease, border-color .5s ease;
+	-moz-transition    : color .5s ease, background-color .5s ease, background-size .5s ease, border-color .5s ease;
+	-o-transition      : color .5s ease, background-color .5s ease, background-size .5s ease, border-color .5s ease;
+	-ms-transition     : color .5s ease, background-color .5s ease, background-size .5s ease, border-color .5s ease;
+	transition         : color .5s ease, background-color .5s ease, background-size .5s ease, border-color .5s ease;
 	-ms-touch-action: manipulation;
 	touch-action: manipulation;
 }
@@ -466,6 +525,45 @@ a.grve-btn.grve-btn-underline {
 a.grve-btn.grve-btn-underline:hover .grve-btn-bottom-line {
 	width: 100%;
 }
+
+/* Gradient Button */
+a.grve-btn.grve-btn-gradient {
+	overflow: visible;
+	color: #ffffff;
+}
+
+a.grve-btn.grve-btn-gradient:before {
+	content: '';
+	position: absolute;
+	top: -1px;
+	left: -1px;
+	width: 100%;
+	height: 100%;
+	padding: 1px;
+	z-index: 1;
+	-webkit-border-radius: inherit;
+	border-radius: inherit;
+	-webkit-transition : opacity .5s ease;
+	-moz-transition    : opacity .5s ease;
+	-o-transition      : opacity .5s ease;
+	-ms-transition     : opacity .5s ease;
+	transition         : opacity .5s ease;
+}
+
+a.grve-btn.grve-btn-gradient:hover:before {
+	opacity: 0;
+}
+
+a.grve-btn.grve-btn-gradient span {
+	position: relative;
+	z-index: 2;
+	color: #ffffff;
+}
+
+a.grve-btn.grve-btn-gradient:hover span {
+	color: inherit;
+}
+
 
 /* Button with icon */
 a.grve-btn i {
@@ -560,6 +658,7 @@ a.grve-btn:hover i {
 }
 
 
+
 /* =============================================================================
 - Arrow Buttons
 ============================================================================= */
@@ -596,6 +695,14 @@ a.grve-btn:hover i {
 	padding: 0 6%;
 }
 
+
+.grve-slogan-title.grve-title-gradient span {
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+	display: inline-block;
+}
 
 /* =============================================================================
 - Single Icon
@@ -2016,6 +2123,22 @@ ul.grve-socials li a:hover .grve-tooltip {
 	margin: 30px 0px 0px 0px;
 }
 
+#grve-theme-wrapper .grve-pricing-table.grve-bg-white {
+	color: rgba(0,0,0,0.30);
+	background-color: #ffffff;
+}
+
+#grve-theme-wrapper .grve-pricing-table.grve-bg-black {
+	color: rgba(255,255,255,0.60);
+	background-color: #000000;
+}
+
+/* Shadows */
+#grve-theme-wrapper .grve-pricing-table.grve-shadow-small {
+	-webkit-box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.25);
+	-moz-box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.25);
+	box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.25);
+}
 
 /* =============================================================================
 - Pie Charts
@@ -2184,6 +2307,112 @@ ul.grve-socials li a:hover .grve-tooltip {
 .grve-embed-video {
   max-width: 100% !important;
   height: auto !important;
+}
+
+/* =============================================================================
+- Modal
+============================================================================= */
+.grve-modal-dialog {
+	margin: 20px auto;
+	padding: 40px 40px;
+	position:relative;
+}
+
+.grve-modal-dialog.grve-content-small {
+	max-width: 400px;
+}
+
+.grve-modal-dialog.grve-content-medium {
+	max-width: 600px;
+}
+
+.grve-modal-dialog.grve-content-large {
+	max-width: 1170px;
+}
+
+/* =============================================================================
+- Map
+============================================================================= */
+.grve-marker-pulse-dot,
+.grve-marker-dot {
+	width: 20px;
+	height: 20px;
+	left: -9px;
+	top: -5px;
+	position: relative;
+}
+
+.grve-marker-dot .grve-dot {
+	width: 16px;
+	height: 16px;
+	-webkit-border-radius: 100%;
+	border-radius: 100%;
+	position: absolute;
+	left: 2px;
+	top: 2px;
+}
+
+.grve-marker-pulse-dot .grve-dot {
+	width: 16px;
+	height: 16px;
+	-webkit-border-radius: 100%;
+	border-radius: 100%;
+	position: absolute;
+	left: 2px;
+	top: 2px;
+	transform-origin: 50% 50%;
+	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
+}
+
+.grve-marker-pulse-dot .grve-first-pulse {
+	width: 180px;
+	pointer-events: none;
+	height: 180px;
+	-webkit-border-radius: 100%;
+	border-radius: 100%;
+	position: absolute;
+	left: -80px;
+	top: -80px;
+	opacity: 0;
+	-webkit-animation: pulse_marker_anim cubic-bezier(0,.55,.55,1) 2.2s;
+	animation: pulse_marker_anim cubic-bezier(0,.55,.55,1) 2.2s;
+	transform-origin: 50% 50%;
+	animation-fill-mode: forwards;
+	animation-delay: 0.9s;
+	animation-iteration-count: infinite;
+}
+
+.grve-marker-pulse-dot .grve-second-pulse {
+	width: 140px;
+	height: 140px;
+	pointer-events: none;
+	-webkit-border-radius: 100%;
+	border-radius: 100%;
+	position: absolute;
+	left: -60px;
+	top: -60px;
+	opacity: 0;
+	-webkit-animation: pulse_marker_anim cubic-bezier(0,.55,.55,1) 2.2s;
+	animation: pulse_marker_anim cubic-bezier(0,.55,.55,1) 2.2s;
+	transform-origin: 50% 50%;
+	animation-fill-mode: forwards;
+	animation-delay: 1.1s;
+	animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes pulse_marker_anim {
+	0%{ opacity: 0; transform: scale(0.00) }
+	1%{ opacity: 0.6 }
+	15%{ opacity: 0.2 }
+	70%{ transform: scale(1); opacity: 0 }
+}
+
+@keyframes pulse_marker_anim {
+	0%{ opacity: 0; transform: scale(0.00) }
+	1%{ opacity: 0.6 }
+	15%{ opacity: 0.2 }
+	70%{ transform: scale(1);  opacity: 0 }
 }
 
 /* =============================================================================
@@ -3357,6 +3586,12 @@ img.grve-align-center {
 	display: block;
 }
 
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .grve-image .grve-image-wrapper {
+        display: block;
+    }
+}
+
 /* Video Link */
 .grve-media a.grve-video-popup {
 	display:block;
@@ -3380,6 +3615,10 @@ a:hover .grve-icon-video {
 	background-color: rgba(0,0,0,0.7);
 }
 
+.grve-image:not(.grve-full-image).grve-clipping-animation .grve-clipping-wrapper {
+	display: inline-block;
+	vertical-align: top;
+}
 
 /* Image Expan Size */
 #grve-theme-wrapper .grve-image.grve-full-image img {
@@ -3387,107 +3626,129 @@ a:hover .grve-icon-video {
 	width: 100%;
 }
 
-.grve-image.grve-image-space-100 .grve-image-wrapper {
+.grve-image.grve-image-space-100 .grve-image-wrapper,
+.grve-image.grve-clipping-animation .grve-image-wrapper {
 	width: 100%;
 	display: block;
 }
 
-.grve-image.grve-image-space-125 .grve-image-wrapper {
+.grve-image.grve-image-space-125:not(.grve-clipping-animation) .grve-image-wrapper,
+.grve-image.grve-image-space-125.grve-clipping-animation .grve-clipping-wrapper {
 	width: 125%;
 	display: block;
 }
 
-.grve-image.grve-align-center.grve-image-space-125 .grve-image-wrapper,
+.grve-image.grve-align-center.grve-image-space-125:not(.grve-clipping-animation) .grve-image-wrapper,
+.grve-image.grve-align-center.grve-image-space-125.grve-clipping-animation .grve-clipping-wrapper,
 .grve-align-center .grve-image.grve-align-inherit.grve-image-space-125 .grve-image-wrapper {
 	margin-left: -12.5%
 }
 
-.grve-image.grve-align-right.grve-image-space-125 .grve-image-wrapper,
+.grve-image.grve-align-right.grve-image-space-125:not(.grve-clipping-animation) .grve-image-wrapper,
+.grve-image.grve-align-right.grve-image-space-125.grve-clipping-animation .grve-clipping-wrapper,
 .grve-align-right .grve-image.grve-align-inherit.grve-image-space-125 .grve-image-wrapper {
 	margin-left: -25%
 }
 
-.grve-image.grve-image-space-150 .grve-image-wrapper {
+.grve-image.grve-image-space-150:not(.grve-clipping-animation) .grve-image-wrapper,
+.grve-image.grve-image-space-150.grve-clipping-animation .grve-clipping-wrapper {
 	width: 150%;
 	display: block;
 }
-.grve-image.grve-align-center.grve-image-space-150 .grve-image-wrapper,
+.grve-image.grve-align-center.grve-image-space-150:not(.grve-clipping-animation) .grve-image-wrapper,
+.grve-image.grve-align-center.grve-image-space-150.grve-clipping-animation .grve-clipping-wrapper,
 .grve-align-center .grve-image.grve-align-inherit.grve-image-space-150 .grve-image-wrapper {
 	margin-left: -25%
 }
-.grve-image.grve-align-right.grve-image-space-150 .grve-image-wrapper,
+.grve-image.grve-align-right.grve-image-space-150:not(.grve-clipping-animation) .grve-image-wrapper,
+.grve-image.grve-align-right.grve-image-space-150.grve-clipping-animation .grve-clipping-wrapper,
 .grve-align-right .grve-image.grve-align-inherit.grve-image-space-150 .grve-image-wrapper {
 	margin-left: -50%
 }
 
-.grve-image.grve-image-space-175 .grve-image-wrapper {
+.grve-image.grve-image-space-175:not(.grve-clipping-animation) .grve-image-wrapper,
+.grve-image.grve-image-space-175.grve-clipping-animation .grve-clipping-wrapper {
 	width: 175%;
 	display: block;
 }
-.grve-image.grve-align-center.grve-image-space-175 .grve-image-wrapper,
+.grve-image.grve-align-center.grve-image-space-175:not(.grve-clipping-animation) .grve-image-wrapper,
+.grve-image.grve-align-center.grve-image-space-175.grve-clipping-animation .grve-clipping-wrapper,
 .grve-align-center .grve-image.grve-align-inherit.grve-image-space-175 .grve-image-wrapper {
 	margin-left: -37.5%
 }
-.grve-image.grve-align-right.grve-image-space-175 .grve-image-wrapper,
+.grve-image.grve-align-right.grve-image-space-175:not(.grve-clipping-animation) .grve-image-wrapper,
+.grve-image.grve-align-right.grve-image-space-175.grve-clipping-animation .grve-clipping-wrapper,
 .grve-align-right .grve-image.grve-align-inherit.grve-image-space-175 .grve-image-wrapper {
 	margin-left: -75%
 }
 
-.grve-image.grve-image-space-200 .grve-image-wrapper {
+.grve-image.grve-image-space-200:not(.grve-clipping-animation) .grve-image-wrapper,
+.grve-image.grve-image-space-200.grve-clipping-animation .grve-clipping-wrapper {
 	width: 200%;
 	display: block;
 }
-.grve-image.grve-align-center.grve-image-space-200 .grve-image-wrapper,
+.grve-image.grve-align-center.grve-image-space-200:not(.grve-clipping-animation) .grve-image-wrapper,
+.grve-image.grve-align-center.grve-image-space-200.grve-clipping-animation .grve-clipping-wrapper,
 .grve-align-center .grve-image.grve-align-inherit.grve-image-space-200 .grve-image-wrapper {
 	margin-left: -50%
 }
-.grve-image.grve-align-right.grve-image-space-200 .grve-image-wrapper,
+.grve-image.grve-align-right.grve-image-space-200:not(.grve-clipping-animation) .grve-image-wrapper,
+.grve-image.grve-align-right.grve-image-space-200.grve-clipping-animation .grve-clipping-wrapper,
 .grve-align-right .grve-image.grve-align-inherit.grve-image-space-200 .grve-image-wrapper {
 	margin-left: -100%
 }
 
-.grve-image.grve-image-space-225 .grve-image-wrapper {
+.grve-image.grve-image-space-225:not(.grve-clipping-animation) .grve-image-wrapper,
+.grve-image.grve-image-space-225.grve-clipping-animation .grve-clipping-wrapper {
 	width: 225%;
 	display: block;
 }
-.grve-image.grve-align-center.grve-image-space-225 .grve-image-wrapper,
+.grve-image.grve-align-center.grve-image-space-225:not(.grve-clipping-animation) .grve-image-wrapper,
+.grve-image.grve-align-center.grve-image-space-225.grve-clipping-animation .grve-clipping-wrapper,
 .grve-align-center .grve-image.grve-align-inherit.grve-image-space-225 .grve-image-wrapper {
 	margin-left: -62.5%
 }
-.grve-image.grve-align-right.grve-image-space-225 .grve-image-wrapper,
+.grve-image.grve-align-right.grve-image-space-225:not(.grve-clipping-animation) .grve-image-wrapper,
+.grve-image.grve-align-right.grve-image-space-225.grve-clipping-animation .grve-clipping-wrapper,
 .grve-align-right .grve-image.grve-align-inherit.grve-image-space-225 .grve-image-wrapper {
 	margin-left: -125%
 }
 
-.grve-image.grve-image-space-250 .grve-image-wrapper {
+.grve-image.grve-image-space-250:not(.grve-clipping-animation) .grve-image-wrapper,
+.grve-image.grve-image-space-250.grve-clipping-animation .grve-clipping-wrapper {
 	width: 250%;
 	display: block;
 }
-.grve-image.grve-align-center.grve-image-space-250 .grve-image-wrapper,
+.grve-image.grve-align-center.grve-image-space-250:not(.grve-clipping-animation) .grve-image-wrapper,
+.grve-image.grve-align-center.grve-image-space-250.grve-clipping-animation .grve-clipping-wrapper,
 .grve-align-center .grve-image.grve-align-inherit.grve-image-space-250 .grve-image-wrapper {
 	margin-left: -75%
 }
-.grve-image.grve-align-right.grve-image-space-250 .grve-image-wrapper,
+.grve-image.grve-align-right.grve-image-space-250:not(.grve-clipping-animation) .grve-image-wrapper,
+.grve-image.grve-align-right.grve-image-space-250.grve-clipping-animation .grve-clipping-wrapper,
 .grve-align-right .grve-image.grve-align-inherit.grve-image-space-250 .grve-image-wrapper {
 	margin-left: -150%
 }
 
 @media only screen and (max-width: 1200px) {
-	#grve-theme-wrapper .grve-tablet-column-1 .grve-image.grve-full-image .grve-image-wrapper {
+	#grve-theme-wrapper .grve-tablet-column-1 .grve-image.grve-full-image:not(.grve-clipping-animation) .grve-image-wrapper,
+	#grve-theme-wrapper .grve-tablet-column-1 .grve-image.grve-full-image.grve-clipping-animation .grve-clipping-wrapper {
 		width: 100%;
 		margin-left: auto;
 	}
 }
 
 @media only screen and (max-width: 959px) {
-	#grve-theme-wrapper .grve-tablet-sm-column-1 .grve-image.grve-full-image .grve-image-wrapper {
+	#grve-theme-wrapper .grve-tablet-sm-column-1 .grve-image.grve-full-image:not(.grve-clipping-animation) .grve-image-wrapper,
+	#grve-theme-wrapper .grve-tablet-sm-column-1 .grve-image.grve-full-image.grve-clipping-animation .grve-clipping-wrapper {
 		width: 100%;
 		margin-left: auto;
 	}
 }
 
 @media only screen and (max-width: 767px) {
-	#grve-theme-wrapper .grve-image.grve-full-image .grve-image-wrapper {
+	#grve-theme-wrapper .grve-image.grve-full-image:not(.grve-clipping-animation) .grve-image-wrapper,
+	#grve-theme-wrapper .grve-image.grve-full-image.grve-clipping-animation .grve-clipping-wrapper {
 		width: 100%;
 		margin-left: auto;
 	}
