@@ -8,11 +8,11 @@
 	>
 
 <channel>
-	<title>js Label &#8211; Apache Royale™</title>
+	<title>js:Label &#8211; Apache Royale™</title>
 	<atom:link href="/tag/jslabel/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Code once. Run everywhere</description>
-	<lastBuildDate>Wed, 14 Feb 2018 13:12:22 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 14 Feb 2018 15:36:51 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
@@ -24,7 +24,9 @@
 		<pubDate>Mon, 12 Feb 2018 08:04:45 +0000</pubDate>
 		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
 				<category><![CDATA[Royale Examples]]></category>
-		<category><![CDATA[js Label]]></category>
+		<category><![CDATA[js:Application]]></category>
+		<category><![CDATA[js:Label]]></category>
+		<category><![CDATA[js:View]]></category>
 
 		<guid isPermaLink="false">/?p=15027</guid>
 		<description><![CDATA[<p>This is the classical Hello World code snippet done in Apache Royale with just MXML</p>
