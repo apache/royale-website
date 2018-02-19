@@ -1,4 +1,0 @@
-{ "type": "class",
-  "qname": "org.apache.royale.net.HTTPServiceBase",
-  "baseClassname": "org.apache.royale.core.ElementWrapper"
-  }
