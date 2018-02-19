@@ -1,0 +1,14 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.promises.interfaces.IThenable",
+  "members": [
+  { "type": "method",
+    "qname": "then",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "return": "org.apache.royale.promises.interfaces.IThenable",
+      "params": [{ "name": "onFulfilled", "type": "Function"},
+    { "name": "onRejected", "type": "Function"}]}
+  ]
+  }

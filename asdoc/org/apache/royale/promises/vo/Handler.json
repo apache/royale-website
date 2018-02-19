@@ -1,0 +1,30 @@
+{ "type": "class",
+  "qname": "org.apache.royale.promises.vo.Handler",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.promises.vo.Handler",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": [{ "name": "onFulfilled", "type": "Function"},
+        { "name": "onRejected", "type": "Function"}]}
+      ,
+      { "type": "field",
+        "qname": "onFulfilled",
+        "return": "Function",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}},
+      { "type": "field",
+        "qname": "onRejected",
+        "return": "Function",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}}]
+  }

@@ -1,0 +1,31 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.core.IFactory",
+    "description": "The IFactory interface is the basic interface used as the type for properties that specify a factory for item renderers and other scenarios where multiple copies of a custom class are generated.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+    "qname": "newInstance",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "This method is called to generate a new instance of an item renderer or other custom class.",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.0"]},
+        {  "tagName": "return",
+           "values": ["A new instance of an item renderer or other custom class."]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ],
+      "return": "*",
+      "params": []}
+  ]
+  }

@@ -1,0 +1,45 @@
+{ "type": "class",
+  "qname": "org.apache.royale.express.MXMLViewer",
+  "baseClassname": "org.apache.royale.html.Label"
+  ,
+    "description": "This class extends the standard Label and allows MXML content (ie, XML or HTML) to be displayed.",
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.express.MXMLViewer",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "String",
+        "qname": "text",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "The text to display in the label.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6", "Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0", "Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0", "3.0"]}  ]},
+      { "type": "method",
+        "qname": "createElement",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.WrappedHTMLElement"]}  ],
+          "return": "org.apache.royale.core.WrappedHTMLElement",
+          "params": []}
+      ]
+  }

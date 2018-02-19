@@ -1,0 +1,46 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.beads.layouts.SimpleTableLayout",
+  "baseClassname": "org.apache.royale.core.LayoutBase"
+  ,
+    "description": "The SimpleTableLayout is the layout for the Table component. On the SWF platform it mimics the HTML <table> element and makes sure all the columns and rows are even. It does not support column or row spanning.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html.beads.layouts.SimpleTableLayout",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "layout",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "copy",
+               "values": ["org.apache.royale.core.IBeadLayout#layout"]},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.ILayoutHost", "org.apache.royale.core.UIBase"]}  ],
+          "return": "Boolean",
+          "params": []}
+      ]
+  }

@@ -1,0 +1,48 @@
+{ "type": "class",
+  "qname": "org.apache.royale.reflection.DefinitionWithMetaData",
+  "baseClassname": "org.apache.royale.reflection.DefinitionBase"
+  ,
+    "description": "The base class for definition types that can be decorated with metadata in actionscript source code",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.reflection.DefinitionWithMetaData",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": [{ "name": "name", "type": "String"},
+        { "name": "rawData", "type": "Object"}]}
+      ,
+      { "type": "accessor",
+        "access": "read-only",
+        "return": "Array",
+        "qname": "metadata",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "gets a copy of the metadata collection array"},
+      { "type": "method",
+        "qname": "retrieveMetaDataByName",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "A convenience method for retrieving metadatas It can occur more than once, so an array is returned",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["name the name of the metadata item to retrieve."]},
+            {  "tagName": "return",
+               "values": ["an array of all MetaDataDefinition items with matching 'name'"]}  ],
+          "return": "Array",
+          "params": [{ "name": "name", "type": "String"}]}
+      ]
+  }

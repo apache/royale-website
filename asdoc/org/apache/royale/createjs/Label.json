@@ -1,0 +1,38 @@
+{ "type": "class",
+  "qname": "org.apache.royale.createjs.Label",
+  "baseClassname": "org.apache.royale.createjs.core.CreateJSBase"
+  ,
+  "members": [
+  { "type": "accessor",
+        "access": "read-write",
+        "return": "String",
+        "qname": "fontName",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "The font to use for the text. Any CSS-style font name may be used.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]},
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "String",
+        "qname": "text",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "The string to display.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  }

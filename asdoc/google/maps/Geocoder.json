@@ -1,0 +1,41 @@
+{ "type": "class",
+  "qname": "google.maps.Geocoder",
+  "baseClassname": ""
+  ,
+    "description": "",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["[google_maps_api_v3_11]"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "google.maps.Geocoder",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "see",
+               "values": ["[google_maps_api_v3_11]"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "geocode",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "see",
+               "values": ["[google_maps_api_v3_11]"]},
+            {  "tagName": "param",
+               "values": ["request [(Object<?,string>|google.maps.GeocoderRequest|null)]", "callback [function ((Array<(google.maps.GeocoderResult|null)>|null), (google.maps.GeocoderStatus|null)): ?]"]},
+            {  "tagName": "returns",
+               "values": ["{undefined}"]}  ],
+          "return": "Object",
+          "params": [{ "name": "request", "type": "Object"},
+        { "name": "callback", "type": "Object"}]}
+      ]
+  }

@@ -1,0 +1,5 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html5.Label",
+  "baseClassname": "org.apache.royale.html.Label"
+  ,
+    "description": "Label probably should extend TextField directly, but the player's APIs for TextLine do not allow direct instantiation, and we might want to allow Labels to be declared and have their actual view be swapped out."}

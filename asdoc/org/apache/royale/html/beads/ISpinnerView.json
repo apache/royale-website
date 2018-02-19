@@ -1,0 +1,31 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.html.beads.ISpinnerView",
+"baseInterfaceNames": [
+"org.apache.royale.core.IBead"]
+,
+    "description": "The ISpinnerView interface provides the protocol for any bead that creates the visual parts for a org.apache.royale.html.Spinner control.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-only",
+    "return": "org.apache.royale.html.supportClasses.SpinnerButton",
+    "qname": "increment",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {}},
+  { "type": "accessor",
+    "access": "read-only",
+    "return": "org.apache.royale.html.supportClasses.SpinnerButton",
+    "qname": "decrement",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {}}]
+  }

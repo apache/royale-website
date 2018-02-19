@@ -1,0 +1,19 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html5.TransformBead",
+  "baseClassname": "org.apache.royale.core.TransformBeadBase"
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "transform",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["HTMLElement"]}  ],
+          "return": "void",
+          "params": []}
+      ]
+  }
