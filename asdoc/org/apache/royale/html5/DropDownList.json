@@ -1,4 +1,0 @@
-{ "type": "class",
-  "qname": "org.apache.royale.html5.DropDownList",
-  "baseClassname": "org.apache.royale.html.DropDownList"
-  }

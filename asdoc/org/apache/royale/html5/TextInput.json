@@ -1,4 +1,0 @@
-{ "type": "class",
-  "qname": "org.apache.royale.html5.TextInput",
-  "baseClassname": "org.apache.royale.html.TextInput"
-  }
