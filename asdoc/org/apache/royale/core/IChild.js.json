@@ -1,0 +1,39 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.core.IChild",
+"baseInterfaceNames": [
+"org.apache.royale.core.IRenderedObject"]
+,
+    "description": "The IChild interface is the basic interface for a component that is parented by another component.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-only",
+    "return": "org.apache.royale.core.IParent",
+    "qname": "parent",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "The parent.",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.0"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]},
+  { "type": "accessor",
+    "access": "read-only",
+    "return": "org.apache.royale.core.WrappedHTMLElement",
+    "qname": "positioner",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {}}]
+  }

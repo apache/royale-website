@@ -1,0 +1,39 @@
+{ "type": "class",
+  "qname": "org.apache.royale.charts.beads.layouts.ColumnChartLayout",
+  "baseClassname": "org.apache.royale.charts.beads.layouts.ChartBaseLayout"
+  ,
+    "description": "The ColumnChartLayout arranges the graphics in vertical columns (or whatever shape the renderer uses) using a category axis horizontally and a linear axis vertically.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.charts.beads.layouts.ColumnChartLayout",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "Number",
+        "qname": "gap",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "The amount of space to leave between series. If a chart has several series, the bars for an X value are side by side with a gap between the groups of bars.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  }

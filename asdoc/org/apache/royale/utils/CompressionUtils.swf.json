@@ -1,0 +1,25 @@
+{ "type": "class",
+  "qname": "org.apache.royale.utils.CompressionUtils",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "inflate",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "The Royale Compiler will inject html into the index.html file.  Surround with \"inject_html\" tag as follows:  <inject_html> <script src=\"https://cdnjs.cloudflare.com/ajax/libs/pako/1.0.3/pako.min.js\"></script> </inject_html>",
+          "return": "org.apache.royale.utils.BinaryData",
+          "params": [{ "name": "data", "type": "org.apache.royale.utils.BinaryData"}]}
+      ,
+      { "type": "method",
+        "qname": "deflate",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "return": "org.apache.royale.utils.BinaryData",
+          "params": [{ "name": "data", "type": "org.apache.royale.utils.BinaryData"}]}
+      ]
+  }

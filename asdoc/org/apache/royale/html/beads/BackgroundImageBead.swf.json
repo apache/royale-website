@@ -1,0 +1,41 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.beads.BackgroundImageBead",
+  "baseClassname": ""
+  ,
+    "description": "The BackgroundImageBead is used to render an image as the background to any component that supports it, such as Container.  Note that this bead is for ActionScript only since CSS/HTML allows this just by specifying a background image in the style selector. To use this bead, place a ClassReference to it",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "media",
+         "values": ["-royale-swf { } group in the CSS declarations."]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html.beads.BackgroundImageBead",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "write-only",
+        "return": "org.apache.royale.core.IStrand",
+        "qname": "strand",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}}]
+  }

@@ -1,0 +1,34 @@
+{ "type": "class",
+  "qname": "org.apache.royale.graphics.MoveTo",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.graphics.MoveTo",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": [{ "name": "x", "type": "Number"},
+        { "name": "y", "type": "Number"}]}
+      ,
+      { "type": "method",
+        "qname": "toString",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "String",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "execute",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "ctx", "type": "Object"}]}
+      ]
+  }

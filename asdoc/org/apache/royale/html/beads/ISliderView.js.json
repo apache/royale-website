@@ -1,0 +1,47 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.html.beads.ISliderView",
+"baseInterfaceNames": [
+"org.apache.royale.core.IBead"]
+,
+    "description": "The ISliderView interface provides the protocol for any bead that creates the visual parts for a org.apache.royale.html.Slider control.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-only",
+    "return": "org.apache.royale.core.IUIBase",
+    "qname": "track",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "The component used for the track area of the org.apache.royale.html.Slider.",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.0"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]},
+  { "type": "accessor",
+    "access": "read-only",
+    "return": "org.apache.royale.core.IUIBase",
+    "qname": "thumb",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "The component used for the thumb button of the org.apache.royale.html.Slider.",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.0"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]}]
+  }

@@ -1,0 +1,19 @@
+{ "type": "class",
+  "qname": "org.apache.royale.core.HTMLElementWrapper",
+  "baseClassname": "flash.display.Sprite"
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "addBead",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "\"abstract\" method so we can override in JS",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["bead The new bead."]}  ],
+          "return": "void",
+          "params": [{ "name": "bead", "type": "org.apache.royale.core.IBead"}]}
+      ]
+  }

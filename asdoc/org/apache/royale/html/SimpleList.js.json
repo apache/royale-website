@@ -1,0 +1,59 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.SimpleList",
+  "baseClassname": "org.apache.royale.html.List"
+  ,
+    "description": "The SimpleList class is a component that displays data in a vertical column. This component differs from org.apache.royale.html.List in that it displays only string values and maps to the &lt;select&gt; HTML element.",
+  "tags": [
+  {  "tagName": "toplevel",
+         "values": []},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html.SimpleList",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "createElement",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.WrappedHTMLElement", "HTMLSelectElement"]}  ],
+          "return": "org.apache.royale.core.WrappedHTMLElement",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "changeHandler",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["HTMLSelectElement"]}  ],
+          "return": "void",
+          "params": [{ "name": "event", "type": "Event"}]}
+      ]
+  }

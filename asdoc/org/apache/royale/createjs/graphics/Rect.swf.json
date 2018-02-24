@@ -1,0 +1,12 @@
+{ "type": "class",
+  "qname": "org.apache.royale.createjs.graphics.Rect",
+  "baseClassname": "org.apache.royale.svg.Rect"
+  ,
+    "description": "Creates a rectangle.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ]}

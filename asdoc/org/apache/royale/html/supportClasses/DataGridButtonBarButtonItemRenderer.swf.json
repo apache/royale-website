@@ -1,0 +1,47 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.supportClasses.DataGridButtonBarButtonItemRenderer",
+  "baseClassname": "org.apache.royale.html.supportClasses.ButtonBarButtonItemRenderer"
+  ,
+    "description": "The ButtonBarButtonItemRenderer class handles the display of each item for the org.apache.royale.html.ButtonBar component. This class uses a org.apache.royale.html.Button to represent the data.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html.supportClasses.DataGridButtonBarButtonItemRenderer",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "Object",
+        "qname": "data",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "The data to be displayed by the itemRenderer instance. For ButtonBarItemRenderer, the data's string version is used as the label for the Button.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  }

@@ -1,0 +1,57 @@
+{ "type": "class",
+  "qname": "google.maps.geometry.encoding",
+  "baseClassname": ""
+  ,
+    "description": "",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["[google_maps_api_v3_11]"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "google.maps.geometry.encoding",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "see",
+               "values": ["[google_maps_api_v3_11]"]}  ],
+          "return": "void",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "encodePath",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "see",
+               "values": ["[google_maps_api_v3_11]"]},
+            {  "tagName": "param",
+               "values": ["path [(Array<(google.maps.LatLng|null)>|google.maps.MVCArray|null)]"]},
+            {  "tagName": "returns",
+               "values": ["{string}"]}  ],
+          "return": "String",
+          "params": [{ "name": "path", "type": "Object"}]}
+      ,
+      { "type": "method",
+        "qname": "decodePath",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "see",
+               "values": ["[google_maps_api_v3_11]"]},
+            {  "tagName": "param",
+               "values": ["encodedPath [string]"]},
+            {  "tagName": "returns",
+               "values": ["{(Array<(google.maps.LatLng|null)>|null)}"]}  ],
+          "return": "Array",
+          "params": [{ "name": "encodedPath", "type": "String"}]}
+      ]
+  }

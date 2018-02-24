@@ -1,0 +1,16 @@
+{ "type": "class",
+  "qname": "org.apache.royale.utils.AbsoluteLayoutTweener",
+  "baseClassname": "org.apache.royale.utils.LayoutTweener"
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.utils.AbsoluteLayoutTweener",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": [{ "name": "sourceLayout", "type": "org.apache.royale.core.IBeadLayout"},
+        { "name": "sourceLayoutParent", "type": "org.apache.royale.core.ILayoutParent"}]}
+      ]
+  }

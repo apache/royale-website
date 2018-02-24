@@ -1,0 +1,10 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.core.IModule",
+    "description": "The compiler checks the main class to see if it implements the IModule interface and generates bootstrapping code for a module instead of an application.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ]}

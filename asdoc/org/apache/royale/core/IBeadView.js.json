@@ -1,0 +1,33 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.core.IBeadView",
+"baseInterfaceNames": [
+"org.apache.royale.core.IBead"]
+,
+    "description": "The IBeadView interface is the interface for beads that represent the view for a control. It is used to find the view bead on the strand via calls to getBeadByType.",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["org.apache.royale.core.IStrand#getBeadByType"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-only",
+    "return": "org.apache.royale.core.IUIBase",
+    "qname": "host",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "The host component.",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.0"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]}]
+  }

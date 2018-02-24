@@ -1,0 +1,11 @@
+{ "type": "method",
+  "qname": "org.apache.royale.debugging.assertType",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "asserts an object is of the desired type.",
+    "return": "void",
+    "params": [{ "name": "obj", "type": "Object"},
+  { "name": "type", "type": "Class"},
+  { "name": "message", "type": "String"}]}

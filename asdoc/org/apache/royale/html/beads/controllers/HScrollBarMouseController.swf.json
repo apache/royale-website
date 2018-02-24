@@ -1,0 +1,31 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.beads.controllers.HScrollBarMouseController",
+  "baseClassname": "org.apache.royale.html.beads.controllers.ScrollBarMouseControllerBase"
+  ,
+    "description": "The HScrollBarMouseController class is the controller for org.apache.royale.html.supportClasses.HScrollBar that acts as the Horizontal ScrollBar.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html.beads.controllers.HScrollBarMouseController",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ]
+  }

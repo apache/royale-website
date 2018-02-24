@@ -1,0 +1,4 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html5.CheckBox",
+  "baseClassname": "org.apache.royale.html.CheckBox"
+  }

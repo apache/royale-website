@@ -1,0 +1,23 @@
+{ "type": "class",
+  "qname": "org.apache.royale.express.VContainer",
+  "baseClassname": "org.apache.royale.express.Container"
+  ,
+    "description": "This class extends Container and adds the VerticalLayout bead for convenience.",
+  "tags": [
+  {  "tagName": "flexdocurl",
+         "values": ["https://flex.apache.org/asdoc/spark/components/Group.html"]},
+      {  "tagName": "flexcomponent",
+         "values": ["spark.components.VGroup"]},
+      {  "tagName": "commentary",
+         "values": ["In the Royale Express package, data binding is prepackaged into the VContainer component.", "Royale Express VContainer also includes support for scrolling.", "Royale Express also provides Container (basic layout) and HContainer (horizontal layout) for convenience."]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.express.VContainer",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ]
+  }

@@ -1,0 +1,31 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.core.IBinaryImageModel",
+"baseInterfaceNames": [
+"org.apache.royale.core.IImageModel"]
+,
+    "description": "The IImageModel interface describes the minimum set of properties available to an Image control.  More sophisticated Image controls could have models that extend IImageModel.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "org.apache.royale.utils.BinaryData",
+    "qname": "binary",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "The BinaryData of the image. This is used to set the image using binary content retrieved using HTTP requests or File APIs.",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.7"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]}]
+  }

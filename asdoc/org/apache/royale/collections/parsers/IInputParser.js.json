@@ -1,0 +1,35 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.collections.parsers.IInputParser",
+    "description": "The IInputParser interface is the basic interface for parsing data from a server or database into an array of items.  This interface is generally used in a LazyCollection.",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["org.apache.royale.net.dataConverters.LazyCollection."]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+    "qname": "parseItems",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "Take the input string (could be serialized data set, XML, or JSON) and return an array of serialized data items.",
+    "tags": [
+    {  "tagName": "param",
+           "values": ["s Serialized data set, XML or JSON."]},
+        {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.0"]},
+        {  "tagName": "return",
+           "values": ["An Array of serialized data items."]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ],
+      "return": "Array",
+      "params": [{ "name": "s", "type": "String"}]}
+  ]
+  }

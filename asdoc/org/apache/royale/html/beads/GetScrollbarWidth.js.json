@@ -1,0 +1,43 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.beads.GetScrollbarWidth",
+  "baseClassname": ""
+  ,
+    "description": "The GetScrollbarWidth class detects the browser's default scrollbar width. This can be useful when changing the viewport width to avoid it being obstructed by the scrollbar.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html.beads.GetScrollbarWidth",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "write-only",
+        "return": "org.apache.royale.core.IStrand",
+        "qname": "strand",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.WrappedHTMLElement"]}  ]},
+      { "type": "accessor",
+        "access": "read-only",
+        "return": "Number",
+        "qname": "scrollbarWidth",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}}]
+  }

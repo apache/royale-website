@@ -1,0 +1,19 @@
+{ "type": "class",
+  "qname": "org.apache.royale.createjs.graphics.GraphicShape",
+  "baseClassname": "org.apache.royale.createjs.core.CreateJSBase"
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "createElement",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "Creates a CreateJS Shape as the element.",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.WrappedHTMLElement", "createjs.Shape"]}  ],
+          "return": "org.apache.royale.core.WrappedHTMLElement",
+          "params": []}
+      ]
+  }

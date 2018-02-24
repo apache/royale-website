@@ -1,0 +1,14 @@
+{ "type": "class",
+  "qname": "org.apache.royale.core.TransformCompoundModel",
+  "baseClassname": "org.apache.royale.core.TransformModel"
+  ,
+  "members": [
+  { "type": "accessor",
+        "access": "write-only",
+        "return": "Array",
+        "qname": "transformModels",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}}]
+  }

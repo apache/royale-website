@@ -1,0 +1,49 @@
+{ "type": "class",
+  "qname": "org.apache.royale.mobile.beads.TopTabbedViewManagerView",
+  "baseClassname": "org.apache.royale.mobile.beads.TabbedViewManagerView"
+  ,
+    "description": "The TopTabbedViewManagerView constructs the visual elements of the TabbedViewManager. It always contains a tab bar and it's located at the top. It may contain a navigation bar at the bottom.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.mobile.beads.TopTabbedViewManagerView",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "addViewElements",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "void",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "insertCurrentView",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "view", "type": "org.apache.royale.mobile.IViewManagerView"}]}
+      ]
+  }

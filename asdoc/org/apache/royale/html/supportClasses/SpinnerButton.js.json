@@ -1,0 +1,15 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.supportClasses.SpinnerButton",
+  "baseClassname": "org.apache.royale.html.TextButton"
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html.supportClasses.SpinnerButton",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ]
+  }

@@ -1,0 +1,16 @@
+{ "type": "class",
+  "qname": "org.apache.royale.express.MXMLViewer",
+  "baseClassname": "org.apache.royale.html.Label"
+  ,
+    "description": "This class extends the standard Label and allows MXML content (ie, XML or HTML) to be displayed.",
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.express.MXMLViewer",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ]
+  }

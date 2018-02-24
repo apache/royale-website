@@ -1,0 +1,38 @@
+{ "type": "class",
+  "qname": "org.apache.royale.graphics.CubicCurve",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.graphics.CubicCurve",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": [{ "name": "controlX1", "type": "Number"},
+        { "name": "controlY1", "type": "Number"},
+        { "name": "controlX2", "type": "Number"},
+        { "name": "controlY2", "type": "Number"},
+        { "name": "anchorX", "type": "Number"},
+        { "name": "anchorY", "type": "Number"}]}
+      ,
+      { "type": "method",
+        "qname": "toString",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "String",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "execute",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "ctx", "type": "Object"}]}
+      ]
+  }

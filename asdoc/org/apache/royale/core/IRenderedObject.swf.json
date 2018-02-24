@@ -1,0 +1,20 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.core.IRenderedObject",
+    "description": "The IRenderedObject interface is the basic interface for a component that has been rendered.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-only",
+    "return": "flash.display.DisplayObject",
+    "qname": "$displayObject",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {}}]
+  }

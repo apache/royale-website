@@ -1,0 +1,31 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.beads.TextFieldView",
+  "baseClassname": "org.apache.royale.html.beads.TextFieldViewBase"
+  ,
+    "description": "The TextFieldView class is the default view for the org.apache.royale.html.Label class. It displays text using a TextField, so there is no right-to-left text support in this view.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html.beads.TextFieldView",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ]
+  }

@@ -1,0 +1,5 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.html.beads.IAccordionCollapseBead",
+"baseInterfaceNames": [
+"org.apache.royale.core.IBead"]
+}

@@ -1,0 +1,12 @@
+{ "type": "class",
+  "qname": "org.apache.royale.net.HTTPServiceBase",
+  "baseClassname": "org.apache.royale.events.EventDispatcher"
+  ,
+    "description": "The data class for HTTP headers in HTTP server communications.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ]}

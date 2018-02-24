@@ -1,0 +1,10 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.events.utils.IHandlesOriginalEvent",
+    "description": "The presence of this interface indicates that the event.target being processed by a converter, such as MouseEventConverter, should be ignored.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ]}

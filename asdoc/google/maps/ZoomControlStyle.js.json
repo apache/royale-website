@@ -1,0 +1,43 @@
+{ "type": "class",
+  "qname": "google.maps.ZoomControlStyle",
+  "baseClassname": ""
+  ,
+    "description": "",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["[google_maps_api_v3_11]"]}  ],
+  "members": [
+  { "type": "field",
+        "qname": "LARGE",
+        "return": "Number",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "Generated doc for missing field JSDoc.",
+        "tags": [
+        {  "tagName": "see",
+               "values": ["[google_maps_api_v3_11]"]}  ]},
+      { "type": "field",
+        "qname": "SMALL",
+        "return": "Number",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "Generated doc for missing field JSDoc.",
+        "tags": [
+        {  "tagName": "see",
+               "values": ["[google_maps_api_v3_11]"]}  ]},
+      { "type": "field",
+        "qname": "DEFAULT",
+        "return": "Number",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "Generated doc for missing field JSDoc.",
+        "tags": [
+        {  "tagName": "see",
+               "values": ["[google_maps_api_v3_11]"]}  ]}]
+  }

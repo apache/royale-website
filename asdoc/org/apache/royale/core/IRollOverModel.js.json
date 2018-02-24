@@ -1,0 +1,32 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.core.IRollOverModel",
+"baseInterfaceNames": [
+"org.apache.royale.events.IEventDispatcher", 
+"org.apache.royale.core.IBeadModel"]
+,
+    "description": "The IRollOverModel interface describes the minimum set of properties available to control that supports rollover highlighting of an item within a set of items.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "int",
+    "qname": "rollOverIndex",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "The index of the item that is currently under the mouse.",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.0"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]}]
+  }

@@ -1,0 +1,21 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.graphics.IDrawable",
+  "members": [
+  { "type": "method",
+    "qname": "draw",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "Performs the default draw command.",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 9", "AIR 1.1"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.8"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ],
+      "return": "void",
+      "params": []}
+  ]
+  }

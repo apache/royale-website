@@ -1,0 +1,12 @@
+{ "type": "class",
+  "qname": "org.apache.royale.createjs.core.CreateJSBase",
+  "baseClassname": "org.apache.royale.core.UIBase"
+  ,
+    "description": "This is the base class for CreateJS component wrappers used by Royale applications. This class provides standard properties that most of the Royale CreateJS wrapper classes use, such as a fill color.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ]}

@@ -1,0 +1,48 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.supportClasses.TreeGridColumn",
+  "baseClassname": "org.apache.royale.html.supportClasses.DataGridColumn"
+  ,
+    "description": "A TreeGridColumn defines the property of a specific column in the TreeGrid.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html.supportClasses.TreeGridColumn",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "createColumn",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "Returns a new instance of a UIBase component to be used as the actual column in the grid.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "org.apache.royale.core.IUIBase",
+          "params": []}
+      ]
+  }

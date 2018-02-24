@@ -1,0 +1,28 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.html.beads.ITextFieldView",
+    "description": "The ITextFieldView interface is the interface for views for the use a CSSTextField to display text.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-only",
+    "return": "org.apache.royale.core.CSSTextField",
+    "qname": "textField",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "The org.apache.royale.core.CSSTextField used to display text.",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.0"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]}]
+  }

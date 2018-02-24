@@ -1,0 +1,33 @@
+{ "type": "class",
+  "qname": "org.apache.royale.collections.parsers.JSONInputParser",
+  "baseClassname": ""
+  ,
+    "description": "The JSONInputParser class parses a JSON structure into an array of JSON sub-structures.  It assumes the input JSON format is an array without sub-arrays. A more complex parser might be needed for more complex JSON structures.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "parseItems",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "copy",
+               "values": ["org.apache.royale.net.IInputParser#parseItems"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "Array",
+          "params": [{ "name": "s", "type": "String"}]}
+      ]
+  }

@@ -1,0 +1,48 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.core.IContainer",
+"baseInterfaceNames": [
+"org.apache.royale.core.IParent"]
+,
+    "description": "The IContainer interface is used to mark certain components as Containers. While most components are containers in the sense that they are composited from a set of child components, the term Container is commonly used in Flex to denote components that take an arbitrary set or sets of children and do not try to abstract away that fact.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+    "qname": "childrenAdded",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "This method is called after children have been added to the container so the container doesn't have to re-layout as each child is added.",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.0"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ],
+      "return": "void",
+      "params": []}
+  ,
+  { "type": "accessor",
+    "access": "read-only",
+    "return": "org.apache.royale.core.IParent",
+    "qname": "strandChildren",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "Returns a object to access the immediate children of the strand.",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.8"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]}]
+  }

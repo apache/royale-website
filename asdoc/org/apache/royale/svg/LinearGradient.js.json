@@ -1,0 +1,32 @@
+{ "type": "class",
+  "qname": "org.apache.royale.svg.LinearGradient",
+  "baseClassname": "org.apache.royale.graphics.GradientBase"
+  ,
+  "members": [
+  { "type": "accessor",
+        "access": "read-write",
+        "return": "Number",
+        "qname": "scaleX",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "The horizontal scale of the gradient transform, which defines the width of the (unrotated) gradient"},
+      { "type": "method",
+        "qname": "addFillAttrib",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "addFillAttrib()",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["value The IGraphicShape object on which the fill must be added."]},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["Node", "HTMLElement"]},
+            {  "tagName": "return",
+               "values": ["{string}"]}  ],
+          "return": "String",
+          "params": [{ "name": "value", "type": "org.apache.royale.graphics.IGraphicShape"}]}
+      ]
+  }
