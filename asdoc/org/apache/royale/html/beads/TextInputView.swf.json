@@ -39,5 +39,7 @@
           "description": "",
         "tags": [
         {  "tagName": "private",
-               "values": []}  ]}]
+               "values": []},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.IBorderPaddingMarginValuesImpl"]}  ]}]
   }

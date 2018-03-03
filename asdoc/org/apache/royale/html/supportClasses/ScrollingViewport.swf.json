@@ -75,7 +75,9 @@
           "description": "",
         "tags": [
         {  "tagName": "copy",
-               "values": ["org.apache.royale.core.IViewport"]}  ],
+               "values": ["org.apache.royale.core.IViewport"]},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.IBorderPaddingMarginValuesImpl"]}  ],
           "return": "void",
           "params": [{ "name": "contentSize", "type": "org.apache.royale.geom.Size"}]}
       ]

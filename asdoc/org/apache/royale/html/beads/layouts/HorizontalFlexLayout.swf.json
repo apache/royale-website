@@ -66,6 +66,8 @@
                "values": ["org.apache.royale.core.IBeadLayout#layout"]},
             {  "tagName": "productversion",
                "values": ["Royale 0.8"]},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.IBorderPaddingMarginValuesImpl"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ],
           "return": "Boolean",

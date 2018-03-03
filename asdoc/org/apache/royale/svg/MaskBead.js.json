@@ -55,7 +55,7 @@
         "details": [],
         "deprecated": {},
           "return": "void",
-          "params": [{ "name": "renderedObject", "type": "org.apache.royale.core.IRenderedObject"}]}
+          "params": [{ "name": "transformHost", "type": "org.apache.royale.core.ITransformHost"}]}
       ,
       { "type": "method",
         "qname": "maskElement",
@@ -64,6 +64,6 @@
         "details": [],
         "deprecated": {},
           "return": "void",
-          "params": [{ "name": "renderedObject", "type": "org.apache.royale.core.IRenderedObject"}]}
+          "params": [{ "name": "transformHost", "type": "org.apache.royale.core.ITransformHost"}]}
       ]
   }

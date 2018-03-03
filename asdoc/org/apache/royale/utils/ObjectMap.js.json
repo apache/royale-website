@@ -2,6 +2,14 @@
   "qname": "org.apache.royale.utils.ObjectMap",
   "baseClassname": ""
   ,
+    "description": "The ObjectMap class is a hash class which supports weak keys and object keys on systems which support it. This includes Flash and most modern browsers. For browsers which do not support Map and WeakMap, it falls back to simple object hashes.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.1"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.utils.ObjectMap",

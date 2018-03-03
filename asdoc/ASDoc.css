@@ -579,6 +579,12 @@ Button:active {
 }
 
 
+.Menu {
+        font-family: sans-serif;
+        font-size: 12px;
+}
+
+
 .DataContainer {
         vertical-align: bottom;
 }

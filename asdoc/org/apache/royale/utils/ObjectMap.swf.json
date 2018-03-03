@@ -2,6 +2,14 @@
   "qname": "org.apache.royale.utils.ObjectMap",
   "baseClassname": ""
   ,
+    "description": "The ObjectMap class is a hash class which supports weak keys and object keys on systems which support it. This includes Flash and most modern browsers. For browsers which do not support Map and WeakMap, it falls back to simple object hashes.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.1"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.utils.ObjectMap",
@@ -18,6 +26,14 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "Removes the specified key",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.7.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
           "return": "void",
           "params": [{ "name": "key", "type": "Object"}]}
       ,
@@ -27,6 +43,14 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "Returns the value associated with the `key`, or `undefined`.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.7.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
           "return": "*",
           "params": [{ "name": "key", "type": "Object"}]}
       ,
@@ -36,6 +60,14 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "Returns whether the key has a value or not.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.7.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
           "return": "Boolean",
           "params": [{ "name": "key", "type": "Object"}]}
       ,
@@ -45,6 +77,14 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "Sets the value for the specified key.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.7.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
           "return": "void",
           "params": [{ "name": "key", "type": "Object"},
         { "name": "value", "type": "*"}]}
@@ -55,6 +95,14 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "Removes all key/value pairs.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.7.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
           "return": "void",
           "params": []}
       ]

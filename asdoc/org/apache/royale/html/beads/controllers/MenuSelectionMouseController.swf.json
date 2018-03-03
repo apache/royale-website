@@ -62,5 +62,39 @@
                "values": ["3.0"]}  ],
           "return": "void",
           "params": [{ "name": "event", "type": "org.apache.royale.events.ItemClickedEvent"}]}
+      ,
+      { "type": "method",
+        "qname": "findMenuDispatcher",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Finds and returns the object from which events should be dispatched. This may be the Menu itself of the menu's parent menu bar.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "org.apache.royale.events.IEventDispatcher",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "hideOpenMenus",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Hides any menus that are open. This means only one pop-up menu (or set of cascading menus) may be open at one time.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "void",
+          "params": []}
       ]
   }

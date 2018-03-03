@@ -55,7 +55,9 @@
           "description": "",
         "tags": [
         {  "tagName": "copy",
-               "values": ["org.apache.royale.core.IBeadLayout#layout"]}  ],
+               "values": ["org.apache.royale.core.IBeadLayout#layout"]},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.IBorderPaddingMarginValuesImpl", "org.apache.royale.core.IUIBase"]}  ],
           "return": "Boolean",
           "params": []}
       ]

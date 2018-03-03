@@ -7,7 +7,7 @@
   "members": [
   { "type": "accessor",
     "access": "read-write",
-    "return": "org.apache.royale.geom.Rectangle",
+    "return": "org.apache.royale.core.layout.EdgeData",
     "qname": "borderMetrics",
     "namespace": "public",
     "bindable": [],
@@ -16,7 +16,7 @@
       "description": "Size of the borders."},
   { "type": "accessor",
     "access": "read-write",
-    "return": "org.apache.royale.geom.Rectangle",
+    "return": "org.apache.royale.core.layout.EdgeData",
     "qname": "chromeMetrics",
     "namespace": "public",
     "bindable": [],
