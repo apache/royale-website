@@ -42,29 +42,6 @@
 }
 
 
-Button {
-        border: 1px solid #808080;
-        padding: 4px;
-        background-color: #f8f8f8;
-        margin: 0px;
-        border-radius: 2px;
-}
-
-
-Button:hover {
-        border: 1px solid #808080;
-        padding: 4px;
-        background-color: #e8e8e8;
-}
-
-
-Button:active {
-        border: 1px solid #808080;
-        padding: 4px;
-        background-color: #d8d8d8;
-}
-
-
 .ButtonBar {
                                     border-style: none;
 }
@@ -552,6 +529,29 @@ Button:active {
         margin-bottom: 5px;
         margin-top: 15px;
         height: 40px;
+}
+
+
+Button {
+        border: 1px solid #808080;
+        padding: 4px;
+        background-color: #f8f8f8;
+        margin: 0px;
+        border-radius: 2px;
+}
+
+
+Button:hover {
+        border: 1px solid #808080;
+        padding: 4px;
+        background-color: #e8e8e8;
+}
+
+
+Button:active {
+        border: 1px solid #808080;
+        padding: 4px;
+        background-color: #d8d8d8;
 }
 
 
