@@ -1793,6 +1793,7 @@ if( 1 == movedo_grve_main_data.device_animations ) {
 
 			if( $overflow.length > 0 ){
 				bodyLoader = true;
+				window.onunload = function(){};
 			} else {
 				return;
 			}
