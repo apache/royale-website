@@ -12,11 +12,11 @@
 	<atom:link href="/category/announcements/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Code once. Run everywhere</description>
-	<lastBuildDate>Mon, 02 Apr 2018 17:59:38 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 06 Apr 2018 09:59:20 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.9.4</generator>
+	<generator>https://wordpress.org/?v=4.9.5</generator>
 	<item>
 		<title>Apache Royale v0.9.2 released!</title>
 		<link>/apache-royale-v0-9-2-released/</link>
