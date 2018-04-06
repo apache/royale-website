@@ -12,13 +12,13 @@
 	<atom:link href="/tag/jbutton/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Code once. Run everywhere</description>
-	<lastBuildDate>Fri, 06 Apr 2018 09:59:20 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 06 Apr 2018 10:57:51 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=4.9.5</generator>
 	<item>
-		<title>Using Jewel Alert Control</title>
+		<title>Using the Jewel Alert Control</title>
 		<link>/using-jewel-alert-control/</link>
 		<comments>/using-jewel-alert-control/#respond</comments>
 		<pubDate>Fri, 06 Apr 2018 09:20:53 +0000</pubDate>
@@ -32,7 +32,7 @@
 
 		<guid isPermaLink="false">/?p=15633</guid>
 		<description><![CDATA[<p>This basic example shows how to display an Alert dialog in a Royale application.</p>
-<p>The post <a rel="nofollow" href="/using-jewel-alert-control/">Using Jewel Alert Control</a> appeared first on <a rel="nofollow" href="/">Apache Royale™</a>.</p>
+<p>The post <a rel="nofollow" href="/using-jewel-alert-control/">Using the Jewel Alert Control</a> appeared first on <a rel="nofollow" href="/">Apache Royale™</a>.</p>
 ]]></description>
 		<wfw:commentRss>/using-jewel-alert-control/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
