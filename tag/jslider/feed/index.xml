@@ -12,7 +12,7 @@
 	<atom:link href="/tag/jslider/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Code once. Run everywhere</description>
-	<lastBuildDate>Thu, 12 Apr 2018 21:08:26 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 12 Apr 2018 21:20:33 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
@@ -31,7 +31,7 @@
 		<category><![CDATA[js:View]]></category>
 
 		<guid isPermaLink="false">/?p=15663</guid>
-		<description><![CDATA[<p>This basic example shows how to display an Alert dialog in a Royale application.</p>
+		<description><![CDATA[<p>This example shows how to use the Jewel Slider control and its events in a Royale application.</p>
 <p>The post <a rel="nofollow" href="/using-the-jewel-slider-control/">Using the Jewel Slider Control</a> appeared first on <a rel="nofollow" href="/">Apache Royale™</a>.</p>
 ]]></description>
 		<wfw:commentRss>/using-the-jewel-slider-control/feed/</wfw:commentRss>
