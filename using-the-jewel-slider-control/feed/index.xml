@@ -6,11 +6,11 @@
 	
 	>
 <channel>
-	<title>Comments on: Creating a Hello World in Apache Royale</title>
-	<atom:link href="/creating-a-hello-world-in-apache-royale/feed/" rel="self" type="application/rss+xml" />
-	<link>/creating-a-hello-world-in-apache-royale/</link>
+	<title>Comments on: Using the Jewel Slider Control</title>
+	<atom:link href="/using-the-jewel-slider-control/feed/" rel="self" type="application/rss+xml" />
+	<link>/using-the-jewel-slider-control/</link>
 	<description>Code once. Run everywhere</description>
-	<lastBuildDate>Thu, 12 Apr 2018 21:09:34 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 12 Apr 2018 21:09:30 +0000</lastBuildDate>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=4.9.5</generator>

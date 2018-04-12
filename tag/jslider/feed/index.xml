@@ -8,8 +8,8 @@
 	>
 
 <channel>
-	<title>j:Application &#8211; Apache Royale™</title>
-	<atom:link href="/tag/japplication/feed/" rel="self" type="application/rss+xml" />
+	<title>j:Slider &#8211; Apache Royale™</title>
+	<atom:link href="/tag/jslider/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Code once. Run everywhere</description>
 	<lastBuildDate>Thu, 12 Apr 2018 21:08:26 +0000</lastBuildDate>
@@ -35,26 +35,6 @@
 <p>The post <a rel="nofollow" href="/using-the-jewel-slider-control/">Using the Jewel Slider Control</a> appeared first on <a rel="nofollow" href="/">Apache Royale™</a>.</p>
 ]]></description>
 		<wfw:commentRss>/using-the-jewel-slider-control/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-		</item>
-		<item>
-		<title>Using the Jewel Alert Control</title>
-		<link>/using-jewel-alert-control/</link>
-		<comments>/using-jewel-alert-control/#respond</comments>
-		<pubDate>Fri, 06 Apr 2018 09:20:53 +0000</pubDate>
-		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
-				<category><![CDATA[Jewel UI Set]]></category>
-		<category><![CDATA[Royale Examples]]></category>
-		<category><![CDATA[j:Alert]]></category>
-		<category><![CDATA[j:Application]]></category>
-		<category><![CDATA[j:Button]]></category>
-		<category><![CDATA[js:View]]></category>
-
-		<guid isPermaLink="false">/?p=15633</guid>
-		<description><![CDATA[<p>This basic example shows how to display an Alert dialog in a Royale application.</p>
-<p>The post <a rel="nofollow" href="/using-jewel-alert-control/">Using the Jewel Alert Control</a> appeared first on <a rel="nofollow" href="/">Apache Royale™</a>.</p>
-]]></description>
-		<wfw:commentRss>/using-jewel-alert-control/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 		</item>
 	</channel>
