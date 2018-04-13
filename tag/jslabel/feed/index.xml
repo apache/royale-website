@@ -9,8 +9,8 @@
 
 <channel>
 	<title>js:Label &#8211; Apache Royale™</title>
-	<atom:link href="/tag/jslabel/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://royale.apache.org/tag/jslabel/feed/" rel="self" type="application/rss+xml" />
+	<link>https://royale.apache.org/</link>
 	<description>Code once. Run everywhere</description>
 	<lastBuildDate>Fri, 13 Apr 2018 12:12:19 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -19,8 +19,8 @@
 	<generator>https://wordpress.org/?v=4.9.5</generator>
 	<item>
 		<title>Creating a Hello World in Apache Royale</title>
-		<link>/creating-a-hello-world-in-apache-royale/</link>
-		<comments>/creating-a-hello-world-in-apache-royale/#respond</comments>
+		<link>https://royale.apache.org/creating-a-hello-world-in-apache-royale/</link>
+		<comments>https://royale.apache.org/creating-a-hello-world-in-apache-royale/#respond</comments>
 		<pubDate>Mon, 12 Feb 2018 08:04:45 +0000</pubDate>
 		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
 				<category><![CDATA[Royale Examples]]></category>
@@ -28,11 +28,11 @@
 		<category><![CDATA[js:Label]]></category>
 		<category><![CDATA[js:View]]></category>
 
-		<guid isPermaLink="false">/?p=15027</guid>
+		<guid isPermaLink="false">https://royale.apache.org/?p=15027</guid>
 		<description><![CDATA[<p>This is the classical Hello World code snippet done in Apache Royale with just MXML</p>
-<p>The post <a rel="nofollow" href="/creating-a-hello-world-in-apache-royale/">Creating a Hello World in Apache Royale</a> appeared first on <a rel="nofollow" href="/">Apache Royale™</a>.</p>
+<p>The post <a rel="nofollow" href="https://royale.apache.org/creating-a-hello-world-in-apache-royale/">Creating a Hello World in Apache Royale</a> appeared first on <a rel="nofollow" href="https://royale.apache.org/">Apache Royale™</a>.</p>
 ]]></description>
-		<wfw:commentRss>/creating-a-hello-world-in-apache-royale/feed/</wfw:commentRss>
+		<wfw:commentRss>https://royale.apache.org/creating-a-hello-world-in-apache-royale/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 		</item>
 	</channel>

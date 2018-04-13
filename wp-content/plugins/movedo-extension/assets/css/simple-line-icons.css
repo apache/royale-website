@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'simple-line-icons';
-  src:  url('/wp-content/plugins/movedo-extension/assets/fonts/Simple-Line-Icons.eot?v=2.2.2');
-  src:  url('/wp-content/plugins/movedo-extension/assets/fonts/Simple-Line-Icons.eot#iefix&v=2.2.2') format('embedded-opentype'),
-        url('/wp-content/plugins/movedo-extension/assets/fonts/Simple-Line-Icons.ttf?v=2.2.2') format('truetype'),
-        url('/wp-content/plugins/movedo-extension/assets/fonts/Simple-Line-Icons.woff2?v=2.2.2') format('woff2'),
-        url('/wp-content/plugins/movedo-extension/assets/fonts/Simple-Line-Icons.woff?v=2.2.2') format('woff'),
-        url('/wp-content/plugins/movedo-extension/assets/fonts/Simple-Line-Icons.svg?v=2.2.2#simple-line-icons') format('svg');
+  src:  url('https://royale.apache.org/wp-content/plugins/movedo-extension/assets/fonts/Simple-Line-Icons.eot?v=2.2.2');
+  src:  url('https://royale.apache.org/wp-content/plugins/movedo-extension/assets/fonts/Simple-Line-Icons.eot#iefix&v=2.2.2') format('embedded-opentype'),
+        url('https://royale.apache.org/wp-content/plugins/movedo-extension/assets/fonts/Simple-Line-Icons.ttf?v=2.2.2') format('truetype'),
+        url('https://royale.apache.org/wp-content/plugins/movedo-extension/assets/fonts/Simple-Line-Icons.woff2?v=2.2.2') format('woff2'),
+        url('https://royale.apache.org/wp-content/plugins/movedo-extension/assets/fonts/Simple-Line-Icons.woff?v=2.2.2') format('woff'),
+        url('https://royale.apache.org/wp-content/plugins/movedo-extension/assets/fonts/Simple-Line-Icons.svg?v=2.2.2#simple-line-icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }

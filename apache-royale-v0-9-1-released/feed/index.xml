@@ -7,10 +7,10 @@
 	>
 <channel>
 	<title>Comments on: Apache Royale v0.9.1 released!</title>
-	<atom:link href="/apache-royale-v0-9-1-released/feed/" rel="self" type="application/rss+xml" />
-	<link>/apache-royale-v0-9-1-released/</link>
+	<atom:link href="https://royale.apache.org/apache-royale-v0-9-1-released/feed/" rel="self" type="application/rss+xml" />
+	<link>https://royale.apache.org/apache-royale-v0-9-1-released/</link>
 	<description>Code once. Run everywhere</description>
-	<lastBuildDate>Fri, 13 Apr 2018 12:47:58 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 13 Apr 2018 22:32:07 +0000</lastBuildDate>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=4.9.5</generator>

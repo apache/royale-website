@@ -1109,7 +1109,7 @@ h6:last-child,
 }
 
 #grve-theme-wrapper select  {
-	background-image: url(/wp-content/themes/movedo/images/graphics/select-icon.png);
+	background-image: url(https://royale.apache.org/wp-content/themes/movedo/images/graphics/select-icon.png);
 	background-position: center right;
 	background-repeat: no-repeat;
 	text-indent: 0;
@@ -6891,7 +6891,7 @@ div.wpcf7-mail-sent-ok {
 	top: 0px;
 	left: 0px;
 	z-index: 0;
-	background-image: url(/wp-content/themes/movedo/images/graphics/pattern.png);
+	background-image: url(https://royale.apache.org/wp-content/themes/movedo/images/graphics/pattern.png);
 	background-repeat: repeat;
 }
 
@@ -6997,7 +6997,7 @@ div.wpcf7-mail-sent-ok {
 }
 
 .grve-modal:hover {
-	cursor: url("/wp-content/themes/movedo/images/graphics/close-dark.png") 20 20, crosshair;
+	cursor: url("https://royale.apache.org/wp-content/themes/movedo/images/graphics/close-dark.png") 20 20, crosshair;
 	-webkit-transition : all .4s ease-in-out;
 	-moz-transition    : all .4s ease-in-out;
 	-ms-transition     : all .4s ease-in-out;
@@ -7006,7 +7006,7 @@ div.wpcf7-mail-sent-ok {
 }
 
 .grve-modal.grve-light-cursor:hover {
-	cursor: url("/wp-content/themes/movedo/images/graphics/close-light.png") 20 20, crosshair;
+	cursor: url("https://royale.apache.org/wp-content/themes/movedo/images/graphics/close-light.png") 20 20, crosshair;
 }
 
 
@@ -8401,11 +8401,11 @@ div.wpcf7-mail-sent-ok {
 ============================================================================= */
 @font-face {
 	font-family: 'movedo-icons';
-	src:url('/wp-content/themes/movedo/fonts/movedo-icons.eot?v=1.0.0');
-	src:url('/wp-content/themes/movedo/fonts/movedo-icons.eot#iefix&v=1.0.0') format('embedded-opentype'),
-		url('/wp-content/themes/movedo/fonts/movedo-icons.woff?v=1.0.0') format('woff'),
-		url('/wp-content/themes/movedo/fonts/movedo-icons.ttf?v=1.0.0') format('truetype'),
-		url('/wp-content/themes/movedo/fonts/movedo-icons.svg?v=1.0.0#movedo-icons') format('svg');
+	src:url('https://royale.apache.org/wp-content/themes/movedo/fonts/movedo-icons.eot?v=1.0.0');
+	src:url('https://royale.apache.org/wp-content/themes/movedo/fonts/movedo-icons.eot#iefix&v=1.0.0') format('embedded-opentype'),
+		url('https://royale.apache.org/wp-content/themes/movedo/fonts/movedo-icons.woff?v=1.0.0') format('woff'),
+		url('https://royale.apache.org/wp-content/themes/movedo/fonts/movedo-icons.ttf?v=1.0.0') format('truetype'),
+		url('https://royale.apache.org/wp-content/themes/movedo/fonts/movedo-icons.svg?v=1.0.0#movedo-icons') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }

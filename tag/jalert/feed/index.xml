@@ -9,8 +9,8 @@
 
 <channel>
 	<title>j:Alert &#8211; Apache Royale™</title>
-	<atom:link href="/tag/jalert/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://royale.apache.org/tag/jalert/feed/" rel="self" type="application/rss+xml" />
+	<link>https://royale.apache.org/</link>
 	<description>Code once. Run everywhere</description>
 	<lastBuildDate>Fri, 13 Apr 2018 12:12:19 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -19,8 +19,8 @@
 	<generator>https://wordpress.org/?v=4.9.5</generator>
 	<item>
 		<title>Using the Jewel Alert Control</title>
-		<link>/using-jewel-alert-control/</link>
-		<comments>/using-jewel-alert-control/#respond</comments>
+		<link>https://royale.apache.org/using-jewel-alert-control/</link>
+		<comments>https://royale.apache.org/using-jewel-alert-control/#respond</comments>
 		<pubDate>Fri, 06 Apr 2018 09:20:53 +0000</pubDate>
 		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
 				<category><![CDATA[Jewel UI Set]]></category>
@@ -30,11 +30,11 @@
 		<category><![CDATA[j:Button]]></category>
 		<category><![CDATA[js:View]]></category>
 
-		<guid isPermaLink="false">/?p=15633</guid>
+		<guid isPermaLink="false">https://royale.apache.org/?p=15633</guid>
 		<description><![CDATA[<p>This basic example shows how to display an Alert dialog in a Royale application.</p>
-<p>The post <a rel="nofollow" href="/using-jewel-alert-control/">Using the Jewel Alert Control</a> appeared first on <a rel="nofollow" href="/">Apache Royale™</a>.</p>
+<p>The post <a rel="nofollow" href="https://royale.apache.org/using-jewel-alert-control/">Using the Jewel Alert Control</a> appeared first on <a rel="nofollow" href="https://royale.apache.org/">Apache Royale™</a>.</p>
 ]]></description>
-		<wfw:commentRss>/using-jewel-alert-control/feed/</wfw:commentRss>
+		<wfw:commentRss>https://royale.apache.org/using-jewel-alert-control/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 		</item>
 	</channel>
