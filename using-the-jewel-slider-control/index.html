@@ -17,7 +17,7 @@
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="article" />
 <meta property="og:title" content="Using the Jewel Slider Control - Apache Royale™" />
-<meta property="og:description" content="This example shows how to use the Jewel Slider control and its events in a Royale application." />
+<meta property="og:description" content="See the basic use of the Jewel Slider control in a Royale application." />
 <meta property="og:url" content="/using-the-jewel-slider-control/" />
 <meta property="og:site_name" content="Apache Royale™" />
 <meta property="article:publisher" content="https://www.facebook.com/Apache-Royale-249305752259661/" />
@@ -27,14 +27,14 @@
 <meta property="article:tag" content="js:View" />
 <meta property="article:section" content="Jewel UI Set" />
 <meta property="article:published_time" content="2018-04-12T22:38:04+02:00" />
-<meta property="article:modified_time" content="2018-04-12T23:20:33+02:00" />
-<meta property="og:updated_time" content="2018-04-12T23:20:33+02:00" />
+<meta property="article:modified_time" content="2018-04-13T11:15:36+02:00" />
+<meta property="og:updated_time" content="2018-04-13T11:15:36+02:00" />
 <meta property="og:image" content="/wp-content/uploads/2016/06/redsand3.png" />
 <meta property="og:image:secure_url" content="/wp-content/uploads/2016/06/redsand3.png" />
 <meta property="og:image:width" content="1920" />
 <meta property="og:image:height" content="1080" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:description" content="This example shows how to use the Jewel Slider control and its events in a Royale application." />
+<meta name="twitter:description" content="See the basic use of the Jewel Slider control in a Royale application." />
 <meta name="twitter:title" content="Using the Jewel Slider Control - Apache Royale™" />
 <meta name="twitter:site" content="@ApacheRoyale" />
 <meta name="twitter:image" content="/wp-content/uploads/2016/06/redsand3.png" />
@@ -368,34 +368,34 @@ Click the help icon above to learn more.
 				</span>
 			</span>
 						<time class="grve-structured-data date published" itemprop="datePublished" datetime="2018-04-12T22:38:04+00:00">April 12, 2018</time>
-			<time class="grve-structured-data date updated" itemprop="dateModified"  datetime="2018-04-12T23:20:33+00:00">April 12, 2018</time>
+			<time class="grve-structured-data date updated" itemprop="dateModified"  datetime="2018-04-13T11:15:36+00:00">April 13, 2018</time>
 			<span class="grve-structured-data" itemprop="mainEntityOfPage" itemscope itemtype="http://schema.org/WebPage" itemid="/using-the-jewel-slider-control/"></span>
 		</span>
 				<div itemprop="articleBody">
-				<div class="grve-container"><p>In this example we&#8217;ll see the basic usage of the Jewel Slider control in a Royale application. It uses the new Jewel UI set that supports themes that will be available in the forthcoming 0.9.3 release. In the meanwhile you can find it in the develop branch.</p>
+				<div class="grve-container"><p>In this example we&#8217;ll see the basic use of the Jewel Slider control in a Royale application. It uses the new Jewel UI set that supports themes. Jewel will be available in the forthcoming 0.9.3 release. In the meanwhile you can find it in the develop branch.</p>
 <div class="codecolorer-container mxml solarized-dark royale-style codecolorer-noborder" style="overflow:auto;white-space:nowrap;width:100%;height:300px;"><table cellspacing="0" cellpadding="0"><tbody><tr><td class="line-numbers"><div>1<br />2<br />3<br />4<br />5<br />6<br />7<br />8<br />9<br />10<br />11<br />12<br />13<br />14<br />15<br />16<br />17<br />18<br />19<br />20<br />21<br />22<br />23<br />24<br />25<br />26<br />27<br />28<br />29<br />30<br />31<br />32<br />33<br />34<br />35<br />36<br />37<br />38<br />39<br />40<br />41<br />42<br />43<br /></div></td><td><div class="mxml codecolorer"><span class="sc3">&lt;?xml version=<span class="st0">&quot;1.0&quot;</span> encoding=<span class="st0">&quot;UTF-8&quot;</span>?<span class="re2">&gt;</span></span><br />
 <span class="sc3"><span class="re1">&lt;j:Application</span> xmlns:fx=<span class="st0">&quot;http://ns.adobe.com/mxml/2009&quot;</span></span><br />
-<span class="sc3"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; xmlns:j=<span class="st0">&quot;library://ns.apache.org/royale/jewel&quot;</span></span><br />
-<span class="sc3"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; xmlns:js=<span class="st0">&quot;library://ns.apache.org/royale/basic&quot;</span><span class="re2">&gt;</span></span><br />
+<span class="sc3"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;xmlns:j=<span class="st0">&quot;library://ns.apache.org/royale/jewel&quot;</span></span><br />
+<span class="sc3"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;xmlns:js=<span class="st0">&quot;library://ns.apache.org/royale/basic&quot;</span><span class="re2">&gt;</span></span><br />
 &nbsp; &nbsp; <br />
 &nbsp; &nbsp; <span class="sc3"><span class="re1">&lt;fx:Style</span> source=<span class="st0">&quot;../../main/resources/styles.css&quot;</span><span class="re2">/&gt;</span></span><br />
 <br />
 &nbsp; &nbsp; <span class="sc3"><span class="re1">&lt;fx:Script</span><span class="re2">&gt;</span></span><br />
 &nbsp; &nbsp; &nbsp; &nbsp; <span class="sc3">&lt;!<span class="br0">&#91;</span>CDATA<span class="br0">&#91;</span></span><br />
-<span class="sc3">&nbsp; &nbsp; &nbsp; &nbsp; </span><br />
-<span class="sc3">&nbsp; &nbsp; &nbsp; &nbsp; private function clickHandler<span class="br0">&#40;</span>event:MouseEvent<span class="br0">&#41;</span>:void</span><br />
-<span class="sc3">&nbsp; &nbsp; &nbsp; &nbsp; <span class="br0">&#123;</span></span><br />
-<span class="sc3">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; slider_w.value = <span class="nu0">400</span>;</span><br />
-<span class="sc3">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; slider_h.value = <span class="nu0">200</span>;</span><br />
-<span class="sc3">&nbsp; &nbsp; &nbsp; &nbsp; <span class="br0">&#125;</span></span><br />
-<br />
-<span class="sc3">&nbsp; &nbsp; &nbsp; &nbsp; private function onValueChange<span class="br0">&#40;</span>event:Event<span class="br0">&#41;</span>:void</span><br />
+<span class="sc3"> &nbsp; &nbsp; &nbsp; &nbsp;</span><br />
+<span class="sc3"> &nbsp; &nbsp; &nbsp; &nbsp;private function clickHandler<span class="br0">&#40;</span>event:MouseEvent<span class="br0">&#41;</span>:void</span><br />
 <span class="sc3"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="br0">&#123;</span></span><br />
-<span class="sc3">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; button.width = slider_w.value;</span><br />
-<span class="sc3">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; button.height = slider_h.value;</span><br />
-<span class="sc3">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; button.text = slider_w.value + <span class="st0">&quot;x&quot;</span> + slider_h.value;</span><br />
-<span class="sc3">&nbsp; &nbsp; &nbsp; &nbsp; <span class="br0">&#125;</span></span><br />
-<span class="sc3">&nbsp; &nbsp; &nbsp; &nbsp; <span class="br0">&#93;</span><span class="br0">&#93;</span><span class="re2">&gt;</span></span><br />
+<span class="sc3"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;slider_w.value = <span class="nu0">400</span>;</span><br />
+<span class="sc3"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;slider_h.value = <span class="nu0">200</span>;</span><br />
+<span class="sc3"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="br0">&#125;</span></span><br />
+<br />
+<span class="sc3"> &nbsp; &nbsp; &nbsp; &nbsp;private function onValueChange<span class="br0">&#40;</span>event:Event<span class="br0">&#41;</span>:void</span><br />
+<span class="sc3"> &nbsp; &nbsp; &nbsp; <span class="br0">&#123;</span></span><br />
+<span class="sc3"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;button.width = slider_w.value;</span><br />
+<span class="sc3"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;button.height = slider_h.value;</span><br />
+<span class="sc3"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;button.text = slider_w.value + <span class="st0">&quot;x&quot;</span> + slider_h.value;</span><br />
+<span class="sc3"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="br0">&#125;</span></span><br />
+<span class="sc3"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="br0">&#93;</span><span class="br0">&#93;</span><span class="re2">&gt;</span></span><br />
 &nbsp; &nbsp; <span class="sc3"><span class="re1">&lt;/fx:Script</span><span class="re2">&gt;</span></span><br />
 <br />
 &nbsp; &nbsp; <span class="sc3"><span class="re1">&lt;js:initialView</span><span class="re2">&gt;</span></span><br />
@@ -405,20 +405,20 @@ Click the help icon above to learn more.
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="sc3"><span class="re1">&lt;/js:beads</span><span class="re2">&gt;</span></span><br />
 <br />
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="sc3"><span class="re1">&lt;j:Slider</span> id=<span class="st0">&quot;slider_w&quot;</span> width=<span class="st0">&quot;250&quot;</span> value=<span class="st0">&quot;250&quot;</span> minimum=<span class="st0">&quot;100&quot;</span> maximum=<span class="st0">&quot;500&quot;</span></span><br />
-<span class="sc3"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;valueChange=<span class="st0">&quot;onValueChange(event)&quot;</span><span class="re2">/&gt;</span></span><br />
+<span class="sc3"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; valueChange=<span class="st0">&quot;onValueChange(event)&quot;</span><span class="re2">/&gt;</span></span><br />
 <br />
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="sc3"><span class="re1">&lt;j:Slider</span> id=<span class="st0">&quot;slider_h&quot;</span> width=<span class="st0">&quot;250&quot;</span> value=<span class="st0">&quot;80&quot;</span> minimum=<span class="st0">&quot;40&quot;</span> maximum=<span class="st0">&quot;300&quot;</span></span><br />
-<span class="sc3"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;valueChange=<span class="st0">&quot;onValueChange(event)&quot;</span><span class="re2">/&gt;</span></span><br />
+<span class="sc3"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; valueChange=<span class="st0">&quot;onValueChange(event)&quot;</span><span class="re2">/&gt;</span></span><br />
 <br />
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="sc3"><span class="re1">&lt;j:TextButton</span> id=<span class="st0">&quot;button&quot;</span> text=<span class="st0">&quot;Slider to 400x200&quot;</span> width=<span class="st0">&quot;250&quot;</span> height=<span class="st0">&quot;80&quot;</span> primary=<span class="st0">&quot;true&quot;</span></span><br />
-<span class="sc3"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;click=<span class="st0">&quot;clickHandler(event)&quot;</span><span class="re2">/&gt;</span></span><br />
+<span class="sc3"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; click=<span class="st0">&quot;clickHandler(event)&quot;</span><span class="re2">/&gt;</span></span><br />
 &nbsp; &nbsp; &nbsp; &nbsp; <span class="sc3"><span class="re1">&lt;/js:View</span><span class="re2">&gt;</span></span><br />
 &nbsp; &nbsp; <span class="sc3"><span class="re1">&lt;/js:initialView</span><span class="re2">&gt;</span></span><br />
 &nbsp; &nbsp; <br />
 <span class="sc3"><span class="re1">&lt;/j:Application</span><span class="re2">&gt;</span></span></div></td></tr></tbody></table></div>
-<p>In this example, you can push Jewel button to set up sliders values. By doing this <strong>ValueChangeEvent.VALUE_CHANGE</strong> will be fired calling &#8220;<em>onValueChange</em>&#8221; event handler and setting <em>width</em>, <em>height</em> and <em>text</em> in the <strong>Button</strong>.</p>
-<p>On the other hand, you can drag each <strong>Slider</strong> to change <em>width</em> and <em>height</em> in the <strong>Button</strong>, and since <em>value</em> in changing the &#8220;<em>onValueChange</em>&#8221; call back will be called continuously as you drag the thumbs.</p>
-<p>You can click in the track at any place for the same effect. And if you need, you have available &#8220;<em>input</em>&#8221; and &#8220;<em>change</em>&#8221; events in Slider. The first fires each time user moves the slider thumb from one position to another, the second fires when Slider ends its change from one position to another.</p>
+<p>In this example, you can click the Jewel button to set up slider values. When you do this the <strong>ValueChangeEvent.VALUE_CHANGE</strong> will fire, calling the <strong>onValueChange</strong> event handler and setting <em>width</em>, <em>height</em> and <em>text</em> in the <strong>Button</strong>.</p>
+<p>On the other hand, you can drag each <strong>slider</strong> to change <em>width</em> and <em>height</em> in the Button, and function to update <em>value</em> in &#8220;<em>onValueChange</em>&#8221; will be called continuously as you drag the slider controls.</p>
+<p>You can click in the track at any place to change the value immediately to the value at that point in the track. And if you need them, you have available &#8220;<em>input</em>&#8221; and &#8220;<em>change</em>&#8221; events in Slider. The first fires each time you move the slider thumb from one position to another, and the second fires when Slider ends its change from one position to another.</p>
 <p>The result of this code snippet is the following:</p>
 <style type="text/css">
        .errordiv { padding:10px; margin:10px; border: 1px solid #555555;color: #000000;background-color: #f8f8f8; width:500px; }#advanced_iframe {visibility:visible;opacity:1;}#ai-layer-div-advanced_iframe p {height:100%;margin:0;padding:0}</style><script type="text/javascript">  var ai_iframe_width_advanced_iframe = 0;  var ai_iframe_height_advanced_iframe = 0;var aiIsIe8=false;
@@ -548,7 +548,7 @@ function resizeCallbackadvanced_iframe() {}function aiChangeUrl(loc) {}</script>
 
 
 
-	<div id="grve-post-related-15633-5acfcdc92b5f7" class="grve-related-item grve-image-hover">
+	<div id="grve-post-related-15633-5ad0757315d81" class="grve-related-item grve-image-hover">
 
 		<a href="/using-jewel-alert-control/" target="_self">
 			<div class="grve-related-content">
@@ -564,7 +564,7 @@ function resizeCallbackadvanced_iframe() {}function aiChangeUrl(loc) {}</script>
 
 
 
-	<div id="grve-post-related-15027-5acfcdc92b9e3" class="grve-related-item grve-image-hover">
+	<div id="grve-post-related-15027-5ad0757316165" class="grve-related-item grve-image-hover">
 
 		<a href="/creating-a-hello-world-in-apache-royale/" target="_self">
 			<div class="grve-related-content">
@@ -796,7 +796,7 @@ function resizeCallbackadvanced_iframe() {}function aiChangeUrl(loc) {}</script>
 							<button class="btn grve-fullwidth-btn" data-loading-text="Loading..." type="submit">Login</button>
 							<a class="grve-reset-password-form-btn grve-link-text grve-text-hover-primary-1" href="#">Lost Password?</a>
 						</div>
-												<input type="hidden" id="_movedo_grve_nonce_login" name="_movedo_grve_nonce_login" value="cf6fbf1f1a" /><input type="hidden" name="_wp_http_referer" value="/using-the-jewel-slider-control/" />					</form>
+												<input type="hidden" id="_movedo_grve_nonce_login" name="_movedo_grve_nonce_login" value="c67be9dbba" /><input type="hidden" name="_wp_http_referer" value="/using-the-jewel-slider-control/" />					</form>
 					<div class="grve-form-errors grve-align-center grve-text-primary-1 grve-link-text"></div>
 				</div>
 
@@ -818,7 +818,7 @@ function resizeCallbackadvanced_iframe() {}function aiChangeUrl(loc) {}</script>
 							<span class="grve-login-link grve-link-text">Already have an account?								<a class="grve-text-hover-primary-1 grve-login-form-btn" href="#">Login</a>
 							</span>
 						</div>
-						<input type="hidden" id="_movedo_grve_nonce_password" name="_movedo_grve_nonce_password" value="cf6fbf1f1a" /><input type="hidden" name="_wp_http_referer" value="/using-the-jewel-slider-control/" />					</form>
+						<input type="hidden" id="_movedo_grve_nonce_password" name="_movedo_grve_nonce_password" value="c67be9dbba" /><input type="hidden" name="_wp_http_referer" value="/using-the-jewel-slider-control/" />					</form>
 					<div class="grve-form-errors grve-align-center grve-text-primary-1 grve-link-text"></div>
 				</div>
 	</div>
