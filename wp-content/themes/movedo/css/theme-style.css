@@ -2116,10 +2116,15 @@ h6:last-child,
 /* =============================================================================
 --- Split Main Menu
 ============================================================================= */
+#grve-header.grve-header-split-menu #grve-main-header > .grve-wrapper,
+#grve-header.grve-header-split-menu #grve-main-header > .grve-wrapper > .grve-container {
+	height: inherit;
+}
 
 #grve-header .grve-split-menu .grve-menu,
 #grve-header .grve-split-menu .grve-logo {
 	display: inline-block;
+	vertical-align: top;
 }
 
 #grve-header .grve-split-menu .grve-logo-text {

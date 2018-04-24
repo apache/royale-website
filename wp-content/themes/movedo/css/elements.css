@@ -133,7 +133,7 @@
 	margin-left: auto;
 }
 
-.grve-title.grve-title-gradient span {
+.grve-title.grve-title-gradient > span {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-clip: text;
@@ -142,7 +142,7 @@
 }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-	.grve-title-gradient span {
+	.grve-title-gradient > span {
 		background: transparent !important;
 	}
 }
@@ -725,7 +725,7 @@ a.grve-btn:hover i {
 }
 
 
-.grve-slogan-title.grve-title-gradient span {
+.grve-slogan-title.grve-title-gradient > span {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-clip: text;

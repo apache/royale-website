@@ -95,7 +95,7 @@ if( 1 == movedo_grve_main_data.device_animations ) {
 			GRVE.sectionSettings.init();
 			GRVE.isotope.init();
 		}
-	}
+	};
 
 
 	// # Document on Resize
@@ -247,7 +247,7 @@ if( 1 == movedo_grve_main_data.device_animations ) {
 					},{accX: 0, accY: 0});
 			});
 		}
-	}
+	};
 
 	// # Safe Button Area
 	// ============================================================================= //
@@ -554,7 +554,7 @@ if( 1 == movedo_grve_main_data.device_animations ) {
 				$('#grve-top-bar').removeClass('grve-fixed').css({ 'height' : '' });
 			}
 			function addFixedHeader(){
-				$header.addClass('grve-fixed').css({ 'top' : topbarH });
+				$header.addClass('grve-fixed');
 				$headerSticky.css({ 'top' : topPosition + frameSize + wpBarHeight });
 			}
 			function addSticky(){
@@ -836,7 +836,7 @@ if( 1 == movedo_grve_main_data.device_animations ) {
 				'-ms-transform'     : 'translate3d(0px, ' + value + 'px, 0px) translateZ(0)',
 				'-o-transform'      : 'translate3d(0px, ' + value + 'px, 0px) translateZ(0)',
 				'transform'         : 'translate3d(0px, ' + value + 'px, 0px) translateZ(0)'
-			}
+			};
 		},
 		movedoAnchor : function(sticky){
 			var $anchor = $('.grve-anchor-menu'),
@@ -1087,7 +1087,7 @@ if( 1 == movedo_grve_main_data.device_animations ) {
 				}
 			});
 		}
-	}
+	};
 
 	// # Sticky Sidebar
 	// ============================================================================= //
@@ -1176,7 +1176,7 @@ if( 1 == movedo_grve_main_data.device_animations ) {
 			}
 
 		}
-	}
+	};
 
 	// # Set Feature Section Size
 	// ============================================================================= //
@@ -1281,7 +1281,7 @@ if( 1 == movedo_grve_main_data.device_animations ) {
 								showFeature();
 							}
 						}
-					}
+					};
 				$bgImage.each(function () {
 					function imageUrl(input) {
 						return input.replace(/"/g,"").replace(/url\(|\)$/ig, "");
@@ -1403,11 +1403,11 @@ if( 1 == movedo_grve_main_data.device_animations ) {
 				// Go to the next item
 				$nextNav.click(function() {
 					$slider.trigger('next.owl.carousel');
-				})
+				});
 				// Go to the previous item
 				$prevNav.click(function() {
 					$slider.trigger('prev.owl.carousel');
-				})
+				});
 			}
 
 			// Feature Animation
@@ -1436,7 +1436,7 @@ if( 1 == movedo_grve_main_data.device_animations ) {
 					contentItems = {
 						wrapper : $wrapper,
 						gotoArrow   : $section.find(' #grve-goto-section-wrapper ')
-					}
+					};
 				}
 
 				// Add Animation Class
@@ -1697,7 +1697,7 @@ if( 1 == movedo_grve_main_data.device_animations ) {
 					'-ms-transform'     : 'translate3d(0px, ' + value + 'px, 0px) translateZ(0)',
 					'-o-transform'      : 'translate3d(0px, ' + value + 'px, 0px) translateZ(0)',
 					'transform'         : 'translate3d(0px, ' + value + 'px, 0px) translateZ(0)'
-				}
+				};
 			}
 		}
 	};
@@ -2389,7 +2389,7 @@ if( 1 == movedo_grve_main_data.device_animations ) {
 								$searchTextField.hide();
 							}
 						}
-					})
+					});
 				},600);
 			}
 
@@ -2708,6 +2708,7 @@ if( 1 == movedo_grve_main_data.device_animations ) {
 		onePageSettings: function(){
 			$('a[href*="#"]:not( [href="#"] )').click(function(e) {
 				var anchorBarHeight = $('.grve-anchor-menu').length ? $('.grve-anchor-menu').outerHeight() : 0,
+					topbarH         = $('#grve-top-bar').length && ( $('#grve-top-bar').hasClass('grve-sticky-topbar') || $('#grve-top-bar').hasClass('grve-device-sticky-topbar') ) ? $('#grve-top-bar').outerHeight() : 0,
 					target          = $(this.hash),
 					targetHash      = this.hash;
 
@@ -2722,7 +2723,7 @@ if( 1 == movedo_grve_main_data.device_animations ) {
 
 				if ( target.length && ( target.hasClass('grve-section') || target.hasClass('grve-bookmark') ) ) {
 					$('html,body').animate({
-						scrollTop: target.offset().top - headerHeight - wpBarHeight - anchorBarHeight + 1
+						scrollTop: target.offset().top - headerHeight - wpBarHeight - anchorBarHeight - topbarH + 1
 					}, 1000);
 					return false;
 				}
@@ -3185,12 +3186,12 @@ if( 1 == movedo_grve_main_data.device_animations ) {
 			$social.unbind('mouseenter').bind('mouseenter', function() {
 				var $this = $(this),
 					newSize = $this.find('span').outerWidth();
-				$this.css('width', newSize + initSize)
+				$this.css('width', newSize + initSize);
 			});
 
 			$social.unbind('mouseleave').bind('mouseleave', function() {
 				var $this = $(this);
-				$this.css('width', initSize)
+				$this.css('width', initSize);
 			});
 		},
 		fullHeightSeparator : function(){
@@ -3463,11 +3464,11 @@ if( 1 == movedo_grve_main_data.device_animations ) {
 				// Go to the next item
 				$nextNav.click(function() {
 					$slider.trigger('next.owl.carousel');
-				})
+				});
 				// Go to the previous item
 				$prevNav.click(function() {
 					$slider.trigger('prev.owl.carousel');
-				})
+				});
 
 			});
 
@@ -3649,11 +3650,11 @@ if( 1 == movedo_grve_main_data.device_animations ) {
 				// Go to the next item
 				$nextNav.click(function() {
 					$carousel.trigger('next.owl.carousel');
-				})
+				});
 				// Go to the previous item
 				$prevNav.click(function() {
 					$carousel.trigger('prev.owl.carousel');
-				})
+				});
 
 			});
 		},
@@ -3728,11 +3729,11 @@ if( 1 == movedo_grve_main_data.device_animations ) {
 				// Go to the next item
 				$nextNav.click(function() {
 					$carousel.trigger('next.owl.carousel');
-				})
+				});
 				// Go to the previous item
 				$prevNav.click(function() {
 					$carousel.trigger('prev.owl.carousel');
-				})
+				});
 
 			});
 		},
@@ -4149,7 +4150,7 @@ if( 1 == movedo_grve_main_data.device_animations ) {
 						default:
 							text = '';
 					}
-					countdownItems += '<div class="grve-countdown-item">'
+					countdownItems += '<div class="grve-countdown-item">';
 					countdownItems += '<div class="grve-number grve-' + numbersSize + ' grve-text-' + numbersColor + '">%' + value + '</div>';
 					countdownItems += '<span class="grve-' + textSize + ' grve-text-' + textColor + '">' + text + '</span>';
 					countdownItems += '</div>';
@@ -4188,7 +4189,7 @@ if( 1 == movedo_grve_main_data.device_animations ) {
 				});
 			}
 		}
-	}
+	};
 
 	// # Parallax Section
 	// ============================================================================= //
@@ -4196,7 +4197,9 @@ if( 1 == movedo_grve_main_data.device_animations ) {
 		init : function( section ){
 			var $section = $(section);
 			imagesLoaded( $(section), function() {
-				$(section).bgParallax();
+				$(section).bgParallax({
+					elClass : '.grve-html5-bg-video, .grve-bg-image'
+				});
 			});
 		}
 	};
@@ -4302,7 +4305,7 @@ if( 1 == movedo_grve_main_data.device_animations ) {
 
 			updateParams( initIsotope );
 
-			if( !isMobile.any() ) {
+			if( !isMobile.any() || isMobile.Android() ) {
 				$(window).smartresize(updateParams);
 			} else {
 				$(window).on("orientationchange",updateParams);
@@ -4573,10 +4576,10 @@ if( 1 == movedo_grve_main_data.device_animations ) {
 			var scroll = $(window).scrollTop();
 			if (scroll > lastScrollTop){
 				lastScrollTop = scroll;
-				return { direction : 'scrollDown'  }
+				return { direction : 'scrollDown'  };
 			} else {
 				lastScrollTop = scroll;
-				return { direction : 'scrollUp'  }
+				return { direction : 'scrollUp'  };
 			}
 
 			lastScrollTop = scroll;
@@ -4878,7 +4881,7 @@ if( 1 == movedo_grve_main_data.device_animations ) {
 		child           = parent.children();
 		scrollBarWidth  = child.innerWidth()-child.height(99).innerWidth();
 		parent.remove();
-	};
+	}
 
 
 
