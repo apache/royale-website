@@ -6,11 +6,11 @@
 	
 	>
 <channel>
-	<title>Comments on: </title>
+	<title>Comments on: Adding an item to a Jewel List</title>
 	<atom:link href="https://royale.apache.org/adding-an-item-to-a-jewel-list/feed/" rel="self" type="application/rss+xml" />
-	<link></link>
+	<link>https://royale.apache.org/adding-an-item-to-a-jewel-list/</link>
 	<description>Code once. Run everywhere</description>
-	<lastBuildDate>Tue, 24 Apr 2018 23:58:41 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 25 Apr 2018 00:04:34 +0000</lastBuildDate>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=4.9.5</generator>
