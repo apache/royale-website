@@ -12,13 +12,13 @@
 	<atom:link href="https://royale.apache.org/feed/" rel="self" type="application/rss+xml" />
 	<link>https://royale.apache.org/</link>
 	<description>Code once. Run everywhere</description>
-	<lastBuildDate>Wed, 02 May 2018 15:06:39 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 02 May 2018 17:47:40 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=4.9.5</generator>
 	<item>
-		<title>Creating a group of Jewel RadioButtons</title>
+		<title>Creating a group of Jewel radio buttons</title>
 		<link>https://royale.apache.org/creating-a-group-of-jewel-radiobuttons/</link>
 		<comments>https://royale.apache.org/creating-a-group-of-jewel-radiobuttons/#respond</comments>
 		<pubDate>Wed, 02 May 2018 14:48:37 +0000</pubDate>
@@ -32,7 +32,7 @@
 
 		<guid isPermaLink="false">https://royale.apache.org/?p=15697</guid>
 		<description><![CDATA[<p>Learn how to configure a group of Jewel RadioButton controls in a Royale application.</p>
-<p>The post <a rel="nofollow" href="https://royale.apache.org/creating-a-group-of-jewel-radiobuttons/">Creating a group of Jewel RadioButtons</a> appeared first on <a rel="nofollow" href="https://royale.apache.org/">Apache Royale™</a>.</p>
+<p>The post <a rel="nofollow" href="https://royale.apache.org/creating-a-group-of-jewel-radiobuttons/">Creating a group of Jewel radio buttons</a> appeared first on <a rel="nofollow" href="https://royale.apache.org/">Apache Royale™</a>.</p>
 ]]></description>
 		<wfw:commentRss>https://royale.apache.org/creating-a-group-of-jewel-radiobuttons/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
