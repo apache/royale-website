@@ -8,8 +8,8 @@
 	>
 
 <channel>
-	<title>js:Application &#8211; Apache Royale™</title>
-	<atom:link href="https://royale.apache.org/tag/jsapplication/feed/" rel="self" type="application/rss+xml" />
+	<title>Basic UI Set &#8211; Apache Royale™</title>
+	<atom:link href="https://royale.apache.org/category/basic-ui-set/feed/" rel="self" type="application/rss+xml" />
 	<link>https://royale.apache.org/</link>
 	<description>Code once. Run everywhere</description>
 	<lastBuildDate>Sun, 06 May 2018 16:40:27 +0000</lastBuildDate>

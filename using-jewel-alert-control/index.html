@@ -12,7 +12,7 @@
 		<link rel="pingback" href="https://royale.apache.org/xmlrpc.php">
 				<title>Using the Jewel Alert Control - Apache Royale™</title>
 
-<!-- This site is optimized with the Yoast SEO plugin v7.4.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<!-- This site is optimized with the Yoast SEO plugin v7.4.2 - https://yoast.com/wordpress/plugins/seo/ -->
 <link rel="canonical" href="https://royale.apache.org/using-jewel-alert-control/" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="article" />
@@ -27,8 +27,8 @@
 <meta property="article:tag" content="js:View" />
 <meta property="article:section" content="Jewel UI Set" />
 <meta property="article:published_time" content="2018-04-06T11:20:53+02:00" />
-<meta property="article:modified_time" content="2018-04-25T01:54:02+02:00" />
-<meta property="og:updated_time" content="2018-04-25T01:54:02+02:00" />
+<meta property="article:modified_time" content="2018-05-06T18:38:43+02:00" />
+<meta property="og:updated_time" content="2018-05-06T18:38:43+02:00" />
 <meta property="og:image" content="https://royale.apache.org/wp-content/uploads/2018/04/using-the-jewel-alert-control.png" />
 <meta property="og:image:secure_url" content="https://royale.apache.org/wp-content/uploads/2018/04/using-the-jewel-alert-control.png" />
 <meta property="og:image:width" content="736" />
@@ -370,44 +370,39 @@ Click the help icon above to learn more.
 				</span>
 			</span>
 						<time class="grve-structured-data date published" itemprop="datePublished" datetime="2018-04-06T11:20:53+00:00">April 6, 2018</time>
-			<time class="grve-structured-data date updated" itemprop="dateModified"  datetime="2018-04-25T01:54:02+00:00">April 25, 2018</time>
+			<time class="grve-structured-data date updated" itemprop="dateModified"  datetime="2018-05-06T18:38:43+00:00">May 6, 2018</time>
 			<span class="grve-structured-data" itemprop="mainEntityOfPage" itemscope itemtype="http://schema.org/WebPage" itemid="https://royale.apache.org/using-jewel-alert-control/"></span>
 		</span>
 				<div itemprop="articleBody">
 				<div class="grve-container"><p>The following code shows the basic method for displaying an Alert dialog in a Royale application. It uses the new Jewel UI set that supports themes that will be available in the forthcoming 0.9.3 release. In the meanwhile you can find it in the develop branch.</p>
-<div class="codecolorer-container mxml solarized-dark royale-style codecolorer-noborder" style="overflow:auto;white-space:nowrap;width:100%;height:300px;"><table cellspacing="0" cellpadding="0"><tbody><tr><td class="line-numbers"><div>1<br />2<br />3<br />4<br />5<br />6<br />7<br />8<br />9<br />10<br />11<br />12<br />13<br />14<br />15<br />16<br />17<br />18<br />19<br />20<br />21<br />22<br />23<br />24<br />25<br />26<br />27<br />28<br />29<br />30<br />31<br />32<br />33<br />34<br />35<br /></div></td><td><div class="mxml codecolorer"><span class="sc3">&lt;?xml version=<span class="st0">&quot;1.0&quot;</span> encoding=<span class="st0">&quot;utf-8&quot;</span>?<span class="re2">&gt;</span></span><br />
+<div class="codecolorer-container mxml solarized-dark royale-style codecolorer-noborder" style="overflow:auto;white-space:nowrap;width:100%;height:300px;"><table cellspacing="0" cellpadding="0"><tbody><tr><td class="line-numbers"><div>1<br />2<br />3<br />4<br />5<br />6<br />7<br />8<br />9<br />10<br />11<br />12<br />13<br />14<br />15<br />16<br />17<br />18<br />19<br />20<br />21<br />22<br />23<br />24<br />25<br />26<br />27<br />28<br />29<br />30<br /></div></td><td><div class="mxml codecolorer"><span class="sc3">&lt;?xml version=<span class="st0">&quot;1.0&quot;</span> encoding=<span class="st0">&quot;UTF-8&quot;</span>?<span class="re2">&gt;</span></span><br />
 <span class="sc3"><span class="re1">&lt;j:Application</span> xmlns:fx=<span class="st0">&quot;http://ns.adobe.com/mxml/2009&quot;</span></span><br />
-<span class="sc3">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;xmlns:j=<span class="st0">&quot;library://ns.apache.org/royale/jewel&quot;</span></span><br />
-<span class="sc3">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;xmlns:js=<span class="st0">&quot;library://ns.apache.org/royale/basic&quot;</span><span class="re2">&gt;</span></span><br />
+<span class="sc3"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; xmlns:j=<span class="st0">&quot;library://ns.apache.org/royale/jewel&quot;</span><span class="re2">&gt;</span></span><br />
 &nbsp; &nbsp; <br />
 &nbsp; &nbsp; <span class="sc3"><span class="re1">&lt;fx:Script</span><span class="re2">&gt;</span></span><br />
 &nbsp; &nbsp; &nbsp; &nbsp; <span class="sc3">&lt;!<span class="br0">&#91;</span>CDATA<span class="br0">&#91;</span></span><br />
-<span class="sc3">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; import org.apache.royale.jewel.Alert;</span><br />
-<span class="sc3">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; import org.apache.royale.events.CloseEvent;</span><br />
-<span class="sc3">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; import org.apache.royale.events.MouseEvent;</span><br />
+<span class="sc3"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;import org.apache.royale.jewel.Alert;</span><br />
+<span class="sc3"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;import org.apache.royale.events.CloseEvent;</span><br />
 <br />
-<span class="sc3"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// Event handler function uses a static method to show</span><br />
-<span class="sc3"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// a pop-up window with the title, message, and requested buttons. &nbsp; &nbsp; &nbsp; &nbsp;</span><br />
-<span class="sc3"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;private function clickHandler<span class="br0">&#40;</span>event:MouseEvent<span class="br0">&#41;</span>:void <span class="br0">&#123;</span></span><br />
-<span class="sc3"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;var alert:Alert = Alert.show<span class="br0">&#40;</span><span class="st0">&quot;Do you want to save your changes?&quot;</span>, <span class="st0">&quot;Save Changes&quot;</span>, Alert.YES | Alert.NO<span class="br0">&#41;</span>;</span><br />
-<span class="sc3">&nbsp; &nbsp; &nbsp; &nbsp; alert.addEventListener<span class="br0">&#40;</span>CloseEvent.CLOSE, alertClickHandler<span class="br0">&#41;</span>;</span><br />
-<span class="sc3"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="br0">&#125;</span></span><br />
-<span class="sc3"> &nbsp; &nbsp; &nbsp; &nbsp;</span><br />
-<span class="sc3"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// Event handler function for displaying the selected Alert button.</span><br />
-<span class="sc3"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;private function alertClickHandler<span class="br0">&#40;</span>event:CloseEvent<span class="br0">&#41;</span>:void <span class="br0">&#123;</span></span><br />
-<span class="sc3"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;if <span class="br0">&#40;</span>event.detail == Alert.YES<span class="br0">&#41;</span></span><br />
-<span class="sc3"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;button.text=<span class="st0">&quot;You answered Yes&quot;</span>;</span><br />
-<span class="sc3"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;else</span><br />
-<span class="sc3"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;button.text=<span class="st0">&quot;You answered No&quot;</span>;</span><br />
-<span class="sc3"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="br0">&#125;</span></span><br />
-<span class="sc3">&nbsp; &nbsp; &nbsp; &nbsp; <span class="br0">&#93;</span><span class="br0">&#93;</span><span class="re2">&gt;</span></span><br />
+<span class="sc3"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; private function clickHandler<span class="br0">&#40;</span>event:MouseEvent<span class="br0">&#41;</span>:void <span class="br0">&#123;</span></span><br />
+<span class="sc3"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; var alert:Alert = Alert.show<span class="br0">&#40;</span><span class="st0">&quot;Do you want to save your changes?&quot;</span>, <span class="st0">&quot;Save Changes&quot;</span>, Alert.YES | Alert.NO<span class="br0">&#41;</span>;</span><br />
+<span class="sc3"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; alert.addEventListener<span class="br0">&#40;</span>CloseEvent.CLOSE, alertClickHandler<span class="br0">&#41;</span>;</span><br />
+<span class="sc3"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="br0">&#125;</span></span><br />
+<span class="sc3"> &nbsp; &nbsp; &nbsp; </span><br />
+<span class="sc3"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; private function alertClickHandler<span class="br0">&#40;</span>event:CloseEvent<span class="br0">&#41;</span>:void <span class="br0">&#123;</span></span><br />
+<span class="sc3"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if <span class="br0">&#40;</span>event.detail == Alert.YES<span class="br0">&#41;</span></span><br />
+<span class="sc3"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; button.text=<span class="st0">&quot;You answered Yes&quot;</span>;</span><br />
+<span class="sc3"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; else</span><br />
+<span class="sc3"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; button.text=<span class="st0">&quot;You answered No&quot;</span>;</span><br />
+<span class="sc3"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="br0">&#125;</span></span><br />
+<span class="sc3"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="br0">&#93;</span><span class="br0">&#93;</span><span class="re2">&gt;</span></span><br />
 &nbsp; &nbsp; <span class="sc3"><span class="re1">&lt;/fx:Script</span><span class="re2">&gt;</span></span><br />
 <br />
-&nbsp; &nbsp; <span class="sc3"><span class="re1">&lt;js:initialView</span><span class="re2">&gt;</span></span><br />
-&nbsp; &nbsp; &nbsp; &nbsp; <span class="sc3"><span class="re1">&lt;js:View</span><span class="re2">&gt;</span></span><br />
+&nbsp; &nbsp; <span class="sc3"><span class="re1">&lt;j:initialView</span><span class="re2">&gt;</span></span><br />
+&nbsp; &nbsp; &nbsp; &nbsp; <span class="sc3"><span class="re1">&lt;j:View</span><span class="re2">&gt;</span></span><br />
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="sc3"><span class="re1">&lt;j:Button</span> id=<span class="st0">&quot;button&quot;</span> text=<span class="st0">&quot;Click Me&quot;</span> primary=<span class="st0">&quot;true&quot;</span> click=<span class="st0">&quot;clickHandler(event)&quot;</span><span class="re2">/&gt;</span></span><br />
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="sc3"><span class="re1">&lt;/js:View</span><span class="re2">&gt;</span></span><br />
-&nbsp; &nbsp; <span class="sc3"><span class="re1">&lt;/js:initialView</span><span class="re2">&gt;</span></span><br />
+&nbsp; &nbsp; &nbsp; &nbsp; <span class="sc3"><span class="re1">&lt;/j:View</span><span class="re2">&gt;</span></span><br />
+&nbsp; &nbsp; <span class="sc3"><span class="re1">&lt;/j:initialView</span><span class="re2">&gt;</span></span><br />
 &nbsp; &nbsp; <br />
 <span class="sc3"><span class="re1">&lt;/j:Application</span><span class="re2">&gt;</span></span></div></td></tr></tbody></table></div>
 <p>In this example, the Jewel button adds a click handler that will be in charge of showing the Alert control. When the user clicks the button the Alert.show() static method is called. You can add a custom message, a custom title and choose which buttons will be created for that instance of the Alert.<br />
@@ -494,6 +489,8 @@ function resizeCallbackadvanced_iframe() {}function aiChangeUrl(loc) {}</script>
 		</div><div id="categories-2" class="grve-widget widget widget_categories"><div class="grve-widget-title">Categories</div>		<ul>
 	<li class="cat-item cat-item-53"><a href="https://royale.apache.org/category/announcements/" >Announcements</a>
 </li>
+	<li class="cat-item cat-item-65"><a href="https://royale.apache.org/category/basic-ui-set/" >Basic UI Set</a>
+</li>
 	<li class="cat-item cat-item-1"><a href="https://royale.apache.org/category/general/" >General</a>
 </li>
 	<li class="cat-item cat-item-57"><a href="https://royale.apache.org/category/jewel-ui-set/" >Jewel UI Set</a>
@@ -552,7 +549,7 @@ function resizeCallbackadvanced_iframe() {}function aiChangeUrl(loc) {}</script>
 
 
 
-	<div id="grve-post-related-15697-5aeaddb9778ee" class="grve-related-item grve-image-hover">
+	<div id="grve-post-related-15697-5aef3082b9da8" class="grve-related-item grve-image-hover">
 
 		<a href="https://royale.apache.org/creating-a-group-of-jewel-radiobuttons/" target="_self">
 			<div class="grve-related-content">
@@ -568,7 +565,7 @@ function resizeCallbackadvanced_iframe() {}function aiChangeUrl(loc) {}</script>
 
 
 
-	<div id="grve-post-related-15679-5aeaddb977c9a" class="grve-related-item grve-image-hover">
+	<div id="grve-post-related-15679-5aef3082ba119" class="grve-related-item grve-image-hover">
 
 		<a href="https://royale.apache.org/adding-an-item-to-a-jewel-list/" target="_self">
 			<div class="grve-related-content">
@@ -805,7 +802,7 @@ function resizeCallbackadvanced_iframe() {}function aiChangeUrl(loc) {}</script>
 							<button class="btn grve-fullwidth-btn" data-loading-text="Loading..." type="submit">Login</button>
 							<a class="grve-reset-password-form-btn grve-link-text grve-text-hover-primary-1" href="#">Lost Password?</a>
 						</div>
-												<input type="hidden" id="_movedo_grve_nonce_login" name="_movedo_grve_nonce_login" value="e3124e7ee8" /><input type="hidden" name="_wp_http_referer" value="/using-jewel-alert-control/" />					</form>
+												<input type="hidden" id="_movedo_grve_nonce_login" name="_movedo_grve_nonce_login" value="30e466f476" /><input type="hidden" name="_wp_http_referer" value="/using-jewel-alert-control/" />					</form>
 					<div class="grve-form-errors grve-align-center grve-text-primary-1 grve-link-text"></div>
 				</div>
 
@@ -827,7 +824,7 @@ function resizeCallbackadvanced_iframe() {}function aiChangeUrl(loc) {}</script>
 							<span class="grve-login-link grve-link-text">Already have an account?								<a class="grve-text-hover-primary-1 grve-login-form-btn" href="#">Login</a>
 							</span>
 						</div>
-						<input type="hidden" id="_movedo_grve_nonce_password" name="_movedo_grve_nonce_password" value="e3124e7ee8" /><input type="hidden" name="_wp_http_referer" value="/using-jewel-alert-control/" />					</form>
+						<input type="hidden" id="_movedo_grve_nonce_password" name="_movedo_grve_nonce_password" value="30e466f476" /><input type="hidden" name="_wp_http_referer" value="/using-jewel-alert-control/" />					</form>
 					<div class="grve-form-errors grve-align-center grve-text-primary-1 grve-link-text"></div>
 				</div>
 	</div>
