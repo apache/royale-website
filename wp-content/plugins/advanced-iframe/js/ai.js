@@ -20,6 +20,9 @@ var aiReadyCallbacks = ( typeof aiReadyCallbacks !== 'undefined' && aiReadyCallb
  */
 function aiResizeIframe(obj, resize_width, resize_min_height) {
   try {
+    if (obj.contentWindow.location.href == 'about:blank') {
+        return;
+    }
     if (obj.contentWindow.document.body != null) {
       var oldScrollposition = jQuery(document).scrollTop();
       obj.height = Number(resize_min_height); // set to 1 because otherwise the iframe does never get smaller.
@@ -1226,13 +1229,18 @@ function aiChangeUrlParam(loc, param, orig, prefix) {
      // remove protocoll
      if (removeProtocol) {
        newUrl = newUrl.replace('http%3A%2F%2F','');
-       newUrl = newUrl.replace('https%3A%2F%2F','s|');
+       if (window.location.href.toLowerCase().startsWith("http:")) {
+           newUrl = newUrl.replace('https%3A%2F%2F','');  
+       } else {
+           newUrl = newUrl.replace('https%3A%2F%2F','s|');
+       }
      }
     } else {
       var fullUrl = window.location.href;
       newUrl = aiRemoveURLParameter(fullUrl, param);
     }
     if (aiSupportsHistoryApi()) {
+        newUrl = newUrl.replace(/%2F/g,'/');
         window.history.pushState({}, '', newUrl);
         // I asume the back button is clicked.
         window.onpopstate = function(event) {
