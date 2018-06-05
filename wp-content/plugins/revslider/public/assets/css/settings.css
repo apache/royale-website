@@ -1003,6 +1003,7 @@ img.tp-slider-alternative-image	{
 -	BASIC SETTINGS FOR THE BANNER	-
 ***********************************************/
 
+ .tp-layers-container { transform-style: preserve-3d; position: absolute; width: 100%; height: 100%;overflow: hidden;top: 0px;left: 0px; }
  
 
 .tp-caption img {

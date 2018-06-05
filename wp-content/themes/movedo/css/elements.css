@@ -4,6 +4,7 @@
 /*
 - General
 - Title
+- Typed Text
 - Split Title
 - Media Box
 - Message Box
@@ -147,6 +148,14 @@
 	}
 }
 
+/* =============================================================================
+- Typed Text
+============================================================================= */
+.grve-typed-text .grve-animated-text {
+	height: 1em;
+	display: inline-block;
+	vertical-align: top;
+}
 
 /* =============================================================================
 - Split Title

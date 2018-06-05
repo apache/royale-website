@@ -3071,7 +3071,43 @@ if( 1 == movedo_grve_main_data.device_animations ) {
 				});
 			});
 			//VIDEOS
-			$('.grve-youtube-popup, .grve-vimeo-popup, .grve-video-popup, .grve-page-popup').each(function() {
+			if ( $('#grve-body').hasClass( 'grve-privacy-video-embeds-disabled' ) ) {
+				$('.grve-youtube-popup, .grve-vimeo-popup, .grve-video-popup').each(function() {
+					$(this).attr({"target" : "_blank"});
+				});
+			} else {
+				$('.grve-youtube-popup, .grve-vimeo-popup, .grve-video-popup').each(function() {
+					$(this).magnificPopup({
+						disableOn: 0,
+						type: 'iframe',
+						preloader: false,
+						fixedBgPos: true,
+						fixedContentPos: true,
+						removalDelay: 200,
+						closeMarkup: '<div class="mfp-close grve-close-modal"></div>',
+						closeOnBgClick: true,
+						callbacks: {
+							beforeOpen: function() {
+								var mfpWrap = this.wrap;
+								this.bgOverlay.fadeIn(200);
+								addSpinner( mfpWrap );
+							},
+							open: function() {
+								var $spinner = this.wrap.find('.grve-spinner'),
+									$content = this.container;
+								removeSpinner( $spinner, $content );
+							},
+							beforeClose: function() {
+								this.wrap.fadeOut(100);
+								this.container.css({'opacity' : 0});
+								this.bgOverlay.fadeOut(100);
+							},
+						}
+					});
+				});
+			}
+			//PAGE POPUP
+			$('.grve-page-popup').each(function() {
 				$(this).magnificPopup({
 					disableOn: 0,
 					type: 'iframe',

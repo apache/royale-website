@@ -104,6 +104,10 @@
 --- Column Clipping Animation
 --- Responsive Columns Positions
 --- Grid Responsive
+- Plugin Community Event
+- GDPR Privacy
+--- GDPR Privacy Popup
+--- GDPR Privacy Switcher
 - Print
 --- General Print
 */
@@ -1164,7 +1168,6 @@ h6:last-child,
 	font-size: inherit;
 	line-height: inherit;
 }
-
 
 /* =============================================================================
 - Top Bar
@@ -10675,6 +10678,445 @@ html.ie9	.grve-section .grve-column.grve-middle {
 	}
 
 }
+
+/* =============================================================================
+- Plugin Community Event
+============================================================================= */
+
+#grve-theme-wrapper .eventForm .tribe-datetime-block .tribe-field-end_date,
+#grve-theme-wrapper .eventForm .tribe-datetime-block .tribe-field-start_date {
+    width: 100px;
+    margin-bottom: 0;
+	padding: 5px 10px;
+}
+#grve-theme-wrapper .eventForm .tribe-datetime-block .tribe-field-end_time,
+#grve-theme-wrapper .eventForm .tribe-datetime-block .tribe-field-start_time {
+    width: 100px;
+    margin-bottom: 0;
+}
+#grve-theme-wrapper .ui-timepicker-wrapper {
+    width: 100px;
+}
+#grve-theme-wrapper .eventForm .tribe-datetime-block .tribe-field-timezone {
+    margin-top: 0;
+    width: auto;
+}
+#grve-theme-wrapper .choose-file.tribe-button.tribe-button-secondary {
+    color: #ffffff;
+}
+#grve-theme-wrapper .tribe-section-content tr,
+#grve-theme-wrapper .tribe-section-content td {
+    border: none;
+    text-align: left;
+}
+#grve-theme-wrapper .tribe-community-events .tribe-section table.tribe-section-content td {
+    padding: 10px 20px;
+}
+#grve-theme-wrapper .tribe-community-events .select2-choice {
+    margin-bottom: 0;
+    height: auto;
+}
+#grve-theme-wrapper .tribe-section-content .select2-container-multi .select2-choices .select2-search-field input {
+    padding: 5px;
+    margin: 1px 0;
+    font-family: sans-serif;
+    font-size: 100%;
+    color: #666;
+    outline: 0;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: transparent !important;
+}
+#grve-theme-wrapper .tribe-community-events .events-community-post-content > input,
+#grve-theme-wrapper .tribe-community-events .events-community-post-content > textarea,
+#grve-theme-wrapper .tribe-community-events .events-community-post-title > input,
+#grve-theme-wrapper .tribe-community-events .events-community-post-title > textarea {
+    background-color: #fff;
+}
+#grve-theme-wrapper .select2-container .select2-choice .select2-arrow {
+    background-color: #ccc;
+    border-left: 1px solid #ccc;
+    border-radius: 0;
+}
+#grve-theme-wrapper .select2-container .select2-choice .select2-arrow b {
+    background-position: 0 10px;
+}
+#grve-theme-wrapper .select2-container .select2-choice abbr {
+    top: 15px;
+}
+#grve-theme-wrapper .select2-container.select2-allowclear .select2-choice span.select2-chosen {
+    margin-right: 42px;
+}
+#grve-theme-wrapper .tribe-button,
+#grve-theme-wrapper a.tribe-button,
+#grve-theme-wrapper button.tribe-button,
+#grve-theme-wrapper input.tribe-button {
+    margin: 0;
+}
+#grve-theme-wrapper .tribe_community_edit .grve-page-title {
+    background-color: #000;
+}
+#grve-theme-wrapper .tribe_community_edit .grve-page-title .grve-title {
+    color: #fff;
+}
+#ui-datepicker-div {
+    z-index: 100 !important;
+}
+
+/* =============================================================================
+- GDPR Privacy
+============================================================================= */
+#grve-privacy-bar {
+	background: rgba(0, 0, 0, 0.9);
+	color: #ffffff;
+	left: 5%;
+	right: 5%;
+	bottom: 4%;
+	position: fixed;
+	width: 100%;
+	max-width: 90%;
+	z-index: 9999999;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+}
+
+#grve-privacy-bar.grve-privacy-hidden {
+	display: none;
+}
+
+.grve-privacy-wrapper {
+	padding: 30px;
+	position: relative;
+	font-size: 12px;
+	line-height: 16px;
+}
+
+.grve-privacy-content {
+	padding-right: 300px;
+}
+
+.grve-privacy-buttons-wrapper {
+	position: absolute;
+	z-index: 3;
+	top: 50%;
+	right: 30px;
+	-webkit-transform: translateY(-50%);
+	-moz-transform:    translateY(-50%);
+	-ms-transform:     translateY(-50%);
+	-o-transform:      translateY(-50%);
+	transform:         translateY(-50%);
+}
+
+.grve-privacy-btn {
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+	border-width: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	line-height: 20px;
+	padding: 10px 27px 10px 27px;
+	text-shadow: none;
+	text-transform: none;
+	cursor: pointer;
+	background-color: #2bc137;
+	color: #ffffff;
+	outline: 0;
+	letter-spacing: 0 !important;
+	-webkit-transition : all .3s;
+	-moz-transition    : all .3s;
+	-ms-transition     : all .3s;
+	-o-transition      : all .3s;
+	transition         : all .3s;
+}
+
+.grve-privacy-btn + .grve-privacy-btn {
+	margin-left: 24px;
+}
+
+.grve-privacy-preferences {
+	background-color: transparent;
+	color: #ffffff;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.grve-privacy-preferences:hover {
+	opacity: 0.6;
+	color: inherit;
+}
+
+.grve-privacy-agreement:hover,
+.grve-privacy-refresh-btn:hover {
+	background-color: #17a523;
+}
+
+@media only screen and (max-width: 1023px) {
+	.grve-privacy-content {
+		padding: 0;
+		margin-bottom: 24px;
+	}
+
+
+	.grve-privacy-buttons-wrapper {
+		position: relative;
+		top: 0;
+		right: 0;
+		-webkit-transform: translateY(0);
+		-moz-transform:    translateY(0);
+		-ms-transform:     translateY(0);
+		-o-transform:      translateY(0);
+		transform:         translateY(0);
+	}
+
+	.grve-privacy-agreement {
+		float: right;
+	}
+
+	.grve-privacy-refresh-btn {
+		width: 100%;
+	}
+}
+
+/* Fallback */
+.grve-privacy-fallback-content {
+	padding: 25% 12%;
+	color: #ffffff;
+	background-color: #252525;
+	background-size: 13px;
+	background-image: url(https://royale.apache.org/wp-content/themes/movedo/images/privacy/fallback-pattern.jpg);
+}
+
+#grve-feature-section .grve-privacy-fallback-content,
+.grve-map .grve-privacy-fallback-content {
+	height: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-flex: 0;
+	-ms-flex: 0 1 auto;
+	flex: 0 1 auto;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+#grve-feature-section .grve-privacy-fallback-inner,
+.grve-map .grve-privacy-fallback-inner {
+	-ms-flex-preferred-size: 100%;
+	flex-basis: 100%;
+	max-width: 100%;
+}
+
+.grve-privacy-fallback-content a {
+	color: inherit;
+	-webkit-transition : all .3s;
+	-moz-transition    : all .3s;
+	-ms-transition     : all .3s;
+	-o-transition      : all .3s;
+	transition         : all .3s;
+}
+
+.grve-privacy-fallback-content a:hover {
+	opacity: 0.6;
+	color: inherit;
+}
+
+.grve-privacy-fallback-icon {
+	display: block;
+	margin: 0 auto 12px auto;
+	width: 36px;
+}
+
+
+/* =============================================================================
+--- GDPR Privacy Popup
+============================================================================= */
+#grve-privacy-overlay {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background-color: #000000;
+	opacity: 0.9;
+	z-index: 99999999;
+	display: none;
+}
+
+#grve-privacy-popup {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	width: 100%;
+	height: 100%;
+	max-height: 700px;
+	max-width: 800px;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform:    translate(-50%, -50%);
+	-ms-transform:     translate(-50%, -50%);
+	-o-transform:      translate(-50%, -50%);
+	transform:         translate(-50%, -50%);
+	z-index: 999999999;
+	padding: 36px;
+	display: none;
+}
+
+
+.grve-privacy-popup-wrapper {
+	width: 100%;
+	height: 100%;
+	background-color: #ffffff;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: normal;
+	position: relative;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+}
+
+.grve-privacy-popup-inner {
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 76px;
+}
+
+.grve-privacy-popup-content {
+	max-height: 100%;
+	padding: 48px 36px 36px;
+	overflow-y: auto;
+	-webkit-overflow-scrolling: touch;
+}
+
+.grve-close-privacy-popup {
+	width: 36px;
+	height: 36px;
+	line-height: 36px;
+	font-size: 16px;
+	text-align: center;
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+	right: 0px;
+	color: #ffffff;
+}
+
+
+.grve-privacy-refresh-btn-wrapper {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	padding: 18px 36px;
+	background-color: #f7f7f7;
+}
+
+/* =============================================================================
+--- GDPR Privacy Switcher
+============================================================================= */
+.grve-privacy-switch {
+	border-bottom: 1px solid #eaeaea;
+	margin-bottom: 18px;
+	padding-bottom: 18px;
+	position: relative;
+}
+
+.grve-privacy-switch .grve-switch {
+	position: absolute;
+	display: inline-block;
+	font-size: 16px;
+	width: 3.000em;
+	height: 1.625em;
+	top: 2px;
+	right: 0;	
+}
+
+.grve-privacy-switch .grve-switch.grve-switch-text {
+	width: auto;
+}
+
+.grve-privacy-switch .grve-switch input[type='checkbox'] {
+	font-size: inherit;
+	position: relative;
+	z-index: 2;
+	opacity: 0;
+	cursor: pointer;
+	width: 3.000em;
+	height: 1.625em;
+	margin: 0;
+}
+
+.grve-privacy-switch .grve-switch-value {
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+}
+
+.grve-privacy-switch .grve-switch-label {
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 24px;
+	max-width: 70%;
+	font-weight: bold;
+}
+
+.grve-privacy-switch .grve-switch .grve-switch-slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #cccccc;
+	-webkit-transition: .4s;
+	transition: .4s;
+	-webkit-border-radius: 1.625em;
+	border-radius: 1.625em;
+	width: 3.000em;
+}
+
+.grve-privacy-switch .grve-switch .grve-switch-slider:before {
+	position: absolute;
+	content: "";
+	height: 1.125em;
+	width: 1.125em;
+	left: 0.250em;
+	bottom: 0.250em;
+	background-color: white;
+	-webkit-transition: .4s;
+	transition: .4s;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.grve-privacy-switch .grve-switch input[type='checkbox']:checked + .grve-switch-slider {
+  background-color: #2bc137;
+}
+
+.grve-privacy-switch .grve-switch input[type='checkbox']:checked + .grve-switch-slider:before {
+  -webkit-transform: translateX(1.375em);
+  -ms-transform: translateX(1.375em);
+  transform: translateX(1.375em);
+}
+
 
 /* =============================================================================
 - Print
