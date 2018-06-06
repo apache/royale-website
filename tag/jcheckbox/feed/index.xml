@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>j:CheckBox &#8211; Apache Royale™</title>
+	<atom:link href="https://royale.apache.org/tag/jcheckbox/feed/" rel="self" type="application/rss+xml" />
+	<link>https://royale.apache.org/</link>
+	<description>Code once. Run everywhere</description>
+	<lastBuildDate>Wed, 06 Jun 2018 16:36:45 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.6</generator>
+	<item>
+		<title>Selecting options from a group of Jewel CheckBox controls</title>
+		<link>https://royale.apache.org/selecting-options-from-a-group-of-jewel-checkbox-controls/</link>
+		<comments>https://royale.apache.org/selecting-options-from-a-group-of-jewel-checkbox-controls/#respond</comments>
+		<pubDate>Tue, 22 May 2018 09:21:14 +0000</pubDate>
+		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
+				<category><![CDATA[Jewel UI Set]]></category>
+		<category><![CDATA[Royale Examples]]></category>
+		<category><![CDATA[j:Application]]></category>
+		<category><![CDATA[j:Button]]></category>
+		<category><![CDATA[j:CheckBox]]></category>
+		<category><![CDATA[j:Disabled]]></category>
+		<category><![CDATA[js:View]]></category>
+
+		<guid isPermaLink="false">https://royale.apache.org/?p=15736</guid>
+		<description><![CDATA[<p>Learn how to set up a group of Jewel Checkbox controls to select one or more options in a Royale application.</p>
+<p>The post <a rel="nofollow" href="https://royale.apache.org/selecting-options-from-a-group-of-jewel-checkbox-controls/">Selecting options from a group of Jewel CheckBox controls</a> appeared first on <a rel="nofollow" href="https://royale.apache.org/">Apache Royale™</a>.</p>
+]]></description>
+		<wfw:commentRss>https://royale.apache.org/selecting-options-from-a-group-of-jewel-checkbox-controls/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
