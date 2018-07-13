@@ -12,11 +12,11 @@
 	<atom:link href="https://royale.apache.org/tag/jradiobutton/feed/" rel="self" type="application/rss+xml" />
 	<link>https://royale.apache.org/</link>
 	<description>Code once. Run everywhere</description>
-	<lastBuildDate>Fri, 15 Jun 2018 09:24:54 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 13 Jul 2018 16:46:31 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.9.6</generator>
+	<generator>https://wordpress.org/?v=4.9.7</generator>
 	<item>
 		<title>Creating a group of Jewel radio buttons</title>
 		<link>https://royale.apache.org/creating-a-group-of-jewel-radiobuttons/</link>

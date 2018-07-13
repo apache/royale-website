@@ -1019,6 +1019,41 @@ h6:last-child,
 	font-size: 300%;
 }
 
+/* Tablet Landscape ----------- */
+@media only screen and (min-width: 1201px) and (max-width: 1440px) {
+	.grve-increase-heading.grve-desktop-sm-reset-increase-heading > span,
+	.grve-increase-heading.grve-desktop-sm-reset-increase-heading .grve-clipping-content > span	{
+		line-height: inherit;
+		font-size: inherit;
+	}
+}
+
+/* Tablet Landscape ----------- */
+@media only screen and (min-width: 960px) and (max-width: 1200px) {
+	.grve-increase-heading.grve-tablet-reset-increase-heading > span,
+	.grve-increase-heading.grve-tablet-reset-increase-heading .grve-clipping-content > span	{
+		line-height: inherit;
+		font-size: inherit;
+	}
+}
+/* Tablet Portrait ----------- */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.grve-increase-heading.grve-tablet-sm-reset-increase-heading > span,
+	.grve-increase-heading.grve-tablet-sm-reset-increase-heading .grve-clipping-content > span {
+		line-height: inherit;
+		font-size: inherit;
+	}
+}
+
+/* Mobile ----------- */
+@media screen and (max-width: 767px) {
+	.grve-increase-heading.grve-mobile-reset-increase-heading > span,
+	.grve-increase-heading.grve-mobile-reset-increase-heading .grve-clipping-content > span {
+		line-height: inherit;
+		font-size: inherit;
+	}
+}
+
 
 /* =============================================================================
 - Inputs
@@ -6658,6 +6693,10 @@ div.wpcf7-mail-sent-ok {
 /* =============================================================================
 - Background Image Sizes
 ============================================================================= */
+#grve-theme-wrapper .grve-bg-wrapper-item img {
+	display: none;
+}
+
 .grve-bg-wrapper {
 	position: relative;
 }
@@ -9930,6 +9969,8 @@ html.ie9	.grve-section .grve-column.grve-middle {
 .grve-column-11-12,
 .grve-column-1-6,
 .grve-column-1-5,
+.grve-column-2-5,
+.grve-column-3-5,
 .grve-column-1-4,
 .grve-column-1-2,
 .grve-column-1-3,
@@ -9949,18 +9990,6 @@ html.ie9	.grve-section .grve-column.grve-middle {
 	width: 8.33333333%;
 }
 
-.grve-column-5-12 {
-	width: 41.66666667%;
-}
-
-.grve-column-7-12 {
-	width: 58.33333333%;
-}
-
-.grve-column-11-12 {
-	width: 91.66666667%;
-}
-
 .grve-column-1-6 {
 	width: 16.66666667%;
 }
@@ -9977,8 +10006,24 @@ html.ie9	.grve-section .grve-column.grve-middle {
 	width: 33.33333333%;
 }
 
+.grve-column-2-5 {
+	width: 40%;
+}
+
+.grve-column-5-12 {
+	width: 41.66666667%;
+}
+
+.grve-column-7-12 {
+	width: 58.33333333%;
+}
+
 .grve-column-1-2 {
 	width: 50.0%;
+}
+
+.grve-column-3-5 {
+	width: 60%;
 }
 
 .grve-column-2-3 {
@@ -9995,6 +10040,10 @@ html.ie9	.grve-section .grve-column.grve-middle {
 
 .grve-column-5-6 {
 	width: 83.33333333%;
+}
+
+.grve-column-11-12 {
+	width: 91.66666667%;
 }
 
 .grve-column-1 {
@@ -10452,18 +10501,6 @@ html.ie9	.grve-section .grve-column.grve-middle {
 		width: 8.33333333%;
 	}
 
-	.grve-tablet-column-5-12 {
-		width: 41.66666667%;
-	}
-
-	.grve-tablet-column-7-12 {
-		width: 58.33333333%;
-	}
-
-	.grve-tablet-column-11-12 {
-		width: 91.66666667%;
-	}
-
 	.grve-tablet-column-1-6 {
 		width: 16.66666667%;
 	}
@@ -10480,8 +10517,24 @@ html.ie9	.grve-section .grve-column.grve-middle {
 		width: 33.33333333%;
 	}
 
+	.grve-tablet-column-2-5 {
+		width: 40.0%;
+	}
+
+	.grve-tablet-column-5-12 {
+		width: 41.66666667%;
+	}
+
 	.grve-tablet-column-1-2 {
 		width: 50.0%;
+	}
+
+	.grve-tablet-column-7-12 {
+		width: 58.33333333%;
+	}
+
+	.grve-tablet-column-3-5 {
+		width: 60.0%;
 	}
 
 	.grve-tablet-column-2-3{
@@ -10498,6 +10551,10 @@ html.ie9	.grve-section .grve-column.grve-middle {
 
 	.grve-tablet-column-5-6 {
 		width: 83.33333333%;
+	}
+
+	.grve-tablet-column-11-12 {
+		width: 91.66666667%;
 	}
 
 	 .grve-tablet-column-1 {
@@ -10525,18 +10582,6 @@ html.ie9	.grve-section .grve-column.grve-middle {
 		width: 8.33333333%;
 	}
 
-	.grve-tablet-sm-column-5-12 {
-		width: 41.66666667%;
-	}
-
-	.grve-tablet-sm-column-7-12 {
-		width: 58.33333333%;
-	}
-
-	.grve-tablet-sm-column-11-12 {
-		width: 91.66666667%;
-	}
-
 	.grve-tablet-sm-column-1-6 {
 		width: 16.66666667%;
 	}
@@ -10553,8 +10598,24 @@ html.ie9	.grve-section .grve-column.grve-middle {
 		width: 33.33333333%;
 	}
 
+	.grve-tablet-sm-column-2-5 {
+		width: 40%;
+	}
+
+	.grve-tablet-sm-column-5-12 {
+		width: 41.66666667%;
+	}
+
 	.grve-tablet-sm-column-1-2 {
 		width: 50.0%;
+	}
+
+	.grve-tablet-sm-column-7-12 {
+		width: 58.33333333%;
+	}
+
+	.grve-tablet-sm-column-3-5 {
+		width: 60%;
 	}
 
 	.grve-tablet-sm-column-2-3{
@@ -10571,6 +10632,10 @@ html.ie9	.grve-section .grve-column.grve-middle {
 
 	.grve-tablet-sm-column-5-6 {
 		width: 83.33333333%;
+	}
+
+	.grve-tablet-sm-column-11-12 {
+		width: 91.66666667%;
 	}
 
 	 .grve-tablet-sm-column-1 {
@@ -10599,6 +10664,8 @@ html.ie9	.grve-section .grve-column.grve-middle {
 	.grve-column-11-12,
 	.grve-column-1-6,
 	.grve-column-1-5,
+	.grve-column-2-5,
+	.grve-column-3-5,
 	.grve-column-1-4,
 	.grve-column-1-2,
 	.grve-column-1-3,
@@ -10610,15 +10677,33 @@ html.ie9	.grve-section .grve-column.grve-middle {
 		width: 100%;
 	}
 
+	.grve-mobile-column-1-5 {
+		width: 20%;
+	}
+
 	.grve-mobile-column-1-4 {
 		width: 25%;
 	}
 	.grve-mobile-column-1-3 {
 		width: 33.33333333%;
 	}
+
+	.grve-mobile-column-2-5 {
+		width: 40%;
+	}
+
 	.grve-mobile-column-1-2 {
 		width: 50.0%;
 	}
+
+	.grve-mobile-column-3-5 {
+		width: 60%;
+	}
+
+	.grve-mobile-column-4-5 {
+		width: 80%;
+	}
+
 	.grve-mobile-column-1 {
 		width: 100.0%;
 	}
@@ -10629,6 +10714,8 @@ html.ie9	.grve-section .grve-column.grve-middle {
 	#grve-main-content .grve-column-11-12,
 	#grve-main-content .grve-column-1-6,
 	#grve-main-content .grve-column-1-5,
+	#grve-main-content .grve-column-2-5,
+	#grve-main-content .grve-column-3-5,
 	#grve-main-content .grve-column-1-4,
 	#grve-main-content .grve-column-1-2,
 	#grve-main-content .grve-column-1-3,
@@ -10781,9 +10868,6 @@ html.ie9	.grve-section .grve-column.grve-middle {
 	-moz-border-radius: 2px;
 	-o-border-radius: 2px;
 	border-radius: 2px;
-}
-
-#grve-privacy-bar.grve-privacy-hidden {
 	display: none;
 }
 
@@ -11018,6 +11102,10 @@ html.ie9	.grve-section .grve-column.grve-middle {
 	color: #ffffff;
 }
 
+.grve-close-privacy-popup:before {
+	content: "\e912";
+	font-family: 'movedo-icons';
+}
 
 .grve-privacy-refresh-btn-wrapper {
 	position: absolute;
@@ -11045,7 +11133,7 @@ html.ie9	.grve-section .grve-column.grve-middle {
 	width: 3.000em;
 	height: 1.625em;
 	top: 2px;
-	right: 0;	
+	right: 0;
 }
 
 .grve-privacy-switch .grve-switch.grve-switch-text {

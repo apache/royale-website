@@ -29,7 +29,6 @@ jQuery(function($){
 
 			$('.grve-login-form .grve-form-errors').html(obj.message);
 
-
 			if(obj.error == false){
 				var link = grve_form.redirect_url;
 				if ( "" != link ) {
