@@ -12,7 +12,7 @@
 	<atom:link href="https://royale.apache.org/tag/japplication/feed/" rel="self" type="application/rss+xml" />
 	<link>https://royale.apache.org/</link>
 	<description>Code once. Run everywhere</description>
-	<lastBuildDate>Fri, 13 Jul 2018 16:46:31 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 13 Jul 2018 19:14:37 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
@@ -35,7 +35,7 @@
 		<category><![CDATA[j:List]]></category>
 
 		<guid isPermaLink="false">https://royale.apache.org/?p=15774</guid>
-		<description><![CDATA[<p>Learn how to set up a group of Jewel Checkbox controls to select one or more options in a Royale application.</p>
+		<description><![CDATA[<p>Learn how to use an item renderer in a Jewel List to display the items in your list in a pleasing and user-friendly way in a Royale application.</p>
 <p>The post <a rel="nofollow" href="https://royale.apache.org/using-an-item-renderer-with-a-list/">Using an Item Renderer with a List</a> appeared first on <a rel="nofollow" href="https://royale.apache.org/">Apache Royale™</a>.</p>
 ]]></description>
 		<wfw:commentRss>https://royale.apache.org/using-an-item-renderer-with-a-list/feed/</wfw:commentRss>
