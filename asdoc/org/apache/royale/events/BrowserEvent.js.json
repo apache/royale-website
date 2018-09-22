@@ -207,7 +207,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Tests to see which button was pressed during the event. This is really only useful in IE and Gecko browsers. And in IE, it's only useful for mousedown/mouseup events, because click only fires for the left mouse button.  Safari 2 only reports the left button being clicked, and uses the value '1' instead of 0. Opera only reports a mousedown event for the middle button, and no mouse events for the right button. Opera has default behavior for left and middle click that can only be overridden via a configuration setting.  There's a nice table of this mess at //www.unixpapa.com/js/mouse.html.",
+          "description": "Tests to see which button was pressed during the event. This is really only useful in IE and Gecko browsers. And in IE, it's only useful for mousedown/mouseup events, because click only fires for the left mouse button.  Safari 2 only reports the left button being clicked, and uses the value '1' instead of 0. Opera only reports a mousedown event for the middle button, and no mouse events for the right button. Opera has default behavior for left and middle click that can only be overridden via a configuration setting.  There's a nice table of this mess at http://www.unixpapa.com/js/mouse.html.",
         "tags": [
         {  "tagName": "param",
                "values": ["button The button to test for."]},

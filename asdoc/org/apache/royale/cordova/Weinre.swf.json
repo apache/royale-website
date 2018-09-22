@@ -46,7 +46,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The guid to use at the Weinre server //debug.phonegap.com",
+          "description": "The guid to use at the Weinre server http://debug.phonegap.com",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

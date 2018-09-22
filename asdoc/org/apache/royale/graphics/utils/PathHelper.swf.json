@@ -373,7 +373,7 @@
   "qname": "CubicBezierSegment",
   "baseClassname": "PathSegment"
   ,
-    "description": "The CubicBezierSegment draws a cubic bezier curve from the current pen position to x, y. The control1X and control1Y properties specify the first control point; the control2X and control2Y properties specify the second control point.  <p>Cubic bezier curves are not natively supported in Flash Player. This class does an approximation based on the fixed midpoint algorithm and uses 4 quadratic curves to simulate a cubic curve.</p>  <p>For details on the fixed midpoint algorithm, see:<br/> //timotheegroleau.com/Flash/articles/cubic_bezier_in_flash.htm</p>",
+    "description": "The CubicBezierSegment draws a cubic bezier curve from the current pen position to x, y. The control1X and control1Y properties specify the first control point; the control2X and control2Y properties specify the second control point.  <p>Cubic bezier curves are not natively supported in Flash Player. This class does an approximation based on the fixed midpoint algorithm and uses 4 quadratic curves to simulate a cubic curve.</p>  <p>For details on the fixed midpoint algorithm, see:<br/> http://timotheegroleau.com/Flash/articles/cubic_bezier_in_flash.htm</p>",
   "tags": [
   {  "tagName": "playerversion",
          "values": ["Flash 10", "AIR 1.5"]},
@@ -1228,7 +1228,7 @@
   "qname": "CubicBezierSegment",
   "baseClassname": "PathSegment"
   ,
-    "description": "The CubicBezierSegment draws a cubic bezier curve from the current pen position to x, y. The control1X and control1Y properties specify the first control point; the control2X and control2Y properties specify the second control point.  <p>Cubic bezier curves are not natively supported in Flash Player. This class does an approximation based on the fixed midpoint algorithm and uses 4 quadratic curves to simulate a cubic curve.</p>  <p>For details on the fixed midpoint algorithm, see:<br/> //timotheegroleau.com/Flash/articles/cubic_bezier_in_flash.htm</p>",
+    "description": "The CubicBezierSegment draws a cubic bezier curve from the current pen position to x, y. The control1X and control1Y properties specify the first control point; the control2X and control2Y properties specify the second control point.  <p>Cubic bezier curves are not natively supported in Flash Player. This class does an approximation based on the fixed midpoint algorithm and uses 4 quadratic curves to simulate a cubic curve.</p>  <p>For details on the fixed midpoint algorithm, see:<br/> http://timotheegroleau.com/Flash/articles/cubic_bezier_in_flash.htm</p>",
   "tags": [
   {  "tagName": "playerversion",
          "values": ["Flash 10", "AIR 1.5", "Flash 10", "AIR 1.5"]},

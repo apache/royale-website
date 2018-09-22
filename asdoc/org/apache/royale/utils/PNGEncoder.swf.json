@@ -2,7 +2,7 @@
   "qname": "org.apache.royale.utils.PNGEncoder",
   "baseClassname": ""
   ,
-    "description": "The PNGEncoder class converts raw bitmap images into encoded images using Portable Network Graphics (PNG) lossless compression.  <p>For the PNG specification, see //www.w3.org/TR/PNG/</p>.",
+    "description": "The PNGEncoder class converts raw bitmap images into encoded images using Portable Network Graphics (PNG) lossless compression.  <p>For the PNG specification, see http://www.w3.org/TR/PNG/</p>.",
   "tags": [
   {  "tagName": "playerversion",
          "values": ["Flash 9", "AIR 1.1"]},
