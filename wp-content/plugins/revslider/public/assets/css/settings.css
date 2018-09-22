@@ -80,11 +80,11 @@ website:   	http://www.themepunch.com
 .rtl {	direction: rtl;}
 @font-face {
   font-family: 'revicons';
-  src: url('https://royale.apache.org/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.eot?5510888');
-  src: url('https://royale.apache.org/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.eot?5510888#iefix') format('embedded-opentype'),
-       url('https://royale.apache.org/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.woff?5510888') format('woff'),
-       url('https://royale.apache.org/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.ttf?5510888') format('truetype'),
-       url('https://royale.apache.org/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.svg?5510888#revicons') format('svg');
+  src: url('//royale.apache.org/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.eot?5510888');
+  src: url('//royale.apache.org/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.eot?5510888#iefix') format('embedded-opentype'),
+       url('//royale.apache.org/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.woff?5510888') format('woff'),
+       url('//royale.apache.org/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.ttf?5510888') format('truetype'),
+       url('//royale.apache.org/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.svg?5510888#revicons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -286,10 +286,10 @@ website:   	http://www.themepunch.com
 	
 /* CAROUSEL FUNCTIONS */
 .tp-carousel-wrapper {
-	cursor:url(https://royale.apache.org/wp-content/plugins/revslider/public/assets/css/openhand.cur), move;
+	cursor:url(//royale.apache.org/wp-content/plugins/revslider/public/assets/css/openhand.cur), move;
 }
 .tp-carousel-wrapper.dragged {
-	cursor:url(https://royale.apache.org/wp-content/plugins/revslider/public/assets/css/closedhand.cur), move;
+	cursor:url(//royale.apache.org/wp-content/plugins/revslider/public/assets/css/closedhand.cur), move;
 }
 
 /* ADDED FOR SLIDELINK MANAGEMENT */
@@ -633,10 +633,10 @@ img.tp-slider-alternative-image	{
 	-	DOTTED OVERLAYS	-
 *********************************/
 .tp-dottedoverlay						{	background-repeat:repeat;width:100%;height:100%;position:absolute;top:0px;left:0px;z-index:3}
-.tp-dottedoverlay.twoxtwo				{	background:url(https://royale.apache.org/wp-content/plugins/revslider/public/assets/assets/gridtile.png)}
-.tp-dottedoverlay.twoxtwowhite			{	background:url(https://royale.apache.org/wp-content/plugins/revslider/public/assets/assets/gridtile_white.png)}
-.tp-dottedoverlay.threexthree			{	background:url(https://royale.apache.org/wp-content/plugins/revslider/public/assets/assets/gridtile_3x3.png)}
-.tp-dottedoverlay.threexthreewhite		{	background:url(https://royale.apache.org/wp-content/plugins/revslider/public/assets/assets/gridtile_3x3_white.png)}
+.tp-dottedoverlay.twoxtwo				{	background:url(//royale.apache.org/wp-content/plugins/revslider/public/assets/assets/gridtile.png)}
+.tp-dottedoverlay.twoxtwowhite			{	background:url(//royale.apache.org/wp-content/plugins/revslider/public/assets/assets/gridtile_white.png)}
+.tp-dottedoverlay.threexthree			{	background:url(//royale.apache.org/wp-content/plugins/revslider/public/assets/assets/gridtile_3x3.png)}
+.tp-dottedoverlay.threexthreewhite		{	background:url(//royale.apache.org/wp-content/plugins/revslider/public/assets/assets/gridtile_3x3_white.png)}
 
 
 /******************************
@@ -1015,8 +1015,8 @@ img.tp-slider-alternative-image	{
 
 
 .caption.slidelink a div,
-.tp-caption.slidelink a div {	width:3000px; height:1500px;  background:url(https://royale.apache.org/wp-content/plugins/revslider/public/assets/assets/coloredbg.png) repeat}
-.tp-caption.slidelink a span{	background:url(https://royale.apache.org/wp-content/plugins/revslider/public/assets/assets/coloredbg.png) repeat}
+.tp-caption.slidelink a div {	width:3000px; height:1500px;  background:url(//royale.apache.org/wp-content/plugins/revslider/public/assets/assets/coloredbg.png) repeat}
+.tp-caption.slidelink a span{	background:url(//royale.apache.org/wp-content/plugins/revslider/public/assets/assets/coloredbg.png) repeat}
 .tp-shape {	width:100%;height:100%;}
 
 
@@ -1090,7 +1090,7 @@ img.tp-slider-alternative-image	{
 	width: 40px;
 	height: 40px;
 	background-color: #fff;
-	background-image:url(https://royale.apache.org/wp-content/plugins/revslider/public/assets/assets/loader.gif);
+	background-image:url(//royale.apache.org/wp-content/plugins/revslider/public/assets/assets/loader.gif);
 	background-repeat:no-repeat;
 	background-position: center center;
 	box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);	
@@ -1115,7 +1115,7 @@ img.tp-slider-alternative-image	{
 
 
 .tp-loader.spinner5 	{	
-	background-image:url(https://royale.apache.org/wp-content/plugins/revslider/public/assets/assets/loader.gif);
+	background-image:url(//royale.apache.org/wp-content/plugins/revslider/public/assets/assets/loader.gif);
 	background-repeat:no-repeat;
 	background-position:10px 10px;
 	background-color:#fff;

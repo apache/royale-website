@@ -2201,11 +2201,13 @@ if( 1 == movedo_grve_main_data.device_animations ) {
 							$subMenu.css({'left' : left});
 						}
 					}
-					if( !$li.hasClass('grve-first-level') && !$li.hasClass('megamenu') ){
-						var subMenuLength = $li.find('.sub-menu').length + 1,
-							subMenuOffsetL = $li.parents('.grve-first-level').offset().left;
-						if( (subMenuW * subMenuLength) + subMenuOffsetL > windowW) {
-							$li.addClass('grve-invert');
+					if( $('#grve-header .grve-first-level').length > 0 ){
+						if( !$li.hasClass('grve-first-level') && !$li.hasClass('megamenu') ){
+							var subMenuLength = $li.find('.sub-menu').length + 1,
+								subMenuOffsetL = $li.parents('.grve-first-level').offset().left;
+							if( (subMenuW * subMenuLength) + subMenuOffsetL > windowW) {
+								$li.addClass('grve-invert');
+							}
 						}
 					}
 					if( $('body').hasClass('grve-boxed') && ( $li.hasClass('megamenu column-3') || $li.hasClass('megamenu column-2') ) ){
@@ -4529,6 +4531,7 @@ if( 1 == movedo_grve_main_data.device_animations ) {
 				$element.find('.grve-filter li').click(function(){
 					var $filter      = $(this),
 						selector     = $filter.attr('data-filter'),
+						gototop      = $filter.parents('.grve-filter').attr('data-gototop') == 'no' ? false : true,
 						title        = $filter.html(),
 						$curCategory = $element.find('.grve-current-category');
 
@@ -4541,7 +4544,9 @@ if( 1 == movedo_grve_main_data.device_animations ) {
 					});
 
 					// Go tot top
-					GRVE.pageSettings.linkGoToTop( $filter.parent(), 300, 30 );
+					if( gototop ) {
+						GRVE.pageSettings.linkGoToTop( $filter.parent(), 300, 30 );
+					}
 
 					$(this).addClass('selected').siblings().removeClass('selected');
 				});

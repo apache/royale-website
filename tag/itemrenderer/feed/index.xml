@@ -9,18 +9,18 @@
 
 <channel>
 	<title>ItemRenderer &#8211; Apache Royale™</title>
-	<atom:link href="https://royale.apache.org/tag/itemrenderer/feed/" rel="self" type="application/rss+xml" />
-	<link>https://royale.apache.org/</link>
+	<atom:link href="//royale.apache.org/tag/itemrenderer/feed/" rel="self" type="application/rss+xml" />
+	<link>//royale.apache.org/</link>
 	<description>Code once. Run everywhere</description>
-	<lastBuildDate>Thu, 09 Aug 2018 16:22:25 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 15 Sep 2018 16:06:01 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=4.9.8</generator>
 	<item>
 		<title>Using an Item Renderer with a List</title>
-		<link>https://royale.apache.org/using-an-item-renderer-with-a-list/</link>
-		<comments>https://royale.apache.org/using-an-item-renderer-with-a-list/#respond</comments>
+		<link>//royale.apache.org/using-an-item-renderer-with-a-list/</link>
+		<comments>//royale.apache.org/using-an-item-renderer-with-a-list/#respond</comments>
 		<pubDate>Fri, 13 Jul 2018 12:41:07 +0000</pubDate>
 		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
 				<category><![CDATA[Jewel UI Set]]></category>
@@ -34,11 +34,11 @@
 		<category><![CDATA[j:Card]]></category>
 		<category><![CDATA[j:List]]></category>
 
-		<guid isPermaLink="false">https://royale.apache.org/?p=15774</guid>
+		<guid isPermaLink="false">//royale.apache.org/?p=15774</guid>
 		<description><![CDATA[<p>Learn how to use an item renderer in a Jewel List to display the items in your list in a pleasing and user-friendly way in a Royale application.</p>
-<p>The post <a rel="nofollow" href="https://royale.apache.org/using-an-item-renderer-with-a-list/">Using an Item Renderer with a List</a> appeared first on <a rel="nofollow" href="https://royale.apache.org/">Apache Royale™</a>.</p>
+<p>The post <a rel="nofollow" href="//royale.apache.org/using-an-item-renderer-with-a-list/">Using an Item Renderer with a List</a> appeared first on <a rel="nofollow" href="//royale.apache.org">Apache Royale™</a>.</p>
 ]]></description>
-		<wfw:commentRss>https://royale.apache.org/using-an-item-renderer-with-a-list/feed/</wfw:commentRss>
+		<wfw:commentRss>//royale.apache.org/using-an-item-renderer-with-a-list/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 		</item>
 	</channel>

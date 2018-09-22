@@ -134,7 +134,8 @@
 	margin-left: auto;
 }
 
-.grve-title.grve-title-gradient > span {
+.grve-title.grve-title-gradient > span,
+.grve-title.grve-title-gradient .grve-clipping-content > span {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-clip: text;
@@ -143,7 +144,8 @@
 }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-	.grve-title-gradient > span {
+	.grve-title-gradient > span,
+	.grve-title-gradient .grve-clipping-content > span {
 		background: transparent !important;
 	}
 }
@@ -734,7 +736,8 @@ a.grve-btn:hover i {
 }
 
 
-.grve-slogan-title.grve-title-gradient > span {
+.grve-slogan-title.grve-title-gradient > span,
+.grve-slogan-title.grve-title-gradient .grve-clipping-content > span {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-clip: text;
@@ -4353,6 +4356,28 @@ a:hover .grve-icon-video {
 	display: none;
 }
 
+/* Categories */
+.grve-post-content-wrapper .grve-categories {
+	vertical-align: top;
+	margin: 0 0 6px 0;
+	list-style: none;
+	line-height: 14px;
+	font-size: 11px;
+}
+
+.grve-post-content-wrapper .grve-categories li {
+	display: inline-block;
+}
+
+.grve-post-content-wrapper .grve-categories li:after {
+	content: ',';
+	opacity: 0.3;
+}
+
+.grve-post-content-wrapper .grve-categories li:last-child:after {
+	display: none;
+}
+
 
 /* =============================================================================
 --- Blog Sticky
@@ -4390,7 +4415,8 @@ a:hover .grve-icon-video {
 	color: #ffffff;
 }
 
-.grve-blog .grve-blog-item.grve-style-2 .grve-post-title {
+.grve-blog .grve-blog-item.grve-style-2 .grve-post-title,
+.grve-blog .grve-blog-item.grve-style-2 .grve-categories li a {
 	color: #ffffff;
 }
 
