@@ -2,7 +2,7 @@
   "qname": "org.apache.royale.utils.MD5",
   "baseClassname": ""
   ,
-    "description": "The MD5 Message-Digest Algorithm  Implementation based on algorithm description at http://www.faqs.org/rfcs/rfc1321.html",
+    "description": "The MD5 Message-Digest Algorithm  Implementation based on algorithm description at //www.faqs.org/rfcs/rfc1321.html",
   "members": [
   { "type": "method",
         "qname": "hash",

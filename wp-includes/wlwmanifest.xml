@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
-<manifest xmlns="http://schemas.microsoft.com/wlw/manifest/weblog">
+<manifest xmlns="//schemas.microsoft.com/wlw/manifest/weblog">
 
   <options>
     <clientType>WordPress</clientType>
