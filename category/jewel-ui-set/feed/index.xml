@@ -12,12 +12,37 @@
 	<atom:link href="//royale.apache.org/category/jewel-ui-set/feed/" rel="self" type="application/rss+xml" />
 	<link>//royale.apache.org/</link>
 	<description>Code once. Run everywhere</description>
-	<lastBuildDate>Sat, 15 Sep 2018 16:06:01 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 23 Sep 2018 22:38:53 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=4.9.8</generator>
 	<item>
+		<title>Loading external data through HTTPService</title>
+		<link>//royale.apache.org/loading-external-data-through-httpservice/</link>
+		<comments>//royale.apache.org/loading-external-data-through-httpservice/#respond</comments>
+		<pubDate>Sun, 23 Sep 2018 09:16:43 +0000</pubDate>
+		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
+				<category><![CDATA[Jewel UI Set]]></category>
+		<category><![CDATA[Royale Examples]]></category>
+		<category><![CDATA[j: HorizontalCenteredLayout]]></category>
+		<category><![CDATA[j:Alert]]></category>
+		<category><![CDATA[j:Application]]></category>
+		<category><![CDATA[j:Button]]></category>
+		<category><![CDATA[j:HorizontalLayout]]></category>
+		<category><![CDATA[j:Label]]></category>
+		<category><![CDATA[j:ScrollingViewport]]></category>
+		<category><![CDATA[js:HTTPService]]></category>
+		<category><![CDATA[JSON]]></category>
+
+		<guid isPermaLink="false">//royale.apache.org/?p=15834</guid>
+		<description><![CDATA[<p>Learn how to use the HTTPService to access external data in your Apache Royale application. We'll access Github API services to get JSON formatted data.</p>
+<p>The post <a rel="nofollow" href="//royale.apache.org/loading-external-data-through-httpservice/">Loading external data through HTTPService</a> appeared first on <a rel="nofollow" href="//royale.apache.org">Apache Royale™</a>.</p>
+]]></description>
+		<wfw:commentRss>//royale.apache.org/loading-external-data-through-httpservice/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
 		<title>Customization through the Royale API</title>
 		<link>//royale.apache.org/customization-through-the-royale-api/</link>
 		<comments>//royale.apache.org/customization-through-the-royale-api/#respond</comments>

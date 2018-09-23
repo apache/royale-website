@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>js:HTTPService &#8211; Apache Royale™</title>
+	<atom:link href="//royale.apache.org/tag/jshttpservice/feed/" rel="self" type="application/rss+xml" />
+	<link>//royale.apache.org/</link>
+	<description>Code once. Run everywhere</description>
+	<lastBuildDate>Sun, 23 Sep 2018 22:38:53 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>Loading external data through HTTPService</title>
+		<link>//royale.apache.org/loading-external-data-through-httpservice/</link>
+		<comments>//royale.apache.org/loading-external-data-through-httpservice/#respond</comments>
+		<pubDate>Sun, 23 Sep 2018 09:16:43 +0000</pubDate>
+		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
+				<category><![CDATA[Jewel UI Set]]></category>
+		<category><![CDATA[Royale Examples]]></category>
+		<category><![CDATA[j: HorizontalCenteredLayout]]></category>
+		<category><![CDATA[j:Alert]]></category>
+		<category><![CDATA[j:Application]]></category>
+		<category><![CDATA[j:Button]]></category>
+		<category><![CDATA[j:HorizontalLayout]]></category>
+		<category><![CDATA[j:Label]]></category>
+		<category><![CDATA[j:ScrollingViewport]]></category>
+		<category><![CDATA[js:HTTPService]]></category>
+		<category><![CDATA[JSON]]></category>
+
+		<guid isPermaLink="false">//royale.apache.org/?p=15834</guid>
+		<description><![CDATA[<p>Learn how to use the HTTPService to access external data in your Apache Royale application. We'll access Github API services to get JSON formatted data.</p>
+<p>The post <a rel="nofollow" href="//royale.apache.org/loading-external-data-through-httpservice/">Loading external data through HTTPService</a> appeared first on <a rel="nofollow" href="//royale.apache.org">Apache Royale™</a>.</p>
+]]></description>
+		<wfw:commentRss>//royale.apache.org/loading-external-data-through-httpservice/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
