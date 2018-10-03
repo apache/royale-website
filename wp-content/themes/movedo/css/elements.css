@@ -416,6 +416,10 @@ hr {
 	font-size: 0;
 }
 
+.grve-divider {
+	line-height: 1;
+}
+
 /* Line Divider */
 .grve-divider .grve-line-divider {
 	border-top: 1px solid;
@@ -442,11 +446,12 @@ hr {
 
 /* Custom Divider */
 .grve-divider .grve-custom-divider {
-	display: block;
+	display: inline-block;
+	vertical-align: middle;
 	clear: both;
 }
 
-.grve-divider .grve-custom-divider.grve-align-left {
+/*.grve-divider .grve-custom-divider.grve-align-left {
 	margin-left: 0;
 	margin-right: auto;
 }
@@ -459,7 +464,7 @@ hr {
 .grve-divider .grve-custom-divider.grve-align-right {
 	margin-left: auto;
 	margin-right: 0;
-}
+}*/
 
 
 .grve-divider .grve-divider-backtotop {
@@ -647,6 +652,56 @@ a.grve-btn:hover i {
 .grve-align-right .grve-btn {
 	margin-left: 30px;
 }
+
+
+/* Tablet (landscape) ----------- */
+@media only screen and (min-width: 960px) and (max-width: 1200px) {
+	.grve-tablet-align-left .grve-btn {
+		margin-right: 30px;
+		margin-left: auto;
+	}
+	.grve-tablet-align-right .grve-btn {
+		margin-right: auto;
+		margin-left: 30px;
+	}
+	.grve-tablet-align-center .grve-btn {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+}
+
+/* Tablet (portrait) ----------- */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.grve-tablet-sm-align-left .grve-btn {
+		margin-right: 30px;
+		margin-left: auto;
+	}
+	.grve-tablet-sm-align-right .grve-btn {
+		margin-right: auto;
+		margin-left: 30px;
+	}
+	.grve-tablet-sm-align-center .grve-btn {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (max-width: 767px) {
+	.grve-mobile-align-left .grve-btn {
+		margin-right: 30px;
+		margin-left: auto;
+	}
+	.grve-mobile-align-right .grve-btn {
+		margin-right: auto;
+		margin-left: 30px;
+	}
+	.grve-mobile-align-center .grve-btn {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+}
+
 
 #grve-theme-wrapper .grve-fullwidth-btn.grve-btn {
 	margin: 0;
@@ -1253,12 +1308,9 @@ a.grve-btn:hover i {
 /* =============================================================================
 - Language Selector
 ============================================================================= */
-.grve-language-element {
-	text-align: center;
-}
-
 .grve-language-element ul {
-	display: block;
+	display: inline-block;
+	vertical-align: top;
 	list-style: none;
 	margin: 0;
 }
@@ -1706,20 +1758,9 @@ html.ie9 .grve-isotope-item-inner.grve-zoom-in {
 	height: 30px;
 }
 
-/* Image Align */
-.grve-expandable-info.grve-align-left img {
-	margin-right: auto;
-	margin-left: 0;
-}
-
-.grve-expandable-info.grve-align-center img {
-	margin-right: auto;
-	margin-left: auto;
-}
-
-.grve-expandable-info.grve-align-right img {
-	margin-right: 0;
-	margin-left: auto;
+.grve-expandable-info img {
+	display: inline-block;
+	vertical-align: top;
 }
 
 .grve-expandable-info .grve-expandable-info-content {

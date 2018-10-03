@@ -412,6 +412,54 @@ code {
 	text-align: center;
 }
 
+/* Tablet (landscape) ----------- */
+@media only screen and (min-width: 960px) and (max-width: 1200px) {
+	.grve-column.grve-tablet-align-left,
+	.grve-column-inner.grve-tablet-align-left {
+		text-align: left;
+	}
+	.grve-column.grve-tablet-align-right,
+	.grve-column-inner.grve-tablet-align-right {
+		text-align: right;
+	}
+	.grve-column.grve-tablet-align-center,
+	.grve-column-inner.grve-tablet-align-center {
+		text-align: center;
+	}
+}
+
+/* Tablet (portrait) ----------- */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.grve-column.grve-tablet-sm-align-left,
+	.grve-column-inner.grve-tablet-sm-align-left {
+		text-align: left;
+	}
+	.grve-column.grve-tablet-sm-align-right,
+	.grve-column-inner.grve-tablet-sm-align-right {
+		text-align: right;
+	}
+	.grve-column.grve-tablet-sm-align-center,
+	.grve-column-inner.grve-tablet-sm-align-center {
+		text-align: center;
+	}
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (max-width: 767px) {
+	.grve-column.grve-mobile-align-left,
+	.grve-column-inner.grve-mobile-align-left {
+		text-align: left;
+	}
+	.grve-column.grve-mobile-align-right,
+	.grve-column-inner.grve-mobile-align-right {
+		text-align: right;
+	}
+	.grve-column.grve-mobile-align-center,
+	.grve-column-inner.grve-mobile-align-center {
+		text-align: center;
+	}
+}
+
 .alignleft,
 img.alignleft {
 	float: left;

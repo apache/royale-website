@@ -3514,6 +3514,7 @@ if( 1 == movedo_grve_main_data.device_animations ) {
 				if( $slider.parents('.grve-section').hasClass('grve-middle-content') ){
 					var smallDelay;
 					GRVE.basicElements.fixMiddleCarousel( $slider );
+					$slider.parents('.grve-section').data('plugin_columnSize').reCalculate();
 					$(window).on('resize',function(){
 						window.clearTimeout(smallDelay);
 						smallDelay = window.setTimeout(function () {
@@ -3628,6 +3629,7 @@ if( 1 == movedo_grve_main_data.device_animations ) {
 				if( $testimonial.parents('.grve-section').hasClass('grve-middle-content') ){
 					var smallDelay;
 					GRVE.basicElements.fixMiddleCarousel( $testimonial );
+					$testimonial.parents('.grve-section').data('plugin_columnSize').reCalculate();
 					$(window).on('resize',function(){
 						window.clearTimeout(smallDelay);
 						smallDelay = window.setTimeout(function () {
@@ -3700,6 +3702,7 @@ if( 1 == movedo_grve_main_data.device_animations ) {
 				if( $carousel.parents('.grve-section').hasClass('grve-middle-content') ){
 					var smallDelay;
 					GRVE.basicElements.fixMiddleCarousel( $carousel );
+					$carousel.parents('.grve-section').data('plugin_columnSize').reCalculate();
 					$(window).on('resize',function(){
 						window.clearTimeout(smallDelay);
 						smallDelay = window.setTimeout(function () {
@@ -3779,6 +3782,7 @@ if( 1 == movedo_grve_main_data.device_animations ) {
 				if( $carousel.parents('.grve-section').hasClass('grve-middle-content') ){
 					var smallDelay;
 					GRVE.basicElements.fixMiddleCarousel( $carousel );
+					$carousel.parents('.grve-section').data('plugin_columnSize').reCalculate();
 					$(window).on('resize',function(){
 						window.clearTimeout(smallDelay);
 						smallDelay = window.setTimeout(function () {
@@ -4467,6 +4471,7 @@ if( 1 == movedo_grve_main_data.device_animations ) {
 			function initIsotope(){
 				$container.isotope({
 					itemSelector: '.grve-isotope-item',
+					stamp: '.grve-isotope-stamp-item',
 					layoutMode: layout,
 					animationEngine : 'jquery',
 					masonry: {
