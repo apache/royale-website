@@ -12,12 +12,29 @@
 	<atom:link href="//royale.apache.org/feed/" rel="self" type="application/rss+xml" />
 	<link>//royale.apache.org/</link>
 	<description>Code once. Run everywhere</description>
-	<lastBuildDate>Wed, 03 Oct 2018 09:10:24 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 11 Dec 2018 18:12:09 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<generator>https://wordpress.org/?v=5.0</generator>
 	<item>
+		<title>Apache Royale v0.9.4 released!</title>
+		<link>//royale.apache.org/apache-royale-v0-9-4-released/</link>
+		<comments>//royale.apache.org/apache-royale-v0-9-4-released/#respond</comments>
+		<pubDate>Mon, 10 Dec 2018 15:30:13 +0000</pubDate>
+		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
+				<category><![CDATA[Announcements]]></category>
+		<category><![CDATA[Releases]]></category>
+		<category><![CDATA[releases]]></category>
+
+		<guid isPermaLink="false">//royale.apache.org/?p=15906</guid>
+		<description><![CDATA[<p>The Apache Royale community is pleased to announce a new release. Check the announcement to know more about the changes in this release!.</p>
+<p>The post <a rel="nofollow" href="//royale.apache.org/apache-royale-v0-9-4-released/">Apache Royale v0.9.4 released!</a> appeared first on <a rel="nofollow" href="//royale.apache.org">Apache Royale™</a>.</p>
+]]></description>
+		<wfw:commentRss>//royale.apache.org/apache-royale-v0-9-4-released/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
 		<title>Hello Node: How to transpile ActionScript for Node.js</title>
 		<link>//royale.apache.org/hello-node-how-to-transpile-actionscript-for-node-js/</link>
 		<comments>//royale.apache.org/hello-node-how-to-transpile-actionscript-for-node-js/#respond</comments>
@@ -212,26 +229,6 @@
 <p>The post <a rel="nofollow" href="//royale.apache.org/adding-an-item-to-a-jewel-list/">Adding an item to a Jewel List</a> appeared first on <a rel="nofollow" href="//royale.apache.org">Apache Royale™</a>.</p>
 ]]></description>
 		<wfw:commentRss>//royale.apache.org/adding-an-item-to-a-jewel-list/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-		</item>
-		<item>
-		<title>Using the Jewel Slider Control</title>
-		<link>//royale.apache.org/using-the-jewel-slider-control/</link>
-		<comments>//royale.apache.org/using-the-jewel-slider-control/#respond</comments>
-		<pubDate>Thu, 12 Apr 2018 20:38:04 +0000</pubDate>
-		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
-				<category><![CDATA[Jewel UI Set]]></category>
-		<category><![CDATA[Royale Examples]]></category>
-		<category><![CDATA[j:Application]]></category>
-		<category><![CDATA[j:Button]]></category>
-		<category><![CDATA[j:Slider]]></category>
-		<category><![CDATA[js:View]]></category>
-
-		<guid isPermaLink="false">//royale.apache.org/?p=15663</guid>
-		<description><![CDATA[<p>See the basic use of the Jewel Slider control in a Royale application.</p>
-<p>The post <a rel="nofollow" href="//royale.apache.org/using-the-jewel-slider-control/">Using the Jewel Slider Control</a> appeared first on <a rel="nofollow" href="//royale.apache.org">Apache Royale™</a>.</p>
-]]></description>
-		<wfw:commentRss>//royale.apache.org/using-the-jewel-slider-control/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 		</item>
 	</channel>

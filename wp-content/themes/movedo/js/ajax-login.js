@@ -2,17 +2,17 @@ jQuery(function($){
 
 	"use strict";
 
-	$('.grve-register-form-btn').click(function(e){
+	$('.grve-register-form-btn').on('click', function(e) {
 		e.preventDefault();
 		$('.grve-login-form-item').hide();
 		$('.grve-register-form').show();
 	});
-	$('.grve-login-form-btn').click(function(e){
+	$('.grve-login-form-btn').on('click', function(e) {
 		e.preventDefault();
 		$('.grve-login-form-item').hide();
 		$('.grve-login-form').show();
 	});
-	$('.grve-reset-password-form-btn').click(function(e){
+	$('.grve-reset-password-form-btn').on('click', function(e) {
 		e.preventDefault();
 		$('.grve-login-form-item').hide();
 		$('.grve-reset-password-form').show();

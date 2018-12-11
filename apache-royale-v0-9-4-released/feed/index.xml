@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments on: Apache Royale v0.9.4 released!</title>
+	<atom:link href="//royale.apache.org/apache-royale-v0-9-4-released/feed/" rel="self" type="application/rss+xml" />
+	<link>//royale.apache.org/apache-royale-v0-9-4-released/</link>
+	<description>Code once. Run everywhere</description>
+	<lastBuildDate>Tue, 11 Dec 2018 18:23:52 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.0</generator>
+</channel>
+</rss>
