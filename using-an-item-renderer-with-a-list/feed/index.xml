@@ -6,13 +6,16 @@
 	
 	>
 <channel>
-	<title>Comments on: Using an Item Renderer with a List</title>
+	<title>
+	Comments on: Using an Item Renderer with a List	</title>
 	<atom:link href="//royale.apache.org/using-an-item-renderer-with-a-list/feed/" rel="self" type="application/rss+xml" />
 	<link>//royale.apache.org/using-an-item-renderer-with-a-list/</link>
 	<description>Code once. Run everywhere</description>
-	<lastBuildDate>Tue, 11 Dec 2018 22:41:41 +0000</lastBuildDate>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.0</generator>
+	<lastBuildDate>Mon, 10 Dec 2018 16:41:20 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
 </channel>
 </rss>

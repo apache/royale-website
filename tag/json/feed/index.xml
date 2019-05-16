@@ -12,33 +12,35 @@
 	<atom:link href="//royale.apache.org/tag/json/feed/" rel="self" type="application/rss+xml" />
 	<link>//royale.apache.org/</link>
 	<description>Code once. Run everywhere</description>
-	<lastBuildDate>Tue, 11 Dec 2018 20:28:45 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 03 Oct 2018 09:10:24 +0000</lastBuildDate>
 	<language>en-US</language>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.0</generator>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
 	<item>
 		<title>Hello Node: How to transpile ActionScript for Node.js</title>
 		<link>//royale.apache.org/hello-node-how-to-transpile-actionscript-for-node-js/</link>
-		<comments>//royale.apache.org/hello-node-how-to-transpile-actionscript-for-node-js/#respond</comments>
-		<pubDate>Tue, 02 Oct 2018 22:44:00 +0000</pubDate>
+				<comments>//royale.apache.org/hello-node-how-to-transpile-actionscript-for-node-js/#respond</comments>
+				<pubDate>Tue, 02 Oct 2018 22:44:00 +0000</pubDate>
 		<dc:creator><![CDATA[Josh Tynjala]]></dc:creator>
 				<category><![CDATA[asnodec]]></category>
 		<category><![CDATA[Node.js]]></category>
 		<category><![CDATA[JSON]]></category>
 
 		<guid isPermaLink="false">//royale.apache.org/?p=15849</guid>
-		<description><![CDATA[<p>Learn to use <em>asnodec</em> to write ActionScript code that runs in the popular server-side JavaScript environment, <a href="//nodejs.org">Node.js</a></p>
-<p>The post <a rel="nofollow" href="//royale.apache.org/hello-node-how-to-transpile-actionscript-for-node-js/">Hello Node: How to transpile ActionScript for Node.js</a> appeared first on <a rel="nofollow" href="//royale.apache.org">Apache Royale™</a>.</p>
+				<description><![CDATA[<p>Learn to use <em>asnodec</em> to write ActionScript code that runs in the popular server-side JavaScript environment, <a href="http://nodejs.org/">Node.js</a></p>
+<p>The post <a rel="nofollow" href="//royale.apache.org/hello-node-how-to-transpile-actionscript-for-node-js/">Hello Node: How to transpile ActionScript for Node.js</a> appeared first on <a rel="nofollow" href="//royale.apache.org/">Apache Royale™</a>.</p>
 ]]></description>
-		<wfw:commentRss>//royale.apache.org/hello-node-how-to-transpile-actionscript-for-node-js/feed/</wfw:commentRss>
+						<wfw:commentRss>//royale.apache.org/hello-node-how-to-transpile-actionscript-for-node-js/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
-		</item>
+							</item>
 		<item>
 		<title>Loading external data through HTTPService</title>
 		<link>//royale.apache.org/loading-external-data-through-httpservice/</link>
-		<comments>//royale.apache.org/loading-external-data-through-httpservice/#respond</comments>
-		<pubDate>Sun, 23 Sep 2018 09:16:43 +0000</pubDate>
+				<comments>//royale.apache.org/loading-external-data-through-httpservice/#respond</comments>
+				<pubDate>Sun, 23 Sep 2018 09:16:43 +0000</pubDate>
 		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
 				<category><![CDATA[Jewel UI Set]]></category>
 		<category><![CDATA[Royale Examples]]></category>
@@ -53,11 +55,11 @@
 		<category><![CDATA[JSON]]></category>
 
 		<guid isPermaLink="false">//royale.apache.org/?p=15834</guid>
-		<description><![CDATA[<p>Learn how to use the HTTPService to access external data in your Apache Royale application. We'll access Github API services to get JSON formatted data.</p>
-<p>The post <a rel="nofollow" href="//royale.apache.org/loading-external-data-through-httpservice/">Loading external data through HTTPService</a> appeared first on <a rel="nofollow" href="//royale.apache.org">Apache Royale™</a>.</p>
+				<description><![CDATA[<p>Learn how to use the HTTPService to access external data in your Apache Royale application. We'll access Github API services to get JSON formatted data.</p>
+<p>The post <a rel="nofollow" href="//royale.apache.org/loading-external-data-through-httpservice/">Loading external data through HTTPService</a> appeared first on <a rel="nofollow" href="//royale.apache.org/">Apache Royale™</a>.</p>
 ]]></description>
-		<wfw:commentRss>//royale.apache.org/loading-external-data-through-httpservice/feed/</wfw:commentRss>
+						<wfw:commentRss>//royale.apache.org/loading-external-data-through-httpservice/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
-		</item>
+							</item>
 	</channel>
 </rss>

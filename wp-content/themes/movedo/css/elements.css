@@ -63,6 +63,12 @@
 - Portfolio Movedo Style
 - Slider & Carousel Navigations
 - Countdown
+- Gutenberg
+--- Block Quote
+--- Block Pullquote
+--- Block Separator
+--- Block  Archives/ Categories / Latest Posts
+--- Block Gallery
 - Widget
 --- Widget Categories
 --- Widget Archive
@@ -629,6 +635,10 @@ a.grve-btn i {
 	-webkit-backface-visibility : hidden;
 	-moz-backface-visibility    : hidden;
 	-ms-backface-visibility     : hidden;
+}
+
+a.grve-btn.grve-btn-underline i {
+	margin-left: 0.923em;
 }
 
 a.grve-btn:hover i {
@@ -2118,7 +2128,7 @@ ul.grve-socials li a:hover .grve-tooltip {
 	margin-left: 0;
 }
 
-.grve-team-social {
+.grve-team.grve-layout-2 .grve-team-social {
 	display: none;
 }
 
@@ -5665,6 +5675,132 @@ ul.grve-post-gallery li a {
 .grve-countdown.grve-style-3 .grve-countdown-item span {
 	display: block;
 	margin-top: 5px;
+}
+
+
+/* =============================================================================
+- Gutenberg
+============================================================================= */
+
+/* =============================================================================
+--- Block Quote
+============================================================================= */
+.wp-block-quote.is-large:before,
+.wp-block-quote.is-style-large:before {
+	content: '';
+	width: 0;
+}
+
+.wp-block-quote.is-large cite,
+.wp-block-quote.is-large footer,
+.wp-block-quote.is-style-large cite,
+.wp-block-quote.is-style-large footer {
+    font-size: 18px;
+}
+
+.wp-block-quote cite,
+.wp-block-quote footer {
+	font-size: 13px;
+	font-style: italic;
+	letter-spacing: inherit;
+}
+
+/* =============================================================================
+--- Block Pullquote
+============================================================================= */
+
+.wp-block-pullquote {
+	border: none;
+}
+blockquote.wp-block-pullquote:before,
+.wp-block-pullquote blockquote:before {
+	content: '';
+	width:0;
+}
+
+.wp-block-pullquote {
+    border-top: 4px solid #555d66;
+    border-bottom: 4px solid #555d66;
+    color: #40464d;
+	margin-bottom: 30px;
+}
+
+blockquote.wp-block-pullquote,
+.wp-block-pullquote blockquote {
+    opacity: 1;
+
+}
+
+.wp-block-pullquote p {
+    font-size: 28px;
+    line-height: 1.6;
+}
+
+blockquote.wp-block-pullquote.is-style-solid-color p,
+.wp-block-pullquote.is-style-solid-color blockquote p {
+    font-size: 32px;
+}
+
+blockquote.wp-block-pullquote.alignleft p,
+blockquote.wp-block-pullquote.alignright p,
+.wp-block-pullquote.alignleft blockquote p,
+.wp-block-pullquote.alignright blockquote p {
+    font-size: 20px;
+}
+
+.wp-block-pullquote cite,
+.wp-block-pullquote footer {
+	font-size: 13px;
+	font-style: italic;
+	letter-spacing: inherit;
+}
+
+/* =============================================================================
+--- Block Separator
+============================================================================= */
+
+.wp-block-separator:not(.is-style-wide):not(.is-style-dots) {
+    max-width: 100px;
+}
+
+/* =============================================================================
+--- Block  Archives/ Categories / Latest Posts
+============================================================================= */
+.wp-block-archives,
+.wp-block-categories,
+.wp-block-latest-posts,
+.wp-block-latest-comments {
+	margin: 0 0 28px 0;
+	list-style: none;
+}
+
+.wp-block-archives li,
+.wp-block-categories li,
+.wp-block-latest-posts li {
+	margin-bottom: 6px;
+	text-align: left;
+	overflow: hidden;
+}
+
+.wp-block-archives, li ul,
+.wp-block-categories li ul,
+.wp-block-latest-posts li ul {
+	padding-left: 10px;
+}
+
+.wp-block-archives li:last-child,
+.wp-block-categories li:last-child,
+.wp-block-latest-posts li:last-child {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+/* =============================================================================
+--- Block Gallery
+============================================================================= */
+
+.wp-block-gallery {
+	margin: 0 0 28px 0;
 }
 
 

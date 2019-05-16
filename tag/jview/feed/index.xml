@@ -12,16 +12,18 @@
 	<atom:link href="//royale.apache.org/tag/jview/feed/" rel="self" type="application/rss+xml" />
 	<link>//royale.apache.org/</link>
 	<description>Code once. Run everywhere</description>
-	<lastBuildDate>Tue, 11 Dec 2018 20:28:45 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 10 Dec 2018 16:38:18 +0000</lastBuildDate>
 	<language>en-US</language>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.0</generator>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
 	<item>
 		<title>Binding the text property of a Jewel TextInput to update a text Label</title>
 		<link>//royale.apache.org/binding-the-text-property-of-a-jewel-textinput-to-update-a-text-label/</link>
-		<comments>//royale.apache.org/binding-the-text-property-of-a-jewel-textinput-to-update-a-text-label/#respond</comments>
-		<pubDate>Tue, 08 May 2018 22:31:29 +0000</pubDate>
+				<comments>//royale.apache.org/binding-the-text-property-of-a-jewel-textinput-to-update-a-text-label/#respond</comments>
+				<pubDate>Tue, 08 May 2018 22:31:29 +0000</pubDate>
 		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
 				<category><![CDATA[Jewel UI Set]]></category>
 		<category><![CDATA[Royale Examples]]></category>
@@ -33,11 +35,11 @@
 		<category><![CDATA[j:View]]></category>
 
 		<guid isPermaLink="false">//royale.apache.org/?p=15724</guid>
-		<description><![CDATA[<p>Learn how to change a Label's text with a Jewel TextInput using both a change event and data binding.</p>
-<p>The post <a rel="nofollow" href="//royale.apache.org/binding-the-text-property-of-a-jewel-textinput-to-update-a-text-label/">Binding the text property of a Jewel TextInput to update a text Label</a> appeared first on <a rel="nofollow" href="//royale.apache.org">Apache Royale™</a>.</p>
+				<description><![CDATA[<p>Learn how to change a Label's text with a Jewel TextInput using both a change event and data binding.</p>
+<p>The post <a rel="nofollow" href="//royale.apache.org/binding-the-text-property-of-a-jewel-textinput-to-update-a-text-label/">Binding the text property of a Jewel TextInput to update a text Label</a> appeared first on <a rel="nofollow" href="//royale.apache.org/">Apache Royale™</a>.</p>
 ]]></description>
-		<wfw:commentRss>//royale.apache.org/binding-the-text-property-of-a-jewel-textinput-to-update-a-text-label/feed/</wfw:commentRss>
+						<wfw:commentRss>//royale.apache.org/binding-the-text-property-of-a-jewel-textinput-to-update-a-text-label/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
-		</item>
+							</item>
 	</channel>
 </rss>

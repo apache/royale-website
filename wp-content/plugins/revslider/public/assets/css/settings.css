@@ -1313,3 +1313,5 @@ https://una.im/CSSgram/
 .tp-kbimg-wrap:before,
 .tp-kbimg-wrap:after {height:500%;width:500%}
 
+
+.rs-background-video-layer iframe {visibility:inherit !important;}

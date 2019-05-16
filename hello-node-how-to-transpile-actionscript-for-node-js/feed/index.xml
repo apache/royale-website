@@ -6,13 +6,16 @@
 	
 	>
 <channel>
-	<title>Comments on: Hello Node: How to transpile ActionScript for Node.js</title>
+	<title>
+	Comments on: Hello Node: How to transpile ActionScript for Node.js	</title>
 	<atom:link href="//royale.apache.org/hello-node-how-to-transpile-actionscript-for-node-js/feed/" rel="self" type="application/rss+xml" />
 	<link>//royale.apache.org/hello-node-how-to-transpile-actionscript-for-node-js/</link>
 	<description>Code once. Run everywhere</description>
-	<lastBuildDate>Tue, 11 Dec 2018 22:41:38 +0000</lastBuildDate>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.0</generator>
+	<lastBuildDate>Wed, 03 Oct 2018 09:10:24 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
 </channel>
 </rss>

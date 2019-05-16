@@ -6,13 +6,16 @@
 	
 	>
 <channel>
-	<title>Comments on: Selecting options from a group of Jewel CheckBox controls</title>
+	<title>
+	Comments on: Selecting options from a group of Jewel CheckBox controls	</title>
 	<atom:link href="//royale.apache.org/selecting-options-from-a-group-of-jewel-checkbox-controls/feed/" rel="self" type="application/rss+xml" />
 	<link>//royale.apache.org/selecting-options-from-a-group-of-jewel-checkbox-controls/</link>
 	<description>Code once. Run everywhere</description>
-	<lastBuildDate>Tue, 11 Dec 2018 22:41:42 +0000</lastBuildDate>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.0</generator>
+	<lastBuildDate>Mon, 10 Dec 2018 16:39:35 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
 </channel>
 </rss>

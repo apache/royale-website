@@ -1,5 +1,5 @@
 /**
- *  Advanced iframe free/pro functions v7.5.x
+ *  Advanced iframe free/pro functions v7.6.x
 */
 /* jslint devel: true, unused: false */
 /* globals ai_show_id_only:false, aiIsIe8: false, aiChangeUrl: false, aiResizeIframeHeightId: false, aiShowIframeId: false, findAndReplaceDOMText: false */
@@ -25,6 +25,7 @@ function aiResizeIframe(obj, resize_width, resize_min_height) {
     }
     if (obj.contentWindow.document.body != null) {
       var oldScrollposition = jQuery(document).scrollTop();
+      obj.style.marginTop = obj.style.marginBottom = 0;
       obj.height = Number(resize_min_height); // set to 1 because otherwise the iframe does never get smaller.
       obj.style.height = Number(resize_min_height) + 'px';
       var newheight = aiGetIframeHeight(obj);
@@ -762,6 +763,7 @@ function aiGenerateShortcode() {
         output += aiGenerateTextShortcode('id');
         output += aiGenerateTextShortcode('name');
         output += aiGenerateRadioShortcode('allowfullscreen','false');
+        output += aiGenerateTextShortcode('safari_fix_url');
 
         // advanced settings
         output += aiGenerateTextShortcode('url_forward_parameter');
@@ -1230,9 +1232,9 @@ function aiChangeUrlParam(loc, param, orig, prefix) {
      if (removeProtocol) {
        newUrl = newUrl.replace('http%3A%2F%2F','');
        if (window.location.href.toLowerCase().startsWith("http:")) {
-           newUrl = newUrl.replace('https%3A%2F%2F','');  
+           newUrl = newUrl.replace('https%3A%2F%2F','s|');  
        } else {
-           newUrl = newUrl.replace('https%3A%2F%2F','s|');
+           newUrl = newUrl.replace('https%3A%2F%2F','');
        }
      }
     } else {
@@ -1463,6 +1465,8 @@ function aiProcessMessage(event,id,debug) {
           var type = jsObject.aitype;
           if (type === 'debug') {
              aiProcessDebug(jsObject);
+          } else if (type === 'scrollToTop') {
+             aiProcessScrollToTop(jsObject);
           } else {
             // check if the data is of the expected
             if (type === 'height') {
@@ -1491,6 +1495,11 @@ function aiProcessDebug(jsObject) {
     if (jQuery('#aiDebugDiv').length !== 0) {
         jQuery('#aiDebugDiv').append('<p class="ai-debug-remote"> r: ' + debugData + '</p>');
     }
+}
+
+function aiProcessScrollToTop(jsObject) {
+     var id = jsObject.id;
+     aiScrollToTop(id, aiOnloadScrollTop);
 }
 
 function aiProcessHeight(jsObject) {
