@@ -1304,7 +1304,7 @@ if( 1 == movedo_grve_main_data.device_animations ) {
 					var image = new Image(),
 						$that = $(this);
 					image.src = imageUrl($that.css('background-image'));
-					$(image).load(waitImgDone).error(waitImgDone);
+					$(image).on('load',waitImgDone).on( "error", waitImgDone );
 				});
 			}
 
@@ -1716,6 +1716,16 @@ if( 1 == movedo_grve_main_data.device_animations ) {
 			}
 		}
 	};
+
+	// # Woocommerce Products Refresh
+	// ============================================================================= //
+	GRVE.wooProductsLoop = {
+		init : function(){
+			GRVE.isotope.init();
+			GRVE.basicElements.wooProduct();
+			GRVE.basicElements.hovers();			
+		}
+	};			
 
 	// # Page Settings
 	// ============================================================================= //

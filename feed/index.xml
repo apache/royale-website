@@ -12,14 +12,27 @@
 	<atom:link href="//royale.apache.org/feed/" rel="self" type="application/rss+xml" />
 	<link>//royale.apache.org/</link>
 	<description>Code once. Run everywhere</description>
-	<lastBuildDate>Wed, 03 Oct 2018 09:10:24 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 26 May 2019 20:43:11 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.2</generator>
+	<generator>https://wordpress.org/?v=5.2.1</generator>
 	<item>
+		<title>How to create a Desktop Application with Royale and Electron</title>
+		<link>//royale.apache.org/how-to-create-a-desktop-application-with-royale-and-electron/</link>
+				<pubDate>Sun, 26 May 2019 20:17:03 +0000</pubDate>
+		<dc:creator><![CDATA[Judah Frangipane]]></dc:creator>
+				<category><![CDATA[Desktop]]></category>
+		<category><![CDATA[Jewel UI Set]]></category>
+
+		<guid isPermaLink="false">//royale.apache.org/?p=16012</guid>
+				<description><![CDATA[<p>With Apache Royale and Electron you can publish your projects to desktop applications. In this guide you'll learn how to do that.</p>
+<p>The post <a rel="nofollow" href="//royale.apache.org/how-to-create-a-desktop-application-with-royale-and-electron/">How to create a Desktop Application with Royale and Electron</a> appeared first on <a rel="nofollow" href="//royale.apache.org/">Apache Royale™</a>.</p>
+]]></description>
+									</item>
+		<item>
 		<title>Apache Royale v0.9.4 released!</title>
 		<link>//royale.apache.org/apache-royale-v0-9-4-released/</link>
 				<comments>//royale.apache.org/apache-royale-v0-9-4-released/#respond</comments>
@@ -210,27 +223,6 @@
 <p>The post <a rel="nofollow" href="//royale.apache.org/creating-a-group-of-jewel-radiobuttons/">Creating a group of Jewel radio buttons</a> appeared first on <a rel="nofollow" href="//royale.apache.org/">Apache Royale™</a>.</p>
 ]]></description>
 						<wfw:commentRss>//royale.apache.org/creating-a-group-of-jewel-radiobuttons/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-							</item>
-		<item>
-		<title>Adding an item to a Jewel List</title>
-		<link>//royale.apache.org/adding-an-item-to-a-jewel-list/</link>
-				<comments>//royale.apache.org/adding-an-item-to-a-jewel-list/#respond</comments>
-				<pubDate>Mon, 16 Apr 2018 10:41:05 +0000</pubDate>
-		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
-				<category><![CDATA[Jewel UI Set]]></category>
-		<category><![CDATA[Royale Examples]]></category>
-		<category><![CDATA[j:Application]]></category>
-		<category><![CDATA[j:Button]]></category>
-		<category><![CDATA[j:List]]></category>
-		<category><![CDATA[j:Slider]]></category>
-		<category><![CDATA[js:View]]></category>
-
-		<guid isPermaLink="false">//royale.apache.org/?p=15679</guid>
-				<description><![CDATA[<p>Learn how to show data in a Jewel List control and how to add items to it in a Royale application.</p>
-<p>The post <a rel="nofollow" href="//royale.apache.org/adding-an-item-to-a-jewel-list/">Adding an item to a Jewel List</a> appeared first on <a rel="nofollow" href="//royale.apache.org/">Apache Royale™</a>.</p>
-]]></description>
-						<wfw:commentRss>//royale.apache.org/adding-an-item-to-a-jewel-list/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 							</item>
 	</channel>
