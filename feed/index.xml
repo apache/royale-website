@@ -12,7 +12,7 @@
 	<atom:link href="//royale.apache.org/feed/" rel="self" type="application/rss+xml" />
 	<link>//royale.apache.org/</link>
 	<description>Code once. Run everywhere</description>
-	<lastBuildDate>Sun, 26 May 2019 20:43:11 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 27 May 2019 14:34:29 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,6 +22,7 @@
 	<item>
 		<title>How to create a Desktop Application with Royale and Electron</title>
 		<link>//royale.apache.org/how-to-create-a-desktop-application-with-royale-and-electron/</link>
+				<comments>//royale.apache.org/how-to-create-a-desktop-application-with-royale-and-electron/#respond</comments>
 				<pubDate>Sun, 26 May 2019 20:17:03 +0000</pubDate>
 		<dc:creator><![CDATA[Judah Frangipane]]></dc:creator>
 				<category><![CDATA[Desktop]]></category>
@@ -31,7 +32,9 @@
 				<description><![CDATA[<p>With Apache Royale and Electron you can publish your projects to desktop applications. In this guide you'll learn how to do that.</p>
 <p>The post <a rel="nofollow" href="//royale.apache.org/how-to-create-a-desktop-application-with-royale-and-electron/">How to create a Desktop Application with Royale and Electron</a> appeared first on <a rel="nofollow" href="//royale.apache.org/">Apache Royale™</a>.</p>
 ]]></description>
-									</item>
+						<wfw:commentRss>//royale.apache.org/how-to-create-a-desktop-application-with-royale-and-electron/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
 		<item>
 		<title>Apache Royale v0.9.4 released!</title>
 		<link>//royale.apache.org/apache-royale-v0-9-4-released/</link>
