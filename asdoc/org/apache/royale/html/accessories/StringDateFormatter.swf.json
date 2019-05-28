@@ -1,0 +1,26 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.accessories.StringDateFormatter",
+  "baseClassname": "org.apache.royale.html.accessories.SimpleDateFormatter"
+  ,
+    "description": "Formats a date from a string Because of the compleixities of date formatting, this formatter does not differentiate between single digit formats and double digit formats for days and months.",
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html.accessories.StringDateFormatter",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "format",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "Formats the date. If a String is passed in, the date string is formatted using the dateFormat. If a Date is passed in, it formats the same as other Date formatters.",
+          "return": "String",
+          "params": [{ "name": "value", "type": "Object"}]}
+      ]
+  }

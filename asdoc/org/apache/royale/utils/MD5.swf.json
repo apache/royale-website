@@ -2,7 +2,6 @@
   "qname": "org.apache.royale.utils.MD5",
   "baseClassname": ""
   ,
-    "description": "The MD5 Message-Digest Algorithm  Implementation based on algorithm description at http://www.faqs.org/rfcs/rfc1321.html",
   "members": [
   { "type": "method",
         "qname": "hash",
@@ -10,40 +9,7 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Performs the MD5 hash algorithm on a string.",
-        "tags": [
-        {  "tagName": "param",
-               "values": ["s The string to hash"]},
-            {  "tagName": "playerversion",
-               "values": ["Flash 8.5"]},
-            {  "tagName": "productversion",
-               "values": ["Royale 0.8"]},
-            {  "tagName": "return",
-               "values": ["A string containing the hash value of s"]},
-            {  "tagName": "langversion",
-               "values": ["ActionScript 3.0"]}  ],
           "return": "String",
-          "params": [{ "name": "s", "type": "String"}]}
-      ,
-      { "type": "method",
-        "qname": "hashBinary",
-        "namespace": "public",
-        "bindable": [],
-        "details": ["static"],
-        "deprecated": {},
-          "description": "Performs the MD5 hash algorithm on a BinaryData.",
-        "tags": [
-        {  "tagName": "param",
-               "values": ["s The string to hash"]},
-            {  "tagName": "playerversion",
-               "values": ["Flash 8.5"]},
-            {  "tagName": "productversion",
-               "values": ["Royale 0.8"]},
-            {  "tagName": "return",
-               "values": ["A string containing the hash value of s"]},
-            {  "tagName": "langversion",
-               "values": ["ActionScript 3.0"]}  ],
-          "return": "String",
-          "params": [{ "name": "s", "type": "org.apache.royale.utils.BinaryData"}]}
+          "params": [{ "name": "value", "type": "String"}]}
       ]
   }

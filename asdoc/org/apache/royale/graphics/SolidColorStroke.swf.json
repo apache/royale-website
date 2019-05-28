@@ -71,7 +71,9 @@
         "details": [],
         "deprecated": {},
           "return": "void",
-          "params": [{ "name": "g", "type": "flash.display.Graphics"}]}
+          "params": [{ "name": "g", "type": "flash.display.Graphics"},
+        { "name": "targetBounds", "type": "org.apache.royale.geom.Rectangle"},
+        { "name": "targetOrigin", "type": "org.apache.royale.geom.Point"}]}
       ,
       { "type": "accessor",
         "access": "read-write",

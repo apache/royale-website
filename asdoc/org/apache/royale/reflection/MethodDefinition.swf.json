@@ -1,6 +1,6 @@
 { "type": "class",
   "qname": "org.apache.royale.reflection.MethodDefinition",
-  "baseClassname": "org.apache.royale.reflection.DefinitionWithMetaData"
+  "baseClassname": "org.apache.royale.reflection.MemberDefinitionBase"
   ,
     "description": "The description of a method inside a class or interface",
   "tags": [
@@ -19,6 +19,8 @@
         "deprecated": {},
           "return": "",
           "params": [{ "name": "name", "type": "String"},
+        { "name": "isStatic", "type": "Boolean"},
+        { "name": "owner", "type": "org.apache.royale.reflection.TypeDefinition"},
         { "name": "rawData", "type": "Object"}]}
       ,
       { "type": "accessor",

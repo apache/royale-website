@@ -27,7 +27,7 @@
             {  "tagName": "copy",
                "values": ["org.apache.royale.core.ISelectionModel#dataProvider", "org.apache.royale.core.ISelectionModel#dataProvider"]},
             {  "tagName": "productversion",
-               "values": ["Royale 0.0", "Royale 0.0"]},
+               "values": ["Royale 0.9", "Royale 0.9"]},
             {  "tagName": "langversion",
                "values": ["3.0", "3.0"]}  ]}]
   }

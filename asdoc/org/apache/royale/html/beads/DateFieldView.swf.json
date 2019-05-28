@@ -95,7 +95,7 @@
                "values": ["3.0"]}  ]},
       { "type": "accessor",
         "access": "read-only",
-        "return": "org.apache.royale.html.DateChooser",
+        "return": "org.apache.royale.html.supportClasses.IDateChooser",
         "qname": "popUp",
         "namespace": "public",
         "bindable": [],

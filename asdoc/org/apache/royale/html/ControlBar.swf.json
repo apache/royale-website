@@ -2,7 +2,7 @@
   "qname": "org.apache.royale.html.ControlBar",
   "baseClassname": "org.apache.royale.html.Group"
   ,
-    "description": "The ControlBar class is used within a Panel as a place to position additional controls. The ControlBar appears at the bottom of the org.apache.royale.html.Panel and is not part of the Panel's scrollable content area. The ControlBar is a Container and implements the org.apache.royale.core.IChrome interface, indicating that is outside of the Container's content area. The ControlBar uses the following beads:  org.apache.royale.core.IBeadModel: the data model for the component. org.apache.royale.core.IMeasurementBead: helps determine the overlay size of the ControlBar for layout. org.apache.royale.core.IBorderBead: if present, displays a border around the component. org.apache.royale.core.IBackgroundBead: if present, displays a solid background below the ControlBar.",
+    "description": "The ControlBar class is used within a Panel as a place to position additional controls. The ControlBar appears at the bottom of the org.apache.royale.html.Panel and is not part of the Panel's scrollable content area. The ControlBar is a Container and implements the org.apache.royale.core.IChrome interface, indicating that is outside of the Container's content area. The ControlBar uses the following beads:  org.apache.royale.core.IBeadModel: the data model for the component. org.apache.royale.core.IMeasurementBead: helps determine the overlay size of the ControlBar for layout. org.apache.royale.html.beads.IBorderBead: if present, displays a border around the component. org.apache.royale.html.beads.IBackgroundBead: if present, displays a solid background below the ControlBar.",
   "tags": [
   {  "tagName": "toplevel",
          "values": []},

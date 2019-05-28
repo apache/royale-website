@@ -51,7 +51,21 @@
           "description": "",
         "tags": [
         {  "tagName": "private",
-               "values": []}  ]}]
+               "values": []}  ]},
+      { "type": "accessor",
+        "access": "read-only",
+        "return": "int",
+        "qname": "$numElements",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Support strandChildren.",
+        "tags": [
+        {  "tagName": "private",
+               "values": []},
+            {  "tagName": "suppress",
+               "values": ["{undefinedNames}"]}  ]}]
   ,
   "events": [
   { "qname": "stateChangeComplete",

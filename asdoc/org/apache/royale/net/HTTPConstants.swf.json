@@ -1,6 +1,6 @@
 { "type": "class",
   "qname": "org.apache.royale.net.HTTPConstants",
-  "baseClassname": "Object"
+  "baseClassname": ""
   ,
   "members": [
   { "type": "field",

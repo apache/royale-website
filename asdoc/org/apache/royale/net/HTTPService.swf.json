@@ -52,7 +52,7 @@
                "values": ["3.0"]}  ]},
       { "type": "accessor",
         "access": "read-write",
-        "return": "String",
+        "return": "Object",
         "qname": "contentData",
         "namespace": "public",
         "bindable": [],

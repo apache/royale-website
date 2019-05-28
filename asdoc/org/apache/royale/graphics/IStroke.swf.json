@@ -8,7 +8,9 @@
     "details": [],
     "deprecated": {},
       "return": "void",
-      "params": [{ "name": "s", "type": "flash.display.Graphics"}]}
+      "params": [{ "name": "s", "type": "flash.display.Graphics"},
+    { "name": "targetBounds", "type": "org.apache.royale.geom.Rectangle"},
+    { "name": "targetOrigin", "type": "org.apache.royale.geom.Point"}]}
   ,
   { "type": "accessor",
     "access": "read-write",

@@ -2,7 +2,7 @@
   "qname": "org.apache.royale.core.BindableCSSStyles",
   "baseClassname": "org.apache.royale.events.EventDispatcher"
   ,
-    "description": "The BindableCSSStyles class contains CSS style properties supported by SimpleCSSValuesImpl but dispatch change events when modified",
+    "description": "The BindableCSSStyles class contains CSS style properties supported by SimpleCSSValuesImpl but dispatch change events when modified  The class implements IStyleObject which means the host object sets a reference onto this one, allowing us to reapply the styles to the host component when the style is changed.",
   "tags": [
   {  "tagName": "playerversion",
          "values": ["Flash 10.2", "AIR 2.6"]},
@@ -28,6 +28,18 @@
           "return": "",
           "params": []}
       ,
+      { "type": "accessor",
+        "access": "write-only",
+        "return": "org.apache.royale.core.IStyleableObject",
+        "qname": "object",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Sets the host object's reference so that we can update the HTML element styles on this if our properties are changed in the future.",
+        "tags": [
+        {  "tagName": "copy",
+               "values": ["org.apache.royale.core.IStyleObject#object"]}  ]},
       { "type": "field",
         "qname": "styleList",
         "return": "Object",

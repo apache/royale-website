@@ -36,6 +36,16 @@
         { "name": "rawData", "type": "Object"}]}
       ,
       { "type": "method",
+        "qname": "internalGetDefinition",
+        "namespace": "internal",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "return": "org.apache.royale.reflection.TypeDefinition",
+          "params": [{ "name": "name", "type": "String"},
+        { "name": "rawData", "type": "Object"}]}
+      ,
+      { "type": "method",
         "qname": "org.apache.royale.reflection.TypeDefinition",
         "namespace": "",
         "bindable": [],

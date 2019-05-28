@@ -43,21 +43,5 @@
             {  "tagName": "productversion",
                "values": ["Royale 0.9"]},
             {  "tagName": "langversion",
-               "values": ["3.0"]}  ]},
-      { "type": "accessor",
-        "access": "read-write",
-        "return": "org.apache.royale.core.IFactory",
-        "qname": "menuClass",
-        "namespace": "public",
-        "bindable": [],
-        "details": [],
-        "deprecated": {},
-          "description": "The class to use that can manufacture an IMenu. This can be set either in a style using \"IMenuClassFactory\" or directory from ActionScript or MXML.",
-        "tags": [
-        {  "tagName": "playerversion",
-               "values": ["Flash 10.2", "AIR 2.6"]},
-            {  "tagName": "productversion",
-               "values": ["Royale 0.9"]},
-            {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
   }

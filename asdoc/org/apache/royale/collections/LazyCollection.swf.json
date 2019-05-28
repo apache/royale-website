@@ -94,6 +94,8 @@
                "values": ["org.apache.royale.core.UIBase#strand"]},
             {  "tagName": "productversion",
                "values": ["Royale 0.0"]},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.events.IEventDispatcher"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]},
       { "type": "field",

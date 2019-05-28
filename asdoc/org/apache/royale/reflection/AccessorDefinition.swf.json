@@ -19,6 +19,8 @@
         "deprecated": {},
           "return": "",
           "params": [{ "name": "name", "type": "String"},
+        { "name": "isStatic", "type": "Boolean"},
+        { "name": "owner", "type": "org.apache.royale.reflection.TypeDefinition"},
         { "name": "rawData", "type": "Object"}]}
       ,
       { "type": "accessor",

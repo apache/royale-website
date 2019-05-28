@@ -1,0 +1,8 @@
+{ "type": "class",
+  "qname": "dialogPolyfill",
+  "baseClassname": ""
+  ,
+    "description": "",
+  "tags": [
+  {  "tagName": "externs",
+         "values": []}  ]}

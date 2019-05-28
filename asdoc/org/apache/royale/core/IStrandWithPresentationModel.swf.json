@@ -1,0 +1,28 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.core.IStrandWithPresentationModel",
+    "description": "The IStrandWithPresentationModel interface is implemented by any IStrand that supports a separate bead that is a presentationModel.  A presentationModel is a set of properties that act as parameters to the View as opposed to the regular model that is the data to be displayed by the view.  A simple example is the rowHeight of a vertical list.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-only",
+    "return": "org.apache.royale.core.IBead",
+    "qname": "presentationModel",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "Returns the bead that holds the properties for the presentationModel.",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.0"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]}]
+  }

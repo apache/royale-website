@@ -2,6 +2,7 @@
   "qname": "org.apache.royale.net.RemoteObject",
   "baseClassname": "org.apache.royale.events.EventDispatcher"
   ,
+    "description": "This is the RemoteObject that has a similar behaviour that Flex RemoteObject and can be use with BlazeDS, LCDS or CF backends",
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.net.RemoteObject",
@@ -9,7 +10,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "<inject_html> <script src=\"https://rawgit.com/emilkm/amfjs/master/amf.js\"></script> </inject_html>",
+          "description": "constructor",
           "return": "",
           "params": []}
       ,
@@ -33,14 +34,6 @@
         "access": "read-write",
         "return": "String",
         "qname": "destination",
-        "namespace": "public",
-        "bindable": [],
-        "details": [],
-        "deprecated": {}},
-      { "type": "accessor",
-        "access": "read-write",
-        "return": "String",
-        "qname": "source",
         "namespace": "public",
         "bindable": [],
         "details": [],

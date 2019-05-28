@@ -77,7 +77,7 @@
   }
 { "type": "class",
   "qname": "PathSegment",
-  "baseClassname": "Object"
+  "baseClassname": ""
   ,
     "description": "The PathSegment class is the base class for a segment of a path. This class is not created directly. It is the base class for MoveSegment, LineSegment, CubicBezierSegment and QuadraticBezierSegment.",
   "tags": [
@@ -923,7 +923,7 @@
 
 { "type": "class",
   "qname": "PathSegment",
-  "baseClassname": "Object"
+  "baseClassname": ""
   ,
     "description": "The PathSegment class is the base class for a segment of a path. This class is not created directly. It is the base class for MoveSegment, LineSegment, CubicBezierSegment and QuadraticBezierSegment.",
   "tags": [

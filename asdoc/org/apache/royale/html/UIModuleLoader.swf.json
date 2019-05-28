@@ -79,14 +79,5 @@
                "values": ["3.0"]}  ],
           "return": "void",
           "params": []}
-      ,
-      { "type": "method",
-        "qname": "completeHandler",
-        "namespace": "protected",
-        "bindable": [],
-        "details": [],
-        "deprecated": {},
-          "return": "void",
-          "params": [{ "name": "event", "type": "flash.events.Event"}]}
       ]
   }

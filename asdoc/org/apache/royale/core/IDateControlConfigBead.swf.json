@@ -1,0 +1,13 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.core.IDateControlConfigBead",
+"baseInterfaceNames": [
+"org.apache.royale.core.IBead"]
+,
+    "description": "The IDateControlConfigBead interface should be implemented by any bead that provides a locale configuration for date controls like DateField and DateChooser",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ]}

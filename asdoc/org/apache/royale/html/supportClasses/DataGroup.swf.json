@@ -27,43 +27,5 @@
                "values": ["3.0"]}  ],
           "return": "",
           "params": []}
-      ,
-      { "type": "method",
-        "qname": "getItemRendererForIndex",
-        "namespace": "public",
-        "bindable": [],
-        "details": [],
-        "deprecated": {},
-          "description": "",
-        "tags": [
-        {  "tagName": "playerversion",
-               "values": ["Flash 10.2", "AIR 2.6"]},
-            {  "tagName": "copy",
-               "values": ["org.apache.royale.core.IItemRendererParent#getItemRendererForIndex()"]},
-            {  "tagName": "productversion",
-               "values": ["Royale 0.8"]},
-            {  "tagName": "langversion",
-               "values": ["3.0"]}  ],
-          "return": "org.apache.royale.core.IItemRenderer",
-          "params": [{ "name": "index", "type": "int"}]}
-      ,
-      { "type": "method",
-        "qname": "updateAllItemRenderers",
-        "namespace": "public",
-        "bindable": [],
-        "details": [],
-        "deprecated": {},
-          "description": "Refreshes the itemRenderers. Useful after a size change by the data group.",
-        "tags": [
-        {  "tagName": "playerversion",
-               "values": ["Flash 10.2", "AIR 2.6"]},
-            {  "tagName": "copy",
-               "values": ["org.apache.royale.core.IItemRendererParent#updateAllItemRenderers()"]},
-            {  "tagName": "productversion",
-               "values": ["Royale 0.8"]},
-            {  "tagName": "langversion",
-               "values": ["3.0"]}  ],
-          "return": "void",
-          "params": []}
       ]
   }

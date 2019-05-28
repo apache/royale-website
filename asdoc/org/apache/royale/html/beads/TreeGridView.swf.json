@@ -71,6 +71,8 @@
                "values": ["org.apache.royale.core.IBead#strand"]},
             {  "tagName": "productversion",
                "values": ["Royale 0.0"]},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["Class", "org.apache.royale.events.IEventDispatcher", "org.apache.royale.core.IBeadLayout"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]},
       { "type": "method",

@@ -3,7 +3,7 @@
 "baseInterfaceNames": [
 "org.apache.royale.core.IBead"]
 ,
-    "description": "The IBackgroundBead interface is a marker interface for beads that draw backgrounds.",
+    "description": "The IBorderBead interface is a marker interface for beads that draw borders.",
   "tags": [
   {  "tagName": "playerversion",
          "values": ["Flash 10.2", "AIR 2.6"]},

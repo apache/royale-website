@@ -66,7 +66,18 @@
             {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
             {  "tagName": "productversion",
-               "values": ["Royale 0.0"]},
+               "values": ["Royale 0.9"]},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["String"]},
             {  "tagName": "langversion",
-               "values": ["3.0"]}  ]}]
+               "values": ["3.0"]}  ]},
+      { "type": "method",
+        "qname": "dataToString",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "String",
+          "params": [{ "name": "value", "type": "Object"}]}
+      ]
   }

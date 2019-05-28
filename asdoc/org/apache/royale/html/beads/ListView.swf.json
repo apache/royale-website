@@ -34,7 +34,7 @@
             {  "tagName": "copy",
                "values": ["org.apache.royale.core.IBead#strand"]},
             {  "tagName": "productversion",
-               "values": ["Royale 0.0"]},
+               "values": ["Royale 0.9"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]},
       { "type": "field",

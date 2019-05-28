@@ -9,7 +9,7 @@
       {  "tagName": "playerversion",
          "values": ["Flash 10.2", "AIR 2.6"]},
       {  "tagName": "productversion",
-         "values": ["Royale 0.0"]},
+         "values": ["Royale 0.9.3"]},
       {  "tagName": "langversion",
          "values": ["3.0"]}  ],
   "members": [
@@ -24,7 +24,7 @@
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
             {  "tagName": "productversion",
-               "values": ["Royale 0.0"]},
+               "values": ["Royale 0.9.3"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ],
           "return": "",
@@ -43,7 +43,7 @@
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
             {  "tagName": "productversion",
-               "values": ["Royale 0.0"]},
+               "values": ["Royale 0.9.3"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]},
       { "type": "accessor",
@@ -61,7 +61,7 @@
             {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
             {  "tagName": "productversion",
-               "values": ["Royale 0.0"]},
+               "values": ["Royale 0.9.3"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
   ,
@@ -74,7 +74,7 @@
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
             {  "tagName": "productversion",
-               "values": ["Royale 0.0"]},
+               "values": ["Royale 0.9.3"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
   }

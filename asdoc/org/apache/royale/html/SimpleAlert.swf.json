@@ -2,7 +2,7 @@
   "qname": "org.apache.royale.html.SimpleAlert",
   "baseClassname": "org.apache.royale.core.UIBase"
   ,
-    "description": "The SimpleAlert class is a component that displays a message and an OK button. The SimpleAlert converts directly to window.alert() for HTML. SimpleAlert uses the following beads:  org.apache.royale.core.IBeadModel: the data model, which includes the message. org.apache.royale.core.IBeadView:  the bead that constructs the visual parts of the Alert. org.apache.royale.core.IBeadController: the bead responsible for handling input events. org.apache.royale.core.IBorderBead: a bead, if present, that draws a border around the control. org.apache.royale.core.IBackgroundBead: a bead, if present, that creates a solid-color background.",
+    "description": "The SimpleAlert class is a component that displays a message and an OK button. The SimpleAlert converts directly to window.alert() for HTML. SimpleAlert uses the following beads:  org.apache.royale.core.IBeadModel: the data model, which includes the message. org.apache.royale.core.IBeadView:  the bead that constructs the visual parts of the Alert. org.apache.royale.core.IBeadController: the bead responsible for handling input events. org.apache.royale.html.beads.IBorderBead: a bead, if present, that draws a border around the control. org.apache.royale.html.beads.IBackgroundBead: a bead, if present, that creates a solid-color background.",
   "tags": [
   {  "tagName": "playerversion",
          "values": ["Flash 10.2", "AIR 2.6"]},

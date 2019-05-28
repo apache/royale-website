@@ -173,5 +173,27 @@
                "values": ["3.0"]}  ],
           "return": "Boolean",
           "params": [{ "name": "character", "type": "String"}]}
+      ,
+      { "type": "method",
+        "qname": "removeWord",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "Removes word from a String and return the new result string",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["str The String to be modified.", "wordToSeach The word string to search and remove from str"]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.3"]},
+            {  "tagName": "return",
+               "values": ["<code>String</code> the string without the word"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "String",
+          "params": [{ "name": "str", "type": "String"},
+        { "name": "wordToSeach", "type": "String"}]}
       ]
   }

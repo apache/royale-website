@@ -58,6 +58,8 @@
                "values": ["org.apache.royale.core.IBead#strand"]},
             {  "tagName": "productversion",
                "values": ["Royale 0.0"]},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.events.IEventDispatcher"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]},
       { "type": "method",
@@ -75,6 +77,12 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleemitcoercion",
+               "values": ["org.apache.royale.core.IStrand"]},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.IBead", "org.apache.royale.events.IEventDispatcher"]}  ],
           "return": "void",
           "params": [{ "name": "binding", "type": "org.apache.royale.core.IBinding"},
         { "name": "bindingObject", "type": "Object"},
@@ -89,7 +97,7 @@
           "description": "",
         "tags": [
         {  "tagName": "royaleignorecoercion",
-               "values": ["Function"]}  ],
+               "values": ["Function", "String"]}  ],
           "return": "void",
           "params": [{ "name": "gb", "type": "org.apache.royale.binding.GenericBinding"},
         { "name": "index", "type": "int"},
@@ -111,6 +119,10 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.IBinding"]}  ],
           "return": "void",
           "params": [{ "name": "binding", "type": "Object"}]}
       ]

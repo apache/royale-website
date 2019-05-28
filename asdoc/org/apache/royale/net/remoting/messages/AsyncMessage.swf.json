@@ -2,7 +2,7 @@
   "qname": "org.apache.royale.net.remoting.messages.AsyncMessage",
   "baseClassname": "org.apache.royale.net.remoting.messages.AbstractMessage"
   ,
-    "description": "AsyncMessage is the base class for all asynchronous messages.",
+    "description": "AsyncMessage is the base class for all asynchronous messages. Note: readExternal and writeExternal methods compile but are not tested and maybe not work but is an initial work",
   "tags": [
   {  "tagName": "playerversion",
          "values": ["Flash 9", "AIR 1.1"]},
@@ -45,5 +45,23 @@
           "return": "",
           "params": [{ "name": "body", "type": "Object"},
         { "name": "headers", "type": "Object"}]}
-      ]
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "String",
+        "qname": "correlationId",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Provides access to the correlation id of the message. Used for acknowledgement and for segmentation of messages. The <code>correlationId</code> contains the <code>messageId</code> of the previous message that this message refers to.",
+        "tags": [
+        {  "tagName": "see",
+               "values": ["mx.messaging.messages.AbstractMessage#messageId"]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["BlazeDS 4", "LCDS 3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
   }

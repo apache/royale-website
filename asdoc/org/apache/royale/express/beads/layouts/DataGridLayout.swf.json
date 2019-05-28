@@ -37,6 +37,8 @@
                "values": ["org.apache.royale.core.IBead#strand"]},
             {  "tagName": "productversion",
                "values": ["Royale 0.0"]},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.events.IEventDispatcher"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]},
       { "type": "method",
@@ -48,7 +50,9 @@
           "description": "This layout algorithm handles columns of both pixel and percent widths. The percent width represents the amount of space remaining after the fixed width columns have been placed. For example, with three columns of widths, \"50\", \"100%\", and \"80\" the 100% size represents the amount left over after the 130 pixels have been removed from whatever width the DataGrid currently has at the time this layout is executed.",
         "tags": [
         {  "tagName": "royaleignorecoercion",
-               "values": ["org.apache.royale.core.IBorderPaddingMarginValuesImpl"]}  ],
+               "values": ["org.apache.royale.core.IBorderPaddingMarginValuesImpl", "org.apache.royale.core.IUIBase", "org.apache.royale.core.IParent", "org.apache.royale.core.ILayoutChild", "org.apache.royale.html.beads.IDataGridView", "org.apache.royale.core.IDataGridModel", "org.apache.royale.html.beads.models.ButtonBarModel", "org.apache.royale.html.beads.IDrawingLayerBead"]},
+            {  "tagName": "royaleemitcoercion",
+               "values": ["org.apache.royale.html.supportClasses.DataGridColumn"]}  ],
           "return": "Boolean",
           "params": []}
       ]
