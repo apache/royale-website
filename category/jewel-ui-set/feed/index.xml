@@ -12,7 +12,7 @@
 	<atom:link href="//royale.apache.org/category/jewel-ui-set/feed/" rel="self" type="application/rss+xml" />
 	<link>//royale.apache.org/</link>
 	<description>Code once. Run everywhere</description>
-	<lastBuildDate>Fri, 31 May 2019 19:36:56 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 03 Jun 2019 20:14:23 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,31 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.2.1</generator>
 	<item>
+		<title>Using external javascript libraries in Apache Royale</title>
+		<link>//royale.apache.org/using-external-javascript-libraries-in-apache-royale/</link>
+				<comments>//royale.apache.org/using-external-javascript-libraries-in-apache-royale/#respond</comments>
+				<pubDate>Mon, 03 Jun 2019 17:03:03 +0000</pubDate>
+		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
+				<category><![CDATA[Jewel UI Set]]></category>
+		<category><![CDATA[Royale Examples]]></category>
+		<category><![CDATA[@externs]]></category>
+		<category><![CDATA[j: HorizontalCenteredLayout]]></category>
+		<category><![CDATA[j:Application]]></category>
+		<category><![CDATA[j:Button]]></category>
+		<category><![CDATA[j:Card]]></category>
+		<category><![CDATA[j:HorizontalLayout]]></category>
+		<category><![CDATA[j:Label]]></category>
+		<category><![CDATA[j:ScrollingViewport]]></category>
+		<category><![CDATA[js:HTTPService]]></category>
+
+		<guid isPermaLink="false">//royale.apache.org/?p=15987</guid>
+				<description><![CDATA[<p>Learn how to use external Javascript libraries in your Apache Royale application. This will be very useful to add quick functionality to your Application adding code that is not part of Apache Royale itself or even was not written in ActionsScript, but with the powerful capabilities like type checking or code completion.</p>
+<p>The post <a rel="nofollow" href="//royale.apache.org/using-external-javascript-libraries-in-apache-royale/">Using external javascript libraries in Apache Royale</a> appeared first on <a rel="nofollow" href="//royale.apache.org/">Apache Royale™</a>.</p>
+]]></description>
+						<wfw:commentRss>//royale.apache.org/using-external-javascript-libraries-in-apache-royale/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
 		<title>How to create a Desktop Application with Royale and Electron</title>
 		<link>//royale.apache.org/how-to-create-a-desktop-application-with-royale-and-electron/</link>
 				<comments>//royale.apache.org/how-to-create-a-desktop-application-with-royale-and-electron/#respond</comments>
@@ -213,26 +238,6 @@
 <p>The post <a rel="nofollow" href="//royale.apache.org/adding-an-item-to-a-jewel-list/">Adding an item to a Jewel List</a> appeared first on <a rel="nofollow" href="//royale.apache.org/">Apache Royale™</a>.</p>
 ]]></description>
 						<wfw:commentRss>//royale.apache.org/adding-an-item-to-a-jewel-list/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-							</item>
-		<item>
-		<title>Using the Jewel Slider Control</title>
-		<link>//royale.apache.org/using-the-jewel-slider-control/</link>
-				<comments>//royale.apache.org/using-the-jewel-slider-control/#respond</comments>
-				<pubDate>Thu, 12 Apr 2018 20:38:04 +0000</pubDate>
-		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
-				<category><![CDATA[Jewel UI Set]]></category>
-		<category><![CDATA[Royale Examples]]></category>
-		<category><![CDATA[j:Application]]></category>
-		<category><![CDATA[j:Button]]></category>
-		<category><![CDATA[j:Slider]]></category>
-		<category><![CDATA[js:View]]></category>
-
-		<guid isPermaLink="false">//royale.apache.org/?p=15663</guid>
-				<description><![CDATA[<p>See the basic use of the Jewel Slider control in a Royale application.</p>
-<p>The post <a rel="nofollow" href="//royale.apache.org/using-the-jewel-slider-control/">Using the Jewel Slider Control</a> appeared first on <a rel="nofollow" href="//royale.apache.org/">Apache Royale™</a>.</p>
-]]></description>
-						<wfw:commentRss>//royale.apache.org/using-the-jewel-slider-control/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 							</item>
 	</channel>

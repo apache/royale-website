@@ -6,13 +6,16 @@
 	
 	>
 <channel>
-	<title>Comments on: Loading external data through HTTPService</title>
+	<title>
+	Comments on: Loading external data through HTTPService	</title>
 	<atom:link href="//royale.apache.org/loading-external-data-through-httpservice/feed/" rel="self" type="application/rss+xml" />
 	<link>//royale.apache.org/loading-external-data-through-httpservice/</link>
 	<description>Code once. Run everywhere</description>
-	<lastBuildDate>Tue, 11 Dec 2018 22:41:39 +0000</lastBuildDate>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.0</generator>
+	<lastBuildDate>Mon, 10 Dec 2018 16:43:01 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.1</generator>
 </channel>
 </rss>
