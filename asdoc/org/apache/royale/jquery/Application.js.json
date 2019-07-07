@@ -9,7 +9,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The Royale Compiler will inject html into the index.html file.  Surround with \"inject_html\" tag as follows:  <inject_html> <link rel=\"stylesheet\" href=\"http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css\" /> <script src=\"http://code.jquery.com/jquery-1.9.1.js\"></script> <script src=\"http://code.jquery.com/ui/1.10.2/jquery-ui.js\"></script> </inject_html>",
+          "description": "The Royale Compiler will inject html into the index.html file.  Surround with \\&quot;inject_html\\&quot; tag as follows:  <inject_html> <link rel=\\&quot;stylesheet\\&quot; href=\\&quot;http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css\\&quot; /> <script src=\\&quot;http://code.jquery.com/jquery-1.9.1.js\\&quot;></script> <script src=\\&quot;http://code.jquery.com/ui/1.10.2/jquery-ui.js\\&quot;></script> </inject_html>",
           "return": "",
           "params": []}
       ]

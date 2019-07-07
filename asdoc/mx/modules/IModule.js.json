@@ -1,0 +1,15 @@
+{ "type": "interface",
+  "qname": "mx.modules.IModule",
+"baseInterfaceNames": [
+"org.apache.royale.core.IModule"]
+,
+    "description": "An interface that marks a class as being a module.",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["mx.modules.Module"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 4"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ]}

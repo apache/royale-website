@@ -1,0 +1,30 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.textLayout.edit.IMemento",
+    "description": "The IMemento interface is returned by ModelEdit for undo of a specific action that represents part of an operation.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10", "AIR 1.5"]},
+      {  "tagName": "prviate",
+         "values": []},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+    "qname": "undo",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "return": "*",
+      "params": []}
+  ,
+  { "type": "method",
+    "qname": "redo",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "return": "*",
+      "params": []}
+  ]
+  }

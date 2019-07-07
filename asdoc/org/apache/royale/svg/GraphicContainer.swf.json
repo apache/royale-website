@@ -1,8 +1,4 @@
 { "type": "class",
-  "qname": "GraphicGroup",
-  "baseClassname": "org.apache.royale.core.GroupBase"
-  }
-{ "type": "class",
   "qname": "org.apache.royale.svg.GraphicContainer",
   "baseClassname": "org.apache.royale.core.GroupBase"
   ,
@@ -77,7 +73,3 @@
 
 
 
-{ "type": "class",
-  "qname": "GraphicGroup",
-  "baseClassname": "org.apache.royale.core.GroupBase"
-  }

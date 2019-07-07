@@ -96,7 +96,9 @@
           "description": "",
         "tags": [
         {  "tagName": "copy",
-               "values": ["org.apache.royale.core.IBeadLayout#layout"]}  ],
+               "values": ["org.apache.royale.core.IBeadLayout#layout"]},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.UIBase"]}  ],
           "return": "Boolean",
           "params": []}
       ,

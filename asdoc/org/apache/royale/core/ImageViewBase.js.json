@@ -50,7 +50,9 @@
             {  "tagName": "copy",
                "values": ["org.apache.royale.core.IBead#strand"]},
             {  "tagName": "productversion",
-               "values": ["Royale 0.0"]},
+               "values": ["Royale 0.9"]},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.IImageModel"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]},
       { "type": "accessor",
@@ -71,6 +73,10 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.IUIBase"]}  ],
           "return": "void",
           "params": []}
       ,
@@ -80,6 +86,10 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.IUIBase"]}  ],
           "return": "void",
           "params": [{ "name": "event", "type": "Object"}]}
       ,
@@ -92,7 +102,7 @@
           "description": "",
         "tags": [
         {  "tagName": "royaleignorecoercion",
-               "values": ["HTMLElement"]}  ],
+               "values": ["HTMLElement", "org.apache.royale.core.IUIBase"]}  ],
           "return": "void",
           "params": [{ "name": "event", "type": "Object"}]}
       ]

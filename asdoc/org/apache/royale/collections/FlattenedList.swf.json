@@ -2,7 +2,7 @@
   "qname": "org.apache.royale.collections.FlattenedList",
   "baseClassname": "org.apache.royale.collections.ArrayList"
   ,
-    "description": "The FlattenedList class takes a HierarchicalData object and \"flattens\" it using all of the open members.",
+    "description": "The FlattenedList class takes a HierarchicalData object and \\&quot;flattens\\&quot; it using all of the open members.",
   "tags": [
   {  "tagName": "playerversion",
          "values": ["Flash 10.2", "AIR 2.6"]},

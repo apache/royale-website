@@ -1,0 +1,5 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.textLayout.elements.ISubParagraphGroupElement",
+"baseInterfaceNames": [
+"org.apache.royale.textLayout.elements.ISubParagraphGroupElementBase"]
+}

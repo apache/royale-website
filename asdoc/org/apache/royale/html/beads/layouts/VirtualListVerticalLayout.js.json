@@ -58,7 +58,7 @@
             {  "tagName": "productversion",
                "values": ["Royale 0.0"]},
             {  "tagName": "royaleignorecoercion",
-               "values": ["org.apache.royale.core.ILayoutHost", "org.apache.royale.core.WrappedHTMLElement"]},
+               "values": ["Array", "org.apache.royale.core.ILayoutHost", "org.apache.royale.core.WrappedHTMLElement", "org.apache.royale.core.IListPresentationModel", "org.apache.royale.core.IStrandWithPresentationModel"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ],
           "return": "Boolean",

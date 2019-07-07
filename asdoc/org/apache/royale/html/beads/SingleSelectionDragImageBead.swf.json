@@ -2,7 +2,7 @@
   "qname": "org.apache.royale.html.beads.SingleSelectionDragImageBead",
   "baseClassname": "org.apache.royale.events.EventDispatcher"
   ,
-    "description": "The SingleSelectionDragImageBead produces a UIBase component that represents the item being dragged. It does this by taking the data associcated with the index of the item selected and running the toString() function on it, placing it inside of a Label that is inside of Group (which is given the className of \"DragImage\").  The createDragImage() function can be overridden and a different component returned.",
+    "description": "The SingleSelectionDragImageBead produces a UIBase component that represents the item being dragged. It does this by taking the data associcated with the index of the item selected and running the toString() function on it, placing it inside of a Label that is inside of Group (which is given the className of \\&quot;DragImage\\&quot;).  The createDragImage() function can be overridden and a different component returned.",
   "tags": [
   {  "tagName": "see",
          "values": ["org.apache.royale.html.beads.SingleSelectionDragSourceBead."]},
@@ -59,7 +59,7 @@
             {  "tagName": "productversion",
                "values": ["Royale 0.8"]},
             {  "tagName": "return",
-               "values": ["UIBase The "dragImage" to use."]},
+               "values": ["UIBase The &quot;dragImage&quot; to use."]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ],
           "return": "org.apache.royale.core.UIBase",

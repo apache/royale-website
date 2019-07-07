@@ -1,0 +1,17 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.textLayout.compose.IFactoryComposer",
+"baseInterfaceNames": [
+"org.apache.royale.textLayout.compose.IFlowComposer"]
+,
+  "members": [
+  { "type": "method",
+    "qname": "callTheComposer",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "return": "org.apache.royale.textLayout.container.IContainerController",
+      "params": [{ "name": "absoluteEndPosition", "type": "int"},
+    { "name": "controllerEndIndex", "type": "int"}]}
+  ]
+  }

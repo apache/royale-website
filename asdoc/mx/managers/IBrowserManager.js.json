@@ -1,0 +1,26 @@
+{ "type": "interface",
+  "qname": "mx.managers.IBrowserManager",
+"baseInterfaceNames": [
+"org.apache.royale.events.IEventDispatcher"]
+,
+    "description": "The interface that the shared instance of the BrowserManager implements. Applications listen for events, call methods, and access properties on the shared instance which is accessed with the <code>BrowserManager.getInstance()</code> method.",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["mx.managers.BrowserManager"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+    "qname": "setTitle",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "return": "void",
+      "params": [{ "name": "value", "type": "String"}]}
+  ]
+  }

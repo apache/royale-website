@@ -1,0 +1,33 @@
+{ "type": "class",
+  "qname": "mx.controls.advancedDataGridClasses.AdvancedDataGridHeaderRenderer",
+  "baseClassname": "mx.core.UIComponent"
+  ,
+    "description": "The AdvancedDataGridHeaderRenderer class defines the default header renderer for a AdvancedDataGrid control. By default, the header renderer draws the text associated with each header in the list, and an optional sort arrow (if sorted by that column).  <p> By default, the custom header renderer uses the default sort item renderer defined by the AdvancedDataGridSortItemRenderer class. The sort item renderer controls the display of the sort icon and sort sequence number. You can specify a custom sort item renderer by using the <code>sortItemRenderer</code> property.</p>  <p>You can override the default header renderer by creating a custom header renderer. The only requirement for a custom header renderer is that it must include the size of the <code>sortItemRenderer</code> in any size calculations performed by an override of the <code>measure()</code> and <code>updateDisplayList()</code> methods.</p>  <p>You can customize when the sorting gets triggered by handling or dispatching the <code>AdvancedDataGridEvent.SORT</code> event.</p>",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["mx.controls.AdvancedDataGrid", "mx.controls.advancedDataGridClasses.AdvancedDataGridSortItemRenderer"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.controls.advancedDataGridClasses.AdvancedDataGridHeaderRenderer",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ]
+  }

@@ -1,0 +1,43 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.utils.BackgroundUtil",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "collectTableBlock",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "_textFlow", "type": "org.apache.royale.textLayout.elements.ITextFlow"},
+        { "name": "block", "type": "org.apache.royale.textLayout.compose.ITextFlowTableBlock"},
+        { "name": "controller", "type": "org.apache.royale.textLayout.container.IContainerController"}]}
+      ,
+      { "type": "method",
+        "qname": "collectBlock",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.textLayout.elements.ITableElement"]}  ],
+          "return": "void",
+          "params": [{ "name": "_textFlow", "type": "org.apache.royale.textLayout.elements.ITextFlow"},
+        { "name": "elem", "type": "org.apache.royale.textLayout.elements.IFlowGroupElement"},
+        { "name": "_parcelList", "type": "org.apache.royale.textLayout.compose.ParcelList"},
+        { "name": "tableComposeNotFromBeginning", "type": "Boolean"},
+        { "name": "tableOutOfView", "type": "Boolean"}]}
+      ,
+      { "type": "method",
+        "qname": "hasBorderOrBackground",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "return": "Boolean",
+          "params": [{ "name": "elem", "type": "org.apache.royale.textLayout.elements.IFlowElement"}]}
+      ]
+  }

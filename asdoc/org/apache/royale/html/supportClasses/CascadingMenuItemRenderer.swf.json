@@ -2,7 +2,7 @@
   "qname": "org.apache.royale.html.supportClasses.CascadingMenuItemRenderer",
   "baseClassname": "org.apache.royale.html.supportClasses.DataItemRenderer"
   ,
-    "description": "The CascadingMenuItemRenderer is the itemRenderer class for the elements of a CascadingMenu. Each item can either be a label or a separator (indicated by type:\"separator\" in the data for the item). If there is a sub-menu (indicated by menu:[array of items] in the data for the item), a sub-menu indicator is displayed next to the label.",
+    "description": "The CascadingMenuItemRenderer is the itemRenderer class for the elements of a CascadingMenu. Each item can either be a label or a separator (indicated by type:\\&quot;separator\\&quot; in the data for the item). If there is a sub-menu (indicated by menu:[array of items] in the data for the item), a sub-menu indicator is displayed next to the label.",
   "tags": [
   {  "tagName": "playerversion",
          "values": ["Flash 10.2", "AIR 2.6"]},

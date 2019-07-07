@@ -36,7 +36,7 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
-          "description": "The name of the field to use in the data that indicates a sub-menu. The default value is \"menu\".",
+          "description": "The name of the field to use in the data that indicates a sub-menu. The default value is \\&quot;menu\\&quot;.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

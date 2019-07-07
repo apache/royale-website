@@ -1,0 +1,29 @@
+{ "type": "class",
+  "qname": "org.apache.royale.text.engine.FontWeight",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "field",
+        "qname": "BOLD",
+        "return": "String",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {}},
+      { "type": "field",
+        "qname": "NORMAL",
+        "return": "String",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {}},
+      { "type": "method",
+        "qname": "org.apache.royale.text.engine.FontWeight",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ]
+  }

@@ -1,0 +1,35 @@
+{ "type": "class",
+  "qname": "mx.effects.effectClasses.CompositeEffectInstance",
+  "baseClassname": "mx.effects.EffectInstance"
+  ,
+    "description": "The CompositeEffectInstance class implements the instance class for the CompositeEffect class. Flex creates an instance of this class  when it plays a CompositeEffect; you do not create one yourself.",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["mx.effects.CompositeEffect"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.effects.effectClasses.CompositeEffectInstance",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.  It is included only for consistency with other types of effects.",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["target This argument is ignored for Composite effects."]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": [{ "name": "target", "type": "Object"}]}
+      ]
+  }

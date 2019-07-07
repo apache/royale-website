@@ -1,0 +1,17 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.utils.net.IDataInput",
+"baseInterfaceNames": [
+"org.apache.royale.utils.IBinaryDataInput"]
+,
+    "description": "initial work on replacement for flash.utils.IDataInput",
+  "members": [
+  { "type": "method",
+    "qname": "readObject",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "return": "*",
+      "params": []}
+  ]
+  }

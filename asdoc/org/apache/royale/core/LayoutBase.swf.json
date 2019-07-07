@@ -122,7 +122,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Called whenever \"layoutNeeded\" event is dispatched against the host strand.",
+          "description": "Called whenever \\&quot;layoutNeeded\\&quot; event is dispatched against the host strand.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

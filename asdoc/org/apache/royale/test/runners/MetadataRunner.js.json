@@ -1,0 +1,58 @@
+{ "type": "class",
+  "qname": "org.apache.royale.test.runners.MetadataRunner",
+  "baseClassname": ""
+  ,
+    "description": "Runs a class containing methods marked with <code>[Test]</code> metadata.  <p>Also supports the following optional metadata:</p>  <ul> <li>Tests with <code>[Ignore]</code> metdata should be ignored (skipped).</li> <li>Methods with <code>[Before]</code> metadata are run before every individual test.</li> <li>Methods with <code>[After]</code> metadata are run after every individual test.</li> <li>Methods with <code>[BeforeClass]</code> metadata are run one time, before the first test.</li> <li>Methods with <code>[AfterClass]</code> metadata are run one time, after the final test.</li> </ul>",
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.test.runners.MetadataRunner",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+          "return": "",
+          "params": [{ "name": "testClass", "type": "Class"}]}
+      ,
+      { "type": "accessor",
+        "access": "read-only",
+        "return": "String",
+        "qname": "description",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "private",
+               "values": []}  ]},
+      { "type": "method",
+        "qname": "pleaseStop",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "inheritDoc",
+               "values": []}  ],
+          "return": "void",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "run",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "inheritDoc",
+               "values": []}  ],
+          "return": "void",
+          "params": [{ "name": "notifier", "type": "org.apache.royale.test.runners.notification.IRunNotifier"}]}
+      ]
+  }
+
+
+

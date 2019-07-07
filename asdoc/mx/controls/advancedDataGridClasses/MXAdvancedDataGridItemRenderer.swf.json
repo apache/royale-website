@@ -1,0 +1,33 @@
+{ "type": "class",
+  "qname": "mx.controls.advancedDataGridClasses.MXAdvancedDataGridItemRenderer",
+  "baseClassname": "mx.core.UIComponent"
+  ,
+    "description": "The AdvancedDataGridItemRenderer class defines the default item renderer for a AdvancedDataGrid control. By default, the item renderer draws the text associated with each item in the grid.  <p>You can override the default item renderer by creating a custom item renderer.</p>",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["mx.controls.AdvancedDataGrid", "mx.core.IDataRenderer", "mx.controls.listClasses.IDropInListItemRenderer"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.controls.advancedDataGridClasses.MXAdvancedDataGridItemRenderer",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ]
+  }

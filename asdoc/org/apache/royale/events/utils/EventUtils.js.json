@@ -21,17 +21,5 @@
           "params": [{ "name": "type", "type": "String"},
         { "name": "bubbles", "type": "Boolean"},
         { "name": "cancelable", "type": "Boolean"}]}
-      ,
-      { "type": "method",
-        "qname": "createMouseEvent",
-        "namespace": "public",
-        "bindable": [],
-        "details": ["static"],
-        "deprecated": {},
-          "return": "Object",
-          "params": [{ "name": "type", "type": "String"},
-        { "name": "bubbles", "type": "Boolean"},
-        { "name": "cancelable", "type": ""},
-        { "name": "params", "type": "Object"}]}
       ]
   }

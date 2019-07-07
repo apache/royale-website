@@ -56,7 +56,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Dispatches a \"layoutNeeded\" event",
+          "description": "Dispatches a \\&quot;layoutNeeded\\&quot; event",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -79,6 +79,8 @@
                "values": ["Flash 10.2", "AIR 2.6"]},
             {  "tagName": "productversion",
                "values": ["Royale 0.8"]},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.ILayoutHost"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ],
           "return": "org.apache.royale.core.ILayoutHost",

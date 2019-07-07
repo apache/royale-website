@@ -1,0 +1,23 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.utils.net.IExternalizable",
+    "description": "replacement for flash.utils.IExternalizable",
+  "members": [
+  { "type": "method",
+    "qname": "readExternal",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "return": "void",
+      "params": [{ "name": "input", "type": "org.apache.royale.utils.net.IDataInput"}]}
+  ,
+  { "type": "method",
+    "qname": "writeExternal",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "return": "void",
+      "params": [{ "name": "output", "type": "org.apache.royale.utils.net.IDataOutput"}]}
+  ]
+  }

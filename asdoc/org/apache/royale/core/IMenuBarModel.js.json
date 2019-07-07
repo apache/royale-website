@@ -1,0 +1,33 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.core.IMenuBarModel",
+"baseInterfaceNames": [
+"org.apache.royale.events.IEventDispatcher", 
+"org.apache.royale.core.ISelectionModel", 
+"org.apache.royale.core.IBeadModel"]
+,
+    "description": "The IComboBoxModel interface describes the minimum set of properties available to a ComboBox control.  More sophisticated ComboBox controls could have models that extend IComboBoxModel.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "String",
+    "qname": "submenuField",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "The text displayed in the ComboBox.",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.0"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]}]
+  }

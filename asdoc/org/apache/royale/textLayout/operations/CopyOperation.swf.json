@@ -1,0 +1,31 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.operations.CopyOperation",
+  "baseClassname": "org.apache.royale.textLayout.operations.FlowTextOperation"
+  ,
+    "description": "The CopyOperation class encapsulates a copy operation.  <p><b>Note:</b> The operation is responsible for copying the text scrap to the clipboard. Undonig a copy operation does not restore the original clipboard state.</p>",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["org.apache.royale.textLayout.edit.EditManager", "org.apache.royale.textLayout.events.FlowOperationEvent"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10", "AIR 1.5"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.textLayout.operations.CopyOperation",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Creates a CopyOperation object.",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["operationState The range of text to be copied."]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 10", "AIR 1.5"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": [{ "name": "operationState", "type": "org.apache.royale.textLayout.edit.SelectionState"}]}
+      ]
+  }

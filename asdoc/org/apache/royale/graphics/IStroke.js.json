@@ -2,7 +2,7 @@
   "qname": "org.apache.royale.graphics.IStroke",
   "members": [
   { "type": "accessor",
-    "access": "read-only",
+    "access": "read-write",
     "return": "Number",
     "qname": "weight",
     "namespace": "public",

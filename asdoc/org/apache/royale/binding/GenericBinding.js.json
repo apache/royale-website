@@ -37,7 +37,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The mxml document for the binding expression.  If you bind to {someid.someproperty} then there must be a tag in the mxml document with the id \"someid\".",
+          "description": "The mxml document for the binding expression.  If you bind to {someid.someproperty} then there must be a tag in the mxml document with the id \\&quot;someid\\&quot;.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -171,10 +171,10 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The method that gets called by the watcher when the value may have changed.",
+          "description": "The method that gets called by the watcher when the value may have changed.  attempt should be made to get the value directly from the source object.",
         "tags": [
         {  "tagName": "param",
-               "values": ["value The new value."]},
+               "values": ["value The new value.", "getFromSource true if the value parameter should be ignored, and an"]},
             {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
             {  "tagName": "productversion",
@@ -182,6 +182,7 @@
             {  "tagName": "langversion",
                "values": ["3.0"]}  ],
           "return": "void",
-          "params": [{ "name": "value", "type": "Object"}]}
+          "params": [{ "name": "value", "type": "Object"},
+        { "name": "getFromSource", "type": "Boolean"}]}
       ]
   }

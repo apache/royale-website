@@ -1,0 +1,53 @@
+{ "type": "class",
+  "qname": "mx.rpc.soap.WebService",
+  "baseClassname": ""
+  ,
+    "description": "The WebService class provides access to SOAP-based web services on remote servers.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.4"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.rpc.soap.WebService",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Creates a new WebService.  The destination, if specified, should match an entry in services-config.xml.  If unspecified, the WebService uses the DefaultHTTP destination. The <code>rootURL</code> is required if you intend to use a relative URL to find the WSDL document for this WebService.  name in the services-config.xml file.",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["destination The destination of the WebService, should match a destination", "rootURL The root URL of the WebService."]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.4"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": [{ "name": "destination", "type": "String"},
+        { "name": "rootURL", "type": "String"}]}
+      ,
+      { "type": "method",
+        "qname": "loadWSDL",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Instructs the WebService to download the WSDL document.  The WebService calls this method automatically WebService when specified in the WebService MXML tag, but it must be called manually if you create the WebService object in ActionScript after you have specified the <code>destination</code> or <code>wsdl</code> property value.  specified here.",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["uri If the wsdl hasn't been specified previously, it may be"]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.4"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "void",
+          "params": [{ "name": "uri", "type": "String"}]}
+      ]
+  }

@@ -1,0 +1,38 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.edit.ElementMark",
+  "baseClassname": ""
+  ,
+    "description": "@private - Marks an element by its position in the hierarchy.",
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.textLayout.edit.ElementMark",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": [{ "name": "elem", "type": "org.apache.royale.textLayout.elements.IFlowElement"},
+        { "name": "relativeStartPosition", "type": "int"}]}
+      ,
+      { "type": "accessor",
+        "access": "read-only",
+        "return": "int",
+        "qname": "elemStart",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}},
+      { "type": "method",
+        "qname": "findElement",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.textLayout.elements.IFlowGroupElement"]}  ],
+          "return": "org.apache.royale.textLayout.elements.IFlowElement",
+          "params": [{ "name": "textFlow", "type": "org.apache.royale.textLayout.elements.ITextFlow"}]}
+      ]
+  }

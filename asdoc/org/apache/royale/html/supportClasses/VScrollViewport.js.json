@@ -36,16 +36,13 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {}},
-      { "type": "accessor",
-        "access": "write-only",
-        "return": "org.apache.royale.core.IStrand",
-        "qname": "strand",
-        "namespace": "public",
+      { "type": "method",
+        "qname": "setScrollStyle",
+        "namespace": "protected",
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
-          "description": "",
-        "tags": [
-        {  "tagName": "royaleignorecoercion",
-               "values": ["HTMLElement"]}  ]}]
+          "return": "void",
+          "params": []}
+      ]
   }

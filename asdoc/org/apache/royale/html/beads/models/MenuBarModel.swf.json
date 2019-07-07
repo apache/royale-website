@@ -21,7 +21,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The field in the data object that identifies sub-menus. The default is \"menu\". This value is transferred to the CascadingMenu opened for each menu item.",
+          "description": "The field in the data object that identifies sub-menus. The default is \\&quot;menu\\&quot;. This value is transferred to the CascadingMenu opened for each menu item.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

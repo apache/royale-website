@@ -98,6 +98,12 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "see",
+               "values": ["org.apache.royale.core.IDocument#setDocument"]},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["Array", "org.apache.royale.states.ItemAndDescriptor"]}  ],
           "return": "void",
           "params": [{ "name": "document", "type": "Object"},
         { "name": "id", "type": "String"}]}

@@ -1,0 +1,12 @@
+{ "type": "method",
+  "qname": "org.apache.royale.html.util.createSVG",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "Utility function for creating a new SVG Element",
+  "tags": [
+  {  "tagName": "royaleignorecoercion",
+         "values": ["SVGElement"]}  ],
+    "return": "SVGElement",
+    "params": [{ "name": "type", "type": "String"}]}

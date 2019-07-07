@@ -1,0 +1,48 @@
+{ "type": "class",
+  "qname": "mx.messaging.config.ConfigMap",
+  "baseClassname": "org.apache.royale.utils.Proxy"
+  ,
+    "description": "The ConfigMap class provides a mechanism to store the properties returned by the server with the ordering of the properties maintained.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["BlazeDS 4", "LCDS 3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.messaging.config.ConfigMap",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["item An Object containing name/value pairs."]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["BlazeDS 4", "LCDS 3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": [{ "name": "item", "type": "Object"}]}
+      ,
+      { "type": "field",
+        "qname": "propertyList",
+        "return": "Array",
+        "namespace": "mx_internal",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Contains a list of all of the property names for the proxied object.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["BlazeDS 4", "LCDS 3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  }

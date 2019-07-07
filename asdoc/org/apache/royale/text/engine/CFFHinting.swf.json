@@ -1,0 +1,29 @@
+{ "type": "class",
+  "qname": "org.apache.royale.text.engine.CFFHinting",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "field",
+        "qname": "HORIZONTAL_STEM",
+        "return": "String",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {}},
+      { "type": "field",
+        "qname": "NONE",
+        "return": "String",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {}},
+      { "type": "method",
+        "qname": "org.apache.royale.text.engine.CFFHinting",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ]
+  }

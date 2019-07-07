@@ -1,0 +1,27 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.edit.SelectionType",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "field",
+        "qname": "TEXT",
+        "return": "String",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {}},
+      { "type": "field",
+        "qname": "CELLS",
+        "return": "String",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {}},
+      { "type": "field",
+        "qname": "NONE",
+        "return": "String",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {}}]
+  }

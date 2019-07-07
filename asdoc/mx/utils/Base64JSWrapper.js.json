@@ -1,0 +1,34 @@
+{ "type": "class",
+  "qname": "mx.utils.Base64JSWrapper",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "mx.utils.Base64JSWrapper",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "The Royale Compiler will inject html into the index.html file.  Surround with \\&quot;inject_html\\&quot; tag as follows:  <inject_html> <script type=\\&quot;text/javascript\\&quot; src=\\&quot;http://rawgit.com/beatgammit/base64-js/master/base64js.min.js\\&quot;></script> </inject_html>",
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "fromByteArray",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "String",
+          "params": [{ "name": "bytes", "type": "Object"}]}
+      ,
+      { "type": "method",
+        "qname": "toByteArray",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "Object",
+          "params": [{ "name": "b64Str", "type": "String"}]}
+      ]
+  }

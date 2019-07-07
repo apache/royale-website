@@ -1,0 +1,11 @@
+{ "type": "method",
+  "qname": "org.apache.royale.test.asserts.assertNotEquals",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "Alias for org.apache.royale.test.Assert assertNotEquals method",
+    "return": "void",
+    "params": [{ "name": "actual", "type": "*"},
+  { "name": "expected", "type": "*"},
+  { "name": "message", "type": "String"}]}

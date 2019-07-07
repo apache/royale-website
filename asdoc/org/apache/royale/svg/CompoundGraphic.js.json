@@ -320,5 +320,14 @@
                "values": ["{string} The style attribute."]}  ],
           "return": "String",
           "params": []}
+      ,
+      { "type": "method",
+        "qname": "addElementToSurface",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "e", "type": "org.apache.royale.core.WrappedHTMLElement"}]}
       ]
   }

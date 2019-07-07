@@ -43,7 +43,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Dispatches a \"layoutNeeded\" event",
+          "description": "Dispatches a \\&quot;layoutNeeded\\&quot; event",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

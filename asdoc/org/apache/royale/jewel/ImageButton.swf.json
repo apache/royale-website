@@ -2,7 +2,7 @@
   "qname": "org.apache.royale.jewel.ImageButton",
   "baseClassname": "org.apache.royale.jewel.Button"
   ,
-    "description": "The ImageButton class presents an image as a button. In html is an input type=\"image\", this shows the hand pointer cursor",
+    "description": "The ImageButton class presents an image as a button. In html is an input type=\\&quot;image\\&quot;, this shows the hand pointer cursor",
   "tags": [
   {  "tagName": "toplevel",
          "values": []},

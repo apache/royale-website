@@ -72,7 +72,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Add class selectors when the component is addedToParent Otherwise component will not get the class selectors when perform \"removeElement\" and then \"addElement\"",
+          "description": "Add class selectors when the component is addedToParent Otherwise component will not get the class selectors when perform \\&quot;removeElement\\&quot; and then \\&quot;addElement\\&quot;",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -157,7 +157,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A boolean flag to activate \"itemsExpand\" effect selector. Make items resize to the fill all container space",
+          "description": "A boolean flag to activate \\&quot;itemsExpand\\&quot; effect selector. Make items resize to the fill all container space",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

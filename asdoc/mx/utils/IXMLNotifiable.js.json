@@ -1,0 +1,13 @@
+{ "type": "interface",
+  "qname": "mx.utils.IXMLNotifiable",
+    "description": "The IXMLNotifiable interface.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  ]
+  }

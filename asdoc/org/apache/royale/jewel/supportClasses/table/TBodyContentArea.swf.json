@@ -2,7 +2,7 @@
   "qname": "org.apache.royale.jewel.supportClasses.table.TBodyContentArea",
   "baseClassname": "org.apache.royale.html.supportClasses.ContainerContentArea"
   ,
-    "description": "The TBodyContentArea class is a building block of Jewel SimpleTable and Table components, is used in TableView and represents an HTML <tbody> element.  The body part in a table use to be the \"data\" part and can be scrollable for this reason is implemented as a ContainerContentArea and provided via CSS as the IContentView.",
+    "description": "The TBodyContentArea class is a building block of Jewel SimpleTable and Table components, is used in TableView and represents an HTML <tbody> element.  The body part in a table use to be the \\&quot;data\\&quot; part and can be scrollable for this reason is implemented as a ContainerContentArea and provided via CSS as the IContentView.",
   "tags": [
   {  "tagName": "toplevel",
          "values": []},

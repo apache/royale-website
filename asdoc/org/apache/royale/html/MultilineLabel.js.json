@@ -37,7 +37,7 @@
           "description": "",
         "tags": [
         {  "tagName": "royaleignorecoercion",
-               "values": ["org.apache.royale.core.WrappedHTMLElement"]}  ],
+               "values": ["Text"]}  ],
           "return": "org.apache.royale.core.WrappedHTMLElement",
           "params": []}
       ]

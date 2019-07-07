@@ -18,7 +18,7 @@
       "description": "Add a bead to the strand.",
     "tags": [
     {  "tagName": "param",
-           "values": ["bead The bead to be added."]},
+           "values": ["bead The bead (IBead instance) to be added."]},
         {  "tagName": "playerversion",
            "values": ["Flash 10.2", "AIR 2.6"]},
         {  "tagName": "productversion",
@@ -34,7 +34,7 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
-      "description": "Find a bead on the strand.  to search for the bead",
+      "description": "Find a bead (IBead instance) on the strand.  to search for the bead",
     "tags": [
     {  "tagName": "param",
            "values": ["classOrInterface The class or interface to use"]},
@@ -58,7 +58,7 @@
       "description": "Remove a bead from the strand.",
     "tags": [
     {  "tagName": "param",
-           "values": ["IBead bead The bead to be removed."]},
+           "values": ["bead The bead (IBead instance) to be removed."]},
         {  "tagName": "playerversion",
            "values": ["Flash 10.2", "AIR 2.6"]},
         {  "tagName": "productversion",

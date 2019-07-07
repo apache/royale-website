@@ -58,7 +58,7 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "The Esc (Escape) key. Typically used as an exit, cancel, or \"escape this operation\" button. Historically, the Escape character was used to signal the start of a special control sequence of characters called an \"escape sequence.\""},
+          "description": "The Esc (Escape) key. Typically used as an exit, cancel, or \\&quot;escape this operation\\&quot; button. Historically, the Escape character was used to signal the start of a special control sequence of characters called an \\&quot;escape sequence.\\&quot;"},
       { "type": "field",
         "qname": "EXECUTE",
         "return": "String",

@@ -1,0 +1,35 @@
+{ "type": "class",
+  "qname": "spark.controls.advancedDataGridClasses.MXAdvancedDataGridItemRenderer",
+  "baseClassname": "spark.components.supportClasses.ItemRenderer"
+  ,
+    "description": "The MXAdvancedDataGridItemRenderer class defines the Spark item renderer class for use with the MX AdvancedDataGrid control. This class lets you use the Spark item renderer architecture with the MX AdvancedDataGrid control.   <p>The <code>&lt;s:MXAdvancedDataGridItemRenderer&gt;</code> tag inherits all of the tag attributes of its superclass and adds the following tag attributes:</p>  <pre> &lt;s:MXAdvancedDataGridItemRenderer <strong>Properties</strong> /&gt; </pre>",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["mx.controls.AdvancedDataGrid"]},
+      {  "tagName": "mxml",
+         "values": []},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10", "AIR 1.5"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 4"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "spark.controls.advancedDataGridClasses.MXAdvancedDataGridItemRenderer",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10", "AIR 1.5"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 4"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ]
+  }

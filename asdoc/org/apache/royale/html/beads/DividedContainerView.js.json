@@ -58,7 +58,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Handles the \"childrenAdded\" event and generates the separators between them based on the direction of the box.",
+          "description": "Handles the \\&quot;childrenAdded\\&quot; event and generates the separators between them based on the direction of the box.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

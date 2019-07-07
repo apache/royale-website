@@ -1,29 +1,4 @@
 { "type": "class",
-  "qname": "CursorData",
-  "baseClassname": ""
-  ,
-  "members": [
-  { "type": "field",
-        "qname": "cursor",
-        "return": "String",
-        "namespace": "public",
-        "bindable": [],
-        "details": [],
-        "deprecated": {},
-          "description": "",
-        "tags": [
-        {  "tagName": "royalesuppresspublicvarwarning",
-               "values": []}  ]},
-      { "type": "accessor",
-        "access": "write-only",
-        "return": "org.apache.royale.core.IStrand",
-        "qname": "strand",
-        "namespace": "public",
-        "bindable": [],
-        "details": [],
-        "deprecated": {}}]
-  }
-{ "type": "class",
   "qname": "org.apache.royale.css2.Cursors",
   "baseClassname": ""
   ,
@@ -111,20 +86,3 @@
 
 
 
-{ "type": "class",
-  "qname": "CursorData",
-  "baseClassname": ""
-  ,
-  "members": [
-  { "type": "field",
-        "qname": "cursor",
-        "return": "String",
-        "namespace": "public",
-        "bindable": [],
-        "details": [],
-        "deprecated": {},
-          "description": "",
-        "tags": [
-        {  "tagName": "royalesuppresspublicvarwarning",
-               "values": []}  ]}]
-  }

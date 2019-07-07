@@ -17,6 +17,10 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royalesuppressexport",
+               "values": []}  ],
           "return": "Boolean",
           "params": [{ "name": "flags", "type": "uint"},
         { "name": "optionBits", "type": "uint"}]}
@@ -27,8 +31,25 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royalesuppressexport",
+               "values": []}  ],
           "return": "Array",
           "params": [{ "name": "flags", "type": "uint"}]}
+      ,
+      { "type": "method",
+        "qname": "describeSingleFlag",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royalesuppressexport",
+               "values": []}  ],
+          "return": "String",
+          "params": [{ "name": "flag", "type": "uint"}]}
       ,
       { "type": "method",
         "qname": "org.apache.royale.reflection.CompilationData",
@@ -50,7 +71,9 @@
         {  "tagName": "param",
                "values": ["specificFlags a flag or flag combination to check for on ancestor classes."]},
             {  "tagName": "return",
-               "values": ["true if the ancestors have the same flags set, false otherwise"]}  ],
+               "values": ["true if the ancestors have the same flags set, false otherwise"]},
+            {  "tagName": "royalesuppressexport",
+               "values": []}  ],
           "return": "Boolean",
           "params": [{ "name": "specificFlags", "type": "int"}]}
       ,

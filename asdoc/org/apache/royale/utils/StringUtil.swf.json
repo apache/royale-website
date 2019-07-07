@@ -26,7 +26,7 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Substitutes \"{n}\" tokens within the specified string with the respective arguments passed in.  Note that this uses String.replace and \"$\" can have special meaning in the argument strings escape by using \"$$\".  This string can contain special tokens of the form <code>{n}</code>, where <code>n</code> is a zero based index, that will be replaced with the additional parameters found at that index if specified.  in the <code>str</code> parameter at each <code>{n}</code> location, where <code>n</code> is an integer (zero based) index value into the array of values specified. If the first parameter is an array this array will be used as a parameter list. This allows reuse of this routine in other methods that want to use the ... rest signature. For example <pre> public function myTracer(str:String, ... rest):void { label.text += StringUtil.substitute(str, rest) + \"\n\"; } </pre>  replaced with the respective arguments specified.   var str:String = \"here is some info '{0}' and {1}\"; trace(StringUtil.substitute(str, 15.4, true));  // this will output the following string: // \"here is some info '15.4' and true\"",
+          "description": "Substitutes \\&quot;{n}\\&quot; tokens within the specified string with the respective arguments passed in.  Note that this uses String.replace and \\&quot;$\\&quot; can have special meaning in the argument strings escape by using \\&quot;$$\\&quot;.  This string can contain special tokens of the form <code>{n}</code>, where <code>n</code> is a zero based index, that will be replaced with the additional parameters found at that index if specified.  in the <code>str</code> parameter at each <code>{n}</code> location, where <code>n</code> is an integer (zero based) index value into the array of values specified. If the first parameter is an array this array will be used as a parameter list. This allows reuse of this routine in other methods that want to use the ... rest signature. For example <pre> public function myTracer(str:String, ... rest):void { label.text += StringUtil.substitute(str, rest) + \\&quot;\\n\\&quot;; } </pre>  replaced with the respective arguments specified.   var str:String = \\&quot;here is some info '{0}' and {1}\\&quot;; trace(StringUtil.substitute(str, 15.4, true));  // this will output the following string: // \\&quot;here is some info '15.4' and true\\&quot;",
         "tags": [
         {  "tagName": "param",
                "values": ["str The string to make substitutions in.", "rest Additional parameters that can be substituted"]},
@@ -72,7 +72,7 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Removes \"unallowed\" characters from a string. A \"restriction string\" such as <code>\"A-Z0-9\"</code> is used to specify which characters are allowed. This method uses the same logic as the <code>restrict</code> property of TextField.    that are not allowed by the restriction string.",
+          "description": "Removes \\&quot;unallowed\\&quot; characters from a string. A \\&quot;restriction string\\&quot; such as <code>\\&quot;A-Z0-9\\&quot;</code> is used to specify which characters are allowed. This method uses the same logic as the <code>restrict</code> property of TextField.    that are not allowed by the restriction string.",
         "tags": [
         {  "tagName": "param",
                "values": ["str The input string.", "restrict The restriction string."]},

@@ -1,0 +1,33 @@
+{ "type": "class",
+  "qname": "org.apache.royale.ace.ACEEditor",
+  "baseClassname": "org.apache.royale.core.UIBase"
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.ace.ACEEditor",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "<inject_html> <script src=\\&quot;https://cdn.rawgit.com/ajaxorg/ace-builds/master/src-min-noconflict/ace.js\\&quot;></script> </inject_html>",
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "addedToParent",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "void",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "String",
+        "qname": "theme",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}}]
+  }

@@ -36,7 +36,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The field in the data that holds the sub-menus. The default is \"menu\".",
+          "description": "The field in the data that holds the sub-menus. The default is \\&quot;menu\\&quot;.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

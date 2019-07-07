@@ -7,7 +7,7 @@
   {  "tagName": "playerversion",
          "values": ["Flash 10.2", "AIR 2.6"]},
       {  "tagName": "productversion",
-         "values": ["Royale 0.0"]},
+         "values": ["Royale 0.9"]},
       {  "tagName": "royaleignoreimport",
          "values": ["goog.events.Event"]},
       {  "tagName": "langversion",
@@ -24,7 +24,7 @@
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
             {  "tagName": "productversion",
-               "values": ["Royale 0.0"]},
+               "values": ["Royale 0.9"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ],
           "return": "",
@@ -45,7 +45,9 @@
             {  "tagName": "copy",
                "values": ["org.apache.royale.core.IBead#strand"]},
             {  "tagName": "productversion",
-               "values": ["Royale 0.0"]},
+               "values": ["Royale 0.9"]},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.ISelectableItemRenderer", "org.apache.royale.core.UIBase"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]},
       { "type": "method",
@@ -54,6 +56,10 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleemitcoercion",
+               "values": ["org.apache.royale.core.ISelectableItemRenderer"]}  ],
           "return": "void",
           "params": [{ "name": "event", "type": "org.apache.royale.events.BrowserEvent"}]}
       ,
@@ -63,6 +69,10 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleemitcoercion",
+               "values": ["org.apache.royale.core.ISelectableItemRenderer"]}  ],
           "return": "void",
           "params": [{ "name": "event", "type": "org.apache.royale.events.BrowserEvent"}]}
       ]

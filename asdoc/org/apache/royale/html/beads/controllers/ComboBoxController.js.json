@@ -12,6 +12,13 @@
           "return": "",
           "params": []}
       ,
+      { "type": "field",
+        "qname": "viewBead",
+        "return": "org.apache.royale.html.beads.IComboBoxView",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}},
       { "type": "accessor",
         "access": "write-only",
         "return": "org.apache.royale.core.IStrand",
@@ -19,5 +26,23 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}}]
+        "deprecated": {}},
+      { "type": "method",
+        "qname": "finishSetup",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "event", "type": "org.apache.royale.events.Event"}]}
+      ,
+      { "type": "method",
+        "qname": "handleButtonClick",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "event", "type": "org.apache.royale.events.MouseEvent"}]}
+      ]
   }

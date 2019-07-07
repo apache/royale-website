@@ -2,7 +2,7 @@
   "qname": "org.apache.royale.html.beads.AbsolutePositioningViewBeadBase",
   "baseClassname": ""
   ,
-    "description": "Use AbsolutePositioningViewBeadBase as the base class for custom control view beads. This class sets the strand's position style to \"relative\" (HTML platform) if it is not already set to either \"absolute\" or \"relative\". Then use this class's setAbsolutePosition(child, x, y) function to place children. The function not only set's the child's left and top styles (HTML platform), it also sets the child's position to \"absolute\" (HTML platform).  On the Flash platform, this class will only set the child's x and y properties without any other side effects.",
+    "description": "Use AbsolutePositioningViewBeadBase as the base class for custom control view beads. This class sets the strand's position style to \\&quot;relative\\&quot; (HTML platform) if it is not already set to either \\&quot;absolute\\&quot; or \\&quot;relative\\&quot;. Then use this class's setAbsolutePosition(child, x, y) function to place children. The function not only set's the child's left and top styles (HTML platform), it also sets the child's position to \\&quot;absolute\\&quot; (HTML platform).  On the Flash platform, this class will only set the child's x and y properties without any other side effects.",
   "tags": [
   {  "tagName": "viewbead",
          "values": []},
@@ -79,7 +79,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Sets the position of the child and, on the HTML platform, sets the child's position style value to \"absolute\".",
+          "description": "Sets the position of the child and, on the HTML platform, sets the child's position style value to \\&quot;absolute\\&quot;.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

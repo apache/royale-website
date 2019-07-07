@@ -1,0 +1,15 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.factory.FactoryBackgroundManager",
+  "baseClassname": "org.apache.royale.textLayout.elements.BackgroundManager"
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "finalizeLine",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "line", "type": "org.apache.royale.textLayout.compose.ITextFlowLine"}]}
+      ]
+  }

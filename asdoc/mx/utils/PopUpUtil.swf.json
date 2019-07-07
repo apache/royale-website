@@ -1,0 +1,5 @@
+{ "type": "class",
+  "qname": "mx.utils.PopUpUtil",
+  "baseClassname": ""
+  ,
+    "description": "Helper functionality for working with pop-ups."}

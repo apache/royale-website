@@ -156,6 +156,10 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["String"]}  ],
           "return": "Boolean",
           "params": [{ "name": "e", "type": "Object"}]}
       ]

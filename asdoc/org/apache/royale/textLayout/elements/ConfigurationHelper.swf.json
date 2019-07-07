@@ -1,0 +1,14 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.elements.ConfigurationHelper",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "accessor",
+        "access": "read-only",
+        "return": "org.apache.royale.textLayout.elements.IConfiguration",
+        "qname": "defaultConfiguration",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {}}]
+  }

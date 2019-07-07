@@ -26,7 +26,9 @@
             {  "tagName": "copy",
                "values": ["org.apache.royale.core.IBead#strand"]},
             {  "tagName": "productversion",
-               "values": ["Royale 0.0"]},
+               "values": ["Royale 0.9"]},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.IStyleableObject", "org.apache.royale.events.IEventDispatcher"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
   }

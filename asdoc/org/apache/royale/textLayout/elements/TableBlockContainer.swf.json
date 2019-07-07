@@ -1,0 +1,33 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.elements.TableBlockContainer",
+  "baseClassname": "org.apache.royale.core.UIBase"
+  ,
+    "description": "The sprite that contains the table cells.",
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.textLayout.elements.TableBlockContainer",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ,
+      { "type": "field",
+        "qname": "userData",
+        "return": "org.apache.royale.textLayout.compose.ITextFlowTableBlock",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "A reference to the TextFlowTableBlock"},
+      { "type": "method",
+        "qname": "getTableWidth",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "Number",
+          "params": []}
+      ]
+  }

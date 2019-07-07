@@ -2,7 +2,7 @@
   "qname": "org.apache.royale.net.remoting.messages.AbstractMessage",
   "baseClassname": ""
   ,
-    "description": "Abstract base class for all messages. Messages have two customizable sections; headers and body. The <code>headers</code> property provides access to specialized meta information for a specific message instance. The <code>headers</code> property is an associative array with the specific header name as the key. <p> The body of a message contains the instance specific data that needs to be delivered and processed by the remote destination. The <code>body</code> is an object and is the payload for a message. </p>",
+    "description": "Abstract base class for all messages. Messages have two customizable sections; headers and body. The <code>headers</code> property provides access to specialized meta information for a specific message instance. The <code>headers</code> property is an associative array with the specific header name as the key. <p> The body of a message contains the instance specific data that needs to be delivered and processed by the remote destination. The <code>body</code> is an object and is the payload for a message. </p>  Note: readExternal and writeExternal methods compile but are not tested and maybe not work but is an initial work",
   "tags": [
   {  "tagName": "playerversion",
          "values": ["Flash 9", "AIR 1.1"]},
@@ -42,13 +42,13 @@
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]},
       { "type": "field",
-        "qname": "FLEX_CLIENT_ID_HEADER",
+        "qname": "ROYALE_CLIENT_ID_HEADER",
         "return": "String",
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "This header is used to transport the global FlexClient Id value in outbound messages once it has been assigned by the server.",
+          "description": "This header is used to transport the global RoyaleClient Id value in outbound messages once it has been assigned by the server.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},

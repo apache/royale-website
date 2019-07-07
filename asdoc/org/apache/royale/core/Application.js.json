@@ -30,6 +30,13 @@
           "return": "",
           "params": []}
       ,
+      { "type": "field",
+        "qname": "instanceParent",
+        "return": "org.apache.royale.core.IParent",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}},
       { "type": "accessor",
         "access": "write-only",
         "return": "org.apache.royale.core.IValuesImpl",
@@ -91,6 +98,22 @@
         "details": [],
         "deprecated": {},
           "description": "The controller.  The controller typically watches the UI for events and updates the model accordingly.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]},
+      { "type": "accessor",
+        "access": "read-only",
+        "return": "org.apache.royale.core.IPopUpHostParent",
+        "qname": "popUpParent",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Application can host popups but they will be in the layout, if any",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -319,10 +342,19 @@
           "description": "",
         "tags": [
         {  "tagName": "royaleignorecoercion",
-               "values": ["org.apache.royale.core.IBead"]}  ],
+               "values": ["org.apache.royale.core.IBead", "org.apache.royale.core.UIBase"]}  ],
           "return": "void",
           "params": []}
-      ]
+      ,
+      { "type": "accessor",
+        "access": "read-only",
+        "return": "org.apache.royale.core.IPopUpHost",
+        "qname": "popUpHost",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": ""}]
   ,
   "events": [
   { "qname": "initialize",

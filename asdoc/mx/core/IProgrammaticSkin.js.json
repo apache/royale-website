@@ -1,0 +1,10 @@
+{ "type": "interface",
+  "qname": "mx.core.IProgrammaticSkin",
+    "description": "The IProgrammaticSkin interface defines the interface that skin classes must implement if they use the <code>name</code> property skin interface.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ]}

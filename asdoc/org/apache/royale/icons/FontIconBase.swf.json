@@ -52,7 +52,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "add class name \"material-icons\" since in IE11 this font only works with that class name strangely. it seems we can avoid this but we must think if this is or not the right way.",
+          "description": "add class name \\&quot;material-icons\\&quot; since in IE11 this font only works with that class name strangely. it seems we can avoid this but we must think if this is or not the right way.",
         "tags": [
         {  "tagName": "see",
                "values": ["https://google.github.io/material-design-icons/"]},
@@ -70,7 +70,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Activate \"size-XX\" size class selector. Although the icons in the font can be scaled to any size, recommended sizes are 18, 24, 36 or 48px.  The default being 24px.",
+          "description": "Activate \\&quot;size-XX\\&quot; size class selector. Although the icons in the font can be scaled to any size, recommended sizes are 18, 24, 36 or 48px.  The default being 24px.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -86,7 +86,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Activate \"dark\" class selector.",
+          "description": "Activate \\&quot;dark\\&quot; class selector.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -102,7 +102,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Activate \"light\" class selector.",
+          "description": "Activate \\&quot;light\\&quot; class selector.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -118,7 +118,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Activate \"inactive\" class selector. To show the icon as inactive",
+          "description": "Activate \\&quot;inactive\\&quot; class selector. To show the icon as inactive",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

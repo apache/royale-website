@@ -1,0 +1,23 @@
+{ "type": "class",
+  "qname": "mx.errors.IllegalOperationError",
+  "baseClassname": "flash.errors.IllegalOperationError"
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "mx.errors.IllegalOperationError",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["BlazeDS 4", "LCDS 3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": [{ "name": "message", "type": "String"}]}
+      ]
+  }

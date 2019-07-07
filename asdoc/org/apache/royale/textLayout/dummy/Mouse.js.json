@@ -1,0 +1,23 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.dummy.Mouse",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "field",
+        "qname": "cursor",
+        "return": "String",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {}},
+      { "type": "method",
+        "qname": "registerCursor",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "name", "type": "String"},
+        { "name": "cursor", "type": "org.apache.royale.textLayout.dummy.MouseCursorData"}]}
+      ]
+  }

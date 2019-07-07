@@ -167,7 +167,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A boolean flag to activate \"itemsExpand\" effect selector. Make items resize to the fill all container space",
+          "description": "A boolean flag to activate \\&quot;itemsExpand\\&quot; effect selector. Make items resize to the fill all container space",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

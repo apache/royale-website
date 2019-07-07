@@ -143,7 +143,7 @@
           "description": "",
         "tags": [
         {  "tagName": "royaleignorecoercion",
-               "values": ["String", "HTMLElement", "String", "HTMLElement"]}  ]},
+               "values": ["String", "HTMLElement"]}  ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Number",
@@ -155,5 +155,5 @@
           "description": "",
         "tags": [
         {  "tagName": "royaleignorecoercion",
-               "values": ["String", "HTMLElement", "String", "HTMLElement"]}  ]}]
+               "values": ["String", "HTMLElement"]}  ]}]
   }

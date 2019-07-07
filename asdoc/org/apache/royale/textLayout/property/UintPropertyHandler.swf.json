@@ -1,0 +1,32 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.property.UintPropertyHandler",
+  "baseClassname": "org.apache.royale.textLayout.property.PropertyHandler"
+  ,
+    "description": "A property description with an unsigned integer as its value.  Typically used for color. @private",
+  "members": [
+  { "type": "accessor",
+        "access": "read-only",
+        "return": "String",
+        "qname": "className",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {}},
+      { "type": "accessor",
+        "access": "read-only",
+        "return": "Boolean",
+        "qname": "customXMLStringHandler",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {}},
+      { "type": "method",
+        "qname": "toXMLString",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "String",
+          "params": [{ "name": "val", "type": "Object"}]}
+      ]
+  }

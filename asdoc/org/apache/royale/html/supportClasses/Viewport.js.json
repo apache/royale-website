@@ -69,7 +69,17 @@
           "description": "",
         "tags": [
         {  "tagName": "royaleignorecoercion",
-               "values": ["Class"]}  ]},
+               "values": ["Class", "org.apache.royale.core.UIBase"]}  ]},
+      { "type": "method",
+        "qname": "setScrollStyle",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Subclasses override this method to change scrolling behavior",
+          "return": "void",
+          "params": []}
+      ,
       { "type": "method",
         "qname": "setPosition",
         "namespace": "public",

@@ -9,6 +9,10 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["Namespace"]}  ],
           "return": "",
           "params": [{ "name": "prefixOrUri", "type": "Object"},
         { "name": "uriValue", "type": "Object"}]}

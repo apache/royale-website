@@ -1,0 +1,3 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.storage.file.IDataStream",
+    "description": "The File class provides access to a specific file on the device."}

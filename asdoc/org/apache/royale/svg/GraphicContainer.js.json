@@ -1,23 +1,4 @@
 { "type": "class",
-  "qname": "GraphicGroup",
-  "baseClassname": "org.apache.royale.core.GroupBase"
-  ,
-  "members": [
-  { "type": "method",
-        "qname": "createElement",
-        "namespace": "protected",
-        "bindable": [],
-        "details": ["override"],
-        "deprecated": {},
-          "description": "",
-        "tags": [
-        {  "tagName": "royaleignorecoercion",
-               "values": ["org.apache.royale.core.WrappedHTMLElement"]}  ],
-          "return": "org.apache.royale.core.WrappedHTMLElement",
-          "params": []}
-      ]
-  }
-{ "type": "class",
   "qname": "org.apache.royale.svg.GraphicContainer",
   "baseClassname": "org.apache.royale.core.GroupBase"
   ,
@@ -261,22 +242,3 @@
 
 
 
-{ "type": "class",
-  "qname": "GraphicGroup",
-  "baseClassname": "org.apache.royale.core.GroupBase"
-  ,
-  "members": [
-  { "type": "method",
-        "qname": "createElement",
-        "namespace": "protected",
-        "bindable": [],
-        "details": ["override"],
-        "deprecated": {},
-          "description": "",
-        "tags": [
-        {  "tagName": "royaleignorecoercion",
-               "values": ["org.apache.royale.core.WrappedHTMLElement", "org.apache.royale.core.WrappedHTMLElement"]}  ],
-          "return": "org.apache.royale.core.WrappedHTMLElement",
-          "params": []}
-      ]
-  }

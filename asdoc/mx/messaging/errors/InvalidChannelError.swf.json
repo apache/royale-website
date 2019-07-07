@@ -1,0 +1,33 @@
+{ "type": "class",
+  "qname": "mx.messaging.errors.InvalidChannelError",
+  "baseClassname": "mx.messaging.errors.ChannelError"
+  ,
+    "description": "This error is thrown when a Channel can't be accessed or is not valid for the current destination. This error is thrown by the following methods/properties within the framework: <ul> <li><code>ServerConfig.getChannel()</code> if the channel can't be found based on channel id.</li> </ul>",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["BlazeDS 4", "LCDS 3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.messaging.errors.InvalidChannelError",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructs a new instance of an InvalidChannelError with the specified message.",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["msg String that contains the message that describes this InvalidChannelError."]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["BlazeDS 4", "LCDS 3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": [{ "name": "msg", "type": "String"}]}
+      ]
+  }

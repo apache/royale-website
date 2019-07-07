@@ -1,8 +1,0 @@
-{ "type": "class",
-  "qname": "NetworkClasses",
-  "baseClassname": ""
-  ,
-    "description": "This class is used to link additional classes into Network.swc beyond those that are found by dependency analysis starting from the classes specified in manifest.xml.",
-  "tags": [
-  {  "tagName": "private",
-         "values": []}  ]}

@@ -1,0 +1,31 @@
+{ "type": "class",
+  "qname": "mx.system.ApplicationDomain",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "mx.system.ApplicationDomain",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "read-only",
+        "return": "Object",
+        "qname": "currentDomain",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {}}]
+  }

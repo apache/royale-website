@@ -1,0 +1,13 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.elements.ConfigSettings",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "field",
+        "qname": "usesDiscretionaryHyphens",
+        "return": "Boolean",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {}}]
+  }

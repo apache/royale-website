@@ -291,7 +291,7 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
-      "description": "If true the X axis is scaled by -1 and the x coordinate of the origin is translated by the component's width.  The net effect of this \"mirror\" transform is to flip the direction that the X axis increases in without changing the layout element's location relative to the parent's origin.",
+      "description": "If true the X axis is scaled by -1 and the x coordinate of the origin is translated by the component's width.  The net effect of this \\&quot;mirror\\&quot; transform is to flip the direction that the X axis increases in without changing the layout element's location relative to the parent's origin.",
     "tags": [
     {  "tagName": "default",
            "values": ["false"]},

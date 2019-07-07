@@ -87,7 +87,9 @@
           "description": "",
         "tags": [
         {  "tagName": "private",
-               "values": []}  ]},
+               "values": []},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.events.IEventDispatcher", "org.apache.royale.core.UIBase"]}  ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Boolean",

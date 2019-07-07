@@ -1,0 +1,44 @@
+{ "type": "class",
+  "qname": "org.apache.royale.net.remoting.messages.AsyncMessageExt",
+  "baseClassname": "org.apache.royale.net.remoting.messages.AsyncMessage"
+  ,
+    "description": "A special serialization wrapper for AsyncMessages. This wrapper is used to enable the externalizable form of an AsyncMessage for serialization. The wrapper must be applied just before the message is serialized as it does not proxy any information to the wrapped message.",
+  "tags": [
+  {  "tagName": "private",
+         "values": []}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.net.remoting.messages.AsyncMessageExt",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": [{ "name": "message", "type": "org.apache.royale.net.remoting.messages.AsyncMessage"}]}
+      ,
+      { "type": "method",
+        "qname": "writeExternal",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "output", "type": "org.apache.royale.utils.net.IDataOutput"}]}
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "String",
+        "qname": "messageId",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "The unique id for the message.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["BlazeDS 4", "LCDS 3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  }

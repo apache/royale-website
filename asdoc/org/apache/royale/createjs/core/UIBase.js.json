@@ -58,7 +58,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The style object has no meaning for CreateJS, but is provided for compatiability and, perhaps in the future, as a way to apply \"styles\" to CreateJS objects.",
+          "description": "The style object has no meaning for CreateJS, but is provided for compatiability and, perhaps in the future, as a way to apply \\&quot;styles\\&quot; to CreateJS objects.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

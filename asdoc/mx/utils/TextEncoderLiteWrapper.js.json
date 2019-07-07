@@ -1,0 +1,34 @@
+{ "type": "class",
+  "qname": "mx.utils.TextEncoderLiteWrapper",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "mx.utils.TextEncoderLiteWrapper",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "The Royale Compiler will inject html into the index.html file.  Surround with \\&quot;inject_html\\&quot; tag as follows:  <inject_html> <script type=\\&quot;text/javascript\\&quot; src=\\&quot;http://rawgit.com/coolaj86/TextEncoderLite/master/text-encoder-lite.min.js\\&quot;></script> </inject_html>",
+          "return": "",
+          "params": [{ "name": "encoding", "type": "String"}]}
+      ,
+      { "type": "method",
+        "qname": "encode",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "Object",
+          "params": [{ "name": "data", "type": "String"}]}
+      ,
+      { "type": "method",
+        "qname": "decode",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "String",
+          "params": [{ "name": "data", "type": "Object"}]}
+      ]
+  }

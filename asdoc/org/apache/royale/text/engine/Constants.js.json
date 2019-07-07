@@ -1,0 +1,13 @@
+{ "type": "class",
+  "qname": "org.apache.royale.text.engine.Constants",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "field",
+        "qname": "MAX_LINE_WIDTH",
+        "return": "int",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {}}]
+  }

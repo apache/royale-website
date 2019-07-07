@@ -1,0 +1,29 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.compose.SWFContext",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "callInContext",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "*",
+          "params": [{ "name": "fn", "type": "Function"},
+        { "name": "thisArg", "type": "Object"},
+        { "name": "argArray", "type": "Array"},
+        { "name": "returns", "type": "Boolean"}]}
+      ,
+      { "type": "accessor",
+        "access": "read-only",
+        "return": "org.apache.royale.textLayout.compose.ISWFContext",
+        "qname": "globalSWFContext",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {}}]
+  }
+
+
+

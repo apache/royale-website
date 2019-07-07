@@ -1,0 +1,23 @@
+{ "type": "class",
+  "qname": "org.apache.royale.mdl.beads.views.ListView",
+  "baseClassname": "org.apache.royale.html.beads.ListView"
+  ,
+    "description": "ListView makes sure the itemRendererFactory and the layout beads are installed.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.8"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.mdl.beads.views.ListView",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ]
+  }

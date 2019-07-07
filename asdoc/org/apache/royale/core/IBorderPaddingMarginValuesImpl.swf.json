@@ -94,7 +94,7 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
-      "description": "Return a MarginData that contains the margins for the object. MarginData is more than just a rectangle as it needs to account for values like \"auto\".",
+      "description": "Return a MarginData that contains the margins for the object. MarginData is more than just a rectangle as it needs to account for values like \\&quot;auto\\&quot;.",
     "tags": [
     {  "tagName": "playerversion",
            "values": ["Flash 10.2", "AIR 2.6"]},

@@ -1,0 +1,11 @@
+{ "type": "method",
+  "qname": "org.apache.royale.test.asserts.assertStrictlyEquals",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "Alias for org.apache.royale.test.Assert assertStrictlyEquals method",
+    "return": "void",
+    "params": [{ "name": "actual", "type": "*"},
+  { "name": "expected", "type": "*"},
+  { "name": "message", "type": "String"}]}

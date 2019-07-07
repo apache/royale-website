@@ -38,7 +38,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The form method (either \"post\" or \"get\")",
+          "description": "The form method (either \\&quot;post\\&quot; or \\&quot;get\\&quot;)",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

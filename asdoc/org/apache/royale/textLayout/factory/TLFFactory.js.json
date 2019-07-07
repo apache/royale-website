@@ -1,0 +1,14 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.factory.TLFFactory",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "accessor",
+        "access": "read-write",
+        "return": "org.apache.royale.textLayout.factory.ITLFFactory",
+        "qname": "defaultTLFFactory",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {}}]
+  }

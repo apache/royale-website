@@ -28,7 +28,7 @@
         "details": ["override"],
         "deprecated": {},
           "return": "Boolean",
-          "params": [{ "name": "event", "type": "Object"}]}
+          "params": [{ "name": "event1", "type": "Object"}]}
       ,
       { "type": "method",
         "qname": "toString",

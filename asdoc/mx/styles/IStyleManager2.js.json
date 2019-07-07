@@ -1,0 +1,15 @@
+{ "type": "interface",
+  "qname": "mx.styles.IStyleManager2",
+"baseInterfaceNames": [
+"mx.styles.IStyleManager"]
+,
+    "description": "The IStyleManager2 class manages the following: <ul> <li>Which CSS style properties the class inherits</li> <li>Which style properties are colors, and therefore get special handling</li> <li>A list of strings that are aliases for color values</li> </ul>",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["mx.styles.CSSStyleDeclaration"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ]}

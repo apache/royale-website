@@ -1,0 +1,15 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.beads.DataGridListArea",
+  "baseClassname": "org.apache.royale.html.Container"
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html.beads.DataGridListArea",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ]
+  }

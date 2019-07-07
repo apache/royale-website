@@ -54,7 +54,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "the target attribute. Defaults to \"_self\" Other options \"_blank\", \"_parent\", \"_top\"",
+          "description": "the target attribute. Defaults to \\&quot;_self\\&quot; Other options \\&quot;_blank\\&quot;, \\&quot;_parent\\&quot;, \\&quot;_top\\&quot;",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

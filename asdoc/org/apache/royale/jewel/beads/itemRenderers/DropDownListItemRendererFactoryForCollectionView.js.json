@@ -1,0 +1,16 @@
+{ "type": "class",
+  "qname": "org.apache.royale.jewel.beads.itemRenderers.DropDownListItemRendererFactoryForCollectionView",
+  "baseClassname": "org.apache.royale.jewel.beads.itemRenderers.DataItemRendererFactoryForCollectionView"
+  ,
+    "description": "This class creates itemRenderer instances from the data contained within an ICollectionView",
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.jewel.beads.itemRenderers.DropDownListItemRendererFactoryForCollectionView",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": [{ "name": "target", "type": "Object"}]}
+      ]
+  }

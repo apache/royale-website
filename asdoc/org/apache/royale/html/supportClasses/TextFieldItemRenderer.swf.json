@@ -241,7 +241,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Returns whether or not the itemRenderer is a \"hovered\" state.",
+          "description": "Returns whether or not the itemRenderer is a \\&quot;hovered\\&quot; state.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

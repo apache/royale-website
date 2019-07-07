@@ -1,0 +1,25 @@
+{ "type": "class",
+  "qname": "org.apache.royale.test.listeners.FailureListener",
+  "baseClassname": ""
+  ,
+    "description": "Determine if a test run fails or not.",
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.test.listeners.FailureListener",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "read-only",
+        "return": "Boolean",
+        "qname": "failed",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Indicates of the test runner failed."}]
+  }

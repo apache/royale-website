@@ -1,0 +1,34 @@
+{ "type": "class",
+  "qname": "mx.net.SharedObject",
+  "baseClassname": "org.apache.royale.events.EventDispatcher"
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "getLocal",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "return": "mx.net.SharedObject",
+          "params": [{ "name": "name", "type": "String"},
+        { "name": "localPath", "type": "String"},
+        { "name": "secure", "type": "Boolean"}]}
+      ,
+      { "type": "method",
+        "qname": "flush",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "String",
+          "params": [{ "name": "minDiskSpace", "type": "int"}]}
+      ,
+      { "type": "accessor",
+        "access": "read-only",
+        "return": "Object",
+        "qname": "data",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}}]
+  }

@@ -1,0 +1,31 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.operations.InsertTableElementOperation",
+  "baseClassname": "org.apache.royale.textLayout.operations.FlowTextOperation"
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.textLayout.operations.InsertTableElementOperation",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": [{ "name": "operationState", "type": "org.apache.royale.textLayout.edit.SelectionState"},
+        { "name": "table", "type": "org.apache.royale.textLayout.elements.ITableElement"}]}
+      ,
+      { "type": "method",
+        "qname": "redo",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "Re-executes the operation after it has been undone.  <p>This function is called by the edit manager, when necessary.</p>",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10", "AIR 1.5"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "org.apache.royale.textLayout.edit.SelectionState",
+          "params": []}
+      ]
+  }

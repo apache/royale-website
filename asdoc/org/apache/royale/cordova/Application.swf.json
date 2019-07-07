@@ -17,7 +17,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The Royale Compiler will inject html into the index.html file.  Surround with \"inject_html\" tag as follows:  <inject_html> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0\"> <script type=\"text/javascript\" src=\"cordova.js\"></script> </inject_html>",
+          "description": "The Royale Compiler will inject html into the index.html file.  Surround with \\&quot;inject_html\\&quot; tag as follows:  <inject_html> <meta name=\\&quot;viewport\\&quot; content=\\&quot;width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0\\&quot;> <script type=\\&quot;text/javascript\\&quot; src=\\&quot;cordova.js\\&quot;></script> </inject_html>",
           "return": "",
           "params": []}
       ,

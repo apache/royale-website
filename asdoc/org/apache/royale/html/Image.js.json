@@ -57,6 +57,10 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["HTMLImageElement"]}  ],
           "return": "void",
           "params": [{ "name": "binaryDataAsString", "type": "String"}]}
       ]

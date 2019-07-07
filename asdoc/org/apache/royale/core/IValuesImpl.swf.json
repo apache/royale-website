@@ -65,7 +65,7 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
-      "description": "Returns a shared instance, instantiating the shared instance if it doesn't exist.  Often used to share \"managers\"  qualified class name is used.",
+      "description": "Returns a shared instance, instantiating the shared instance if it doesn't exist.  Often used to share \\&quot;managers\\&quot;  qualified class name is used.",
     "tags": [
     {  "tagName": "param",
            "values": ["valueName The name of a shared instance.  Often, the fully"]},
@@ -105,7 +105,7 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
-      "description": "Converts a color value into a uint.  a color value like #ffffff or \"red\" in some cases.",
+      "description": "Converts a color value into a uint.  a color value like #ffffff or \\&quot;red\\&quot; in some cases.",
     "tags": [
     {  "tagName": "param",
            "values": ["value A string for a color.  Typically it is"]},
@@ -127,7 +127,7 @@
       "description": "Converts an HTML-like style format into an object.",
     "tags": [
     {  "tagName": "param",
-           "values": ["value A string, such as "color:red;fontSize:10px"."]},
+           "values": ["value A string, such as &quot;color:red;fontSize:10px&quot;."]},
         {  "tagName": "playerversion",
            "values": ["Flash 10.2", "AIR 2.6"]},
         {  "tagName": "productversion",

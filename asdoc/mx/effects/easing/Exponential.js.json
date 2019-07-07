@@ -1,0 +1,38 @@
+{ "type": "class",
+  "qname": "mx.effects.easing.Exponential",
+  "baseClassname": ""
+  ,
+    "description": "The Exponential class defines three easing functions to implement motion with Flex effect classes, where the motion is defined by an exponentially decaying sine wave.  For more information, see http://www.robertpenner.com/profmx.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "easeOut",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "The <code>easeOut()</code> method starts motion fast, and then decelerates motion as it executes.",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["t Specifies time.", "b Specifies the initial position of a component.", "c Specifies the total change in position of the component.", "d Specifies the duration of the effect, in milliseconds."]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.3"]},
+            {  "tagName": "return",
+               "values": ["Number corresponding to the position of the component."]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "Number",
+          "params": [{ "name": "t", "type": "Number"},
+        { "name": "b", "type": "Number"},
+        { "name": "c", "type": "Number"},
+        { "name": "d", "type": "Number"}]}
+      ]
+  }

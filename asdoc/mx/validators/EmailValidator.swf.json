@@ -1,0 +1,35 @@
+{ "type": "class",
+  "qname": "mx.validators.EmailValidator",
+  "baseClassname": "mx.validators.Validator"
+  ,
+    "description": "The EmailValidator class validates that a String has a single &#64; sign, a period in the domain name and that the top-level domain suffix has two, three, four, or six characters. IP domain names are valid if they are enclosed in square brackets. The validator does not check whether the domain and user name actually exist.  <p>You can use IP domain names if they are enclosed in square brackets; for example, myname&#64;[206.132.22.1]. You can use individual IP numbers from 0 to 255.</p>   <p>The <code>&lt;mx:EmailValidator&gt;</code> tag inherits all of the tag attributes of its superclass, and adds the following tag attributes:</p>  <pre> &lt;mx:EmailValidator invalidCharError=\\&quot;Your e-mail address contains invalid characters.\\&quot; invalidDomainError= \\&quot;The domain in your e-mail address is incorrectly formatted.\\&quot; invalidIPDomainError=\\&quot;The IP domain in your e-mail address is incorrectly formatted.\\&quot; invalidPeriodsInDomainError=\\&quot;The domain in your e-mail address has consecutive periods.\\&quot; missingAtSignError=\\&quot;An at sign (&64;) is missing in your e-mail address.\\&quot; missingPeriodInDomainError=\\&quot;The domain in your e-mail address is missing a period.\\&quot; missingUsernameError=\\&quot;The username in your e-mail address is missing.\\&quot; tooManyAtSignsError=\\&quot;Your e-mail address contains too many &64; characters.\\&quot; /&gt; </pre>",
+  "tags": [
+  {  "tagName": "includeExample",
+         "values": ["examples/EmailValidatorExample.mxml"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "mxml",
+         "values": []},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.validators.EmailValidator",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ]
+  }

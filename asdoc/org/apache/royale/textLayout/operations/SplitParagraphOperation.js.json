@@ -1,0 +1,31 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.operations.SplitParagraphOperation",
+  "baseClassname": "org.apache.royale.textLayout.operations.SplitElementOperation"
+  ,
+    "description": "The SplitParagraphOperation class encapsulates a change that splits a paragraph into two elements.  <p>The operation creates a new paragraph containing the text from the specified position to the end of the paragraph. If a range of text is specified, the text in the range is deleted first.</p>",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["org.apache.royale.textLayout.elements.ParagraphElement", "org.apache.royale.textLayout.edit.EditManager", "org.apache.royale.textLayout.events.FlowOperationEvent"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10", "AIR 1.5"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.textLayout.operations.SplitParagraphOperation",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Creates a SplitParagraphOperation object.  If a range of text is specified, the contents of the range are deleted.",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["operationState Describes the point at which to split the paragraph."]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 10", "AIR 1.5"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": [{ "name": "operationState", "type": "org.apache.royale.textLayout.edit.SelectionState"}]}
+      ]
+  }

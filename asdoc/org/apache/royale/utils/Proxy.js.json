@@ -42,6 +42,16 @@
         { "name": "value", "type": "*"}]}
       ,
       { "type": "method",
+        "qname": "callProperty",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "*",
+          "params": [{ "name": "propName", "type": "*"},
+        { "name": "args", "type": "Array"}]}
+      ,
+      { "type": "method",
         "qname": "hasProperty",
         "namespace": "public",
         "bindable": [],
@@ -60,7 +70,7 @@
           "params": [{ "name": "propName", "type": "String"}]}
       ,
       { "type": "method",
-        "qname": "elementNames",
+        "qname": "propertyNames",
         "namespace": "public",
         "bindable": [],
         "details": [],

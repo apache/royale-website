@@ -2,7 +2,7 @@
   "qname": "org.apache.royale.utils.IBinaryDataOutput",
   "members": [
   { "type": "method",
-    "qname": "writeBytes",
+    "qname": "writeBinaryData",
     "namespace": "public",
     "bindable": [],
     "details": [],

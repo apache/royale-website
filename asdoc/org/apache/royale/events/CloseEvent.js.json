@@ -39,7 +39,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Identifies the button in the popped up control that was clicked. This property is for controls with multiple    		 *	buttons. The Alert control sets this property to one of the following constants:  Alert.YES Alert.NO Alert.OK Alert.CANCEL",
+          "description": "Identifies the button in the popped up control that was clicked. This property is for controls with multiple       * buttons. The Alert control sets this property to one of the following constants:  Alert.YES Alert.NO Alert.OK Alert.CANCEL",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

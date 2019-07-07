@@ -49,7 +49,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The return type for this method note: a return type may be \"*\" or \"void\""},
+          "description": "The return type for this method note: a return type may be \\&quot;*\\&quot; or \\&quot;void\\&quot;"},
       { "type": "method",
         "qname": "toString",
         "namespace": "public",

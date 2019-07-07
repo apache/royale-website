@@ -4,6 +4,23 @@
   ,
   "members": [
   { "type": "method",
+        "qname": "org.apache.royale.utils.CompressionUtils",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "The Royale Compiler will inject html into the index.html file.  Surround with \\&quot;inject_html\\&quot; tag as follows:  <inject_html> <script src=\\&quot;https://cdnjs.cloudflare.com/ajax/libs/pako/1.0.3/pako.min.js\\&quot;></script> </inject_html>  Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
         "qname": "inflate",
         "namespace": "public",
         "bindable": [],

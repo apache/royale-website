@@ -1,0 +1,16 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.dummy.BoundsUtil",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "getBounds",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "return": "org.apache.royale.geom.Rectangle",
+          "params": [{ "name": "child", "type": "org.apache.royale.core.IUIBase"},
+        { "name": "parent", "type": "org.apache.royale.core.IUIBase"}]}
+      ]
+  }

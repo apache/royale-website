@@ -1,0 +1,13 @@
+{ "type": "interface",
+  "qname": "mx.modules.IModuleInfo",
+"baseInterfaceNames": [
+"org.apache.royale.events.IEventDispatcher"]
+,
+    "description": "An interface that acts as a handle for a particular module. From this interface, the module status can be queried, its inner factory can be obtained, and it can be loaded or unloaded.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ]}

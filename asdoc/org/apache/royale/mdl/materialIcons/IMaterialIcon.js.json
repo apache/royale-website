@@ -1,0 +1,13 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.mdl.materialIcons.IMaterialIcon",
+"baseInterfaceNames": [
+"org.apache.royale.core.IUIBase"]
+,
+    "description": "IMaterialIcon interface provides abstraction for easiest way to implements custom MaterialIcon class",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.8"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ]}

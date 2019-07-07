@@ -1,0 +1,33 @@
+{ "type": "class",
+  "qname": "mx.collections.errors.CursorError",
+  "baseClassname": "Error"
+  ,
+    "description": "This error is thrown by a collection Cursor. Errors of this class are thrown by classes that implement the IViewCursor interface.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.collections.errors.CursorError",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["message A message providing information about the error cause."]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": [{ "name": "message", "type": "String"}]}
+      ]
+  }

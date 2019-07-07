@@ -1,0 +1,12 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.textLayout.container.ITextContainerManager",
+  "members": [
+  { "type": "accessor",
+    "access": "read-only",
+    "return": "Number",
+    "qname": "compositionWidth",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {}}]
+  }

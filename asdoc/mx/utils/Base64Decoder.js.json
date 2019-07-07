@@ -1,0 +1,42 @@
+{ "type": "class",
+  "qname": "mx.utils.Base64Decoder",
+  "baseClassname": ""
+  ,
+    "description": "A utility class to decode a Base64 encoded String to a ByteArray.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.4"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.utils.Base64Decoder",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "decode",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Decodes a Base64 encoded String and adds the result to an internal buffer. Strings must be in ASCII format.  <p>Subsequent calls to this method add on to the internal buffer. After all data have been encoded, call <code>toByteArray()</code> to obtain a decoded <code>flash.utils.ByteArray</code>.</p>",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["encoded The Base64 encoded String to decode."]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.4"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "String",
+          "params": [{ "name": "data", "type": "String"}]}
+      ]
+  }

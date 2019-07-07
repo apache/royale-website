@@ -2,7 +2,7 @@
   "qname": "org.apache.royale.utils.IBinaryDataInput",
   "members": [
   { "type": "method",
-    "qname": "readBytes",
+    "qname": "readBinaryData",
     "namespace": "public",
     "bindable": [],
     "details": [],

@@ -1,0 +1,22 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.edit.mementos.BaseMemento",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "field",
+        "qname": "_textFlow",
+        "return": "org.apache.royale.textLayout.elements.ITextFlow",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}},
+      { "type": "method",
+        "qname": "org.apache.royale.textLayout.edit.mementos.BaseMemento",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": [{ "name": "textFlow", "type": "org.apache.royale.textLayout.elements.ITextFlow"}]}
+      ]
+  }

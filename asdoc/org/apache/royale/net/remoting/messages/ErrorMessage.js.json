@@ -1,6 +1,6 @@
 { "type": "class",
   "qname": "org.apache.royale.net.remoting.messages.ErrorMessage",
-  "baseClassname": "org.apache.royale.net.remoting.messages.AbstractMessage"
+  "baseClassname": "org.apache.royale.net.remoting.messages.AcknowledgeMessage"
   ,
     "description": "ErrorMessages are sometimes returned from RPC requests to a remote endpoint.",
   "tags": [

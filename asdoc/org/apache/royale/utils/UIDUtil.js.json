@@ -17,7 +17,7 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Generates a UID (unique identifier) based on ActionScript's pseudo-random number generator and the current time.  <p>The UID has the form <code>\"XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX\"</code> where X is a hexadecimal digit (0-9, A-F).</p>  <p>This UID will not be truly globally unique; but it is the best we can do without player support for UID generation.</p>",
+          "description": "Generates a UID (unique identifier) based on ActionScript's pseudo-random number generator and the current time.  <p>The UID has the form <code>\\&quot;XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX\\&quot;</code> where X is a hexadecimal digit (0-9, A-F).</p>  <p>This UID will not be truly globally unique; but it is the best we can do without player support for UID generation.</p>",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},

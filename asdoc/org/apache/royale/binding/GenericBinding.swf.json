@@ -37,7 +37,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The mxml document for the binding expression.  If you bind to {someid.someproperty} then there must be a tag in the mxml document with the id \"someid\".",
+          "description": "The mxml document for the binding expression.  If you bind to {someid.someproperty} then there must be a tag in the mxml document with the id \\&quot;someid\\&quot;.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

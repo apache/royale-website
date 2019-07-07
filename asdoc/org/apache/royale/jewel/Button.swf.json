@@ -100,7 +100,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Activate \"emphasis\" effect selector. Applies emphasis color display effect. Possible values are constants (PRIMARY, SECONDARY, EMPHASIZED) Colors are defined in royale-jewel.css",
+          "description": "Activate \\&quot;emphasis\\&quot; effect selector. Applies emphasis color display effect. Possible values are constants (PRIMARY, SECONDARY, EMPHASIZED) Colors are defined in royale-jewel.css",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

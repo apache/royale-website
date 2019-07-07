@@ -1,0 +1,23 @@
+{ "type": "class",
+  "qname": "mx.controls.buttonBarClasses.TextButtonDataGridColumnItemRenderer",
+  "baseClassname": "org.apache.royale.html.supportClasses.TextButtonItemRenderer"
+  ,
+    "description": "The TextButtonDataGridColumnItemRenderer is the default renderer for mx.controls.DataGrid's columns",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "updateButtonLabelFromData",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "void",
+          "params": []}
+      ]
+  }

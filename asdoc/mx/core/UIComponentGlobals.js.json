@@ -1,0 +1,42 @@
+{ "type": "class",
+  "qname": "mx.core.UIComponentGlobals",
+  "baseClassname": ""
+  ,
+    "description": "",
+  "tags": [
+  {  "tagName": "private",
+         "values": []}  ],
+  "members": [
+  { "type": "accessor",
+        "access": "read-write",
+        "return": "Boolean",
+        "qname": "designMode",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "A global flag that can be read by any component to determine whether it is currently executing in the context of a design tool such as Flash Builder's design view.  Most components will never need to check this flag, but if a component needs to have different behavior at design time than at runtime, then it can check this flag.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]},
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "Boolean",
+        "qname": "catchCallLaterExceptions",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "A global flag that can is used to catch unhandled exceptions during execution of methods executed via callLater",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  }

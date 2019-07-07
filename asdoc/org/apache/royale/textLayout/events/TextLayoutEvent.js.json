@@ -1,0 +1,42 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.events.TextLayoutEvent",
+  "baseClassname": "org.apache.royale.events.Event"
+  ,
+    "description": "A TextLayoutEvent instance represents an event, such as the <code>TextLayoutEvent.SCROLL</code> event, that does not require custom properties. <p>A scroll event is represented by a TextLayoutEvent instance with its <code>type</code> property set to <code>TextLayoutEvent.SCROLL</code>. A class specifically for scroll events is not necessary because there are no custom properties for a scroll event, as there are for the other events that have specific event classes. If a new text layout event is needed, and the event does not require custom properties, the new event will also be represented by a TextLayoutEvent object, but with its <code>type</code> property set to a new static constant. </p>",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10", "AIR 1.5"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "field",
+        "qname": "SCROLL",
+        "return": "String",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "The <code>TextLayoutEvent.SCROLL</code> constant defines the value of the <code>type</code> property of the event object for a <code>scroll</code> event.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10", "AIR 1.5"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]},
+      { "type": "method",
+        "qname": "org.apache.royale.textLayout.events.TextLayoutEvent",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "The TextLayoutEvent class represents the event object passed to the event listener for many Text Layout events.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10", "AIR 1.5"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": [{ "name": "type", "type": "String"},
+        { "name": "bubbles", "type": "Boolean"},
+        { "name": "cancelable", "type": "Boolean"}]}
+      ]
+  }

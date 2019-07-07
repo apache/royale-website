@@ -2,7 +2,7 @@
   "qname": "org.apache.royale.html.TreeGrid",
   "baseClassname": "org.apache.royale.html.DataGrid"
   ,
-    "description": "A TreeGrid is a combination of a Tree and a DataGrid. The first column of the TreeGrid is a Tree; the remaining columns are Lists. Each column of the TreeGrid is defined by the TreeGridColumn, which names the data field within each datum to be displayed. The dataProvider should be a HierarchicalData object with \"children\" properties to build the tree.",
+    "description": "A TreeGrid is a combination of a Tree and a DataGrid. The first column of the TreeGrid is a Tree; the remaining columns are Lists. Each column of the TreeGrid is defined by the TreeGridColumn, which names the data field within each datum to be displayed. The dataProvider should be a HierarchicalData object with \\&quot;children\\&quot; properties to build the tree.",
   "tags": [
   {  "tagName": "playerversion",
          "values": ["Flash 10.2", "AIR 2.6"]},

@@ -1,29 +1,4 @@
 { "type": "class",
-  "qname": "ExternallySetDynamicPropertyWriter",
-  "baseClassname": ""
-  ,
-  "members": [
-  { "type": "method",
-        "qname": "ExternallySetDynamicPropertyWriter",
-        "namespace": "",
-        "bindable": [],
-        "details": [],
-        "deprecated": {},
-          "return": "",
-          "params": [{ "name": "original", "type": "flash.net.IDynamicPropertyWriter"}]}
-      ,
-      { "type": "method",
-        "qname": "writeDynamicProperties",
-        "namespace": "public",
-        "bindable": [],
-        "details": [],
-        "deprecated": {},
-          "return": "void",
-          "params": [{ "name": "obj", "type": "Object"},
-        { "name": "output", "type": "flash.net.IDynamicPropertyOutput"}]}
-      ]
-  }
-{ "type": "class",
   "qname": "org.apache.royale.net.remoting.amf.AMFBinaryData",
   "baseClassname": "org.apache.royale.utils.BinaryData"
   ,
@@ -86,31 +61,6 @@
 
 
 
-{ "type": "class",
-  "qname": "ExternallySetDynamicPropertyWriter",
-  "baseClassname": ""
-  ,
-  "members": [
-  { "type": "method",
-        "qname": "ExternallySetDynamicPropertyWriter",
-        "namespace": "",
-        "bindable": [],
-        "details": [],
-        "deprecated": {},
-          "return": "",
-          "params": [{ "name": "original", "type": "flash.net.IDynamicPropertyWriter"}]}
-      ,
-      { "type": "method",
-        "qname": "writeDynamicProperties",
-        "namespace": "public",
-        "bindable": [],
-        "details": [],
-        "deprecated": {},
-          "return": "void",
-          "params": [{ "name": "obj", "type": "Object"},
-        { "name": "output", "type": "flash.net.IDynamicPropertyOutput"}]}
-      ]
-  }
 
 
 

@@ -1,0 +1,15 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.elements.utils.ParagraphHelper",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "getParagraph",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "return": "org.apache.royale.textLayout.elements.IParagraphElement",
+          "params": []}
+      ]
+  }

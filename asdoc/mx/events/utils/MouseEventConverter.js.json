@@ -1,0 +1,15 @@
+{ "type": "class",
+  "qname": "mx.events.utils.MouseEventConverter",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "convert",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "return": "mx.events.MouseEvent",
+          "params": [{ "name": "nativeEvent", "type": "Object"}]}
+      ]
+  }

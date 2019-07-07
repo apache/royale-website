@@ -9,6 +9,10 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["Namespace"]}  ],
           "return": "",
           "params": [{ "name": "qNameOrUri", "type": "*"},
         { "name": "localNameVal", "type": "*"}]}
@@ -38,7 +42,7 @@
         "details": [],
         "deprecated": {}},
       { "type": "method",
-        "qname": "toString",
+        "qname": "objectAccessFormat",
         "namespace": "public",
         "bindable": [],
         "details": [],
@@ -80,5 +84,14 @@
         "deprecated": {},
           "return": "Namespace",
           "params": [{ "name": "namespaces", "type": "Array"}]}
+      ,
+      { "type": "method",
+        "qname": "toString",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "String",
+          "params": []}
       ]
   }

@@ -47,7 +47,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The direction of the Wipe.  \"up\" means the top will be the last part to disappear. \"down\" will reveal from the top down."},
+          "description": "The direction of the Wipe.  \\&quot;up\\&quot; means the top will be the last part to disappear. \\&quot;down\\&quot; will reveal from the top down."},
       { "type": "method",
         "qname": "setDocument",
         "namespace": "public",

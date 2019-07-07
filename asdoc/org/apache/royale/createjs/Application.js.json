@@ -9,7 +9,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The Royale Compiler will inject html into the index.html file.  Surround with \"inject_html\" tag as follows:  <inject_html> <script src=\"https://code.createjs.com/easeljs-0.8.1.min.js\"></script> <script src=\"https://code.createjs.com/tweenjs-0.6.2.min.js\"></script> </inject_html>",
+          "description": "The Royale Compiler will inject html into the index.html file.  Surround with \\&quot;inject_html\\&quot; tag as follows:  <inject_html> <script src=\\&quot;https://code.createjs.com/easeljs-0.8.1.min.js\\&quot;></script> <script src=\\&quot;https://code.createjs.com/tweenjs-0.6.2.min.js\\&quot;></script> </inject_html>",
           "return": "",
           "params": []}
       ,

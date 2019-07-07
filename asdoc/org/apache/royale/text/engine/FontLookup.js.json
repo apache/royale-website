@@ -1,0 +1,29 @@
+{ "type": "class",
+  "qname": "org.apache.royale.text.engine.FontLookup",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "field",
+        "qname": "DEVICE",
+        "return": "String",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {}},
+      { "type": "field",
+        "qname": "EMBEDDED_CFF",
+        "return": "String",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {}},
+      { "type": "method",
+        "qname": "org.apache.royale.text.engine.FontLookup",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ]
+  }

@@ -110,6 +110,8 @@
                "values": ["Flash 10.2", "AIR 2.6"]},
             {  "tagName": "productversion",
                "values": ["Royale 0.9.0"]},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.IStrandWithModelView", "org.apache.royale.html.beads.IListView"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
   }

@@ -1,0 +1,40 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.formats.WhiteSpaceCollapse",
+  "baseClassname": ""
+  ,
+    "description": "Defines values for setting the <code>whiteSpaceCollapse</code> property of the <code>TextLayoutFormat</code> class.",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["TextLayoutFormat#whiteSpaceCollapse"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10", "AIR 1.5"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "field",
+        "qname": "COLLAPSE",
+        "return": "String",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "Collapse whitespace when importing text (default). Within a block of imported text, removes newlines, tabs, and leading and trailing spaces. Retains line break tags (br/) and Unicode line separator characters.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10", "AIR 1.5"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]},
+      { "type": "field",
+        "qname": "PRESERVE",
+        "return": "String",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "Preserves whitespace when importing text.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10", "AIR 1.5"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  }

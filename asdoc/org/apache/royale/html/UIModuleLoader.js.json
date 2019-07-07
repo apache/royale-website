@@ -79,23 +79,5 @@
                "values": ["3.0"]}  ],
           "return": "void",
           "params": []}
-      ,
-      { "type": "method",
-        "qname": "loadDepsHandler",
-        "namespace": "protected",
-        "bindable": [],
-        "details": [],
-        "deprecated": {},
-          "return": "void",
-          "params": []}
-      ,
-      { "type": "method",
-        "qname": "loadHandler",
-        "namespace": "protected",
-        "bindable": [],
-        "details": [],
-        "deprecated": {},
-          "return": "void",
-          "params": []}
       ]
   }
