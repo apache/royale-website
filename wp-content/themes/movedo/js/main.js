@@ -322,9 +322,9 @@ if( 1 == movedo_grve_main_data.device_animations ) {
 				}
 			}
 
-			var support = { animations : Modernizr.cssanimations },
+			var support = { animations : (typeof Modernizr === 'undefined' ? true : Modernizr.cssanimations) },
 				animEndEventNames = { 'WebkitAnimation' : 'webkitAnimationEnd', 'OAnimation' : 'oAnimationEnd', 'msAnimation' : 'MSAnimationEnd', 'animation' : 'animationend' },
-				animEndEventName = animEndEventNames[ Modernizr.prefixed( 'animation' ) ];
+				animEndEventName = animEndEventNames[ (typeof Modernizr === 'undefined' ? 'animation' : Modernizr.prefixed( 'animation' )) ];
 
 			function onEndAnimation(el, callback){
 				var onEndCallbackFn = function( ev ) {
@@ -1723,9 +1723,9 @@ if( 1 == movedo_grve_main_data.device_animations ) {
 		init : function(){
 			GRVE.isotope.init();
 			GRVE.basicElements.wooProduct();
-			GRVE.basicElements.hovers();			
+			GRVE.basicElements.hovers();
 		}
-	};			
+	};
 
 	// # Page Settings
 	// ============================================================================= //
@@ -1835,7 +1835,9 @@ if( 1 == movedo_grve_main_data.device_animations ) {
 			if( $overflow.hasClass('grve-page-transition') ) {
 				var exclude = ['.grve-no-transition', '.grve-toggle-modal'],
 					comp = new RegExp(location.host);
-
+				if ( $('#grve-body').hasClass( 'prdctfltr-ajax' ) ) {
+					$('.woocommerce-pagination a').addClass('grve-no-transition');
+				}
 				$('a:not(' + exclude + ')').on('click',function(e){
 					var link = this;
 					if( comp.test(link.href) && link.href.split(/\?|#/)[0] != location.href.split(/\?|#/)[0] && link.target != '_blank' && link.href[0] != '#') {

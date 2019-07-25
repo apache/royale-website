@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>j:ModuleLoader &#8211; Apache Royale™</title>
+	<atom:link href="//royale.apache.org/tag/jmoduleloader/feed/" rel="self" type="application/rss+xml" />
+	<link>//royale.apache.org/</link>
+	<description>Code once. Run everywhere</description>
+	<lastBuildDate>Thu, 25 Jul 2019 18:47:38 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>Dividing an Apache Royale application with modules</title>
+		<link>//royale.apache.org/dividing-an-apache-royale-application-with-modules/</link>
+				<comments>//royale.apache.org/dividing-an-apache-royale-application-with-modules/#respond</comments>
+				<pubDate>Wed, 26 Jun 2019 16:49:50 +0000</pubDate>
+		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
+				<category><![CDATA[Jewel UI Set]]></category>
+		<category><![CDATA[Royale Examples]]></category>
+		<category><![CDATA[j: HorizontalCenteredLayout]]></category>
+		<category><![CDATA[j:Application]]></category>
+		<category><![CDATA[j:Button]]></category>
+		<category><![CDATA[j:Card]]></category>
+		<category><![CDATA[j:FontIcon]]></category>
+		<category><![CDATA[j:Label]]></category>
+		<category><![CDATA[j:Module]]></category>
+		<category><![CDATA[j:ModuleLoader]]></category>
+		<category><![CDATA[MaterialIconType]]></category>
+
+		<guid isPermaLink="false">//royale.apache.org/?p=16120</guid>
+				<description><![CDATA[<p>This example will show you how to break an Apache Royale application into parts called <em>Modules</em> using a <em>ModuleLoader</em>.</p>
+<p>The post <a rel="nofollow" href="//royale.apache.org/dividing-an-apache-royale-application-with-modules/">Dividing an Apache Royale application with modules</a> appeared first on <a rel="nofollow" href="//royale.apache.org/">Apache Royale™</a>.</p>
+]]></description>
+						<wfw:commentRss>//royale.apache.org/dividing-an-apache-royale-application-with-modules/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

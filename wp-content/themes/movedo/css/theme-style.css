@@ -10985,6 +10985,7 @@ html.ie9	.grve-section .grve-column.grve-middle {
 	position: relative;
 	font-size: 12px;
 	line-height: 16px;
+	overflow: hidden;
 }
 
 .grve-privacy-content {

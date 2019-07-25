@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.2.1</generator>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
 	<item>
 		<title>Binding the text property of a Jewel TextInput to update a text Label</title>
 		<link>//royale.apache.org/binding-the-text-property-of-a-jewel-textinput-to-update-a-text-label/</link>

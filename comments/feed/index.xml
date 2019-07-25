@@ -11,11 +11,11 @@
 	<atom:link href="//royale.apache.org/comments/feed/" rel="self" type="application/rss+xml" />
 	<link>//royale.apache.org/</link>
 	<description>Code once. Run everywhere</description>
-	<lastBuildDate>2019-06-03 20:14:23</lastBuildDate>
+	<lastBuildDate>2019-07-25 22:10:21</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.2.1</generator>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
 </channel>
 </rss>
