@@ -1238,19 +1238,22 @@ function aiCheckReload (link, id) {
  * existing parameter with the given url
  */
 function aiChangeUrlParam(loc, param, orig, prefix) {
-
    var newUrl;
    if (loc !== encodeURIComponent(orig)) {
-     newUrl = aiSetGetParameter(param, loc);
-     var removeProtocol = true;
-     if (prefix) {
+	 newUrl = aiSetGetParameter(param, loc);
+	 var removeProtocol = true;
+     if (prefix === 'hash' || prefix === 'hashrewrite') {
+		 var locBase = aiRemoveQueryString(loc);
+		 return aiGetUrlMapping(locBase, param, prefix);
+	 } else if (prefix) {
        var repUrl = newUrl.replace(prefix,'');
        if (repUrl === newUrl) {
          removeProtocol = false;
        }
        newUrl = repUrl;
      }
-     // remove protocoll
+     
+	 // remove protocoll
      if (removeProtocol) {
        newUrl = newUrl.replace('http%3A%2F%2F','');
        if (window.location.href.toLowerCase().lastIndexOf("http:", 0) !== -1) {
@@ -1259,11 +1262,41 @@ function aiChangeUrlParam(loc, param, orig, prefix) {
            newUrl = newUrl.replace('https%3A%2F%2F','');
        }
      }
-    } else {
+   } else {
       var fullUrl = window.location.href;
-      newUrl = aiRemoveURLParameter(fullUrl, param);
-    }
-    if (aiSupportsHistoryApi()) {
+	  // remove param/* first
+	  fullUrl = fullUrl.split("/" + param + "/",1)[0];
+	  newUrl = aiRemoveURLParameter(fullUrl, param);
+   }
+   aiSetBrowserUrl(newUrl); 
+}
+
+function aiGetUrlMappingUrl(locBase, param, prefix, id) {
+	 var fullUrl = window.location.href;
+	 newUrl = aiRemoveURLParameter(fullUrl, param);
+	 if (prefix === 'hash') {
+		 var seperator = (newUrl.indexOf('?') >= 0) ? '&' : '?'; 
+		 newUrl += seperator+param+"=" + id;
+	 } else {
+		 // remove param/* first
+		 var queryString = "/";
+		 if (newUrl.indexOf('?') >= 0) {
+			 var newUrlArray = newUrl.split('?'); 
+			 newUrl = newUrlArray[0];
+			 queryString = '/?' + newUrlArray[1]; 
+		 }
+		 var baseUrl = newUrl.split("/" + param + "/",1)[0];
+		 // add the path before the query string 
+		 if (!aiEndsWidth(baseUrl, "/")) {
+			 baseUrl += '/';
+		 }
+		 newUrl = baseUrl + param+"/" + id + queryString;
+	 }		 
+	return newUrl;
+}
+
+function aiSetBrowserUrl(newUrl) {
+	if (aiSupportsHistoryApi()) {
         newUrl = newUrl.replace(/%2F/g,'/');
         window.history.pushState({}, '', newUrl);
         // I asume the back button is clicked.
@@ -1273,6 +1306,28 @@ function aiChangeUrlParam(loc, param, orig, prefix) {
           }
         };
     }
+}
+
+function aiRemoveQueryString(loc) {
+    if (loc.indexOf('%3F') >= 0) {
+	    return loc.split('%3F')[0]; 
+	} else {
+	    return loc;
+	}
+}	
+
+function aiGetUrlMapping(url, param, prefix) {
+	var data = {
+      action: 'aip_map_url_action',
+      security : MyAjax.security,
+      url: url
+    };
+	
+    // since 2.8 ajaxurl is always defined in the admin header and points to admin-ajax.php
+    jQuery.post(MyAjax.ajaxurl, data, function(id) {
+       var newUrl = aiGetUrlMappingUrl(url, param, prefix, id);
+	   aiSetBrowserUrl(newUrl);   
+   });  
 }
 
 function aiSupportsHistoryApi() {
@@ -1302,8 +1357,8 @@ function aiSetGetParameter(paramName, paramValue)
     url = splitAtAnchor[0];
     var anchor = typeof splitAtAnchor[1] === 'undefined' ? '' : '#' + splitAtAnchor[1];
     if (url.indexOf(paramName + '=') >= 0) {
-        var prefix = url.substring(0, url.indexOf(paramName));
-        var suffix = url.substring(url.indexOf(paramName));
+        var prefix = url.substring(0, url.indexOf(paramName+ '='));
+        var suffix = url.substring(url.indexOf(paramName+ '='));
         suffix = suffix.substring(suffix.indexOf('=') + 1);
         suffix = (suffix.indexOf('&') >= 0) ? suffix.substring(suffix.indexOf('&')) : '';
         url = prefix + paramName + '=' + paramValue + suffix;
@@ -1344,6 +1399,10 @@ function aiRemoveURLParameter(url, parameter) {
     } else {
         return url;
     }
+}
+
+function aiEndsWidth(string, target) {
+  return string.substr(-target.length) === target;
 }
 
 /**
@@ -1410,7 +1469,7 @@ jQuery(document).ready(function() {
     });
 	
 	setTimeout(function() { jQuery("#ai #ai-updated-text").css("visibility","hidden")}, 4000);
-
+	
     jQuery('#ai #checkIframes').on('click', function(){
         jQuery(this).addClass('disabled');
         jQuery('.ai-spinner').css('display','inline-table');
