@@ -3180,42 +3180,37 @@ if( 1 == movedo_grve_main_data.device_animations ) {
 			}
 		},
 		socialShareLinks: function(){
-			$('.grve-social-share-facebook').on('click', function(e) {
+			$(document).on('click','.grve-social-share-facebook',function(e){
 				e.preventDefault();
 				window.open( 'https://www.facebook.com/sharer/sharer.php?u=' + $(this).attr('href'), "facebookWindow", "height=380,width=660,resizable=0,toolbar=0,menubar=0,status=0,location=0,scrollbars=0" );
 				return false;
 			});
-			$('.grve-social-share-twitter').on('click', function(e) {
+			$(document).on('click','.grve-social-share-twitter',function(e){
 				e.preventDefault();
 				window.open( 'http://twitter.com/intent/tweet?text=' + encodeURIComponent( $(this).attr('title') ) + ' ' + $(this).attr('href'), "twitterWindow", "height=450,width=660,resizable=0,toolbar=0,menubar=0,status=0,location=0,scrollbars=0" );
 				return false;
 			});
-			$('.grve-social-share-linkedin').on('click', function(e) {
+			$(document).on('click','.grve-social-share-linkedin',function(e){
 				e.preventDefault();
 				window.open( 'http://www.linkedin.com/shareArticle?mini=true&url=' + $(this).attr('href') + '&title=' + encodeURIComponent( $(this).attr('title') ), "linkedinWindow", "height=500,width=820,resizable=0,toolbar=0,menubar=0,status=0,location=0,scrollbars=0" );
 				return false;
 			});
-			$('.grve-social-share-googleplus').on('click', function(e) {
-				e.preventDefault();
-				window.open( 'https://plus.google.com/share?url=' + $(this).attr('href'), "googleplusWindow", "height=600,width=600,resizable=0,toolbar=0,menubar=0,status=0,location=0,scrollbars=0" );
-				return false;
-			});
-			$('.grve-social-share-pinterest').on('click', function(e) {
+			$(document).on('click','.grve-social-share-pinterest',function(e){
 				e.preventDefault();
 				window.open( 'http://pinterest.com/pin/create/button/?url=' + $(this).attr('href') + '&media=' + $(this).data('pin-img') + '&description=' + encodeURIComponent( $(this).attr('title') ), "pinterestWindow", "height=600,width=600,resizable=0,toolbar=0,menubar=0,status=0,location=0,scrollbars=0" );
 				return false;
 			});
-			$('.grve-social-share-reddit').on('click', function(e) {
+			$(document).on('click','.grve-social-share-reddit',function(e){
 				e.preventDefault();
 				window.open( '//www.reddit.com/submit?url=' + $(this).attr('href'), "redditWindow", "height=600,width=820,resizable=0,toolbar=0,menubar=0,status=0,location=0,scrollbars=1" );
 				return false;
 			});
-			$('.grve-social-share-tumblr').on('click', function(e) {
+			$(document).on('click','.grve-social-share-tumblr',function(e){
 				e.preventDefault();
 				window.open( '//www.tumblr.com/share/link?url=' + $(this).attr('href') + '&name=' + encodeURIComponent( $(this).attr('title') ) , "tumblrWindow", "height=600,width=600,resizable=0,toolbar=0,menubar=0,status=0,location=0,scrollbars=0" );
 				return false;
 			});
-			$('.grve-like-counter-link').on('click', function(e) {
+			$(document).on('click','.grve-like-counter-link',function(e){
 				e.preventDefault();
 				var link = $(this);
 				var id = link.data('post-id'),
@@ -4566,7 +4561,8 @@ if( 1 == movedo_grve_main_data.device_animations ) {
 			}
 
 			function gridEqualColumns(){
-				var $elContent = $container.find('.grve-isotope-item:not(.format-link):not(.format-quote)'),
+				var $elContent = $container.find('.grve-blog-item-inner'),
+					heightArr = [],
 					columnMaxH = 0;
 
 				// Reset Height
@@ -4574,13 +4570,13 @@ if( 1 == movedo_grve_main_data.device_animations ) {
 				$container.find('.grve-isotope-item .grve-blog-item-inner').css('height','auto');
 				$container.find('.grve-isotope-item .grve-post-meta-wrapper').removeClass('grve-bottom');
 
-				$elContent.filter('.has-post-thumbnail').each(function(){
-					($(this).find('.grve-blog-item-inner').outerHeight(true) > columnMaxH) ? columnMaxH = $(this).find('.grve-blog-item-inner').outerHeight(true) : columnMaxH = columnMaxH;
+				$elContent.each(function(){
+					var $that = $(this),
+						height = $that.outerHeight();
+					heightArr.push( height );
 				});
 
-				if( !$container.find('.has-post-thumbnail').length ) {
-					($container.find('.grve-blog-item-inner').outerHeight(true) > columnMaxH) ? columnMaxH = $container.find('.grve-blog-item-inner').outerHeight(true) : columnMaxH = columnMaxH;
-				}
+				columnMaxH = heightArr.length > 0 ? Math.max.apply(Math, heightArr) : 0;
 
 				$container.find('.grve-isotope-item .grve-blog-item-inner').css('height',columnMaxH);
 				$container.find('.grve-isotope-item .grve-post-meta-wrapper').addClass('grve-bottom');

@@ -4856,6 +4856,7 @@ img.avatar {
 .grve-pagination ul {
 	list-style: none;
 	margin: 0;
+	margin-bottom: -8px;
 	text-align: center;
 }
 
@@ -4863,6 +4864,7 @@ img.avatar {
 	display: inline-block;
 	vertical-align: top;
 	margin: 0 4px;
+	margin-bottom: 8px;
 	text-align: center;
 }
 
@@ -10958,6 +10960,61 @@ html.ie9	.grve-section .grve-column.grve-middle {
 }
 #ui-datepicker-div {
     z-index: 100 !important;
+}
+
+#grve-theme-wrapper #tribe-bar-form .tribe-bar-submit input[type=submit] {
+	padding-top: 0;
+	padding-bottom: 0;
+	line-height: 49px;
+	margin: 0;
+}
+
+#grve-theme-wrapper #tribe-bar-form .tribe-bar-toggle-text {
+	color: #ffffff;
+}
+
+#grve-theme-wrapper #tribe-bar-form .tribe-bar-toggle-arrow:after {
+	vertical-align: middle;
+	margin-top: -4px;
+}
+
+#grve-theme-wrapper #tribe-bar-views-toggle {
+	text-align: left;
+	color: inherit;
+	background-color: transparent;
+	padding: 0 15px;
+	line-height: 49px;
+	margin: 0;
+}
+
+#grve-theme-wrapper .tribe-bar-views span[class^=tribe-icon-] {
+	vertical-align: middle;
+	margin-top: -4px;
+}
+
+#grve-theme-wrapper #tribe-bar-views-toggle:after {
+	border-top-color: rgba(0,0,0,0.6);
+	border-width: 4px;
+	top: 50%;
+	margin-top: -2px;
+}
+
+#grve-theme-wrapper #tribe-bar-views .tribe-bar-views-list {
+	outline: none;
+	padding: 0;
+}
+
+@media only screen and (max-width: 1023px) {
+	#grve-theme-wrapper .tribe-events-page-title {
+		margin-bottom: 60px;
+	}
+	#grve-theme-wrapper #tribe-bar-views-toggle {
+		padding: 0;
+	}
+
+	#grve-theme-wrapper .tribe-bar-submit {
+		margin-left: 0;
+	}
 }
 
 /* =============================================================================
