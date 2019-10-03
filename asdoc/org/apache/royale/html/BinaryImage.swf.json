@@ -36,6 +36,10 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleemitcoercion",
+               "values": ["org.apache.royale.core.IBinaryImageLoader"]}  ],
           "return": "void",
           "params": []}
       ,
@@ -54,7 +58,7 @@
             {  "tagName": "productversion",
                "values": ["Royale 0.0"]},
             {  "tagName": "royaleignorecoercion",
-               "values": ["org.apache.royale.core.IImageModel"]},
+               "values": ["org.apache.royale.core.IBinaryImageModel"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
   }

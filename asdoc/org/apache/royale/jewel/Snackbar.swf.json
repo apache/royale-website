@@ -138,7 +138,7 @@
             {  "tagName": "langversion",
                "values": ["3.0"]}  ],
           "return": "void",
-          "params": [{ "name": "parent", "type": "Object"}]}
+          "params": [{ "name": "parentContainer", "type": "Object"}]}
       ,
       { "type": "method",
         "qname": "dismiss",

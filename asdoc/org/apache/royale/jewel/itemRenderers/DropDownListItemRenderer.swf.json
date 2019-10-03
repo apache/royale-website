@@ -35,6 +35,13 @@
           "return": "",
           "params": []}
       ,
+      { "type": "field",
+        "qname": "item",
+        "return": "org.apache.royale.html.elements.Option",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}},
       { "type": "accessor",
         "access": "read-write",
         "return": "Object",

@@ -4,7 +4,15 @@
   ,
     "description": "Runs a class containing methods marked with <code>[Test]</code> metadata.  <p>Also supports the following optional metadata:</p>  <ul> <li>Tests with <code>[Ignore]</code> metdata should be ignored (skipped).</li> <li>Methods with <code>[Before]</code> metadata are run before every individual test.</li> <li>Methods with <code>[After]</code> metadata are run after every individual test.</li> <li>Methods with <code>[BeforeClass]</code> metadata are run one time, before the first test.</li> <li>Methods with <code>[AfterClass]</code> metadata are run one time, after the final test.</li> </ul>",
   "members": [
-  { "type": "method",
+  { "type": "field",
+        "qname": "DEFAULT_ASYNC_TIMEOUT",
+        "return": "int",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "The default timeout, measured in milliseconds, before an asynchronous test should be considered a failure."},
+      { "type": "method",
         "qname": "org.apache.royale.test.runners.MetadataRunner",
         "namespace": "",
         "bindable": [],
@@ -51,8 +59,20 @@
                "values": []}  ],
           "return": "void",
           "params": [{ "name": "notifier", "type": "org.apache.royale.test.runners.notification.IRunNotifier"}]}
+      ,
+      { "type": "method",
+        "qname": "afterTest",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "test", "type": "TestInfo"}]}
       ]
   }
+
+
+
 
 
 

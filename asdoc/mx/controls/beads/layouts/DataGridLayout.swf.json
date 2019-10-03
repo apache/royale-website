@@ -1,0 +1,46 @@
+{ "type": "class",
+  "qname": "mx.controls.beads.layouts.DataGridLayout",
+  "baseClassname": "org.apache.royale.html.beads.layouts.DataGridLayout"
+  ,
+    "description": "The DataGridLayout class.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.controls.beads.layouts.DataGridLayout",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "layout",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "copy",
+               "values": ["org.apache.royale.core.IBeadLayout#layout"]},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.IBorderPaddingMarginValuesImpl", "org.apache.royale.core.IDataGridModel", "org.apache.royale.core.IUIBase", "org.apache.royale.core.UIBase", "org.apache.royale.html.beads.IDataGridView", "org.apache.royale.html.beads.models.ButtonBarModel", "org.apache.royale.html.supportClasses.IDataGridColumn"]}  ],
+          "return": "Boolean",
+          "params": []}
+      ]
+  }

@@ -1,0 +1,47 @@
+{ "type": "class",
+  "qname": "org.apache.royale.test.async.AsyncLocator",
+  "baseClassname": ""
+  ,
+    "description": "Used for tests with <code>[Test(async)]</code> metadata.",
+  "members": [
+  { "type": "method",
+        "qname": "setAsyncHandlerForTest",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "test", "type": "Object"},
+        { "name": "handler", "type": "org.apache.royale.test.async.IAsyncHandler"}]}
+      ,
+      { "type": "method",
+        "qname": "getAsyncHandlerForTest",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "return": "org.apache.royale.test.async.IAsyncHandler",
+          "params": [{ "name": "test", "type": "Object"}]}
+      ,
+      { "type": "method",
+        "qname": "clearAsyncHandlerForTest",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "test", "type": "Object"}]}
+      ,
+      { "type": "method",
+        "qname": "hasAsyncHandlerForTest",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "return": "Boolean",
+          "params": [{ "name": "test", "type": "Object"}]}
+      ]
+  }
+
+
+

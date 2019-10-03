@@ -1,0 +1,26 @@
+{ "type": "class",
+  "qname": "org.apache.royale.test.Runtime",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "field",
+        "qname": "swfVersion",
+        "return": "uint",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royalesuppresspublicvarwarning",
+               "values": []}  ]},
+      { "type": "method",
+        "qname": "getCurrentPlatform",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "return": "String",
+          "params": []}
+      ]
+  }

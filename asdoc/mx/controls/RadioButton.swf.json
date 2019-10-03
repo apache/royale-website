@@ -64,6 +64,19 @@
         "tags": [
         {  "tagName": "private",
                "values": []}  ]},
+      { "type": "method",
+        "qname": "addEventListener",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "type", "type": "String"},
+        { "name": "listener", "type": "Function"},
+        { "name": "useCapture", "type": "Boolean"},
+        { "name": "priority", "type": "int"},
+        { "name": "useWeakReference", "type": "Boolean"}]}
+      ,
       { "type": "accessor",
         "access": "read-write",
         "return": "Boolean",
@@ -140,5 +153,17 @@
         "deprecated": {},
           "return": "void",
           "params": []}
-      ]
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "Number",
+        "qname": "measuredWidth",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "private",
+               "values": []}  ]}]
   }

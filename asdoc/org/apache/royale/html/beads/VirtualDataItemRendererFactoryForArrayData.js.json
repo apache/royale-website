@@ -128,6 +128,13 @@
           "return": "void",
           "params": [{ "name": "index", "type": "int"}]}
       ,
+      { "type": "field",
+        "qname": "rendererMap",
+        "return": "Object",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}},
       { "type": "method",
         "qname": "getItemRendererForIndex",
         "namespace": "public",

@@ -53,7 +53,7 @@
       { "type": "accessor",
         "access": "read-write",
         "return": "Object",
-        "qname": "component",
+        "qname": "mxmlDocument",
         "namespace": "public",
         "bindable": [],
         "details": [],
@@ -193,5 +193,13 @@
           "description": "",
         "tags": [
         {  "tagName": "royaleignorecoercion",
-               "values": ["org.apache.royale.core.IPopUpHost;"]}  ]}]
+               "values": ["org.apache.royale.core.IPopUpHost;"]}  ]},
+      { "type": "accessor",
+        "access": "read-only",
+        "return": "org.apache.royale.core.IPopUpHostParent",
+        "qname": "popUpParent",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}}]
   }

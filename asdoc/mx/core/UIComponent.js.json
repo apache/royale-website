@@ -613,7 +613,7 @@
       { "type": "accessor",
         "access": "read-write",
         "return": "Object",
-        "qname": "component",
+        "qname": "mxmlDocument",
         "namespace": "public",
         "bindable": [],
         "details": [],
@@ -654,7 +654,7 @@
       { "type": "accessor",
         "access": "read-only",
         "return": "Object",
-        "qname": "parentComponent",
+        "qname": "parentMxmlDocument",
         "namespace": "public",
         "bindable": ["initialize"],
         "details": [],
@@ -2593,7 +2593,15 @@
         { "name": "handler", "type": "Function"},
         { "name": "opt_capture", "type": "Boolean"},
         { "name": "opt_handlerScope", "type": "Object"}]}
-      ]
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "Boolean",
+        "qname": "visible",
+        "namespace": "public",
+        "bindable": ["visibleChanged"],
+        "details": ["override"],
+        "deprecated": {}}]
   ,
   "events": [
   { "qname": "click",

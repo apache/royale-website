@@ -37,6 +37,8 @@
 "royaleignorecoercion",
 "royaleignoreimport",
 "royaleignoretypecoercion",
+"royalenoimplicitstringconversion",
+"royalesuppresscompleximplicitcoercion",
 "royalesuppressexport",
 "royalesuppresspublicvarwarning",
 "royalesuppressresolveuncertain",

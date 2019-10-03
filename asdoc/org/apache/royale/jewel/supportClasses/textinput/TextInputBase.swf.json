@@ -2,7 +2,7 @@
   "qname": "org.apache.royale.jewel.supportClasses.textinput.TextInputBase",
   "baseClassname": "org.apache.royale.core.StyledUIBase"
   ,
-    "description": "The TextInputBase class is the base class for TextInput and TextArea Jewel controls",
+    "description": "The TextInputBase class is the base class for TextInput and TextArea Jewel controls. Implements text and html properties and change event.",
   "tags": [
   {  "tagName": "playerversion",
          "values": ["Flash 10.2", "AIR 2.6"]},
@@ -41,7 +41,7 @@
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
             {  "tagName": "copy",
-               "values": ["org.apache.royale.html.Label#text"]},
+               "values": ["org.apache.royale.jewel.Label#text"]},
             {  "tagName": "productversion",
                "values": ["Royale 0.9.4"]},
             {  "tagName": "royaleignorecoercion",
@@ -61,7 +61,7 @@
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
             {  "tagName": "copy",
-               "values": ["org.apache.royale.html.Label#html"]},
+               "values": ["org.apache.royale.jewel.Label#html"]},
             {  "tagName": "productversion",
                "values": ["Royale 0.9.4"]},
             {  "tagName": "royaleignorecoercion",
@@ -70,11 +70,11 @@
                "values": ["3.0"]}  ]},
       { "type": "method",
         "qname": "textChangeHandler",
-        "namespace": "public",
+        "namespace": "protected",
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "dispatch change event in response to a textChange event",
+          "description": "Dispatch change event in response to a textChange event",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -90,7 +90,7 @@
   { "qname": "change",
         "type": "org.apache.royale.events.Event"
       ,
-          "description": "Dispatched when the user changes the text.",
+          "description": "Dispatched when text in the control changes through user input.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

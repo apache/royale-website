@@ -52,7 +52,7 @@
         "details": [],
         "deprecated": {},
           "return": "",
-          "params": []}
+          "params": [{ "name": "request", "type": "org.apache.royale.net.URLRequest"}]}
       ,
       { "type": "method",
         "qname": "load",

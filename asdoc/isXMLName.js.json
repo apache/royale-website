@@ -1,0 +1,29 @@
+{ "type": "method",
+  "qname": "isXMLName",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "Determines whether the specified string is a valid name for an XML element or attribute.",
+  "tags": [
+  {  "tagName": "param",
+         "values": ["str A string to evaluate"]},
+      {  "tagName": "return",
+         "values": ["Returns true if the str argument is a valid XML name; false otherwise."]}  ],
+    "return": "Boolean",
+    "params": [{ "name": "str", "type": "String"}]}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

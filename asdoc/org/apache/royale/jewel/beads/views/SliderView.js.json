@@ -30,6 +30,13 @@
           "return": "",
           "params": []}
       ,
+      { "type": "field",
+        "qname": "sliderTrackContainer",
+        "return": "HTMLDivElement",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}},
       { "type": "accessor",
         "access": "read-only",
         "return": "org.apache.royale.core.IUIBase",

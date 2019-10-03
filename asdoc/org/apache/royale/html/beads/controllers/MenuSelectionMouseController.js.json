@@ -124,5 +124,14 @@
                "values": ["3.0"]}  ],
           "return": "void",
           "params": []}
+      ,
+      { "type": "method",
+        "qname": "removeMenu",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "menu", "type": "org.apache.royale.core.UIBase"}]}
       ]
   }

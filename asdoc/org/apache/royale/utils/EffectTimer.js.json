@@ -36,7 +36,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "return": "int",
+          "return": "Number",
           "params": []}
       ,
       { "type": "method",

@@ -77,6 +77,18 @@
           "return": "org.apache.royale.core.WrappedHTMLElement",
           "params": []}
       ,
+      { "type": "method",
+        "qname": "addEventListener",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "type", "type": "String"},
+        { "name": "handler", "type": "Function"},
+        { "name": "opt_capture", "type": "Boolean"},
+        { "name": "opt_handlerScope", "type": "Object"}]}
+      ,
       { "type": "accessor",
         "access": "read-write",
         "return": "String",
@@ -177,5 +189,17 @@
         "deprecated": {},
           "return": "void",
           "params": []}
-      ]
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "Number",
+        "qname": "measuredWidth",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "private",
+               "values": []}  ]}]
   }

@@ -21,10 +21,7 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "this is non-reflectable",
-        "tags": [
-        {  "tagName": "royalesuppressexport",
-               "values": []}  ]},
+          "description": "this is non-reflectable"},
       { "type": "method",
         "qname": "hasData",
         "namespace": "public",
@@ -32,9 +29,6 @@
         "details": ["static"],
         "deprecated": {},
           "description": "this is non-reflectable",
-        "tags": [
-        {  "tagName": "royalesuppressexport",
-               "values": []}  ],
           "return": "Boolean",
           "params": [{ "name": "key", "type": "*"}]}
       ,
@@ -45,9 +39,6 @@
         "details": ["static"],
         "deprecated": {},
           "description": "this is non-reflectable",
-        "tags": [
-        {  "tagName": "royalesuppressexport",
-               "values": []}  ],
           "return": "Object",
           "params": [{ "name": "key", "type": "*"}]}
       ,
@@ -58,9 +49,6 @@
         "details": ["static"],
         "deprecated": {},
           "description": "this method itself is non-reflectable If an application requires reflection of specific Native types and Royale synthetic types in javascript call this method for each specific representation inside the nativejs package at startup, before reflection is used in any code  Use this to add selective definitions only (PAYG) If this method is never used, it will not be included in release build  example: import org.apache.royale.reflection.nativejs.AS3Array ExtraData.addExternalDefinition(AS3Array())",
-        "tags": [
-        {  "tagName": "royalesuppressexport",
-               "values": []}  ],
           "return": "void",
           "params": [{ "name": "item", "type": "Object"}]}
       ,
@@ -71,9 +59,6 @@
         "details": ["static"],
         "deprecated": {},
           "description": "this method itself is non-reflectable If an application requires reflection of default Native types and Royale synthetic types in javascript call this method near application startup, before reflection is used in any code  Use this to add corresponding reflection support for native js definitions that are used to correspond to common native as3 types (non-PAYG) If this method is never used, the dependencies inside it will not be included in release build",
-        "tags": [
-        {  "tagName": "royalesuppressexport",
-               "values": []}  ],
           "return": "void",
           "params": []}
       ]

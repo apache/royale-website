@@ -17,7 +17,7 @@
   { "type": "accessor",
     "access": "read-write",
     "return": "Object",
-    "qname": "component",
+    "qname": "mxmlDocument",
     "namespace": "public",
     "bindable": [],
     "details": [],

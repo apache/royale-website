@@ -42,5 +42,14 @@
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}}]
+        "deprecated": {}},
+      { "type": "method",
+        "qname": "dataProviderChangeHandler",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "event", "type": "org.apache.royale.events.Event"}]}
+      ]
   }

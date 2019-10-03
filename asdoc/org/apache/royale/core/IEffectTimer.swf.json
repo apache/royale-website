@@ -28,7 +28,7 @@
            "values": ["The current time."]},
         {  "tagName": "langversion",
            "values": ["3.0"]}  ],
-      "return": "int",
+      "return": "Number",
       "params": []}
   ,
   { "type": "method",
