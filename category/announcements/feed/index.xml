@@ -12,14 +12,31 @@
 	<atom:link href="//royale.apache.org/category/announcements/feed/" rel="self" type="application/rss+xml" />
 	<link>//royale.apache.org/</link>
 	<description>Code once. Run everywhere</description>
-	<lastBuildDate>Mon, 10 Dec 2018 15:57:05 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 08 Oct 2019 16:54:35 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<generator>https://wordpress.org/?v=5.2.3</generator>
 	<item>
+		<title>Apache Royale v0.9.6 released!</title>
+		<link>//royale.apache.org/apache-royale-v0-9-6-released/</link>
+				<comments>//royale.apache.org/apache-royale-v0-9-6-released/#respond</comments>
+				<pubDate>Tue, 08 Oct 2019 08:20:22 +0000</pubDate>
+		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
+				<category><![CDATA[Announcements]]></category>
+		<category><![CDATA[Releases]]></category>
+		<category><![CDATA[releases]]></category>
+
+		<guid isPermaLink="false">//royale.apache.org/?p=16215</guid>
+				<description><![CDATA[<p>The Apache Royale community is pleased to announce a new release. Check the announcement to know more about the changes in this release!.</p>
+<p>The post <a rel="nofollow" href="//royale.apache.org/apache-royale-v0-9-6-released/">Apache Royale v0.9.6 released!</a> appeared first on <a rel="nofollow" href="//royale.apache.org/">Apache Royale™</a>.</p>
+]]></description>
+						<wfw:commentRss>//royale.apache.org/apache-royale-v0-9-6-released/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
 		<title>Apache Royale v0.9.4 released!</title>
 		<link>//royale.apache.org/apache-royale-v0-9-4-released/</link>
 				<comments>//royale.apache.org/apache-royale-v0-9-4-released/#respond</comments>

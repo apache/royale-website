@@ -895,7 +895,7 @@ if( 1 == movedo_grve_main_data.device_animations ) {
 				$menuItem   = $menu.find('li.menu-item-has-children > a'),
 				menuType    = $menuParent.hasClass('grve-slide-menu') ? 'slide' : 'toggle',
 				$arrow      = $('<i class="grve-arrow"></i>'),
-				$goBack     = $('<li class="grve-goback"><a href="#"><i class="grve-arrow"></i></a></li>');
+				$goBack     = $('<li class="grve-goback"><a href="#" aria-label="' + movedo_grve_main_data.string_back_to_top + '"><i class="grve-arrow"></i></a></li>');
 
 
 
@@ -906,22 +906,22 @@ if( 1 == movedo_grve_main_data.device_animations ) {
 				$goBack.prependTo( $menuItem.parent().find('>ul') );
 			} else {
 				// Add Arrows
-				$arrow.appendTo( $menuItem );
+				$menuItem.wrap('<div class="grve-toggle-menu-item-wrapper"></div>');
+				$arrow.appendTo( $menuItem.parent() );
+				$menuItem   = $menu.find('li.menu-item-has-children .grve-toggle-menu-item-wrapper > a');
 			}
 
 			$menuItem.on('tap click',function(e){
 				var $this = $(this),
-					link  = $this.attr('href'),
-					open  = false;
+					link  = $this.attr('href');
 
-				if((link != '#' || link === '#') && menuType == 'toggle' ) {
-					if( !$this.parent().hasClass('open') && !open ) {
-						e.preventDefault();
+				if( link === '#' && menuType == 'toggle' ) {
+					e.preventDefault();
+					if( !$this.parent().hasClass('open') ) {
 						$this.parent().addClass('open');
-						toggle( $this, open );
-					} else {
-						open = true;
-						toggle( $this, open );
+						toggle( $this.parent(), false );
+					} else if( $this.parent().hasClass('open') ) {
+						toggle( $this.parent(), true );
 						$this.parent().removeClass('open');
 					}
 				} else if( link === '#' && menuType == 'slide' ) {
@@ -946,7 +946,21 @@ if( 1 == movedo_grve_main_data.device_animations ) {
 
 			});
 
-			if( menuType === 'slide' ) {
+			if( menuType === 'toggle' ) {
+				var $arrowBtn = $menuItem.parent().find('.grve-arrow');
+				$arrowBtn.on('click',function(){
+					var $this = $(this);
+					if( !$this.parent().hasClass('open') ) {
+						$this.parent().addClass('open');
+						toggle( $this.parent(), false );
+					} else if( $this.parent().hasClass('open') ) {
+						toggle( $this.parent(), true );
+						$this.parent().removeClass('open');
+					}
+
+				});
+
+			} else if( menuType === 'slide' ) {
 				var $arrowBtn = $menuItem.parent().find('.grve-arrow');
 				$arrowBtn.on('click',function(){
 					var $this = $(this),
@@ -2228,6 +2242,13 @@ if( 1 == movedo_grve_main_data.device_animations ) {
 						windowW = $(window).width(),
 						subMenuW = $subMenu.width(),
 						liOffsetL = $li.offset().left;
+
+					if( $li.hasClass('megamenu')){
+						setTimeout(function(){
+							setEqualMenuColumns( $li );
+						},50);
+					}
+
 					if( $li.hasClass('megamenu') && $li.css('position') == 'relative' ){
 						if(subMenuW + liOffsetL > windowW) {
 							var left = windowW - (subMenuW + liOffsetL);
@@ -2263,6 +2284,20 @@ if( 1 == movedo_grve_main_data.device_animations ) {
 					$li.removeClass('grve-invert');
 				}
 			});
+
+			function setEqualMenuColumns( $li ) {
+				var $subMenu = $li.children('ul'),
+					$column = $subMenu.children('li'),
+					maxHeight = 0;
+				$column.each(function(){
+					var columnH = $(this).outerHeight();
+					if( columnH >= maxHeight ) {
+						maxHeight = columnH;
+					}
+				});
+				$column.css({ 'height' : maxHeight });
+			}
+
 		},
 		columnFullHeight: function(){
 			var $column = $('.grve-column-fullheight');
@@ -3166,17 +3201,47 @@ if( 1 == movedo_grve_main_data.device_animations ) {
 			});
 
 			function addSpinner( mfpWrap ){
-				$(spinner).appendTo( mfpWrap );
+				if( 1 == movedo_grve_main_data.popup_spinner ) {
+					$(spinner).appendTo( mfpWrap );
+				}
 			}
 
 			function removeSpinner( spinner, content ){
-				setTimeout(function(){
-					spinner.fadeOut(1000, function(){
-						content.animate({'opacity':1},600);
+
+				var speed = movedo_grve_main_data.popup_open_speed;
+				var	spinnerFadeOutDuration, contentAnimateDuration, timeout;
+
+				switch (speed) {
+					case 'fast':
+						spinnerFadeOutDuration, 250,
+						contentAnimateDuration = 150,
+						timeout = 175;
+						break;
+					case 'normal':
+						spinnerFadeOutDuration, 500,
+						contentAnimateDuration = 300,
+						timeout = 350;
+						break;
+					default:
+						spinnerFadeOutDuration, 1000,
+						contentAnimateDuration = 600,
+						timeout = 700;
+						break;
+				}
+				if( 1 == movedo_grve_main_data.popup_spinner ) {
+					setTimeout(function(){
+						spinner.fadeOut(spinnerFadeOutDuration, function(){
+							content.animate({'opacity':1},contentAnimateDuration);
+							$('.grve-modal-popup').trigger( 'grve_open_modal' );
+							$(spinner).remove();
+						});
+					}, timeout);
+				} else {
+					setTimeout(function(){
+						content.animate({'opacity':1},contentAnimateDuration);
 						$('.grve-modal-popup').trigger( 'grve_open_modal' );
-						$(spinner).remove();
-					});
-				}, 700);
+					}, timeout);
+				}
 			}
 		},
 		socialShareLinks: function(){

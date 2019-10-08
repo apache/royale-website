@@ -2496,7 +2496,11 @@ h6:last-child,
 }
 
 /* Toggle Arrows */
-.grve-toggle-menu ul.grve-menu li a .grve-arrow {
+.grve-toggle-menu ul.grve-menu li .grve-toggle-menu-item-wrapper {
+	position: relative;
+}
+
+.grve-toggle-menu ul.grve-menu li .grve-arrow {
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -2509,8 +2513,8 @@ h6:last-child,
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
-.grve-toggle-menu ul.grve-menu li a .grve-arrow:after,
-.grve-toggle-menu ul.grve-menu li a .grve-arrow:before {
+.grve-toggle-menu ul.grve-menu li .grve-arrow:after,
+.grve-toggle-menu ul.grve-menu li .grve-arrow:before {
 	content: '';
 	position: absolute;
 	top: 50%;
@@ -2528,22 +2532,22 @@ h6:last-child,
 	background-color: #333333;
 }
 
-.grve-toggle-menu ul.grve-menu li a .grve-arrow:after {
+.grve-toggle-menu ul.grve-menu li .grve-arrow:after {
 	width: 9px;
 	height: 1px;
 	margin-left: -5px;
 	margin-top: -1px;
 }
 
-.grve-toggle-menu ul.grve-menu li a .grve-arrow:before {
+.grve-toggle-menu ul.grve-menu li .grve-arrow:before {
 	width: 1px;
 	height: 9px;
 	margin-left: -1px;
 	margin-top: -5px;
 }
 
-.grve-toggle-menu ul.grve-menu li.open > a .grve-arrow:after,
-.grve-toggle-menu ul.grve-menu li.open > a .grve-arrow:before {
+.grve-toggle-menu ul.grve-menu .open > .grve-arrow:after,
+.grve-toggle-menu ul.grve-menu .open > .grve-arrow:before {
 	-webkit-transform: rotate(45deg);
 	-moz-transform:    rotate(45deg);
 	-ms-transform:     rotate(45deg);
