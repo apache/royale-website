@@ -12,13 +12,13 @@
 	<atom:link href="//royale.apache.org/feed/" rel="self" type="application/rss+xml" />
 	<link>//royale.apache.org/</link>
 	<description>Code once. Run everywhere</description>
-	<lastBuildDate>Tue, 08 Oct 2019 16:54:35 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 22 Oct 2019 10:48:41 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.2.3</generator>
+	<generator>https://wordpress.org/?v=5.2.4</generator>
 	<item>
 		<title>Apache Royale v0.9.6 released!</title>
 		<link>//royale.apache.org/apache-royale-v0-9-6-released/</link>

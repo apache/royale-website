@@ -8,6 +8,7 @@ var aiEnableCookie=false;
 var aiId='';
 var aiExtraSpace = 0;
 var aiAccTime = 0;
+var aiOnloadEventsCounter = 0;
 
 var aiCallbackExists = typeof aiReadyCallbacks !== 'undefined' && aiReadyCallbacks instanceof Array;
 var aiReadyCallbacks = aiCallbackExists ? aiReadyCallbacks : [];
@@ -58,7 +59,7 @@ function aiResizeIframe(obj, resizeWidth, resizeMinHeight) {
       }
 	  setTimeout(function() {
            jQuery("html,body").scrollTop(oldScrollposition);
-      }, 100);   
+      }, 50);   
 
       if (resizeWidth === 'true') {
         var newWidth = aiGetIframeWidth(obj);
@@ -175,11 +176,14 @@ function aiResizeIframeHeightById(id, nHeight) {
  * page starts at the top and not that only the iframe changes.
  */
 function aiScrollToTop(id, position) {
-  if (position === 'iframe') {
-    var pos = jQuery('#' + id).position();
-    window.scrollTo(0, pos.top);
-  } else {
-    window.scrollTo(0,0);
+  if (aiOnloadEventsCounter++ > 0) {
+	  var posTop = 0;
+	  if (position === 'iframe') {
+		posTop = jQuery('#' + id).offset().top;
+	  }
+	  setTimeout(function() {
+		window.scrollTo(0, posTop);
+	  }, 100);   
   }
 }
 
@@ -1114,7 +1118,7 @@ function aiCheckInputNumber(inputField) {
     if (inputField.value === '') { 
         return;
     }
-    var match = f.match(/^(\-){0,1}([\d.])+(px|%|em|pt)?(\-|\+){0,1}([\d.]){0,7}(px|%|em|pt)?$/);
+    var match = f.match(/^(\-){0,1}([\d.])+(px|%|em|pt|vh|vw|rem|ch)?(\-|\+){0,1}([\d.]){0,7}(px|%|em|pt|vh|vw|rem|ch)?$/);
 
     if (!match) {
         alert('Please check the value you have entered. Only numbers with a dot or with an optional px, %, em or pt are allowed.');
@@ -1470,10 +1474,10 @@ jQuery(document).ready(function() {
 	
 	setTimeout(function() { jQuery("#ai #ai-updated-text").css("visibility","hidden")}, 4000);
 	
-    jQuery('#ai #checkIframes').on('click', function(){
-        jQuery(this).addClass('disabled');
+    jQuery('#ai #checkIframes').on('click', function(){ 
         jQuery('.ai-spinner').css('display','inline-table');
-        setTimeout(aiDisableCheckIframes, 200);
+        jQuery(this).addClass('disabled');
+		setTimeout(aiDisableCheckIframes, 200);
     });
 
     var moved=false;
