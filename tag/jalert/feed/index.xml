@@ -12,13 +12,13 @@
 	<atom:link href="//royale.apache.org/tag/jalert/feed/" rel="self" type="application/rss+xml" />
 	<link>//royale.apache.org/</link>
 	<description>Code once. Run everywhere</description>
-	<lastBuildDate>Wed, 21 Aug 2019 17:51:48 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 16 Dec 2019 12:56:16 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.2.4</generator>
+	<generator>https://wordpress.org/?v=5.3.1</generator>
 	<item>
 		<title>Loading external data through HTTPService</title>
 		<link>//royale.apache.org/loading-external-data-through-httpservice/</link>

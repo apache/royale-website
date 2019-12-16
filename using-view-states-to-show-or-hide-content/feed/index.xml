@@ -11,11 +11,11 @@
 	<atom:link href="//royale.apache.org/using-view-states-to-show-or-hide-content/feed/" rel="self" type="application/rss+xml" />
 	<link>//royale.apache.org/using-view-states-to-show-or-hide-content/</link>
 	<description>Code once. Run everywhere</description>
-	<lastBuildDate>Wed, 21 Aug 2019 17:36:51 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 15 Dec 2019 17:21:44 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.2.4</generator>
+	<generator>https://wordpress.org/?v=5.3.1</generator>
 </channel>
 </rss>

@@ -4443,7 +4443,9 @@ if( 1 == movedo_grve_main_data.device_animations ) {
 			if( !isMobile.any() || isMobile.Android() ) {
 				$(window).smartresize(updateParams);
 			} else {
-				$(window).on("orientationchange",updateParams);
+				$(window).on("orientationchange",function(){
+					setTimeout(updateParams, 100);
+				});
 			}
 
 			$('.grve-modal-popup').on( "grve_relayout_isotope", function() {

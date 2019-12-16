@@ -1,5 +1,5 @@
 /**
- *  Advanced iframe free/pro functions v2019.x
+ *  Advanced iframe pro functions v2019.8
 */
 /* jslint devel: true, unused: false */
 /* globals ai_show_id_only:false, aiIsIe8: false, aiChangeUrl: false, aiResizeIframeHeightId: false, aiShowIframeId: false, findAndReplaceDOMText: false */
@@ -174,9 +174,12 @@ function aiResizeIframeHeightById(id, nHeight) {
  * Scrolls the parent window to the top.
  * This is e.g. wanted when you have a link in the iframe and you want that the
  * page starts at the top and not that only the iframe changes.
+ *
+ * Sometimes are 2 onload events after another. To prevent that this causes 
+ * a jump to the top a delay of 1 sec is used for the increase of the counter.
  */
 function aiScrollToTop(id, position) {
-  if (aiOnloadEventsCounter++ > 0) {
+  if (aiOnloadEventsCounter > 0) {
 	  var posTop = 0;
 	  if (position === 'iframe') {
 		posTop = jQuery('#' + id).offset().top;
@@ -185,6 +188,9 @@ function aiScrollToTop(id, position) {
 		window.scrollTo(0, posTop);
 	  }, 100);   
   }
+  setTimeout(function() {
+    aiOnloadEventsCounter++;
+  }, 1000);  
 }
 
 /**
@@ -322,16 +328,17 @@ function aiOpenSelectorWindow (url) {
 
 function aiDisableAiResizeOptions(value) {
   jQuery('#onload_resize_delay').prop('readonly',value);
-  jQuery('input[id=store_height_in_cookie1]:radio').attr('disabled',value);
-  jQuery('input[id=store_height_in_cookie2]:radio').attr('disabled',value);
+  jQuery('input[id=store_height_in_cookie1]:radio, input[id=store_height_in_cookie2]:radio').attr('disabled',value);
   jQuery('#additional_height').prop('readonly', value);
-  jQuery('input[id=onload_resize_width1]:radio').attr('disabled',value);
-  jQuery('input[id=onload_resize_width2]:radio').attr('disabled',value);
+  jQuery('input[id=onload_resize_width1]:radio, input[id=onload_resize_width2]:radio').attr('disabled',value);
   jQuery('#resize_on_click').prop('readonly', value);
   jQuery('#resize_on_click_elements').prop('readonly', value);
   jQuery('#resize_on_ajax').prop('readonly', value);
-  jQuery('input[id=resize_on_ajax_jquery1]:radio').attr('disabled',value);
-  jQuery('input[id=resize_on_ajax_jquery2]:radio').attr('disabled',value);
+  jQuery('input[id=resize_on_ajax_jquery1]:radio, input[id=resize_on_ajax_jquery2]:radio').attr('disabled',value);
+  
+  var selector = '#onload_resize_delay, #store_height_in_cookie1, #additional_height, #onload_resize_width1, ';
+  selector += '#resize_on_click, #resize_on_click_elements, #resize_on_ajax, #resize_on_ajax_jquery1';
+  aiDisableTextSection(value, selector);
 }
 
 function aiDisablePartOfIframeOptions(value) {
@@ -339,48 +346,55 @@ function aiDisablePartOfIframeOptions(value) {
   jQuery('#show_part_of_iframe_y').prop('readonly',value);
   jQuery('#show_part_of_iframe_height').prop('readonly',value);
   jQuery('#show_part_of_iframe_width').prop('readonly',value);
-  jQuery('input[id=show_part_of_iframe_allow_scrollbar_horizontal1]:radio').attr('disabled',value);
-  jQuery('input[id=show_part_of_iframe_allow_scrollbar_horizontal2]:radio').attr('disabled',value);
-  jQuery('input[id=show_part_of_iframe_allow_scrollbar_vertical1]:radio').attr('disabled',value);
-  jQuery('input[id=show_part_of_iframe_allow_scrollbar_vertical2]:radio').attr('disabled',value);
+  jQuery('input[id=show_part_of_iframe_allow_scrollbar_horizontal1]:radio, input[id=show_part_of_iframe_allow_scrollbar_horizontal2]:radio').attr('disabled',value);
+  jQuery('input[id=show_part_of_iframe_allow_scrollbar_vertical1]:radio, input[id=show_part_of_iframe_allow_scrollbar_vertical2]:radio').attr('disabled',value);
   jQuery('#show_part_of_iframe_next_viewports').prop('readonly',value);
-  jQuery('input[id=show_part_of_iframe_next_viewports_loop1]:radio').attr('disabled',value);
-  jQuery('input[id=show_part_of_iframe_next_viewports_loop2]:radio').attr('disabled',value);
+  jQuery('input[id=show_part_of_iframe_next_viewports_loop1]:radio, input[id=show_part_of_iframe_next_viewports_loop2]:radio').attr('disabled',value);
   jQuery('#show_part_of_iframe_new_window').prop('readonly',value);
   jQuery('#show_part_of_iframe_new_url').prop('readonly',value);
-  jQuery('input[id=show_part_of_iframe_next_viewports_hide1]:radio').attr('disabled',value);
-  jQuery('input[id=show_part_of_iframe_next_viewports_hide2]:radio').attr('disabled',value);
+  jQuery('input[id=show_part_of_iframe_next_viewports_hide1]:radio, input[id=show_part_of_iframe_next_viewports_hide2]:radio').attr('disabled',value);
   jQuery('#show_part_of_iframe_style').prop('readonly',value);
-  jQuery('input[id=show_part_of_iframe_zoom1]:radio').attr('disabled',value);
-  jQuery('input[id=show_part_of_iframe_zoom2]:radio').attr('disabled',value);
-  jQuery('input[id=show_part_of_iframe_zoom3]:radio').attr('disabled',value);
+  jQuery('input[id=show_part_of_iframe_zoom1]:radio, input[id=show_part_of_iframe_zoom2]:radio, input[id=show_part_of_iframe_zoom3]:radio').attr('disabled',value);
+
+  var selector = '#show_part_of_iframe_x, #show_part_of_iframe_y, #show_part_of_iframe_height, #show_part_of_iframe_width, ';
+  selector += '#show_part_of_iframe_allow_scrollbar_horizontal1, #show_part_of_iframe_next_viewports, #show_part_of_iframe_next_viewports_loop1, ';
+  selector += '#show_part_of_iframe_new_window, #show_part_of_iframe_new_url, #show_part_of_iframe_next_viewports_hide1, #show_part_of_iframe_style, ';
+  selector += '#show_part_of_iframe_zoom1, #show_part_of_iframe_allow_scrollbar_vertical1';
+  aiDisableTextSection(value, selector);
 }
 
 function aiDisableLazyLoadOptions(value) {
   jQuery('#enable_lazy_load_threshold').prop('readonly', value);
   jQuery('#enable_lazy_load_fadetime').prop('readonly', value);
-  jQuery('input[id=enable_lazy_load_reserve_space1]:radio').attr('disabled',value);
-  jQuery('input[id=enable_lazy_load_reserve_space2]:radio').attr('disabled',value);
-  jQuery('input[id=enable_lazy_load_manual1]:radio').attr('disabled',value);
-  jQuery('input[id=enable_lazy_load_manual2]:radio').attr('disabled',value);
-  jQuery('input[id=enable_lazy_load_manual3]:radio').attr('disabled',value);
-}
+  jQuery('input[id=enable_lazy_load_reserve_space1]:radio, input[id=enable_lazy_load_reserve_space2]:radio').attr('disabled',value);
+  jQuery('input[id=enable_lazy_load_manual1]:radio, input[id=enable_lazy_load_manual2]:radio, input[id=enable_lazy_load_manual3]:radio').attr('disabled',value);
+   
+  var selector = '#enable_lazy_load_threshold, #enable_lazy_load_fadetime, #enable_lazy_load_reserve_space1, #enable_lazy_load_manual1';
+  aiDisableTextSection(value, selector);
+  }
 
 function aiDisableIframeAsLayerOptions(value) {
   jQuery('input[id=show_iframe_as_layer_full]:radio').attr('disabled',value);
   jQuery('#show_iframe_as_layer_header_file').prop('readonly', value);
   jQuery('#show_iframe_as_layer_header_height').prop('readonly', value);
-  jQuery('input[id=show_iframe_as_layer_header_position1]:radio').attr('disabled',value);
-  jQuery('input[id=show_iframe_as_layer_header_position2]:radio').attr('disabled',value);
-  jQuery('input[id=show_iframe_as_layer_full1]:radio').attr('disabled',value);
-  jQuery('input[id=show_iframe_as_layer_full2]:radio').attr('disabled',value);
-  jQuery('input[id=show_iframe_as_layer_full3]:radio').attr('disabled',value);
-  jQuery('input[id=show_iframe_as_layer_keep_content1]:radio').attr('disabled',value);
-  jQuery('input[id=show_iframe_as_layer_keep_content2]:radio').attr('disabled',value);
+  jQuery('input[id=show_iframe_as_layer_header_position1]:radio, input[id=show_iframe_as_layer_header_position2]:radio').attr('disabled',value);
+  jQuery('input[id=show_iframe_as_layer_full1]:radio, input[id=show_iframe_as_layer_full2]:radio, input[id=show_iframe_as_layer_full3]:radio').attr('disabled',value);
+  jQuery('input[id=show_iframe_as_layer_keep_content1]:radio, input[id=show_iframe_as_layer_keep_content2]:radio').attr('disabled',value);
+
+  var selector = '#show_iframe_as_layer_full, #show_iframe_as_layer_header_file, #show_iframe_as_layer_header_height, ';
+  selector += '#show_iframe_as_layer_header_position1, #show_iframe_as_layer_full1, #show_iframe_as_layer_keep_content1';
+  aiDisableTextSection(value, selector);
 }
 
+function aiDisableTextSection(value, selector) {
+	if (value) {
+        jQuery(selector).closest('tr').addClass('disabled');
+    } else {
+	    jQuery(selector).closest('tr').removeClass('disabled');
+    }
+}
 
-var instance;
+var aiInstance;
 
 /**
  *  This function initializes all checks that are done by Javascript
@@ -725,10 +739,10 @@ function aiSettingsSearch(searchTerm, accType) {
   } else {
     jQuery('#ai-input-search-result').hide();
     // https://github.com/padolsey/findAndReplaceDOMText
-    instance && instance.revert();
+    aiInstance && aiInstance.revert();
       if (searchTerm !== '' && searchTerm.length > 2) {
       var regex = RegExp(searchTerm, 'gi');
-      instance = findAndReplaceDOMText(document.getElementById('tab_wrapper'), {
+      aiInstance = findAndReplaceDOMText(document.getElementById('tab_wrapper'), {
         find: regex,
         wrap: 'em'
       });
@@ -1485,7 +1499,7 @@ jQuery(document).ready(function() {
         if(!moved){
            var elem = jQuery('#aiDebugDiv');
             if (Math.floor(elem.height()) > '300') {
-                elem.height('38px');
+                elem.height('0px');
             } else {
                elem.height('400px');
             }
@@ -1570,7 +1584,9 @@ function aiProcessMessage(event,id,debug) {
 function aiProcessDebug(jsObject) {
     var debugData = jsObject.data;
     if (jQuery('#aiDebugDiv').length !== 0) {
-        jQuery('#aiDebugDiv').append('<p class="ai-debug-remote"> r: ' + debugData + '</p>');
+		debugData = debugData.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+        debugData = debugData.replace('\"', '"').replace(/\\/g,"");
+		jQuery('#aiDebugDiv').append('<p class="ai-debug-remote"> r: ' + debugData + '</p>');
     }
 }
 
