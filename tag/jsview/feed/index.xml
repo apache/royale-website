@@ -18,10 +18,10 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.3.1</generator>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
 	<item>
 		<title>Customization through the Royale API</title>
-		<link>//royale.apache.org/customization-through-the-royale-api/</link>
+		<link>//royale.apache.org/customization-through-the-royale-api/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=customization-through-the-royale-api</link>
 				<comments>//royale.apache.org/customization-through-the-royale-api/#respond</comments>
 				<pubDate>Wed, 01 Aug 2018 08:46:09 +0000</pubDate>
 		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
@@ -47,7 +47,7 @@
 							</item>
 		<item>
 		<title>Using View States to show or hide content</title>
-		<link>//royale.apache.org/using-view-states-to-show-or-hide-content/</link>
+		<link>//royale.apache.org/using-view-states-to-show-or-hide-content/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=using-view-states-to-show-or-hide-content</link>
 				<comments>//royale.apache.org/using-view-states-to-show-or-hide-content/#respond</comments>
 				<pubDate>Wed, 06 Jun 2018 12:41:25 +0000</pubDate>
 		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
@@ -68,7 +68,7 @@
 							</item>
 		<item>
 		<title>Selecting options from a group of Jewel CheckBox controls</title>
-		<link>//royale.apache.org/selecting-options-from-a-group-of-jewel-checkbox-controls/</link>
+		<link>//royale.apache.org/selecting-options-from-a-group-of-jewel-checkbox-controls/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=selecting-options-from-a-group-of-jewel-checkbox-controls</link>
 				<comments>//royale.apache.org/selecting-options-from-a-group-of-jewel-checkbox-controls/#respond</comments>
 				<pubDate>Tue, 22 May 2018 09:21:14 +0000</pubDate>
 		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
@@ -89,7 +89,7 @@
 							</item>
 		<item>
 		<title>Creating a group of Jewel radio buttons</title>
-		<link>//royale.apache.org/creating-a-group-of-jewel-radiobuttons/</link>
+		<link>//royale.apache.org/creating-a-group-of-jewel-radiobuttons/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=creating-a-group-of-jewel-radiobuttons</link>
 				<comments>//royale.apache.org/creating-a-group-of-jewel-radiobuttons/#respond</comments>
 				<pubDate>Wed, 02 May 2018 14:48:37 +0000</pubDate>
 		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
@@ -109,7 +109,7 @@
 							</item>
 		<item>
 		<title>Adding an item to a Jewel List</title>
-		<link>//royale.apache.org/adding-an-item-to-a-jewel-list/</link>
+		<link>//royale.apache.org/adding-an-item-to-a-jewel-list/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=adding-an-item-to-a-jewel-list</link>
 				<comments>//royale.apache.org/adding-an-item-to-a-jewel-list/#respond</comments>
 				<pubDate>Mon, 16 Apr 2018 10:41:05 +0000</pubDate>
 		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
@@ -130,7 +130,7 @@
 							</item>
 		<item>
 		<title>Using the Jewel Slider Control</title>
-		<link>//royale.apache.org/using-the-jewel-slider-control/</link>
+		<link>//royale.apache.org/using-the-jewel-slider-control/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=using-the-jewel-slider-control</link>
 				<comments>//royale.apache.org/using-the-jewel-slider-control/#respond</comments>
 				<pubDate>Thu, 12 Apr 2018 20:38:04 +0000</pubDate>
 		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
@@ -150,7 +150,7 @@
 							</item>
 		<item>
 		<title>Using the Jewel Alert Control</title>
-		<link>//royale.apache.org/using-jewel-alert-control/</link>
+		<link>//royale.apache.org/using-jewel-alert-control/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=using-jewel-alert-control</link>
 				<comments>//royale.apache.org/using-jewel-alert-control/#respond</comments>
 				<pubDate>Fri, 06 Apr 2018 09:20:53 +0000</pubDate>
 		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
@@ -170,7 +170,7 @@
 							</item>
 		<item>
 		<title>Creating a Hello World in Apache Royale</title>
-		<link>//royale.apache.org/creating-a-hello-world-in-apache-royale/</link>
+		<link>//royale.apache.org/creating-a-hello-world-in-apache-royale/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=creating-a-hello-world-in-apache-royale</link>
 				<comments>//royale.apache.org/creating-a-hello-world-in-apache-royale/#respond</comments>
 				<pubDate>Mon, 12 Feb 2018 08:04:45 +0000</pubDate>
 		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>

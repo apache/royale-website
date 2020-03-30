@@ -9,13 +9,13 @@
 	<title>
 	Comments on: Welcome to Apache Royale!	</title>
 	<atom:link href="//royale.apache.org/welcome-to-apache-royale/feed/" rel="self" type="application/rss+xml" />
-	<link>//royale.apache.org/welcome-to-apache-royale/</link>
+	<link>//royale.apache.org/welcome-to-apache-royale/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=welcome-to-apache-royale</link>
 	<description>Code once. Run everywhere</description>
 	<lastBuildDate>Fri, 10 Nov 2017 23:28:07 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.3.1</generator>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
 </channel>
 </rss>

@@ -14,6 +14,9 @@ website:   	http://www.themepunch.com
 /* FIX FOR WORDPRESS's CRAZY <p> TAG ANOMALY */
 .rs-p-wp-fix { display: none !important; margin: 0 !important; height: 0px !important; }  
 
+/* NEW Z-INDEX FIX*/
+.wp-block-themepunch-revslider { position: relative }
+
 #debungcontrolls {
 	z-index:100000;
 	position:fixed;
@@ -368,13 +371,13 @@ rs-slide,rs-slide:before {  display:block; visibility:hidden; }
 rs-module rs-layer,
 rs-module .rs-layer { 
 	opacity: 0;
-	position:relative;  
+	position:relative; 	
 	visibility: hidden;
 	white-space: nowrap;
 	display: block;	
-	-webkit-font-smoothing: antialiased !important;
+	/*-webkit-font-smoothing: antialiased !important;
 	-webkit-tap-highlight-color:rgba(0, 0, 0, 0);
-	-moz-osx-font-smoothing: grayscale;
+	-moz-osx-font-smoothing: grayscale;*/
 	z-index:1;	
 }
 
@@ -399,10 +402,11 @@ rs-module rs-mask-wrap *:last-child,
 
 .rs-svg svg {	width:100%; height:100%;position: relative;vertical-align: top}
 
-rs-layer,
-.rs-layer,
-rs-alyer *,
-.rs-layer * { outline: none !important; }
+
+rs-layer:not(.rs-wtbindex),
+.rs-layer:not(.rs-wtbindex),
+rs-alyer *:not(.rs-wtbindex),
+.rs-layer *:not(.rs-wtbindex) { outline: none !important; }
 
 	
 /* CAROUSEL FUNCTIONS */
@@ -413,8 +417,12 @@ rs-carousel-wrap.dragged {
 	cursor:url(//royale.apache.org/wp-content/plugins/revslider/public/assets/css/closedhand.cur), move;
 }
 
+rs-carousel-wrap.noswipe {
+	cursor: default;
+}
+
 rs-carousel-wrap { position: absolute; overflow: hidden;  width:100%;height:100%;top:0px;left:0px;}
-rs-carousel-space { clear:both;display:block;width:100%;height:1px;position:relative;margin-bottom:-1px }
+rs-carousel-space { clear:both;display:block;width:100%;height:0px;position:relative;}
 
 /* ADDED FOR SLIDELINK MANAGEMENT */
 .tp_inner_padding {	
@@ -458,7 +466,7 @@ rs-bg-elem 	{	position:absolute; top:0px;left:0px; width:100%;height:100%;z-inde
 /***********************************************************
 	- 	ZONES / GOUP / ROW / COLUMN LAYERS AND HELPERS 	-
 ***********************************************************/
-rs-zone			{	position:absolute; width:100%;left:0px; box-sizing: border-box;min-height:50px; font-size:0px;}
+rs-zone			{	position:absolute; width:100%;left:0px; box-sizing: border-box;min-height:50px; font-size:0px;pointer-events: none}
 rs-layer-wrap,
 rs-row-wrap,
 rs-column,
@@ -473,13 +481,13 @@ rs-column-wrap>rs-loop-wrap { z-index: 1 }
 rs-layer-wrap,
 rs-mask-wrap,
 rs-cbg-mask-wrap
- { transform-style:flat;perspective:10000px; }
+ { transform-style:flat; perspective:10000px;}
 
- @-moz-document url-prefix() {
+ /*@-moz-document url-prefix() {
  	rs-layer-wrap,
 	rs-mask-wrap,
 	rs-cbg-mask-wrap { filter: blur(0px); }
- }
+ }*/   /* REMOVED LINES TO FIX BOX-SHADOW ISSUE IN FIREFOX */
 
  .rs-fixedscrollon rs-module-wrap{left: 0 !important;}
 
@@ -1282,6 +1290,8 @@ rs-layer input[type="time"],
 rs-layer input[type="datetime"],
 rs-layer input[type="datetime-local"] { display: inline-block }
 
+a.rs-layer { transition: none }
+
 
 /***********************************************
 	-  STANDARD NAVIGATION SETTINGS 
@@ -1297,6 +1307,8 @@ rs-bullets,
 rs-navmask,
 rs-tabs,
 rs-arrow 					{	display:block;}
+
+rs-navmask 					{ direction: ltr !important }
 
 .tp-thumbs.navbar,
 .tp-bullets.navbar,

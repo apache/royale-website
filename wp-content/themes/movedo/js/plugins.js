@@ -21,14 +21,12 @@ var smoothStepSize = 120;
 }
 /**
 *	Woo quantity Buttons
-*	Version: 1.0.0
+*	Version: 1.1
 *	Description: Adds quantity buttons for WooCommerce
 *	Author: Greatives
 */
 
-!function(t){t(document).ready(function(){function e(){t(".woocommerce .quantity input[type=number]").each(function(){var e=t(this),n=parseFloat(e.attr("max")),a=parseFloat(e.attr("min")),r=parseInt(e.attr("step"),10),u=t(t("<div />").append(e.clone(!0)).html().replace("number","text")).insertAfter(e);e.remove(),setTimeout(function(){if(0==u.next(".plus").length){var e=t('<input type="button" value="-" class="minus grve-qty-btn grve-custom-btn">').insertBefore(u),i=t('<input type="button" value="+" class="plus grve-qty-btn grve-custom-btn">').insertAfter(u);e.on("click",function(){var t=parseInt(u.val(),10)-r;t=0>t?0:t,t=a>t?a:t,u.val(t).trigger("change")}),i.on("click",function(){var t=parseInt(u.val(),10)+r;t=t>n?n:t,u.val(t).trigger("change")})}},10)})}e(),t(document).on("updated_cart_totals",e)})}(jQuery);
-
-
+!function(t){t(document).ready(function(){function e(){t(".woocommerce .quantity input[type=number]").each(function(){var e=t(this),n=parseFloat(e.attr("max")),a=parseFloat(e.attr("min")),r=parseInt(e.attr("step"),10),u=t(t("<div />").append(e.clone(!0)).html().replace("number","text")).insertAfter(e);e.remove(),setTimeout(function(){if(0==u.next(".plus").length){var e=t('<input type="button" value="-" class="minus grve-qty-btn grve-custom-btn">').insertBefore(u),o=t('<input type="button" value="+" class="plus grve-qty-btn grve-custom-btn">').insertAfter(u);e.on("click",function(){var t=""===u.val()?0:parseInt(u.val(),10)-r;t=(t=t<0?0:t)<a?a:t,u.val(t).trigger("change")}),o.on("click",function(){var t=""===u.val()?1:parseInt(u.val(),10)+r;t=t>n?n:t,u.val(t).trigger("change")})}},10)})}e(),t(document).on("updated_cart_totals",e)})}(jQuery);
 /**
 *	Background Parallax
 *	Version: 2.0.1

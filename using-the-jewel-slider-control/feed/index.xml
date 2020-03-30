@@ -9,13 +9,13 @@
 	<title>
 	Comments on: Using the Jewel Slider Control	</title>
 	<atom:link href="//royale.apache.org/using-the-jewel-slider-control/feed/" rel="self" type="application/rss+xml" />
-	<link>//royale.apache.org/using-the-jewel-slider-control/</link>
+	<link>//royale.apache.org/using-the-jewel-slider-control/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=using-the-jewel-slider-control</link>
 	<description>Code once. Run everywhere</description>
 	<lastBuildDate>Mon, 16 Dec 2019 12:05:52 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.3.1</generator>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
 </channel>
 </rss>

@@ -137,6 +137,7 @@ if( 1 == movedo_grve_main_data.device_animations ) {
 			GRVE.pageSettings.fullHeightSeparator();
 			GRVE.pageSettings.columnEffect();
 			GRVE.wooThumbCarousel.init();
+			GRVE.wooProductRating.init();
 			if ( $('#grve-body').hasClass( 'compose-mode' ) ) {
 				GRVE.isotope.init();
 			}
@@ -1738,6 +1739,19 @@ if( 1 == movedo_grve_main_data.device_animations ) {
 			GRVE.isotope.init();
 			GRVE.basicElements.wooProduct();
 			GRVE.basicElements.hovers();
+		}
+	};
+
+	// # Woocommerce Product Rating
+	// ============================================================================= //
+	GRVE.wooProductRating = {
+		init : function(){
+			if ( typeof wc_single_product_params !== 'undefined' ) {
+				var $rating = $( '.woocommerce-Reviews #respond' ).find( '#rating' );
+				if ( $rating.length > 0 && wc_single_product_params.review_rating_required === 'no' ) {
+					$('.woocommerce-Reviews #respond #rating').removeAttr('required');
+				}
+			}
 		}
 	};
 

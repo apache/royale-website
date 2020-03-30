@@ -18,10 +18,10 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.3.1</generator>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
 	<item>
 		<title>Using an Item Renderer with a List</title>
-		<link>//royale.apache.org/using-an-item-renderer-with-a-list/</link>
+		<link>//royale.apache.org/using-an-item-renderer-with-a-list/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=using-an-item-renderer-with-a-list</link>
 				<comments>//royale.apache.org/using-an-item-renderer-with-a-list/#respond</comments>
 				<pubDate>Fri, 13 Jul 2018 12:41:07 +0000</pubDate>
 		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>

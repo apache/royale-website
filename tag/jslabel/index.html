@@ -10,7 +10,7 @@
 		<meta charset="UTF-8">
 				<title>js:Label Archives - Apache Royale™</title>
 
-<!-- This site is optimized with the Yoast SEO plugin v12.7.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<!-- This site is optimized with the Yoast SEO plugin v13.3 - https://yoast.com/wordpress/plugins/seo/ -->
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
 <link rel="canonical" href="//royale.apache.org/tag/jslabel/" />
 <meta property="og:locale" content="en_US" />
@@ -27,7 +27,7 @@
 <meta name="twitter:title" content="js:Label Archives - Apache Royale™" />
 <meta name="twitter:site" content="@ApacheRoyale" />
 <meta name="twitter:image" content="//royale.apache.org/wp-content/uploads/2017/10/royale_spheres_1.png" />
-<script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"//royale.apache.org/#website","url":"//royale.apache.org/","name":"Apache Royale\u2122","description":"Code once. Run everywhere","potentialAction":{"@type":"SearchAction","target":"//royale.apache.org/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"CollectionPage","@id":"//royale.apache.org/tag/jslabel/#webpage","url":"//royale.apache.org/tag/jslabel/","inLanguage":"en-US","name":"js:Label Archives - Apache Royale\u2122","isPartOf":{"@id":"//royale.apache.org/#website"}}]}</script>
+<script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"//royale.apache.org/#website","url":"//royale.apache.org/","name":"Apache Royale\u2122","inLanguage":"en-US","description":"Code once. Run everywhere","potentialAction":[{"@type":"SearchAction","target":"//royale.apache.org/?s={search_term_string}","query-input":"required name=search_term_string"}]},{"@type":"CollectionPage","@id":"//royale.apache.org/tag/jslabel/#webpage","url":"//royale.apache.org/tag/jslabel/","name":"js:Label Archives - Apache Royale\u2122","isPartOf":{"@id":"//royale.apache.org/#website"},"inLanguage":"en-US"}]}</script>
 <!-- / Yoast SEO plugin. -->
 
 <link rel='dns-prefetch' href='//www.google.com' />
@@ -38,8 +38,96 @@
 <link rel="alternate" type="application/rss+xml" title="Apache Royale™ &raquo; js:Label Tag Feed" href="//royale.apache.org/tag/jslabel/feed/" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <meta name="application-name" content="Apache Royale™">
+<!-- This site uses the Google Analytics by ExactMetrics plugin v6.0.2 - Using Analytics tracking - https://www.exactmetrics.com/ -->
+<script type="text/javascript" data-cfasync="false">
+	var em_version         = '6.0.2';
+	var em_track_user      = true;
+	var em_no_track_reason = '';
+	
+	var disableStr = 'ga-disable-UA-141008188-1';
+
+	/* Function to detect opted out users */
+	function __gaTrackerIsOptedOut() {
+		return document.cookie.indexOf(disableStr + '=true') > -1;
+	}
+
+	/* Disable tracking if the opt-out cookie exists. */
+	if ( __gaTrackerIsOptedOut() ) {
+		window[disableStr] = true;
+	}
+
+	/* Opt-out function */
+	function __gaTrackerOptout() {
+	  document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+	  window[disableStr] = true;
+	}
+
+	if ( 'undefined' === typeof gaOptout ) {
+		function gaOptout() {
+			__gaTrackerOptout();
+		}
+	}
+	
+	if ( em_track_user ) {
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
+
+window.ga = __gaTracker;		__gaTracker('create', 'UA-141008188-1', 'auto', {'allowLinker':true});
+		__gaTracker('set', 'forceSSL', true);
+		__gaTracker('require', 'linker');
+		__gaTracker('linker:autoLink', ['royale.codeoscopic.com']);
+		__gaTracker('send','pageview');
+		__gaTracker( function() { window.ga = __gaTracker; } );
+	} else {
+		console.log( "" );
+		(function() {
+			/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+			var noopfn = function() {
+				return null;
+			};
+			var noopnullfn = function() {
+				return null;
+			};
+			var Tracker = function() {
+				return null;
+			};
+			var p = Tracker.prototype;
+			p.get = noopfn;
+			p.set = noopfn;
+			p.send = noopfn;
+			var __gaTracker = function() {
+				var len = arguments.length;
+				if ( len === 0 ) {
+					return;
+				}
+				var f = arguments[len-1];
+				if ( typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function' ) {
+					console.log( 'Not running function __gaTracker(' + arguments[0] + " ....) because you are not being tracked. " + em_no_track_reason );
+					return;
+				}
+				try {
+					f.hitCallback();
+				} catch (ex) {
+
+				}
+			};
+			__gaTracker.create = function() {
+				return new Tracker();
+			};
+			__gaTracker.getByName = noopnullfn;
+			__gaTracker.getAll = function() {
+				return [];
+			};
+			__gaTracker.remove = noopfn;
+			window['__gaTracker'] = __gaTracker;
+			window.ga = __gaTracker;		})();
+		}
+</script>
+<!-- / Google Analytics by ExactMetrics -->
 		<script type="text/javascript">
-			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"\/\/royale.codeoscopic.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.3.1"}};
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"\/\/royale.codeoscopic.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.3.2"}};
 			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
 		</script>
 		<style type="text/css">
@@ -56,17 +144,16 @@ img.emoji {
 	padding: 0 !important;
 }
 </style>
-	<link rel='stylesheet' id='wp-block-library-css'  href='//royale.apache.org/wp-includes/css/dist/block-library/style.min.css?ver=5.3.1' type='text/css' media='all' />
-<link rel='stylesheet' id='contact-form-7-css'  href='//royale.apache.org/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.1.6' type='text/css' media='all' />
-<link rel='stylesheet' id='rs-plugin-settings-css'  href='//royale.apache.org/wp-content/plugins/revslider/public/assets/css/rs6.css?ver=6.1.5' type='text/css' media='all' />
+	<link rel='stylesheet' id='wp-block-library-css'  href='//royale.apache.org/wp-includes/css/dist/block-library/style.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='//royale.apache.org/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.1.7' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css'  href='//royale.apache.org/wp-content/plugins/revslider/public/assets/css/rs6.css?ver=6.2.2' type='text/css' media='all' />
 <style id='rs-plugin-settings-inline-css' type='text/css'>
 #rs-demo-id {}
 </style>
-<link rel='stylesheet' id='bodhi-svgs-attachment-css'  href='//royale.apache.org/wp-content/plugins/svg-support/css/svgs-attachment.css?ver=5.3.1' type='text/css' media='all' />
 <link rel='stylesheet' id='movedo-grve-awesome-fonts-css'  href='//royale.apache.org/wp-content/themes/movedo/css/font-awesome.min.css?ver=4.7.0' type='text/css' media='all' />
-<link rel='stylesheet' id='movedo-grve-theme-style-css'  href='//royale.apache.org/wp-content/themes/movedo/css/theme-style.css?ver=3.2.4' type='text/css' media='all' />
-<link rel='stylesheet' id='movedo-grve-elements-css'  href='//royale.apache.org/wp-content/themes/movedo/css/elements.css?ver=3.2.4' type='text/css' media='all' />
-<link rel='stylesheet' id='movedo-grve-custom-style-css'  href='//royale.apache.org/wp-content/themes/movedo/css/responsive.css?ver=3.2.4' type='text/css' media='all' />
+<link rel='stylesheet' id='movedo-grve-theme-style-css'  href='//royale.apache.org/wp-content/themes/movedo/css/theme-style.css?ver=3.2.7' type='text/css' media='all' />
+<link rel='stylesheet' id='movedo-grve-elements-css'  href='//royale.apache.org/wp-content/themes/movedo/css/elements.css?ver=3.2.7' type='text/css' media='all' />
+<link rel='stylesheet' id='movedo-grve-custom-style-css'  href='//royale.apache.org/wp-content/themes/movedo/css/responsive.css?ver=3.2.7' type='text/css' media='all' />
 <style id='movedo-grve-custom-style-inline-css' type='text/css'>
 .vc_custom_1498125713074{padding: 5% !important;background-color: #ffffff !important;border-radius: 10px !important;}.vc_custom_1498124537578{padding-right: 5% !important;padding-bottom: 5% !important;padding-left: 5% !important;background-color: #ffffff !important;border-radius: 5px !important;}
  body { font-size: 14px; font-family: "Hind Siliguri"; font-weight: 400; line-height: 24px; letter-spacing: 0px; } #grve-header .grve-logo.grve-logo-text a { font-family: Signika; font-weight: 700; font-style: normal; font-size: 36px; text-transform: none; letter-spacing: 0px; } .grve-main-menu .grve-wrapper > ul > li > a, .grve-main-menu .grve-wrapper > ul > li .grve-toggle-menu-item-wrapper a, .grve-main-menu .grve-wrapper > ul > li.megamenu > ul > li > a, .grve-toggle-hiddenarea .grve-label, .grve-main-menu .grve-wrapper > ul > li ul li.grve-goback a { font-family: Signika; font-weight: 600; font-style: normal; font-size: 14px; text-transform: uppercase; letter-spacing: 1px; } .grve-slide-menu .grve-main-menu .grve-wrapper ul li.megamenu ul li:not(.grve-goback) > a, .grve-main-menu .grve-wrapper > ul > li ul li a { font-family: Signika; font-weight: normal; font-style: normal; font-size: 14px; text-transform: none; letter-spacing: 0px; } .grve-main-menu .grve-menu-description { font-family: Signika; font-weight: 400; font-style: normal; font-size: 11px; text-transform: none; letter-spacing: 0px; } #grve-hidden-menu .grve-hiddenarea-content .grve-menu > li > a, #grve-hidden-menu .grve-hiddenarea-content .grve-menu > li > .grve-toggle-menu-item-wrapper a, #grve-responsive-anchor .grve-hiddenarea-content .grve-menu > li > a, #grve-hidden-menu ul.grve-menu > li.megamenu > ul > li > a, #grve-hidden-menu ul.grve-menu > li ul li.grve-goback a { font-family: Signika; font-weight: 600; font-style: normal; font-size: 14px; text-transform: uppercase; } #grve-hidden-menu.grve-slide-menu ul li.megamenu ul li:not(.grve-goback) > a, #grve-hidden-menu.grve-slide-menu ul li ul li:not(.grve-goback) > a, #grve-hidden-menu.grve-toggle-menu ul li.megamenu ul li > a, #grve-hidden-menu.grve-toggle-menu ul li ul li > a, #grve-responsive-anchor ul li ul li > a { font-family: Signika; font-weight: normal; font-style: normal; font-size: 12px; text-transform: none; letter-spacing: 0px; } #grve-hidden-menu .grve-menu-description { font-family: Signika; font-weight: 400; font-style: normal; font-size: 11px; text-transform: none; letter-spacing: 0px; } h1, .grve-h1, #grve-theme-wrapper .grve-modal .grve-search input[type='text'], .grve-dropcap span, p.grve-dropcap:first-letter { font-family: Signika; font-weight: 700; font-style: normal; text-transform: none; font-size: 30px; line-height: 36px; letter-spacing: -1.5px; } h2, .grve-h2 { font-family: Signika; font-weight: 600; font-style: normal; text-transform: none; font-size: 24px; line-height: 30px; letter-spacing: 0px; } h3, .grve-h3 { font-family: Signika; font-weight: 600; font-style: normal; text-transform: none; font-size: 20px; line-height: 28px; letter-spacing: 0px; } h4, .grve-h4 { font-family: Signika; font-weight: 600; font-style: normal; text-transform: none; font-size: 18px; line-height: 24px; letter-spacing: 0px; } h5, .grve-h5 { font-family: Signika; font-weight: 400; font-style: normal; text-transform: none; font-size: 16px; line-height: 20px; letter-spacing: 0px; } h6, .grve-h6, .vc_tta.vc_general .vc_tta-panel-title, #grve-main-content .vc_tta.vc_general .vc_tta-tab > a { font-family: Signika; font-weight: 600; font-style: normal; text-transform: none; font-size: 14px; line-height: 18px; letter-spacing: 0px; } #grve-page-title .grve-title, #grve-blog-title .grve-title, #grve-search-page-title .grve-title { font-family: Signika; font-weight: 700; font-style: normal; font-size: 48px; text-transform: none; line-height: 60px; letter-spacing: -1.3px; } #grve-page-title .grve-description, #grve-blog-title .grve-description, #grve-blog-title .grve-description p, #grve-search-page-title .grve-description { font-family: "Hind Siliguri"; font-weight: 400; font-style: normal; font-size: 20px; text-transform: none; line-height: 30px; letter-spacing: 0px; } #grve-post-title .grve-title-categories { font-family: Signika; font-weight: 700; font-style: normal; font-size: 11px; text-transform: uppercase; line-height: 14px; letter-spacing: 2px; } #grve-post-title .grve-post-meta, #grve-post-title .grve-post-meta li { font-family: Signika; font-weight: 600; font-style: normal; font-size: 11px; text-transform: uppercase; line-height: 11px; letter-spacing: 0px; } .grve-single-simple-title { font-family: Signika; font-weight: 600; font-style: normal; font-size: 36px; text-transform: none; line-height: 48px; letter-spacing: 0px; } #grve-post-title .grve-title { font-family: Signika; font-weight: 700; font-style: normal; font-size: 48px; text-transform: none; line-height: 60px; letter-spacing: -1.3px; } #grve-post-title .grve-description { font-family: "Hind Siliguri"; font-weight: 400; font-style: normal; font-size: 20px; text-transform: none; line-height: 30px; letter-spacing: 1px; } #grve-portfolio-title .grve-title { font-family: Signika; font-weight: 700; font-style: normal; font-size: 48px; text-transform: none; line-height: 60px; letter-spacing: 0px; } #grve-portfolio-title .grve-description { font-family: "Hind Siliguri"; font-weight: 400; font-style: normal; font-size: 20px; text-transform: none; line-height: 30px; letter-spacing: 1px; } #grve-forum-title .grve-title { font-family: Signika; font-weight: 700; font-style: normal; font-size: 48px; text-transform: none; line-height: 60px; letter-spacing: 0px; } .grve-product-area .product_title { font-family: Signika; font-weight: 700; font-style: normal; font-size: 48px; text-transform: none; line-height: 60px; letter-spacing: 0px; } #grve-entry-summary .grve-short-description p { font-family: "Hind Siliguri"; font-weight: 400; font-style: normal; font-size: 16px; text-transform: none; line-height: 28px; letter-spacing: 0px; } #grve-product-title .grve-title, #grve-product-tax-title .grve-title, .woocommerce-page #grve-page-title .grve-title { font-family: Signika; font-weight: 700; font-style: normal; font-size: 60px; text-transform: none; line-height: 72px; letter-spacing: 0px; } #grve-product-title .grve-description, #grve-product-tax-title .grve-description, #grve-product-tax-title .grve-description p, .woocommerce-page #grve-page-title .grve-description { font-family: "Hind Siliguri"; font-weight: 400; font-style: normal; font-size: 20px; text-transform: none; line-height: 30px; letter-spacing: 0px; } .grve-event-simple-title { font-family: Signika; font-weight: 700; font-style: normal; font-size: 48px; text-transform: none; line-height: 60px; letter-spacing: 0px; } #grve-event-title .grve-title, #grve-event-tax-title .grve-title { font-family: Signika; font-weight: 700; font-style: normal; font-size: 60px; text-transform: none; line-height: 72px; letter-spacing: 0px; } #grve-event-title .grve-description, #grve-event-tax-title .grve-description, #grve-event-tax-title .grve-description p { font-family: "Hind Siliguri"; font-weight: 400; font-style: normal; font-size: 20px; text-transform: none; line-height: 30px; letter-spacing: 0px; } #grve-feature-section .grve-subheading { font-family: Signika; font-weight: 400; font-style: normal; font-size: 16px; text-transform: none; line-height: 30px; letter-spacing: 0px; } #grve-feature-section .grve-title { font-family: Signika; font-weight: 700; font-style: normal; font-size: 48px; text-transform: none; line-height: 60px; letter-spacing: -1.3px; } #grve-feature-section .grve-description { font-family: "Hind Siliguri"; font-weight: 400; font-style: normal; font-size: 20px; text-transform: none; line-height: 30px; letter-spacing: 1px; } #grve-feature-section.grve-fullscreen .grve-subheading { font-family: Signika; font-weight: 400; font-style: normal; font-size: 16px; text-transform: none; line-height: 30px; letter-spacing: 0px; } #grve-feature-section.grve-fullscreen .grve-title { font-family: Signika; font-weight: 700; font-style: normal; font-size: 90px; text-transform: none; line-height: 100px; letter-spacing: -2px; } #grve-feature-section.grve-fullscreen .grve-description { font-family: "Hind Siliguri"; font-weight: 400; font-style: normal; font-size: 24px; text-transform: none; line-height: 30px; letter-spacing: 0px; } .grve-leader-text, .grve-leader-text p, p.grve-leader-text { font-family: "Hind Siliguri"; font-weight: 300; font-style: normal; font-size: 18px; text-transform: none; line-height: 30px; letter-spacing: 0px; } .grve-subtitle, .grve-subtitle p, .grve-subtitle-text { font-family: "Hind Siliguri"; font-weight: 400; font-style: normal; font-size: 12px; text-transform: none; line-height: 16px; letter-spacing: 0px; } .grve-small-text, span.wpcf7-not-valid-tip, div.wpcf7-mail-sent-ok, div.wpcf7-validation-errors, .grve-post-meta-wrapper .grve-categories li { font-family: "Hind Siliguri"; font-weight: 400; font-style: normal; font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; } .grve-quote-text, blockquote p, blockquote cite { font-family: Georgia, serif; font-weight: 400; font-style: italic; font-size: 24px; line-height: 40px; text-transform: none; letter-spacing: 0px; } .grve-link-text, .grve-btn, input[type='submit'], input[type='reset'], input[type='button'], button:not(.mfp-arrow):not(.grve-search-btn), #cancel-comment-reply-link, .grve-anchor-menu .grve-anchor-wrapper .grve-container > ul > li > a, .grve-anchor-menu .grve-anchor-wrapper .grve-container ul.sub-menu li a, #reply-title { font-family: Signika !important; font-weight: 600 !important; font-style: normal; font-size: 11px !important; text-transform: uppercase; letter-spacing: 0px; } .grve-btn.grve-btn-extrasmall, .widget.woocommerce button[type='submit'] { font-size: 8px !important; } .grve-btn.grve-btn-small { font-size: 9px !important; } .grve-btn.grve-btn-large { font-size: 13px !important; } .grve-btn.grve-btn-extralarge { font-size: 15px !important; } .grve-widget-title { font-family: Signika; font-weight: 600; font-style: normal; font-size: 14px; text-transform: uppercase; line-height: 24px; letter-spacing: 0px; } .widget, .widgets, .widget p { font-family: "Hind Siliguri"; font-weight: 400; font-style: normal; font-size: 14px; text-transform: none; line-height: 24px; letter-spacing: 0px; } .single-post #grve-single-content, .single-product #tab-description, .single-tribe_events #grve-single-content { font-size: 18px; font-family: "Hind Siliguri"; font-weight: 400; line-height: 30px; letter-spacing: 0px; } .grve-custom-font-1, #grve-feature-section .grve-subheading.grve-custom-font-1, #grve-feature-section.grve-fullscreen .grve-subheading.grve-custom-font-1, #grve-feature-section .grve-title.grve-custom-font-1, #grve-feature-section.grve-fullscreen .grve-title.grve-custom-font-1, #grve-feature-section .grve-description.grve-custom-font-1, #grve-feature-section.grve-fullscreen .grve-description.grve-custom-font-1 { font-family: Oswald; font-weight: 600; font-style: normal; text-transform: none; letter-spacing: 0px; } .grve-custom-font-2, #grve-feature-section .grve-subheading.grve-custom-font-2, #grve-feature-section.grve-fullscreen .grve-subheading.grve-custom-font-2, #grve-feature-section .grve-title.grve-custom-font-2, #grve-feature-section.grve-fullscreen .grve-title.grve-custom-font-2, #grve-feature-section .grve-description.grve-custom-font-2, #grve-feature-section.grve-fullscreen .grve-description.grve-custom-font-2 { font-family: "Open Sans Condensed"; font-weight: 700; font-style: normal; text-transform: uppercase; letter-spacing: 0px; } .grve-custom-font-3, #grve-feature-section .grve-subheading.grve-custom-font-3, #grve-feature-section.grve-fullscreen .grve-subheading.grve-custom-font-3, #grve-feature-section .grve-title.grve-custom-font-3, #grve-feature-section.grve-fullscreen .grve-title.grve-custom-font-3, #grve-feature-section .grve-description.grve-custom-font-3, #grve-feature-section.grve-fullscreen .grve-description.grve-custom-font-3 { font-family: "Source Sans Pro"; font-weight: 600; font-style: normal; text-transform: uppercase; letter-spacing: 0px; } .grve-custom-font-4, #grve-feature-section .grve-subheading.grve-custom-font-4, #grve-feature-section.grve-fullscreen .grve-subheading.grve-custom-font-4, #grve-feature-section .grve-title.grve-custom-font-4, #grve-feature-section.grve-fullscreen .grve-title.grve-custom-font-4, #grve-feature-section .grve-description.grve-custom-font-4, #grve-feature-section.grve-fullscreen .grve-description.grve-custom-font-4 { font-family: Arial, Helvetica, sans-serif; font-weight: 600; font-style: normal; text-transform: none; letter-spacing: 0px; } .grve-blog-leader .grve-post-list .grve-post-content p { max-height: 48px; } @media only screen and (min-width: 1201px) and (max-width: 1440px) { } @media only screen and (min-width: 960px) and (max-width: 1200px) { h1,.grve-h1,#grve-theme-wrapper .grve-modal .grve-search input[type="text"],.grve-dropcap span,p.grve-dropcap:first-letter { font-size: 27px; line-height: 1.2em; } .grve-h1.grve-heading-120:not(.grve-tablet-reset-increase-heading ) { font-size: 23px; } .grve-h1.grve-heading-140:not(.grve-tablet-reset-increase-heading ) { font-size: 23px; } .grve-h1.grve-heading-160:not(.grve-tablet-reset-increase-heading ) { font-size: 23px; } .grve-h1.grve-heading-180:not(.grve-tablet-reset-increase-heading ) { font-size: 23px; } .grve-h1.grve-heading-200:not(.grve-tablet-reset-increase-heading ) { font-size: 19px; } .grve-h1.grve-heading-250:not(.grve-tablet-reset-increase-heading ) { font-size: 16px; } .grve-h1.grve-heading-300:not(.grve-tablet-reset-increase-heading ) { font-size: 16px; } h2,.grve-h2 { font-size: 22px; line-height: 1.25em; } .grve-h2.grve-heading-120:not(.grve-tablet-reset-increase-heading ) { font-size: 19px; } .grve-h2.grve-heading-140:not(.grve-tablet-reset-increase-heading ) { font-size: 19px; } .grve-h2.grve-heading-160:not(.grve-tablet-reset-increase-heading ) { font-size: 19px; } .grve-h2.grve-heading-180:not(.grve-tablet-reset-increase-heading ) { font-size: 19px; } .grve-h2.grve-heading-200:not(.grve-tablet-reset-increase-heading ) { font-size: 15px; } .grve-h2.grve-heading-250:not(.grve-tablet-reset-increase-heading ) { font-size: 13px; } .grve-h2.grve-heading-300:not(.grve-tablet-reset-increase-heading ) { font-size: 13px; } h3,.grve-h3 { font-size: 18px; line-height: 1.4em; } .grve-h3.grve-heading-120:not(.grve-tablet-reset-increase-heading ) { font-size: 16px; } .grve-h3.grve-heading-140:not(.grve-tablet-reset-increase-heading ) { font-size: 16px; } .grve-h3.grve-heading-160:not(.grve-tablet-reset-increase-heading ) { font-size: 16px; } .grve-h3.grve-heading-180:not(.grve-tablet-reset-increase-heading ) { font-size: 16px; } .grve-h3.grve-heading-200:not(.grve-tablet-reset-increase-heading ) { font-size: 13px; } .grve-h3.grve-heading-250:not(.grve-tablet-reset-increase-heading ) { font-size: 11px; } .grve-h3.grve-heading-300:not(.grve-tablet-reset-increase-heading ) { font-size: 11px; } .grve-h4.grve-heading-120:not(.grve-tablet-reset-increase-heading ) { font-size: 14px; } .grve-h4.grve-heading-140:not(.grve-tablet-reset-increase-heading ) { font-size: 14px; } .grve-h4.grve-heading-160:not(.grve-tablet-reset-increase-heading ) { font-size: 14px; } .grve-h4.grve-heading-180:not(.grve-tablet-reset-increase-heading ) { font-size: 14px; } .grve-h4.grve-heading-200:not(.grve-tablet-reset-increase-heading ) { font-size: 12px; } .grve-h4.grve-heading-250:not(.grve-tablet-reset-increase-heading ) { font-size: 10px; } .grve-h4.grve-heading-300:not(.grve-tablet-reset-increase-heading ) { font-size: 10px; } .grve-h5.grve-heading-140:not(.grve-tablet-reset-increase-heading ) { font-size: 13px; } .grve-h5.grve-heading-160:not(.grve-tablet-reset-increase-heading ) { font-size: 13px; } .grve-h5.grve-heading-180:not(.grve-tablet-reset-increase-heading ) { font-size: 13px; } .grve-h5.grve-heading-200:not(.grve-tablet-reset-increase-heading ) { font-size: 10px; } .grve-h5.grve-heading-250:not(.grve-tablet-reset-increase-heading ) { font-size: 8px; } .grve-h5.grve-heading-300:not(.grve-tablet-reset-increase-heading ) { font-size: 8px; } .grve-h6.grve-heading-160:not(.grve-tablet-reset-increase-heading ) { font-size: 11px; } .grve-h6.grve-heading-180:not(.grve-tablet-reset-increase-heading ) { font-size: 11px; } .grve-h6.grve-heading-200:not(.grve-tablet-reset-increase-heading ) { font-size: 9px; } .grve-h6.grve-heading-250:not(.grve-tablet-reset-increase-heading ) { font-size: 7px; } .grve-h6.grve-heading-300:not(.grve-tablet-reset-increase-heading ) { font-size: 7px; } #grve-page-title .grve-title,#grve-blog-title .grve-title,#grve-search-page-title .grve-title { font-size: 43px; line-height: 1.25em; } #grve-post-title .grve-title { font-size: 43px; line-height: 1.25em; } .grve-single-simple-title { font-size: 32px; line-height: 1.33em; } #grve-portfolio-title .grve-title { font-size: 43px; line-height: 1.25em; } #grve-forum-title .grve-title { font-size: 43px; line-height: 1.25em; } .grve-product-area .product_title { font-size: 43px; line-height: 1.25em; } #grve-product-title .grve-title,#grve-product-tax-title .grve-title,.woocommerce-page #grve-page-title .grve-title { font-size: 54px; line-height: 1.2em; } .grve-event-simple-title { font-size: 43px; line-height: 1.25em; } #grve-event-title .grve-title,#grve-event-tax-title .grve-title { font-size: 54px; line-height: 1.2em; } #grve-feature-section .grve-title { font-size: 43px; line-height: 1.25em; } #grve-feature-section.grve-fullscreen .grve-title { font-size: 81px; line-height: 1.11em; } #grve-feature-section.grve-fullscreen .grve-description { font-size: 22px; line-height: 1.25em; } #grve-page-title .grve-description,#grve-blog-title .grve-description,#grve-blog-title .grve-description p,#grve-search-page-title .grve-description { font-size: 18px; line-height: 1.5em; } #grve-post-title .grve-description { font-size: 18px; line-height: 1.5em; } #grve-entry-summary .grve-short-description p { font-size: 14px; line-height: 1.75em; } #grve-product-title .grve-description,#grve-product-tax-title .grve-description,#grve-product-tax-title .grve-description p,.woocommerce-page #grve-page-title .grve-description { font-size: 18px; line-height: 1.5em; } #grve-event-title .grve-description,#grve-event-tax-title .grve-description,#grve-event-tax-title .grve-description p { font-size: 18px; line-height: 1.5em; } #grve-feature-section .grve-subheading { font-size: 14px; line-height: 1.88em; } #grve-feature-section.grve-fullscreen .grve-subheading { font-size: 14px; line-height: 1.88em; } #grve-feature-section .grve-description { font-size: 18px; line-height: 1.5em; } .grve-leader-text,.grve-leader-text p,p.grve-leader-text { font-size: 16px; line-height: 1.67em; } .grve-quote-text,blockquote p { font-size: 22px; line-height: 1.67em; } .grve-main-menu .grve-wrapper > ul > li > a,.grve-main-menu .grve-wrapper > ul > li.megamenu > ul > li > a,.grve-toggle-hiddenarea .grve-label,.grve-main-menu .grve-wrapper > ul > li ul li.grve-goback a { font-size: 13px; line-height: 2.29em; } .grve-slide-menu .grve-main-menu .grve-wrapper ul li.megamenu ul li:not(.grve-goback) > a, .grve-main-menu .grve-wrapper > ul > li ul li a { font-size: 13px; line-height: 2.29em; } #grve-hidden-menu .grve-hiddenarea-content .grve-menu > li > a,#grve-responsive-anchor .grve-hiddenarea-content .grve-menu > li > a,#grve-hidden-menu ul.grve-menu > li.megamenu > ul > li > a,#grve-hidden-menu ul.grve-menu > li ul li.grve-goback a { font-size: 13px; line-height: 2.29em; } } @media only screen and (min-width: 768px) and (max-width: 959px) { h1,.grve-h1,#grve-theme-wrapper .grve-modal .grve-search input[type="text"],.grve-dropcap span,p.grve-dropcap:first-letter { font-size: 24px; line-height: 1.2em; } .grve-h1.grve-heading-120:not(.grve-tablet-sm-reset-increase-heading ) { font-size: 21px; } .grve-h1.grve-heading-140:not(.grve-tablet-sm-reset-increase-heading ) { font-size: 21px; } .grve-h1.grve-heading-160:not(.grve-tablet-sm-reset-increase-heading ) { font-size: 21px; } .grve-h1.grve-heading-180:not(.grve-tablet-sm-reset-increase-heading ) { font-size: 21px; } .grve-h1.grve-heading-200:not(.grve-tablet-sm-reset-increase-heading ) { font-size: 17px; } .grve-h1.grve-heading-250:not(.grve-tablet-sm-reset-increase-heading ) { font-size: 14px; } .grve-h1.grve-heading-300:not(.grve-tablet-sm-reset-increase-heading ) { font-size: 14px; } h2,.grve-h2 { font-size: 19px; line-height: 1.25em; } .grve-h2.grve-heading-120:not(.grve-tablet-sm-reset-increase-heading ) { font-size: 17px; } .grve-h2.grve-heading-140:not(.grve-tablet-sm-reset-increase-heading ) { font-size: 17px; } .grve-h2.grve-heading-160:not(.grve-tablet-sm-reset-increase-heading ) { font-size: 17px; } .grve-h2.grve-heading-180:not(.grve-tablet-sm-reset-increase-heading ) { font-size: 17px; } .grve-h2.grve-heading-200:not(.grve-tablet-sm-reset-increase-heading ) { font-size: 14px; } .grve-h2.grve-heading-250:not(.grve-tablet-sm-reset-increase-heading ) { font-size: 11px; } .grve-h2.grve-heading-300:not(.grve-tablet-sm-reset-increase-heading ) { font-size: 11px; } h3,.grve-h3 { font-size: 16px; line-height: 1.4em; } .grve-h3.grve-heading-120:not(.grve-tablet-sm-reset-increase-heading ) { font-size: 14px; } .grve-h3.grve-heading-140:not(.grve-tablet-sm-reset-increase-heading ) { font-size: 14px; } .grve-h3.grve-heading-160:not(.grve-tablet-sm-reset-increase-heading ) { font-size: 14px; } .grve-h3.grve-heading-180:not(.grve-tablet-sm-reset-increase-heading ) { font-size: 14px; } .grve-h3.grve-heading-200:not(.grve-tablet-sm-reset-increase-heading ) { font-size: 11px; } .grve-h3.grve-heading-250:not(.grve-tablet-sm-reset-increase-heading ) { font-size: 9px; } .grve-h3.grve-heading-300:not(.grve-tablet-sm-reset-increase-heading ) { font-size: 9px; } .grve-h4.grve-heading-120:not(.grve-tablet-sm-reset-increase-heading ) { font-size: 13px; } .grve-h4.grve-heading-140:not(.grve-tablet-sm-reset-increase-heading ) { font-size: 13px; } .grve-h4.grve-heading-160:not(.grve-tablet-sm-reset-increase-heading ) { font-size: 13px; } .grve-h4.grve-heading-180:not(.grve-tablet-sm-reset-increase-heading ) { font-size: 13px; } .grve-h4.grve-heading-200:not(.grve-tablet-sm-reset-increase-heading ) { font-size: 10px; } .grve-h4.grve-heading-250:not(.grve-tablet-sm-reset-increase-heading ) { font-size: 8px; } .grve-h4.grve-heading-300:not(.grve-tablet-sm-reset-increase-heading ) { font-size: 8px; } .grve-h5.grve-heading-140:not(.grve-tablet-sm-reset-increase-heading ) { font-size: 11px; } .grve-h5.grve-heading-160:not(.grve-tablet-sm-reset-increase-heading ) { font-size: 11px; } .grve-h5.grve-heading-180:not(.grve-tablet-sm-reset-increase-heading ) { font-size: 11px; } .grve-h5.grve-heading-200:not(.grve-tablet-sm-reset-increase-heading ) { font-size: 9px; } .grve-h5.grve-heading-250:not(.grve-tablet-sm-reset-increase-heading ) { font-size: 8px; } .grve-h5.grve-heading-300:not(.grve-tablet-sm-reset-increase-heading ) { font-size: 8px; } .grve-h6.grve-heading-160:not(.grve-tablet-sm-reset-increase-heading ) { font-size: 10px; } .grve-h6.grve-heading-180:not(.grve-tablet-sm-reset-increase-heading ) { font-size: 10px; } .grve-h6.grve-heading-200:not(.grve-tablet-sm-reset-increase-heading ) { font-size: 8px; } .grve-h6.grve-heading-250:not(.grve-tablet-sm-reset-increase-heading ) { font-size: 7px; } .grve-h6.grve-heading-300:not(.grve-tablet-sm-reset-increase-heading ) { font-size: 7px; } #grve-page-title .grve-title,#grve-blog-title .grve-title,#grve-search-page-title .grve-title { font-size: 41px; line-height: 1.25em; } #grve-post-title .grve-title { font-size: 41px; line-height: 1.25em; } .grve-single-simple-title { font-size: 31px; line-height: 1.33em; } #grve-portfolio-title .grve-title { font-size: 41px; line-height: 1.25em; } #grve-forum-title .grve-title { font-size: 41px; line-height: 1.25em; } .grve-product-area .product_title { font-size: 41px; line-height: 1.25em; } #grve-product-title .grve-title,#grve-product-tax-title .grve-title,.woocommerce-page #grve-page-title .grve-title { font-size: 51px; line-height: 1.2em; } .grve-event-simple-title { font-size: 41px; line-height: 1.25em; } #grve-event-title .grve-title,#grve-event-tax-title .grve-title { font-size: 51px; line-height: 1.2em; } #grve-feature-section .grve-title { font-size: 41px; line-height: 1.25em; } #grve-feature-section.grve-fullscreen .grve-title { font-size: 77px; line-height: 1.11em; } #grve-feature-section.grve-fullscreen .grve-description { font-size: 20px; line-height: 1.25em; } #grve-page-title .grve-description,#grve-blog-title .grve-description,#grve-blog-title .grve-description p,#grve-search-page-title .grve-description { font-size: 16px; line-height: 1.5em; } #grve-post-title .grve-description { font-size: 16px; line-height: 1.5em; } #grve-entry-summary .grve-short-description p { font-size: 13px; line-height: 1.75em; } #grve-product-title .grve-description,#grve-product-tax-title .grve-description,#grve-product-tax-title .grve-description p,.woocommerce-page #grve-page-title .grve-description { font-size: 16px; line-height: 1.5em; } #grve-event-title .grve-description,#grve-event-tax-title .grve-description,#grve-event-tax-title .grve-description p { font-size: 16px; line-height: 1.5em; } #grve-feature-section .grve-subheading { font-size: 13px; line-height: 1.88em; } #grve-feature-section.grve-fullscreen .grve-subheading { font-size: 13px; line-height: 1.88em; } #grve-feature-section .grve-description { font-size: 16px; line-height: 1.5em; } .grve-leader-text,.grve-leader-text p,p.grve-leader-text { font-size: 14px; line-height: 1.67em; } .grve-quote-text,blockquote p { font-size: 19px; line-height: 1.67em; } .grve-main-menu .grve-wrapper > ul > li > a,.grve-main-menu .grve-wrapper > ul > li.megamenu > ul > li > a,.grve-toggle-hiddenarea .grve-label,.grve-main-menu .grve-wrapper > ul > li ul li.grve-goback a { font-size: 11px; line-height: 2.29em; } .grve-slide-menu .grve-main-menu .grve-wrapper ul li.megamenu ul li:not(.grve-goback) > a, .grve-main-menu .grve-wrapper > ul > li ul li a { font-size: 11px; line-height: 2.29em; } #grve-hidden-menu .grve-hiddenarea-content .grve-menu > li > a,#grve-responsive-anchor .grve-hiddenarea-content .grve-menu > li > a,#grve-hidden-menu ul.grve-menu > li.megamenu > ul > li > a,#grve-hidden-menu ul.grve-menu > li ul li.grve-goback a { font-size: 11px; line-height: 2.29em; } } @media only screen and (max-width: 767px) { h1,.grve-h1,#grve-theme-wrapper .grve-modal .grve-search input[type="text"],.grve-dropcap span,p.grve-dropcap:first-letter { font-size: 21px; line-height: 1.2em; } .grve-h1.grve-heading-120:not(.grve-mobile-reset-increase-heading ) { font-size: 18px; } .grve-h1.grve-heading-140:not(.grve-mobile-reset-increase-heading ) { font-size: 18px; } .grve-h1.grve-heading-160:not(.grve-mobile-reset-increase-heading ) { font-size: 18px; } .grve-h1.grve-heading-180:not(.grve-mobile-reset-increase-heading ) { font-size: 18px; } .grve-h1.grve-heading-200:not(.grve-mobile-reset-increase-heading ) { font-size: 15px; } .grve-h1.grve-heading-250:not(.grve-mobile-reset-increase-heading ) { font-size: 12px; } .grve-h1.grve-heading-300:not(.grve-mobile-reset-increase-heading ) { font-size: 12px; } h2,.grve-h2 { font-size: 17px; line-height: 1.25em; } .grve-h2.grve-heading-120:not(.grve-mobile-reset-increase-heading ) { font-size: 15px; } .grve-h2.grve-heading-140:not(.grve-mobile-reset-increase-heading ) { font-size: 15px; } .grve-h2.grve-heading-160:not(.grve-mobile-reset-increase-heading ) { font-size: 15px; } .grve-h2.grve-heading-180:not(.grve-mobile-reset-increase-heading ) { font-size: 15px; } .grve-h2.grve-heading-200:not(.grve-mobile-reset-increase-heading ) { font-size: 12px; } .grve-h2.grve-heading-250:not(.grve-mobile-reset-increase-heading ) { font-size: 10px; } .grve-h2.grve-heading-300:not(.grve-mobile-reset-increase-heading ) { font-size: 10px; } h3,.grve-h3 { font-size: 14px; line-height: 1.4em; } .grve-h3.grve-heading-120:not(.grve-mobile-reset-increase-heading ) { font-size: 12px; } .grve-h3.grve-heading-140:not(.grve-mobile-reset-increase-heading ) { font-size: 12px; } .grve-h3.grve-heading-160:not(.grve-mobile-reset-increase-heading ) { font-size: 12px; } .grve-h3.grve-heading-180:not(.grve-mobile-reset-increase-heading ) { font-size: 12px; } .grve-h3.grve-heading-200:not(.grve-mobile-reset-increase-heading ) { font-size: 10px; } .grve-h3.grve-heading-250:not(.grve-mobile-reset-increase-heading ) { font-size: 8px; } .grve-h3.grve-heading-300:not(.grve-mobile-reset-increase-heading ) { font-size: 8px; } .grve-h4.grve-heading-120:not(.grve-mobile-reset-increase-heading ) { font-size: 11px; } .grve-h4.grve-heading-140:not(.grve-mobile-reset-increase-heading ) { font-size: 11px; } .grve-h4.grve-heading-160:not(.grve-mobile-reset-increase-heading ) { font-size: 11px; } .grve-h4.grve-heading-180:not(.grve-mobile-reset-increase-heading ) { font-size: 11px; } .grve-h4.grve-heading-200:not(.grve-mobile-reset-increase-heading ) { font-size: 9px; } .grve-h4.grve-heading-250:not(.grve-mobile-reset-increase-heading ) { font-size: 7px; } .grve-h4.grve-heading-300:not(.grve-mobile-reset-increase-heading ) { font-size: 7px; } .grve-h5.grve-heading-140:not(.grve-mobile-reset-increase-heading ) { font-size: 10px; } .grve-h5.grve-heading-160:not(.grve-mobile-reset-increase-heading ) { font-size: 10px; } .grve-h5.grve-heading-180:not(.grve-mobile-reset-increase-heading ) { font-size: 10px; } .grve-h5.grve-heading-200:not(.grve-mobile-reset-increase-heading ) { font-size: 8px; } .grve-h5.grve-heading-250:not(.grve-mobile-reset-increase-heading ) { font-size: 7px; } .grve-h5.grve-heading-300:not(.grve-mobile-reset-increase-heading ) { font-size: 7px; } .grve-h6.grve-heading-160:not(.grve-mobile-reset-increase-heading ) { font-size: 9px; } .grve-h6.grve-heading-180:not(.grve-mobile-reset-increase-heading ) { font-size: 9px; } .grve-h6.grve-heading-200:not(.grve-mobile-reset-increase-heading ) { font-size: 7px; } .grve-h6.grve-heading-250:not(.grve-mobile-reset-increase-heading ) { font-size: 6px; } .grve-h6.grve-heading-300:not(.grve-mobile-reset-increase-heading ) { font-size: 6px; } #grve-page-title .grve-title,#grve-blog-title .grve-title,#grve-search-page-title .grve-title { font-size: 29px; line-height: 1.25em; } #grve-post-title .grve-title { font-size: 29px; line-height: 1.25em; } .grve-single-simple-title { font-size: 22px; line-height: 1.33em; } #grve-portfolio-title .grve-title { font-size: 29px; line-height: 1.25em; } #grve-forum-title .grve-title { font-size: 29px; line-height: 1.25em; } .grve-product-area .product_title { font-size: 29px; line-height: 1.25em; } #grve-product-title .grve-title,#grve-product-tax-title .grve-title,.woocommerce-page #grve-page-title .grve-title { font-size: 36px; line-height: 1.2em; } .grve-event-simple-title { font-size: 29px; line-height: 1.25em; } #grve-event-title .grve-title,#grve-event-tax-title .grve-title { font-size: 36px; line-height: 1.2em; } #grve-feature-section .grve-title { font-size: 29px; line-height: 1.25em; } #grve-feature-section.grve-fullscreen .grve-title { font-size: 54px; line-height: 1.11em; } #grve-feature-section.grve-fullscreen .grve-description { font-size: 14px; line-height: 1.25em; } #grve-page-title .grve-description,#grve-blog-title .grve-description,#grve-blog-title .grve-description p,#grve-search-page-title .grve-description { font-size: 16px; line-height: 1.5em; } #grve-post-title .grve-description { font-size: 16px; line-height: 1.5em; } #grve-entry-summary .grve-short-description p { font-size: 13px; line-height: 1.75em; } #grve-product-title .grve-description,#grve-product-tax-title .grve-description,#grve-product-tax-title .grve-description p,.woocommerce-page #grve-page-title .grve-description { font-size: 16px; line-height: 1.5em; } #grve-event-title .grve-description,#grve-event-tax-title .grve-description,#grve-event-tax-title .grve-description p { font-size: 16px; line-height: 1.5em; } #grve-feature-section .grve-subheading { font-size: 13px; line-height: 1.88em; } #grve-feature-section.grve-fullscreen .grve-subheading { font-size: 13px; line-height: 1.88em; } #grve-feature-section .grve-description { font-size: 16px; line-height: 1.5em; } .grve-leader-text,.grve-leader-text p,p.grve-leader-text { font-size: 14px; line-height: 1.67em; } .grve-quote-text,blockquote p { font-size: 19px; line-height: 1.67em; } .grve-main-menu .grve-wrapper > ul > li > a,.grve-main-menu .grve-wrapper > ul > li.megamenu > ul > li > a,.grve-toggle-hiddenarea .grve-label,.grve-main-menu .grve-wrapper > ul > li ul li.grve-goback a { font-size: 11px; line-height: 2.29em; } .grve-slide-menu .grve-main-menu .grve-wrapper ul li.megamenu ul li:not(.grve-goback) > a, .grve-main-menu .grve-wrapper > ul > li ul li a { font-size: 11px; line-height: 2.29em; } #grve-hidden-menu .grve-hiddenarea-content .grve-menu > li > a,#grve-responsive-anchor .grve-hiddenarea-content .grve-menu > li > a,#grve-hidden-menu ul.grve-menu > li.megamenu > ul > li > a,#grve-hidden-menu ul.grve-menu > li ul li.grve-goback a { font-size: 11px; line-height: 2.29em; } } @media print { h1,.grve-h1,#grve-theme-wrapper .grve-modal .grve-search input[type="text"],.grve-dropcap span,p.grve-dropcap:first-letter { font-size: 21px; line-height: 1.2em; } .grve-h1.grve-heading-120:not(.grve-print-reset-increase-heading ) { font-size: 18px; } .grve-h1.grve-heading-140:not(.grve-print-reset-increase-heading ) { font-size: 18px; } .grve-h1.grve-heading-160:not(.grve-print-reset-increase-heading ) { font-size: 18px; } .grve-h1.grve-heading-180:not(.grve-print-reset-increase-heading ) { font-size: 18px; } .grve-h1.grve-heading-200:not(.grve-print-reset-increase-heading ) { font-size: 15px; } .grve-h1.grve-heading-250:not(.grve-print-reset-increase-heading ) { font-size: 12px; } .grve-h1.grve-heading-300:not(.grve-print-reset-increase-heading ) { font-size: 12px; } h2,.grve-h2 { font-size: 17px; line-height: 1.25em; } .grve-h2.grve-heading-120:not(.grve-print-reset-increase-heading ) { font-size: 15px; } .grve-h2.grve-heading-140:not(.grve-print-reset-increase-heading ) { font-size: 15px; } .grve-h2.grve-heading-160:not(.grve-print-reset-increase-heading ) { font-size: 15px; } .grve-h2.grve-heading-180:not(.grve-print-reset-increase-heading ) { font-size: 15px; } .grve-h2.grve-heading-200:not(.grve-print-reset-increase-heading ) { font-size: 12px; } .grve-h2.grve-heading-250:not(.grve-print-reset-increase-heading ) { font-size: 10px; } .grve-h2.grve-heading-300:not(.grve-print-reset-increase-heading ) { font-size: 10px; } h3,.grve-h3 { font-size: 14px; line-height: 1.4em; } .grve-h3.grve-heading-120:not(.grve-print-reset-increase-heading ) { font-size: 12px; } .grve-h3.grve-heading-140:not(.grve-print-reset-increase-heading ) { font-size: 12px; } .grve-h3.grve-heading-160:not(.grve-print-reset-increase-heading ) { font-size: 12px; } .grve-h3.grve-heading-180:not(.grve-print-reset-increase-heading ) { font-size: 12px; } .grve-h3.grve-heading-200:not(.grve-print-reset-increase-heading ) { font-size: 10px; } .grve-h3.grve-heading-250:not(.grve-print-reset-increase-heading ) { font-size: 8px; } .grve-h3.grve-heading-300:not(.grve-print-reset-increase-heading ) { font-size: 8px; } .grve-h4.grve-heading-120:not(.grve-print-reset-increase-heading ) { font-size: 11px; } .grve-h4.grve-heading-140:not(.grve-print-reset-increase-heading ) { font-size: 11px; } .grve-h4.grve-heading-160:not(.grve-print-reset-increase-heading ) { font-size: 11px; } .grve-h4.grve-heading-180:not(.grve-print-reset-increase-heading ) { font-size: 11px; } .grve-h4.grve-heading-200:not(.grve-print-reset-increase-heading ) { font-size: 9px; } .grve-h4.grve-heading-250:not(.grve-print-reset-increase-heading ) { font-size: 7px; } .grve-h4.grve-heading-300:not(.grve-print-reset-increase-heading ) { font-size: 7px; } .grve-h5.grve-heading-140:not(.grve-print-reset-increase-heading ) { font-size: 10px; } .grve-h5.grve-heading-160:not(.grve-print-reset-increase-heading ) { font-size: 10px; } .grve-h5.grve-heading-180:not(.grve-print-reset-increase-heading ) { font-size: 10px; } .grve-h5.grve-heading-200:not(.grve-print-reset-increase-heading ) { font-size: 8px; } .grve-h5.grve-heading-250:not(.grve-print-reset-increase-heading ) { font-size: 7px; } .grve-h5.grve-heading-300:not(.grve-print-reset-increase-heading ) { font-size: 7px; } .grve-h6.grve-heading-160:not(.grve-print-reset-increase-heading ) { font-size: 9px; } .grve-h6.grve-heading-180:not(.grve-print-reset-increase-heading ) { font-size: 9px; } .grve-h6.grve-heading-200:not(.grve-print-reset-increase-heading ) { font-size: 7px; } .grve-h6.grve-heading-250:not(.grve-print-reset-increase-heading ) { font-size: 6px; } .grve-h6.grve-heading-300:not(.grve-print-reset-increase-heading ) { font-size: 6px; } #grve-page-title .grve-title,#grve-blog-title .grve-title,#grve-search-page-title .grve-title { font-size: 29px; line-height: 1.25em; } #grve-post-title .grve-title { font-size: 29px; line-height: 1.25em; } .grve-single-simple-title { font-size: 22px; line-height: 1.33em; } #grve-portfolio-title .grve-title { font-size: 29px; line-height: 1.25em; } #grve-forum-title .grve-title { font-size: 29px; line-height: 1.25em; } .grve-product-area .product_title { font-size: 29px; line-height: 1.25em; } #grve-product-title .grve-title,#grve-product-tax-title .grve-title,.woocommerce-page #grve-page-title .grve-title { font-size: 36px; line-height: 1.2em; } .grve-event-simple-title { font-size: 29px; line-height: 1.25em; } #grve-event-title .grve-title,#grve-event-tax-title .grve-title { font-size: 36px; line-height: 1.2em; } #grve-feature-section .grve-title { font-size: 29px; line-height: 1.25em; } #grve-feature-section.grve-fullscreen .grve-title { font-size: 54px; line-height: 1.11em; } #grve-feature-section.grve-fullscreen .grve-description { font-size: 14px; line-height: 1.25em; } #grve-page-title .grve-description,#grve-blog-title .grve-description,#grve-blog-title .grve-description p,#grve-search-page-title .grve-description { font-size: 16px; line-height: 1.5em; } #grve-post-title .grve-description { font-size: 16px; line-height: 1.5em; } #grve-entry-summary .grve-short-description p { font-size: 13px; line-height: 1.75em; } #grve-product-title .grve-description,#grve-product-tax-title .grve-description,#grve-product-tax-title .grve-description p,.woocommerce-page #grve-page-title .grve-description { font-size: 16px; line-height: 1.5em; } #grve-event-title .grve-description,#grve-event-tax-title .grve-description,#grve-event-tax-title .grve-description p { font-size: 16px; line-height: 1.5em; } #grve-feature-section .grve-subheading { font-size: 13px; line-height: 1.88em; } #grve-feature-section.grve-fullscreen .grve-subheading { font-size: 13px; line-height: 1.88em; } #grve-feature-section .grve-description { font-size: 16px; line-height: 1.5em; } .grve-leader-text,.grve-leader-text p,p.grve-leader-text { font-size: 14px; line-height: 1.67em; } .grve-quote-text,blockquote p { font-size: 19px; line-height: 1.67em; } .grve-main-menu .grve-wrapper > ul > li > a,.grve-main-menu .grve-wrapper > ul > li.megamenu > ul > li > a,.grve-toggle-hiddenarea .grve-label,.grve-main-menu .grve-wrapper > ul > li ul li.grve-goback a { font-size: 11px; line-height: 2.29em; } .grve-slide-menu .grve-main-menu .grve-wrapper ul li.megamenu ul li:not(.grve-goback) > a, .grve-main-menu .grve-wrapper > ul > li ul li a { font-size: 11px; line-height: 2.29em; } #grve-hidden-menu .grve-hiddenarea-content .grve-menu > li > a,#grve-responsive-anchor .grve-hiddenarea-content .grve-menu > li > a,#grve-hidden-menu ul.grve-menu > li.megamenu > ul > li > a,#grve-hidden-menu ul.grve-menu > li ul li.grve-goback a { font-size: 11px; line-height: 2.29em; } } 
@@ -76,16 +163,19 @@ pre { font-weight:bold; } #grve-main-header.grve-dark, #grve-main-header.grve-da
 .grve-modal input[type='submit']:not(.grve-custom-btn), #grve-theme-wrapper input[type='submit']:not(.grve-custom-btn), #grve-theme-wrapper input[type='reset']:not(.grve-custom-btn), #grve-theme-wrapper input[type='button']:not(.grve-custom-btn), #grve-theme-wrapper button:not(.grve-custom-btn):not(.vc_general), #grve-theme-wrapper .grve-search button[type='submit'], .grve-portfolio-details-btn.grve-btn:not(.grve-custom-btn) {-webkit-border-radius: 3px;border-radius: 3px;background-color: #fa461e;color: #ffffff;}.grve-modal input[type='submit']:not(.grve-custom-btn):hover, #grve-theme-wrapper input[type='submit']:not(.grve-custom-btn):hover, #grve-theme-wrapper input[type='reset']:not(.grve-custom-btn):hover, #grve-theme-wrapper input[type='button']:not(.grve-custom-btn):hover, #grve-theme-wrapper button:not(.grve-custom-btn):not(.vc_general):hover,.woocommerce-cart .wc-proceed-to-checkout a.checkout-button:hover, .woocommerce-cart .wc-proceed-to-checkout a.checkout-button:hover, #grve-theme-wrapper .grve-search button[type='submit']:hover, .grve-portfolio-details-btn.grve-btn:not(.grve-custom-btn):hover {background-color: #000000;color: #ffffff;}
 #grve-related-post .grve-related-title, .grve-nav-btn a, .grve-bar-socials li a, #grve-single-post-tags .grve-tags li a, #grve-single-post-categories .grve-categories li a, .widget.widget_tag_cloud a, #grve-body #grve-theme-wrapper .grve-newsletter input[type='email'], #grve-theme-wrapper .grve-search:not(.grve-search-modal) input[type='text'], #grve-socials-modal .grve-social li a, .grve-pagination ul li, .grve-dropcap span.grve-style-2 {-webkit-border-radius: 3px !important;border-radius: 3px !important;}
 </style>
-<link rel='stylesheet' id='movedo-grve-style-css'  href='//royale.apache.org/wp-content/themes/movedo-child/style.css?ver=3.2.4' type='text/css' media='all' />
-<!--[if lt IE 9]>
-<link rel='stylesheet' id='vc_lte_ie9-css'  href='//royale.apache.org/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css?ver=6.0.5' type='text/css' media='screen' />
-<![endif]-->
+<link rel='stylesheet' id='movedo-grve-style-css'  href='//royale.apache.org/wp-content/themes/movedo-child/style.css?ver=3.2.7' type='text/css' media='all' />
 <link rel='stylesheet' id='redux-google-fonts-movedo_grve_options-css'  href='//fonts.googleapis.com/css?family=Hind+Siliguri%3A400%2C300%7CSignika%3A700%2C600%2C400%7COswald%3A600%7COpen+Sans+Condensed%3A700%7CSource+Sans+Pro%3A600&#038;ver=1569601428' type='text/css' media='all' />
 <link rel='stylesheet' id='codecolorer-css'  href='//royale.apache.org/wp-content/plugins/codecolorer/codecolorer.css?ver=0.9.16' type='text/css' media='screen' />
 <script type='text/javascript' src='//royale.apache.org/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
 <script type='text/javascript' src='//royale.apache.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
-<script type='text/javascript' src='//royale.apache.org/wp-content/plugins/revslider/public/assets/js/revolution.tools.min.js?ver=6.0'></script>
-<script type='text/javascript' src='//royale.apache.org/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.1.5'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var exactmetrics_frontend = {"js_events_tracking":"true","download_extensions":"zip,mp3,mpeg,pdf,docx,pptx,xlsx,rar","inbound_paths":"[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]","home_url":"\/\/royale.apache.org","hash_tracking":"false"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//royale.apache.org/wp-content/plugins/google-analytics-dashboard-for-wp/assets/js/frontend.min.js?ver=6.0.2'></script>
+<script type='text/javascript' src='//royale.apache.org/wp-content/plugins/revslider/public/assets/js/rbtools.min.js?ver=6.0'></script>
+<script type='text/javascript' src='//royale.apache.org/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.2.2'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var cssTarget = "img.style-svg";
@@ -96,31 +186,72 @@ var ForceInlineSVGActive = "false";
 <script type='text/javascript' src='//royale.apache.org/wp-content/themes/movedo/js/modernizr.custom.js?ver=3.3.1'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var MyAjax = {"ajaxurl":"\/\/royale.apache.org\/wp-admin\/admin-ajax.php","security":"0614b39dfa"};
+var MyAjax = {"ajaxurl":"\/\/royale.apache.org\/wp-admin\/admin-ajax.php","security":"d9d2532a04"};
 /* ]]> */
 </script>
 <script type='text/javascript' src='//royale.apache.org/wp-content/plugins/advanced-iframe/js/ai.js?ver=452712'></script>
 <link rel='https://api.w.org/' href='//royale.apache.org/wp-json/' />
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="//royale.apache.org/xmlrpc.php?rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="//royale.apache.org/wp-includes/wlwmanifest.xml" /> 
-<meta name="generator" content="WordPress 5.3.1" />
-<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
-<meta name="generator" content="Powered by Slider Revolution 6.1.5 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<meta name="generator" content="WordPress 5.3.2" />
+		<script>
+			document.documentElement.className = document.documentElement.className.replace( 'no-js', 'js' );
+		</script>
+				<style>
+			.no-js img.lazyload { display: none; }
+			figure.wp-block-image img.lazyloading { min-width: 150px; }
+							.lazyload, .lazyloading { opacity: 0; }
+				.lazyloaded {
+					opacity: 1;
+					transition: opacity 400ms;
+					transition-delay: 0ms;
+				}
+					</style>
+		<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+<meta name="generator" content="Powered by Slider Revolution 6.2.2 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<script type="text/javascript">function setREVStartSize(e){			
+			try {								
+				var pw = document.getElementById(e.c).parentNode.offsetWidth,
+					newh;
+				pw = pw===0 || isNaN(pw) ? window.innerWidth : pw;
+				e.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);
+				e.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);
+				e.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);
+				e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
+				e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
+				e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
+				e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);		
+				if(e.layout==="fullscreen" || e.l==="fullscreen") 						
+					newh = Math.max(e.mh,window.innerHeight);				
+				else{					
+					e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+					for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];					
+					e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
+					e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+					for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
+										
+					var nl = new Array(e.rl.length),
+						ix = 0,						
+						sl;					
+					e.tabw = e.tabhide>=pw ? 0 : e.tabw;
+					e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
+					e.tabh = e.tabhide>=pw ? 0 : e.tabh;
+					e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;					
+					for (var i in e.rl) nl[i] = e.rl[i]<window.innerWidth ? 0 : e.rl[i];
+					sl = nl[0];									
+					for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}															
+					var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);					
 
-<!-- BEGIN ExactMetrics v5.3.10 Universal Analytics - https://exactmetrics.com/ -->
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-141008188-1', 'auto', {'allowLinker': true});
-  ga('require', 'linker');
-  ga('linker:autoLink', ['royale.codeoscopic.com']);
-  ga('set', 'forceSSL', true);
-  ga('send', 'pageview');
-</script>
-<!-- END ExactMetrics Universal Analytics -->
-<script type="text/javascript">function setREVStartSize(t){try{var h,e=document.getElementById(t.c).parentNode.offsetWidth;if(e=0===e||isNaN(e)?window.innerWidth:e,t.tabw=void 0===t.tabw?0:parseInt(t.tabw),t.thumbw=void 0===t.thumbw?0:parseInt(t.thumbw),t.tabh=void 0===t.tabh?0:parseInt(t.tabh),t.thumbh=void 0===t.thumbh?0:parseInt(t.thumbh),t.tabhide=void 0===t.tabhide?0:parseInt(t.tabhide),t.thumbhide=void 0===t.thumbhide?0:parseInt(t.thumbhide),t.mh=void 0===t.mh||""==t.mh||"auto"===t.mh?0:parseInt(t.mh,0),"fullscreen"===t.layout||"fullscreen"===t.l)h=Math.max(t.mh,window.innerHeight);else{for(var i in t.gw=Array.isArray(t.gw)?t.gw:[t.gw],t.rl)void 0!==t.gw[i]&&0!==t.gw[i]||(t.gw[i]=t.gw[i-1]);for(var i in t.gh=void 0===t.el||""===t.el||Array.isArray(t.el)&&0==t.el.length?t.gh:t.el,t.gh=Array.isArray(t.gh)?t.gh:[t.gh],t.rl)void 0!==t.gh[i]&&0!==t.gh[i]||(t.gh[i]=t.gh[i-1]);var r,a=new Array(t.rl.length),n=0;for(var i in t.tabw=t.tabhide>=e?0:t.tabw,t.thumbw=t.thumbhide>=e?0:t.thumbw,t.tabh=t.tabhide>=e?0:t.tabh,t.thumbh=t.thumbhide>=e?0:t.thumbh,t.rl)a[i]=t.rl[i]<window.innerWidth?0:t.rl[i];for(var i in r=a[0],a)r>a[i]&&0<a[i]&&(r=a[i],n=i);var d=e>t.gw[n]+t.tabw+t.thumbw?1:(e-(t.tabw+t.thumbw))/t.gw[n];h=t.gh[n]*d+(t.tabh+t.thumbh)}void 0===window.rs_init_css&&(window.rs_init_css=document.head.appendChild(document.createElement("style"))),document.getElementById(t.c).height=h,window.rs_init_css.innerHTML+="#"+t.c+"_wrapper { height: "+h+"px }"}catch(t){console.log("Failure at Presize of Slider:"+t)}};</script>
+					newh =  (e.type==="carousel" && e.justify==="true" ? e.gh[ix] : (e.gh[ix] * m)) + (e.tabh + e.thumbh);
+				}			
+				
+				if(window.rs_init_css===undefined) window.rs_init_css = document.head.appendChild(document.createElement("style"));					
+				document.getElementById(e.c).height = newh;
+				window.rs_init_css.innerHTML += "#"+e.c+"_wrapper { height: "+newh+"px }";				
+			} catch(e){
+				console.log("Failure at Presize of Slider:" + e)
+			}					   
+		  };</script>
 		<style type="text/css" id="wp-custom-css">
 			/*
 You can add your own CSS here.
@@ -130,7 +261,7 @@ Click the help icon above to learn more.
 		<style type="text/css" title="dynamic-css" class="options-output">#grve-body{background-color:#ffffff;}</style><noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>	</head>
 
 	
-	<body id="grve-body" class="archive tag tag-jslabel tag-50 grve-vce-ver-3.2.4 grve-body grve-stretched wpb-js-composer js-comp-ver-6.0.5 vc_responsive">
+	<body id="grve-body" class="archive tag tag-jslabel tag-50 grve-vce-ver-3.2.7 grve-body grve-stretched wpb-js-composer js-comp-ver-6.1 vc_responsive">
 				
 		
 		
@@ -150,10 +281,10 @@ Click the help icon above to learn more.
 			<div class="grve-logo grve-position-left">
 				<div class="grve-wrapper">
 					<a href="//royale.apache.org/">
-			<img class="grve-default" src="//royale.apache.org/wp-content/uploads/2018/01/apache-royale-tm-logo-default.svg" alt="Apache Royale™" >
-			<img class="grve-light" src="//royale.apache.org/wp-content/uploads/2018/01/apache-royale-tm-logo-light.svg" alt="Apache Royale™" >
-			<img class="grve-dark" src="//royale.apache.org/wp-content/uploads/2018/01/apache-royale-tm-logo-dark.svg" alt="Apache Royale™" >
-			<img class="grve-sticky" src="//royale.apache.org/wp-content/uploads/2018/01/apache-royale-logo-sticky.svg" alt="Apache Royale™" >
+			<img   alt="Apache Royale™"  data-src="//royale.apache.org/wp-content/uploads/2018/01/apache-royale-tm-logo-default.svg" class="grve-default lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img class="grve-default" src="//royale.apache.org/wp-content/uploads/2018/01/apache-royale-tm-logo-default.svg" alt="Apache Royale™" ></noscript>
+			<img   alt="Apache Royale™"  data-src="//royale.apache.org/wp-content/uploads/2018/01/apache-royale-tm-logo-light.svg" class="grve-light lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img class="grve-light" src="//royale.apache.org/wp-content/uploads/2018/01/apache-royale-tm-logo-light.svg" alt="Apache Royale™" ></noscript>
+			<img   alt="Apache Royale™"  data-src="//royale.apache.org/wp-content/uploads/2018/01/apache-royale-tm-logo-dark.svg" class="grve-dark lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img class="grve-dark" src="//royale.apache.org/wp-content/uploads/2018/01/apache-royale-tm-logo-dark.svg" alt="Apache Royale™" ></noscript>
+			<img   alt="Apache Royale™"  data-src="//royale.apache.org/wp-content/uploads/2018/01/apache-royale-logo-sticky.svg" class="grve-sticky lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img class="grve-sticky" src="//royale.apache.org/wp-content/uploads/2018/01/apache-royale-logo-sticky.svg" alt="Apache Royale™" ></noscript>
 					</a>
 				</div>
 			</div>
@@ -211,7 +342,7 @@ Click the help icon above to learn more.
 			<div class="grve-logo grve-position-left">
 				<div class="grve-wrapper">
 					<a href="//royale.apache.org/">
-			<img class="grve-logo-responsive" src="//royale.apache.org/wp-content/uploads/2018/01/apache-royale-logo-responsive.svg" alt="Apache Royale™" >
+			<img   alt="Apache Royale™"  data-src="//royale.apache.org/wp-content/uploads/2018/01/apache-royale-logo-responsive.svg" class="grve-logo-responsive lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img class="grve-logo-responsive" src="//royale.apache.org/wp-content/uploads/2018/01/apache-royale-logo-responsive.svg" alt="Apache Royale™" ></noscript>
 					</a>
 				</div>
 			</div>
@@ -259,7 +390,7 @@ Click the help icon above to learn more.
 			<div class="grve-logo grve-position-left">
 				<div class="grve-wrapper">
 					<a href="//royale.apache.org/">
-			<img class="grve-movedo-sticky" src="//royale.apache.org/wp-content/uploads/2018/01/apache-royale-logo-sticky.svg" alt="Apache Royale™" >
+			<img   alt="Apache Royale™"  data-src="//royale.apache.org/wp-content/uploads/2018/01/apache-royale-logo-sticky.svg" class="grve-movedo-sticky lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img   alt="Apache Royale™"  data-src="//royale.apache.org/wp-content/uploads/2018/01/apache-royale-logo-sticky.svg" class="grve-movedo-sticky lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img class="grve-movedo-sticky" src="//royale.apache.org/wp-content/uploads/2018/01/apache-royale-logo-sticky.svg" alt="Apache Royale™" ></noscript></noscript>
 					</a>
 				</div>
 			</div>
@@ -358,7 +489,7 @@ Click the help icon above to learn more.
 	<!-- Article -->
 	<article id="post-15027" class="grve-blog-item grve-isotope-item post-15027 post type-post status-publish format-standard has-post-thumbnail hentry category-basic-ui-set category-royale-examples tag-jsapplication tag-jslabel tag-jsview" itemscope itemtype="http://schema.org/BlogPosting">
 		<div class="grve-blog-item-inner grve-isotope-item-inner">						<div class="grve-media clearfix">
-			<a href="//royale.apache.org/creating-a-hello-world-in-apache-royale/"><img width="300" height="224" src="//royale.apache.org/wp-content/uploads/2018/02/creating-a-hello-world-in-apache-royale-300x224.png" class="attachment-medium size-medium wp-post-image" alt="" data-gutter-size="15" data-columns-large-screen="3" data-columns="3" data-columns-tablet-landscape="3" data-columns-tablet-portrait="2" data-columns-mobile="1" srcset="//royale.apache.org/wp-content/uploads/2018/02/creating-a-hello-world-in-apache-royale-300x224.png 300w, //royale.apache.org/wp-content/uploads/2018/02/creating-a-hello-world-in-apache-royale-560x420.png 560w, //royale.apache.org/wp-content/uploads/2018/02/creating-a-hello-world-in-apache-royale.png 750w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+			<a href="//royale.apache.org/creating-a-hello-world-in-apache-royale/"><img width="300" height="224"   alt="" data-gutter-size="15" data-columns-large-screen="3" data-columns="3" data-columns-tablet-landscape="3" data-columns-tablet-portrait="2" data-columns-mobile="1" data-srcset="//royale.apache.org/wp-content/uploads/2018/02/creating-a-hello-world-in-apache-royale-300x224.png 300w, //royale.apache.org/wp-content/uploads/2018/02/creating-a-hello-world-in-apache-royale-560x420.png 560w, //royale.apache.org/wp-content/uploads/2018/02/creating-a-hello-world-in-apache-royale.png 750w" sizes="(max-width: 300px) 100vw, 300px" data-src="//royale.apache.org/wp-content/uploads/2018/02/creating-a-hello-world-in-apache-royale-300x224.png" class="attachment-medium size-medium wp-post-image lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="300" height="224" src="//royale.apache.org/wp-content/uploads/2018/02/creating-a-hello-world-in-apache-royale-300x224.png" class="attachment-medium size-medium wp-post-image" alt="" data-gutter-size="15" data-columns-large-screen="3" data-columns="3" data-columns-tablet-landscape="3" data-columns-tablet-portrait="2" data-columns-mobile="1" srcset="//royale.apache.org/wp-content/uploads/2018/02/creating-a-hello-world-in-apache-royale-300x224.png 300w, //royale.apache.org/wp-content/uploads/2018/02/creating-a-hello-world-in-apache-royale-560x420.png 560w, //royale.apache.org/wp-content/uploads/2018/02/creating-a-hello-world-in-apache-royale.png 750w" sizes="(max-width: 300px) 100vw, 300px" /></noscript></a>
 		</div>
 				<div class="grve-post-content-wrapper">
 			<div class="grve-post-content">
@@ -463,12 +594,12 @@ Click the help icon above to learn more.
 <li id="menu-item-15352" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15352"><a target="_blank" href="//www.apache.org/security/"><i class="grve-menu-icon fa fa-external-link-square"></i>Security</a></li>
 <li id="menu-item-16186" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16186"><a target="_blank" href="//www.apache.org/foundation/policies/privacy.html"><i class="grve-menu-icon fa fa-external-link-square"></i>Privacy</a></li>
 </ul></div></div></div></div><div class="wpb_column grve-column grve-column-1-4 grve-tablet-column-1-2"><div class="grve-column-wrapper"><div id="custom_html-2" class="widget_text grve-widget widget widget_custom_html"><div class="grve-widget-title">About Us</div><div class="textwidget custom-html-widget"><div class="info-content-left">
-	<img alt="Apache Royale Logo Footer" class="grve-align-left" src="//royale.apache.org/wp-content/uploads/2017/10/apache-royale-logo-footer-circle-grey.svg" width="100"/>
+	<img alt="Apache Royale Logo Footer"   width="100" data-src="/wp-content/uploads/2017/10/apache-royale-logo-footer-circle-grey.svg" class="grve-align-left lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img alt="Apache Royale Logo Footer" class="grve-align-left" src="//royale.apache.org/wp-content/uploads/2017/10/apache-royale-logo-footer-circle-grey.svg" width="100"/></noscript>
 <span class="royale-about-us"><a href="//royale.apache.org/">Apache Royale™</a> is a highly productive open source application technology for building expressive frontend applications that outputs to different formats and deploys consistently on all major browsers, desktops and devices.</span>
 </div>
 
 <div class="info-content-right">
-		<img alt="Apache Logo PoweredBy" class="grve-align-right" src="//royale.apache.org/wp-content/uploads/2017/10/Apache_PoweredBy.svg" width="100" />
+		<img alt="Apache Logo PoweredBy"   width="100" data-src="/wp-content/uploads/2017/10/Apache_PoweredBy.svg" class="grve-align-right lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img alt="Apache Logo PoweredBy" class="grve-align-right" src="//royale.apache.org/wp-content/uploads/2017/10/Apache_PoweredBy.svg" width="100" /></noscript>
 <span class="apache-copyright"><a href="//royale.apache.org/">Apache Royale™</a>, <a href="http://www.apache.org/" target="_blank" rel="noopener noreferrer">Apache™</a> and the <a href="https://www.apache.org/foundation/press/kit/" target="_blank" rel="noopener noreferrer">Apache feather logo™</a> are trademarks of The Apache Software Foundation. All other marks mentioned may be trademarks or registered trademarks of their respective owners. Read more about our privacy policy on our <a href="//royale.apache.org/privacy-policy">Privacy Policy page</a>.</span>
 	
 	<div class="info-content-left">
@@ -477,7 +608,7 @@ Click the help icon above to learn more.
 		</p>
 		<div style="text-align: center; width: 100%">
 			<a href="https://www.apachecon.com/">
-			 <img src="http://apachecon.com/images/landingpage/events/acna19.png" style="width: 300px;"></a>
+			 <img  style="width: 300px;" data-src="http://apachecon.com/images/landingpage/events/acna19.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img src="http://apachecon.com/images/landingpage/events/acna19.png" style="width: 300px;"></noscript></a>
 		</div>
 		
 </div>
@@ -586,7 +717,7 @@ Click the help icon above to learn more.
 <form action="//royale.apache.org/tag/jslabel/#wpcf7-f4-o1" method="post" class="wpcf7-form" novalidate="novalidate">
 <div style="display: none;">
 <input type="hidden" name="_wpcf7" value="4" />
-<input type="hidden" name="_wpcf7_version" value="5.1.6" />
+<input type="hidden" name="_wpcf7_version" value="5.1.7" />
 <input type="hidden" name="_wpcf7_locale" value="en_US" />
 <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f4-o1" />
 <input type="hidden" name="_wpcf7_container_post" value="0" />
@@ -641,7 +772,7 @@ Click the help icon above to learn more.
 							<button class="btn grve-fullwidth-btn" data-loading-text="Loading..." type="submit">Login</button>
 							<a class="grve-reset-password-form-btn grve-link-text grve-text-hover-primary-1" href="#">Lost Password?</a>
 						</div>
-												<input type="hidden" id="_movedo_grve_nonce_login" name="_movedo_grve_nonce_login" value="659b665065" /><input type="hidden" name="_wp_http_referer" value="/tag/jslabel/" />					</form>
+												<input type="hidden" id="_movedo_grve_nonce_login" name="_movedo_grve_nonce_login" value="7eb6c8c7de" /><input type="hidden" name="_wp_http_referer" value="/tag/jslabel/" />					</form>
 					<div class="grve-form-errors grve-align-center grve-text-primary-1 grve-link-text"></div>
 				</div>
 
@@ -663,7 +794,7 @@ Click the help icon above to learn more.
 							<span class="grve-login-link grve-link-text">Already have an account?								<a class="grve-text-hover-primary-1 grve-login-form-btn" href="#">Login</a>
 							</span>
 						</div>
-						<input type="hidden" id="_movedo_grve_nonce_password" name="_movedo_grve_nonce_password" value="659b665065" /><input type="hidden" name="_wp_http_referer" value="/tag/jslabel/" />					</form>
+						<input type="hidden" id="_movedo_grve_nonce_password" name="_movedo_grve_nonce_password" value="7eb6c8c7de" /><input type="hidden" name="_wp_http_referer" value="/tag/jslabel/" />					</form>
 					<div class="grve-form-errors grve-align-center grve-text-primary-1 grve-link-text"></div>
 				</div>
 	</div>
@@ -694,7 +825,7 @@ Click the help icon above to learn more.
 			<div class="grve-logo grve-position-left">
 				<div class="grve-wrapper">
 					<a href="//royale.apache.org/">
-			<img class="grve-movedo-sticky" src="//royale.apache.org/wp-content/uploads/2018/01/apache-royale-logo-sticky.svg" alt="Apache Royale™" >
+			<img   alt="Apache Royale™"  data-src="//royale.apache.org/wp-content/uploads/2018/01/apache-royale-logo-sticky.svg" class="grve-movedo-sticky lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img   alt="Apache Royale™"  data-src="//royale.apache.org/wp-content/uploads/2018/01/apache-royale-logo-sticky.svg" class="grve-movedo-sticky lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img class="grve-movedo-sticky" src="//royale.apache.org/wp-content/uploads/2018/01/apache-royale-logo-sticky.svg" alt="Apache Royale™" ></noscript></noscript>
 					</a>
 				</div>
 			</div>
@@ -703,7 +834,7 @@ Click the help icon above to learn more.
 				<a href="#" class="grve-close-button" aria-label="Close"><span class="grve-item"><i class="grve-icon-close"></i></span></a>
 			</div>
 			<div class="grve-safebutton-wrapper">
-				<div class="grve-section grve-row-section grve-fullwidth-background grve-padding-top-1x grve-padding-bottom-1x grve-bg-animated grve-custom-height grve-middle-content grve-fullheight grve-with-fullheight"><div class="grve-container"><div class="grve-row grve-bookmark grve-columns-gap-30"><div class="grve-column wpb_column grve-column-1" ><div class="grve-column-wrapper vc_custom_1498125713074" ><div class="grve-element grve-image grve-align-center" style="margin-bottom: 60px;">  <div class="grve-image-wrapper"><img width="180" height="180" src="//royale.apache.org/wp-content/uploads/2017/10/apache-royale-main-logo.png" class="attachment-full size-full" alt="" srcset="//royale.apache.org/wp-content/uploads/2017/10/apache-royale-main-logo.png 180w, //royale.apache.org/wp-content/uploads/2017/10/apache-royale-main-logo-150x150.png 150w" sizes="(max-width: 180px) 100vw, 180px" />   </div></div><h1 class="grve-element grve-title grve-align-center grve-h1 grve-increase-heading grve-heading-180" style="margin-bottom: 70px;"><span>Join Us!<span class="grve-title-line grve-bg-primary-1" style="width: 200px;height: 2px;"></span></span></h1><div class="grve-row-inner grve-bookmark vc_custom_1498124537578">
+				<div class="grve-section grve-row-section grve-fullwidth-background grve-padding-top-1x grve-padding-bottom-1x grve-bg-animated grve-custom-height grve-middle-content grve-fullheight grve-with-fullheight"><div class="grve-container"><div class="grve-row grve-bookmark grve-columns-gap-30"><div class="grve-column wpb_column grve-column-1" ><div class="grve-column-wrapper vc_custom_1498125713074" ><div class="grve-element grve-image grve-align-center" style="margin-bottom: 60px;">  <div class="grve-image-wrapper"><img width="180" height="180"   alt="" data-srcset="//royale.apache.org/wp-content/uploads/2017/10/apache-royale-main-logo.png 180w, //royale.apache.org/wp-content/uploads/2017/10/apache-royale-main-logo-150x150.png 150w" sizes="(max-width: 180px) 100vw, 180px" data-src="//royale.apache.org/wp-content/uploads/2017/10/apache-royale-main-logo.png" class="attachment-full size-full lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="180" height="180" src="//royale.apache.org/wp-content/uploads/2017/10/apache-royale-main-logo.png" class="attachment-full size-full" alt="" srcset="//royale.apache.org/wp-content/uploads/2017/10/apache-royale-main-logo.png 180w, //royale.apache.org/wp-content/uploads/2017/10/apache-royale-main-logo-150x150.png 150w" sizes="(max-width: 180px) 100vw, 180px" /></noscript>   </div></div><h1 class="grve-element grve-title grve-align-center grve-h1 grve-increase-heading grve-heading-180" style="margin-bottom: 70px;"><span>Join Us!<span class="grve-title-line grve-bg-primary-1" style="width: 200px;height: 2px;"></span></span></h1><div class="grve-row-inner grve-bookmark vc_custom_1498124537578">
 		<div class="grve-column-inner wpb_column grve-column-1">
 			<div class="grve-column-wrapper-inner">
 			<div class="grve-element grve-text grve-leader-text">
@@ -719,13 +850,15 @@ Click the help icon above to learn more.
 				</div>
 			</div> <!-- end #grve-theme-wrapper -->
 
-		<link rel='stylesheet' id='js_composer_front-css'  href='//royale.apache.org/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=6.0.5' type='text/css' media='all' />
+		<script type="text/html" id="wpb-modifications"></script><link rel='stylesheet' id='js_composer_front-css'  href='//royale.apache.org/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='vc_font_awesome_5_shims-css'  href='//royale.apache.org/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/v4-shims.min.css?ver=6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='vc_font_awesome_5-css'  href='//royale.apache.org/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/all.min.css?ver=6.1' type='text/css' media='all' />
 <script type='text/javascript'>
 /* <![CDATA[ */
 var wpcf7 = {"apiSettings":{"root":"\/\/royale.apache.org\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};
 /* ]]> */
 </script>
-<script type='text/javascript' src='//royale.apache.org/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.1.6'></script>
+<script type='text/javascript' src='//royale.apache.org/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.1.7'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var countVars = {"disqusShortname":"royale-apache-org"};
@@ -733,6 +866,7 @@ var countVars = {"disqusShortname":"royale-apache-org"};
 </script>
 <script type='text/javascript' src='//royale.apache.org/wp-content/plugins/disqus-comment-system/public/js/comment_count.js?ver=3.0.17'></script>
 <script type='text/javascript' src='//www.google.com/recaptcha/api.js?render=6LcVhLEUAAAAACUUrGO88q35caCE-TIaB38ASkaG&#038;ver=3.0'></script>
+<script type='text/javascript' src='//royale.apache.org/wp-content/plugins/wp-smushit/app/assets/js/smush-lazy-load.min.js?ver=3.6.1'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var movedo_grve_fullpage_data = {"fullpage":"0"};
@@ -740,13 +874,13 @@ var movedo_grve_piling_data = {"piling":"0"};
 var movedo_grve_smoothscroll_data = {"smoothscrolling":""};
 /* ]]> */
 </script>
-<script type='text/javascript' src='//royale.apache.org/wp-content/themes/movedo/js/plugins.js?ver=3.2.4'></script>
+<script type='text/javascript' src='//royale.apache.org/wp-content/themes/movedo/js/plugins.js?ver=3.2.7'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var movedo_grve_main_data = {"siteurl":"\/\/royale.apache.org\/wp-content\/themes\/movedo","ajaxurl":"\/\/royale.apache.org\/wp-admin\/admin-ajax.php","wp_gallery_popup":"0","popup_spinner":"1","popup_open_speed":"slow","device_animations":"0","device_hover_single_tap":"0","responsive_thershold":"1024","back_to_top":"1","string_back_to_top":"Back to top","string_weeks":"Weeks","string_days":"Days","string_hours":"Hours","string_minutes":"Min","string_seconds":"Sec","nonce_likes":"993c69b665"};
+var movedo_grve_main_data = {"siteurl":"\/\/royale.apache.org\/wp-content\/themes\/movedo","ajaxurl":"\/\/royale.apache.org\/wp-admin\/admin-ajax.php","wp_gallery_popup":"0","popup_spinner":"1","popup_open_speed":"slow","device_animations":"0","device_hover_single_tap":"0","responsive_thershold":"1024","back_to_top":"1","string_back_to_top":"Back to top","string_weeks":"Weeks","string_days":"Days","string_hours":"Hours","string_minutes":"Min","string_seconds":"Sec","nonce_likes":"ea6d59fef9"};
 /* ]]> */
 </script>
-<script type='text/javascript' src='//royale.apache.org/wp-content/themes/movedo/js/main.js?ver=3.2.4'></script>
+<script type='text/javascript' src='//royale.apache.org/wp-content/themes/movedo/js/main.js?ver=3.2.7'></script>
 <script type='text/javascript'>
 var screen_width = Math.max( screen.width, screen.height );var devicePixelRatio = window.devicePixelRatio ? window.devicePixelRatio : 1;document.cookie = 'resolution=' + screen_width + ',' + devicePixelRatio + '; path=/';
 function grveReadCookie(name) {var nameEQ = name + '=';var ca = document.cookie.split(';');for(var i=0;i < ca.length;i++) {var c = ca[i];while (c.charAt(0)==' ') c = c.substring(1,c.length);if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length,c.length);}return null;}function grvePrivacyCookieConsent( cookie_name, cookie_days ) {var privacyAgreement = jQuery('.grve-privacy-agreement');privacyAgreement.on( 'click', function() {var theDate = new Date();var later = new Date( theDate.getTime() + cookie_days*24*60*60*1000 );document.cookie = cookie_name + '=true; Path=/; Expires='+later.toGMTString()+';';jQuery('#grve-privacy-bar').fadeOut(900);});if( !document.cookie.match( cookie_name ) ) {jQuery('#grve-privacy-bar').fadeIn(900);}}function grvePrivacyPopupConsent() {var privacyPopupButton = jQuery('.grve-privacy-popup-btn'),privacyRefreshButton = jQuery('.grve-privacy-refresh-btn'),privacyPopup = jQuery('#grve-privacy-popup'),privacyOverlay = jQuery('#grve-privacy-overlay');privacyPopupButton.on( 'click', function(e) {e.preventDefault();privacyPopup.fadeIn(600,function(){jQuery(window).on( 'click.grve_close_privacy_popup', function( event ) {if( !jQuery(event.target).closest('.grve-privacy-popup-wrapper').length ) {privacyPopup.fadeOut(600,function(){jQuery(window).off( 'click.grve_close_privacy_popup' );});privacyOverlay.fadeOut(600);}});});privacyOverlay.fadeIn(600);});privacyRefreshButton.on( 'click', function() {window.location.reload(true);});} grvePrivacyCookieConsent('grve-privacy-consent', '30'); grvePrivacyPopupConsent();function grvePrivacyCookieSwitch( cookie_name, initial_state ) {var theDate = new Date();var oneYearLater = new Date( theDate.getTime() + 31536000000 );var privacySwitch = jQuery('.' + cookie_name);privacySwitch.each( function() {if( document.cookie.match( cookie_name ) ) {if ( 'false' == grveReadCookie(cookie_name) ) {this.checked = false;} else {this.checked = true;}} else {if( !initial_state ) {this.checked = false;}}});privacySwitch.on( 'click', function() {if( this.checked ) {document.cookie = cookie_name + '=true; Path=/; Expires='+oneYearLater.toGMTString()+';';privacySwitch.each( function() {this.checked = true;});} else {document.cookie = cookie_name + '=false; Path=/; Expires='+oneYearLater.toGMTString()+';';privacySwitch.each( function() {this.checked = false;});}});} grvePrivacyCookieSwitch('grve-privacy-content-gtracking', '1' ); grvePrivacyCookieSwitch('grve-privacy-content-gfonts', '1' ); grvePrivacyCookieSwitch('grve-privacy-content-gmaps', '1' ); grvePrivacyCookieSwitch('grve-privacy-content-video-embeds', '1' );
@@ -757,14 +891,14 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', 'UA-141008188-1', 'auto');
 ga('send', 'pageview');
 </script>
-<script type='text/javascript' src='//royale.apache.org/wp-includes/js/wp-embed.min.js?ver=5.3.1'></script>
+<script type='text/javascript' src='//royale.apache.org/wp-includes/js/wp-embed.min.js?ver=5.3.2'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var grve_form = {"ajaxurl":"\/\/royale.apache.org\/wp-admin\/admin-ajax.php","redirect_url":""};
 /* ]]> */
 </script>
-<script type='text/javascript' src='//royale.apache.org/wp-content/themes/movedo/js/ajax-login.js?ver=3.2.4'></script>
-<script type='text/javascript' src='//royale.apache.org/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=6.0.5'></script>
+<script type='text/javascript' src='//royale.apache.org/wp-content/themes/movedo/js/ajax-login.js?ver=3.2.7'></script>
+<script type='text/javascript' src='//royale.apache.org/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=6.1'></script>
 <script type="text/javascript">
 ( function( grecaptcha, sitekey, actions ) {
 

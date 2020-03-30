@@ -9,13 +9,13 @@
 	<title>
 	Comments on: Loading external data through HTTPService	</title>
 	<atom:link href="//royale.apache.org/loading-external-data-through-httpservice/feed/" rel="self" type="application/rss+xml" />
-	<link>//royale.apache.org/loading-external-data-through-httpservice/</link>
+	<link>//royale.apache.org/loading-external-data-through-httpservice/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=loading-external-data-through-httpservice</link>
 	<description>Code once. Run everywhere</description>
 	<lastBuildDate>Mon, 16 Dec 2019 12:52:35 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.3.1</generator>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
 </channel>
 </rss>

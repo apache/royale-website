@@ -527,7 +527,7 @@ function aiInitAdminConfiguration(isPro, acc_type) {
     });
 
     jQuery('.confirmation').on('click', function () {
-        return confirm('Are you sure?');
+        return confirm('Are you sure? Selecting OK will set all settings to the default.');
     });
 
      jQuery('a.post').click(function(e) {
@@ -572,7 +572,8 @@ function aiInitAdminConfiguration(isPro, acc_type) {
       // set the links between tabs and open the right one at the right section.
         jQuery(document).on( 'click', 'a#external-workaround-link', function() {
           jQuery('.external-workaround').click();
-          jQuery(document).scrollTop(0);
+          location.hash = 'tab_3';
+		   aiShowHeader('tab_3');
           return false;
         });
         jQuery(document).on( 'click', 'a#resize-same-link', function() {
@@ -582,37 +583,53 @@ function aiInitAdminConfiguration(isPro, acc_type) {
         });
          jQuery(document).on( 'click', 'a.jquery-help-link', function() {
           jQuery('.help-tab').click();
+		  jQuery('#id-help-jquery').removeClass('closed');
           jQuery('#jquery-help').show();
-          location.hash = 'jqh';
-          aiShowHeader();
-          return false;
+          location.hash = 'id-help-jquery';
+		  aiShowHeader('id-help-jquery');
+		  return false;
         });
         jQuery(document).on( 'click', 'a#browser-detection-link', function() {
           jQuery('.help-tab').click();
+		  jQuery('#id-help-browser').removeClass('closed');
           jQuery('#browser-help').show();
-          location.hash = 'browser-detection-id';
-          aiShowHeader();
+          location.hash = 'id-help-browser';
+          aiShowHeader('id-help-browser');
           return false;
         });
         jQuery(document).on( 'click', 'a.howto-id-link', function() {
           jQuery('.help-tab').click();
-          location.hash = 'how-id';
-          aiShowHeader();
+		  jQuery('#id-help-id').removeClass('closed');
+          location.hash = 'id-help-id';
+          aiShowHeader('id-help-id');
           return false;
         });
         jQuery(document).on( 'click', '.modifycontent-link', function() {
           jQuery('.advanced-settings-tab').click();
           jQuery('#h1-mi').next().show();
           location.hash = '#mi-id';
-          aiShowHeader();
+          aiShowHeader('mi-id');
           return false;
         });
-         jQuery(document).on( 'click', 'a.link-external-domain', function() {
-          location.hash = '#h-external-domain';
-          aiShowHeader();
+         jQuery(document).on( 'click', 'a.link-external-domain', function() {     
+          jQuery('#id-external-different').removeClass('closed');
+		  location.hash = '#id-external-different';
+		  aiShowHeader('id-external-different');
           return false;
         });
-
+		jQuery(document).on( 'click', 'a.link-id-external-ai-config-post', function() {
+          jQuery('#id-external-ai-config-post').removeClass('closed');
+		  location.hash = '#id-external-ai-config-post';  
+		  aiShowHeader('id-external-ai-config-post');
+          return false;
+        });
+		jQuery(document).on( 'click', 'a.link-id-external-ai-overview', function() {
+          jQuery('#id-external-ai-overview').removeClass('closed');
+		  location.hash = '#id-external-ai-overview';
+		  aiShowHeader('id-external-ai-overview');
+          return false;
+        });
+	
       jQuery(document).on( 'click', 'a#user-help-link', function() {
           jQuery('#user-help').css('display', 'block');
           return false;
@@ -628,15 +645,16 @@ function aiInitAdminConfiguration(isPro, acc_type) {
         });
 
       jQuery(document).on( 'click', '.ai-selector-help-link-move', function() {
-          location.hash = '#ai-selector-help-link';
-          aiShowHeader();
           jQuery('#ai-selector-help').show('slow');
+		  location.hash = '#ai-selector-help-link';
+          aiShowHeader('ai-selector-help-link');   
           return false;
         });
         jQuery(document).on( 'click', 'a.post-message-help-link', function() {
           jQuery('.help-tab').click();
-          location.hash = 'com-post-message';
-          aiShowHeader();
+          jQuery('#id-help-communication').removeClass('closed');
+		  location.hash = 'id-help-communication';
+          aiShowHeader('id-help-communication');
           return false;
         });
 
@@ -658,8 +676,24 @@ function aiInitAdminConfiguration(isPro, acc_type) {
         jQuery('#current_open_sections').val(openSections);
         aiSetScrollposition();
       });
+			
+	// Close postboxes that should be closed.
+	jQuery('.if-js-closed').removeClass('if-js-closed').addClass('closed');
+	// Postboxes setup.
+	if (typeof postboxes !== 'undefined') {
+		postboxes.add_postbox_toggles('toplevel_page_advanced-iframe');
+	}
+ 	
+	jQuery('.ai-spinner').css('display','none');
+	jQuery("#" + acc_type).next().show();
+	
+	jQuery(document).on( 'click', '#test-pro-admin.is-permanent-closable button', function() {
+          closeInfoPermanent('test-pro-admin');
+    });
+	
+	
 }
-
+		   
 function aiSettingsSearch(searchTerm, accType) {
  var found = 0;
 
@@ -678,7 +712,7 @@ function aiSettingsSearch(searchTerm, accType) {
    jQuery('#ai hr, .signup_account_container, .config-file-block').hide();
    jQuery('#ai .hide-always').hide();
    jQuery('#ai .hide-search').hide();
-
+   jQuery('#ai .postbox-container').not('.show-always').hide();
  } else {
    jQuery('#ai p').not('.form-table p').show();
    jQuery('#ai section .ai-anchor').show();
@@ -694,9 +728,14 @@ function aiSettingsSearch(searchTerm, accType) {
    jQuery('#ai .form-table').removeClass('ai-remove-margin');
    jQuery('#ai hr, .signup_account_container, .config-file-block').show();
    jQuery('#ai .sub-domain-container').show();
-    jQuery('#ai .hide-search').show();
-
+   jQuery('#ai .hide-search').show();
    jQuery('#ai .hide-always').hide();
+   jQuery('#ai .postbox-container').show();
+   
+   setTimeout(function() {
+       jQuery('#ai .postbox-container .closed .inside').css('display', '');
+   }, 5);   
+   
  }
 
  jQuery('#ai .mark-tab-header').removeClass('mark-tab-header');
@@ -715,7 +754,9 @@ function aiSettingsSearch(searchTerm, accType) {
     if (valueLabel.indexOf(searchTerm) === -1 && valueDescription.indexOf(searchTerm) === -1) {
       $this.addClass('hide-setting');
     } else {
-      $this.closest('table').prevAll('h2:first').show();
+	  $this.closest('table').prevAll('h2:first').show();
+	  $this.closest('.postbox-container').show();
+	  $this.closest('.postbox-container').find('h2, .inside').show();
       $this.closest('table').prevAll('#ai .icon_ai:first').show();
       $this.closest('table').nextAll('p.button-submit:first').show();
       $this.removeClass('hide-setting');
@@ -768,7 +809,7 @@ function aiResizeIframeRatio(obj, ratio) {
 /**
  * Generate a shortcode string from the current settings.
  */
-function aiGenerateShortcode() {
+function aiGenerateShortcode(isPro) {
     var output = '[advanced_iframe ';
 
     // default section
@@ -799,7 +840,7 @@ function aiGenerateShortcode() {
         output += aiGenerateRadioShortcode('transparency','true');
         output += aiGenerateTextShortcode('class');
         output += aiGenerateTextShortcode('style');
-        output += aiGenerateTextShortcode('id');
+        output += aiGenerateTextShortcodeWithDefault('id', 'advanced_iframe');
         output += aiGenerateTextShortcode('name');
         output += aiGenerateRadioShortcode('allowfullscreen','false');
         output += aiGenerateTextShortcode('safari_fix_url');
@@ -908,8 +949,13 @@ function aiGenerateShortcode() {
        output += aiGenerateRadioShortcode('enable_external_height_workaround','external');
        output += aiGenerateRadioShortcode('hide_page_until_loaded_external','false');
        output += aiGenerateTextShortcode('pass_id_by_url');
-       output += aiGenerateRadioShortcode('multi_domain_enabled','false');
-       output += aiGenerateRadioShortcode('use_post_message','false');
+       if (isPro === 'true') {
+	       output += aiGenerateRadioShortcode('multi_domain_enabled','true');
+           output += aiGenerateRadioShortcode('use_post_message','true');
+	   } else {
+		   output += aiGenerateRadioShortcode('multi_domain_enabled','false');
+           output += aiGenerateRadioShortcode('use_post_message','false');
+	   }
        // additional files
        output += aiGenerateTextShortcode('additional_css');
        output += aiGenerateTextShortcode('additional_js');
@@ -928,7 +974,7 @@ function aiGenerateShortcode() {
    }
    // options
    output += aiGenerateRadioShortcode('debug_js','false');
-
+   output = output.slice(0, -1);
    output += ']';
    jQuery('#gen-shortcode').html(output);
 }
@@ -966,7 +1012,12 @@ function aiGenerateRadioShortcode(field, defaultValue) {
     var output = '';
     var value = jQuery('input:radio[name='+field+']:checked');
     var val = value.val();
-    if (value.length > 0 && val !== defaultValue) {
+    
+	if (field === 'enable_ios_mobile_scolling') {
+	    field = 'enable_ios_mobile_scrolling';
+	}
+	
+	if (value.length > 0 && val !== defaultValue) {
         output += field + '="' + val + '" ';
     }
     return output;
@@ -1154,8 +1205,8 @@ function aiCheckInputNumberOnly(inputField) {
         setTimeout(function(){inputField.focus();}, 10);
     }
 }
-
-function aiShowHeader() {
+// https://codepen.io/anon/pen/baaLYB/
+function aiShowHeader(id) {
   var y = jQuery(window).scrollTop();
   jQuery(window).scrollTop(y-40);
 }
@@ -1348,6 +1399,20 @@ function aiGetUrlMapping(url, param, prefix) {
    });  
 }
 
+function closeInfoPermanent(id) {
+	var data = {
+      action: 'aip_close_message_permanent',
+      security : MyAjax.security,
+      id: id
+    };
+    // since 2.8 ajaxurl is always defined in the admin header and points to admin-ajax.php
+    jQuery.post(MyAjax.ajaxurl, data, function(id) {
+	   jQuery('h1').after('<div class="message-notice notice notice-success"><p>The message before will only appear again when you reset the settings.</p></div>'); 
+    }); 
+    setTimeout(function() { jQuery(".message-notice").fadeOut() }, 4000);     
+}
+
+
 function aiSupportsHistoryApi() {
   return !!(window.history && history.pushState);
 }
@@ -1490,7 +1555,7 @@ jQuery(document).ready(function() {
 	
     jQuery('#ai #checkIframes').on('click', function(){ 
         jQuery('.ai-spinner').css('display','inline-table');
-        jQuery(this).addClass('disabled');
+		jQuery(this).addClass('disabled');
 		setTimeout(aiDisableCheckIframes, 200);
     });
 
@@ -1532,6 +1597,9 @@ jQuery(document).ready(function() {
 });
 
 function aiDisableCheckIframes() {
+	var input = jQuery("<input>").attr("type", "hidden").attr("name", "checkIframes").val("true");
+    jQuery("#ai_form").append(input);
+	jQuery( "#ai_form" ).submit();
     jQuery('#checkIframes').prop('disabled','disabled');
 }
 
@@ -1549,7 +1617,7 @@ function aiProcessMessage(event,id,debug) {
     var jsObject = event.data; 
   }  
   try {
-    // we only process objects from advenced iframe
+    // we only process objects from advanced iframe
     if (jsObject.hasOwnProperty('aitype')) {
       // we only process the ones for the same id here.
       if ( id === jsObject.id) {
@@ -1575,7 +1643,7 @@ function aiProcessMessage(event,id,debug) {
     }
 	} catch(e) {
         if (debug === 'debug' && console && console.log) {
-          console.log('The received message cannot be parsed and seems not to belong to advanced iframe pro. Please disable the postMessage debug mode if this o.k. and that this message is not shown anymore.');
+          console.log('The received message do not belong to advanced iframe pro. Please disable the postMessage debug mode if this o.k. and that this message is not shown anymore.');
           console.log(e);
         }
   }
