@@ -369,14 +369,19 @@ hr {
 .jewel.card.simple {
   padding: 20px;
 }
-.jewel.card .cardHeader {
+.jewel.card .card-header {
   border-bottom: 1px solid transparent;
   padding: 12px 20px;
 }
-.jewel.card .cardPrimaryContent {
+.jewel.card .card-header .card-title {
+  font-size: 1.5em;
+  margin: 0.408rem 0rem;
+  letter-spacing: 0.0125em;
+}
+.jewel.card .card-primary-content {
   padding: 20px;
 }
-.jewel.card .cardActions {
+.jewel.card .card-actions {
   border-top: 1px solid transparent;
   padding: 18px 20px;
 }
@@ -838,6 +843,9 @@ j|FormItem {
   box-shadow: none;
   border-radius: 3px;
 }
+.jewel.list:focus {
+  border: 1px solid #29A89F;
+}
 .jewel.list[disabled] {
   pointer-events: none;
   color: silver;
@@ -849,10 +857,6 @@ j|FormItem {
 }
 .jewel.list[disabled] .jewel.item.selected, .jewel.list[disabled] .jewel.item.selectable:active {
   background: #cccccc !important;
-}
-
-j|List {
-  variableRowHeight: true;
 }
 
 .jewel.navigation {
