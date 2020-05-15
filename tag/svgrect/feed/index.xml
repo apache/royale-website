@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>svg:Rect &#8211; Apache Royale™</title>
+	<atom:link href="//royale.apache.org/tag/svgrect/feed/" rel="self" type="application/rss+xml" />
+	<link>//royale.apache.org/</link>
+	<description>Code once. Run everywhere</description>
+	<lastBuildDate>Mon, 30 Mar 2020 13:19:06 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.4.1</generator>
+	<item>
+		<title>Working with vector graphics</title>
+		<link>//royale.apache.org/working-with-vector-graphics/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=working-with-vector-graphics</link>
+					<comments>//royale.apache.org/working-with-vector-graphics/#respond</comments>
+		
+		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
+		<pubDate>Sun, 29 Mar 2020 10:07:11 +0000</pubDate>
+				<category><![CDATA[Jewel UI Set]]></category>
+		<category><![CDATA[Royale Examples]]></category>
+		<category><![CDATA[j:Application]]></category>
+		<category><![CDATA[j:Card]]></category>
+		<category><![CDATA[j:Container]]></category>
+		<category><![CDATA[j:FontIcon]]></category>
+		<category><![CDATA[j:HorizontalCenteredLayout]]></category>
+		<category><![CDATA[j:Label]]></category>
+		<category><![CDATA[j:ToggleButton]]></category>
+		<category><![CDATA[j:UIGraphicsBase]]></category>
+		<category><![CDATA[MaterialIconType]]></category>
+		<category><![CDATA[svg:Image]]></category>
+		<category><![CDATA[svg:Rect]]></category>
+		<guid isPermaLink="false">//royale.apache.org/?p=16287</guid>
+
+					<description><![CDATA[<p>This example shows some supported ways to work with vector graphics in Apache Royale like SVG graphics and the powerful ActionScript 3 drawing API</p>
+<p>The post <a rel="nofollow" href="//royale.apache.org/working-with-vector-graphics/">Working with vector graphics</a> appeared first on <a rel="nofollow" href="//royale.apache.org/">Apache Royale™</a>.</p>
+]]></description>
+		
+					<wfw:commentRss>//royale.apache.org/working-with-vector-graphics/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

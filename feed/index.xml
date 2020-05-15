@@ -12,19 +12,41 @@
 	<atom:link href="//royale.apache.org/feed/" rel="self" type="application/rss+xml" />
 	<link>//royale.apache.org/</link>
 	<description>Code once. Run everywhere</description>
-	<lastBuildDate>Mon, 30 Mar 2020 13:19:06 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 15 May 2020 07:09:24 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<generator>https://wordpress.org/?v=5.4.1</generator>
 	<item>
+		<title>Apache Royale v0.9.7 released!</title>
+		<link>//royale.apache.org/apache-royale-v0-9-7-released/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=apache-royale-v0-9-7-released</link>
+					<comments>//royale.apache.org/apache-royale-v0-9-7-released/#respond</comments>
+		
+		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
+		<pubDate>Fri, 15 May 2020 07:07:29 +0000</pubDate>
+				<category><![CDATA[Announcements]]></category>
+		<category><![CDATA[Releases]]></category>
+		<category><![CDATA[releases]]></category>
+		<guid isPermaLink="false">//royale.apache.org/?p=16330</guid>
+
+					<description><![CDATA[<p>The Apache Royale community is pleased to announce a new release. Check the announcement to know more about the changes in this release!.</p>
+<p>The post <a rel="nofollow" href="//royale.apache.org/apache-royale-v0-9-7-released/">Apache Royale v0.9.7 released!</a> appeared first on <a rel="nofollow" href="//royale.apache.org/">Apache Royale™</a>.</p>
+]]></description>
+		
+					<wfw:commentRss>//royale.apache.org/apache-royale-v0-9-7-released/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Working with vector graphics</title>
 		<link>//royale.apache.org/working-with-vector-graphics/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=working-with-vector-graphics</link>
-				<comments>//royale.apache.org/working-with-vector-graphics/#respond</comments>
-				<pubDate>Sun, 29 Mar 2020 10:07:11 +0000</pubDate>
+					<comments>//royale.apache.org/working-with-vector-graphics/#respond</comments>
+		
 		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
+		<pubDate>Sun, 29 Mar 2020 10:07:11 +0000</pubDate>
 				<category><![CDATA[Jewel UI Set]]></category>
 		<category><![CDATA[Royale Examples]]></category>
 		<category><![CDATA[j:Application]]></category>
@@ -38,37 +60,45 @@
 		<category><![CDATA[MaterialIconType]]></category>
 		<category><![CDATA[svg:Image]]></category>
 		<category><![CDATA[svg:Rect]]></category>
-
 		<guid isPermaLink="false">//royale.apache.org/?p=16287</guid>
-				<description><![CDATA[<p>This example shows some supported ways to work with vector graphics in Apache Royale like SVG graphics and the powerful ActionScript 3 drawing API</p>
+
+					<description><![CDATA[<p>This example shows some supported ways to work with vector graphics in Apache Royale like SVG graphics and the powerful ActionScript 3 drawing API</p>
 <p>The post <a rel="nofollow" href="//royale.apache.org/working-with-vector-graphics/">Working with vector graphics</a> appeared first on <a rel="nofollow" href="//royale.apache.org/">Apache Royale™</a>.</p>
 ]]></description>
-						<wfw:commentRss>//royale.apache.org/working-with-vector-graphics/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-							</item>
+		
+					<wfw:commentRss>//royale.apache.org/working-with-vector-graphics/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 		<item>
 		<title>Apache Royale v0.9.6 released!</title>
 		<link>//royale.apache.org/apache-royale-v0-9-6-released/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=apache-royale-v0-9-6-released</link>
-				<comments>//royale.apache.org/apache-royale-v0-9-6-released/#respond</comments>
-				<pubDate>Tue, 08 Oct 2019 08:20:22 +0000</pubDate>
+					<comments>//royale.apache.org/apache-royale-v0-9-6-released/#respond</comments>
+		
 		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
+		<pubDate>Tue, 08 Oct 2019 08:20:22 +0000</pubDate>
 				<category><![CDATA[Announcements]]></category>
 		<category><![CDATA[Releases]]></category>
 		<category><![CDATA[releases]]></category>
-
 		<guid isPermaLink="false">//royale.apache.org/?p=16215</guid>
-				<description><![CDATA[<p>The Apache Royale community is pleased to announce a new release. Check the announcement to know more about the changes in this release!.</p>
+
+					<description><![CDATA[<p>The Apache Royale community is pleased to announce a new release. Check the announcement to know more about the changes in this release!.</p>
 <p>The post <a rel="nofollow" href="//royale.apache.org/apache-royale-v0-9-6-released/">Apache Royale v0.9.6 released!</a> appeared first on <a rel="nofollow" href="//royale.apache.org/">Apache Royale™</a>.</p>
 ]]></description>
-						<wfw:commentRss>//royale.apache.org/apache-royale-v0-9-6-released/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-							</item>
+		
+					<wfw:commentRss>//royale.apache.org/apache-royale-v0-9-6-released/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 		<item>
 		<title>Dividing an Apache Royale application with modules</title>
 		<link>//royale.apache.org/dividing-an-apache-royale-application-with-modules/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=dividing-an-apache-royale-application-with-modules</link>
-				<comments>//royale.apache.org/dividing-an-apache-royale-application-with-modules/#respond</comments>
-				<pubDate>Wed, 26 Jun 2019 16:49:50 +0000</pubDate>
+					<comments>//royale.apache.org/dividing-an-apache-royale-application-with-modules/#respond</comments>
+		
 		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
+		<pubDate>Wed, 26 Jun 2019 16:49:50 +0000</pubDate>
 				<category><![CDATA[Jewel UI Set]]></category>
 		<category><![CDATA[Royale Examples]]></category>
 		<category><![CDATA[j: HorizontalCenteredLayout]]></category>
@@ -80,20 +110,24 @@
 		<category><![CDATA[j:Module]]></category>
 		<category><![CDATA[j:ModuleLoader]]></category>
 		<category><![CDATA[MaterialIconType]]></category>
-
 		<guid isPermaLink="false">//royale.apache.org/?p=16120</guid>
-				<description><![CDATA[<p>This example will show you how to break an Apache Royale application into parts called <em>Modules</em> using a <em>ModuleLoader</em>.</p>
+
+					<description><![CDATA[<p>This example will show you how to break an Apache Royale application into parts called <em>Modules</em> using a <em>ModuleLoader</em>.</p>
 <p>The post <a rel="nofollow" href="//royale.apache.org/dividing-an-apache-royale-application-with-modules/">Dividing an Apache Royale application with modules</a> appeared first on <a rel="nofollow" href="//royale.apache.org/">Apache Royale™</a>.</p>
 ]]></description>
-						<wfw:commentRss>//royale.apache.org/dividing-an-apache-royale-application-with-modules/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-							</item>
+		
+					<wfw:commentRss>//royale.apache.org/dividing-an-apache-royale-application-with-modules/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 		<item>
 		<title>Using external javascript libraries in Apache Royale</title>
 		<link>//royale.apache.org/using-external-javascript-libraries-in-apache-royale/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=using-external-javascript-libraries-in-apache-royale</link>
-				<comments>//royale.apache.org/using-external-javascript-libraries-in-apache-royale/#respond</comments>
-				<pubDate>Mon, 03 Jun 2019 17:03:03 +0000</pubDate>
+					<comments>//royale.apache.org/using-external-javascript-libraries-in-apache-royale/#respond</comments>
+		
 		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
+		<pubDate>Mon, 03 Jun 2019 17:03:03 +0000</pubDate>
 				<category><![CDATA[Jewel UI Set]]></category>
 		<category><![CDATA[Royale Examples]]></category>
 		<category><![CDATA[@externs]]></category>
@@ -105,70 +139,86 @@
 		<category><![CDATA[j:Label]]></category>
 		<category><![CDATA[j:ScrollingViewport]]></category>
 		<category><![CDATA[js:HTTPService]]></category>
-
 		<guid isPermaLink="false">//royale.apache.org/?p=15987</guid>
-				<description><![CDATA[<p>Learn how to use external Javascript libraries in your Apache Royale application. This will be very useful to add quick functionality to your Application adding code that is not part of Apache Royale itself or even was not written in ActionsScript, but with the powerful capabilities like type checking or code completion.</p>
+
+					<description><![CDATA[<p>Learn how to use external Javascript libraries in your Apache Royale application. This will be very useful to add quick functionality to your Application adding code that is not part of Apache Royale itself or even was not written in ActionsScript, but with the powerful capabilities like type checking or code completion.</p>
 <p>The post <a rel="nofollow" href="//royale.apache.org/using-external-javascript-libraries-in-apache-royale/">Using external javascript libraries in Apache Royale</a> appeared first on <a rel="nofollow" href="//royale.apache.org/">Apache Royale™</a>.</p>
 ]]></description>
-						<wfw:commentRss>//royale.apache.org/using-external-javascript-libraries-in-apache-royale/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-							</item>
+		
+					<wfw:commentRss>//royale.apache.org/using-external-javascript-libraries-in-apache-royale/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 		<item>
 		<title>How to create a Desktop Application with Royale and Electron</title>
 		<link>//royale.apache.org/how-to-create-a-desktop-application-with-royale-and-electron/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=how-to-create-a-desktop-application-with-royale-and-electron</link>
-				<comments>//royale.apache.org/how-to-create-a-desktop-application-with-royale-and-electron/#respond</comments>
-				<pubDate>Sun, 26 May 2019 20:17:03 +0000</pubDate>
+					<comments>//royale.apache.org/how-to-create-a-desktop-application-with-royale-and-electron/#respond</comments>
+		
 		<dc:creator><![CDATA[Judah Frangipane]]></dc:creator>
+		<pubDate>Sun, 26 May 2019 20:17:03 +0000</pubDate>
 				<category><![CDATA[Desktop]]></category>
 		<category><![CDATA[Jewel UI Set]]></category>
-
 		<guid isPermaLink="false">//royale.apache.org/?p=16012</guid>
-				<description><![CDATA[<p>With Apache Royale and Electron you can publish your projects to desktop applications. In this guide you'll learn how to do that.</p>
+
+					<description><![CDATA[<p>With Apache Royale and Electron you can publish your projects to desktop applications. In this guide you'll learn how to do that.</p>
 <p>The post <a rel="nofollow" href="//royale.apache.org/how-to-create-a-desktop-application-with-royale-and-electron/">How to create a Desktop Application with Royale and Electron</a> appeared first on <a rel="nofollow" href="//royale.apache.org/">Apache Royale™</a>.</p>
 ]]></description>
-						<wfw:commentRss>//royale.apache.org/how-to-create-a-desktop-application-with-royale-and-electron/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-							</item>
+		
+					<wfw:commentRss>//royale.apache.org/how-to-create-a-desktop-application-with-royale-and-electron/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 		<item>
 		<title>Apache Royale v0.9.4 released!</title>
 		<link>//royale.apache.org/apache-royale-v0-9-4-released/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=apache-royale-v0-9-4-released</link>
-				<comments>//royale.apache.org/apache-royale-v0-9-4-released/#respond</comments>
-				<pubDate>Mon, 10 Dec 2018 15:30:13 +0000</pubDate>
+					<comments>//royale.apache.org/apache-royale-v0-9-4-released/#respond</comments>
+		
 		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
+		<pubDate>Mon, 10 Dec 2018 15:30:13 +0000</pubDate>
 				<category><![CDATA[Announcements]]></category>
 		<category><![CDATA[Releases]]></category>
 		<category><![CDATA[releases]]></category>
-
 		<guid isPermaLink="false">//royale.apache.org/?p=15906</guid>
-				<description><![CDATA[<p>The Apache Royale community is pleased to announce a new release. Check the announcement to know more about the changes in this release!.</p>
+
+					<description><![CDATA[<p>The Apache Royale community is pleased to announce a new release. Check the announcement to know more about the changes in this release!.</p>
 <p>The post <a rel="nofollow" href="//royale.apache.org/apache-royale-v0-9-4-released/">Apache Royale v0.9.4 released!</a> appeared first on <a rel="nofollow" href="//royale.apache.org/">Apache Royale™</a>.</p>
 ]]></description>
-						<wfw:commentRss>//royale.apache.org/apache-royale-v0-9-4-released/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-							</item>
+		
+					<wfw:commentRss>//royale.apache.org/apache-royale-v0-9-4-released/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 		<item>
 		<title>Hello Node: How to transpile ActionScript for Node.js</title>
 		<link>//royale.apache.org/hello-node-how-to-transpile-actionscript-for-node-js/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=hello-node-how-to-transpile-actionscript-for-node-js</link>
-				<comments>//royale.apache.org/hello-node-how-to-transpile-actionscript-for-node-js/#respond</comments>
-				<pubDate>Tue, 02 Oct 2018 22:44:00 +0000</pubDate>
+					<comments>//royale.apache.org/hello-node-how-to-transpile-actionscript-for-node-js/#respond</comments>
+		
 		<dc:creator><![CDATA[Josh Tynjala]]></dc:creator>
+		<pubDate>Tue, 02 Oct 2018 22:44:00 +0000</pubDate>
 				<category><![CDATA[asnodec]]></category>
 		<category><![CDATA[Node.js]]></category>
 		<category><![CDATA[JSON]]></category>
-
 		<guid isPermaLink="false">//royale.apache.org/?p=15849</guid>
-				<description><![CDATA[<p>Learn to use <em>asnodec</em> to write ActionScript code that runs in the popular server-side JavaScript environment, <a href="http://nodejs.org/">Node.js</a></p>
+
+					<description><![CDATA[<p>Learn to use <em>asnodec</em> to write ActionScript code that runs in the popular server-side JavaScript environment, <a href="http://nodejs.org/">Node.js</a></p>
 <p>The post <a rel="nofollow" href="//royale.apache.org/hello-node-how-to-transpile-actionscript-for-node-js/">Hello Node: How to transpile ActionScript for Node.js</a> appeared first on <a rel="nofollow" href="//royale.apache.org/">Apache Royale™</a>.</p>
 ]]></description>
-						<wfw:commentRss>//royale.apache.org/hello-node-how-to-transpile-actionscript-for-node-js/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-							</item>
+		
+					<wfw:commentRss>//royale.apache.org/hello-node-how-to-transpile-actionscript-for-node-js/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 		<item>
 		<title>Loading external data through HTTPService</title>
 		<link>//royale.apache.org/loading-external-data-through-httpservice/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=loading-external-data-through-httpservice</link>
-				<comments>//royale.apache.org/loading-external-data-through-httpservice/#respond</comments>
-				<pubDate>Sun, 23 Sep 2018 09:16:43 +0000</pubDate>
+					<comments>//royale.apache.org/loading-external-data-through-httpservice/#respond</comments>
+		
 		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
+		<pubDate>Sun, 23 Sep 2018 09:16:43 +0000</pubDate>
 				<category><![CDATA[Jewel UI Set]]></category>
 		<category><![CDATA[Royale Examples]]></category>
 		<category><![CDATA[j: HorizontalCenteredLayout]]></category>
@@ -180,20 +230,24 @@
 		<category><![CDATA[j:ScrollingViewport]]></category>
 		<category><![CDATA[js:HTTPService]]></category>
 		<category><![CDATA[JSON]]></category>
-
 		<guid isPermaLink="false">//royale.apache.org/?p=15834</guid>
-				<description><![CDATA[<p>Learn how to use the HTTPService to access external data in your Apache Royale application. We'll access Github API services to get JSON formatted data.</p>
+
+					<description><![CDATA[<p>Learn how to use the HTTPService to access external data in your Apache Royale application. We'll access Github API services to get JSON formatted data.</p>
 <p>The post <a rel="nofollow" href="//royale.apache.org/loading-external-data-through-httpservice/">Loading external data through HTTPService</a> appeared first on <a rel="nofollow" href="//royale.apache.org/">Apache Royale™</a>.</p>
 ]]></description>
-						<wfw:commentRss>//royale.apache.org/loading-external-data-through-httpservice/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-							</item>
+		
+					<wfw:commentRss>//royale.apache.org/loading-external-data-through-httpservice/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 		<item>
 		<title>Customization through the Royale API</title>
 		<link>//royale.apache.org/customization-through-the-royale-api/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=customization-through-the-royale-api</link>
-				<comments>//royale.apache.org/customization-through-the-royale-api/#respond</comments>
-				<pubDate>Wed, 01 Aug 2018 08:46:09 +0000</pubDate>
+					<comments>//royale.apache.org/customization-through-the-royale-api/#respond</comments>
+		
 		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
+		<pubDate>Wed, 01 Aug 2018 08:46:09 +0000</pubDate>
 				<category><![CDATA[Jewel UI Set]]></category>
 		<category><![CDATA[Royale Examples]]></category>
 		<category><![CDATA[j: CheckBox]]></category>
@@ -206,37 +260,16 @@
 		<category><![CDATA[j:HorizontalLayout]]></category>
 		<category><![CDATA[j:VerticalLayout]]></category>
 		<category><![CDATA[js:View]]></category>
-
 		<guid isPermaLink="false">//royale.apache.org/?p=15806</guid>
-				<description><![CDATA[<p>Learn how to use the powerful Royale APIs to get access to internals and customize to your needs in a Royale application.</p>
+
+					<description><![CDATA[<p>Learn how to use the powerful Royale APIs to get access to internals and customize to your needs in a Royale application.</p>
 <p>The post <a rel="nofollow" href="//royale.apache.org/customization-through-the-royale-api/">Customization through the Royale API</a> appeared first on <a rel="nofollow" href="//royale.apache.org/">Apache Royale™</a>.</p>
 ]]></description>
-						<wfw:commentRss>//royale.apache.org/customization-through-the-royale-api/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-							</item>
-		<item>
-		<title>Using an Item Renderer with a List</title>
-		<link>//royale.apache.org/using-an-item-renderer-with-a-list/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=using-an-item-renderer-with-a-list</link>
-				<comments>//royale.apache.org/using-an-item-renderer-with-a-list/#respond</comments>
-				<pubDate>Fri, 13 Jul 2018 12:41:07 +0000</pubDate>
-		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
-				<category><![CDATA[Jewel UI Set]]></category>
-		<category><![CDATA[Royale Examples]]></category>
-		<category><![CDATA[ApplicationDataBinding]]></category>
-		<category><![CDATA[ConstantBinding]]></category>
-		<category><![CDATA[FontIcon]]></category>
-		<category><![CDATA[HorizontalCenteredLayout]]></category>
-		<category><![CDATA[ItemRenderer]]></category>
-		<category><![CDATA[j:Application]]></category>
-		<category><![CDATA[j:Card]]></category>
-		<category><![CDATA[j:List]]></category>
-
-		<guid isPermaLink="false">//royale.apache.org/?p=15774</guid>
-				<description><![CDATA[<p>Learn how to use an item renderer in a Jewel List to display the items in your list in a pleasing and user-friendly way in a Royale application.</p>
-<p>The post <a rel="nofollow" href="//royale.apache.org/using-an-item-renderer-with-a-list/">Using an Item Renderer with a List</a> appeared first on <a rel="nofollow" href="//royale.apache.org/">Apache Royale™</a>.</p>
-]]></description>
-						<wfw:commentRss>//royale.apache.org/using-an-item-renderer-with-a-list/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-							</item>
+		
+					<wfw:commentRss>//royale.apache.org/customization-through-the-royale-api/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 	</channel>
 </rss>

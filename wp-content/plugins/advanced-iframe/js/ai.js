@@ -1547,6 +1547,9 @@ function aiPresetFullscreen() {
  * when the page is read to aiReadyCallbacks
  */
 jQuery(document).ready(function() {
+	// wordpress adds often p elements that have margins we remove here. 
+	jQuery('iframe').parent('p').css('margin','0');
+	
     jQuery.each(aiReadyCallbacks, function(index, callback){
       callback();
     });
@@ -1712,6 +1715,36 @@ function aiProcessShow(jsObject) {
   }
 }
 
+function aiRemoveElementsFromHeight(id,height,removeElements) {
+	var iframe = jQuery('#' + id);
+	var elementArray  = removeElements.split(',');
+    var totalHeight = 0;
+	for (var i = 0; i < elementArray.length; i++) {
+		try {
+			var el = elementArray[i];
+			if (el.includes("|")) {
+			  var rangeArray = el.split('|');
+			  var bottomElement = jQuery(rangeArray[0]);
+			  var beforeBottom = Math.round(bottomElement.offset().top + bottomElement.outerHeight(true));
+			  var nextTop = Math.round(jQuery(rangeArray[1]).offset().top);
+			  totalHeight += nextTop - beforeBottom;
+			} else if (el === 'top') { 
+			  totalHeight +=  Math.round(jQuery('#' + id).offset().top);
+			} else if (isNaN(el)) {
+			  totalHeight += jQuery(el).outerHeight(true);
+			} else {
+			  totalHeight += parseInt(el);
+			}
+		}  catch(e) {
+			if (console && console.log) {
+			  console.log('Advanced iframe configuration error: The configuration of remove_elements_from_height "'+removeElements+'" is invalid. Please check if the elements you defined do exist and ids/classes are defined properly.');
+			  console.log(e);
+			}
+		  }
+    }
+	var calc = 'calc(' + height + ' - ' + totalHeight + 'px)';
+	iframe.css('height', calc);
+}
 // IE11 does not support includes
 if (!String.prototype.includes) {
   String.prototype.includes = function(search, start) {

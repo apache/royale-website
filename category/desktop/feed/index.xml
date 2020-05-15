@@ -18,22 +18,26 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<generator>https://wordpress.org/?v=5.4.1</generator>
 	<item>
 		<title>How to create a Desktop Application with Royale and Electron</title>
 		<link>//royale.apache.org/how-to-create-a-desktop-application-with-royale-and-electron/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=how-to-create-a-desktop-application-with-royale-and-electron</link>
-				<comments>//royale.apache.org/how-to-create-a-desktop-application-with-royale-and-electron/#respond</comments>
-				<pubDate>Sun, 26 May 2019 20:17:03 +0000</pubDate>
+					<comments>//royale.apache.org/how-to-create-a-desktop-application-with-royale-and-electron/#respond</comments>
+		
 		<dc:creator><![CDATA[Judah Frangipane]]></dc:creator>
+		<pubDate>Sun, 26 May 2019 20:17:03 +0000</pubDate>
 				<category><![CDATA[Desktop]]></category>
 		<category><![CDATA[Jewel UI Set]]></category>
-
 		<guid isPermaLink="false">//royale.apache.org/?p=16012</guid>
-				<description><![CDATA[<p>With Apache Royale and Electron you can publish your projects to desktop applications. In this guide you'll learn how to do that.</p>
+
+					<description><![CDATA[<p>With Apache Royale and Electron you can publish your projects to desktop applications. In this guide you'll learn how to do that.</p>
 <p>The post <a rel="nofollow" href="//royale.apache.org/how-to-create-a-desktop-application-with-royale-and-electron/">How to create a Desktop Application with Royale and Electron</a> appeared first on <a rel="nofollow" href="//royale.apache.org/">Apache Royale™</a>.</p>
 ]]></description>
-						<wfw:commentRss>//royale.apache.org/how-to-create-a-desktop-application-with-royale-and-electron/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-							</item>
+		
+					<wfw:commentRss>//royale.apache.org/how-to-create-a-desktop-application-with-royale-and-electron/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 	</channel>
 </rss>

@@ -18,13 +18,14 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<generator>https://wordpress.org/?v=5.4.1</generator>
 	<item>
 		<title>Working with vector graphics</title>
 		<link>//royale.apache.org/working-with-vector-graphics/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=working-with-vector-graphics</link>
-				<comments>//royale.apache.org/working-with-vector-graphics/#respond</comments>
-				<pubDate>Sun, 29 Mar 2020 10:07:11 +0000</pubDate>
+					<comments>//royale.apache.org/working-with-vector-graphics/#respond</comments>
+		
 		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
+		<pubDate>Sun, 29 Mar 2020 10:07:11 +0000</pubDate>
 				<category><![CDATA[Jewel UI Set]]></category>
 		<category><![CDATA[Royale Examples]]></category>
 		<category><![CDATA[j:Application]]></category>
@@ -38,20 +39,24 @@
 		<category><![CDATA[MaterialIconType]]></category>
 		<category><![CDATA[svg:Image]]></category>
 		<category><![CDATA[svg:Rect]]></category>
-
 		<guid isPermaLink="false">//royale.apache.org/?p=16287</guid>
-				<description><![CDATA[<p>This example shows some supported ways to work with vector graphics in Apache Royale like SVG graphics and the powerful ActionScript 3 drawing API</p>
+
+					<description><![CDATA[<p>This example shows some supported ways to work with vector graphics in Apache Royale like SVG graphics and the powerful ActionScript 3 drawing API</p>
 <p>The post <a rel="nofollow" href="//royale.apache.org/working-with-vector-graphics/">Working with vector graphics</a> appeared first on <a rel="nofollow" href="//royale.apache.org/">Apache Royale™</a>.</p>
 ]]></description>
-						<wfw:commentRss>//royale.apache.org/working-with-vector-graphics/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-							</item>
+		
+					<wfw:commentRss>//royale.apache.org/working-with-vector-graphics/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 		<item>
 		<title>Dividing an Apache Royale application with modules</title>
 		<link>//royale.apache.org/dividing-an-apache-royale-application-with-modules/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=dividing-an-apache-royale-application-with-modules</link>
-				<comments>//royale.apache.org/dividing-an-apache-royale-application-with-modules/#respond</comments>
-				<pubDate>Wed, 26 Jun 2019 16:49:50 +0000</pubDate>
+					<comments>//royale.apache.org/dividing-an-apache-royale-application-with-modules/#respond</comments>
+		
 		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
+		<pubDate>Wed, 26 Jun 2019 16:49:50 +0000</pubDate>
 				<category><![CDATA[Jewel UI Set]]></category>
 		<category><![CDATA[Royale Examples]]></category>
 		<category><![CDATA[j: HorizontalCenteredLayout]]></category>
@@ -63,20 +68,24 @@
 		<category><![CDATA[j:Module]]></category>
 		<category><![CDATA[j:ModuleLoader]]></category>
 		<category><![CDATA[MaterialIconType]]></category>
-
 		<guid isPermaLink="false">//royale.apache.org/?p=16120</guid>
-				<description><![CDATA[<p>This example will show you how to break an Apache Royale application into parts called <em>Modules</em> using a <em>ModuleLoader</em>.</p>
+
+					<description><![CDATA[<p>This example will show you how to break an Apache Royale application into parts called <em>Modules</em> using a <em>ModuleLoader</em>.</p>
 <p>The post <a rel="nofollow" href="//royale.apache.org/dividing-an-apache-royale-application-with-modules/">Dividing an Apache Royale application with modules</a> appeared first on <a rel="nofollow" href="//royale.apache.org/">Apache Royale™</a>.</p>
 ]]></description>
-						<wfw:commentRss>//royale.apache.org/dividing-an-apache-royale-application-with-modules/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-							</item>
+		
+					<wfw:commentRss>//royale.apache.org/dividing-an-apache-royale-application-with-modules/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 		<item>
 		<title>Using external javascript libraries in Apache Royale</title>
 		<link>//royale.apache.org/using-external-javascript-libraries-in-apache-royale/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=using-external-javascript-libraries-in-apache-royale</link>
-				<comments>//royale.apache.org/using-external-javascript-libraries-in-apache-royale/#respond</comments>
-				<pubDate>Mon, 03 Jun 2019 17:03:03 +0000</pubDate>
+					<comments>//royale.apache.org/using-external-javascript-libraries-in-apache-royale/#respond</comments>
+		
 		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
+		<pubDate>Mon, 03 Jun 2019 17:03:03 +0000</pubDate>
 				<category><![CDATA[Jewel UI Set]]></category>
 		<category><![CDATA[Royale Examples]]></category>
 		<category><![CDATA[@externs]]></category>
@@ -88,20 +97,24 @@
 		<category><![CDATA[j:Label]]></category>
 		<category><![CDATA[j:ScrollingViewport]]></category>
 		<category><![CDATA[js:HTTPService]]></category>
-
 		<guid isPermaLink="false">//royale.apache.org/?p=15987</guid>
-				<description><![CDATA[<p>Learn how to use external Javascript libraries in your Apache Royale application. This will be very useful to add quick functionality to your Application adding code that is not part of Apache Royale itself or even was not written in ActionsScript, but with the powerful capabilities like type checking or code completion.</p>
+
+					<description><![CDATA[<p>Learn how to use external Javascript libraries in your Apache Royale application. This will be very useful to add quick functionality to your Application adding code that is not part of Apache Royale itself or even was not written in ActionsScript, but with the powerful capabilities like type checking or code completion.</p>
 <p>The post <a rel="nofollow" href="//royale.apache.org/using-external-javascript-libraries-in-apache-royale/">Using external javascript libraries in Apache Royale</a> appeared first on <a rel="nofollow" href="//royale.apache.org/">Apache Royale™</a>.</p>
 ]]></description>
-						<wfw:commentRss>//royale.apache.org/using-external-javascript-libraries-in-apache-royale/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-							</item>
+		
+					<wfw:commentRss>//royale.apache.org/using-external-javascript-libraries-in-apache-royale/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 		<item>
 		<title>Loading external data through HTTPService</title>
 		<link>//royale.apache.org/loading-external-data-through-httpservice/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=loading-external-data-through-httpservice</link>
-				<comments>//royale.apache.org/loading-external-data-through-httpservice/#respond</comments>
-				<pubDate>Sun, 23 Sep 2018 09:16:43 +0000</pubDate>
+					<comments>//royale.apache.org/loading-external-data-through-httpservice/#respond</comments>
+		
 		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
+		<pubDate>Sun, 23 Sep 2018 09:16:43 +0000</pubDate>
 				<category><![CDATA[Jewel UI Set]]></category>
 		<category><![CDATA[Royale Examples]]></category>
 		<category><![CDATA[j: HorizontalCenteredLayout]]></category>
@@ -113,20 +126,24 @@
 		<category><![CDATA[j:ScrollingViewport]]></category>
 		<category><![CDATA[js:HTTPService]]></category>
 		<category><![CDATA[JSON]]></category>
-
 		<guid isPermaLink="false">//royale.apache.org/?p=15834</guid>
-				<description><![CDATA[<p>Learn how to use the HTTPService to access external data in your Apache Royale application. We'll access Github API services to get JSON formatted data.</p>
+
+					<description><![CDATA[<p>Learn how to use the HTTPService to access external data in your Apache Royale application. We'll access Github API services to get JSON formatted data.</p>
 <p>The post <a rel="nofollow" href="//royale.apache.org/loading-external-data-through-httpservice/">Loading external data through HTTPService</a> appeared first on <a rel="nofollow" href="//royale.apache.org/">Apache Royale™</a>.</p>
 ]]></description>
-						<wfw:commentRss>//royale.apache.org/loading-external-data-through-httpservice/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-							</item>
+		
+					<wfw:commentRss>//royale.apache.org/loading-external-data-through-httpservice/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 		<item>
 		<title>Customization through the Royale API</title>
 		<link>//royale.apache.org/customization-through-the-royale-api/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=customization-through-the-royale-api</link>
-				<comments>//royale.apache.org/customization-through-the-royale-api/#respond</comments>
-				<pubDate>Wed, 01 Aug 2018 08:46:09 +0000</pubDate>
+					<comments>//royale.apache.org/customization-through-the-royale-api/#respond</comments>
+		
 		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
+		<pubDate>Wed, 01 Aug 2018 08:46:09 +0000</pubDate>
 				<category><![CDATA[Jewel UI Set]]></category>
 		<category><![CDATA[Royale Examples]]></category>
 		<category><![CDATA[j: CheckBox]]></category>
@@ -139,20 +156,24 @@
 		<category><![CDATA[j:HorizontalLayout]]></category>
 		<category><![CDATA[j:VerticalLayout]]></category>
 		<category><![CDATA[js:View]]></category>
-
 		<guid isPermaLink="false">//royale.apache.org/?p=15806</guid>
-				<description><![CDATA[<p>Learn how to use the powerful Royale APIs to get access to internals and customize to your needs in a Royale application.</p>
+
+					<description><![CDATA[<p>Learn how to use the powerful Royale APIs to get access to internals and customize to your needs in a Royale application.</p>
 <p>The post <a rel="nofollow" href="//royale.apache.org/customization-through-the-royale-api/">Customization through the Royale API</a> appeared first on <a rel="nofollow" href="//royale.apache.org/">Apache Royale™</a>.</p>
 ]]></description>
-						<wfw:commentRss>//royale.apache.org/customization-through-the-royale-api/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-							</item>
+		
+					<wfw:commentRss>//royale.apache.org/customization-through-the-royale-api/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 		<item>
 		<title>Using an Item Renderer with a List</title>
 		<link>//royale.apache.org/using-an-item-renderer-with-a-list/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=using-an-item-renderer-with-a-list</link>
-				<comments>//royale.apache.org/using-an-item-renderer-with-a-list/#respond</comments>
-				<pubDate>Fri, 13 Jul 2018 12:41:07 +0000</pubDate>
+					<comments>//royale.apache.org/using-an-item-renderer-with-a-list/#respond</comments>
+		
 		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
+		<pubDate>Fri, 13 Jul 2018 12:41:07 +0000</pubDate>
 				<category><![CDATA[Jewel UI Set]]></category>
 		<category><![CDATA[Royale Examples]]></category>
 		<category><![CDATA[ApplicationDataBinding]]></category>
@@ -163,20 +184,24 @@
 		<category><![CDATA[j:Application]]></category>
 		<category><![CDATA[j:Card]]></category>
 		<category><![CDATA[j:List]]></category>
-
 		<guid isPermaLink="false">//royale.apache.org/?p=15774</guid>
-				<description><![CDATA[<p>Learn how to use an item renderer in a Jewel List to display the items in your list in a pleasing and user-friendly way in a Royale application.</p>
+
+					<description><![CDATA[<p>Learn how to use an item renderer in a Jewel List to display the items in your list in a pleasing and user-friendly way in a Royale application.</p>
 <p>The post <a rel="nofollow" href="//royale.apache.org/using-an-item-renderer-with-a-list/">Using an Item Renderer with a List</a> appeared first on <a rel="nofollow" href="//royale.apache.org/">Apache Royale™</a>.</p>
 ]]></description>
-						<wfw:commentRss>//royale.apache.org/using-an-item-renderer-with-a-list/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-							</item>
+		
+					<wfw:commentRss>//royale.apache.org/using-an-item-renderer-with-a-list/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 		<item>
 		<title>Using View States to show or hide content</title>
 		<link>//royale.apache.org/using-view-states-to-show-or-hide-content/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=using-view-states-to-show-or-hide-content</link>
-				<comments>//royale.apache.org/using-view-states-to-show-or-hide-content/#respond</comments>
-				<pubDate>Wed, 06 Jun 2018 12:41:25 +0000</pubDate>
+					<comments>//royale.apache.org/using-view-states-to-show-or-hide-content/#respond</comments>
+		
 		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
+		<pubDate>Wed, 06 Jun 2018 12:41:25 +0000</pubDate>
 				<category><![CDATA[Jewel UI Set]]></category>
 		<category><![CDATA[Royale Examples]]></category>
 		<category><![CDATA[j:Application]]></category>
@@ -184,20 +209,24 @@
 		<category><![CDATA[j:Card]]></category>
 		<category><![CDATA[j:State]]></category>
 		<category><![CDATA[js:View]]></category>
-
 		<guid isPermaLink="false">//royale.apache.org/?p=15751</guid>
-				<description><![CDATA[<p>Learn how to use view states in a royale application to show or hide content</p>
+
+					<description><![CDATA[<p>Learn how to use view states in a royale application to show or hide content</p>
 <p>The post <a rel="nofollow" href="//royale.apache.org/using-view-states-to-show-or-hide-content/">Using View States to show or hide content</a> appeared first on <a rel="nofollow" href="//royale.apache.org/">Apache Royale™</a>.</p>
 ]]></description>
-						<wfw:commentRss>//royale.apache.org/using-view-states-to-show-or-hide-content/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-							</item>
+		
+					<wfw:commentRss>//royale.apache.org/using-view-states-to-show-or-hide-content/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 		<item>
 		<title>Selecting options from a group of Jewel CheckBox controls</title>
 		<link>//royale.apache.org/selecting-options-from-a-group-of-jewel-checkbox-controls/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=selecting-options-from-a-group-of-jewel-checkbox-controls</link>
-				<comments>//royale.apache.org/selecting-options-from-a-group-of-jewel-checkbox-controls/#respond</comments>
-				<pubDate>Tue, 22 May 2018 09:21:14 +0000</pubDate>
+					<comments>//royale.apache.org/selecting-options-from-a-group-of-jewel-checkbox-controls/#respond</comments>
+		
 		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
+		<pubDate>Tue, 22 May 2018 09:21:14 +0000</pubDate>
 				<category><![CDATA[Jewel UI Set]]></category>
 		<category><![CDATA[Royale Examples]]></category>
 		<category><![CDATA[j:Application]]></category>
@@ -205,20 +234,24 @@
 		<category><![CDATA[j:CheckBox]]></category>
 		<category><![CDATA[j:Disabled]]></category>
 		<category><![CDATA[js:View]]></category>
-
 		<guid isPermaLink="false">//royale.apache.org/?p=15736</guid>
-				<description><![CDATA[<p>Learn how to set up a group of Jewel Checkbox controls to select one or more options in a Royale application.</p>
+
+					<description><![CDATA[<p>Learn how to set up a group of Jewel Checkbox controls to select one or more options in a Royale application.</p>
 <p>The post <a rel="nofollow" href="//royale.apache.org/selecting-options-from-a-group-of-jewel-checkbox-controls/">Selecting options from a group of Jewel CheckBox controls</a> appeared first on <a rel="nofollow" href="//royale.apache.org/">Apache Royale™</a>.</p>
 ]]></description>
-						<wfw:commentRss>//royale.apache.org/selecting-options-from-a-group-of-jewel-checkbox-controls/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-							</item>
+		
+					<wfw:commentRss>//royale.apache.org/selecting-options-from-a-group-of-jewel-checkbox-controls/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 		<item>
 		<title>Binding the text property of a Jewel TextInput to update a text Label</title>
 		<link>//royale.apache.org/binding-the-text-property-of-a-jewel-textinput-to-update-a-text-label/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=binding-the-text-property-of-a-jewel-textinput-to-update-a-text-label</link>
-				<comments>//royale.apache.org/binding-the-text-property-of-a-jewel-textinput-to-update-a-text-label/#respond</comments>
-				<pubDate>Tue, 08 May 2018 22:31:29 +0000</pubDate>
+					<comments>//royale.apache.org/binding-the-text-property-of-a-jewel-textinput-to-update-a-text-label/#respond</comments>
+		
 		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
+		<pubDate>Tue, 08 May 2018 22:31:29 +0000</pubDate>
 				<category><![CDATA[Jewel UI Set]]></category>
 		<category><![CDATA[Royale Examples]]></category>
 		<category><![CDATA[Binding]]></category>
@@ -227,33 +260,40 @@
 		<category><![CDATA[j:TextInput]]></category>
 		<category><![CDATA[j:TextPrompt]]></category>
 		<category><![CDATA[j:View]]></category>
-
 		<guid isPermaLink="false">//royale.apache.org/?p=15724</guid>
-				<description><![CDATA[<p>Learn how to change a Label's text with a Jewel TextInput using both a change event and data binding.</p>
+
+					<description><![CDATA[<p>Learn how to change a Label's text with a Jewel TextInput using both a change event and data binding.</p>
 <p>The post <a rel="nofollow" href="//royale.apache.org/binding-the-text-property-of-a-jewel-textinput-to-update-a-text-label/">Binding the text property of a Jewel TextInput to update a text Label</a> appeared first on <a rel="nofollow" href="//royale.apache.org/">Apache Royale™</a>.</p>
 ]]></description>
-						<wfw:commentRss>//royale.apache.org/binding-the-text-property-of-a-jewel-textinput-to-update-a-text-label/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-							</item>
+		
+					<wfw:commentRss>//royale.apache.org/binding-the-text-property-of-a-jewel-textinput-to-update-a-text-label/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 		<item>
 		<title>Creating a group of Jewel radio buttons</title>
 		<link>//royale.apache.org/creating-a-group-of-jewel-radiobuttons/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=creating-a-group-of-jewel-radiobuttons</link>
-				<comments>//royale.apache.org/creating-a-group-of-jewel-radiobuttons/#respond</comments>
-				<pubDate>Wed, 02 May 2018 14:48:37 +0000</pubDate>
+					<comments>//royale.apache.org/creating-a-group-of-jewel-radiobuttons/#respond</comments>
+		
 		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
+		<pubDate>Wed, 02 May 2018 14:48:37 +0000</pubDate>
 				<category><![CDATA[Jewel UI Set]]></category>
 		<category><![CDATA[Royale Examples]]></category>
 		<category><![CDATA[j:Application]]></category>
 		<category><![CDATA[j:Button]]></category>
 		<category><![CDATA[j:RadioButton]]></category>
 		<category><![CDATA[js:View]]></category>
-
 		<guid isPermaLink="false">//royale.apache.org/?p=15697</guid>
-				<description><![CDATA[<p>Learn how to configure a group of Jewel RadioButton controls in a Royale application.</p>
+
+					<description><![CDATA[<p>Learn how to configure a group of Jewel RadioButton controls in a Royale application.</p>
 <p>The post <a rel="nofollow" href="//royale.apache.org/creating-a-group-of-jewel-radiobuttons/">Creating a group of Jewel radio buttons</a> appeared first on <a rel="nofollow" href="//royale.apache.org/">Apache Royale™</a>.</p>
 ]]></description>
-						<wfw:commentRss>//royale.apache.org/creating-a-group-of-jewel-radiobuttons/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-							</item>
+		
+					<wfw:commentRss>//royale.apache.org/creating-a-group-of-jewel-radiobuttons/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 	</channel>
 </rss>

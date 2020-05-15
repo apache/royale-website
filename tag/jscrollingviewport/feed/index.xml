@@ -18,13 +18,14 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<generator>https://wordpress.org/?v=5.4.1</generator>
 	<item>
 		<title>Using external javascript libraries in Apache Royale</title>
 		<link>//royale.apache.org/using-external-javascript-libraries-in-apache-royale/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=using-external-javascript-libraries-in-apache-royale</link>
-				<comments>//royale.apache.org/using-external-javascript-libraries-in-apache-royale/#respond</comments>
-				<pubDate>Mon, 03 Jun 2019 17:03:03 +0000</pubDate>
+					<comments>//royale.apache.org/using-external-javascript-libraries-in-apache-royale/#respond</comments>
+		
 		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
+		<pubDate>Mon, 03 Jun 2019 17:03:03 +0000</pubDate>
 				<category><![CDATA[Jewel UI Set]]></category>
 		<category><![CDATA[Royale Examples]]></category>
 		<category><![CDATA[@externs]]></category>
@@ -36,20 +37,24 @@
 		<category><![CDATA[j:Label]]></category>
 		<category><![CDATA[j:ScrollingViewport]]></category>
 		<category><![CDATA[js:HTTPService]]></category>
-
 		<guid isPermaLink="false">//royale.apache.org/?p=15987</guid>
-				<description><![CDATA[<p>Learn how to use external Javascript libraries in your Apache Royale application. This will be very useful to add quick functionality to your Application adding code that is not part of Apache Royale itself or even was not written in ActionsScript, but with the powerful capabilities like type checking or code completion.</p>
+
+					<description><![CDATA[<p>Learn how to use external Javascript libraries in your Apache Royale application. This will be very useful to add quick functionality to your Application adding code that is not part of Apache Royale itself or even was not written in ActionsScript, but with the powerful capabilities like type checking or code completion.</p>
 <p>The post <a rel="nofollow" href="//royale.apache.org/using-external-javascript-libraries-in-apache-royale/">Using external javascript libraries in Apache Royale</a> appeared first on <a rel="nofollow" href="//royale.apache.org/">Apache Royale™</a>.</p>
 ]]></description>
-						<wfw:commentRss>//royale.apache.org/using-external-javascript-libraries-in-apache-royale/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-							</item>
+		
+					<wfw:commentRss>//royale.apache.org/using-external-javascript-libraries-in-apache-royale/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 		<item>
 		<title>Loading external data through HTTPService</title>
 		<link>//royale.apache.org/loading-external-data-through-httpservice/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=loading-external-data-through-httpservice</link>
-				<comments>//royale.apache.org/loading-external-data-through-httpservice/#respond</comments>
-				<pubDate>Sun, 23 Sep 2018 09:16:43 +0000</pubDate>
+					<comments>//royale.apache.org/loading-external-data-through-httpservice/#respond</comments>
+		
 		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
+		<pubDate>Sun, 23 Sep 2018 09:16:43 +0000</pubDate>
 				<category><![CDATA[Jewel UI Set]]></category>
 		<category><![CDATA[Royale Examples]]></category>
 		<category><![CDATA[j: HorizontalCenteredLayout]]></category>
@@ -61,13 +66,16 @@
 		<category><![CDATA[j:ScrollingViewport]]></category>
 		<category><![CDATA[js:HTTPService]]></category>
 		<category><![CDATA[JSON]]></category>
-
 		<guid isPermaLink="false">//royale.apache.org/?p=15834</guid>
-				<description><![CDATA[<p>Learn how to use the HTTPService to access external data in your Apache Royale application. We'll access Github API services to get JSON formatted data.</p>
+
+					<description><![CDATA[<p>Learn how to use the HTTPService to access external data in your Apache Royale application. We'll access Github API services to get JSON formatted data.</p>
 <p>The post <a rel="nofollow" href="//royale.apache.org/loading-external-data-through-httpservice/">Loading external data through HTTPService</a> appeared first on <a rel="nofollow" href="//royale.apache.org/">Apache Royale™</a>.</p>
 ]]></description>
-						<wfw:commentRss>//royale.apache.org/loading-external-data-through-httpservice/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-							</item>
+		
+					<wfw:commentRss>//royale.apache.org/loading-external-data-through-httpservice/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 	</channel>
 </rss>

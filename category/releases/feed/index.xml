@@ -12,97 +12,138 @@
 	<atom:link href="//royale.apache.org/category/releases/feed/" rel="self" type="application/rss+xml" />
 	<link>//royale.apache.org/</link>
 	<description>Code once. Run everywhere</description>
-	<lastBuildDate>Tue, 08 Oct 2019 16:54:35 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 15 May 2020 07:09:24 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<generator>https://wordpress.org/?v=5.4.1</generator>
 	<item>
-		<title>Apache Royale v0.9.6 released!</title>
-		<link>//royale.apache.org/apache-royale-v0-9-6-released/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=apache-royale-v0-9-6-released</link>
-				<comments>//royale.apache.org/apache-royale-v0-9-6-released/#respond</comments>
-				<pubDate>Tue, 08 Oct 2019 08:20:22 +0000</pubDate>
+		<title>Apache Royale v0.9.7 released!</title>
+		<link>//royale.apache.org/apache-royale-v0-9-7-released/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=apache-royale-v0-9-7-released</link>
+					<comments>//royale.apache.org/apache-royale-v0-9-7-released/#respond</comments>
+		
 		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
+		<pubDate>Fri, 15 May 2020 07:07:29 +0000</pubDate>
 				<category><![CDATA[Announcements]]></category>
 		<category><![CDATA[Releases]]></category>
 		<category><![CDATA[releases]]></category>
+		<guid isPermaLink="false">//royale.apache.org/?p=16330</guid>
 
+					<description><![CDATA[<p>The Apache Royale community is pleased to announce a new release. Check the announcement to know more about the changes in this release!.</p>
+<p>The post <a rel="nofollow" href="//royale.apache.org/apache-royale-v0-9-7-released/">Apache Royale v0.9.7 released!</a> appeared first on <a rel="nofollow" href="//royale.apache.org/">Apache Royale™</a>.</p>
+]]></description>
+		
+					<wfw:commentRss>//royale.apache.org/apache-royale-v0-9-7-released/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Apache Royale v0.9.6 released!</title>
+		<link>//royale.apache.org/apache-royale-v0-9-6-released/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=apache-royale-v0-9-6-released</link>
+					<comments>//royale.apache.org/apache-royale-v0-9-6-released/#respond</comments>
+		
+		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
+		<pubDate>Tue, 08 Oct 2019 08:20:22 +0000</pubDate>
+				<category><![CDATA[Announcements]]></category>
+		<category><![CDATA[Releases]]></category>
+		<category><![CDATA[releases]]></category>
 		<guid isPermaLink="false">//royale.apache.org/?p=16215</guid>
-				<description><![CDATA[<p>The Apache Royale community is pleased to announce a new release. Check the announcement to know more about the changes in this release!.</p>
+
+					<description><![CDATA[<p>The Apache Royale community is pleased to announce a new release. Check the announcement to know more about the changes in this release!.</p>
 <p>The post <a rel="nofollow" href="//royale.apache.org/apache-royale-v0-9-6-released/">Apache Royale v0.9.6 released!</a> appeared first on <a rel="nofollow" href="//royale.apache.org/">Apache Royale™</a>.</p>
 ]]></description>
-						<wfw:commentRss>//royale.apache.org/apache-royale-v0-9-6-released/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-							</item>
+		
+					<wfw:commentRss>//royale.apache.org/apache-royale-v0-9-6-released/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 		<item>
 		<title>Apache Royale v0.9.4 released!</title>
 		<link>//royale.apache.org/apache-royale-v0-9-4-released/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=apache-royale-v0-9-4-released</link>
-				<comments>//royale.apache.org/apache-royale-v0-9-4-released/#respond</comments>
-				<pubDate>Mon, 10 Dec 2018 15:30:13 +0000</pubDate>
+					<comments>//royale.apache.org/apache-royale-v0-9-4-released/#respond</comments>
+		
 		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
+		<pubDate>Mon, 10 Dec 2018 15:30:13 +0000</pubDate>
 				<category><![CDATA[Announcements]]></category>
 		<category><![CDATA[Releases]]></category>
 		<category><![CDATA[releases]]></category>
-
 		<guid isPermaLink="false">//royale.apache.org/?p=15906</guid>
-				<description><![CDATA[<p>The Apache Royale community is pleased to announce a new release. Check the announcement to know more about the changes in this release!.</p>
+
+					<description><![CDATA[<p>The Apache Royale community is pleased to announce a new release. Check the announcement to know more about the changes in this release!.</p>
 <p>The post <a rel="nofollow" href="//royale.apache.org/apache-royale-v0-9-4-released/">Apache Royale v0.9.4 released!</a> appeared first on <a rel="nofollow" href="//royale.apache.org/">Apache Royale™</a>.</p>
 ]]></description>
-						<wfw:commentRss>//royale.apache.org/apache-royale-v0-9-4-released/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-							</item>
+		
+					<wfw:commentRss>//royale.apache.org/apache-royale-v0-9-4-released/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 		<item>
 		<title>Apache Royale v0.9.2 released!</title>
 		<link>//royale.apache.org/apache-royale-v0-9-2-released/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=apache-royale-v0-9-2-released</link>
-				<comments>//royale.apache.org/apache-royale-v0-9-2-released/#respond</comments>
-				<pubDate>Mon, 19 Mar 2018 09:38:26 +0000</pubDate>
+					<comments>//royale.apache.org/apache-royale-v0-9-2-released/#respond</comments>
+		
 		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
+		<pubDate>Mon, 19 Mar 2018 09:38:26 +0000</pubDate>
 				<category><![CDATA[Announcements]]></category>
 		<category><![CDATA[Releases]]></category>
 		<category><![CDATA[releases]]></category>
-
 		<guid isPermaLink="false">//royale.apache.org/?p=15546</guid>
-				<description><![CDATA[<p>The Apache Royale community is pleased to announce a new release. Check the announcement to know more about the changes in this release!.</p>
+
+					<description><![CDATA[<p>The Apache Royale community is pleased to announce a new release. Check the announcement to know more about the changes in this release!.</p>
 <p>The post <a rel="nofollow" href="//royale.apache.org/apache-royale-v0-9-2-released/">Apache Royale v0.9.2 released!</a> appeared first on <a rel="nofollow" href="//royale.apache.org/">Apache Royale™</a>.</p>
 ]]></description>
-						<wfw:commentRss>//royale.apache.org/apache-royale-v0-9-2-released/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-							</item>
+		
+					<wfw:commentRss>//royale.apache.org/apache-royale-v0-9-2-released/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 		<item>
 		<title>Apache Royale v0.9.1 released!</title>
 		<link>//royale.apache.org/apache-royale-v0-9-1-released/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=apache-royale-v0-9-1-released</link>
-				<comments>//royale.apache.org/apache-royale-v0-9-1-released/#respond</comments>
-				<pubDate>Wed, 14 Feb 2018 13:06:45 +0000</pubDate>
+					<comments>//royale.apache.org/apache-royale-v0-9-1-released/#respond</comments>
+		
 		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
+		<pubDate>Wed, 14 Feb 2018 13:06:45 +0000</pubDate>
 				<category><![CDATA[Announcements]]></category>
 		<category><![CDATA[Releases]]></category>
 		<category><![CDATA[releases]]></category>
-
 		<guid isPermaLink="false">//royale.apache.org/?p=15520</guid>
-				<description><![CDATA[<p>The Apache Royale community is pleased to announce the release of Apache Royale 0.9.1.</p>
+
+					<description><![CDATA[<p>The Apache Royale community is pleased to announce the release of Apache Royale 0.9.1.</p>
 <p>The post <a rel="nofollow" href="//royale.apache.org/apache-royale-v0-9-1-released/">Apache Royale v0.9.1 released!</a> appeared first on <a rel="nofollow" href="//royale.apache.org/">Apache Royale™</a>.</p>
 ]]></description>
-						<wfw:commentRss>//royale.apache.org/apache-royale-v0-9-1-released/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-							</item>
+		
+					<wfw:commentRss>//royale.apache.org/apache-royale-v0-9-1-released/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 		<item>
 		<title>Apache Royale v0.9.0 released!</title>
 		<link>//royale.apache.org/apache-royale-v0-9-0-released/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=apache-royale-v0-9-0-released</link>
-				<comments>//royale.apache.org/apache-royale-v0-9-0-released/#respond</comments>
-				<pubDate>Tue, 30 Jan 2018 22:11:09 +0000</pubDate>
+					<comments>//royale.apache.org/apache-royale-v0-9-0-released/#respond</comments>
+		
 		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
+		<pubDate>Tue, 30 Jan 2018 22:11:09 +0000</pubDate>
 				<category><![CDATA[Announcements]]></category>
 		<category><![CDATA[Releases]]></category>
 		<category><![CDATA[releases]]></category>
-
 		<guid isPermaLink="false">//royale.apache.org/?p=15462</guid>
-				<description><![CDATA[<p>The Apache Royale community is pleased to announce the release of Apache Royale 0.9.0.</p>
+
+					<description><![CDATA[<p>The Apache Royale community is pleased to announce the release of Apache Royale 0.9.0.</p>
 <p>The post <a rel="nofollow" href="//royale.apache.org/apache-royale-v0-9-0-released/">Apache Royale v0.9.0 released!</a> appeared first on <a rel="nofollow" href="//royale.apache.org/">Apache Royale™</a>.</p>
 ]]></description>
-						<wfw:commentRss>//royale.apache.org/apache-royale-v0-9-0-released/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-							</item>
+		
+					<wfw:commentRss>//royale.apache.org/apache-royale-v0-9-0-released/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 	</channel>
 </rss>

@@ -2769,7 +2769,8 @@ h6:last-child,
 	text-align: center;
 }
 
-.grve-header-element .grve-item i {
+.grve-header-element .grve-item i,
+.grve-header-element .grve-item .grve-icon-menu {
 	display: block;
 	font-size: inherit;
 	line-height: inherit;
@@ -5210,7 +5211,8 @@ img.avatar {
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
-.grve-close-btn i {
+.grve-close-btn i,
+.grve-close-btn .grve-icon-close {
 	font-size: inherit;
 	line-height: inherit;
 }

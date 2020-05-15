@@ -18,13 +18,14 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<generator>https://wordpress.org/?v=5.4.1</generator>
 	<item>
 		<title>Dividing an Apache Royale application with modules</title>
 		<link>//royale.apache.org/dividing-an-apache-royale-application-with-modules/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=dividing-an-apache-royale-application-with-modules</link>
-				<comments>//royale.apache.org/dividing-an-apache-royale-application-with-modules/#respond</comments>
-				<pubDate>Wed, 26 Jun 2019 16:49:50 +0000</pubDate>
+					<comments>//royale.apache.org/dividing-an-apache-royale-application-with-modules/#respond</comments>
+		
 		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
+		<pubDate>Wed, 26 Jun 2019 16:49:50 +0000</pubDate>
 				<category><![CDATA[Jewel UI Set]]></category>
 		<category><![CDATA[Royale Examples]]></category>
 		<category><![CDATA[j: HorizontalCenteredLayout]]></category>
@@ -36,13 +37,16 @@
 		<category><![CDATA[j:Module]]></category>
 		<category><![CDATA[j:ModuleLoader]]></category>
 		<category><![CDATA[MaterialIconType]]></category>
-
 		<guid isPermaLink="false">//royale.apache.org/?p=16120</guid>
-				<description><![CDATA[<p>This example will show you how to break an Apache Royale application into parts called <em>Modules</em> using a <em>ModuleLoader</em>.</p>
+
+					<description><![CDATA[<p>This example will show you how to break an Apache Royale application into parts called <em>Modules</em> using a <em>ModuleLoader</em>.</p>
 <p>The post <a rel="nofollow" href="//royale.apache.org/dividing-an-apache-royale-application-with-modules/">Dividing an Apache Royale application with modules</a> appeared first on <a rel="nofollow" href="//royale.apache.org/">Apache Royale™</a>.</p>
 ]]></description>
-						<wfw:commentRss>//royale.apache.org/dividing-an-apache-royale-application-with-modules/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-							</item>
+		
+					<wfw:commentRss>//royale.apache.org/dividing-an-apache-royale-application-with-modules/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 	</channel>
 </rss>

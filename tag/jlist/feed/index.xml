@@ -18,13 +18,14 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<generator>https://wordpress.org/?v=5.4.1</generator>
 	<item>
 		<title>Using an Item Renderer with a List</title>
 		<link>//royale.apache.org/using-an-item-renderer-with-a-list/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=using-an-item-renderer-with-a-list</link>
-				<comments>//royale.apache.org/using-an-item-renderer-with-a-list/#respond</comments>
-				<pubDate>Fri, 13 Jul 2018 12:41:07 +0000</pubDate>
+					<comments>//royale.apache.org/using-an-item-renderer-with-a-list/#respond</comments>
+		
 		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
+		<pubDate>Fri, 13 Jul 2018 12:41:07 +0000</pubDate>
 				<category><![CDATA[Jewel UI Set]]></category>
 		<category><![CDATA[Royale Examples]]></category>
 		<category><![CDATA[ApplicationDataBinding]]></category>
@@ -35,20 +36,24 @@
 		<category><![CDATA[j:Application]]></category>
 		<category><![CDATA[j:Card]]></category>
 		<category><![CDATA[j:List]]></category>
-
 		<guid isPermaLink="false">//royale.apache.org/?p=15774</guid>
-				<description><![CDATA[<p>Learn how to use an item renderer in a Jewel List to display the items in your list in a pleasing and user-friendly way in a Royale application.</p>
+
+					<description><![CDATA[<p>Learn how to use an item renderer in a Jewel List to display the items in your list in a pleasing and user-friendly way in a Royale application.</p>
 <p>The post <a rel="nofollow" href="//royale.apache.org/using-an-item-renderer-with-a-list/">Using an Item Renderer with a List</a> appeared first on <a rel="nofollow" href="//royale.apache.org/">Apache Royale™</a>.</p>
 ]]></description>
-						<wfw:commentRss>//royale.apache.org/using-an-item-renderer-with-a-list/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-							</item>
+		
+					<wfw:commentRss>//royale.apache.org/using-an-item-renderer-with-a-list/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 		<item>
 		<title>Adding an item to a Jewel List</title>
 		<link>//royale.apache.org/adding-an-item-to-a-jewel-list/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=adding-an-item-to-a-jewel-list</link>
-				<comments>//royale.apache.org/adding-an-item-to-a-jewel-list/#respond</comments>
-				<pubDate>Mon, 16 Apr 2018 10:41:05 +0000</pubDate>
+					<comments>//royale.apache.org/adding-an-item-to-a-jewel-list/#respond</comments>
+		
 		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
+		<pubDate>Mon, 16 Apr 2018 10:41:05 +0000</pubDate>
 				<category><![CDATA[Jewel UI Set]]></category>
 		<category><![CDATA[Royale Examples]]></category>
 		<category><![CDATA[j:Application]]></category>
@@ -56,13 +61,16 @@
 		<category><![CDATA[j:List]]></category>
 		<category><![CDATA[j:Slider]]></category>
 		<category><![CDATA[js:View]]></category>
-
 		<guid isPermaLink="false">//royale.apache.org/?p=15679</guid>
-				<description><![CDATA[<p>Learn how to show data in a Jewel List control and how to add items to it in a Royale application.</p>
+
+					<description><![CDATA[<p>Learn how to show data in a Jewel List control and how to add items to it in a Royale application.</p>
 <p>The post <a rel="nofollow" href="//royale.apache.org/adding-an-item-to-a-jewel-list/">Adding an item to a Jewel List</a> appeared first on <a rel="nofollow" href="//royale.apache.org/">Apache Royale™</a>.</p>
 ]]></description>
-						<wfw:commentRss>//royale.apache.org/adding-an-item-to-a-jewel-list/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-							</item>
+		
+					<wfw:commentRss>//royale.apache.org/adding-an-item-to-a-jewel-list/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
 	</channel>
 </rss>
