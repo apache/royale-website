@@ -479,6 +479,12 @@ j|CardActions {
   border-style: solid;
   border-color: #b3b3b3;
 }
+.jewel.datagrid .listarea:focus {
+  border: 1px solid #8a1e88;
+}
+.jewel.datagrid .jewel.list:focus {
+  border-color: inherit;
+}
 .jewel.datagrid .jewel.list.column {
   border-radius: 0px;
   border-bottom-width: 0px;
@@ -839,6 +845,7 @@ j|FormItem {
 }
 
 .jewel.list {
+  color: #808080;
   background: linear-gradient(white, #f3f3f3);
   border: 1px solid #b3b3b3;
   box-shadow: inset 0 1px 0 white;
@@ -879,6 +886,10 @@ j|FormItem {
 }
 .jewel.navigationlink .hint.fonticon {
   margin-left: auto;
+}
+
+.jewel.navigationgroup.no-submenu.hovered {
+  background: #f3f3f3 !important;
 }
 
 .navigation-section-group {
@@ -1344,6 +1355,24 @@ div {
 .jewel.textinput input[disabled] + i {
   color: silver;
 }
+.jewel.textinput input {
+  margin: 0;
+  padding: 0.679em 16px;
+}
+.jewel.textinput.icon input {
+  padding-left: 36px;
+  padding-right: 16px;
+}
+.jewel.textinput.icon i.fonticon {
+  left: 8px;
+}
+.jewel.textinput.icon.right input {
+  padding-left: 16px;
+  padding-right: 36px;
+}
+.jewel.textinput.icon.right i.fonticon {
+  right: 8px;
+}
 .jewel.textinput.errorBorder input {
   border: 1px #EC1C24 solid;
 }
@@ -1353,6 +1382,8 @@ div {
   color: #808080;
 }
 .jewel.textarea textarea {
+  margin: 0;
+  padding: 0.72em 1.12em;
   background: linear-gradient(white, #f3f3f3);
   border: 1px solid #b3b3b3;
   border-radius: 0.25rem;
