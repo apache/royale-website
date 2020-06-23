@@ -176,17 +176,17 @@ hr {
 .jewel.button.icon {
   padding: 0.429em 0.87em;
 }
-.jewel.button.icon i {
+.jewel.button.icon span {
   margin-left: 0px;
   margin-right: 0px;
 }
-.jewel.button.left-space i {
-  margin-left: 0px;
-  margin-right: 8px;
-}
-.jewel.button.right-space i {
+.jewel.button.left-space span {
   margin-left: 8px;
   margin-right: 0px;
+}
+.jewel.button.right-space span {
+  margin-left: 0px;
+  margin-right: 8px;
 }
 
 .jewel.button.primary {
@@ -819,7 +819,6 @@ j|FormItem {
 }
 
 .jewel.item {
-  padding: 8px;
   background: transparent;
 }
 .jewel.item.hovered {
@@ -864,6 +863,17 @@ j|FormItem {
 }
 .jewel.list[disabled] .jewel.item.selected, .jewel.list[disabled] .jewel.item.selectable:active {
   background: #cccccc !important;
+}
+
+.jewel.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+}
+.jewel.loader.segment {
+  border-top-color: silver;
+}
+.jewel.loader.primary.segment {
+  border-top-color: #E2D70B;
 }
 
 .jewel.navigation {
@@ -1158,6 +1168,10 @@ j|FormItem {
     border-radius: 0px;
   }
 }
+.jewel.tabbar.sameWidths .content > * {
+  flex: 1 0 0%;
+}
+
 .jewel.tabbarbutton {
   font-size: 1em;
   font-weight: 500;
@@ -1193,9 +1207,6 @@ j|FormItem {
   box-shadow: none;
   border-radius: 0.25rem;
 }
-.jewel.simpletable .jewel.thead tr {
-  border-bottom: 1px solid #d9d9d9;
-}
 .jewel.simpletable .jewel.tableheadercell:first-of-type {
   border-left: 0px;
 }
@@ -1227,9 +1238,6 @@ j|FormItem {
   box-shadow: none;
   border-radius: 0.25rem;
 }
-.jewel.table .jewel.thead tr {
-  border-bottom: 1px solid #d9d9d9;
-}
 .jewel.table .jewel.tableheadercell:first-of-type {
   border-left: 0px;
 }
@@ -1241,6 +1249,10 @@ j|FormItem {
   font-size: 1em;
   color: #808080;
   border-left: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+}
+.jewel.table .jewel.tablerow:first-child .jewel.tablecell {
+  border-top: 1px solid transparent;
 }
 .jewel.table .jewel.tablecell:first-of-type {
   border-left: 0px;
@@ -1290,6 +1302,26 @@ a:active {
 
 .primary-darkest {
   color: #1f1e02;
+}
+
+.weight-lightest {
+  font-weight: 100;
+}
+
+.weight-light {
+  font-weight: 300;
+}
+
+.weight-regular {
+  font-weight: 400;
+}
+
+.weight-bold {
+  font-weight: 600;
+}
+
+.weight-bolder {
+  font-weight: 800;
 }
 
 h1 {
@@ -1356,21 +1388,27 @@ div {
 }
 .jewel.textinput input {
   margin: 0;
-  padding: 0.679em 16px;
+  padding: 0.679em 14px;
 }
 .jewel.textinput.icon input {
-  padding-left: 36px;
-  padding-right: 16px;
+  padding-left: 42px;
+  padding-right: 14px;
 }
 .jewel.textinput.icon i.fonticon {
-  left: 8px;
+  left: 14px;
+}
+.jewel.textinput.icon i.fonticon.material-icons {
+  left: 10px;
 }
 .jewel.textinput.icon.right input {
-  padding-left: 16px;
-  padding-right: 36px;
+  padding-left: 14px;
+  padding-right: 42px;
 }
 .jewel.textinput.icon.right i.fonticon {
-  right: 8px;
+  right: 14px;
+}
+.jewel.textinput.icon.right i.fonticon.material-icons {
+  right: 10px;
 }
 .jewel.textinput.errorBorder input {
   border: 1px #EC1C24 solid;
