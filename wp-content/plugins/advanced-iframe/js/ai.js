@@ -1,5 +1,5 @@
 /**
- *  Advanced iframe pro functions v2019.8
+ *  Advanced iframe pro functions v2020.4
 */
 /* jslint devel: true, unused: false */
 /* globals ai_show_id_only:false, aiIsIe8: false, aiChangeUrl: false, aiResizeIframeHeightId: false, aiShowIframeId: false, findAndReplaceDOMText: false */
@@ -304,7 +304,7 @@ function aiCheckIfValidTarget(evt, elements) {
 
 function aiOpenSelectorWindow (url) {
    var localWidth =  jQuery('#width').val();
-   var localHeight = jQuery('#height').val();
+   var localHeight = jQuery('#ai-height-0').val();
 
    if (localWidth.indexOf('%') >= 0 || Number(localWidth) < 900) {
        localWidth = 900;
@@ -355,12 +355,23 @@ function aiDisablePartOfIframeOptions(value) {
   jQuery('input[id=show_part_of_iframe_next_viewports_hide1]:radio, input[id=show_part_of_iframe_next_viewports_hide2]:radio').attr('disabled',value);
   jQuery('#show_part_of_iframe_style').prop('readonly',value);
   jQuery('input[id=show_part_of_iframe_zoom1]:radio, input[id=show_part_of_iframe_zoom2]:radio, input[id=show_part_of_iframe_zoom3]:radio').attr('disabled',value);
-
+  jQuery('.media-query-input').prop('readonly',value);
+ 
+ 
   var selector = '#show_part_of_iframe_x, #show_part_of_iframe_y, #show_part_of_iframe_height, #show_part_of_iframe_width, ';
   selector += '#show_part_of_iframe_allow_scrollbar_horizontal1, #show_part_of_iframe_next_viewports, #show_part_of_iframe_next_viewports_loop1, ';
   selector += '#show_part_of_iframe_new_window, #show_part_of_iframe_new_url, #show_part_of_iframe_next_viewports_hide1, #show_part_of_iframe_style, ';
-  selector += '#show_part_of_iframe_zoom1, #show_part_of_iframe_allow_scrollbar_vertical1';
+  selector += '#show_part_of_iframe_zoom1, #show_part_of_iframe_allow_scrollbar_vertical1, #add-media-query-show_part_of_iframe_media_query';
   aiDisableTextSection(value, selector);
+  
+  if (value) {
+      jQuery('#add-media-query-show_part_of_iframe_media_query').hide();
+	  jQuery('.ai-delete').hide();
+  } else {
+	  jQuery('#add-media-query-show_part_of_iframe_media_query').show();
+	  jQuery('.ai-delete').show();
+  }
+  
 }
 
 function aiDisableLazyLoadOptions(value) {
@@ -383,7 +394,9 @@ function aiDisableIframeAsLayerOptions(value) {
 
   var selector = '#show_iframe_as_layer_full, #show_iframe_as_layer_header_file, #show_iframe_as_layer_header_height, ';
   selector += '#show_iframe_as_layer_header_position1, #show_iframe_as_layer_full1, #show_iframe_as_layer_keep_content1';
-  aiDisableTextSection(value, selector);
+    
+   aiDisableTextSection(value, selector);
+ 
 }
 
 function aiDisableTextSection(value, selector) {
@@ -566,6 +579,7 @@ function aiInitAdminConfiguration(isPro, acc_type) {
         jQuery('.nav-tab').removeClass('nav-tab-active');
         jQuery(this).addClass('nav-tab-active');
         jQuery(this).blur();
+		
         return false;
       });
 
@@ -573,12 +587,16 @@ function aiInitAdminConfiguration(isPro, acc_type) {
         jQuery(document).on( 'click', 'a#external-workaround-link', function() {
           jQuery('.external-workaround').click();
           location.hash = 'tab_3';
-		   aiShowHeader('tab_3');
+		  // no flash
+		  aiShowHeader('tab_3');
           return false;
         });
         jQuery(document).on( 'click', 'a#resize-same-link', function() {
           jQuery('.advanced-settings-tab').click();
-          location.hash = 'rt';
+		  jQuery('#id-advanced-resize').removeClass('closed');
+          location.hash = 'id-advanced-resize';
+		  // no flash
+          aiShowHeader('id-advanced-resize');  
           return false;
         });
          jQuery(document).on( 'click', 'a.jquery-help-link', function() {
@@ -586,6 +604,7 @@ function aiInitAdminConfiguration(isPro, acc_type) {
 		  jQuery('#id-help-jquery').removeClass('closed');
           jQuery('#jquery-help').show();
           location.hash = 'id-help-jquery';
+		  // no flash
 		  aiShowHeader('id-help-jquery');
 		  return false;
         });
@@ -594,6 +613,7 @@ function aiInitAdminConfiguration(isPro, acc_type) {
 		  jQuery('#id-help-browser').removeClass('closed');
           jQuery('#browser-help').show();
           location.hash = 'id-help-browser';
+		  // no flash
           aiShowHeader('id-help-browser');
           return false;
         });
@@ -601,32 +621,66 @@ function aiInitAdminConfiguration(isPro, acc_type) {
           jQuery('.help-tab').click();
 		  jQuery('#id-help-id').removeClass('closed');
           location.hash = 'id-help-id';
+		  // no flash
           aiShowHeader('id-help-id');
           return false;
         });
         jQuery(document).on( 'click', '.modifycontent-link', function() {
           jQuery('.advanced-settings-tab').click();
-          jQuery('#h1-mi').next().show();
-          location.hash = '#mi-id';
-          aiShowHeader('mi-id');
+		  jQuery('#id-advanced-modify-iframe').removeClass('closed');
+          location.hash = 'id-advanced-modify-iframe';
+           aiShowHeader('id-advanced-modify-iframe', 'tr-' + jQuery(this).data('detail'));   
           return false;
         });
+		
+        jQuery(document).on( 'click', '.id-modify-css-iframe-link', function() {
+          jQuery('.advanced-settings-tab').click();
+		  jQuery('#id-advanced-modify-iframe').removeClass('closed');
+          location.hash = 'id-modify-css-iframe';
+           aiShowHeader('id-advanced-modify-iframe', 'tr-' + jQuery(this).data('detail'));   
+          return false;
+        });
+		
+		 jQuery(document).on( 'click', '.modify-target', function() {
+          jQuery('.advanced-settings-tab').click();
+		  jQuery('#id-advanced-modify-iframe').removeClass('closed');
+          location.hash = 'id-modify-target';
+          aiShowHeader('id-advanced-modify-iframe', 'tr-' + jQuery(this).data('detail'));  
+          return false;
+        });
+
          jQuery(document).on( 'click', 'a.link-external-domain', function() {     
           jQuery('#id-external-different').removeClass('closed');
 		  location.hash = '#id-external-different';
+		  // no flash - 'id-external-different'
 		  aiShowHeader('id-external-different');
           return false;
         });
 		jQuery(document).on( 'click', 'a.link-id-external-ai-config-post', function() {
           jQuery('#id-external-ai-config-post').removeClass('closed');
 		  location.hash = '#id-external-ai-config-post';  
-		  aiShowHeader('id-external-ai-config-post');
+		  aiShowHeader('id-external-ai-config-post', 'tr-use_post_message');
           return false;
         });
 		jQuery(document).on( 'click', 'a.link-id-external-ai-overview', function() {
           jQuery('#id-external-ai-overview').removeClass('closed');
 		  location.hash = '#id-external-ai-overview';
-		  aiShowHeader('id-external-ai-overview');
+		  aiShowHeader('id-external-ai-overview', 'id-external-ai-overview');
+          return false;
+        });
+		jQuery(document).on( 'click', 'a.post-message-help-link', function() {
+          jQuery('.help-tab').click();
+          jQuery('#id-help-communication').removeClass('closed');
+		  location.hash = '#id-help-communication';
+          aiShowHeader('id-help-communication','id-help-communication');
+          return false;
+        });
+		
+		jQuery(document).on( 'click', 'a.enable-admin', function() {
+          jQuery('.options-tab').click();
+		  jQuery('#id-options-display').removeClass('closed');
+          location.hash = '#id-options-display';
+          aiShowHeader('id-options-display', 'tr-demo');    
           return false;
         });
 	
@@ -647,33 +701,12 @@ function aiInitAdminConfiguration(isPro, acc_type) {
       jQuery(document).on( 'click', '.ai-selector-help-link-move', function() {
           jQuery('#ai-selector-help').show('slow');
 		  location.hash = '#ai-selector-help-link';
-          aiShowHeader('ai-selector-help-link');   
-          return false;
-        });
-        jQuery(document).on( 'click', 'a.post-message-help-link', function() {
-          jQuery('.help-tab').click();
-          jQuery('#id-help-communication').removeClass('closed');
-		  location.hash = 'id-help-communication';
-          aiShowHeader('id-help-communication');
+          // no flash
+		  aiShowHeader('ai-selector-help-link');   
           return false;
         });
 
-      // check the open accordeon elements and write it to the hidden field
       jQuery('#ai_form').submit(function() {
-        // go over all divs which are not hidden and get the h1 before and get the id of this
-        var openSections = '';
-        jQuery('#accordion').find('div:visible').each(function() {
-          var $this = jQuery(this);
-          var open = $this.prev('h1').attr('id');
-          if (open !== undefined) {
-            if (openSections !== '') {
-              openSections += ',';
-            }
-            openSections += '#' + open;
-          }
-        });
-        // set the hidden variable
-        jQuery('#current_open_sections').val(openSections);
         aiSetScrollposition();
       });
 			
@@ -691,8 +724,128 @@ function aiInitAdminConfiguration(isPro, acc_type) {
           closeInfoPermanent('test-pro-admin');
     });
 	
+	 jQuery(document).on( 'click', '.mq-breakpoint-height a', function(evt) {
+	  jQuery(this).parent().remove();
+	  aiUpdateHeightHiddenField('height');
+	  evt.preventDefault();
+	  return false;
+	});
+	
+    jQuery(document).on( 'click', 'a#add-media-query-height', function(evt) {
+	  // count existing elements
+	  var nextNr =  jQuery(".mq-breakpoint-height").length + 1; 
+	  jQuery(this).parent().append('<div id="breakpoint-row-height-'+nextNr+'" class="mq-breakpoint-height">' + 
+	  '<input type="text" id="ai-height-' + nextNr + '" style="width:150px;margin-top:5px;"  onblur="aiCheckHeightNumber(this, \'height\');" placeholder="Insert height"/> &nbsp;Breakpoint: ' + 
+	  '<input type="text" id="ai-breakpoint-height-' +nextNr + '" style="width:130px;" onblur="aiCheckHeightNumber(this, \'height\');" placeholder="Insert breakpoint"/>' +
+	  '<a id="delete-media-query-'+nextNr+'" href="#" class="delete ai-delete">Delete</a>');  	   
+	  evt.preventDefault();
+	  return false;
+	});
+	
+    jQuery(document).on( 'click', '.mq-breakpoint-show_part_of_iframe_media_query a', function(evt) {
+	  jQuery(this).parent().remove();
+	  aiUpdateHeightHiddenFieldMediaQuery('show_part_of_iframe_media_query');
+	  evt.preventDefault();
+	  return false;
+	});
+	
+    jQuery(document).on( 'click', 'a#add-media-query-show_part_of_iframe_media_query', function(evt) {
+	  // count existing elements
+	  var nextNr =  jQuery(".mq-breakpoint-show_part_of_iframe_media_query").length + 1; 
+	  jQuery(this).parent().append('<div id="breakpoint-row-show_part_of_iframe_media_query-'+nextNr+'" class="mq-breakpoint-show_part_of_iframe_media_query">' + 
+	  'x: <input type="text" id="ai-x-show_part_of_iframe_media_query-' + nextNr + '" class="media-query-input" ' +
+	  ' onblur="aiCheckHeightNumberMediaQuery(this, \'show_part_of_iframe_media_query\');" placeholder="x"/>' +
+	  ' &nbsp;y: <input type="text" id="ai-y-show_part_of_iframe_media_query-' + nextNr + '" class="media-query-input" ' + 
+	  ' onblur="aiCheckHeightNumberMediaQuery(this, \'show_part_of_iframe_media_query\');" placeholder="y"/>'+
+	  ' &nbsp;w: <input type="text" id="ai-w-show_part_of_iframe_media_query-' + nextNr + '" class="media-query-input" ' + 
+	  ' onblur="aiCheckHeightNumberMediaQuery(this, \'show_part_of_iframe_media_query\');" placeholder="width"/>'+
+	  ' &nbsp;h: <input type="text" id="ai-h-show_part_of_iframe_media_query-' + nextNr + '" class="media-query-input" ' + 
+	  ' onblur="aiCheckHeightNumberMediaQuery(this, \'show_part_of_iframe_media_query\');" placeholder="height"/>'+
+	  ' &nbsp;iframe width: <input type="text" id="ai-i-show_part_of_iframe_media_query-' + nextNr + '" class="media-query-input" style="width:100px;" ' + 
+	  ' onblur="aiCheckHeightNumberMediaQuery(this, \'show_part_of_iframe_media_query\');" placeholder="iframe width"/>'+
+	  ' &nbsp;Breakpoint: <input type="text" id="ai-breakpoint-show_part_of_iframe_media_query-' +nextNr + '" class="media-query-input" style="width:130px;" ' + 
+	  ' onblur="aiCheckHeightNumberMediaQuery(this, \'show_part_of_iframe_media_query\');" placeholder="Insert breakpoint"/>' + 
+	  '<a id="delete-media-query-show_part_of_iframe_media_query-'+nextNr+'" href="#" class="delete ai-delete">Delete</a>');  	   
+	  evt.preventDefault();
+	  return false;
+	});		
+}
+
+function aiCheckHeightNumber(element, id) {
+	aiCheckInputNumber(element);
+	aiUpdateHeightHiddenField(id);
+}
+
+function aiCheckHeightNumberMediaQuery(element, id) {
+	aiCheckInputNumber(element);
+	aiUpdateHeightHiddenFieldMediaQuery(id);
+}
+
+
+function aiUpdateHeightHiddenField(id) {
+	var heightDefault = jQuery('#ai-'+id+'-0').val();
+	var breakpoints = [];
+	jQuery('.mq-breakpoint-'+id).each(function( index ) {
+      
+	   var heightChild = jQuery(this).children().eq(0).val();
+	   var breakpointChild = jQuery(this).children().eq(1).val();
+	   
+	   if (heightChild !== '' && breakpointChild !== '') { 
+		  breakpoints.push({
+             heightChild: heightChild,
+             breakpointChild: breakpointChild
+         });
+       }
+    });
+	
+	// we sort to have higher breakpoints first. Because of css cascading styles order is important
+	breakpoints.sort((a, b) => b.breakpointChild - a.breakpointChild);
+	
+	let output = heightDefault; 
+	breakpoints.forEach(element => output += ',' + element.heightChild + '|' + element.breakpointChild);
+	jQuery('#'+id).val(output);
+	const newVal = jQuery('#description-'+id).html().split('Shortcode attribute: ')[0];
+	jQuery('#description-'+id).html(newVal + 'Shortcode attribute: ' + id + '="' + output + '"');
 	
 }
+
+function aiUpdateHeightHiddenFieldMediaQuery(id) {
+	var breakpoints = [];
+	jQuery('.mq-breakpoint-'+id).each(function( index ) {
+      
+	   var mediaX = jQuery(this).children().eq(0).val();
+	   var mediaY = jQuery(this).children().eq(1).val();
+	   var mediaW = jQuery(this).children().eq(2).val();
+	   var mediaH = jQuery(this).children().eq(3).val(); 
+	   var mediaIW = jQuery(this).children().eq(4).val(); 
+	   var breakpointChild = jQuery(this).children().eq(5).val();
+	   
+	   if ((mediaX !== '' || mediaY !== '' || mediaW !== '' || mediaH !== '' || mediaIW !== '') &&
+ 	       breakpointChild !== '') { 
+		   breakpoints.push({
+             mediaX: mediaX,
+			 mediaY: mediaY,
+			 mediaW: mediaW,
+			 mediaH: mediaH,
+			 mediaIW: mediaIW,
+             breakpointChild: breakpointChild
+         });
+       }
+    });
+	
+	// we sort to have higher breakpoints first. Because of css cascading styles order is important
+	breakpoints.sort((a, b) => b.breakpointChild - a.breakpointChild);
+	
+	let output = '';
+	breakpoints.forEach(element => output += ',' + element.mediaX + '|' + element.mediaY + '|' + 
+	    element.mediaW + '|' + element.mediaH + '|' + element.mediaIW + '|' + element.breakpointChild);
+	output = output.replace(/(^,)|(,$)/g, "");
+	jQuery('#'+id).val(output);
+	// update description
+	const newVal = jQuery('#description-'+id).html().split('Shortcode attribute: ')[0];
+	jQuery('#description-'+id).html(newVal + 'Shortcode attribute: ' + id + '="' + output + '"');
+}
+
 		   
 function aiSettingsSearch(searchTerm, accType) {
  var found = 0;
@@ -899,6 +1052,7 @@ function aiGenerateShortcode(isPro) {
          output += aiGenerateTextShortcodeWithDefault('show_part_of_iframe_y',-1);
          output += aiGenerateTextShortcode('show_part_of_iframe_width');
          output += aiGenerateTextShortcode('show_part_of_iframe_height');
+		 output += aiGenerateTextShortcode('show_part_of_iframe_media_query');
          output += aiGenerateRadioShortcode('show_part_of_iframe_allow_scrollbar_horizontal','false');
          output += aiGenerateRadioShortcode('show_part_of_iframe_allow_scrollbar_vertical','false');
          output += aiGenerateTextShortcode('show_part_of_iframe_style');
@@ -1206,9 +1360,19 @@ function aiCheckInputNumberOnly(inputField) {
     }
 }
 // https://codepen.io/anon/pen/baaLYB/
-function aiShowHeader(id) {
+function aiShowHeader(id, element) {
   var y = jQuery(window).scrollTop();
   jQuery(window).scrollTop(y-40);
+  if (element !== undefined) {
+    aiFlashElement(element);
+  }
+}
+
+function aiFlashElement(element) {
+  setTimeout(function() { jQuery('#' +element).css('background-color','#eee'); } , 500); 
+  setTimeout(function() { jQuery('#' +element).css('background-color','#fff'); } , 900); 
+  setTimeout(function() { jQuery('#' +element).css('background-color','#eee'); } , 1300); 
+  setTimeout(function() { jQuery('#' +element).css('background-color','#fff'); } , 1700); 
 }
 
 function aiSetScrollposition() {
