@@ -21,11 +21,19 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="Custom Template for injecting custom style CSS">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="//royale.apache.org/blog-examples/BE0002_Using_Jewel_Alert_Control/BE0002_Using_Jewel_Alert_Control.min.css">
+    <link rel="stylesheet" type="text/css" href="BE0002_Using_Jewel_Alert_Control.min.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/dialog-polyfill/0.4.9/dialog-polyfill.min.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/dialog-polyfill/0.4.9/dialog-polyfill.min.js"></script>
-	<script type="text/javascript" src="//royale.apache.org/blog-examples/BE0002_Using_Jewel_Alert_Control/BE0002_Using_Jewel_Alert_Control.js"></script>
+<script type="text/javascript">
+ var script = document.createElement("script");
+ script.setAttribute("src", "https://cdnjs.cloudflare.com/ajax/libs/dialog-polyfill/0.4.9/dialog-polyfill.min.js");
+ document.head.appendChild(script)
+  var link = document.createElement("link");
+  link.setAttribute("rel", "stylesheet");
+  link.setAttribute("type", "text/css");
+  link.setAttribute("href", "https://cdnjs.cloudflare.com/ajax/libs/dialog-polyfill/0.4.9/dialog-polyfill.min.css");
+  document.head.appendChild(link);
+</script>
+	<script type="text/javascript" src="./BE0002_Using_Jewel_Alert_Control.js"></script>
 
 </head>
 <body>

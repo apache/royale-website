@@ -1,4 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!--
+
   Licensed to the Apache Software Foundation (ASF) under one or more
   contributor license agreements.  See the NOTICE file distributed with
   this work for additional information regarding copyright ownership.
@@ -13,25 +15,9 @@
   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
   See the License for the specific language governing permissions and
   limitations under the License.
+
 -->
-<!DOCTYPE html>
-<html>
-<head>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="Custom Template for injecting custom style CSS">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="BE0004_Adding_an_item_to_a_Jewel_List.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
-<script type="text/javascript">
-</script>
-	<script type="text/javascript" src="./BE0004_Adding_an_item_to_a_Jewel_List.js"></script>
-
-</head>
-<body>
-	<script type="text/javascript">
-		new BE0004_Adding_an_item_to_a_Jewel_List().start();
-	</script>
-
-</body>
-</html>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <path d="M90,10L10,10L10,90L90,90L90,10ZM80,20L20,20L20,80L80,80L80,20ZM62.065,32.096L37.537,57.059L25,44.915L25,75L75,75L75,44.521L62.065,32.096Z" style="fill:rgb(235,235,235);"/>
+</svg>
