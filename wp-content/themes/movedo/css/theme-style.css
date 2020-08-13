@@ -1213,10 +1213,6 @@ h6:last-child,
 	display: none;
 }
 
-::-webkit-calendar-picker-indicator {
-	background: none;
-}
-
 #grve-theme-wrapper .select2-choice {
 	padding: 10px 14px;
 }

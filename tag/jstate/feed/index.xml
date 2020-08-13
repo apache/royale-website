@@ -12,13 +12,13 @@
 	<atom:link href="//royale.apache.org/tag/jstate/feed/" rel="self" type="application/rss+xml" />
 	<link>//royale.apache.org/</link>
 	<description>Code once. Run everywhere</description>
-	<lastBuildDate>Sun, 15 Dec 2019 17:21:44 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 11 Aug 2020 10:56:51 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.4.2</generator>
+	<generator>https://wordpress.org/?v=5.5</generator>
 	<item>
 		<title>Using View States to show or hide content</title>
 		<link>//royale.apache.org/using-view-states-to-show-or-hide-content/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=using-view-states-to-show-or-hide-content</link>

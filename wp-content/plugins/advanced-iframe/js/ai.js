@@ -799,10 +799,12 @@ function aiUpdateHeightHiddenField(id) {
     });
 	
 	// we sort to have higher breakpoints first. Because of css cascading styles order is important
-	breakpoints.sort((a, b) => b.breakpointChild - a.breakpointChild);
-	
+	breakpoints.sort(function(a, b) { 
+	    return b.breakpointChild - a.breakpointChild; 
+	});
+
 	let output = heightDefault; 
-	breakpoints.forEach(element => output += ',' + element.heightChild + '|' + element.breakpointChild);
+	breakpoints.forEach(function(element) { output += ',' + element.heightChild + '|' + element.breakpointChild; });
 	jQuery('#'+id).val(output);
 	const newVal = jQuery('#description-'+id).html().split('Shortcode attribute: ')[0];
 	jQuery('#description-'+id).html(newVal + 'Shortcode attribute: ' + id + '="' + output + '"');
@@ -834,11 +836,13 @@ function aiUpdateHeightHiddenFieldMediaQuery(id) {
     });
 	
 	// we sort to have higher breakpoints first. Because of css cascading styles order is important
-	breakpoints.sort((a, b) => b.breakpointChild - a.breakpointChild);
+	breakpoints.sort(function(a, b) { 
+	    return b.breakpointChild - a.breakpointChild; 
+	});
 	
 	let output = '';
-	breakpoints.forEach(element => output += ',' + element.mediaX + '|' + element.mediaY + '|' + 
-	    element.mediaW + '|' + element.mediaH + '|' + element.mediaIW + '|' + element.breakpointChild);
+	breakpoints.forEach(function(element) { output += ',' + element.mediaX + '|' + element.mediaY + '|' + 
+	element.mediaW + '|' + element.mediaH + '|' + element.mediaIW + '|' + element.breakpointChild });
 	output = output.replace(/(^,)|(,$)/g, "");
 	jQuery('#'+id).val(output);
 	// update description

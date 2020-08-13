@@ -12,13 +12,13 @@
 	<atom:link href="//royale.apache.org/tag/j-horizontalcenteredlayout/feed/" rel="self" type="application/rss+xml" />
 	<link>//royale.apache.org/</link>
 	<description>Code once. Run everywhere</description>
-	<lastBuildDate>Mon, 16 Dec 2019 12:56:16 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 11 Aug 2020 11:13:34 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.4.2</generator>
+	<generator>https://wordpress.org/?v=5.5</generator>
 	<item>
 		<title>Dividing an Apache Royale application with modules</title>
 		<link>//royale.apache.org/dividing-an-apache-royale-application-with-modules/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=dividing-an-apache-royale-application-with-modules</link>

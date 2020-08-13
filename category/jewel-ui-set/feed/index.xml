@@ -12,14 +12,45 @@
 	<atom:link href="//royale.apache.org/category/jewel-ui-set/feed/" rel="self" type="application/rss+xml" />
 	<link>//royale.apache.org/</link>
 	<description>Code once. Run everywhere</description>
-	<lastBuildDate>Mon, 30 Mar 2020 13:19:06 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 13 Aug 2020 14:25:00 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.4.2</generator>
+	<generator>https://wordpress.org/?v=5.5</generator>
 	<item>
+		<title>Using Jewel TileHorizontalLayout</title>
+		<link>//royale.apache.org/using-jewel-tilehorizontallayout/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=using-jewel-tilehorizontallayout</link>
+					<comments>//royale.apache.org/using-jewel-tilehorizontallayout/#respond</comments>
+		
+		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
+		<pubDate>Tue, 11 Aug 2020 18:53:29 +0000</pubDate>
+				<category><![CDATA[Jewel UI Set]]></category>
+		<category><![CDATA[Royale Examples]]></category>
+		<category><![CDATA[j:Application]]></category>
+		<category><![CDATA[j:Card]]></category>
+		<category><![CDATA[j:Container]]></category>
+		<category><![CDATA[j:FontIcon]]></category>
+		<category><![CDATA[j:HorizontalCenteredLayout]]></category>
+		<category><![CDATA[j:Label]]></category>
+		<category><![CDATA[j:ToggleButton]]></category>
+		<category><![CDATA[j:UIGraphicsBase]]></category>
+		<category><![CDATA[MaterialIconType]]></category>
+		<category><![CDATA[svg:Image]]></category>
+		<category><![CDATA[svg:Rect]]></category>
+		<guid isPermaLink="false">//royale.apache.org/?p=16371</guid>
+
+					<description><![CDATA[<p>This example shows how to use the Jewel TileHorizontalLayout in Jewel components and data-based containers to arrange child elements as tiles.</p>
+<p>The post <a rel="nofollow" href="//royale.apache.org/using-jewel-tilehorizontallayout/">Using Jewel TileHorizontalLayout</a> appeared first on <a rel="nofollow" href="//royale.apache.org/">Apache Royale™</a>.</p>
+]]></description>
+		
+					<wfw:commentRss>//royale.apache.org/using-jewel-tilehorizontallayout/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Working with vector graphics</title>
 		<link>//royale.apache.org/working-with-vector-graphics/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=working-with-vector-graphics</link>
 					<comments>//royale.apache.org/working-with-vector-graphics/#respond</comments>
@@ -261,32 +292,6 @@
 ]]></description>
 		
 					<wfw:commentRss>//royale.apache.org/selecting-options-from-a-group-of-jewel-checkbox-controls/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Binding the text property of a Jewel TextInput to update a text Label</title>
-		<link>//royale.apache.org/binding-the-text-property-of-a-jewel-textinput-to-update-a-text-label/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=binding-the-text-property-of-a-jewel-textinput-to-update-a-text-label</link>
-					<comments>//royale.apache.org/binding-the-text-property-of-a-jewel-textinput-to-update-a-text-label/#respond</comments>
-		
-		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
-		<pubDate>Tue, 08 May 2018 22:31:29 +0000</pubDate>
-				<category><![CDATA[Jewel UI Set]]></category>
-		<category><![CDATA[Royale Examples]]></category>
-		<category><![CDATA[Binding]]></category>
-		<category><![CDATA[j:Application]]></category>
-		<category><![CDATA[j:Button]]></category>
-		<category><![CDATA[j:TextInput]]></category>
-		<category><![CDATA[j:TextPrompt]]></category>
-		<category><![CDATA[j:View]]></category>
-		<guid isPermaLink="false">//royale.apache.org/?p=15724</guid>
-
-					<description><![CDATA[<p>Learn how to change a Label's text with a Jewel TextInput using both a change event and data binding.</p>
-<p>The post <a rel="nofollow" href="//royale.apache.org/binding-the-text-property-of-a-jewel-textinput-to-update-a-text-label/">Binding the text property of a Jewel TextInput to update a text Label</a> appeared first on <a rel="nofollow" href="//royale.apache.org/">Apache Royale™</a>.</p>
-]]></description>
-		
-					<wfw:commentRss>//royale.apache.org/binding-the-text-property-of-a-jewel-textinput-to-update-a-text-label/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

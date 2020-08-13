@@ -12,13 +12,13 @@
 	<atom:link href="//royale.apache.org/tag/horizontalcenteredlayout/feed/" rel="self" type="application/rss+xml" />
 	<link>//royale.apache.org/</link>
 	<description>Code once. Run everywhere</description>
-	<lastBuildDate>Mon, 16 Dec 2019 12:58:09 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 11 Aug 2020 10:57:49 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.4.2</generator>
+	<generator>https://wordpress.org/?v=5.5</generator>
 	<item>
 		<title>Using an Item Renderer with a List</title>
 		<link>//royale.apache.org/using-an-item-renderer-with-a-list/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=using-an-item-renderer-with-a-list</link>
