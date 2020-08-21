@@ -3,7 +3,7 @@
 "baseInterfaceNames": [
 "org.apache.royale.core.IBead"]
 ,
-    "description": "The IDataProviderNotifier interface is a \\&quot;marker\\&quot; interface for beads that manage that dispatch events when data providers change.  A marker interface has no addtional APIs. It is used to find the notifier bead on the strand via calls to getBeadByType.",
+    "description": "The IDataProviderNotifier interface is a &quot;marker&quot; interface for beads that manage that dispatch events when data providers change.  A marker interface has no addtional APIs. It is used to find the notifier bead on the strand via calls to getBeadByType.",
   "tags": [
   {  "tagName": "see",
          "values": ["org.apache.royale.core.IStrand#getBeadByType"]},

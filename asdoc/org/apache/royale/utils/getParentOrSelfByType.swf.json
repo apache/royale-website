@@ -11,7 +11,9 @@
       {  "tagName": "productversion",
          "values": ["Royale 0.9"]},
       {  "tagName": "langversion",
-         "values": ["3.0"]}  ],
+         "values": ["3.0"]},
+      {  "tagName": "royalesuppressexport",
+         "values": []}  ],
     "return": "Object",
     "params": [{ "name": "startChild", "type": "org.apache.royale.core.IChild"},
   { "name": "classOrInterface", "type": "Class"}]}

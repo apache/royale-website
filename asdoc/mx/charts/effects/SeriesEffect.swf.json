@@ -2,7 +2,7 @@
   "qname": "mx.charts.effects.SeriesEffect",
   "baseClassname": "mx.effects.TweenEffect"
   ,
-    "description": "The base class for chart effects.   <p>The <code>&lt;mx:SeriesEffect&gt;</code> tag inherits the tag attributes of its superclass, and adds the following tag attributes:</p>  <pre> &lt;mx:<i>tagname</i> <strong>Properties</strong> elementOffset=\\&quot;20\\&quot; minimumElementDuration=\\&quot;0\\&quot; offset=\\&quot;0\\&quot; type=\\&quot;show|hide <i>(Default value is set by chart)</i>\\&quot; &gt; </pre>",
+    "description": "The base class for chart effects.   <p>The <code>&lt;mx:SeriesEffect&gt;</code> tag inherits the tag attributes of its superclass, and adds the following tag attributes:</p>  <pre>\\n &lt;mx:<i>tagname</i>\\n <strong>Properties</strong>\\n elementOffset=&quot;20&quot;\\n minimumElementDuration=&quot;0&quot;\\n offset=&quot;0&quot;\\n type=&quot;show|hide <i>(Default value is set by chart)</i>&quot;\\n &gt;\\n </pre>",
   "tags": [
   {  "tagName": "mxml",
          "values": []},

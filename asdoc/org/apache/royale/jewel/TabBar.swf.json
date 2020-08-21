@@ -27,5 +27,21 @@
                "values": ["3.0"]}  ],
           "return": "",
           "params": []}
-      ]
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "Boolean",
+        "qname": "sameWidths",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Assigns variable gap to grid from 1 to 20 Activate &quot;gap-Xdp&quot; effect selector to set a numeric gap between grid cells",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.8"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
   }

@@ -1,6 +1,6 @@
 { "type": "class",
   "qname": "org.apache.royale.html.beads.models.ViewportModel",
-  "baseClassname": "org.apache.royale.events.EventDispatcher"
+  "baseClassname": "org.apache.royale.core.DispatcherBead"
   ,
     "description": "",
   "tags": [
@@ -39,13 +39,5 @@
           "description": "",
         "tags": [
         {  "tagName": "copy",
-               "values": ["org.apache.royale.core.IViewportModel"]}  ]},
-      { "type": "accessor",
-        "access": "write-only",
-        "return": "org.apache.royale.core.IStrand",
-        "qname": "strand",
-        "namespace": "public",
-        "bindable": [],
-        "details": [],
-        "deprecated": {}}]
+               "values": ["org.apache.royale.core.IViewportModel"]}  ]}]
   }

@@ -1,0 +1,15 @@
+{ "type": "class",
+  "qname": "org.apache.royale.svg.elements.Ellipse",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.svg.elements.Ellipse",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ]
+  }

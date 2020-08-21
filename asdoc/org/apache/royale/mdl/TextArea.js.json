@@ -2,7 +2,7 @@
   "qname": "org.apache.royale.mdl.TextArea",
   "baseClassname": "org.apache.royale.mdl.supportClasses.TextFieldBase"
   ,
-    "description": "The TextArea is a multiline input components.  The Material Design Lite (MDL) text area component is an enhanced version of the standard HTML <input type=\\&quot;textarea\\&quot;> elements. A text area consists of a horizontal line indicating where keyboard input can occur and, typically, text that clearly communicates the intended contents of the text area. The MDL text area component provides various types of text fields, and allows you to add both display and click effects.  To get more functionaluty in TextArea you can use beads to float a label or have a prompt for example.",
+    "description": "The TextArea is a multiline input components.  The Material Design Lite (MDL) text area component is an enhanced version of the standard HTML <input type=&quot;textarea&quot;> elements. A text area consists of a horizontal line indicating where keyboard input can occur and, typically, text that clearly communicates the intended contents of the text area. The MDL text area component provides various types of text fields, and allows you to add both display and click effects.  To get more functionaluty in TextArea you can use beads to float a label or have a prompt for example.",
   "tags": [
   {  "tagName": "playerversion",
          "values": ["Flash 10.2", "AIR 2.6"]},

@@ -3,7 +3,7 @@
 "baseInterfaceNames": [
 "org.apache.royale.core.IBead"]
 ,
-    "description": "The IBeadLayout interface is a \\&quot;marker\\&quot; interface for beads that manage the layout for a control.  A marker interface has no addtional APIs. It is used to find the layout bead on the strand via calls to getBeadByType.",
+    "description": "The IBeadLayout interface is a &quot;marker&quot; interface for beads that manage the layout for a control.  A marker interface has no addtional APIs. It is used to find the layout bead on the strand via calls to getBeadByType.",
   "tags": [
   {  "tagName": "see",
          "values": ["org.apache.royale.core.IStrand#getBeadByType"]},

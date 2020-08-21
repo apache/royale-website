@@ -1,6 +1,6 @@
 { "type": "class",
   "qname": "org.apache.royale.html.accessories.NumericOnlyTextInputBead",
-  "baseClassname": ""
+  "baseClassname": "org.apache.royale.core.Bead"
   ,
     "description": "The NumericOnlyTextInputBead class is a specialty bead that can be used with any TextInput control. The bead prevents non-numeric entry into the text input area.",
   "tags": [
@@ -34,7 +34,7 @@
         "qname": "strand",
         "namespace": "public",
         "bindable": [],
-        "details": [],
+        "details": ["override"],
         "deprecated": {},
           "description": "",
         "tags": [
@@ -45,7 +45,7 @@
             {  "tagName": "productversion",
                "values": ["Royale 0.8"]},
             {  "tagName": "royaleignorecoercion",
-               "values": ["org.apache.royale.core.UIBase"]},
+               "values": ["org.apache.royale.core.IRenderedObject"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]},
       { "type": "accessor",

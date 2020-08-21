@@ -225,7 +225,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Finds the closest data point represented by the element under the given coordinates.  <p>This method returns either an array of  HitData structures describing the datapoints within range. Individual ChartElements may choose to only return a single dataPoint if their dataPoints are guaranteed not to overlap.</p>    to the exact coordinates to be considered \\&quot;under\\&quot;. This property is similar to the value of the mouseSensitivity property of the chart control.",
+          "description": "Finds the closest data point represented by the element under the given coordinates.  <p>This method returns either an array of  HitData structures describing the datapoints within range. Individual ChartElements may choose to only return a single dataPoint if their dataPoints are guaranteed not to overlap.</p>    to the exact coordinates to be considered &quot;under&quot;. This property is similar to the value of the mouseSensitivity property of the chart control.",
         "tags": [
         {  "tagName": "param",
                "values": ["x The X coordinate.", "y The Y coordinate.", "sensitivity2 How close, in pixels, the pointer must be"]},

@@ -46,7 +46,7 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Registers an ActionScript method as callable from the container. After a successful invocation of addCallBack(), the registered function in the player can be called by JavaScript.  The JavaScript needs to obtain the appopriate element (set via <code>objectID</code> and then call the function as a property of this element. For example if <code>addCallback</code> has been called with <code>functionName>/code> set to \\&quot;myFunction\\&quot;, the call can be made by: <code>document.getElementById(\\&quot;ExternalInterface\\&quot;).myFunction(args);</code>",
+          "description": "Registers an ActionScript method as callable from the container. After a successful invocation of addCallBack(), the registered function in the player can be called by JavaScript.  The JavaScript needs to obtain the appopriate element (set via <code>objectID</code> and then call the function as a property of this element. For example if <code>addCallback</code> has been called with <code>functionName>/code> set to &quot;myFunction&quot;, the call can be made by: <code>document.getElementById(&quot;ExternalInterface&quot;).myFunction(args);</code>",
         "tags": [
         {  "tagName": "param",
                "values": ["functionName The name by which the browser can invoke the function.", "closure The function closure to invoke."]},

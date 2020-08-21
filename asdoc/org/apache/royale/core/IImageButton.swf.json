@@ -1,0 +1,13 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.core.IImageButton",
+"baseInterfaceNames": [
+"org.apache.royale.core.IHasImage"]
+,
+    "description": "The IImageButton interface describes the minimum set of properties available to an ImageButton control.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.8"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ]}

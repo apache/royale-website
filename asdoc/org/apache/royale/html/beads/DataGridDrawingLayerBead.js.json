@@ -39,7 +39,9 @@
           "description": "",
         "tags": [
         {  "tagName": "private",
-               "values": []}  ]},
+               "values": []},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.IParent"]}  ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "org.apache.royale.core.UIBase",

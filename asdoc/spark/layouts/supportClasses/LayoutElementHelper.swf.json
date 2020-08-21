@@ -34,7 +34,7 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "can be a Number, or a string in the format \\&quot;col1:10\\&quot;.",
+          "description": "can be a Number, or a string in the format &quot;col1:10&quot;.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10", "AIR 1.5"]},

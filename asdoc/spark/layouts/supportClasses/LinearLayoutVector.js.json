@@ -2,7 +2,7 @@
   "qname": "spark.layouts.supportClasses.LinearLayoutVector",
   "baseClassname": ""
   ,
-    "description": "A sparse array of \\&quot;major dimension\\&quot; sizes that represent VerticalLayout item heights or HorizontalLayout item widths, and the current \\&quot;minor dimension\\&quot; maximum size.  Provides efficient support for finding the cumulative distance to the start/end of an item along the major axis, and similarly for finding the index of the item at a particular distance.  Default major/minor sizes is used for items whose size hasn't been specified.",
+    "description": "A sparse array of &quot;major dimension&quot; sizes that represent VerticalLayout item heights or HorizontalLayout item widths, and the current &quot;minor dimension&quot; maximum size.  Provides efficient support for finding the cumulative distance to the start/end of an item along the major axis, and similarly for finding the index of the item at a particular distance.  Default major/minor sizes is used for items whose size hasn't been specified.",
   "tags": [
   {  "tagName": "private",
          "values": []},
@@ -306,7 +306,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The cumulative distance to the start of the item at index, including the gaps between items and the majorAxisOffset.  The value of start(0) is majorAxisOffset.  Equivalent to: <pre> var distance:Number = majorAxisOffset; for (var i:int = 0; i &lt; index; i++) distance += get(i); return distance + (gap * index); </pre>  The actual implementation is relatively efficient.",
+          "description": "The cumulative distance to the start of the item at index, including the gaps between items and the majorAxisOffset.  The value of start(0) is majorAxisOffset.  Equivalent to: <pre>\\n var distance:Number = majorAxisOffset;\\n for (var i:int = 0; i &lt; index; i++)\\n distance += get(i);\\n return distance + (gap * index);\\n </pre>  The actual implementation is relatively efficient.",
         "tags": [
         {  "tagName": "see",
                "values": ["#end"]},
@@ -387,7 +387,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Returns the implict bounds of the item at index.  The bounds do not include the gap that follows the item.  If majorAxis is VERTICAL then the returned value is equivalent to: <pre> new Rectangle(0, start(index), major, minor) </pre>  If majorAxis is HORIZONTAL then the returned value is equivalent to: <pre> new Rectangle(start(index), 0, minor, major) </pre>",
+          "description": "Returns the implict bounds of the item at index.  The bounds do not include the gap that follows the item.  If majorAxis is VERTICAL then the returned value is equivalent to: <pre>\\n new Rectangle(0, start(index), major, minor)\\n </pre>  If majorAxis is HORIZONTAL then the returned value is equivalent to: <pre>\\n new Rectangle(start(index), 0, minor, major)\\n </pre>",
         "tags": [
         {  "tagName": "param",
                "values": ["index The item's index.", "bounds The Rectangle to return or null for a new Rectangle"]},

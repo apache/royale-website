@@ -1,8 +1,8 @@
 { "type": "class",
   "qname": "org.apache.royale.utils.ViewSourceContextMenuOption",
-  "baseClassname": ""
+  "baseClassname": "org.apache.royale.core.Bead"
   ,
-    "description": "The ViewSourceContextMenuOption class is a class that implements the \\&quot;View Source\\&quot; option in Flash for a Royale application.  There is no JS equivalent as browsers always display source.",
+    "description": "The ViewSourceContextMenuOption class is a class that implements the &quot;View Source&quot; option in Flash for a Royale application.  There is no JS equivalent as browsers always display source.",
   "tags": [
   {  "tagName": "playerversion",
          "values": ["Flash 10.2", "AIR 2.6"]},
@@ -34,7 +34,7 @@
         "qname": "strand",
         "namespace": "public",
         "bindable": [],
-        "details": [],
+        "details": ["override"],
         "deprecated": {},
           "description": "",
         "tags": [

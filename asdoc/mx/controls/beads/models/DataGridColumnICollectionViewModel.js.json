@@ -1,0 +1,47 @@
+{ "type": "class",
+  "qname": "mx.controls.beads.models.DataGridColumnICollectionViewModel",
+  "baseClassname": "mx.controls.beads.models.SingleSelectionICollectionViewModel"
+  ,
+    "description": "The DataGridColumnICollectionViewModel class is a selection model for AdvancedDataGridColumn which helps managing labelFunction",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.7"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.controls.beads.models.DataGridColumnICollectionViewModel",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.7"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "int",
+        "qname": "columnIndex",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Indication to columnIndex",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.7"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  }

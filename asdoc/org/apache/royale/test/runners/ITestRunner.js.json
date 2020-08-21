@@ -1,5 +1,9 @@
 { "type": "interface",
   "qname": "org.apache.royale.test.runners.ITestRunner",
+    "description": "An interface for test runner implementations, such as <code>MetadataRunner</code> and <code>SuiteRunner</code>.",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["org.apache.royale.test.runners.MetadataRunner", "org.apache.royale.test.runners.SuiteRunner"]}  ],
   "members": [
   { "type": "accessor",
     "access": "read-only",

@@ -433,7 +433,7 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Provides a description of the operation specified. This method is used in <code>toString()</code> operations on this message.    <code><pre> var msg:CommandMessage = CommandMessage(event.message); trace(\\&quot;Current operation -'\\&quot;+ CommandMessage.getOperationAsString(msg.operation)+ \\&quot;'.\\&quot;); </pre></code>",
+          "description": "Provides a description of the operation specified. This method is used in <code>toString()</code> operations on this message.    <code><pre>\\n var msg:CommandMessage = CommandMessage(event.message);\\n trace(&quot;Current operation -'&quot;+\\n CommandMessage.getOperationAsString(msg.operation)+ &quot;'.&quot;);\\n </pre></code>",
         "tags": [
         {  "tagName": "param",
                "values": ["op One of the CommandMessage operation constants."]},

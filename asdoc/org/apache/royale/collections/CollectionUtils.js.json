@@ -55,7 +55,7 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Tries to find the object or the propertyId in a collection and returns the index if found. The comparison is based on 'id' Supports nulls in property object and returns -1 For use with List components in bindings with \\&quot;selectedIndex\\&quot;",
+          "description": "Tries to find the object or the propertyId in a collection and returns the index if found. The comparison is based on 'id' Supports nulls in property object and returns -1 For use with List components in bindings with &quot;selectedIndex&quot;",
         "tags": [
         {  "tagName": "param",
                "values": ["collection a <code>ICollectionView</code> dataprovider where we need to look for", "obj an <code>Object</code> with a subproperty used for comparison", "property the <code>String</code> name of the subproperty. This could be an Object with an id or directly a propertyId"]},

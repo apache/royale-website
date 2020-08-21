@@ -3,7 +3,7 @@
 "baseInterfaceNames": [
 "org.apache.royale.core.IParent"]
 ,
-    "description": "This interface is implemented by components that provide access to \\&quot;behind the scenes\\&quot; children that are not accessible through the addElement()/removeElement() APIs.",
+    "description": "This interface is implemented by components that provide access to &quot;behind the scenes&quot; children that are not accessible through the addElement()/removeElement() APIs.",
   "tags": [
   {  "tagName": "playerversion",
          "values": ["Flash 10.2", "AIR 2.6"]},

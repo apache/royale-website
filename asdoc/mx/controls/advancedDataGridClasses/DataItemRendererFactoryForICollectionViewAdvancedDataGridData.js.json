@@ -1,6 +1,6 @@
 { "type": "class",
   "qname": "mx.controls.advancedDataGridClasses.DataItemRendererFactoryForICollectionViewAdvancedDataGridData",
-  "baseClassname": "org.apache.royale.html.beads.VirtualDataItemRendererFactoryForArrayData"
+  "baseClassname": "org.apache.royale.html.beads.VirtualDataItemRendererFactoryBase"
   ,
     "description": "The DataItemRendererFactoryForHierarchicalData class reads a HierarchicalData object and creates an item renderer for every item in the array.  Other implementations of IDataProviderItemRendererMapper map different data structures or manage a virtual set of renderers.",
   "tags": [
@@ -28,50 +28,13 @@
           "return": "",
           "params": []}
       ,
-      { "type": "accessor",
-        "access": "write-only",
-        "return": "org.apache.royale.core.IStrand",
-        "qname": "strand",
+      { "type": "method",
+        "qname": "getItemAt",
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
-          "description": "",
-        "tags": [
-        {  "tagName": "playerversion",
-               "values": ["Flash 10.2", "AIR 2.6"]},
-            {  "tagName": "copy",
-               "values": ["org.apache.royale.core.IBead#strand"]},
-            {  "tagName": "productversion",
-               "values": ["Royale 0.0"]},
-            {  "tagName": "langversion",
-               "values": ["3.0"]}  ]},
-      { "type": "method",
-        "qname": "setData",
-        "namespace": "protected",
-        "bindable": [],
-        "details": [],
-        "deprecated": {},
-          "description": "Sets the itemRenderer's data with additional tree-related data.",
-        "tags": [
-        {  "tagName": "playerversion",
-               "values": ["Flash 10.2", "AIR 2.6"]},
-            {  "tagName": "productversion",
-               "values": ["Royale 0.0"]},
-            {  "tagName": "langversion",
-               "values": ["3.0"]}  ],
-          "return": "void",
-          "params": [{ "name": "ir", "type": "org.apache.royale.core.ISelectableItemRenderer"},
-        { "name": "data", "type": "Object"},
-        { "name": "index", "type": "int"}]}
-      ,
-      { "type": "method",
-        "qname": "getItemRendererForIndex",
-        "namespace": "public",
-        "bindable": [],
-        "details": ["override"],
-        "deprecated": {},
-          "description": "Get an item renderer for a given index.",
+          "description": "Get a item for a given index.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -81,13 +44,7 @@
                "values": ["org.apache.royale.core.IStrandWithModelView", "org.apache.royale.html.beads.IListView"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ],
-          "return": "org.apache.royale.core.ISelectableItemRenderer",
-          "params": [{ "name": "index", "type": "int"},
-        { "name": "elementIndex", "type": "int"}]}
+          "return": "Object",
+          "params": [{ "name": "index", "type": "int"}]}
       ]
-  ,
-  "events": [
-  { "qname": "itemRendererCreated",
-        "type": "org.apache.royale.events.ItemRendererEvent"
-      }]
   }

@@ -1,0 +1,74 @@
+{ "type": "class",
+  "qname": "mx.rpc.xml.SchemaLoader",
+  "baseClassname": "mx.rpc.xml.XMLLoader"
+  ,
+    "description": "Manages the loading of an XML Schema at runtime, including all imports and includes.",
+  "tags": [
+  {  "tagName": "private",
+         "values": []}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.rpc.xml.SchemaLoader",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": [{ "name": "httpService", "type": "mx.rpc.http.HTTPService"}]}
+      ,
+      { "type": "method",
+        "qname": "load",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "Asynchronously loads an XSD Schema for a given URL including any XSD imports and includes.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "void",
+          "params": [{ "name": "url", "type": "String"}]}
+      ,
+      { "type": "method",
+        "qname": "schemaImports",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "schema", "type": "mx.rpc.xml.Schema"},
+        { "name": "parentLocation", "type": "String"},
+        { "name": "schemaManager", "type": "mx.rpc.xml.SchemaManager"}]}
+      ,
+      { "type": "method",
+        "qname": "schemaIncludes",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "schema", "type": "mx.rpc.xml.Schema"},
+        { "name": "parentLocation", "type": "String"}]}
+      ,
+      { "type": "method",
+        "qname": "resultHandler",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "event", "type": "mx.rpc.events.ResultEvent"}]}
+      ]
+  ,
+  "events": [
+  { "qname": "fault",
+        "type": "mx.rpc.events.FaultEvent"
+      },
+      { "qname": "schemaLoad",
+        "type": "mx.rpc.events.SchemaLoadEvent"
+      }]
+  }

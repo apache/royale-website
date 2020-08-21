@@ -2,7 +2,7 @@
   "qname": "org.apache.royale.textLayout.formats.BorderColor",
   "baseClassname": ""
   ,
-    "description": "Defines a constant for specifying that the value of the <code>borderColor</code> property of the <code>TextLayoutFormat</code> class is \\&quot;transparent\\&quot;.",
+    "description": "Defines a constant for specifying that the value of the <code>borderColor</code> property of the <code>TextLayoutFormat</code> class is &quot;transparent&quot;.",
   "tags": [
   {  "tagName": "see",
          "values": ["org.apache.royale.textLayout.formats.TextLayoutFormat#borderColor TextLayoutFormat.borderColor"]},

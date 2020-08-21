@@ -43,7 +43,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A boolean flag to activate \\&quot;mdl-cell--N-col\\&quot; effect selector. Sets the column size for the cell to N. N is 1-12 inclusive. Defaults to 4. Optional on \\&quot;inner\\&quot; div elements",
+          "description": "A boolean flag to activate &quot;mdl-cell--N-col&quot; effect selector. Sets the column size for the cell to N. N is 1-12 inclusive. Defaults to 4. Optional on &quot;inner&quot; div elements",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -66,7 +66,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A boolean flag to activate \\&quot;mdl-cell--N-col-desktop\\&quot; effect selector. Sets the column size for the cell to N in desktop mode only. N is 1-12 inclusive. Optional on \\&quot;inner\\&quot; div elements",
+          "description": "A boolean flag to activate &quot;mdl-cell--N-col-desktop&quot; effect selector. Sets the column size for the cell to N in desktop mode only. N is 1-12 inclusive. Optional on &quot;inner&quot; div elements",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -89,7 +89,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A boolean flag to activate \\&quot;mdl-cell--N-col-tablet\\&quot; effect selector. Sets the column size for the cell to N in tablet mode only. N is 1-8 inclusive. Optional on \\&quot;inner\\&quot; div elements",
+          "description": "A boolean flag to activate &quot;mdl-cell--N-col-tablet&quot; effect selector. Sets the column size for the cell to N in tablet mode only. N is 1-8 inclusive. Optional on &quot;inner&quot; div elements",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -112,7 +112,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A boolean flag to activate \\&quot;mdl-cell--N-col-phone\\&quot; effect selector. Sets the column size for the cell to N in phone mode only. N is 1-4 inclusive. Optional on \\&quot;inner\\&quot; div elements",
+          "description": "A boolean flag to activate &quot;mdl-cell--N-col-phone&quot; effect selector. Sets the column size for the cell to N in phone mode only. N is 1-4 inclusive. Optional on &quot;inner&quot; div elements",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -135,7 +135,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A boolean flag to activate \\&quot;mdl-cell--N-offset\\&quot; effect selector. Adds N columns of whitespace before the cell. N is 1-11 inclusive. Optional on \\&quot;inner\\&quot; div elements",
+          "description": "A boolean flag to activate &quot;mdl-cell--N-offset&quot; effect selector. Adds N columns of whitespace before the cell. N is 1-11 inclusive. Optional on &quot;inner&quot; div elements",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -158,7 +158,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A boolean flag to activate \\&quot;mdl-cell--N-offset-desktop\\&quot; effect selector. Adds N columns of whitespace before the cell in desktop mode. N is 1-11 inclusive. Optional on \\&quot;inner\\&quot; div elements",
+          "description": "A boolean flag to activate &quot;mdl-cell--N-offset-desktop&quot; effect selector. Adds N columns of whitespace before the cell in desktop mode. N is 1-11 inclusive. Optional on &quot;inner&quot; div elements",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -181,7 +181,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A boolean flag to activate \\&quot;mdl-cell--N-offset-tablet\\&quot; effect selector. Adds N columns of whitespace before the cell in tablet mode. N is 1-11 inclusive. Optional on \\&quot;inner\\&quot; div elements",
+          "description": "A boolean flag to activate &quot;mdl-cell--N-offset-tablet&quot; effect selector. Adds N columns of whitespace before the cell in tablet mode. N is 1-11 inclusive. Optional on &quot;inner&quot; div elements",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -204,7 +204,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A boolean flag to activate \\&quot;mdl-cell--N-offset-phone\\&quot; effect selector. Adds N columns of whitespace before the cell in phone mode. N is 1-11 inclusive. Optional on \\&quot;inner\\&quot; div elements",
+          "description": "A boolean flag to activate &quot;mdl-cell--N-offset-phone&quot; effect selector. Adds N columns of whitespace before the cell in phone mode. N is 1-11 inclusive. Optional on &quot;inner&quot; div elements",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -227,7 +227,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A boolean flag to activate \\&quot;mdl-cell--order-N\\&quot; effect selector. Reorders cell to position N. N is 1-12 inclusive; optional on \\&quot;inner\\&quot; div elements",
+          "description": "A boolean flag to activate &quot;mdl-cell--order-N&quot; effect selector. Reorders cell to position N. N is 1-12 inclusive; optional on &quot;inner&quot; div elements",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -250,7 +250,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A boolean flag to activate \\&quot;mdl-cell--order-N-desktop\\&quot; effect selector. Reorders cell to position N when in desktop mode. N is 1-12 inclusive; optional on \\&quot;inner\\&quot; div elements",
+          "description": "A boolean flag to activate &quot;mdl-cell--order-N-desktop&quot; effect selector. Reorders cell to position N when in desktop mode. N is 1-12 inclusive; optional on &quot;inner&quot; div elements",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -273,7 +273,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A boolean flag to activate \\&quot;mdl-cell--order-N-tablet\\&quot; effect selector. Reorders cell to position N when in tablet mode. N is 1-12 inclusive; optional on \\&quot;inner\\&quot; div elements",
+          "description": "A boolean flag to activate &quot;mdl-cell--order-N-tablet&quot; effect selector. Reorders cell to position N when in tablet mode. N is 1-12 inclusive; optional on &quot;inner&quot; div elements",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -296,7 +296,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A boolean flag to activate \\&quot;mdl-cell--order-N-phone\\&quot; effect selector. Reorders cell to position N when in phone mode. N is 1-12 inclusive; optional on \\&quot;inner\\&quot; div elements",
+          "description": "A boolean flag to activate &quot;mdl-cell--order-N-phone&quot; effect selector. Reorders cell to position N when in phone mode. N is 1-12 inclusive; optional on &quot;inner&quot; div elements",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -319,7 +319,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A boolean flag to activate \\&quot;mdl-cell--hide-desktop\\&quot; effect selector. Hides the cell when in desktop mode. Optional on \\&quot;inner\\&quot; div elements",
+          "description": "A boolean flag to activate &quot;mdl-cell--hide-desktop&quot; effect selector. Hides the cell when in desktop mode. Optional on &quot;inner&quot; div elements",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -342,7 +342,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A boolean flag to activate \\&quot;mdl-cell--hide-tablet\\&quot; effect selector. Hides the cell when in tablet mode. Optional on \\&quot;inner\\&quot; div elements",
+          "description": "A boolean flag to activate &quot;mdl-cell--hide-tablet&quot; effect selector. Hides the cell when in tablet mode. Optional on &quot;inner&quot; div elements",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -365,7 +365,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A boolean flag to activate \\&quot;mdl-cell--hide-phone\\&quot; effect selector. Hides the cell when in phone mode. Optional on \\&quot;inner\\&quot; div elements",
+          "description": "A boolean flag to activate &quot;mdl-cell--hide-phone&quot; effect selector. Hides the cell when in phone mode. Optional on &quot;inner&quot; div elements",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -388,7 +388,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A boolean flag to activate \\&quot;mdl-cell--stretch\\&quot; effect selector. Stretches the cell vertically to fill the parent. Default. Optional on \\&quot;inner\\&quot; div elements",
+          "description": "A boolean flag to activate &quot;mdl-cell--stretch&quot; effect selector. Stretches the cell vertically to fill the parent. Default. Optional on &quot;inner&quot; div elements",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -411,7 +411,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A boolean flag to activate \\&quot;mdl-cell--top\\&quot; effect selector. Aligns the cell to the top of the parent. Optional on \\&quot;inner\\&quot; div elements",
+          "description": "A boolean flag to activate &quot;mdl-cell--top&quot; effect selector. Aligns the cell to the top of the parent. Optional on &quot;inner&quot; div elements",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -434,7 +434,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A boolean flag to activate \\&quot;mdl-cell--middle\\&quot; effect selector. Aligns the cell to the middle of the parent. Optional on \\&quot;inner\\&quot; div elements",
+          "description": "A boolean flag to activate &quot;mdl-cell--middle&quot; effect selector. Aligns the cell to the middle of the parent. Optional on &quot;inner&quot; div elements",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -457,7 +457,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A boolean flag to activate \\&quot;mdl-cell--bottom\\&quot; effect selector. Aligns the cell to the bottom of the parent. Optional on \\&quot;inner\\&quot; div elements",
+          "description": "A boolean flag to activate &quot;mdl-cell--bottom&quot; effect selector. Aligns the cell to the bottom of the parent. Optional on &quot;inner&quot; div elements",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

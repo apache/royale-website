@@ -1,6 +1,6 @@
 { "type": "class",
   "qname": "org.apache.royale.html.supportClasses.VDividedContainerGripper",
-  "baseClassname": ""
+  "baseClassname": "org.apache.royale.core.Bead"
   ,
     "description": "The VDividedContainerGripper bead adds a visual cue to the VDividedContainerDivider to indicate where to start dragging to change the size of the elements.",
   "tags": [
@@ -34,12 +34,12 @@
         "qname": "strand",
         "namespace": "public",
         "bindable": [],
-        "details": [],
+        "details": ["override"],
         "deprecated": {},
           "description": "",
         "tags": [
         {  "tagName": "copy",
                "values": ["org.apache.royale.core.IStrand#strand"]},
             {  "tagName": "royaleignorecoercion",
-               "values": ["UIBase"]}  ]}]
+               "values": ["org.apache.royale.core.UIBase"]}  ]}]
   }

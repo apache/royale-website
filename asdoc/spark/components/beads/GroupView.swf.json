@@ -40,7 +40,7 @@
                "values": ["org.apache.royale.core.UIBase"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ],
-          "return": "void",
+          "return": "Boolean",
           "params": []}
       ,
       { "type": "method",

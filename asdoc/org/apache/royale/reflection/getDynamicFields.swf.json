@@ -7,4 +7,5 @@
     "return": "Array",
     "params": [{ "name": "inspect", "type": "Object"},
   { "name": "includePredicate", "type": "Function"},
-  { "name": "checkFirst", "type": "Boolean"}]}
+  { "name": "checkFirst", "type": "Boolean"},
+  { "name": "numericFields", "type": "Boolean"}]}

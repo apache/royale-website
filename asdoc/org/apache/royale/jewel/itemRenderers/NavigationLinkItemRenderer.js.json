@@ -2,7 +2,7 @@
   "qname": "org.apache.royale.jewel.itemRenderers.NavigationLinkItemRenderer",
   "baseClassname": "org.apache.royale.core.StyledMXMLItemRenderer"
   ,
-    "description": "The NavigationLinkItemRenderer defines the basic Item Renderer for a Jewel Navigation List Component. It handles Objects with \\&quot;label\\&quot; and \\&quot;href\\&quot; data. Extend this (you can do it in MXML) to support more data like for example: icon data.",
+    "description": "The NavigationLinkItemRenderer defines the basic Item Renderer for a Jewel Navigation List Component. It handles Objects with &quot;label&quot; and &quot;href&quot; data. Extend this (you can do it in MXML) to support more data like for example: icon data.",
   "tags": [
   {  "tagName": "playerversion",
          "values": ["Flash 10.2", "AIR 2.6"]},
@@ -28,22 +28,6 @@
           "return": "",
           "params": []}
       ,
-      { "type": "accessor",
-        "access": "read-write",
-        "return": "String",
-        "qname": "href",
-        "namespace": "public",
-        "bindable": ["dataChange"],
-        "details": [],
-        "deprecated": {},
-          "description": "the navigation link url",
-        "tags": [
-        {  "tagName": "playerversion",
-               "values": ["Flash 10.2", "AIR 2.6"]},
-            {  "tagName": "productversion",
-               "values": ["Royale 0.9.4"]},
-            {  "tagName": "langversion",
-               "values": ["3.0"]}  ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "String",

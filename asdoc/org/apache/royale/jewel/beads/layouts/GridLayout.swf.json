@@ -45,7 +45,7 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
-          "description": "Add class selectors when the component is addedToParent Otherwise component will not get the class selectors when perform \\&quot;removeElement\\&quot; and then \\&quot;addElement\\&quot;",
+          "description": "Add class selectors when the component is addedToParent Otherwise component will not get the class selectors when perform &quot;removeElement&quot; and then &quot;addElement&quot;",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -64,7 +64,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Assigns variable gap to grid from 1 to 20 Activate \\&quot;gap-Xdp\\&quot; effect selector to set a numeric gap between grid cells",
+          "description": "Assigns variable gap to grid from 1 to 20 Activate &quot;gap-Xdp&quot; effect selector to set a numeric gap between grid cells",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

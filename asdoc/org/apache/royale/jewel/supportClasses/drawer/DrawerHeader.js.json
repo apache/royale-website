@@ -2,7 +2,7 @@
   "qname": "org.apache.royale.jewel.supportClasses.drawer.DrawerHeader",
   "baseClassname": "org.apache.royale.jewel.Group"
   ,
-    "description": "The DrawerHeader class is a Container component to hold Drawer Header content, for example a title or an Image icon logo",
+    "description": "The DrawerHeader class is a container component to hold drawer header content, like a title or an image icon logo",
   "tags": [
   {  "tagName": "playerversion",
          "values": ["Flash 10.2", "AIR 2.6"]},

@@ -2,7 +2,7 @@
   "qname": "mx.rpc.AsyncResponder",
   "baseClassname": ""
   ,
-    "description": "This class provides an RPC specific implementation of <code>mx.rpc.IResponder</code>.  It allows the creator to associate data (a token) and methods that should be called when a request is completed.  The result method specified must have the following signature: <code><pre> public function myResultFunction(result:Object, token:Object = null):void; </pre></code>  The fault method specified must have the following signature: <code><pre> public function myFaultFunction(error:Object, token:Object = null):void; </pre></code>  Any other signature will result in a runtime error.",
+    "description": "This class provides an RPC specific implementation of <code>mx.rpc.IResponder</code>.  It allows the creator to associate data (a token) and methods that should be called when a request is completed.  The result method specified must have the following signature: <code><pre>\\n public function myResultFunction(result:Object, token:Object = null):void;\\n </pre></code>  The fault method specified must have the following signature: <code><pre>\\n public function myFaultFunction(error:Object, token:Object = null):void;\\n </pre></code>  Any other signature will result in a runtime error.",
   "tags": [
   {  "tagName": "playerversion",
          "values": ["Flash 9", "AIR 1.1"]},

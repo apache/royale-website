@@ -2,7 +2,7 @@
   "qname": "mx.validators.Validator",
   "baseClassname": "org.apache.royale.events.EventDispatcher"
   ,
-    "description": "The Validator class is the base class for all Flex validators. This class implements the ability for a validator to make a field required, which means that the user must enter a value in the field or the validation fails.   <p>The Validator class defines the following tag attributes, which all of its subclasses inherit:</p>  <pre> &lt;mx:Validator enabled=\\&quot;true|false\\&quot; listener=\\&quot;<i>Value of the source property</i>\\&quot; property=\\&quot;<i>No default</i>\\&quot; required=\\&quot;true|false\\&quot; requiredFieldError=\\&quot;This field is required.\\&quot; source=\\&quot;<i>No default</i>\\&quot; trigger=\\&quot;<i>Value of the source property</i>\\&quot; triggerEvent=\\&quot;valueCommit\\&quot; /&gt; </pre>",
+    "description": "The Validator class is the base class for all Flex validators. This class implements the ability for a validator to make a field required, which means that the user must enter a value in the field or the validation fails.   <p>The Validator class defines the following tag attributes, which all of its subclasses inherit:</p>  <pre>\\n &lt;mx:Validator\\n enabled=&quot;true|false&quot;\\n listener=&quot;<i>Value of the source property</i>&quot;\\n property=&quot;<i>No default</i>&quot;\\n required=&quot;true|false&quot;\\n requiredFieldError=&quot;This field is required.&quot;\\n source=&quot;<i>No default</i>&quot;\\n trigger=&quot;<i>Value of the source property</i>&quot;\\n triggerEvent=&quot;valueCommit&quot;\\n /&gt;\\n </pre>",
   "tags": [
   {  "tagName": "includeExample",
          "values": ["examples/SimpleValidatorExample.mxml"]},
@@ -17,7 +17,22 @@
       {  "tagName": "langversion",
          "values": ["3.0"]}  ],
   "members": [
-  { "type": "method",
+  { "type": "field",
+        "qname": "DECIMAL_DIGITS",
+        "return": "String",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "A String containing the decimal digits 0 through 9.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]},
+      { "type": "method",
         "qname": "validateAll",
         "namespace": "public",
         "bindable": [],
@@ -182,7 +197,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "An Array of Strings containing the names for the properties contained in the <code>value</code> Object passed to the <code>validate()</code> method. For example, CreditCardValidator sets this property to <code>[ \\&quot;cardNumber\\&quot;, \\&quot;cardType\\&quot; ]</code>. This value means that the <code>value</code> Object passed to the <code>validate()</code> method should contain a <code>cardNumber</code> and a <code>cardType</code> property.  <p>Subclasses of the Validator class that validate multiple data fields (like CreditCardValidator and DateValidator) should assign this property in their constructor. </p>",
+          "description": "An Array of Strings containing the names for the properties contained in the <code>value</code> Object passed to the <code>validate()</code> method. For example, CreditCardValidator sets this property to <code>[ &quot;cardNumber&quot;, &quot;cardType&quot; ]</code>. This value means that the <code>value</code> Object passed to the <code>validate()</code> method should contain a <code>cardNumber</code> and a <code>cardType</code> property.  <p>Subclasses of the Validator class that validate multiple data fields (like CreditCardValidator and DateValidator) should assign this property in their constructor. </p>",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
@@ -214,7 +229,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Specifies the event that triggers the validation. If omitted, Flex uses the <code>valueCommit</code> event. Flex dispatches the <code>valueCommit</code> event when a user completes data entry into a control. Usually this is when the user removes focus from the component, or when a property value is changed programmatically. If you want a validator to ignore all events, set <code>triggerEvent</code> to the empty string (\\&quot;\\&quot;).",
+          "description": "Specifies the event that triggers the validation. If omitted, Flex uses the <code>valueCommit</code> event. Flex dispatches the <code>valueCommit</code> event when a user completes data entry into a control. Usually this is when the user removes focus from the component, or when a property value is changed programmatically. If you want a validator to ignore all events, set <code>triggerEvent</code> to the empty string (&quot;&quot;).",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
@@ -233,7 +248,7 @@
           "description": "Error message when a value is missing and the <code>required</code> property is <code>true</code>.",
         "tags": [
         {  "tagName": "default",
-               "values": ["&quot;This field is required.&quot;"]},
+               "values": [""This field is required.""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",

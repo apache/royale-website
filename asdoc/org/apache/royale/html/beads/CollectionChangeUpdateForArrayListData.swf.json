@@ -1,6 +1,6 @@
 { "type": "class",
   "qname": "org.apache.royale.html.beads.CollectionChangeUpdateForArrayListData",
-  "baseClassname": ""
+  "baseClassname": "org.apache.royale.core.Bead"
   ,
     "description": "Handles the update of an itemRenderer in a List component once the corresponding datum has been updated from the IDataProviderModel.",
   "tags": [
@@ -29,13 +29,6 @@
           "params": []}
       ,
       { "type": "field",
-        "qname": "_strand",
-        "return": "org.apache.royale.core.IStrand",
-        "namespace": "protected",
-        "bindable": [],
-        "details": [],
-        "deprecated": {}},
-      { "type": "field",
         "qname": "labelField",
         "return": "String",
         "namespace": "protected",
@@ -48,7 +41,7 @@
         "qname": "strand",
         "namespace": "public",
         "bindable": [],
-        "details": [],
+        "details": ["override"],
         "deprecated": {},
           "description": "",
         "tags": [
@@ -75,7 +68,7 @@
             {  "tagName": "productversion",
                "values": ["Royale 0.9.4"]},
             {  "tagName": "royaleignorecoercion",
-               "values": ["org.apache.royale.events.IEventDispatcher"]},
+               "values": ["org.apache.royale.events.IEventDispatcher", "org.apache.royale.core.IDataProviderModel"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ],
           "return": "void",
@@ -114,6 +107,8 @@
                "values": ["Flash 10.2", "AIR 2.6"]},
             {  "tagName": "productversion",
                "values": ["Royale 0.9.4"]},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.IDataProviderModel"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
   }

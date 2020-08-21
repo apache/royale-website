@@ -2,7 +2,7 @@
   "qname": "org.apache.royale.mdl.beads.ListItemTextBody",
   "baseClassname": ""
   ,
-    "description": "The ListItemTextBody class decorates a tag element in a list item renderer Requires the host ListItemrenderer to have \\&quot;threeLine\\&quot; set to true",
+    "description": "The ListItemTextBody class decorates a tag element in a list item renderer Requires the host ListItemrenderer to have &quot;threeLine&quot; set to true",
   "tags": [
   {  "tagName": "playerversion",
          "values": ["Flash 10.2", "AIR 2.6"]},

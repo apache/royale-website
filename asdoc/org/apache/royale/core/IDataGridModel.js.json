@@ -1,7 +1,9 @@
 { "type": "interface",
   "qname": "org.apache.royale.core.IDataGridModel",
 "baseInterfaceNames": [
-"org.apache.royale.core.ISelectionModel"]
+"org.apache.royale.core.IColumns", 
+"org.apache.royale.core.ISelectionModel", 
+"org.apache.royale.core.IRollOverModel"]
 ,
     "description": "The IDataGridModel interface describes the minimum set of properties available to an DataGrid control.  More sophisticated DataGrid controls could have models that extend IDataGridModel.",
   "tags": [
@@ -12,22 +14,6 @@
       {  "tagName": "langversion",
          "values": ["3.0"]}  ],
   "members": [
-  { "type": "accessor",
-    "access": "read-write",
-    "return": "Array",
-    "qname": "columns",
-    "namespace": "public",
-    "bindable": [],
-    "details": [],
-    "deprecated": {},
-      "description": "The set of DataGridColumns.",
-    "tags": [
-    {  "tagName": "playerversion",
-           "values": ["Flash 10.2", "AIR 2.6"]},
-        {  "tagName": "productversion",
-           "values": ["Royale 0.0"]},
-        {  "tagName": "langversion",
-           "values": ["3.0"]}  ]},
   { "type": "accessor",
     "access": "read-write",
     "return": "org.apache.royale.core.IBeadModel",

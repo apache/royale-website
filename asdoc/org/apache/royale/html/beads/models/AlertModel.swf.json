@@ -1,6 +1,6 @@
 { "type": "class",
   "qname": "org.apache.royale.html.beads.models.AlertModel",
-  "baseClassname": "org.apache.royale.events.EventDispatcher"
+  "baseClassname": "org.apache.royale.core.DispatcherBead"
   ,
     "description": "The AlertModel class bead implements the org.apache.royale.core.IAlertModel and holds the properties for an org.apache.royale.html.Alert such the buttons to use and message to display.",
   "tags": [
@@ -28,24 +28,6 @@
           "return": "",
           "params": []}
       ,
-      { "type": "accessor",
-        "access": "write-only",
-        "return": "org.apache.royale.core.IStrand",
-        "qname": "strand",
-        "namespace": "public",
-        "bindable": [],
-        "details": [],
-        "deprecated": {},
-          "description": "",
-        "tags": [
-        {  "tagName": "playerversion",
-               "values": ["Flash 10.2", "AIR 2.6"]},
-            {  "tagName": "copy",
-               "values": ["org.apache.royale.core.IBead#strand"]},
-            {  "tagName": "productversion",
-               "values": ["Royale 0.0"]},
-            {  "tagName": "langversion",
-               "values": ["3.0"]}  ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "String",

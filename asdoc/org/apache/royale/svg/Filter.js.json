@@ -47,7 +47,7 @@
           "description": "",
         "tags": [
         {  "tagName": "royaleignorecoercion",
-               "values": ["Element", "Object"]}  ],
+               "values": ["Element", "org.apache.royale.svg.FilterElement"]}  ],
           "return": "void",
           "params": []}
       ,
@@ -58,7 +58,11 @@
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.IRenderedObject"]}  ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Element",

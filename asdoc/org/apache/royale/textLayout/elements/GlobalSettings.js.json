@@ -61,7 +61,7 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Function that takes two parameters, a resource id and an optional array of parameters to substitute into the string. The string is of form \\&quot;Content {0} more content {1}\\&quot;.  The parameters are read from the optional array and substituted for the bracketed substrings. TLF provides a default implementation with default strings.  Clients may replace this function with their own implementation for localization.",
+          "description": "Function that takes two parameters, a resource id and an optional array of parameters to substitute into the string. The string is of form &quot;Content {0} more content {1}&quot;.  The parameters are read from the optional array and substituted for the bracketed substrings. TLF provides a default implementation with default strings.  Clients may replace this function with their own implementation for localization.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10", "AIR 1.5"]},

@@ -63,7 +63,7 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "The list of events to convert on each instance. Per-instance killers are needed for \\&quot;out\\&quot; events because they can be sent after the instance is removed from the display list so the main converter can't intercept them",
+          "description": "The list of events to convert on each instance. Per-instance killers are needed for &quot;out&quot; events because they can be sent after the instance is removed from the display list so the main converter can't intercept them",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

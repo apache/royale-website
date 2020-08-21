@@ -1,0 +1,25 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.beads.models.MultiSelectionTreeModel",
+  "baseClassname": "org.apache.royale.html.beads.models.MultiSelectionCollectionViewModel"
+  ,
+    "description": "The MultiSelectionTreeModel is used by Tree",
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html.beads.models.MultiSelectionTreeModel",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "org.apache.royale.collections.HierarchicalData",
+        "qname": "hierarchicalData",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Setting the hierarchicalData in this model is a convenience. The actual dataProvider is TreeData; this will create that and set it as the dataProvider. THIS COULD BE REMOVED AS NOTHING SHOULD BE SETTING THIS PROPERTY."}]
+  }

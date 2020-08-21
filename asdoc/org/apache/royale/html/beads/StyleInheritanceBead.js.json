@@ -1,6 +1,6 @@
 { "type": "class",
   "qname": "org.apache.royale.html.beads.StyleInheritanceBead",
-  "baseClassname": ""
+  "baseClassname": "org.apache.royale.core.Bead"
   ,
     "description": "The StyleInheritanceBead class forces descendadants of an IStylableObject to inherit a style",
   "tags": [
@@ -34,7 +34,7 @@
         "qname": "strand",
         "namespace": "public",
         "bindable": [],
-        "details": [],
+        "details": ["override"],
         "deprecated": {},
           "description": "",
         "tags": [
@@ -57,7 +57,7 @@
           "description": "",
         "tags": [
         {  "tagName": "royaleignorecoercion",
-               "values": ["org.apache.royale.core.WrappedHTMLElement"]}  ]},
+               "values": ["org.apache.royale.core.IRenderedObject"]}  ]},
       { "type": "method",
         "qname": "initCompleteHandler",
         "namespace": "protected",

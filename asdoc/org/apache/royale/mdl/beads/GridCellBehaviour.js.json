@@ -63,7 +63,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A boolean flag to activate \\&quot;mdl-cell--N-col\\&quot; effect selector. Sets the column size for the cell to N. N is 1-12 inclusive. Defaults to 4. Optional on \\&quot;inner\\&quot; div elements",
+          "description": "A boolean flag to activate &quot;mdl-cell--N-col&quot; effect selector. Sets the column size for the cell to N. N is 1-12 inclusive. Defaults to 4. Optional on &quot;inner&quot; div elements",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -86,7 +86,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A boolean flag to activate \\&quot;mdl-cell--N-col-desktop\\&quot; effect selector. Sets the column size for the cell to N in desktop mode only. N is 1-12 inclusive. Optional on \\&quot;inner\\&quot; div elements",
+          "description": "A boolean flag to activate &quot;mdl-cell--N-col-desktop&quot; effect selector. Sets the column size for the cell to N in desktop mode only. N is 1-12 inclusive. Optional on &quot;inner&quot; div elements",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

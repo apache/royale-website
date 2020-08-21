@@ -47,7 +47,7 @@
             {  "tagName": "productversion",
                "values": ["Royale 0.9"]},
             {  "tagName": "royaleignorecoercion",
-               "values": ["org.apache.royale.core.ISelectableItemRenderer", "org.apache.royale.core.UIBase"]},
+               "values": ["org.apache.royale.core.IIndexedItemRenderer", "org.apache.royale.core.UIBase"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]},
       { "type": "method",
@@ -59,7 +59,7 @@
           "description": "",
         "tags": [
         {  "tagName": "royaleemitcoercion",
-               "values": ["org.apache.royale.core.ISelectableItemRenderer"]}  ],
+               "values": ["org.apache.royale.core.IIndexedItemRenderer"]}  ],
           "return": "void",
           "params": [{ "name": "event", "type": "org.apache.royale.events.BrowserEvent"}]}
       ,
@@ -72,7 +72,7 @@
           "description": "",
         "tags": [
         {  "tagName": "royaleemitcoercion",
-               "values": ["org.apache.royale.core.ISelectableItemRenderer"]}  ],
+               "values": ["org.apache.royale.core.IIndexedItemRenderer"]}  ],
           "return": "void",
           "params": [{ "name": "event", "type": "org.apache.royale.events.BrowserEvent"}]}
       ]

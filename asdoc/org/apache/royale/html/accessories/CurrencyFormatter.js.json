@@ -52,7 +52,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The currency symbol, such as \\&quot;$\\&quot;",
+          "description": "The currency symbol, such as &quot;$&quot;",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

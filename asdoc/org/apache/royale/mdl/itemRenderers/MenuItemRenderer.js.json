@@ -83,7 +83,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A boolean flag to activate \\&quot;mdl-menu__item--full-bleed-divider\\&quot; effect selector. Modifies an item to have a full bleed divider between it and the next list item.",
+          "description": "A boolean flag to activate &quot;mdl-menu__item--full-bleed-divider&quot; effect selector. Modifies an item to have a full bleed divider between it and the next list item.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -91,15 +91,6 @@
                "values": ["Royale 0.8"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]},
-      { "type": "method",
-        "qname": "updateRenderer",
-        "namespace": "public",
-        "bindable": [],
-        "details": ["override"],
-        "deprecated": {},
-          "return": "void",
-          "params": []}
-      ,
       { "type": "field",
         "qname": "_ripple",
         "return": "Boolean",
@@ -115,7 +106,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A boolean flag to activate \\&quot;mdl-js-ripple-effect\\&quot; effect selector.",
+          "description": "A boolean flag to activate &quot;mdl-js-ripple-effect&quot; effect selector.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

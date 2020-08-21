@@ -1,6 +1,6 @@
 { "type": "class",
   "qname": "org.apache.royale.jewel.DropDownList",
-  "baseClassname": "org.apache.royale.jewel.supportClasses.DataContainerBase"
+  "baseClassname": "org.apache.royale.jewel.supportClasses.container.DataContainerBase"
   ,
     "description": "The DropDownList class implements the basic equivalent of the <code>&lt;select&gt;</code> tag in HTML. The default implementation only lets the user see and choose from an array of strings.  More complex controls would display icons as well as strings, or colors instead of strings or just about anything.  The default behavior only lets the user choose one and only one item.  More complex controls would allow mutiple selection by not dismissing the dropdown as soon as a selection is made.",
   "tags": [
@@ -121,7 +121,7 @@
                "values": ["3.0"]}  ]},
       { "type": "accessor",
         "access": "read-only",
-        "return": "org.apache.royale.core.IListPresentationModel",
+        "return": "org.apache.royale.jewel.supportClasses.list.IListPresentationModel",
         "qname": "presentationModel",
         "namespace": "public",
         "bindable": [],
@@ -134,7 +134,7 @@
             {  "tagName": "productversion",
                "values": ["Royale 0.9.4"]},
             {  "tagName": "royaleignorecoercion",
-               "values": ["org.apache.royale.core.IListPresentationModel"]},
+               "values": ["org.apache.royale.jewel.supportClasses.list.IListPresentationModel"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]},
       { "type": "method",

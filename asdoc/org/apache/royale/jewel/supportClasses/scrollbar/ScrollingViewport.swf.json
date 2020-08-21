@@ -80,5 +80,23 @@
                "values": ["org.apache.royale.core.IBorderPaddingMarginValuesImpl"]}  ],
           "return": "void",
           "params": [{ "name": "contentSize", "type": "org.apache.royale.geom.Size"}]}
-      ]
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "Boolean",
+        "qname": "scroll",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "enable or disable scrolling on the strand",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.7"]},
+            {  "tagName": "return",
+               "values": ["true for scroll, false for no scroll"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
   }

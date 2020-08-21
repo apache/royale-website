@@ -13,7 +13,9 @@
       {  "tagName": "royaleignorecoercion",
          "values": ["CSSStyleSheet", "HTMLStyleElement"]},
       {  "tagName": "langversion",
-         "values": ["3.0"]}  ],
+         "values": ["3.0"]},
+      {  "tagName": "royalesuppressexport",
+         "values": []}  ],
     "return": "void",
     "params": [{ "name": "selector", "type": "String"},
   { "name": "rule", "type": "String"}]}

@@ -19,7 +19,7 @@
         "deprecated": {},
           "return": "Object",
           "params": [{ "name": "node", "type": "Object"},
-        { "name": "model", "type": "org.apache.royale.html.beads.models.CascadingMenuModel"}]}
+        { "name": "model", "type": "org.apache.royale.core.ICascadingMenuModel"}]}
       ,
       { "type": "method",
         "qname": "getHasMenu",
@@ -29,6 +29,15 @@
         "deprecated": {},
           "return": "Boolean",
           "params": [{ "name": "node", "type": "Object"},
-        { "name": "model", "type": "org.apache.royale.html.beads.models.CascadingMenuModel"}]}
+        { "name": "model", "type": "org.apache.royale.core.ICascadingMenuModel"}]}
+      ,
+      { "type": "method",
+        "qname": "selectedHandler",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "event", "type": "org.apache.royale.events.ItemClickedEvent"}]}
       ]
   }

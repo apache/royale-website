@@ -1,0 +1,15 @@
+{ "type": "method",
+  "qname": "org.apache.royale.utils.sendStrandEvent",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "Helper function for dispatching events from the strand Using this function prevent the need to cast IStrand objects It also allows better minification",
+  "tags": [
+  {  "tagName": "royaleignorecoercion",
+         "values": ["org.apache.royale.events.IEventDispatcher"]},
+      {  "tagName": "royalesuppressexport",
+         "values": []}  ],
+    "return": "Boolean",
+    "params": [{ "name": "strand", "type": "org.apache.royale.core.IStrand"},
+  { "name": "event", "type": "Object"}]}

@@ -2,7 +2,7 @@
   "qname": "mx.charts.chartClasses.AxisBase",
   "baseClassname": "org.apache.royale.events.EventDispatcher"
   ,
-    "description": "The AxisBase class serves as a base class for the various axis types supported in Flex.   <p>Flex components inherit the following properties from the AxisBase class:</p>  <pre> &lt;mx:<i>tagname</i> displayName=\\&quot;<i>No default</i>\\&quot; title=\\&quot;<i>No default</i>\\&quot; &gt; </pre>",
+    "description": "The AxisBase class serves as a base class for the various axis types supported in Flex.   <p>Flex components inherit the following properties from the AxisBase class:</p>  <pre>\\n &lt;mx:<i>tagname</i>\\n displayName=&quot;<i>No default</i>&quot;\\n title=&quot;<i>No default</i>&quot;\\n &gt;\\n </pre>",
   "tags": [
   {  "tagName": "mxml",
          "values": []},

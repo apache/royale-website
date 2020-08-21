@@ -2,7 +2,7 @@
   "qname": "org.apache.royale.mdl.beads.RestrictTextField",
   "baseClassname": ""
   ,
-    "description": "The RestrictTextField bead class is a specialty bead that can be used with any MDL TextField control. The bead uses a reg exp pattern to validate input from user. A text property allows to configure error text.  use examples: Numeric pattern = -?[0-9]*(&#92;.[0-9]+)? error text = \\&quot;Input is not a number!\\&quot;  Letters and spaces only pattern = [A-Z,a-z, ]* error text = \\&quot;Letters and spaces only\\&quot;;  Digits only = [0-9]* error text = \\&quot;Digits only\\&quot;;",
+    "description": "The RestrictTextField bead class is a specialty bead that can be used with any MDL TextField control. The bead uses a reg exp pattern to validate input from user. A text property allows to configure error text.  use examples: Numeric pattern = -?[0-9]*(&#92;.[0-9]+)? error text = &quot;Input is not a number!&quot;  Letters and spaces only pattern = [A-Z,a-z, ]* error text = &quot;Letters and spaces only&quot;;  Digits only = [0-9]* error text = &quot;Digits only&quot;;",
   "tags": [
   {  "tagName": "playerversion",
          "values": ["Flash 10.2", "AIR 2.6"]},

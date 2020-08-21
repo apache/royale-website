@@ -18,7 +18,7 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
-      "description": "This method must be implemented by subclasses that have a \\&quot;small\\&quot; form, typically achieved through the use of <code>flash.utils.IExternalizable</code>. If a small form is not available this method should return null.  flex.messaging.messages.IMessage so that the serialized form is smaller than the regular message.",
+      "description": "This method must be implemented by subclasses that have a &quot;small&quot; form, typically achieved through the use of <code>flash.utils.IExternalizable</code>. If a small form is not available this method should return null.  flex.messaging.messages.IMessage so that the serialized form is smaller than the regular message.",
     "tags": [
     {  "tagName": "playerversion",
            "values": ["Flash 9", "AIR 1.1"]},

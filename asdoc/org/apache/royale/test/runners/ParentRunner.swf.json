@@ -2,7 +2,10 @@
   "qname": "org.apache.royale.test.runners.ParentRunner",
   "baseClassname": ""
   ,
-    "description": "Provides a base implementation of a runner with children, and intended to be subclassed.",
+    "description": "Provides a base implementation of a runner with children, and intended to be subclassed, similar to <code>SuiteRunner</code>.",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["org.apache.royale.test.runners.SuiteRunner"]}  ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.test.runners.ParentRunner",

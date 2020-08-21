@@ -1,6 +1,6 @@
 { "type": "class",
   "qname": "org.apache.royale.html.beads.AccessibilityAltBead",
-  "baseClassname": ""
+  "baseClassname": "org.apache.royale.core.Bead"
   ,
     "description": "The AccessibilityAltBead class is a bead that can be used with any Image control. The bead places add an alt text attribute on a image.",
   "tags": [
@@ -34,7 +34,7 @@
         "qname": "strand",
         "namespace": "public",
         "bindable": [],
-        "details": [],
+        "details": ["override"],
         "deprecated": {},
           "description": "",
         "tags": [

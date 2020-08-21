@@ -2,7 +2,7 @@
   "qname": "mx.validators.StringValidator",
   "baseClassname": "mx.validators.Validator"
   ,
-    "description": "The StringValidator class validates that the length of a String is within a specified range.   <p>The <code>&lt;mx:StringValidator&gt;</code> tag inherits all of the tag attributes of its superclass, and add the following tag attributes:</p>  <pre> &lt;mx:StringValidator maxLength=\\&quot;NaN\\&quot; minLength=\\&quot;NaN\\&quot; tooLongError=\\&quot;This string is longer than the maximum allowed length. This must be less than {0} characters long.\\&quot; tooShortError=\\&quot;This string is shorter than the minimum allowed length. This must be at least {0} characters long.\\&quot; /&gt; </pre>",
+    "description": "The StringValidator class validates that the length of a String is within a specified range.   <p>The <code>&lt;mx:StringValidator&gt;</code> tag inherits all of the tag attributes of its superclass, and add the following tag attributes:</p>  <pre>\\n &lt;mx:StringValidator\\n maxLength=&quot;NaN&quot;\\n minLength=&quot;NaN&quot;\\n tooLongError=&quot;This string is longer than the maximum allowed length. This must be less than {0} characters long.&quot;\\n tooShortError=&quot;This string is shorter than the minimum allowed length. This must be at least {0} characters long.&quot;\\n /&gt;\\n </pre>",
   "tags": [
   {  "tagName": "includeExample",
          "values": ["examples/StringValidatorExample.mxml"]},
@@ -21,7 +21,7 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Convenience method for calling a validator. Each of the standard Flex validators has a similar convenience method.    specified in the <code>value</code> parameter. For example, if the <code>value</code> parameter specifies value.mystring, the <code>baseField</code> value is <code>\\&quot;mystring\\&quot;</code>.  ValidationResult  object for each field examined by the validator.",
+          "description": "Convenience method for calling a validator. Each of the standard Flex validators has a similar convenience method.    specified in the <code>value</code> parameter. For example, if the <code>value</code> parameter specifies value.mystring, the <code>baseField</code> value is <code>&quot;mystring&quot;</code>.  ValidationResult  object for each field examined by the validator.",
         "tags": [
         {  "tagName": "see",
                "values": ["mx.validators.ValidationResult"]},
@@ -104,7 +104,7 @@
           "description": "Error message when the String is longer than the <code>maxLength</code> property.",
         "tags": [
         {  "tagName": "default",
-               "values": ["&quot;This string is longer than the maximum allowed length. This must be less than {0} characters long.&quot;"]},
+               "values": [""This string is longer than the maximum allowed length. This must be less than {0} characters long.""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
@@ -122,7 +122,7 @@
           "description": "Error message when the string is shorter than the <code>minLength</code> property.",
         "tags": [
         {  "tagName": "default",
-               "values": ["&quot;This string is shorter than the minimum allowed length. This must be at least {0} characters long.&quot;"]},
+               "values": [""This string is shorter than the minimum allowed length. This must be at least {0} characters long.""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",

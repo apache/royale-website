@@ -39,9 +39,9 @@
           "description": "The text currently displayed by the itemRenderer instance.",
         "tags": [
         {  "tagName": "playerversion",
-               "values": ["Flash 10.2", "AIR 2.6", "Flash 10.2", "AIR 2.6", "Flash 10.2", "AIR 2.6", "Flash 10.2", "AIR 2.6"]},
+               "values": ["Flash 10.2", "AIR 2.6", "Flash 10.2", "AIR 2.6", "Flash 10.2", "AIR 2.6"]},
             {  "tagName": "productversion",
-               "values": ["Royale 0.0", "Royale 0.0", "Royale 0.0", "Royale 0.0"]},
+               "values": ["Royale 0.0", "Royale 0.0", "Royale 0.0"]},
             {  "tagName": "langversion",
-               "values": ["3.0", "3.0", "3.0", "3.0"]}  ]}]
+               "values": ["3.0", "3.0", "3.0"]}  ]}]
   }

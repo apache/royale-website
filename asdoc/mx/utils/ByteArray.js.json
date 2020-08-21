@@ -1,0 +1,53 @@
+{ "type": "class",
+  "qname": "mx.utils.ByteArray",
+  "baseClassname": "org.apache.royale.utils.BinaryData"
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "ByteArray",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": [{ "name": "bytes", "type": "Object"}]}
+      ,
+      { "type": "method",
+        "qname": "readMultiByte",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "String",
+          "params": [{ "name": "length", "type": "uint"},
+        { "name": "charSet", "type": "String"}]}
+      ,
+      { "type": "method",
+        "qname": "writeMultiByte",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "value", "type": "String"},
+        { "name": "charSet", "type": "String"}]}
+      ,
+      { "type": "method",
+        "qname": "readObject",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "*",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "writeObject",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "object", "type": "*"}]}
+      ]
+  }

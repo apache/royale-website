@@ -19,42 +19,5 @@
         "deprecated": {},
           "return": "",
           "params": [{ "name": "target", "type": "Object"}]}
-      ,
-      { "type": "field",
-        "qname": "tabsIdField",
-        "return": "String",
-        "namespace": "protected",
-        "bindable": [],
-        "details": [],
-        "deprecated": {}},
-      { "type": "method",
-        "qname": "initComplete",
-        "namespace": "protected",
-        "bindable": [],
-        "details": ["override"],
-        "deprecated": {},
-          "description": "finish setup",
-        "tags": [
-        {  "tagName": "playerversion",
-               "values": ["Flash 10.2", "AIR 2.6"]},
-            {  "tagName": "productversion",
-               "values": ["Royale 0.8"]},
-            {  "tagName": "langversion",
-               "values": ["3.0"]}  ],
-          "return": "void",
-          "params": [{ "name": "event", "type": "org.apache.royale.events.Event"}]}
-      ,
-      { "type": "method",
-        "qname": "dataProviderChangeHandler",
-        "namespace": "protected",
-        "bindable": [],
-        "details": ["override"],
-        "deprecated": {},
-          "description": "",
-        "tags": [
-        {  "tagName": "royaleignorecoercion",
-               "values": ["org.apache.royale.core.UIBase", "org.apache.royale.core.IStrandWithModelView", "org.apache.royale.html.beads.IListView", "org.apache.royale.core.IListPresentationModel", "org.apache.royale.events.IEventDispatcher", "org.apache.royale.html.supportClasses.DataItemRenderer", "org.apache.royale.mdl.supportClasses.ITabItemRenderer"]}  ],
-          "return": "void",
-          "params": [{ "name": "event", "type": "org.apache.royale.events.Event"}]}
       ]
   }

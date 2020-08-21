@@ -40,14 +40,5 @@
                "values": ["org.apache.flex.core.WrappedHTMLElement"]}  ],
           "return": "org.apache.royale.core.WrappedHTMLElement",
           "params": []}
-      ,
-      { "type": "method",
-        "qname": "updateRenderer",
-        "namespace": "public",
-        "bindable": [],
-        "details": ["override"],
-        "deprecated": {},
-          "return": "void",
-          "params": []}
       ]
   }

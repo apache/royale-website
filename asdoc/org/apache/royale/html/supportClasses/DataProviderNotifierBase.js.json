@@ -1,6 +1,6 @@
 { "type": "class",
   "qname": "org.apache.royale.html.supportClasses.DataProviderNotifierBase",
-  "baseClassname": ""
+  "baseClassname": "org.apache.royale.core.Bead"
   ,
     "description": "Base class for all data provider notifiers.",
   "tags": [
@@ -35,20 +35,13 @@
         "bindable": [],
         "details": [],
         "deprecated": {}},
-      { "type": "field",
-        "qname": "_strand",
-        "return": "org.apache.royale.core.IStrand",
-        "namespace": "protected",
-        "bindable": [],
-        "details": [],
-        "deprecated": {}},
       { "type": "accessor",
         "access": "write-only",
         "return": "org.apache.royale.core.IStrand",
         "qname": "strand",
         "namespace": "public",
         "bindable": [],
-        "details": [],
+        "details": ["override"],
         "deprecated": {},
           "description": "",
         "tags": [
@@ -58,6 +51,8 @@
                "values": ["org.apache.royale.core.IBead#strand"]},
             {  "tagName": "productversion",
                "values": ["Royale 0.0"]},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.UIBase", "org.apache.royale.core.IBeadModel", "org.apache.royale.events.IEventDispatcher"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]},
       { "type": "method",

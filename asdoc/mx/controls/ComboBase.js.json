@@ -2,7 +2,7 @@
   "qname": "mx.controls.ComboBase",
   "baseClassname": "mx.core.UIComponent"
   ,
-    "description": "The ComboBase class is the base class for controls that display text in a text field and have a button that causes a drop-down list to appear where the user can choose which text to display. The ComboBase class is not used directly as an MXML tag.   <p>The <code>&lt;mx:ComboBase&gt;</code> tag inherits all the tag attributes of its superclass, and adds the following tag attributes:</p>  <pre> &lt;<i>mx:tagname</i> <b>Properties</b> dataProvider=\\&quot;null\\&quot; editable=\\&quot;false|true\\&quot; imeMode=\\&quot;null\\&quot; restrict=\\&quot;null\\&quot; selectedIndex=\\&quot;-1\\&quot; selectedItem=\\&quot;null\\&quot; text=\\&quot;\\&quot; &nbsp; <b>Styles</b> disabledSkin=\\&quot;<i>Depends on class</i>\\&quot; downSkin=\\&quot;<i>Depends on class</i>\\&quot; editableDisabledSkin=\\&quot;<i>Depends on class</i>\\&quot; editableDownSkin=\\&quot;<i>Depends on class</i>\\&quot; editableOverSkin=\\&quot;<i>Depends on class</i>\\&quot; editableUpSkin=\\&quot;<i>Depends on class</i>\\&quot; overSkin=\\&quot;<i>Depends on class</i>\\&quot; textInputStyleName=\\&quot;\\&quot; upSkin=\\&quot;<i>Depends on class</i>\\&quot;  /&gt; </pre>",
+    "description": "The ComboBase class is the base class for controls that display text in a text field and have a button that causes a drop-down list to appear where the user can choose which text to display. The ComboBase class is not used directly as an MXML tag.   <p>The <code>&lt;mx:ComboBase&gt;</code> tag inherits all the tag attributes of its superclass, and adds the following tag attributes:</p>  <pre>\\n &lt;<i>mx:tagname</i>\\n <b>Properties</b>\\n dataProvider=&quot;null&quot;\\n editable=&quot;false|true&quot;\\n imeMode=&quot;null&quot;\\n restrict=&quot;null&quot;\\n selectedIndex=&quot;-1&quot;\\n selectedItem=&quot;null&quot;\\n text=&quot;&quot;\\n &nbsp;\\n <b>Styles</b>\\n disabledSkin=&quot;<i>Depends on class</i>&quot;\\n downSkin=&quot;<i>Depends on class</i>&quot;\\n editableDisabledSkin=&quot;<i>Depends on class</i>&quot;\\n editableDownSkin=&quot;<i>Depends on class</i>&quot;\\n editableOverSkin=&quot;<i>Depends on class</i>&quot;\\n editableUpSkin=&quot;<i>Depends on class</i>&quot;\\n overSkin=&quot;<i>Depends on class</i>&quot;\\n textInputStyleName=&quot;&quot;\\n upSkin=&quot;<i>Depends on class</i>&quot;\\n \\n /&gt;\\n </pre>",
   "tags": [
   {  "tagName": "see",
          "values": ["mx.controls.Button", "mx.controls.TextInput", "mx.collections.ICollectionView"]},
@@ -177,7 +177,7 @@
           "description": "Contents of the text field.  If the control is non-editable setting this property has no effect. If the control is editable, setting this property sets the contents of the text field.",
         "tags": [
         {  "tagName": "default",
-               "values": ["&quot;&quot;"]},
+               "values": [""""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
@@ -217,5 +217,23 @@
             {  "tagName": "productversion",
                "values": ["Flex 3"]},
             {  "tagName": "langversion",
-               "values": ["3.0"]}  ]}]
+               "values": ["3.0"]}  ]},
+      { "type": "method",
+        "qname": "addedToParent",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "void",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "textInput_changeHandler",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "event", "type": "org.apache.royale.events.Event"}]}
+      ]
   }

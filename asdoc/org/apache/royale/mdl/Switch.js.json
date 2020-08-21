@@ -2,7 +2,7 @@
   "qname": "org.apache.royale.mdl.Switch",
   "baseClassname": "org.apache.royale.html.TextButton"
   ,
-    "description": "The Material Design Lite (MDL) switch component is an enhanced version of the standard HTML <input type=\\&quot;checkbox\\&quot;> element. A switch consists of a short horizontal \\&quot;track\\&quot; with a prominent circular state indicator and, typically, text that clearly communicates a binary condition that will be set or unset when the user clicks or touches it. Like checkboxes, switches may appear individually or in groups, and can be selected and deselected individually. However, switches provide a more intuitive visual representation of their state: left/gray for off, right/colored for on. The MDL switch component allows you to add both display and click effects.",
+    "description": "The Material Design Lite (MDL) switch component is an enhanced version of the standard HTML <input type=&quot;checkbox&quot;> element. A switch consists of a short horizontal &quot;track&quot; with a prominent circular state indicator and, typically, text that clearly communicates a binary condition that will be set or unset when the user clicks or touches it. Like checkboxes, switches may appear individually or in groups, and can be selected and deselected individually. However, switches provide a more intuitive visual representation of their state: left/gray for off, right/colored for on. The MDL switch component allows you to add both display and click effects.",
   "tags": [
   {  "tagName": "playerversion",
          "values": ["Flash 10.2", "AIR 2.6"]},
@@ -70,7 +70,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A boolean flag to activate \\&quot;mdl-js-ripple-effect\\&quot; effect selector. Applies ripple click effect. May be used in combination with any other classes",
+          "description": "A boolean flag to activate &quot;mdl-js-ripple-effect&quot; effect selector. Applies ripple click effect. May be used in combination with any other classes",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

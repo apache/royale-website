@@ -36,7 +36,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Makes the component to be visible or hidden in phone size Uses \\&quot;visible-phone\\&quot; and \\&quot;hidden-phone\\&quot; effect selectors.",
+          "description": "Makes the component to be visible or hidden in phone size Uses &quot;visible-phone&quot; and &quot;hidden-phone&quot; effect selectors.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -52,7 +52,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Makes the component to be visible or hidden in phone size Uses \\&quot;visible-tablet\\&quot; and \\&quot;hidden-tablet\\&quot; effect selectors.",
+          "description": "Makes the component to be visible or hidden in phone size Uses &quot;visible-tablet&quot; and &quot;hidden-tablet&quot; effect selectors.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -68,7 +68,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Makes the component to be visible or hidden in phone size Uses \\&quot;visible-desktop\\&quot; and \\&quot;hidden-desktop\\&quot; effect selectors.",
+          "description": "Makes the component to be visible or hidden in phone size Uses &quot;visible-desktop&quot; and &quot;hidden-desktop&quot; effect selectors.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -84,7 +84,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Makes the component to be visible or hidden in phone size Uses \\&quot;visible-widescreen\\&quot; and \\&quot;hidden-widescreen\\&quot; effect selectors.",
+          "description": "Makes the component to be visible or hidden in phone size Uses &quot;visible-widescreen&quot; and &quot;hidden-widescreen&quot; effect selectors.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -92,6 +92,13 @@
                "values": ["Royale 0.9.4"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]},
+      { "type": "field",
+        "qname": "_strand",
+        "return": "org.apache.royale.core.IStrand",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}},
       { "type": "accessor",
         "access": "write-only",
         "return": "org.apache.royale.core.IStrand",
@@ -111,5 +118,14 @@
             {  "tagName": "royaleignorecoercion",
                "values": ["HTMLInputElement", "org.apache.royale.core.UIBase;"]},
             {  "tagName": "langversion",
-               "values": ["3.0"]}  ]}]
+               "values": ["3.0"]}  ]},
+      { "type": "method",
+        "qname": "showOrHideHost",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "void",
+          "params": []}
+      ]
   }

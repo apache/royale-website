@@ -1,0 +1,10 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.jewel.supportClasses.IInputButton",
+    "description": "IInputButton is the interface that implements controls like CheckBox and RadioButton that owns a button input part",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.7"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ]}

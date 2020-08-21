@@ -2,6 +2,7 @@
   "qname": "org.apache.royale.test.listeners.CIListener",
   "baseClassname": "org.apache.royale.events.EventDispatcher"
   ,
+    "description": "Communicates with a socket server to integrate RoyaleUnit tests with a build system, such as <a href=&quot;https://apache.github.io/royale-docs/testing/royaleunit/run-unit-tests-with-ant&quot;>Apache Ant</a>.",
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.test.listeners.CIListener",

@@ -2,7 +2,7 @@
   "qname": "spark.components.RadioButtonGroup",
   "baseClassname": "org.apache.royale.events.EventDispatcher"
   ,
-    "description": "The RadioButtonGroup component defines a group of RadioButton components that act as a single mutually exclusive component; therefore, a user can select only one RadioButton component at a time. The <code>id</code> property is required when you use the <code>&lt;s:RadioButtonGroup&gt;</code> tag to define the group name.  Any <code>&lt;s:RadioButton&gt;</code> component added to this group will have this group name.  <p>Notice that the RadioButtonGroup component is a subclass of EventDispatcher, not UIComponent, and implements the IMXMLObject interface. All other Flex visual components implement the IVisualElement interface. The RadioButtonGroup component declaration must be contained within the <code>&lt;Declarations&gt;</code> tag since it is not assignable to IVisualElement.</p>  <p>To use this component in a list-based component, such as a List or DataGrid, create an item renderer. For information about creating an item renderer, see <a href=\\&quot;http://help.adobe.com/en_US/flex/using/WS4bebcd66a74275c3-fc6548e124e49b51c4-8000.html\\&quot;> Custom Spark item renderers</a>. </p>   <p>The <code>&lt;s:RadioButtonGroup&gt;</code> tag inherits all of the tag attributes of its superclass, and adds the following tag attributes:</p>  <pre> &lt;s:RadioButtonGroup <strong>Properties</strong> enabled=\\&quot;true\\&quot; selectedValue=\\&quot;null\\&quot; selection=\\&quot;null\\&quot;  <strong>Events</strong> change=\\&quot;<i>No default</i>\\&quot; itemClick=\\&quot;<i>No default</i>\\&quot; valueCommit=\\&quot;<i>No default</i>\\&quot; /&gt; </pre>",
+    "description": "The RadioButtonGroup component defines a group of RadioButton components that act as a single mutually exclusive component; therefore, a user can select only one RadioButton component at a time. The <code>id</code> property is required when you use the <code>&lt;s:RadioButtonGroup&gt;</code> tag to define the group name.  Any <code>&lt;s:RadioButton&gt;</code> component added to this group will have this group name.  <p>Notice that the RadioButtonGroup component is a subclass of EventDispatcher, not UIComponent, and implements the IMXMLObject interface. All other Flex visual components implement the IVisualElement interface. The RadioButtonGroup component declaration must be contained within the <code>&lt;Declarations&gt;</code> tag since it is not assignable to IVisualElement.</p>  <p>To use this component in a list-based component, such as a List or DataGrid, create an item renderer. For information about creating an item renderer, see <a href=&quot;http://help.adobe.com/en_US/flex/using/WS4bebcd66a74275c3-fc6548e124e49b51c4-8000.html&quot;> Custom Spark item renderers</a>. </p>   <p>The <code>&lt;s:RadioButtonGroup&gt;</code> tag inherits all of the tag attributes of its superclass, and adds the following tag attributes:</p>  <pre>\\n &lt;s:RadioButtonGroup\\n <strong>Properties</strong>\\n enabled=&quot;true&quot;\\n selectedValue=&quot;null&quot;\\n selection=&quot;null&quot;\\n \\n <strong>Events</strong>\\n change=&quot;<i>No default</i>&quot;\\n itemClick=&quot;<i>No default</i>&quot;\\n valueCommit=&quot;<i>No default</i>&quot;\\n /&gt;\\n </pre>",
   "tags": [
   {  "tagName": "includeExample",
          "values": ["examples/RadioButtonGroupExample.mxml"]},
@@ -67,7 +67,7 @@
           "description": "The number of RadioButtons that belong to this RadioButtonGroup.",
         "tags": [
         {  "tagName": "default",
-               "values": ["&quot;0&quot;"]},
+               "values": [""0""]},
             {  "tagName": "playerversion",
                "values": ["Flash 10", "AIR 1.5"]},
             {  "tagName": "productversion",
@@ -150,7 +150,15 @@
                "values": ["3.0"]}  ],
           "return": "spark.components.RadioButton",
           "params": [{ "name": "index", "type": "int"}]}
-      ]
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "String",
+        "qname": "id",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}}]
   ,
   "events": [
   { "qname": "change",

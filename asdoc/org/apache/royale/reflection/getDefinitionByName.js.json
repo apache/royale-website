@@ -12,5 +12,5 @@
          "values": ["Royale 0.0"]},
       {  "tagName": "langversion",
          "values": ["3.0"]}  ],
-    "return": "Object",
+    "return": "*",
     "params": [{ "name": "name", "type": "String"}]}

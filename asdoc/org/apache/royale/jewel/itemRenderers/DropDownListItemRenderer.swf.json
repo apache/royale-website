@@ -1,6 +1,6 @@
 { "type": "class",
   "qname": "org.apache.royale.jewel.itemRenderers.DropDownListItemRenderer",
-  "baseClassname": "org.apache.royale.html.supportClasses.MXMLItemRenderer"
+  "baseClassname": "org.apache.royale.core.StyledMXMLItemRenderer"
   ,
     "description": "The DropDownListItemRenderer class creates a DropDownList menu item",
   "tags": [

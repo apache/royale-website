@@ -54,7 +54,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "This property allows the developer to quickly specify an endpoint for a RemoteObject destination without referring to a services configuration file at compile time or programmatically creating a ChannelSet. It also overrides an existing ChannelSet if one has been set for the RemoteObject service.  <p>If the endpoint url starts with \\&quot;https\\&quot; a SecureAMFChannel will be used, otherwise an AMFChannel will be used. Two special tokens, {server.name} and {server.port}, can be used in the endpoint url to specify that the channel should use the server name and port that was used to load the SWF. </p>  <p><b>Note:</b> This property is required when creating AIR applications.</p>",
+          "description": "This property allows the developer to quickly specify an endpoint for a RemoteObject destination without referring to a services configuration file at compile time or programmatically creating a ChannelSet. It also overrides an existing ChannelSet if one has been set for the RemoteObject service.  <p>If the endpoint url starts with &quot;https&quot; a SecureAMFChannel will be used, otherwise an AMFChannel will be used. Two special tokens, {server.name} and {server.port}, can be used in the endpoint url to specify that the channel should use the server name and port that was used to load the SWF. </p>  <p><b>Note:</b> This property is required when creating AIR applications.</p>",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},

@@ -53,5 +53,9 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}}]
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.IRenderedObject"]}  ]}]
   }

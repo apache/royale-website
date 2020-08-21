@@ -164,7 +164,7 @@
                "values": ["Royale 0.8"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ],
-          "return": "void",
+          "return": "Boolean",
           "params": []}
       ,
       { "type": "method",

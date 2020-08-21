@@ -31,6 +31,17 @@
           "params": [{ "name": "event1", "type": "Object"}]}
       ,
       { "type": "method",
+        "qname": "fireListeners",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "Boolean",
+          "params": [{ "name": "type", "type": "Object"},
+        { "name": "capture", "type": "Boolean"},
+        { "name": "eventObject", "type": "Object"}]}
+      ,
+      { "type": "method",
         "qname": "toString",
         "namespace": "public",
         "bindable": [],

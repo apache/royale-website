@@ -64,7 +64,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A size selector. Sets the size of the button using one of the \\&quot;size\\&quot; constants (XSMALL, SMALL, LARGE and XLARGE)",
+          "description": "A size selector. Sets the size of the button using one of the &quot;size&quot; constants (XSMALL, SMALL, LARGE and XLARGE)",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

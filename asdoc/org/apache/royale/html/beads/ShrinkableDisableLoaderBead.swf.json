@@ -50,6 +50,10 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.IUIBase"]}  ],
           "return": "void",
           "params": []}
       ]

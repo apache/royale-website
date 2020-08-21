@@ -2,7 +2,7 @@
   "qname": "mx.charts.PieChart",
   "baseClassname": "mx.charts.chartClasses.PolarChart"
   ,
-    "description": "The PieChart control represents a data series as a standard pie chart. The data for the data provider determines the size of each wedge in the pie chart relative to the other wedges. You can use the PieSeries class to create standard pie charts, doughnut charts, or stacked pie charts.  <p>The PieChart control expects its <code>series</code> property to contain an Array of PieSeries objects.</p>   <p>The <code>&lt;mx:PieChart&gt;</code> tag inherits all the properties of its parent classes, and adds the following properties:  <pre> &lt;mx:PieChart <strong>Styles</strong> innerRadius=\\&quot;0\\&quot; textAlign=\\&quot;left\\&quot; /&gt; </pre>",
+    "description": "The PieChart control represents a data series as a standard pie chart. The data for the data provider determines the size of each wedge in the pie chart relative to the other wedges. You can use the PieSeries class to create standard pie charts, doughnut charts, or stacked pie charts.  <p>The PieChart control expects its <code>series</code> property to contain an Array of PieSeries objects.</p>   <p>The <code>&lt;mx:PieChart&gt;</code> tag inherits all the properties of its parent classes, and adds the following properties:  <pre>\\n &lt;mx:PieChart\\n <strong>Styles</strong>\\n innerRadius=&quot;0&quot;\\n textAlign=&quot;left&quot;\\n /&gt;\\n </pre>",
   "tags": [
   {  "tagName": "includeExample",
          "values": ["examples/PieChartExample.mxml"]},

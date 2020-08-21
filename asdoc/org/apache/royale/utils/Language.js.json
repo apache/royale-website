@@ -144,8 +144,10 @@
           "description": "",
         "tags": [
         {  "tagName": "param",
-               "values": ["arr", "names", "opt"]}  ],
-          "return": "void",
+               "values": ["arr", "names", "opt"]},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["Array"]}  ],
+          "return": "Array",
           "params": [{ "name": "arr", "type": "Array"},
         { "name": "names", "type": "Object"},
         { "name": "opt", "type": "Object"}]}

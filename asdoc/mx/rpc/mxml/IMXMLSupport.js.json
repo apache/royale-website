@@ -17,7 +17,7 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
-      "description": "The concurrency setting of the RPC operation or HTTPService. One of \\&quot;multiple\\&quot; \\&quot;last\\&quot; or \\&quot;single.\\&quot;",
+      "description": "The concurrency setting of the RPC operation or HTTPService. One of &quot;multiple&quot; &quot;last&quot; or &quot;single.&quot;",
     "tags": [
     {  "tagName": "playerversion",
            "values": ["Flash 9", "AIR 1.1"]},

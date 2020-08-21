@@ -35,6 +35,13 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {}},
+      { "type": "field",
+        "qname": "_strand",
+        "return": "org.apache.royale.core.IStrand",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}},
       { "type": "accessor",
         "access": "write-only",
         "return": "org.apache.royale.core.IStrand",
@@ -51,6 +58,8 @@
                "values": ["org.apache.royale.core.IBead#strand"]},
             {  "tagName": "productversion",
                "values": ["Royale 0.0"]},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.IRenderedObject"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
   }

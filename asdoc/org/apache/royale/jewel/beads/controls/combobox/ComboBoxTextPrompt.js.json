@@ -28,11 +28,9 @@
           "return": "",
           "params": []}
       ,
-      { "type": "accessor",
-        "access": "write-only",
-        "return": "org.apache.royale.core.IStrand",
-        "qname": "strand",
-        "namespace": "public",
+      { "type": "method",
+        "qname": "updatePromptText",
+        "namespace": "protected",
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
@@ -41,11 +39,12 @@
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
             {  "tagName": "copy",
-               "values": ["org.apache.royale.core.IBead#strand"]},
+               "values": ["org.apache.royale.jewel.beads.controls.textinput.TextPrompt#updatePromptText()"]},
             {  "tagName": "productversion",
-               "values": ["Royale 0.9.4"]},
-            {  "tagName": "royaleignorecoercion",
-               "values": ["org.apache.royale.events.IEventDispatcher"]},
+               "values": ["Royale 0.9.7"]},
             {  "tagName": "langversion",
-               "values": ["3.0"]}  ]}]
+               "values": ["3.0"]}  ],
+          "return": "void",
+          "params": []}
+      ]
   }

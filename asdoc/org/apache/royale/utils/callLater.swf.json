@@ -4,6 +4,10 @@
   "bindable": [],
   "details": [],
   "deprecated": {},
+    "description": "",
+  "tags": [
+  {  "tagName": "royalesuppressexport",
+         "values": []}  ],
     "return": "void",
     "params": [{ "name": "fn", "type": "Function"},
   { "name": "args", "type": "Array"},

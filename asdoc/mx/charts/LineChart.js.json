@@ -2,7 +2,7 @@
   "qname": "mx.charts.LineChart",
   "baseClassname": "mx.charts.chartClasses.CartesianChart"
   ,
-    "description": "The LineChart control represents a data series as points connected by a continuous line. You can use an icon or symbol to represent each data point along the line, or show a simple line with no icons.  <p>The LineChart control expects its <code>series</code> property to contain an Array of LineSeries objects.</p>   The <code>&lt;mx:LineChart&gt;</code> tag inherits all the properties of its parent classes and adds the following properties:</p>  <pre> &lt;mx:LineChart /&gt; </pre>",
+    "description": "The LineChart control represents a data series as points connected by a continuous line. You can use an icon or symbol to represent each data point along the line, or show a simple line with no icons.  <p>The LineChart control expects its <code>series</code> property to contain an Array of LineSeries objects.</p>   The <code>&lt;mx:LineChart&gt;</code> tag inherits all the properties of its parent classes and adds the following properties:</p>  <pre>\\n &lt;mx:LineChart\\n /&gt;\\n </pre>",
   "tags": [
   {  "tagName": "includeExample",
          "values": ["examples/Line_AreaChartExample.mxml"]},

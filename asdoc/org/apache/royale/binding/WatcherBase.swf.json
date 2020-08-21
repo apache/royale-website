@@ -52,7 +52,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Children of this watcher are watching sub values.  For example, if watching {a.b.c} and this watcher is watching \\&quot;b\\&quot;, then it is the watchers watching \\&quot;c\\&quot; and \\&quot;d\\&quot; if there is an {a.b.d} being watched.",
+          "description": "Children of this watcher are watching sub values.  For example, if watching {a.b.c} and this watcher is watching &quot;b&quot;, then it is the watchers watching &quot;c&quot; and &quot;d&quot; if there is an {a.b.d} being watched.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -67,7 +67,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The value of whatever it is we are watching.  For example, if watching {a.b.c} and this watcher is watching \\&quot;b\\&quot;, then it is the value of \\&quot;a.b\\&quot;.",
+          "description": "The value of whatever it is we are watching.  For example, if watching {a.b.c} and this watcher is watching &quot;b&quot;, then it is the value of &quot;a.b&quot;.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -81,7 +81,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "This is an abstract method that subclasses implement.  Implementations handle changes in the parent chain.  For example, if watching {a.b.c} and this watcher is watching \\&quot;b\\&quot;, then handle \\&quot;a\\&quot; changing.",
+          "description": "This is an abstract method that subclasses implement.  Implementations handle changes in the parent chain.  For example, if watching {a.b.c} and this watcher is watching &quot;b&quot;, then handle &quot;a&quot; changing.",
         "tags": [
         {  "tagName": "param",
                "values": ["parent The new parent."]},
@@ -100,7 +100,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Add a child to this watcher, meaning that the child is watching a sub value of ours.  For example, if watching {a.b.c} and this watcher is watching \\&quot;b\\&quot;, then this method is called to add the watcher watching \\&quot;c\\&quot;.",
+          "description": "Add a child to this watcher, meaning that the child is watching a sub value of ours.  For example, if watching {a.b.c} and this watcher is watching &quot;b&quot;, then this method is called to add the watcher watching &quot;c&quot;.",
         "tags": [
         {  "tagName": "param",
                "values": ["child The new child"]},
@@ -210,6 +210,8 @@
                "values": ["Flash 10.2", "AIR 2.6"]},
             {  "tagName": "productversion",
                "values": ["Royale 0.0"]},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.binding.GenericBinding"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ],
           "return": "void",

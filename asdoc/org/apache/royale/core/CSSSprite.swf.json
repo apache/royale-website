@@ -68,7 +68,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The object that contains \\&quot;styles\\&quot; and other associated name-value pairs.  You can also specify a string in HTML style attribute format.",
+          "description": "The object that contains &quot;styles&quot; and other associated name-value pairs.  You can also specify a string in HTML style attribute format.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

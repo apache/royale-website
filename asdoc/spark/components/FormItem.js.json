@@ -2,7 +2,7 @@
   "qname": "spark.components.FormItem",
   "baseClassname": "spark.components.SkinnableContainer"
   ,
-    "description": "The FormItem container defines the following in a Spark From:  <ul> <li>A single label.</li> <li>A sequence label.</li> <li>One or more child controls or containers.</li> <li>Help content that provides a description of the form item or instructions for filling it in.</li> <li>Required indicator to indicate if a form item has to be filled</li> </ul>  Children can be controls or other containers. A single Form container can hold multiple FormItem containers. By default, all the FormItem elements are arranged in a horizontal layout with the label placed on the left and the Help content on the right.   <p>The <code>&lt;s:FormItem&gt;</code> tag inherits all the tag attributes of its superclass and adds no new tag attributes:</p>  <pre> &lt;s:FormItem <strong>Properties</strong> helpContent=\\&quot;null\\&quot; label=\\&quot;\\&quot; required=\\&quot;false\\&quot; sequenceLabel=\\&quot;\\&quot;  <strong>Common Styles</strong> errorIndicatorSource=\\&quot;assets/ErrorIndicator.png\\&quot; requiredIndicatorSource=\\&quot;assets/RequiredIndicator.png\\&quot;  <strong>Mobile Styles</strong> leading=\\&quot;2\\&quot; letterSpacing=\\&quot;0\\&quot; /&gt; </pre>",
+    "description": "The FormItem container defines the following in a Spark From:  <ul> <li>A single label.</li> <li>A sequence label.</li> <li>One or more child controls or containers.</li> <li>Help content that provides a description of the form item or instructions for filling it in.</li> <li>Required indicator to indicate if a form item has to be filled</li> </ul>  Children can be controls or other containers. A single Form container can hold multiple FormItem containers. By default, all the FormItem elements are arranged in a horizontal layout with the label placed on the left and the Help content on the right.   <p>The <code>&lt;s:FormItem&gt;</code> tag inherits all the tag attributes of its superclass and adds no new tag attributes:</p>  <pre>\\n &lt;s:FormItem\\n <strong>Properties</strong>\\n helpContent=&quot;null&quot;\\n label=&quot;&quot;\\n required=&quot;false&quot;\\n sequenceLabel=&quot;&quot;\\n \\n <strong>Common Styles</strong>\\n errorIndicatorSource=&quot;assets/ErrorIndicator.png&quot;\\n requiredIndicatorSource=&quot;assets/RequiredIndicator.png&quot;\\n \\n <strong>Mobile Styles</strong>\\n leading=&quot;2&quot;\\n letterSpacing=&quot;0&quot;\\n /&gt;\\n </pre>",
   "tags": [
   {  "tagName": "includeExample",
          "values": ["examples/FormItemExample.mxml"]},
@@ -117,10 +117,10 @@
         "bindable": ["labelChanged"],
         "details": [],
         "deprecated": {},
-          "description": "Text label for the FormItem. For example, a FormItem used to input an address might have the label of \\&quot;Address\\&quot;.",
+          "description": "Text label for the FormItem. For example, a FormItem used to input an address might have the label of &quot;Address&quot;.",
         "tags": [
         {  "tagName": "default",
-               "values": ["&quot;&quot;"]},
+               "values": [""""]},
             {  "tagName": "playerversion",
                "values": ["Flash 10", "AIR 2.5"]},
             {  "tagName": "productversion",
@@ -156,7 +156,7 @@
           "description": "The number of the form item in the form.",
         "tags": [
         {  "tagName": "default",
-               "values": ["&quot;&quot;"]},
+               "values": [""""]},
             {  "tagName": "playerversion",
                "values": ["Flash 10", "AIR 2.5"]},
             {  "tagName": "productversion",

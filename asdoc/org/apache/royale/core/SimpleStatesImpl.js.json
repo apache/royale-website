@@ -1,6 +1,6 @@
 { "type": "class",
   "qname": "org.apache.royale.core.SimpleStatesImpl",
-  "baseClassname": "org.apache.royale.events.EventDispatcher"
+  "baseClassname": "org.apache.royale.core.DispatcherBead"
   ,
     "description": "The SimpleStatesImpl class implements a minimal set of view state functionality that is sufficient for most applications. It only supports AddItems and SetProperty changes at this time.",
   "tags": [
@@ -34,7 +34,7 @@
         "qname": "strand",
         "namespace": "public",
         "bindable": [],
-        "details": [],
+        "details": ["override"],
         "deprecated": {},
           "description": "",
         "tags": [

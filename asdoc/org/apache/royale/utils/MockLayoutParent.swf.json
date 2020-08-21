@@ -18,7 +18,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "return": "void",
+          "return": "Boolean",
           "params": []}
       ,
       { "type": "method",

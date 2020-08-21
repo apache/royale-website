@@ -1,0 +1,47 @@
+{ "type": "class",
+  "qname": "org.apache.royale.jewel.beads.models.DataGridPresentationModel",
+  "baseClassname": "org.apache.royale.jewel.beads.models.ListPresentationModel"
+  ,
+    "description": "The DataGridPresentationModel class contains the data to label the columns of the org.apache.royale.jewel.DataGrid along with the height of the rows or the align of column labels.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.7"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.jewel.beads.models.DataGridPresentationModel",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.7"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "Array",
+        "qname": "columnLabels",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "The labels used in each column header.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.7"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  }

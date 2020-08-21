@@ -29,13 +29,22 @@
           "params": []}
       ,
       { "type": "method",
-        "qname": "keyUpLogic",
+        "qname": "textInputKeyUpLogic",
         "namespace": "protected",
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
           "return": "void",
           "params": [{ "name": "input", "type": "Object"}]}
+      ,
+      { "type": "method",
+        "qname": "selectItem",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "item", "type": "Object"}]}
       ,
       { "type": "method",
         "qname": "onBeadsAdded",
@@ -54,5 +63,23 @@
         "deprecated": {},
           "return": "void",
           "params": [{ "name": "event", "type": "org.apache.royale.events.Event"}]}
+      ,
+      { "type": "method",
+        "qname": "popUpOpenedHandler",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "void",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "popUpClosedHandler",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "void",
+          "params": []}
       ]
   }

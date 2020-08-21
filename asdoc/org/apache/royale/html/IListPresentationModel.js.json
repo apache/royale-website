@@ -1,0 +1,31 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.html.IListPresentationModel",
+"baseInterfaceNames": [
+"org.apache.royale.core.IListPresentationModel"]
+,
+    "description": "The IListPresentationModel interface holds key values for the display of lists.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "Number",
+    "qname": "separatorThickness",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "The distance each row should be separated from the row above.",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.0"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]}]
+  }

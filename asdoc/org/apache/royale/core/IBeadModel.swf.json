@@ -4,7 +4,7 @@
 "org.apache.royale.core.IBead", 
 "org.apache.royale.events.IEventDispatcher"]
 ,
-    "description": "The IBeadModel interface is a \\&quot;marker\\&quot; interface for beads that represent the data model for a control.  A marker interface has no addtional APIs. It is used to find the model bead on the strand via calls to getBeadByType.",
+    "description": "The IBeadModel interface is a &quot;marker&quot; interface for beads that represent the data model for a control.  A marker interface has no addtional APIs. It is used to find the model bead on the strand via calls to getBeadByType.",
   "tags": [
   {  "tagName": "see",
          "values": ["org.apache.royale.core.IStrand#getBeadByType"]},

@@ -2,7 +2,7 @@
   "qname": "org.apache.royale.events.BrowserEvent",
   "baseClassname": ""
   ,
-    "description": "<pre> The patched event object contains the following members: - type           {string}    Event type, e.g. 'click' - timestamp      {Date}      A date object for when the event was fired - target         {Object}    The element that actually triggered the event - currentTarget  {Object}    The element the listener is attached to - relatedTarget  {Object}    For mouseover and mouseout, the previous object - offsetX        {number}    X-coordinate relative to target - offsetY        {number}    Y-coordinate relative to target - clientX        {number}    X-coordinate relative to viewport - clientY        {number}    Y-coordinate relative to viewport - screenX        {number}    X-coordinate relative to the edge of the screen - screenY        {number}    Y-coordinate relative to the edge of the screen - button         {number}    Mouse button. Use isButton() to test. - keyCode        {number}    Key-code - ctrlKey        {boolean}   Was ctrl key depressed - altKey         {boolean}   Was alt key depressed - shiftKey       {boolean}   Was shift key depressed - metaKey        {boolean}   Was meta key depressed - defaultPrevented {boolean} Whether the default action has been prevented - state          {Object}    History state object  NOTE: The keyCode member contains the raw browser keyCode. For normalized </pre>",
+    "description": "<pre>\\n The patched event object contains the following members:\\n - type           {string}    Event type, e.g. 'click'\\n - timestamp      {Date}      A date object for when the event was fired\\n - target         {Object}    The element that actually triggered the event\\n - currentTarget  {Object}    The element the listener is attached to\\n - relatedTarget  {Object}    For mouseover and mouseout, the previous object\\n - offsetX        {number}    X-coordinate relative to target\\n - offsetY        {number}    Y-coordinate relative to target\\n - clientX        {number}    X-coordinate relative to viewport\\n - clientY        {number}    Y-coordinate relative to viewport\\n - screenX        {number}    X-coordinate relative to the edge of the screen\\n - screenY        {number}    Y-coordinate relative to the edge of the screen\\n - button         {number}    Mouse button. Use isButton() to test.\\n - keyCode        {number}    Key-code\\n - ctrlKey        {boolean}   Was ctrl key depressed\\n - altKey         {boolean}   Was alt key depressed\\n - shiftKey       {boolean}   Was shift key depressed\\n - metaKey        {boolean}   Was meta key depressed\\n - defaultPrevented {boolean} Whether the default action has been prevented\\n - state          {Object}    History state object\\n \\n NOTE: The keyCode member contains the raw browser keyCode. For normalized\\n </pre>",
   "tags": [
   {  "tagName": "link",
          "values": ["goog.events.KeyHandler}."]},
@@ -241,7 +241,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Whether this has an \\&quot;action\\&quot;-producing mouse button.  By definition, this includes left-click on windows/linux, and left-click without the ctrl key on Macs.",
+          "description": "Whether this has an &quot;action&quot;-producing mouse button.  By definition, this includes left-click on windows/linux, and left-click without the ctrl key on Macs.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

@@ -2,7 +2,7 @@
   "qname": "spark.collections.SubListView",
   "baseClassname": "org.apache.royale.events.EventDispatcher"
   ,
-    "description": "A \\&quot;view\\&quot; of a contiguous IList interval that begins at startIndex and extends for count items.  The list item index parameter for IList methods like getItemAt(index) are defined relative to this SubListView.   For example the SubListView definition of getItemAt(0) is defined as list.getItemAt(startIndex).  Similarly returned index values and the location CollectionEvent property are defined relative to the SubListView.   In all other respects paraters, return values, and events, have the same semantics as defined for IList.  This class is internal to the Grid implementation.",
+    "description": "A &quot;view&quot; of a contiguous IList interval that begins at startIndex and extends for count items.  The list item index parameter for IList methods like getItemAt(index) are defined relative to this SubListView.   For example the SubListView definition of getItemAt(0) is defined as list.getItemAt(startIndex).  Similarly returned index values and the location CollectionEvent property are defined relative to the SubListView.   In all other respects paraters, return values, and events, have the same semantics as defined for IList.  This class is internal to the Grid implementation.",
   "tags": [
   {  "tagName": "playerversion",
          "values": ["Flash 11", "AIR 3"]},

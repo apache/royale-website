@@ -1,6 +1,6 @@
 { "type": "interface",
   "qname": "mx.managers.IFocusManagerComponent",
-    "description": "The IFocusManagerComponent interface defines the interface that focusable components must implement in order to receive focus from the FocusManager. The base implementations of this interface are in the UIComponent class, but UIComponent does not implement the full IFocusManagerComponent interface since some UIComponents are not intended to receive focus. Therefore, to make a UIComponent-derived component be a valid focusable component, you simply add \\&quot;implements IFocusManagerComponent\\&quot; to the class definition.",
+    "description": "The IFocusManagerComponent interface defines the interface that focusable components must implement in order to receive focus from the FocusManager. The base implementations of this interface are in the UIComponent class, but UIComponent does not implement the full IFocusManagerComponent interface since some UIComponents are not intended to receive focus. Therefore, to make a UIComponent-derived component be a valid focusable component, you simply add &quot;implements IFocusManagerComponent&quot; to the class definition.",
   "tags": [
   {  "tagName": "playerversion",
          "values": ["Flash 9", "AIR 1.1"]},

@@ -46,7 +46,7 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Outputs the hex value of a int, allowing the developer to specify the endinaness in the process.  Hex output is lowercase.  hex representation of n ( minus the leading \\&quot;0x\\&quot; )",
+          "description": "Outputs the hex value of a int, allowing the developer to specify the endinaness in the process.  Hex output is lowercase.  hex representation of n ( minus the leading &quot;0x&quot; )",
         "tags": [
         {  "tagName": "param",
                "values": ["n The int value to output as hex", "bigEndian Flag to output the int as big or little endian"]},

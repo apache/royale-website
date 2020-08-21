@@ -2,7 +2,7 @@
   "qname": "spark.components.VGroup",
   "baseClassname": "spark.components.Group"
   ,
-    "description": "The VGroup container is an instance of the Group container that uses the VerticalLayout class. Do not modify the <code>layout</code> property. Instead, use the properties of the VGroup class to modify the characteristics of the VerticalLayout class.  <p>The VGroup container has the following default characteristics:</p> <table class=\\&quot;innertable\\&quot;> <tr><th>Characteristic</th><th>Description</th></tr> <tr><td>Default size</td><td>Large enough to display its children</td></tr> <tr><td>Minimum size</td><td>0 pixels</td></tr> <tr><td>Maximum size</td><td>10000 pixels wide and 10000 pixels high</td></tr> </table>   <p>The <code>&lt;s:VGroup&gt;</code> tag inherits all of the tag attributes of its superclass and adds the following tag attributes:</p>  <pre> &lt;s:VGroup <strong>Properties</strong> gap=\\&quot;6\\&quot; horizontalAlign=\\&quot;left\\&quot; padding=\\&quot;0\\&quot; paddingBottom=\\&quot;0\\&quot; paddingLeft=\\&quot;0\\&quot; paddingRight=\\&quot;0\\&quot; paddingTop=\\&quot;0\\&quot; requestedMaxRowCount=\\&quot;-1\\&quot; requestedMinRowCount=\\&quot;-1\\&quot; requestedRowCount\\&quot;-1\\&quot; rowHeight=\\&quot;no default\\&quot; variableRowHeight=\\&quot;true\\&quot; verticalAlign=\\&quot;top\\&quot; /&gt; </pre>",
+    "description": "The VGroup container is an instance of the Group container that uses the VerticalLayout class. Do not modify the <code>layout</code> property. Instead, use the properties of the VGroup class to modify the characteristics of the VerticalLayout class.  <p>The VGroup container has the following default characteristics:</p> <table class=&quot;innertable&quot;> <tr><th>Characteristic</th><th>Description</th></tr> <tr><td>Default size</td><td>Large enough to display its children</td></tr> <tr><td>Minimum size</td><td>0 pixels</td></tr> <tr><td>Maximum size</td><td>10000 pixels wide and 10000 pixels high</td></tr> </table>   <p>The <code>&lt;s:VGroup&gt;</code> tag inherits all of the tag attributes of its superclass and adds the following tag attributes:</p>  <pre>\\n &lt;s:VGroup\\n <strong>Properties</strong>\\n gap=&quot;6&quot;\\n horizontalAlign=&quot;left&quot;\\n padding=&quot;0&quot;\\n paddingBottom=&quot;0&quot;\\n paddingLeft=&quot;0&quot;\\n paddingRight=&quot;0&quot;\\n paddingTop=&quot;0&quot;\\n requestedMaxRowCount=&quot;-1&quot;\\n requestedMinRowCount=&quot;-1&quot;\\n requestedRowCount&quot;-1&quot;\\n rowHeight=&quot;no default&quot;\\n variableRowHeight=&quot;true&quot;\\n verticalAlign=&quot;top&quot;\\n /&gt;\\n </pre>",
   "tags": [
   {  "tagName": "includeExample",
          "values": ["examples/VGroupExample.mxml"]},
@@ -67,7 +67,7 @@
           "description": "",
         "tags": [
         {  "tagName": "default",
-               "values": ["&quot;left&quot;"]},
+               "values": [""left""]},
             {  "tagName": "playerversion",
                "values": ["Flash 10", "AIR 1.5"]},
             {  "tagName": "copy",
@@ -87,7 +87,7 @@
           "description": "",
         "tags": [
         {  "tagName": "default",
-               "values": ["&quot;top&quot;"]},
+               "values": [""top""]},
             {  "tagName": "playerversion",
                "values": ["Flash 10", "AIR 1.5"]},
             {  "tagName": "copy",

@@ -2,7 +2,7 @@
   "qname": "org.apache.royale.mdl.beads.ListItemSecondaryAction",
   "baseClassname": ""
   ,
-    "description": "The ListItemSecondaryAction class decorates a tag element in a list item renderer Defines the Action sub-division Requires the host ListItemrenderer to have \\&quot;twoLine\\&quot; or \\&quot;threeLine\\&quot; set to true",
+    "description": "The ListItemSecondaryAction class decorates a tag element in a list item renderer Defines the Action sub-division Requires the host ListItemrenderer to have &quot;twoLine&quot; or &quot;threeLine&quot; set to true",
   "tags": [
   {  "tagName": "playerversion",
          "values": ["Flash 10.2", "AIR 2.6"]},

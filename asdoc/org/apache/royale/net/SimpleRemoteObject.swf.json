@@ -46,7 +46,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "source is a deprecated property. It exposes backend resources and it used by old AMF backend implementations. You should use \\&quot;destination\\&quot; property instead. This property is for backward compatibility with old implementations. Use at your own risk."},
+          "description": "source is a deprecated property. It exposes backend resources and it used by old AMF backend implementations. You should use &quot;destination&quot; property instead. This property is for backward compatibility with old implementations. Use at your own risk."},
       { "type": "method",
         "qname": "send",
         "namespace": "public",

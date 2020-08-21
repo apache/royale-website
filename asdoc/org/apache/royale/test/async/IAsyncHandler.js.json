@@ -17,6 +17,7 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "Sets the function to call after a delay.",
       "return": "void",
       "params": [{ "name": "eventListener", "type": "Function"},
     { "name": "delay", "type": "int"}]}

@@ -34,7 +34,7 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
-          "description": "adding indicator to positioner makes the indicator fill all available space adding to \\&quot;span\\&quot; HTMLElement restrict indicator to content. Override this function in TabBarButtonItemRenderer subclasses",
+          "description": "adding indicator to positioner makes the indicator fill all available space adding to &quot;span&quot; HTMLElement restrict indicator to content. Override this function in TabBarButtonItemRenderer subclasses",
           "return": "void",
           "params": []}
       ]

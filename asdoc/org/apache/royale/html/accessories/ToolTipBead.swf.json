@@ -1,6 +1,6 @@
 { "type": "class",
   "qname": "org.apache.royale.html.accessories.ToolTipBead",
-  "baseClassname": ""
+  "baseClassname": "org.apache.royale.core.Bead"
   ,
     "description": "The ToolTipBead class is a specialty bead that can be used with any control. The bead floats a string over a control if the user hovers over the control with a mouse.",
   "tags": [
@@ -125,20 +125,13 @@
                "values": ["Royale 0.9"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]},
-      { "type": "field",
-        "qname": "_strand",
-        "return": "org.apache.royale.core.IStrand",
-        "namespace": "protected",
-        "bindable": [],
-        "details": [],
-        "deprecated": {}},
       { "type": "accessor",
         "access": "write-only",
         "return": "org.apache.royale.core.IStrand",
         "qname": "strand",
         "namespace": "public",
         "bindable": [],
-        "details": [],
+        "details": ["override"],
         "deprecated": {},
           "description": "",
         "tags": [
@@ -148,8 +141,27 @@
                "values": ["org.apache.royale.core.IBead#strand"]},
             {  "tagName": "productversion",
                "values": ["Royale 0.9"]},
-            {  "tagName": "royaleignorecoercion",
-               "values": ["org.apache.royale.events.IEventDispatcher"]},
             {  "tagName": "langversion",
-               "values": ["3.0"]}  ]}]
+               "values": ["3.0"]}  ]},
+      { "type": "method",
+        "qname": "removeTip",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "copy",
+               "values": ["org.apache.royale.core.IToolTipBead#removeTip()"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.7"]},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.events.IEventDispatcher", "org.apache.royale.core.IUIBase"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "void",
+          "params": []}
+      ]
   }

@@ -50,7 +50,7 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Navigate one line or \\&quot;step\\&quot; upwards.",
+          "description": "Navigate one line or &quot;step&quot; upwards.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10", "AIR 1.5"]},
@@ -65,7 +65,7 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Navigate one line or \\&quot;step\\&quot; downwards.",
+          "description": "Navigate one line or &quot;step&quot; downwards.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10", "AIR 1.5"]},
@@ -80,7 +80,7 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Navigate one line or \\&quot;step\\&quot; to the left.",
+          "description": "Navigate one line or &quot;step&quot; to the left.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10", "AIR 1.5"]},
@@ -95,7 +95,7 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Navigate one line or \\&quot;step\\&quot; to the right.",
+          "description": "Navigate one line or &quot;step&quot; to the right.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10", "AIR 1.5"]},
@@ -140,7 +140,7 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Navigate one page to the left.  The value of this constant, 0x2397, is the same as the Unicode \\&quot;previous page\\&quot; character.",
+          "description": "Navigate one page to the left.  The value of this constant, 0x2397, is the same as the Unicode &quot;previous page&quot; character.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10", "AIR 1.5"]},
@@ -155,7 +155,7 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Navigate one page to the right.  The value of this constant, 0x2398, is the same as the Unicode \\&quot;next page\\&quot; character.",
+          "description": "Navigate one page to the right.  The value of this constant, 0x2398, is the same as the Unicode &quot;next page&quot; character.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10", "AIR 1.5"]},

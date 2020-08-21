@@ -2,7 +2,7 @@
   "qname": "org.apache.royale.textLayout.container.ContainerController",
   "baseClassname": "org.apache.royale.textLayout.formats.TextLayoutFormatBase"
   ,
-    "description": "The ContainerController class defines the relationship between a TextFlow object and a container. A TextFlow may have one or more rectangular areas that can hold text; the text is said to be flowing through the containers. Each container is a Sprite that is the parent DisplayObject for the TextLines. Each container has a ContainerController that manages the container; the controller holds the target width and height for the text area, populates the container with TextLines, and handles scrolling. A controller also has a format associated with it that allows some formatting attributes to be applied to the text in the container. This allows, for instance, a TextFlow to have one container where the text appears in a single column, and a second container in the same TextFlow with two column text. Not all formatting attributes that can be applied to the container will affect the text; only the ones that affect container-level layout. The diagram below illustrates the relationship between the TextFlow, its flowComposer, and the display list.  <p><img src=\\&quot;../../../images/textLayout_multiController.gif\\&quot; alt=\\&quot;IContainerController\\&quot;></img></p>",
+    "description": "The ContainerController class defines the relationship between a TextFlow object and a container. A TextFlow may have one or more rectangular areas that can hold text; the text is said to be flowing through the containers. Each container is a Sprite that is the parent DisplayObject for the TextLines. Each container has a ContainerController that manages the container; the controller holds the target width and height for the text area, populates the container with TextLines, and handles scrolling. A controller also has a format associated with it that allows some formatting attributes to be applied to the text in the container. This allows, for instance, a TextFlow to have one container where the text appears in a single column, and a second container in the same TextFlow with two column text. Not all formatting attributes that can be applied to the container will affect the text; only the ones that affect container-level layout. The diagram below illustrates the relationship between the TextFlow, its flowComposer, and the display list.  <p><img src=&quot;../../../images/textLayout_multiController.gif&quot; alt=&quot;IContainerController&quot;></img></p>",
   "tags": [
   {  "tagName": "see",
          "values": ["org.apache.royale.textLayout.compose.IFlowComposer", "org.apache.royale.textLayout.elements.TextFlow", "org.apache.royale.text.engine.ITextLine"]},
@@ -539,7 +539,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Handle a scroll event during a \\&quot;drag\\&quot; selection.",
+          "description": "Handle a scroll event during a &quot;drag&quot; selection.",
         "tags": [
         {  "tagName": "param",
                "values": ["mouseX The horizontal position of the mouse cursor on the stage.", "mouseY The vertical position of the mouse cursor  on the stage."]},

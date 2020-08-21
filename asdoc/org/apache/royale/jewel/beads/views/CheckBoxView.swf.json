@@ -2,7 +2,7 @@
   "qname": "org.apache.royale.jewel.beads.views.CheckBoxView",
   "baseClassname": "org.apache.royale.core.BeadViewBase"
   ,
-    "description": "The CheckBoxView class is the default view for the org.apache.royale.html.CheckBox class. It displays a simple checkbox with an 'x' if checked, and a label on the right.  There are no styles or properties to configure the look of the 'x' or the position of the label relative to the checkbox as there are no equivalents in the standard HTML checkbox.  A more complex CheckBox could implement more view configuration.",
+    "description": "The CheckBoxView class is the default view for SWF platform in the org.apache.royale.jewel.CheckBox class. It displays a simple checkbox with an 'x' if checked, and a label on the right.  There are no styles or properties to configure the look of the 'x' or the position of the label relative to the checkbox as there are no equivalents in the standard HTML checkbox.  A more complex CheckBox could implement more view configuration.",
   "tags": [
   {  "tagName": "playerversion",
          "values": ["Flash 10.2", "AIR 2.6"]},
@@ -11,7 +11,14 @@
       {  "tagName": "langversion",
          "values": ["3.0"]}  ],
   "members": [
-  { "type": "method",
+  { "type": "field",
+        "qname": "CHECK_DEFAULT_SIZE",
+        "return": "Number",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {}},
+      { "type": "method",
         "qname": "org.apache.royale.jewel.beads.views.CheckBoxView",
         "namespace": "",
         "bindable": [],

@@ -20,5 +20,14 @@
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}}]
+        "deprecated": {}},
+      { "type": "method",
+        "qname": "getInput",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "org.apache.royale.core.IUIBase",
+          "params": []}
+      ]
   }

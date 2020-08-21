@@ -2,7 +2,7 @@
   "qname": "org.apache.royale.mdl.beads.ListItemSubTitle",
   "baseClassname": ""
   ,
-    "description": "The ListItemSubTitle class decorates a tag element in a list item renderer Requires the host ListItemrenderer to have \\&quot;twoLine\\&quot; set to true",
+    "description": "The ListItemSubTitle class decorates a tag element in a list item renderer Requires the host ListItemrenderer to have &quot;twoLine&quot; set to true",
   "tags": [
   {  "tagName": "playerversion",
          "values": ["Flash 10.2", "AIR 2.6"]},

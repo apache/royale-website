@@ -1,6 +1,6 @@
 { "type": "class",
   "qname": "org.apache.royale.html.beads.VerticalAlignChildren",
-  "baseClassname": ""
+  "baseClassname": "org.apache.royale.core.Bead"
   ,
     "description": "VerticalAlignChildren is a bead for groups and containers which specifiy the alignment property of the children. Alignment can be any of the valid css properties for vertical-align see https://developer.mozilla.org/en-US/docs/Web/CSS/vertical-align",
   "tags": [
@@ -26,20 +26,8 @@
         "qname": "strand",
         "namespace": "public",
         "bindable": [],
-        "details": [],
-        "deprecated": {},
-          "description": "",
-        "tags": [
-        {  "tagName": "playerversion",
-               "values": ["Flash 10.2", "AIR 2.6"]},
-            {  "tagName": "copy",
-               "values": ["org.apache.royale.core.IBead#strand"]},
-            {  "tagName": "productversion",
-               "values": ["Royale 0.9.3"]},
-            {  "tagName": "royaleignorecoercion",
-               "values": ["org.apache.royale.events.IEventDispatcher"]},
-            {  "tagName": "langversion",
-               "values": ["3.0"]}  ]},
+        "details": ["override"],
+        "deprecated": {}},
       { "type": "accessor",
         "access": "read-write",
         "return": "String",
@@ -54,8 +42,6 @@
                "values": ["Flash 10.2", "AIR 2.6"]},
             {  "tagName": "productversion",
                "values": ["Royale 0.9.3"]},
-            {  "tagName": "royaleignorecoercion",
-               "values": ["org.apache.royale.events.IEventDispatcher"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
   }

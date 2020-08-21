@@ -1,0 +1,15 @@
+{ "type": "method",
+  "qname": "org.apache.royale.utils.sendBeadEvent",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "Helper function for dispatching events from the bead Using this function prevent the need to cast IBead objects It also allows better minification",
+  "tags": [
+  {  "tagName": "royaleignorecoercion",
+         "values": ["org.apache.royale.events.IEventDispatcher"]},
+      {  "tagName": "royalesuppressexport",
+         "values": []}  ],
+    "return": "Boolean",
+    "params": [{ "name": "bead", "type": "org.apache.royale.core.IBead"},
+  { "name": "event", "type": "Object"}]}

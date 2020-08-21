@@ -2,7 +2,7 @@
   "qname": "org.apache.royale.jewel.beads.views.SliderView",
   "baseClassname": "org.apache.royale.core.BeadViewBase"
   ,
-    "description": "The SliderView class creates the visual elements of the org.apache.royale.jewel.Slider component. The Slider has a track and a thumb control which are also created with view beads.",
+    "description": "The SliderView class creates the visual elements of the org.apache.royale.jewel.HSlider component. The HSlider has a track and a thumb control which are also created with view beads.",
   "tags": [
   {  "tagName": "viewbead",
          "values": []},
@@ -97,7 +97,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A visual indicator that shows a part of the track \\&quot;filled\\&quot;",
+          "description": "A visual indicator that shows a part of the track &quot;filled&quot;",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -113,7 +113,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "a visual indicator that show a part of the track as no \\&quot;filled\\&quot;",
+          "description": "a visual indicator that show a part of the track as no &quot;filled&quot;",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

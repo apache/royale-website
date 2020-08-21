@@ -2,7 +2,7 @@
   "qname": "spark.components.PopUpAnchor",
   "baseClassname": "mx.core.UIComponent"
   ,
-    "description": "The PopUpAnchor component is used to position a control that pops up or drops down, such as a DropDownList component, in layout. Because a popup or drop-down control is added to the display list by the PopUpManager, it doesn't normally participate in layout. The PopUpAnchor component is a UIComponent that is added to a container and is laid out. It is then responsible for sizing and positioning the popup or drop-down control relative to itself. It has no visual appearance.  <p>The PopUpAnchor control has the following default characteristics:</p> <table class=\\&quot;innertable\\&quot;> <tr> <th>Characteristic</th> <th>Description</th> </tr> <tr> <td>Default size</td> <td>0</td> </tr> <tr> <td>Minimum size</td> <td>0</td> </tr> <tr> <td>Maximum size</td> <td>10000 pixels wide and 10000 pixels high</td> </tr> </table>   <p>The <code>&lt;s:PopUpAnchor&gt;</code> tag inherits all of the tag attributes of its superclass and adds the following tag attributes:</p>  <pre> &lt;s:PopUpAnchor  <strong>Properties</strong> displayPopUp=\\&quot;false\\&quot; popUp=\\&quot;\\&quot; popUpHeightMatchesAnchorHeight=\\&quot;false\\&quot; popUpPosition=\\&quot;topLeft\\&quot; popUpWidthMatchesAnchorWidth=\\&quot;false\\&quot; /&gt; </pre>",
+    "description": "The PopUpAnchor component is used to position a control that pops up or drops down, such as a DropDownList component, in layout. Because a popup or drop-down control is added to the display list by the PopUpManager, it doesn't normally participate in layout. The PopUpAnchor component is a UIComponent that is added to a container and is laid out. It is then responsible for sizing and positioning the popup or drop-down control relative to itself. It has no visual appearance.  <p>The PopUpAnchor control has the following default characteristics:</p> <table class=&quot;innertable&quot;> <tr> <th>Characteristic</th> <th>Description</th> </tr> <tr> <td>Default size</td> <td>0</td> </tr> <tr> <td>Minimum size</td> <td>0</td> </tr> <tr> <td>Maximum size</td> <td>10000 pixels wide and 10000 pixels high</td> </tr> </table>   <p>The <code>&lt;s:PopUpAnchor&gt;</code> tag inherits all of the tag attributes of its superclass and adds the following tag attributes:</p>  <pre>\\n &lt;s:PopUpAnchor\\n \\n <strong>Properties</strong>\\n displayPopUp=&quot;false&quot;\\n popUp=&quot;&quot;\\n popUpHeightMatchesAnchorHeight=&quot;false&quot;\\n popUpPosition=&quot;topLeft&quot;\\n popUpWidthMatchesAnchorWidth=&quot;false&quot;\\n /&gt;\\n </pre>",
   "tags": [
   {  "tagName": "includeExample",
          "values": ["examples/PopUpAnchorExample.mxml"]},
@@ -92,7 +92,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Position of the <code>popUp</code> control when it is opened, relative to the PopUpAnchor component. Possible values are <code>\\&quot;left\\&quot;, \\&quot;right\\&quot;, \\&quot;above\\&quot;, \\&quot;below\\&quot;, \\&quot;center\\&quot;,</code> and <code>\\&quot;topLeft\\&quot;</code>.",
+          "description": "Position of the <code>popUp</code> control when it is opened, relative to the PopUpAnchor component. Possible values are <code>&quot;left&quot;, &quot;right&quot;, &quot;above&quot;, &quot;below&quot;, &quot;center&quot;,</code> and <code>&quot;topLeft&quot;</code>.",
         "tags": [
         {  "tagName": "default",
                "values": ["PopUpPosition.TOP_LEFT"]},

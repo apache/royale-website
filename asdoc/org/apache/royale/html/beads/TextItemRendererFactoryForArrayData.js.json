@@ -1,6 +1,6 @@
 { "type": "class",
   "qname": "org.apache.royale.html.beads.TextItemRendererFactoryForArrayData",
-  "baseClassname": "org.apache.royale.events.EventDispatcher"
+  "baseClassname": "org.apache.royale.core.DispatcherBead"
   ,
     "description": "The TextItemRendererFactoryForArrayData class is the IDataProviderItemRendererMapper for creating ITextItemRenderers and assigning them data from an array. Other IDataProviderItemRendererMapper implementations assign specific array or vector types to item renderers expecting those types.",
   "tags": [
@@ -34,7 +34,7 @@
         "qname": "strand",
         "namespace": "public",
         "bindable": [],
-        "details": [],
+        "details": ["override"],
         "deprecated": {},
           "description": "",
         "tags": [

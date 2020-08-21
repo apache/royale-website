@@ -91,7 +91,7 @@
           "params": [{ "name": "event", "type": "org.apache.royale.events.MouseEvent"}]}
       ,
       { "type": "method",
-        "qname": "hidePopup",
+        "qname": "textInputDismissPopUp",
         "namespace": "protected",
         "bindable": [],
         "details": [],

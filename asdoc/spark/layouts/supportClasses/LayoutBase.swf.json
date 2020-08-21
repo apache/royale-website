@@ -2,7 +2,7 @@
   "qname": "spark.layouts.supportClasses.LayoutBase",
   "baseClassname": "org.apache.royale.core.LayoutBase"
   ,
-    "description": "The LayoutBase class defines the base class for all Spark layouts. To create a custom layout that works with the Spark containers, you must extend <code>LayoutBase</code> or one of its subclasses.  <p>At minimum, subclasses must implement the <code>updateDisplayList()</code> method, which positions and sizes the <code>target</code> GroupBase's elements, and the <code>measure()</code> method, which calculates the default size of the <code>target</code>.</p>  <p>Subclasses may override methods like <code>getElementBoundsAboveScrollRect()</code> and <code>getElementBoundsBelowScrollRect()</code> to customize the way the target behaves when it's connected to scrollbars.</p>  <p>Subclasses that support virtualization must respect the <code>useVirtualLayout</code> property and should only retrieve layout elements within the scrollRect (the value of <code>getScrollRect()</code>) using <code>getVirtualElementAt()</code> from within <code>updateDisplayList()</code>.</p>  <p>The <code>&lt;s:LayoutBase&gt;</code> tag inherits all of the tag attributes of its superclass and adds the following tag attributes:</p>  <pre> &lt;s:LayoutBase <strong>Properties</strong> clipAndEnableScrolling=\\&quot;false\\&quot; dropIndicator=\\&quot;<i>defined by the skin class</i>\\&quot; horizontalScrollPosition=\\&quot;0\\&quot; target=\\&quot;null\\&quot; typicalLayoutElement=\\&quot;null\\&quot; useVirtualLayout=\\&quot;false\\&quot; verticalScrollPosition=\\&quot;0\\&quot; /&gt; </pre>",
+    "description": "The LayoutBase class defines the base class for all Spark layouts. To create a custom layout that works with the Spark containers, you must extend <code>LayoutBase</code> or one of its subclasses.  <p>At minimum, subclasses must implement the <code>updateDisplayList()</code> method, which positions and sizes the <code>target</code> GroupBase's elements, and the <code>measure()</code> method, which calculates the default size of the <code>target</code>.</p>  <p>Subclasses may override methods like <code>getElementBoundsAboveScrollRect()</code> and <code>getElementBoundsBelowScrollRect()</code> to customize the way the target behaves when it's connected to scrollbars.</p>  <p>Subclasses that support virtualization must respect the <code>useVirtualLayout</code> property and should only retrieve layout elements within the scrollRect (the value of <code>getScrollRect()</code>) using <code>getVirtualElementAt()</code> from within <code>updateDisplayList()</code>.</p>  <p>The <code>&lt;s:LayoutBase&gt;</code> tag inherits all of the tag attributes of its superclass and adds the following tag attributes:</p>  <pre>\\n &lt;s:LayoutBase\\n <strong>Properties</strong>\\n clipAndEnableScrolling=&quot;false&quot;\\n dropIndicator=&quot;<i>defined by the skin class</i>&quot;\\n horizontalScrollPosition=&quot;0&quot;\\n target=&quot;null&quot;\\n typicalLayoutElement=&quot;null&quot;\\n useVirtualLayout=&quot;false&quot;\\n verticalScrollPosition=&quot;0&quot;\\n /&gt;\\n </pre>",
   "tags": [
   {  "tagName": "mxml",
          "values": [""]},
@@ -175,7 +175,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Used by layouts when fixed row/column sizes are requested but a specific size isn't specified. Used by virtual layouts to estimate the size of layout elements that have not been scrolled into view.  <p>This property references a component that Flex uses to define the height of all container children, as the following example shows:</p>  <pre> &lt;s:Group&gt; &lt;s:layout&gt; &lt;s:VerticalLayout variableRowHeight=\\&quot;false\\&quot; typicalLayoutElement=\\&quot;{b3}\\&quot;/&gt; &lt;/s:layout&gt; &lt;s:Button id=\\&quot;b1\\&quot; label=\\&quot;Button 1\\&quot;/&gt; &lt;s:Button id=\\&quot;b2\\&quot; label=\\&quot;Button 2\\&quot;/&gt; &lt;s:Button id=\\&quot;b3\\&quot; label=\\&quot;Button 3\\&quot; fontSize=\\&quot;36\\&quot;/&gt; &lt;s:Button id=\\&quot;b4\\&quot; label=\\&quot;Button 4\\&quot; fontSize=\\&quot;24\\&quot;/&gt; &lt;/s:Group&gt;</pre>  <p>If this property has not been set and the target is non-null then the target's first layout element is cached and returned.</p>  <p>The default value is the target's first layout element.</p>",
+          "description": "Used by layouts when fixed row/column sizes are requested but a specific size isn't specified. Used by virtual layouts to estimate the size of layout elements that have not been scrolled into view.  <p>This property references a component that Flex uses to define the height of all container children, as the following example shows:</p>  <pre>\\n &lt;s:Group&gt;\\n &lt;s:layout&gt;\\n &lt;s:VerticalLayout variableRowHeight=&quot;false&quot;\\n typicalLayoutElement=&quot;{b3}&quot;/&gt;\\n &lt;/s:layout&gt;\\n &lt;s:Button id=&quot;b1&quot; label=&quot;Button 1&quot;/&gt;\\n &lt;s:Button id=&quot;b2&quot; label=&quot;Button 2&quot;/&gt;\\n &lt;s:Button id=&quot;b3&quot; label=&quot;Button 3&quot; fontSize=&quot;36&quot;/&gt;\\n &lt;s:Button id=&quot;b4&quot; label=&quot;Button 4&quot; fontSize=&quot;24&quot;/&gt;\\n &lt;/s:Group&gt;</pre>  <p>If this property has not been set and the target is non-null then the target's first layout element is cached and returned.</p>  <p>The default value is the target's first layout element.</p>",
         "tags": [
         {  "tagName": "default",
                "values": ["null"]},
@@ -738,6 +738,24 @@
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
+        "deprecated": {},
+          "return": "Boolean",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "isHeightSizedToContent",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "Boolean",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "isWidthSizedToContent",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
         "deprecated": {},
           "return": "Boolean",
           "params": []}

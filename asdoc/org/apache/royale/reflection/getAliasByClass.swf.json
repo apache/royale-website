@@ -9,6 +9,6 @@
   {  "tagName": "param",
          "values": ["classObject the class to retrieve the alias for"]},
       {  "tagName": "return",
-         "values": ["the most recently mapped alias, if found otherwise &quot;&quot; (empty string)"]}  ],
+         "values": ["the most recently mapped alias, if found otherwise null"]}  ],
     "return": "String",
     "params": [{ "name": "classObject", "type": "Class"}]}

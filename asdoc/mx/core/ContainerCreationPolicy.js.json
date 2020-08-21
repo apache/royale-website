@@ -35,7 +35,7 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Immediately create all descendants.  <p>Avoid using this <code>creationPolicy</code> because it increases the startup time of your application. There is usually no good reason to create components at startup which the user cannot see. If you are using this policy so that you can \\&quot;push\\&quot; data into hidden components at startup, you should instead design your application so that the data is stored in data variables and components which are created later \\&quot;pull\\&quot; in this data, via databinding or an <code>initialize</code> handler.</p>",
+          "description": "Immediately create all descendants.  <p>Avoid using this <code>creationPolicy</code> because it increases the startup time of your application. There is usually no good reason to create components at startup which the user cannot see. If you are using this policy so that you can &quot;push&quot; data into hidden components at startup, you should instead design your application so that the data is stored in data variables and components which are created later &quot;pull&quot; in this data, via databinding or an <code>initialize</code> handler.</p>",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},

@@ -2,7 +2,7 @@
   "qname": "org.apache.royale.jewel.beads.controls.application.CleanValidationErrors",
   "baseClassname": ""
   ,
-    "description": "The CleanValidationErrors listen for \\&quot;navigationAction\\&quot; event signaling some navigation was performed and we want to clean all validation errors in that could be left in the previous content",
+    "description": "The CleanValidationErrors listen for &quot;navigationAction&quot; event signaling some navigation was performed and we want to clean all validation errors in that could be left in the previous content",
   "tags": [
   {  "tagName": "playerversion",
          "values": ["Flash 10.2", "AIR 2.6"]},

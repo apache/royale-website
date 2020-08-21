@@ -31,7 +31,11 @@
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.html.beads.models.DateChooserModel"]}  ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "org.apache.royale.html.supportClasses.DateHeaderButton",

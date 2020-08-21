@@ -316,7 +316,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Assigns an identifying name to the element, making it possible to set a style for the element by referencing the <code>id</code>. For example, the following line sets the color for a SpanElement object that has an id of span1:  <listing version=\\&quot;3.0\\&quot; > textFlow.getElementByID(\\&quot;span1\\&quot;).setStyle(\\&quot;color\\&quot;, 0xFF0000); </listing>",
+          "description": "Assigns an identifying name to the element, making it possible to set a style for the element by referencing the <code>id</code>. For example, the following line sets the color for a SpanElement object that has an id of span1:  <listing version=&quot;3.0&quot; > textFlow.getElementByID(&quot;span1&quot;).setStyle(&quot;color&quot;, 0xFF0000); </listing>",
         "tags": [
         {  "tagName": "see",
                "values": ["TextFlow#getElementByID()"]},

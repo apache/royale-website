@@ -60,7 +60,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The rendering engine used by the browser. One of: \\&quot;Trident\\&quot;, \\&quot;Gecko\\&quot;, \\&quot;Presto\\&quot;, \\&quot;Blink\\&quot;, \\&quot;WebKit\\&quot;, \\&quot;EdgeHTML\\&quot;.",
+          "description": "The rendering engine used by the browser. One of: &quot;Trident&quot;, &quot;Gecko&quot;, &quot;Presto&quot;, &quot;Blink&quot;, &quot;WebKit&quot;, &quot;EdgeHTML&quot;.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -92,7 +92,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The form factor of the device. One of: \\&quot;Mobile\\&quot;, \\&quot;Tablet\\&quot;, \\&quot;TV\\&quot;, \\&quot;iPhone\\&quot;, \\&quot;iPad\\&quot;, \\&quot;iPod\\&quot; or \\&quot;Desktop\\&quot;.",
+          "description": "The form factor of the device. One of: &quot;Mobile&quot;, &quot;Tablet&quot;, &quot;TV&quot;, &quot;iPhone&quot;, &quot;iPad&quot;, &quot;iPod&quot; or &quot;Desktop&quot;.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

@@ -3,7 +3,7 @@
 "baseInterfaceNames": [
 "org.apache.royale.core.IBead"]
 ,
-    "description": "The IBeadController interface is a \\&quot;marker\\&quot; interface for beads that are controllers.  A marker interface has no addtional APIs. It is used to find the controller on the strand via calls to getBeadByType.",
+    "description": "The IBeadController interface is a &quot;marker&quot; interface for beads that are controllers.  A marker interface has no addtional APIs. It is used to find the controller on the strand via calls to getBeadByType.",
   "tags": [
   {  "tagName": "see",
          "values": ["org.apache.royale.core.IStrand#getBeadByType"]},

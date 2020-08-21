@@ -28,24 +28,6 @@
           "return": "",
           "params": []}
       ,
-      { "type": "accessor",
-        "access": "write-only",
-        "return": "org.apache.royale.core.IStrand",
-        "qname": "strand",
-        "namespace": "public",
-        "bindable": [],
-        "details": ["override"],
-        "deprecated": {},
-          "description": "",
-        "tags": [
-        {  "tagName": "playerversion",
-               "values": ["Flash 10.2", "AIR 2.6"]},
-            {  "tagName": "copy",
-               "values": ["org.apache.royale.core.IBead#strand"]},
-            {  "tagName": "productversion",
-               "values": ["Royale 0.9"]},
-            {  "tagName": "langversion",
-               "values": ["3.0"]}  ]},
       { "type": "method",
         "qname": "getSubMenuDataProvider",
         "namespace": "protected",
@@ -54,7 +36,7 @@
         "deprecated": {},
           "return": "Object",
           "params": [{ "name": "node", "type": "Object"},
-        { "name": "model", "type": "org.apache.royale.html.beads.models.CascadingMenuModel"}]}
+        { "name": "model", "type": "org.apache.royale.core.ICascadingMenuModel"}]}
       ,
       { "type": "method",
         "qname": "getHasMenu",
@@ -64,6 +46,6 @@
         "deprecated": {},
           "return": "Boolean",
           "params": [{ "name": "node", "type": "Object"},
-        { "name": "model", "type": "org.apache.royale.html.beads.models.CascadingMenuModel"}]}
+        { "name": "model", "type": "org.apache.royale.core.ICascadingMenuModel"}]}
       ]
   }

@@ -14,7 +14,7 @@
   "members": [
   { "type": "accessor",
     "access": "read-only",
-    "return": "org.apache.royale.core.IItemRendererParent",
+    "return": "org.apache.royale.core.IItemRendererOwnerView",
     "qname": "dataGroup",
     "namespace": "public",
     "bindable": [],

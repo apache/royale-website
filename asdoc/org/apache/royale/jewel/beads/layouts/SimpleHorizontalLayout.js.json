@@ -2,7 +2,7 @@
   "qname": "org.apache.royale.jewel.beads.layouts.SimpleHorizontalLayout",
   "baseClassname": "org.apache.royale.jewel.beads.layouts.StyledLayoutBase"
   ,
-    "description": "The HorizontalLayout class is a simple layout bead.  It takes the set of children and lays them out horizontally in one row, separating them according to CSS layout rules for margin and vertical-align styles.",
+    "description": "The SimpleHorizontalLayout class is a simple layout bead that takes the set of children and lays them out horizontally in one row. In JS we make use of the CSS flex layout rules.  Note:SWF comes from basic layouts and are not tested",
   "tags": [
   {  "tagName": "playerversion",
          "values": ["Flash 10.2", "AIR 2.6"]},
@@ -45,7 +45,7 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
-          "description": "Add class selectors when the component is addedToParent Otherwise component will not get the class selectors when perform \\&quot;removeElement\\&quot; and then \\&quot;addElement\\&quot;",
+          "description": "Add class selectors when the component is addedToParent Otherwise component will not get the class selectors when perform &quot;removeElement&quot; and then &quot;addElement&quot;",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -62,7 +62,7 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
-          "description": "Layout children vertically",
+          "description": "Layout children horizontally",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

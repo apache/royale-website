@@ -36,7 +36,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The MIME type for the PNG encoded image. The value is <code>\\&quot;image/png\\&quot;</code>.",
+          "description": "The MIME type for the PNG encoded image. The value is <code>&quot;image/png&quot;</code>.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},

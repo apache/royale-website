@@ -63,7 +63,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A boolean flag to activate \\&quot;multiline\\&quot; effect selector. Allow the label to have more than one line if needed",
+          "description": "A boolean flag to activate &quot;multiline&quot; effect selector. Allow the label to have more than one line if needed",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

@@ -120,7 +120,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Connects the Producer to its target destination. When a connection is established the <code>connected</code> property will change to <code>true</code> and this property is bindable and generates <code>PropertyChangeEvent</code>s. The internal TRIGGER_CONNECT_OPERATION CommandMessage that is sent will result in an acknowledge or fault event depending upon whether the underlying channel establishes its connection.   <pre> var producer:Producer = new Producer(); producer.destination = \\&quot;TestTopic\\&quot;; producer.addEventListener(PropertyChangeEvent.PROPERTY_CHANGE, handleConnect); producer.connect(); </pre>",
+          "description": "Connects the Producer to its target destination. When a connection is established the <code>connected</code> property will change to <code>true</code> and this property is bindable and generates <code>PropertyChangeEvent</code>s. The internal TRIGGER_CONNECT_OPERATION CommandMessage that is sent will result in an acknowledge or fault event depending upon whether the underlying channel establishes its connection.   <pre>\\n var producer:Producer = new Producer();\\n producer.destination = &quot;TestTopic&quot;;\\n producer.addEventListener(PropertyChangeEvent.PROPERTY_CHANGE, handleConnect);\\n producer.connect();\\n </pre>",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
@@ -141,7 +141,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Sends the specified message to its destination. If the producer is being used for publish/subscribe messaging, only messages of type AsyncMessage should be sent unless a custom message type is being used and the message destination on the server has been configured to process the custom message type.    <pre> var producer:Producer = new Producer(); producer.destination = \\&quot;TestTopic\\&quot;; var msg:AsyncMessage = new AsyncMessage(); msg.body = \\&quot;test message\\&quot;; producer.send(msg); </pre>",
+          "description": "Sends the specified message to its destination. If the producer is being used for publish/subscribe messaging, only messages of type AsyncMessage should be sent unless a custom message type is being used and the message destination on the server has been configured to process the custom message type.    <pre>\\n var producer:Producer = new Producer();\\n producer.destination = &quot;TestTopic&quot;;\\n var msg:AsyncMessage = new AsyncMessage();\\n msg.body = &quot;test message&quot;;\\n producer.send(msg);\\n </pre>",
         "tags": [
         {  "tagName": "param",
                "values": ["message The Message to send."]},

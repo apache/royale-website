@@ -1,0 +1,35 @@
+{ "type": "class",
+  "qname": "mx.events.DynamicEvent",
+  "baseClassname": "org.apache.royale.events.Event"
+  ,
+    "description": "This subclass of Event is dynamic, meaning that you can set arbitrary event properties on its instances at runtime.  <p>By contrast, Event and its other subclasses are non-dynamic, meaning that you can only set properties that are declared in those classes. When prototyping an application, using a DynamicEvent can be easier because you don't have to write an Event subclass to declare the properties in advance. However, you should eventually eliminate your DynamicEvents and write Event subclasses because these are faster and safer. A DynamicEvent is so flexible that the compiler can't help you catch your error when you set the wrong property or assign it a value of an incorrect type.</p>  <p>Example:</p>  <pre>\\n var event:DynamicEvent = new DynamicEvent(&quot;credentialsChanged&quot;);\\n event.name = name;\\n event.passsword = password; // misspelling won't be caught!\\n dispatchEvent(event);\\n </pre>",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.events.DynamicEvent",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.   the display list hierarchy.  associated with the event can be prevented.",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["type The event type; indicates the action that caused the event.", "bubbles Specifies whether the event can bubble up", "cancelable Specifies whether the behavior"]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": [{ "name": "type", "type": "String"},
+        { "name": "bubbles", "type": "Boolean"},
+        { "name": "cancelable", "type": "Boolean"}]}
+      ]
+  }

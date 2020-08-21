@@ -11,7 +11,9 @@
       {  "tagName": "productversion",
          "values": ["Royale 0.9"]},
       {  "tagName": "langversion",
-         "values": ["3.0"]}  ],
+         "values": ["3.0"]},
+      {  "tagName": "royalesuppressexport",
+         "values": []}  ],
     "return": "Date",
     "params": [{ "name": "date", "type": "Date"},
   { "name": "years", "type": "int"}]}

@@ -209,6 +209,16 @@
           "params": [{ "name": "ruleName", "type": "String"},
         { "name": "ruleValues", "type": "Object"}]}
       ,
+      { "type": "method",
+        "qname": "processNumberStyle",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "*",
+          "params": [{ "name": "prop", "type": "String"},
+        { "name": "value", "type": "*"}]}
+      ,
       { "type": "field",
         "qname": "inheritingStyles",
         "return": "Object",
@@ -244,14 +254,6 @@
         "access": "read-only",
         "return": "Object",
         "qname": "skipStyles",
-        "namespace": "protected",
-        "bindable": [],
-        "details": [],
-        "deprecated": {}},
-      { "type": "accessor",
-        "access": "read-only",
-        "return": "Object",
-        "qname": "numericStyles",
         "namespace": "protected",
         "bindable": [],
         "details": [],
@@ -441,3 +443,6 @@
         { "name": "state", "type": "String"}]}
       ]
   }
+
+
+

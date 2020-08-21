@@ -58,7 +58,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A callback invoked when new instances are created. This callback has the following signature: <pre> function creationCallback(<i>newInstance</i>:Object, <i>cache</i>:InstanceCache):void; </pre>",
+          "description": "A callback invoked when new instances are created. This callback has the following signature: <pre>\\n function creationCallback(<i>newInstance</i>:Object, <i>cache</i>:InstanceCache):void;\\n </pre>",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},

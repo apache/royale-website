@@ -3,7 +3,7 @@
 "baseInterfaceNames": [
 "org.apache.royale.textLayout.elements.IFormatResolver"]
 ,
-    "description": "Interface to a format resolver. Different from IFormatResolver, IExplicitFormatResolver allow you to set \\&quot;before style\\&quot; and \\&quot;after style\\&quot;. \\&quot;After Style\\&quot; can override the local computedFormat explicitly, which can be fetched by calling function resolveExplicitFormat(), \\&quot;Before Style\\&quot; is the format returned by function resolveFormat() defined in interface IFormatResolver.",
+    "description": "Interface to a format resolver. Different from IFormatResolver, IExplicitFormatResolver allow you to set &quot;before style&quot; and &quot;after style&quot;. &quot;After Style&quot; can override the local computedFormat explicitly, which can be fetched by calling function resolveExplicitFormat(), &quot;Before Style&quot; is the format returned by function resolveFormat() defined in interface IFormatResolver.",
   "tags": [
   {  "tagName": "see",
          "values": ["org.apache.royale.textLayout.elements.TextFlow#formatResolver TextFlow.formatResolver"]},

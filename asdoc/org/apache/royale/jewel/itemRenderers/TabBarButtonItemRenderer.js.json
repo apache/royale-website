@@ -2,7 +2,7 @@
   "qname": "org.apache.royale.jewel.itemRenderers.TabBarButtonItemRenderer",
   "baseClassname": "org.apache.royale.core.StyledMXMLItemRenderer"
   ,
-    "description": "The TabBarButtonItemRenderer defines the basic Item Renderer for a Jewel TabBar List Component. It handles Objects with \\&quot;label\\&quot; and \\&quot;href\\&quot; data. Extend this (you can do it in MXML) to support more data like for example: icon data.",
+    "description": "The TabBarButtonItemRenderer defines the basic Item Renderer for a Jewel TabBar List Component. It handles Objects with &quot;label&quot; and &quot;href&quot; data. Extend this (you can do it in MXML) to support more data like for example: icon data.",
   "tags": [
   {  "tagName": "playerversion",
          "values": ["Flash 10.2", "AIR 2.6"]},
@@ -28,22 +28,6 @@
           "return": "",
           "params": []}
       ,
-      { "type": "accessor",
-        "access": "read-write",
-        "return": "String",
-        "qname": "href",
-        "namespace": "public",
-        "bindable": [],
-        "details": [],
-        "deprecated": {},
-          "description": "the navigation link url",
-        "tags": [
-        {  "tagName": "playerversion",
-               "values": ["Flash 10.2", "AIR 2.6"]},
-            {  "tagName": "productversion",
-               "values": ["Royale 0.9.4"]},
-            {  "tagName": "langversion",
-               "values": ["3.0"]}  ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "String",
@@ -118,7 +102,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "adding indicator to positioner makes the indicator fill all available space adding to \\&quot;span\\&quot; HTMLElement restrict indicator to content. Override this function in TabBarButtonItemRenderer subclasses",
+          "description": "adding indicator to positioner makes the indicator fill all available space adding to &quot;span&quot; HTMLElement restrict indicator to content. Override this function in TabBarButtonItemRenderer subclasses",
           "return": "void",
           "params": []}
       ,
@@ -149,21 +133,5 @@
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}},
-      { "type": "accessor",
-        "access": "read-write",
-        "return": "Boolean",
-        "qname": "selectable",
-        "namespace": "public",
-        "bindable": [],
-        "details": ["override"],
-        "deprecated": {},
-          "description": "<code>true</code> if the item renderer is can be selected false otherwise. Use to configure a renderer to be non selectable.  Defaults to true",
-        "tags": [
-        {  "tagName": "playerversion",
-               "values": ["Flash 10.2", "AIR 2.6"]},
-            {  "tagName": "productversion",
-               "values": ["Royale 0.9.4"]},
-            {  "tagName": "langversion",
-               "values": ["3.0"]}  ]}]
+        "deprecated": {}}]
   }

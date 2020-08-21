@@ -2,7 +2,7 @@
   "qname": "mx.graphics.GradientEntry",
   "baseClassname": "org.apache.royale.graphics.GradientEntry"
   ,
-    "description": "The GradientEntry class defines the objects that control a transition as part of a gradient fill. You use this class with the LinearGradient and RadialGradient classes to define a gradient fill.   <p>The <code>&lt;mx:GradientEntry&gt;</code> tag inherits all the tag attributes of its superclass, and adds the following tag attributes:</p>  <pre> &lt;mx:GradientEntry <b>Properties</b> alpha=\\&quot;1.0\\&quot; color=\\&quot;0x000000\\&quot; ratio=\\&quot;NaN\\&quot; /&gt; </pre>",
+    "description": "The GradientEntry class defines the objects that control a transition as part of a gradient fill. You use this class with the LinearGradient and RadialGradient classes to define a gradient fill.   <p>The <code>&lt;mx:GradientEntry&gt;</code> tag inherits all the tag attributes of its superclass, and adds the following tag attributes:</p>  <pre>\\n &lt;mx:GradientEntry\\n <b>Properties</b>\\n alpha=&quot;1.0&quot;\\n color=&quot;0x000000&quot;\\n ratio=&quot;NaN&quot;\\n /&gt;\\n </pre>",
   "tags": [
   {  "tagName": "mxml",
          "values": []},

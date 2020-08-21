@@ -1106,7 +1106,7 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "[static] Constant associated with the key code value for the button for engaging the \\&quot;Master Shell\\&quot; (e.g. TiVo or other vendor button)."},
+          "description": "[static] Constant associated with the key code value for the button for engaging the &quot;Master Shell&quot; (e.g. TiVo or other vendor button)."},
       { "type": "field",
         "qname": "MENU",
         "return": "uint",

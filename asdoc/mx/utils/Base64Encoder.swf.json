@@ -18,7 +18,7 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Constant definition for the string \\&quot;UTF-8\\&quot;.",
+          "description": "Constant definition for the string &quot;UTF-8&quot;.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},

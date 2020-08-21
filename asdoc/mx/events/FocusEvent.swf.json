@@ -36,12 +36,6 @@
         "details": [],
         "deprecated": {},
           "return": "",
-          "params": [{ "name": "type", "type": "String"},
-        { "name": "bubbles", "type": "Boolean"},
-        { "name": "cancelable", "type": "Boolean"},
-        { "name": "relatedObject", "type": "flash.display.InteractiveObject"},
-        { "name": "shiftKey", "type": "Boolean"},
-        { "name": "keyCode", "type": "uint"},
-        { "name": "direction", "type": "String"}]}
+          "params": [{ "name": "type", "type": "String"}]}
       ]
   }

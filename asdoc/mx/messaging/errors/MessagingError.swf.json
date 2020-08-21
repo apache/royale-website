@@ -36,7 +36,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Returns the string \\&quot;[MessagingError]\\&quot; by default, and includes the message property if defined.",
+          "description": "Returns the string &quot;[MessagingError]&quot; by default, and includes the message property if defined.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},

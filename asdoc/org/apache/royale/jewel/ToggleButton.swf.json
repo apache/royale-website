@@ -49,7 +49,7 @@
         "return": "String",
         "qname": "selectedText",
         "namespace": "public",
-        "bindable": [],
+        "bindable": ["selectedTextChange"],
         "details": [],
         "deprecated": {},
           "description": "The selectedText of the icon",

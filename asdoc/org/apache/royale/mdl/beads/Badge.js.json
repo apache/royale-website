@@ -52,7 +52,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A boolean flag to activate \\&quot;mdl-badge--no-background\\&quot; effect selector. Applies open-circle effect to badge",
+          "description": "A boolean flag to activate &quot;mdl-badge--no-background&quot; effect selector. Applies open-circle effect to badge",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -68,7 +68,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A boolean flag to activate \\&quot;mdl-badge--overlap\\&quot; effect selector. Make the badge overlap with its container",
+          "description": "A boolean flag to activate &quot;mdl-badge--overlap&quot; effect selector. Make the badge overlap with its container",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

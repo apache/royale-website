@@ -62,5 +62,18 @@
             {  "tagName": "royaleignorecoercion",
                "values": ["org.apache.royale.core.IViewport", "org.apache.royale.core.IContainer"]},
             {  "tagName": "langversion",
-               "values": ["3.0"]}  ]}]
+               "values": ["3.0"]}  ]},
+      { "type": "method",
+        "qname": "addViewport",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.IContainer"]}  ],
+          "return": "void",
+          "params": []}
+      ]
   }

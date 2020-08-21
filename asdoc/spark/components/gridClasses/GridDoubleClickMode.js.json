@@ -2,7 +2,7 @@
   "qname": "spark.components.gridClasses.GridDoubleClickMode",
   "baseClassname": ""
   ,
-    "description": "The GridDoubleClickMode class defines the valid constant values for the <code>doubleClickMode</code> property of the Spark DataGrid and Grid controls.  <p>Use the constants in ActionsScript, as the following example shows: </p> <pre> myDG.doubleClickMode = GridDoubleClickMode.ROW; myDG.doubleClickEnabled = true; </pre>  <p>In MXML, use the String value of the constants, as the following example shows:</p> <pre> &lt;s:DataGrid id=\\&quot;myGrid\\&quot; width=\\&quot;350\\&quot; height=\\&quot;150\\&quot; doubleClickMode=\\&quot;row\\&quot; doubleClickEnabled=\\&quot;true\\&quot;&gt; ... &lt;/s:DataGrid&gt; </pre>",
+    "description": "The GridDoubleClickMode class defines the valid constant values for the <code>doubleClickMode</code> property of the Spark DataGrid and Grid controls.  <p>Use the constants in ActionsScript, as the following example shows: </p> <pre>\\n myDG.doubleClickMode = GridDoubleClickMode.ROW;\\n myDG.doubleClickEnabled = true;\\n </pre>  <p>In MXML, use the String value of the constants, as the following example shows:</p> <pre>\\n &lt;s:DataGrid id=&quot;myGrid&quot; width=&quot;350&quot; height=&quot;150&quot;\\n doubleClickMode=&quot;row&quot; doubleClickEnabled=&quot;true&quot;&gt;\\n ...\\n &lt;/s:DataGrid&gt;\\n </pre>",
   "tags": [
   {  "tagName": "see",
          "values": ["spark.components.DataGrid#doubleClickMode", "spark.components.Grid#doubleClickMode"]},

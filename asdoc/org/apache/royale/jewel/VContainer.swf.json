@@ -1,0 +1,43 @@
+{ "type": "class",
+  "qname": "org.apache.royale.jewel.VContainer",
+  "baseClassname": "org.apache.royale.jewel.supportClasses.container.AlignmentItemsContainerWithGap"
+  ,
+    "description": "This Container subclass uses VerticalLayout as its default layout.",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["org.apache.royale.jewel.beads.layouts"]},
+      {  "tagName": "toplevel",
+         "values": []},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.7"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.jewel.VContainer",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.7"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "org.apache.royale.jewel.beads.layouts.VerticalLayout",
+        "qname": "layout",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}}]
+  }

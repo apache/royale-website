@@ -58,7 +58,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Position the menu relative to the associated button. Used in conjunction with \\&quot;left\\&quot; deafult is true",
+          "description": "Position the menu relative to the associated button. Used in conjunction with &quot;left&quot; deafult is true",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -74,7 +74,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Position the menu relative to the associated button. Used in conjunction with \\&quot;bottom\\&quot; deafult is true",
+          "description": "Position the menu relative to the associated button. Used in conjunction with &quot;bottom&quot; deafult is true",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -113,7 +113,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A boolean flag to activate \\&quot;mdl-js-ripple-effect\\&quot; effect selector. Applies ripple click effect to option links. Optional",
+          "description": "A boolean flag to activate &quot;mdl-js-ripple-effect&quot; effect selector. Applies ripple click effect to option links. Optional",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

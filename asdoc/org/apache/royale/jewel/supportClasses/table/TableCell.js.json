@@ -91,7 +91,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The align this cell will apply to its content can be \\&quot;left\\&quot;, \\&quot;center\\&quot; or \\&quot;right\\&quot;. defaults to \\&quot;left\\&quot;",
+          "description": "The align this cell will apply to its content can be &quot;left&quot;, &quot;center&quot; or &quot;right&quot;. defaults to &quot;left&quot;",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

@@ -1,6 +1,6 @@
 { "type": "class",
   "qname": "org.apache.royale.html.beads.DispatchKeyboardEventBead",
-  "baseClassname": ""
+  "baseClassname": "org.apache.royale.core.Bead"
   ,
     "description": "The DispatchKeyboardEventBead class dispatches a KeyboardEvent from a text input.",
   "tags": [
@@ -34,7 +34,7 @@
         "qname": "strand",
         "namespace": "public",
         "bindable": [],
-        "details": [],
+        "details": ["override"],
         "deprecated": {},
           "description": "",
         "tags": [
@@ -44,6 +44,8 @@
                "values": ["org.apache.royale.core.IBead#strand"]},
             {  "tagName": "productversion",
                "values": ["Royale 0.0"]},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.IRenderedObject"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
   }

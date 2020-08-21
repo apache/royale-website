@@ -34,7 +34,7 @@
         "deprecated": {}},
       { "type": "accessor",
         "access": "read-write",
-        "return": "mx.core.Container",
+        "return": "mx.core.UIComponent",
         "qname": "target",
         "namespace": "public",
         "bindable": [],

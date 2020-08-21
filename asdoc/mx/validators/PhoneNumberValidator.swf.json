@@ -2,7 +2,7 @@
   "qname": "mx.validators.PhoneNumberValidator",
   "baseClassname": "mx.validators.Validator"
   ,
-    "description": "The PhoneNumberValidator class validates that a string is a valid phone number. A valid phone number contains at least 10 digits, plus additional formatting characters. The validator does not check if the phone number is an actual active phone number.   <p>The <code>&lt;mx:PhoneNumberValidator&gt;</code> tag inherits all of the tag attributes of its superclass, and adds the following tag attributes:</p>  <pre> &lt;mx:PhoneNumberValidator allowedFormatChars=\\&quot;()- .+\\&quot; invalidCharError=\\&quot;Your telephone number contains invalid characters.\\&quot; minDigits=\\&quot;10\\&quot; wrongLengthError=\\&quot;Your telephone number must contain at least 10 digits.\\&quot; /&gt; </pre>",
+    "description": "The PhoneNumberValidator class validates that a string is a valid phone number. A valid phone number contains at least 10 digits, plus additional formatting characters. The validator does not check if the phone number is an actual active phone number.   <p>The <code>&lt;mx:PhoneNumberValidator&gt;</code> tag inherits all of the tag attributes of its superclass, and adds the following tag attributes:</p>  <pre>\\n &lt;mx:PhoneNumberValidator\\n allowedFormatChars=&quot;()- .+&quot;\\n invalidCharError=&quot;Your telephone number contains invalid characters.&quot;\\n minDigits=&quot;10&quot;\\n wrongLengthError=&quot;Your telephone number must contain at least 10 digits.&quot;\\n /&gt;\\n </pre>",
   "tags": [
   {  "tagName": "includeExample",
          "values": ["examples/PhoneNumberValidatorExample.mxml"]},
@@ -43,7 +43,7 @@
           "description": "The set of allowable formatting characters.",
         "tags": [
         {  "tagName": "default",
-               "values": ["&quot;()- .+&quot;"]},
+               "values": [""()- .+""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",

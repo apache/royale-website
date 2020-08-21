@@ -1,6 +1,6 @@
 { "type": "class",
   "qname": "org.apache.royale.file.FileProxy",
-  "baseClassname": "org.apache.royale.core.Strand"
+  "baseClassname": "org.apache.royale.core.StrandWithModel"
   ,
     "description": "The FileProxy class is where beads regarding file operations are added. Information about operations can be queried in the file model, or by listenening to events dispatched by beads.",
   "tags": [
@@ -33,7 +33,9 @@
           "description": "",
         "tags": [
         {  "tagName": "copy",
-               "values": ["org.apache.royale.file.IFileModel#lastModified"]}  ]},
+               "values": ["org.apache.royale.file.IFileModel#lastModified"]},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.file.IFileModel"]}  ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "String",
@@ -45,7 +47,9 @@
           "description": "",
         "tags": [
         {  "tagName": "copy",
-               "values": ["org.apache.royale.file.IFileModel#name"]}  ]},
+               "values": ["org.apache.royale.file.IFileModel#name"]},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.file.IFileModel"]}  ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "String",
@@ -57,7 +61,9 @@
           "description": "",
         "tags": [
         {  "tagName": "copy",
-               "values": ["org.apache.royale.file.IFileModel#type"]}  ]},
+               "values": ["org.apache.royale.file.IFileModel#type"]},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.file.IFileModel"]}  ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Number",
@@ -69,7 +75,9 @@
           "description": "",
         "tags": [
         {  "tagName": "copy",
-               "values": ["org.apache.royale.file.IFileModel#size"]}  ]},
+               "values": ["org.apache.royale.file.IFileModel#size"]},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.file.IFileModel"]}  ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Object",
@@ -81,7 +89,9 @@
           "description": "",
         "tags": [
         {  "tagName": "copy",
-               "values": ["org.apache.royale.file.IFileModel#blob"]}  ]},
+               "values": ["org.apache.royale.file.IFileModel#blob"]},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.file.IFileModel"]}  ]},
       { "type": "accessor",
         "access": "write-only",
         "return": "org.apache.royale.utils.BinaryData",
@@ -93,7 +103,9 @@
           "description": "",
         "tags": [
         {  "tagName": "copy",
-               "values": ["org.apache.royale.file.IFileModel#fileContent"]}  ]},
+               "values": ["org.apache.royale.file.IFileModel#fileContent"]},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.file.IFileModel"]}  ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "flash.net.FileReference",

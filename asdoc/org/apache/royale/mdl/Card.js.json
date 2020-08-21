@@ -43,7 +43,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A boolean flag to activate \\&quot;mdl-shadow--Xdp\\&quot; effect selector. Assigns variable shadow depths (0, 2, 3, 4, 6, 8, or 16) to card  Cards are a convenient means of coherently displaying related content that is composed of different types of objects. They are also well-suited for presenting similar objects whose size or supported actions can vary considerably, like photos with captions of variable length. Cards have a constant width and a variable height, depending on their content.",
+          "description": "A boolean flag to activate &quot;mdl-shadow--Xdp&quot; effect selector. Assigns variable shadow depths (0, 2, 3, 4, 6, 8, or 16) to card  Cards are a convenient means of coherently displaying related content that is composed of different types of objects. They are also well-suited for presenting similar objects whose size or supported actions can vary considerably, like photos with captions of variable length. Cards have a constant width and a variable height, depending on their content.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

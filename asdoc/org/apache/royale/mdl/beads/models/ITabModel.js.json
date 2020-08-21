@@ -20,7 +20,7 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
-      "description": "The property on data which represents \\&quot;id\\&quot; of TabBarPanel  TabBarPanel requires unique id",
+      "description": "The property on data which represents &quot;id&quot; of TabBarPanel  TabBarPanel requires unique id",
     "tags": [
     {  "tagName": "playerversion",
            "values": ["Flash 10.2", "AIR 2.6"]},

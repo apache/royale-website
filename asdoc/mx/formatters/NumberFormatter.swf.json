@@ -1,8 +1,8 @@
 { "type": "class",
   "qname": "mx.formatters.NumberFormatter",
-  "baseClassname": ""
+  "baseClassname": "mx.formatters.Formatter"
   ,
-    "description": "The NumberFormatter class formats a valid number by adjusting the decimal rounding and precision, the thousands separator, and the negative sign.  <p>If you use both the <code>rounding</code> and <code>precision</code> properties, rounding is applied first, and then you set the decimal length by using the specified <code>precision</code> value. This lets you round a number and still have a trailing decimal; for example, 303.99 = 304.00.</p>  <p>If an error occurs, an empty String is returned and a String describing  the error is saved to the <code>error</code> property. The <code>error</code>  property can have one of the following values:</p>  <ul> <li><code>\\&quot;Invalid value\\&quot;</code> means an invalid numeric value is passed to the <code>format()</code> method. The value should be a valid number in the form of a Number or a String.</li> <li><code>\\&quot;Invalid format\\&quot;</code> means one of the parameters contain an unusable setting.</li> </ul>   <p>The <code>&lt;mx:NumberFormatter&gt;</code> tag inherits all of the tag attributes of its superclass, and adds the following tag attributes:</p>  <pre> &lt;mx:NumberFormatter decimalSeparatorFrom=\\&quot;.\\&quot; decimalSeparatorTo=\\&quot;.\\&quot; precision=\\&quot;-1\\&quot; rounding=\\&quot;none|up|down|nearest\\&quot; thousandsSeparatorFrom=\\&quot;,\\&quot; thousandsSeparatorTo=\\&quot;,\\&quot; useNegativeSign=\\&quot;true|false\\&quot; useThousandsSeparator=\\&quot;true|false\\&quot;/> </pre>",
+    "description": "The NumberFormatter class formats a valid number by adjusting the decimal rounding and precision, the thousands separator, and the negative sign.  <p>If you use both the <code>rounding</code> and <code>precision</code> properties, rounding is applied first, and then you set the decimal length by using the specified <code>precision</code> value. This lets you round a number and still have a trailing decimal; for example, 303.99 = 304.00.</p>  <p>If an error occurs, an empty String is returned and a String describing  the error is saved to the <code>error</code> property. The <code>error</code>  property can have one of the following values:</p>  <ul> <li><code>&quot;Invalid value&quot;</code> means an invalid numeric value is passed to the <code>format()</code> method. The value should be a valid number in the form of a Number or a String.</li> <li><code>&quot;Invalid format&quot;</code> means one of the parameters contain an unusable setting.</li> </ul>   <p>The <code>&lt;mx:NumberFormatter&gt;</code> tag inherits all of the tag attributes of its superclass, and adds the following tag attributes:</p>  <pre>\\n &lt;mx:NumberFormatter\\n decimalSeparatorFrom=&quot;.&quot;\\n decimalSeparatorTo=&quot;.&quot;\\n precision=&quot;-1&quot;\\n rounding=&quot;none|up|down|nearest&quot;\\n thousandsSeparatorFrom=&quot;,&quot;\\n thousandsSeparatorTo=&quot;,&quot;\\n useNegativeSign=&quot;true|false&quot;\\n useThousandsSeparator=&quot;true|false&quot;/>\\n </pre>",
   "tags": [
   {  "tagName": "includeExample",
          "values": ["examples/NumberFormatterExample.mxml"]},
@@ -45,7 +45,7 @@
           "description": "Decimal separator character to use when parsing an input String.  <p>When setting this property, ensure that the value of the <code>thousandsSeparatorFrom</code> property does not equal this property. Otherwise, an error occurs when formatting the value.</p>",
         "tags": [
         {  "tagName": "default",
-               "values": ["&quot;.&quot;"]},
+               "values": ["".""]},
             {  "tagName": "see",
                "values": ["#format()"]},
             {  "tagName": "playerversion",
@@ -65,7 +65,7 @@
           "description": "Decimal separator character to use when outputting formatted decimal numbers.  <p>When setting this property, ensure that the value of the <code>thousandsSeparatorTo</code> property does not equal this property. Otherwise, an error occurs when formatting the value.</p>",
         "tags": [
         {  "tagName": "default",
-               "values": ["&quot;.&quot;"]},
+               "values": ["".""]},
             {  "tagName": "see",
                "values": ["#format()"]},
             {  "tagName": "playerversion",
@@ -100,7 +100,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Specifies how to round the number.  <p>In ActionScript, you can use the following constants to set this property: <code>NumberBaseRoundType.NONE</code>, <code>NumberBaseRoundType.UP</code>, <code>NumberBaseRoundType.DOWN</code>, or <code>NumberBaseRoundType.NEAREST</code>. Valid MXML values are \\&quot;down\\&quot;, \\&quot;nearest\\&quot;, \\&quot;up\\&quot;, and \\&quot;none\\&quot;.</p>",
+          "description": "Specifies how to round the number.  <p>In ActionScript, you can use the following constants to set this property: <code>NumberBaseRoundType.NONE</code>, <code>NumberBaseRoundType.UP</code>, <code>NumberBaseRoundType.DOWN</code>, or <code>NumberBaseRoundType.NEAREST</code>. Valid MXML values are &quot;down&quot;, &quot;nearest&quot;, &quot;up&quot;, and &quot;none&quot;.</p>",
         "tags": [
         {  "tagName": "default",
                "values": ["NumberBaseRoundType.NONE"]},
@@ -123,7 +123,7 @@
           "description": "Character to use as the thousands separator in the input String.  <p>When setting this property, ensure that the value of the <code>decimalSeparatorFrom</code> property does not equal this property. Otherwise, an error occurs when formatting the value.</p>",
         "tags": [
         {  "tagName": "default",
-               "values": ["&quot;,&quot;"]},
+               "values": ["",""]},
             {  "tagName": "see",
                "values": ["#format()"]},
             {  "tagName": "playerversion",
@@ -143,7 +143,7 @@
           "description": "Character to use as the thousands separator in the output String.  <p>When setting this property, ensure that the value of the <code>decimalSeparatorTo</code> property does not equal this property. Otherwise, an error occurs when formatting the value.</p>",
         "tags": [
         {  "tagName": "default",
-               "values": ["&quot;,&quot;"]},
+               "values": ["",""]},
             {  "tagName": "see",
                "values": ["#format()"]},
             {  "tagName": "playerversion",
@@ -160,7 +160,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "If <code>true</code>, format a negative number by preceding it with a minus \\&quot;-\\&quot; sign. If <code>false</code>, format the number surrounded by parentheses, for example (400).",
+          "description": "If <code>true</code>, format a negative number by preceding it with a minus &quot;-&quot; sign. If <code>false</code>, format the number surrounded by parentheses, for example (400).",
         "tags": [
         {  "tagName": "default",
                "values": ["true"]},
@@ -192,7 +192,7 @@
         "qname": "format",
         "namespace": "public",
         "bindable": [],
-        "details": [],
+        "details": ["override"],
         "deprecated": {},
           "description": "Formats the number as a String. If <code>value</code> cannot be formatted, return an empty String and write a description of the error to the <code>error</code> property.",
         "tags": [

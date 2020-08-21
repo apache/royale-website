@@ -1,0 +1,35 @@
+{ "type": "class",
+  "qname": "org.apache.royale.display.GraphicsEndFill",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.display.GraphicsEndFill",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "apply",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "graphics", "type": "org.apache.royale.display.Graphics"},
+        { "name": "element", "type": "SVGPathElement"}]}
+      ,
+      { "type": "method",
+        "qname": "applyStroke",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "SVGPathElement",
+          "params": [{ "name": "graphics", "type": "org.apache.royale.display.Graphics"},
+        { "name": "element", "type": "SVGPathElement"}]}
+      ]
+  }

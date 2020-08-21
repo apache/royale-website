@@ -1,0 +1,40 @@
+{ "type": "class",
+  "qname": "org.apache.royale.jewel.beads.itemRenderers.DataGridColumnListItemRendererInitializer",
+  "baseClassname": "org.apache.royale.jewel.beads.itemRenderers.ListItemRendererInitializer"
+  ,
+    "description": "The DataGridColumnListItemRendererInitializer class initializes item renderers in list classes and use the base class of many other initializers based on lists",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.7"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.jewel.beads.itemRenderers.DataGridColumnListItemRendererInitializer",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.7"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "setupVisualsForItemRenderer",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "ir", "type": "org.apache.royale.core.IIndexedItemRenderer"}]}
+      ]
+  }

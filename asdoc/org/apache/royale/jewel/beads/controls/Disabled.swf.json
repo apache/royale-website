@@ -1,6 +1,6 @@
 { "type": "class",
   "qname": "org.apache.royale.jewel.beads.controls.Disabled",
-  "baseClassname": ""
+  "baseClassname": "org.apache.royale.core.Bead"
   ,
     "description": "The Disabled bead class is a specialty bead that can be used to disable a Jewel control.",
   "tags": [
@@ -28,6 +28,13 @@
           "return": "",
           "params": []}
       ,
+      { "type": "field",
+        "qname": "initialized",
+        "return": "Boolean",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}},
       { "type": "accessor",
         "access": "read-write",
         "return": "Boolean",
@@ -44,20 +51,13 @@
                "values": ["Royale 0.9.4"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]},
-      { "type": "field",
-        "qname": "_strand",
-        "return": "org.apache.royale.core.IStrand",
-        "namespace": "protected",
-        "bindable": [],
-        "details": [],
-        "deprecated": {}},
       { "type": "accessor",
         "access": "write-only",
         "return": "org.apache.royale.core.IStrand",
         "qname": "strand",
         "namespace": "public",
         "bindable": [],
-        "details": [],
+        "details": ["override"],
         "deprecated": {},
           "description": "",
         "tags": [
@@ -68,7 +68,16 @@
             {  "tagName": "productversion",
                "values": ["Royale 0.9.4"]},
             {  "tagName": "royaleignorecoercion",
-               "values": ["HTMLInputElement", "org.apache.royale.core.UIBase;"]},
+               "values": ["HTMLInputElement"]},
             {  "tagName": "langversion",
-               "values": ["3.0"]}  ]}]
+               "values": ["3.0"]}  ]},
+      { "type": "method",
+        "qname": "updateHost",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "void",
+          "params": []}
+      ]
   }

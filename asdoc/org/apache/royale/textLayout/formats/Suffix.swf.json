@@ -18,7 +18,7 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Specifies that the auto suffix is appended to the list marker after the content. See <a href=\\&quot;http://www.w3.org/TR/css3-lists/\\&quot;>http://www.w3.org/TR/css3-lists/</a> for the default suffixes.",
+          "description": "Specifies that the auto suffix is appended to the list marker after the content. See <a href=&quot;http://www.w3.org/TR/css3-lists/&quot;>http://www.w3.org/TR/css3-lists/</a> for the default suffixes.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10", "AIR 1.5"]},

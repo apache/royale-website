@@ -63,7 +63,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A boolean flag to activate \\&quot;auto\\&quot; effect selector. Optional. Makes the drawer auto adapt using a float behaviour on mobile and tablets and fixed behaviour on desktop.",
+          "description": "A boolean flag to activate &quot;auto&quot; effect selector. Optional. Makes the drawer auto adapt using a float behaviour on mobile and tablets and fixed behaviour on desktop.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

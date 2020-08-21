@@ -152,7 +152,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A boolean flag to activate \\&quot;mdl-shadow--Xdp\\&quot; effect selector. Assigns variable shadow depths (0, 2, 3, 4, 6, 8, or 16) to card",
+          "description": "A boolean flag to activate &quot;mdl-shadow--Xdp&quot; effect selector. Assigns variable shadow depths (0, 2, 3, 4, 6, 8, or 16) to card",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -175,7 +175,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A boolean flag to activate \\&quot;mdl-data-table--selectable\\&quot; effect selector. Applies all/individual selectable behavior (checkboxes) Optional; goes on table element",
+          "description": "A boolean flag to activate &quot;mdl-data-table--selectable&quot; effect selector. Applies all/individual selectable behavior (checkboxes) Optional; goes on table element",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

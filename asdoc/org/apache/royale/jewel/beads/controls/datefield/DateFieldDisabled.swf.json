@@ -27,5 +27,14 @@
                "values": ["3.0"]}  ],
           "return": "",
           "params": []}
+      ,
+      { "type": "method",
+        "qname": "updateHost",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "void",
+          "params": []}
       ]
   }

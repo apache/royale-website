@@ -1,6 +1,6 @@
 { "type": "class",
   "qname": "org.apache.royale.charts.beads.DataItemRendererFactoryForSeriesArrayListData",
-  "baseClassname": ""
+  "baseClassname": "org.apache.royale.charts.beads.DataItemRendererFactoryForSeriesData"
   ,
     "description": "The DataItemRendererFactoryForSeriesData creates the itemRenderers necessary for series-based charts.",
   "tags": [
@@ -28,31 +28,13 @@
           "return": "",
           "params": []}
       ,
-      { "type": "accessor",
-        "access": "read-write",
-        "return": "org.apache.royale.core.IStrand",
-        "qname": "strand",
-        "namespace": "public",
+      { "type": "method",
+        "qname": "getItemAt",
+        "namespace": "protected",
         "bindable": [],
-        "details": [],
+        "details": ["override"],
         "deprecated": {},
-          "description": "",
-        "tags": [
-        {  "tagName": "playerversion",
-               "values": ["Flash 10.2", "AIR 2.6"]},
-            {  "tagName": "copy",
-               "values": ["org.apache.royale.core.IBead#strand"]},
-            {  "tagName": "productversion",
-               "values": ["Royale 0.0"]},
-            {  "tagName": "langversion",
-               "values": ["3.0"]}  ]},
-      { "type": "accessor",
-        "access": "read-write",
-        "return": "org.apache.royale.core.IItemRendererClassFactory",
-        "qname": "itemRendererFactory",
-        "namespace": "public",
-        "bindable": [],
-        "details": [],
-        "deprecated": {},
-          "description": "For series data, the 'global' itemRendererFactory is not used. Each series supplies its own itemRendererFactory."}]
+          "return": "Object",
+          "params": [{ "name": "index", "type": "int"}]}
+      ]
   }

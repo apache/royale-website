@@ -2,7 +2,7 @@
   "qname": "mx.modules.ModuleLoader",
   "baseClassname": "mx.containers.VBox"
   ,
-    "description": "ModuleLoader is a component that behaves much like a SWFLoader except that it follows a contract with the loaded content. This contract dictates that the child SWF file implements IFlexModuleFactory and that the factory implemented can be used to create multiple instances of the child class as needed.  <p>The ModuleLoader is connected to deferred instantiation and ensures that only a single copy of the module SWF file is transferred over the network by using the ModuleManager singleton.</p>  <pre> &lt;mx:ModuleLoader <strong>Properties</strong> url=\\&quot;<i>No default</i>\\&quot; trustContent=\\&quot;false|true\\&quot;  <strong>Events</strong> error=\\&quot;<i>No default</i>\\&quot; loading=\\&quot;<i>No default</i>\\&quot; progress=\\&quot;<i>No default</i>\\&quot; ready=\\&quot;<i>No default</i>\\&quot; setup=\\&quot;<i>No default</i>\\&quot; unload=\\&quot;<i>No default</i>\\&quot; /&gt; </pre>",
+    "description": "ModuleLoader is a component that behaves much like a SWFLoader except that it follows a contract with the loaded content. This contract dictates that the child SWF file implements IFlexModuleFactory and that the factory implemented can be used to create multiple instances of the child class as needed.  <p>The ModuleLoader is connected to deferred instantiation and ensures that only a single copy of the module SWF file is transferred over the network by using the ModuleManager singleton.</p>  <pre>\\n &lt;mx:ModuleLoader\\n <strong>Properties</strong>\\n url=&quot;<i>No default</i>&quot;\\n trustContent=&quot;false|true&quot;\\n \\n <strong>Events</strong>\\n error=&quot;<i>No default</i>&quot;\\n loading=&quot;<i>No default</i>&quot;\\n progress=&quot;<i>No default</i>&quot;\\n ready=&quot;<i>No default</i>&quot;\\n setup=&quot;<i>No default</i>&quot;\\n unload=&quot;<i>No default</i>&quot;\\n /&gt;\\n </pre>",
   "tags": [
   {  "tagName": "see",
          "values": ["mx.modules.ModuleManager", "mx.controls.SWFLoader"]},
@@ -49,9 +49,10 @@
                "values": ["Royale 0.9.3"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]},
-      { "type": "field",
-        "qname": "child",
+      { "type": "accessor",
+        "access": "read-only",
         "return": "Object",
+        "qname": "child",
         "namespace": "public",
         "bindable": [],
         "details": [],

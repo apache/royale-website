@@ -2,6 +2,7 @@
   "qname": "org.apache.royale.test.runners.notification.Failure",
   "baseClassname": ""
   ,
+    "description": "The result of a failed test.",
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.test.runners.notification.Failure",
@@ -9,6 +10,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "Constructor.",
           "return": "",
           "params": [{ "name": "description", "type": "String"},
         { "name": "exception", "type": "Error"}]}
@@ -31,13 +33,6 @@
         "details": [],
         "deprecated": {},
           "description": "The exception that caused the test to fail."},
-      { "type": "field",
-        "qname": "_stackTrace",
-        "return": "String",
-        "namespace": "protected",
-        "bindable": [],
-        "details": [],
-        "deprecated": {}},
       { "type": "accessor",
         "access": "read-only",
         "return": "String",
@@ -46,14 +41,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Convenience method."},
-      { "type": "field",
-        "qname": "_message",
-        "return": "String",
-        "namespace": "protected",
-        "bindable": [],
-        "details": [],
-        "deprecated": {}},
+          "description": "The exception's stack trace."},
       { "type": "accessor",
         "access": "read-only",
         "return": "String",
@@ -62,5 +50,5 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Convenience method."}]
+          "description": "The exception's message."}]
   }

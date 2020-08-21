@@ -100,6 +100,13 @@
           "return": "void",
           "params": []}
       ,
+      { "type": "field",
+        "qname": "moduleInstance",
+        "return": "org.apache.royale.core.IUIBase",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}},
       { "type": "method",
         "qname": "loadDepsHandler",
         "namespace": "protected",
@@ -115,6 +122,10 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.IUIBase"]}  ],
           "return": "void",
           "params": []}
       ]

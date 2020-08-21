@@ -43,7 +43,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A boolean flag to activate \\&quot;mdl-grid--no-spacing\\&quot; effect selector. Optional. Modifies the grid cells to have no margin between them.",
+          "description": "A boolean flag to activate &quot;mdl-grid--no-spacing&quot; effect selector. Optional. Modifies the grid cells to have no margin between them.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

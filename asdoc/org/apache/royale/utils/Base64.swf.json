@@ -1,0 +1,43 @@
+{ "type": "class",
+  "qname": "org.apache.royale.utils.Base64",
+  "baseClassname": ""
+  ,
+    "description": "Implementation derived from: https://sociodox.com/base64.html available under MIT License.  By: Jean-Philippe Auclair : http://jpauclair.net Based on article: http://jpauclair.net/2010/01/09/base64-optimized-as3-lib/ Benchmark: This version: encode: 260ms decode: 255ms Blog version: encode: 322ms decode: 694ms as3Crypto encode: 6728ms decode: 4098ms  Encode: com.sociodox.utils.Base64 is 25.8x faster than as3Crypto Base64 Decode: com.sociodox.utils.Base64 is 16x faster than as3Crypto Base64  Optimize & Profile any Flash content with TheMiner ( http://www.sociodox.com/theminer )",
+  "members": [
+  { "type": "method",
+        "qname": "encode",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "return": "String",
+          "params": [{ "name": "data", "type": "org.apache.royale.utils.BinaryData"}]}
+      ,
+      { "type": "method",
+        "qname": "decode",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "return": "org.apache.royale.utils.BinaryData",
+          "params": [{ "name": "str", "type": "String"}]}
+      ,
+      { "type": "method",
+        "qname": "InitEncoreChar",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "return": "Vector.<int>",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "InitDecodeChar",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "return": "Vector.<int>",
+          "params": []}
+      ]
+  }

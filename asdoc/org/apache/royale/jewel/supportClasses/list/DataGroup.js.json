@@ -1,8 +1,8 @@
 { "type": "class",
   "qname": "org.apache.royale.jewel.supportClasses.list.DataGroup",
-  "baseClassname": "org.apache.royale.html.DataContainer"
+  "baseClassname": "org.apache.royale.jewel.DataContainer"
   ,
-    "description": "The DataGroup class is the IItemRendererParent used internally by org.apache.royale.jewel.List class.",
+    "description": "The DataGroup class is the IItemRendererOwnerView used internally by org.apache.royale.jewel.List class.",
   "tags": [
   {  "tagName": "toplevel",
          "values": []},

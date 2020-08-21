@@ -20,7 +20,7 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Constant that specifies that the type of drag action is \\&quot;link\\&quot;.",
+          "description": "Constant that specifies that the type of drag action is &quot;link&quot;.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},

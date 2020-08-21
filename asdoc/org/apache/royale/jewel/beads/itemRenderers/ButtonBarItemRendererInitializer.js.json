@@ -1,0 +1,49 @@
+{ "type": "class",
+  "qname": "org.apache.royale.jewel.beads.itemRenderers.ButtonBarItemRendererInitializer",
+  "baseClassname": "org.apache.royale.jewel.beads.itemRenderers.ListItemRendererInitializer"
+  ,
+    "description": "The ButtonBarItemRendererInitializer class initializes item renderers in ButtonBar component.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.7"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.jewel.beads.itemRenderers.ButtonBarItemRendererInitializer",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.7"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "setupVisualsForItemRenderer",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "ir", "type": "org.apache.royale.core.IIndexedItemRenderer"}]}
+      ,
+      { "type": "method",
+        "qname": "styleBasedOnIndex",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "ir", "type": "org.apache.royale.core.IIndexedItemRenderer"}]}
+      ]
+  }

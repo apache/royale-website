@@ -1,0 +1,38 @@
+{ "type": "class",
+  "qname": "mx.rpc.xml.NamespaceUtil",
+  "baseClassname": ""
+  ,
+    "description": "",
+  "tags": [
+  {  "tagName": "private",
+         "values": []}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.rpc.xml.NamespaceUtil",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "getLocalName",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "return": "String",
+          "params": [{ "name": "xmlNode", "type": "flash.xml.XMLNode"}]}
+      ,
+      { "type": "method",
+        "qname": "getElementsByLocalName",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "return": "Array",
+          "params": [{ "name": "xmlNode", "type": "flash.xml.XMLNode"},
+        { "name": "lname", "type": "String"}]}
+      ]
+  }

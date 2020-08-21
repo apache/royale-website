@@ -43,7 +43,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A boolean flag to activate \\&quot;mdl-dialog__actions--full-width\\&quot; effect selector. Modifies the actions to each take the full width of the container. This makes each take their own line. Optional on action container.",
+          "description": "A boolean flag to activate &quot;mdl-dialog__actions--full-width&quot; effect selector. Modifies the actions to each take the full width of the container. This makes each take their own line. Optional on action container.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

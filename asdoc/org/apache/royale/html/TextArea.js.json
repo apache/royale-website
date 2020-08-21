@@ -66,6 +66,8 @@
                "values": ["org.apache.royale.html.Label#html"]},
             {  "tagName": "productversion",
                "values": ["Royale 0.0"]},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["HTMLTextAreaElement"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]},
       { "type": "method",

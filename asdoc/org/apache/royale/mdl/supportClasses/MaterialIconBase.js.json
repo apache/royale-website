@@ -88,7 +88,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Activate \\&quot;md-dark\\&quot; class selector.",
+          "description": "Activate &quot;md-dark&quot; class selector.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -104,7 +104,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Activate \\&quot;md-light\\&quot; class selector.",
+          "description": "Activate &quot;md-light&quot; class selector.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -120,7 +120,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Activate \\&quot;md-inactive\\&quot; class selector.",
+          "description": "Activate &quot;md-inactive&quot; class selector.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -136,7 +136,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Activate \\&quot;mdl-list__item-icon\\&quot; class selector, for use in a list item",
+          "description": "Activate &quot;mdl-list__item-icon&quot; class selector, for use in a list item",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -152,7 +152,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Activate \\&quot;mdl-list__item-avatar\\&quot; class selector, for use in a list item",
+          "description": "Activate &quot;mdl-list__item-avatar&quot; class selector, for use in a list item",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -168,7 +168,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Activate \\&quot;mdl-icon-toggle__label\\&quot; class selector, for use in a list item",
+          "description": "Activate &quot;mdl-icon-toggle__label&quot; class selector, for use in a list item",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

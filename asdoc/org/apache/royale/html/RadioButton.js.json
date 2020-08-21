@@ -63,9 +63,7 @@
           "description": "",
         "tags": [
         {  "tagName": "royaleignorecoercion",
-               "values": ["HTMLInputElement"]},
-            {  "tagName": "export",
-               "values": []}  ]},
+               "values": ["HTMLInputElement"]}  ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "String",

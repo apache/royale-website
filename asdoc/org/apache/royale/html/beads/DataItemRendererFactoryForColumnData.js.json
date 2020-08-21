@@ -1,6 +1,6 @@
 { "type": "class",
   "qname": "org.apache.royale.html.beads.DataItemRendererFactoryForColumnData",
-  "baseClassname": ""
+  "baseClassname": "org.apache.royale.html.beads.DataItemRendererFactoryBase"
   ,
     "description": "The DataItemRendererFactoryForColumnData class implents the org.apache.royale.core.IDataProviderItemRendererMapper interface and creates the itemRenderers for each cell in the org.apache.royale.html.DataGrid.",
   "tags": [
@@ -27,39 +27,5 @@
                "values": ["3.0"]}  ],
           "return": "",
           "params": []}
-      ,
-      { "type": "accessor",
-        "access": "write-only",
-        "return": "org.apache.royale.core.IStrand",
-        "qname": "strand",
-        "namespace": "public",
-        "bindable": [],
-        "details": [],
-        "deprecated": {},
-          "description": "",
-        "tags": [
-        {  "tagName": "playerversion",
-               "values": ["Flash 10.2", "AIR 2.6"]},
-            {  "tagName": "copy",
-               "values": ["org.apache.royale.core.IBead#strand"]},
-            {  "tagName": "productversion",
-               "values": ["Royale 0.0"]},
-            {  "tagName": "langversion",
-               "values": ["3.0"]}  ]},
-      { "type": "accessor",
-        "access": "read-write",
-        "return": "org.apache.royale.core.IItemRendererClassFactory",
-        "qname": "itemRendererFactory",
-        "namespace": "public",
-        "bindable": [],
-        "details": [],
-        "deprecated": {},
-          "description": "The factory used to create the itemRenderers.",
-        "tags": [
-        {  "tagName": "playerversion",
-               "values": ["Flash 10.2", "AIR 2.6"]},
-            {  "tagName": "productversion",
-               "values": ["Royale 0.0"]},
-            {  "tagName": "langversion",
-               "values": ["3.0"]}  ]}]
+      ]
   }

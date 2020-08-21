@@ -70,7 +70,7 @@
         "bindable": ["operationsChange"],
         "details": [],
         "deprecated": {},
-          "description": "The managers property stores a list of data managers which modify the behavior of this service.  You can use this hook to define one or more manager components associated with this service.  When this property is set, if the managers have a property called \\&quot;service\\&quot; that property is set to the value of this service.  When this service is initialized, we also call the initialize method on any manager components.",
+          "description": "The managers property stores a list of data managers which modify the behavior of this service.  You can use this hook to define one or more manager components associated with this service.  When this property is set, if the managers have a property called &quot;service&quot; that property is set to the value of this service.  When this service is initialized, we also call the initialize method on any manager components.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
@@ -186,7 +186,7 @@
         "bindable": ["operationsChange"],
         "details": ["override"],
         "deprecated": {},
-          "return": "void",
+          "return": "Boolean",
           "params": [{ "name": "propName", "type": "String"}]}
       ,
       { "type": "method",

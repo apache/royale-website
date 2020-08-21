@@ -84,7 +84,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Controls resetting the value of the counter. <p>Legal values for this property are: <ul> <li><code>none</code> - No reset.</li> <li><code>ordered</code> - Reset the counter to zero.</li> <li><code>ordered <i>integer</i></code> - Reset the counter to <code><i>integer</i></code>.</li> </ul> </p> <p>If <code>undefined</code>, the default value of this property is \\&quot;none\\&quot;.</p> <p>Note: The <code>counterReset</code> property is applied before the <code>counterIncrement</code> property.</p>",
+          "description": "Controls resetting the value of the counter. <p>Legal values for this property are: <ul> <li><code>none</code> - No reset.</li> <li><code>ordered</code> - Reset the counter to zero.</li> <li><code>ordered <i>integer</i></code> - Reset the counter to <code><i>integer</i></code>.</li> </ul> </p> <p>If <code>undefined</code>, the default value of this property is &quot;none&quot;.</p> <p>Note: The <code>counterReset</code> property is applied before the <code>counterIncrement</code> property.</p>",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10", "AIR 1.5"]},
@@ -100,7 +100,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Controls incrementing the value of the counter. <p>Legal values for this string are: <ul> <li><code>none</code> - No increment.</li> <li><code>ordered</code> - Increment the counter by one.</li> <li><code>ordered <i>integer</i></code> - Increment the counter by <code><i>integer</i></code>.</li> </ul> </p> <p>If undefined, the default vaule of this property is <code>\\&quot;ordered 1\\&quot;</code>.</p> <p>Note: The <code>counterIncrement</code> property is applied before the <code>counterReset</code> property.</p>",
+          "description": "Controls incrementing the value of the counter. <p>Legal values for this string are: <ul> <li><code>none</code> - No increment.</li> <li><code>ordered</code> - Increment the counter by one.</li> <li><code>ordered <i>integer</i></code> - Increment the counter by <code><i>integer</i></code>.</li> </ul> </p> <p>If undefined, the default vaule of this property is <code>&quot;ordered 1&quot;</code>.</p> <p>Note: The <code>counterIncrement</code> property is applied before the <code>counterReset</code> property.</p>",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10", "AIR 1.5"]},
@@ -116,7 +116,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Controls the content of the marker. <p>Legal values for this string are: <ul> <li><code>none</code> - No marker.</li> <li><code>counter(ordered)</code> - Display the marker.</li> <li><code>counter(ordered,ListStyleType)</code> - Display the marker but change the listStyleType to the specified value.</li> <li><code>counters(ordered)</code> - Starting from the top-most parent ListElement creating a string of values of the ordered counter in each counters specified listStyleType separated by the suffix for each.  This is used for outline number - for example I.1., I.2. etc.</li> <li><code>counters(ordered,\\&quot;&lt;string&gt;\\&quot;)</code> - Similar to the previous value, except the suffix for each ordered counter is replaced by &lt;string&gt;.</li> <li><code>counters(ordered,\\&quot;&lt;string&gt;\\&quot;,ListStyleType)</code> - Similar to the previous value, except each counter's <code>listStyleType</code> is replaced with the specified value.</li> </ul> </p> <p>If undefined, the default vaule of this property is <code>\\&quot;counter(ordered)\\&quot;</code>.</p>",
+          "description": "Controls the content of the marker. <p>Legal values for this string are: <ul> <li><code>none</code> - No marker.</li> <li><code>counter(ordered)</code> - Display the marker.</li> <li><code>counter(ordered,ListStyleType)</code> - Display the marker but change the listStyleType to the specified value.</li> <li><code>counters(ordered)</code> - Starting from the top-most parent ListElement creating a string of values of the ordered counter in each counters specified listStyleType separated by the suffix for each.  This is used for outline number - for example I.1., I.2. etc.</li> <li><code>counters(ordered,&quot;&lt;string&gt;&quot;)</code> - Similar to the previous value, except the suffix for each ordered counter is replaced by &lt;string&gt;.</li> <li><code>counters(ordered,&quot;&lt;string&gt;&quot;,ListStyleType)</code> - Similar to the previous value, except each counter's <code>listStyleType</code> is replaced with the specified value.</li> </ul> </p> <p>If undefined, the default vaule of this property is <code>&quot;counter(ordered)&quot;</code>.</p>",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10", "AIR 1.5"]},

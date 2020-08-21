@@ -30,7 +30,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Constructor. Use getInstance() instead of \\&quot;new\\&quot; to create.",
+          "description": "Constructor. Use getInstance() instead of &quot;new&quot; to create.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},

@@ -118,7 +118,7 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
-      "description": "The side of the chart the axisRenderer will appear on. Legal values are <code>\\&quot;left\\&quot;</code> and <code>\\&quot;right\\&quot;</code> for vertical axis renderers and <code>\\&quot;top\\&quot;</code> and <code>\\&quot;bottom\\&quot;</code> for horizontal axis renderers. By default, primary axes are placed on the left and top, and secondary axes are placed on the right and bottom. CartesianCharts automatically guarantee that secondary axes are placed opposite primary axes; if you explicitly place a primary vertical axis on the right, for example, the secondary vertical axis is swapped to the left.",
+      "description": "The side of the chart the axisRenderer will appear on. Legal values are <code>&quot;left&quot;</code> and <code>&quot;right&quot;</code> for vertical axis renderers and <code>&quot;top&quot;</code> and <code>&quot;bottom&quot;</code> for horizontal axis renderers. By default, primary axes are placed on the left and top, and secondary axes are placed on the right and bottom. CartesianCharts automatically guarantee that secondary axes are placed opposite primary axes; if you explicitly place a primary vertical axis on the right, for example, the secondary vertical axis is swapped to the left.",
     "tags": [
     {  "tagName": "playerversion",
            "values": ["Flash 9", "AIR 1.1"]},

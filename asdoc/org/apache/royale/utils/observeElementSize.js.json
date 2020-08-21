@@ -1,0 +1,17 @@
+{ "type": "method",
+  "qname": "org.apache.royale.utils.observeElementSize",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "",
+  "tags": [
+  {  "tagName": "royaleignorecoercion",
+         "values": ["Class"]}  ],
+    "return": "Boolean",
+    "params": [{ "name": "target", "type": "HTMLElement"},
+  { "name": "callback", "type": "Function"},
+  { "name": "stop", "type": "Boolean"}]}
+
+
+

@@ -17,7 +17,7 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
-      "description": "How text align in the itemRenderer instance.",
+      "description": "How text aligns in the itemRenderer instance.",
     "tags": [
     {  "tagName": "playerversion",
            "values": ["Flash 10.2", "AIR 2.6"]},

@@ -1,6 +1,6 @@
 { "type": "class",
   "qname": "org.apache.royale.html.beads.DisableLoaderBead",
-  "baseClassname": ""
+  "baseClassname": "org.apache.royale.core.Bead"
   ,
     "description": "The DisableLoaderBead class is a specialty bead that can be used with any UIBase control which has a DisableBead attached.",
   "tags": [
@@ -29,13 +29,6 @@
           "params": []}
       ,
       { "type": "field",
-        "qname": "_strand",
-        "return": "org.apache.royale.core.IStrand",
-        "namespace": "protected",
-        "bindable": [],
-        "details": [],
-        "deprecated": {}},
-      { "type": "field",
         "qname": "_loader",
         "return": "org.apache.royale.core.IUIBase",
         "namespace": "protected",
@@ -48,7 +41,7 @@
         "qname": "strand",
         "namespace": "public",
         "bindable": [],
-        "details": [],
+        "details": ["override"],
         "deprecated": {},
           "description": "",
         "tags": [

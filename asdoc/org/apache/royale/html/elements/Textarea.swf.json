@@ -93,5 +93,13 @@
             {  "tagName": "productversion",
                "values": ["Royale 0.9"]},
             {  "tagName": "langversion",
-               "values": ["3.0"]}  ]}]
+               "values": ["3.0"]}  ]},
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "String",
+        "qname": "name",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {}}]
   }

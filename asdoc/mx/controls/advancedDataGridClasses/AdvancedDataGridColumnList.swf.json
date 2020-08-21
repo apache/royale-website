@@ -1,6 +1,6 @@
 { "type": "class",
   "qname": "mx.controls.advancedDataGridClasses.AdvancedDataGridColumnList",
-  "baseClassname": "org.apache.royale.html.supportClasses.DataGridColumnList"
+  "baseClassname": "mx.controls.dataGridClasses.DataGridColumnList"
   ,
     "description": "The AdvancedDataGridColumnList class represnts a column in an AdvancedDataGrid control. There is one AdvancedDataGridColumnList per displayable column, even if a column is hidden or off-screen.",
   "tags": [
@@ -21,12 +21,5 @@
         "deprecated": {},
           "return": "",
           "params": []}
-      ,
-      { "type": "field",
-        "qname": "adg",
-        "return": "mx.controls.AdvancedDataGrid",
-        "namespace": "public",
-        "bindable": [],
-        "details": [],
-        "deprecated": {}}]
+      ]
   }

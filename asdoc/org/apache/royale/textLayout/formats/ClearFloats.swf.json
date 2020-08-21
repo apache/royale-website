@@ -57,7 +57,7 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Specifies that text skips over floats on the start side in reading order (left if direction is \\&quot;ltr\\&quot;, right if direction is \\&quot;rtl\\&quot;).",
+          "description": "Specifies that text skips over floats on the start side in reading order (left if direction is &quot;ltr&quot;, right if direction is &quot;rtl&quot;).",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10", "AIR 1.5"]},
@@ -70,7 +70,7 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Specifies that text skips over floats on the start side in reading order (left if direction is \\&quot;ltr\\&quot;, right if direction is \\&quot;rtl\\&quot;).",
+          "description": "Specifies that text skips over floats on the start side in reading order (left if direction is &quot;ltr&quot;, right if direction is &quot;rtl&quot;).",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10", "AIR 1.5"]},

@@ -1,6 +1,6 @@
 { "type": "class",
   "qname": "org.apache.royale.html.beads.TextItemRendererFactoryForStringVectorData",
-  "baseClassname": "org.apache.royale.events.EventDispatcher"
+  "baseClassname": "org.apache.royale.core.DispatcherBead"
   ,
     "description": "The TextItemRendererFactoryForStringVectorData class is the IDataProviderItemRendererMapper for creating ITextItemRenderers and assigning them data from an vector of Strings.  Other IDataProviderItemRendererMapper implementations assign specific array or vector types to item renderers expecting those types.",
   "tags": [
@@ -34,7 +34,7 @@
         "qname": "strand",
         "namespace": "public",
         "bindable": [],
-        "details": [],
+        "details": ["override"],
         "deprecated": {},
           "description": "",
         "tags": [
@@ -64,12 +64,12 @@
                "values": ["3.0"]}  ]},
       { "type": "field",
         "qname": "dataGroup",
-        "return": "org.apache.royale.core.IItemRendererParent",
+        "return": "org.apache.royale.core.IItemRendererOwnerView",
         "namespace": "protected",
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The IItemRendererParent that should parent the ITextItemRenderers",
+          "description": "The IItemRendererOwnerView that should parent the ITextItemRenderers",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

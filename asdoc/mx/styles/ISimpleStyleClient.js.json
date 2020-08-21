@@ -19,7 +19,7 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
-      "description": "The source of this object's style values. The value of the <code>styleName</code> property can be one of three possible types:  <ul> <li>String, such as \\&quot;headerStyle\\&quot;. The String names a class selector that is defined in a CSS style sheet.</li>  <li>CSSStyleDeclaration, such as <code>StyleManager.getStyleDeclaration(\\&quot;.headerStyle\\&quot;)</code>.</li>  <li>UIComponent. The object that implements this interface inherits all the style values from the referenced UIComponent.</li> </ul>",
+      "description": "The source of this object's style values. The value of the <code>styleName</code> property can be one of three possible types:  <ul> <li>String, such as &quot;headerStyle&quot;. The String names a class selector that is defined in a CSS style sheet.</li>  <li>CSSStyleDeclaration, such as <code>StyleManager.getStyleDeclaration(&quot;.headerStyle&quot;)</code>.</li>  <li>UIComponent. The object that implements this interface inherits all the style values from the referenced UIComponent.</li> </ul>",
     "tags": [
     {  "tagName": "playerversion",
            "values": ["Flash 9", "AIR 1.1"]},

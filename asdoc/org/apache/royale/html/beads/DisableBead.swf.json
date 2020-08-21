@@ -1,6 +1,6 @@
 { "type": "class",
   "qname": "org.apache.royale.html.beads.DisableBead",
-  "baseClassname": ""
+  "baseClassname": "org.apache.royale.core.Bead"
   ,
     "description": "The DisableBead class is a specialty bead that can be used with any UIBase. When disabled is true, the bead prevents interaction with the component. The appearance of the component when disabled is controlled by a separate bead.",
   "tags": [
@@ -34,7 +34,7 @@
         "qname": "strand",
         "namespace": "public",
         "bindable": [],
-        "details": [],
+        "details": ["override"],
         "deprecated": {},
           "description": "",
         "tags": [
@@ -45,7 +45,7 @@
             {  "tagName": "productversion",
                "values": ["Royale 0.0"]},
             {  "tagName": "royaleignorecoercion",
-               "values": ["HTMLInputElement", "org.apache.royale.core.UIBase;"]},
+               "values": ["org.apache.royale.core.HTMLElementWrapper"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]},
       { "type": "accessor",

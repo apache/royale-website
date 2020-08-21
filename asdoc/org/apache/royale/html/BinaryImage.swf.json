@@ -38,7 +38,7 @@
         "deprecated": {},
           "description": "",
         "tags": [
-        {  "tagName": "royaleemitcoercion",
+        {  "tagName": "royaleignorecoercion",
                "values": ["org.apache.royale.core.IBinaryImageLoader"]}  ],
           "return": "void",
           "params": []}

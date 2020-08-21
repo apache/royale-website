@@ -2,7 +2,7 @@
   "qname": "org.apache.royale.jewel.Image",
   "baseClassname": "org.apache.royale.core.supportClasses.StyledImageBase"
   ,
-    "description": "Load Images. For button images use ImageButton",
+    "description": "The Jewel Image is a simple component that loads an Image. For button images use ImageButton",
   "tags": [
   {  "tagName": "toplevel",
          "values": []},
@@ -64,4 +64,17 @@
           "return": "void",
           "params": [{ "name": "binaryDataAsString", "type": "String"}]}
       ]
+  ,
+  "events": [
+  { "qname": "loadComplete",
+        "type": "org.apache.royale.events.Event"
+      ,
+          "description": "Report the image was loaded",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.10.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
   }

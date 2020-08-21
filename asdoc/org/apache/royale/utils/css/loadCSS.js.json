@@ -13,7 +13,9 @@
       {  "tagName": "royaleignorecoercion",
          "values": ["HTMLLinkElement"]},
       {  "tagName": "langversion",
-         "values": ["3.0"]}  ],
-    "return": "void",
+         "values": ["3.0"]},
+      {  "tagName": "royalesuppressexport",
+         "values": []}  ],
+    "return": "String",
     "params": [{ "name": "url", "type": "String"},
   { "name": "callback", "type": "Function"}]}

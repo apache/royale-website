@@ -17,7 +17,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Constructs a Consumer.   <listing version=\\&quot;3.0\\&quot;> function initConsumer():void { var consumer:Consumer = new Consumer(); consumer.destination = \\&quot;NASDAQ\\&quot;; consumer.selector = \\&quot;operation IN ('Bid','Ask')\\&quot;; consumer.addEventListener(MessageEvent.MESSAGE, messageHandler); consumer.subscribe(); }  function messageHandler(event:MessageEvent):void { var msg:IMessage = event.message; var info:Object = msg.body; trace(\\&quot;-App recieved message: \\&quot; + msg.toString()); } </listing>",
+          "description": "Constructs a Consumer.   <listing version=&quot;3.0&quot;> function initConsumer():void { var consumer:Consumer = new Consumer(); consumer.destination = &quot;NASDAQ&quot;; consumer.selector = &quot;operation IN ('Bid','Ask')&quot;; consumer.addEventListener(MessageEvent.MESSAGE, messageHandler); consumer.subscribe(); }  function messageHandler(event:MessageEvent):void { var msg:IMessage = event.message; var info:Object = msg.body; trace(&quot;-App recieved message: &quot; + msg.toString()); } </listing>",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},

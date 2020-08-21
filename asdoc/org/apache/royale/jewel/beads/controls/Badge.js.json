@@ -96,7 +96,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A boolean flag to activate \\&quot;overlap\\&quot; effect selector. Make the badge overlap with its container",
+          "description": "A boolean flag to activate &quot;overlap&quot; effect selector. Make the badge overlap with its container",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -112,7 +112,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A boolean flag to activate \\&quot;subindex\\&quot; effect selector. Make the badge position subindex instead of default superindex",
+          "description": "A boolean flag to activate &quot;subindex&quot; effect selector. Make the badge position subindex instead of default superindex",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -128,7 +128,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A boolean flag to activate \\&quot;preindex\\&quot; effect selector. Make the badge position preindex instead of default postindex",
+          "description": "A boolean flag to activate &quot;preindex&quot; effect selector. Make the badge position preindex instead of default postindex",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

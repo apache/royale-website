@@ -1,6 +1,6 @@
 { "type": "class",
   "qname": "spark.layouts.FormItemLayout",
-  "baseClassname": ""
+  "baseClassname": "spark.layouts.ConstraintLayout"
   ,
     "description": "The FormItemLayout is used by FormItems to provide a constraint based layout. Elements using FormItemLayout within a FormLayout are aligned along columns.",
   "tags": [

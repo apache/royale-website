@@ -2,7 +2,7 @@
   "qname": "mx.collections.XMLListCollection",
   "baseClassname": "mx.collections.ListCollectionView"
   ,
-    "description": "The XMLListCollection class provides collection functionality to an XMLList object and makes available some of the methods of the native XMLList class.   <p>The <code>&lt;mx:XMLListCollection&gt;</code> tag inherits all the attributes of its superclass, and adds the following attributes:</p>  <pre> &lt;mx:XMLListCollection <b>Properties</b> source=\\&quot;null\\&quot; /&gt; </pre>",
+    "description": "The XMLListCollection class provides collection functionality to an XMLList object and makes available some of the methods of the native XMLList class.   <p>The <code>&lt;mx:XMLListCollection&gt;</code> tag inherits all the attributes of its superclass, and adds the following attributes:</p>  <pre>\\n &lt;mx:XMLListCollection\\n <b>Properties</b>\\n source=&quot;null&quot;\\n /&gt;\\n </pre>",
   "tags": [
   {  "tagName": "see",
          "values": ["XMLList", "XML"]},
@@ -163,7 +163,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Calls the <code>descendants()</code> method of each XML object in the XMLList and returns an XMLList containing the results. The <code>name</code> parameter is passed to the XML object's <code>descendants()</code> method. If you do not specify a parameter, the string \\&quot;~~\\&quot; is passed to the <code>descendants()</code> method.   etc.) of the XML objects in the original XMLList.",
+          "description": "Calls the <code>descendants()</code> method of each XML object in the XMLList and returns an XMLList containing the results. The <code>name</code> parameter is passed to the XML object's <code>descendants()</code> method. If you do not specify a parameter, the string &quot;~~&quot; is passed to the <code>descendants()</code> method.   etc.) of the XML objects in the original XMLList.",
         "tags": [
         {  "tagName": "see",
                "values": ["XML#descendants()"]},
@@ -186,7 +186,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Calls the <code>elements()</code> method of each XML object in the XMLList. The <code>name</code> parameter is passed to the XML object's <code>elements()</code> method. If you do not specify a parameter, the string \\&quot;~~\\&quot; is passed to the <code>elements()</code> method.   original XMLList.",
+          "description": "Calls the <code>elements()</code> method of each XML object in the XMLList. The <code>name</code> parameter is passed to the XML object's <code>elements()</code> method. If you do not specify a parameter, the string &quot;~~&quot; is passed to the <code>elements()</code> method.   original XMLList.",
         "tags": [
         {  "tagName": "see",
                "values": ["XML#elements()"]},

@@ -1,0 +1,50 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.core.ITableModel",
+"baseInterfaceNames": [
+"org.apache.royale.core.IColumns", 
+"org.apache.royale.core.ISelectionModel", 
+"org.apache.royale.core.IRollOverModel"]
+,
+    "description": "The IDataGridModel interface describes the minimum set of properties available to an DataGrid control.  More sophisticated DataGrid controls could have models that extend IDataGridModel.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.10.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "Object",
+    "qname": "selectedItemProperty",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "The selected item property",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.10.0"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]},
+  { "type": "method",
+    "qname": "getIndexForSelectedItemProperty",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "Get the index for the selected item property",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.10.0"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ],
+      "return": "Number",
+      "params": []}
+  ]
+  }

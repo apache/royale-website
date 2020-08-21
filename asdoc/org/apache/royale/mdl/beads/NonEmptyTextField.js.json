@@ -2,7 +2,7 @@
   "qname": "org.apache.royale.mdl.beads.NonEmptyTextField",
   "baseClassname": ""
   ,
-    "description": "The NonEmptyTextField bead should be used only with MDL TextField It checks whether TextField contains non empty string. If it is empty bead display message assigned to \\&quot;error\\&quot; property.",
+    "description": "The NonEmptyTextField bead should be used only with MDL TextField It checks whether TextField contains non empty string. If it is empty bead display message assigned to &quot;error&quot; property.",
   "tags": [
   {  "tagName": "playerversion",
          "values": ["Flash 10.2", "AIR 2.6"]},

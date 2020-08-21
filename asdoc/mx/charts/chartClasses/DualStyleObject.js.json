@@ -2,7 +2,7 @@
   "qname": "mx.charts.chartClasses.DualStyleObject",
   "baseClassname": "mx.core.UIComponent"
   ,
-    "description": "The DualStyleObject class serves as a base class for components that have a need to assign class selectors outside of the client developer's control. DualStyleObject instances have two styleName properties...the standard styleName, and the additional internalStyleName.  A component can assign the internalStyleName property as necessary and leave the styleName property for the client developer to assign.  <p><b>Common MXML Syntax Inherited from DualStyleObject</b></p>  <p>Flex components inherit the following properties from the DualStyleObject class:</p>  <pre> &lt;mx:<i>tagname</i> internalStyleName=\\&quot;<i>Style; No default</i>\\&quot; &gt; </pre>",
+    "description": "The DualStyleObject class serves as a base class for components that have a need to assign class selectors outside of the client developer's control. DualStyleObject instances have two styleName properties...the standard styleName, and the additional internalStyleName.  A component can assign the internalStyleName property as necessary and leave the styleName property for the client developer to assign.  <p><b>Common MXML Syntax Inherited from DualStyleObject</b></p>  <p>Flex components inherit the following properties from the DualStyleObject class:</p>  <pre>\\n &lt;mx:<i>tagname</i>\\n internalStyleName=&quot;<i>Style; No default</i>&quot;\\n &gt;\\n </pre>",
   "tags": [
   {  "tagName": "mxml",
          "values": []},

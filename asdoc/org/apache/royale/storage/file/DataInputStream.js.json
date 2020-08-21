@@ -38,7 +38,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Reads a chunk of text. A FileEvent \\&quot;READ\\&quot; event is dispatched when the chunk is read.",
+          "description": "Reads a chunk of text. A FileEvent &quot;READ&quot; event is dispatched when the chunk is read.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -55,7 +55,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Closes the file (and dispatches a FileEvent \\&quot;COMPLETE\\&quot; event).",
+          "description": "Closes the file (and dispatches a FileEvent &quot;COMPLETE&quot; event).",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

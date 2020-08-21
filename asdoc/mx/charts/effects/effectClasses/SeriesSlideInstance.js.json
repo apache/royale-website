@@ -39,7 +39,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Defines the location from which the series slides. Valid values are <code>\\&quot;left\\&quot;</code>, <code>\\&quot;right\\&quot;</code>, <code>\\&quot;up\\&quot;</code>, and <code>\\&quot;down\\&quot;</code>. The default value is <code>\\&quot;left\\&quot;</code>.",
+          "description": "Defines the location from which the series slides. Valid values are <code>&quot;left&quot;</code>, <code>&quot;right&quot;</code>, <code>&quot;up&quot;</code>, and <code>&quot;down&quot;</code>. The default value is <code>&quot;left&quot;</code>.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},

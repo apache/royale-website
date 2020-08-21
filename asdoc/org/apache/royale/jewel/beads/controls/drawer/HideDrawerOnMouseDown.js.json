@@ -2,7 +2,7 @@
   "qname": "org.apache.royale.jewel.beads.controls.drawer.HideDrawerOnMouseDown",
   "baseClassname": ""
   ,
-    "description": "The HideDrawerOnMouseDown can be used with a Drawer to make sure mouse down events close an open drawer. For this bead to work the application needs to be sized to the window size. See org.apache.royale.core.BrowserResizeListener for a way to achieve this.",
+    "description": "The HideDrawerOnMouseDown can be used with a Drawer to make sure mouse down events close an open drawer. For this bead to work the application needs to be sized to the window size. See org.apache.royale.core.BrowserResizeListener or BrowserResizeApplicationListener for a way to achieve this.",
   "tags": [
   {  "tagName": "playerversion",
          "values": ["Flash 10.2", "AIR 2.6"]},

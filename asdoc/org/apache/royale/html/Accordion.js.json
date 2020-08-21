@@ -36,6 +36,10 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.events.IEventDispatcher"]}  ],
           "return": "void",
           "params": []}
       ,
@@ -46,5 +50,9 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}}]
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.html.beads.IAccordionCollapseBead"]}  ]}]
   }

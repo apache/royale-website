@@ -17,7 +17,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "constructor.  <inject_html> <link rel=\\&quot;stylesheet\\&quot; type=\\&quot;text/css\\&quot; href=\\&quot;https://cdnjs.cloudflare.com/ajax/libs/dialog-polyfill/0.4.9/dialog-polyfill.min.css\\&quot;> <script src=\\&quot;https://cdnjs.cloudflare.com/ajax/libs/dialog-polyfill/0.4.9/dialog-polyfill.min.js\\&quot;></script> </inject_html>",
+          "description": "constructor.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -64,7 +64,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Displays the dialog element.  Note: It seems MDL does not support non modal dialogs, since there's no examples and dialogs are always added to \\&quot;document.body\\&quot;.",
+          "description": "Displays the dialog element.  Note: It seems MDL does not support non modal dialogs, since there's no examples and dialogs are always added to &quot;document.body&quot;.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

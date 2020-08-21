@@ -11,7 +11,16 @@
       {  "tagName": "langversion",
          "values": ["3.0"]}  ],
   "members": [
-  { "type": "accessor",
+  { "type": "method",
+        "qname": "mx.controls.menuClasses.MenuBarItemRenderer",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ,
+      { "type": "accessor",
         "access": "read-write",
         "return": "String",
         "qname": "text",

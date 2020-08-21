@@ -44,7 +44,7 @@
                "values": ["3.0"]}  ]},
       { "type": "field",
         "qname": "dataGroup",
-        "return": "org.apache.royale.core.IItemRendererParent",
+        "return": "org.apache.royale.core.IItemRendererOwnerView",
         "namespace": "protected",
         "bindable": [],
         "details": [],

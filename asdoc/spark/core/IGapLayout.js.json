@@ -1,0 +1,23 @@
+{ "type": "interface",
+  "qname": "spark.core.IGapLayout",
+"baseInterfaceNames": [
+"org.apache.royale.core.IBeadLayout"]
+,
+    "description": "IGapLayout layouts have a fixed gap between layout items",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.7"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "int",
+    "qname": "gap",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {}}]
+  }

@@ -45,7 +45,7 @@
             {  "tagName": "productversion",
                "values": ["Royale 0.8"]},
             {  "tagName": "royaleignorecoercion",
-               "values": ["org.apache.royale.mdl.TextInput;"]},
+               "values": ["HTMLDivElement", "HTMLLabelElement", "org.apache.royale.core.UIBase", "org.apache.royale.mdl.TextInput", "org.apache.royale.mdl.TextField"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
   }

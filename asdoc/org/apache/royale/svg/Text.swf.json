@@ -71,7 +71,7 @@
             {  "tagName": "productversion",
                "values": ["Royale 0.0"]},
             {  "tagName": "royaleignorecoercion",
-               "values": ["org.apache.royale.core.WrappedHTMLElement", "Text", "Node", "SVGLocatable"]},
+               "values": ["org.apache.royale.core.WrappedHTMLElement", "Node", "SVGLocatable"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ],
           "return": "void",

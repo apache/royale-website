@@ -66,7 +66,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The fault code for the error. This value typically follows the convention of \\&quot;[outer_context].[inner_context].[issue]\\&quot;. For example: \\&quot;Channel.Connect.Failed\\&quot;, \\&quot;Server.Call.Failed\\&quot;, etc.",
+          "description": "The fault code for the error. This value typically follows the convention of &quot;[outer_context].[inner_context].[issue]&quot;. For example: &quot;Channel.Connect.Failed&quot;, &quot;Server.Call.Failed&quot;, etc.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},

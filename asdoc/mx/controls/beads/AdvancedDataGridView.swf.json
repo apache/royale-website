@@ -36,5 +36,48 @@
         "deprecated": {},
           "return": "void",
           "params": [{ "name": "event", "type": "org.apache.royale.events.Event"}]}
+      ,
+      { "type": "method",
+        "qname": "handleCollectionChanged",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "event", "type": "org.apache.royale.events.Event"}]}
+      ,
+      { "type": "method",
+        "qname": "refreshButtonBarDataProvider",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["mx.controls.AdvancedDataGrid"]}  ],
+          "return": "void",
+          "params": [{ "name": "dataGrid", "type": "mx.controls.listClasses.ListBase"}]}
+      ,
+      { "type": "method",
+        "qname": "itemClickHandler",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "event", "type": "mx.events.ListEvent"}]}
+      ,
+      { "type": "method",
+        "qname": "drawItem",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "index", "type": "int"},
+        { "name": "selected", "type": "Boolean"},
+        { "name": "highlighted", "type": "Boolean"},
+        { "name": "caret", "type": "Boolean"}]}
       ]
   }

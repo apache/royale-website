@@ -29,14 +29,6 @@
         "bindable": [],
         "details": [],
         "deprecated": {}},
-      { "type": "accessor",
-        "access": "read-only",
-        "return": "Boolean",
-        "qname": "capsLock",
-        "namespace": "public",
-        "bindable": [],
-        "details": ["static"],
-        "deprecated": {}},
       { "type": "field",
         "qname": "HOME",
         "return": "uint",
@@ -119,5 +111,13 @@
         { "name": "metaKey", "type": "Boolean"},
         { "name": "bubbles", "type": "Boolean"},
         { "name": "cancelable", "type": "Boolean"}]}
-      ]
+      ,
+      { "type": "accessor",
+        "access": "read-only",
+        "return": "uint",
+        "qname": "charCode",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}}]
   }

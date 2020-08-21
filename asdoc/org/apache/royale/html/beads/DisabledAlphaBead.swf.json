@@ -1,6 +1,6 @@
 { "type": "class",
   "qname": "org.apache.royale.html.beads.DisabledAlphaBead",
-  "baseClassname": ""
+  "baseClassname": "org.apache.royale.core.Bead"
   ,
     "description": "The DisabledAlphaBead class is a specialty bead that can be used with any UIBase control which has a DisableBead attached. The bead takes properties for enabledAplha and disabledAlpha.",
   "tags": [
@@ -66,7 +66,7 @@
         "qname": "strand",
         "namespace": "public",
         "bindable": [],
-        "details": [],
+        "details": ["override"],
         "deprecated": {},
           "description": "",
         "tags": [

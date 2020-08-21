@@ -37,7 +37,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The separator string to use between fields (the default is \\&quot; \\&quot;)",
+          "description": "The separator string to use between fields (the default is &quot; &quot;)",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},

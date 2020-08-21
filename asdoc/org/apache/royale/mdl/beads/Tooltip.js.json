@@ -68,7 +68,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A boolean flag to activate \\&quot;mdl-tooltip--large\\&quot; effect selector. Applies large-font effect. Optional",
+          "description": "A boolean flag to activate &quot;mdl-tooltip--large&quot; effect selector. Applies large-font effect. Optional",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -84,7 +84,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A boolean flag to activate \\&quot;mdl-tooltip--left\\&quot; effect selector. Positions the tooltip to the left of the target. Optional",
+          "description": "A boolean flag to activate &quot;mdl-tooltip--left&quot; effect selector. Positions the tooltip to the left of the target. Optional",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -100,7 +100,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A boolean flag to activate \\&quot;mdl-tooltip--right\\&quot; effect selector. Positions the tooltip to the right of the target. Optional",
+          "description": "A boolean flag to activate &quot;mdl-tooltip--right&quot; effect selector. Positions the tooltip to the right of the target. Optional",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -116,7 +116,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A boolean flag to activate \\&quot;mdl-tooltip--top\\&quot; effect selector. Positions the tooltip to the top of the target. Optional",
+          "description": "A boolean flag to activate &quot;mdl-tooltip--top&quot; effect selector. Positions the tooltip to the top of the target. Optional",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -132,7 +132,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A boolean flag to activate \\&quot;mdl-tooltip--bottom\\&quot; effect selector. Positions the tooltip to the bottom of the target. Optional",
+          "description": "A boolean flag to activate &quot;mdl-tooltip--bottom&quot; effect selector. Positions the tooltip to the bottom of the target. Optional",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

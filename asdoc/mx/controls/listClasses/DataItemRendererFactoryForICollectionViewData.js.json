@@ -1,6 +1,6 @@
 { "type": "class",
   "qname": "mx.controls.listClasses.DataItemRendererFactoryForICollectionViewData",
-  "baseClassname": "org.apache.royale.html.beads.DataItemRendererFactoryForCollectionView"
+  "baseClassname": "org.apache.royale.html.beads.DataItemRendererFactoryBase"
   ,
     "description": "The DataItemRendererFactoryForHierarchicalData class reads a HierarchicalData object and creates an item renderer for every item in the array.  Other implementations of IDataProviderItemRendererMapper map different data structures or manage a virtual set of renderers.",
   "tags": [
@@ -27,10 +27,31 @@
                "values": ["3.0"]}  ],
           "return": "",
           "params": []}
+      ,
+      { "type": "accessor",
+        "access": "read-only",
+        "return": "int",
+        "qname": "dataProviderLength",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {}},
+      { "type": "method",
+        "qname": "getItemAt",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "Object",
+          "params": [{ "name": "index", "type": "int"}]}
+      ,
+      { "type": "method",
+        "qname": "itemRemovedHandler",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "event", "type": "org.apache.royale.events.CollectionEvent"}]}
       ]
-  ,
-  "events": [
-  { "qname": "itemRendererCreated",
-        "type": "org.apache.royale.events.ItemRendererEvent"
-      }]
   }

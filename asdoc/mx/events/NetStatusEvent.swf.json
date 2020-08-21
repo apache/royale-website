@@ -23,7 +23,6 @@
           "params": [{ "name": "type", "type": "String"},
         { "name": "bubbles", "type": "Boolean"},
         { "name": "cancelable", "type": "Boolean"},
-        { "name": "text", "type": "String"},
-        { "name": "id", "type": "int"}]}
+        { "name": "info", "type": "Object"}]}
       ]
   }

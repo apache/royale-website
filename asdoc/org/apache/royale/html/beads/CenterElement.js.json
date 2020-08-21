@@ -1,6 +1,6 @@
 { "type": "class",
   "qname": "org.apache.royale.html.beads.CenterElement",
-  "baseClassname": ""
+  "baseClassname": "org.apache.royale.core.Bead"
   ,
     "description": "The CenterElement bead breaks the normal layout flow and forces a particlular element to stay centered.",
   "tags": [
@@ -28,6 +28,10 @@
         "qname": "strand",
         "namespace": "public",
         "bindable": [],
-        "details": [],
-        "deprecated": {}}]
+        "details": ["override"],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.IChild"]}  ]}]
   }

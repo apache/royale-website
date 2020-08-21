@@ -2,7 +2,7 @@
   "qname": "org.apache.royale.html.supportClasses.NestedStringItemRenderer",
   "baseClassname": "org.apache.royale.html.supportClasses.StringItemRenderer"
   ,
-    "description": "The NestedStringItemRenderer can be used with lists or DataGridColumns for items that are not at the top level of the data. For example, if the data is an Object having: {title: \\&quot;Something\\&quot;, address:{street: \\&quot;Main\\&quot;, zip: \\&quot;02118\\&quot;}} using NestedStringItemRenderer for the address field can extract any of its consitutents: labelField=\\&quot;address.zip\\&quot;.",
+    "description": "The NestedStringItemRenderer can be used with lists or DataGridColumns for items that are not at the top level of the data. For example, if the data is an Object having: {title: &quot;Something&quot;, address:{street: &quot;Main&quot;, zip: &quot;02118&quot;}} using NestedStringItemRenderer for the address field can extract any of its consitutents: labelField=&quot;address.zip&quot;.",
   "tags": [
   {  "tagName": "playerversion",
          "values": ["Flash 10.2", "AIR 2.6"]},
@@ -34,7 +34,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Takes a labelField (or dataField) path (eg, \\&quot;foo.bar.goo\\&quot;) and returns the value associated with it from the data property by doing data[foo][bar][goo]. Returns null if the value cannot be determined.",
+          "description": "Takes a labelField (or dataField) path (eg, &quot;foo.bar.goo&quot;) and returns the value associated with it from the data property by doing data[foo][bar][goo]. Returns null if the value cannot be determined.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

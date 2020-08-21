@@ -68,7 +68,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "This property is set usually by framework code which wants to modify the behavior of a service invocation without modifying the way in which the service is called externally.  This allows you to add a \\&quot;filter\\&quot; step on the method call to ensure for example that you do not return duplicate instances for the same id or to insert parameters for performing on-demand paging.  When this is set to a non-null value on the send call, the operationManager function is called instead.  It returns the token that the caller uses to be notified of the result.  Typically the called function will at some point clear this property temporarily, then invoke the operation again actually sending it to the server this time.",
+          "description": "This property is set usually by framework code which wants to modify the behavior of a service invocation without modifying the way in which the service is called externally.  This allows you to add a &quot;filter&quot; step on the method call to ensure for example that you do not return duplicate instances for the same id or to insert parameters for performing on-demand paging.  When this is set to a non-null value on the send call, the operationManager function is called instead.  It returns the token that the caller uses to be notified of the result.  Typically the called function will at some point clear this property temporarily, then invoke the operation again actually sending it to the server this time.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
@@ -173,7 +173,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "This hook is exposed to update the lastResult property.  Since lastResult is ordinarily updated automatically by the service, you do not typically call this.  It is used by managed services that want to ensure lastResult always points to \\&quot;the\\&quot; managed instance for a given identity even if the the service returns a new copy of the same object.",
+          "description": "This hook is exposed to update the lastResult property.  Since lastResult is ordinarily updated automatically by the service, you do not typically call this.  It is used by managed services that want to ensure lastResult always points to &quot;the&quot; managed instance for a given identity even if the the service returns a new copy of the same object.",
         "tags": [
         {  "tagName": "param",
                "values": ["result The new value for the lastResult property."]},

@@ -2,7 +2,7 @@
   "qname": "org.apache.royale.net.URLLoader",
   "baseClassname": "org.apache.royale.net.URLLoaderBase"
   ,
-    "description": "The URLBinaryLoader class is a relatively low-level class designed to get binary data over HTTP the intent is to create similar classes for text and URL vars.",
+    "description": "The URLBinaryLoader class is a relatively low-level class designed to get binary data over HTTP the intent is to create similar classes for text and URL vars. If you need to use Binary requests (including POST), use URLBinaryLoader.",
   "tags": [
   {  "tagName": "playerversion",
          "values": ["Flash 10.2", "AIR 2.6"]},
@@ -145,5 +145,14 @@
             {  "tagName": "royaleignorecoercion",
                "values": ["XMLHttpRequest"]},
             {  "tagName": "langversion",
-               "values": ["3.0"]}  ]}]
+               "values": ["3.0"]}  ]},
+      { "type": "method",
+        "qname": "close",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "void",
+          "params": []}
+      ]
   }

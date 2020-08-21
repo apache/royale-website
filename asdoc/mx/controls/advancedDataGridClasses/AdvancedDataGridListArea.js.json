@@ -1,6 +1,6 @@
 { "type": "class",
   "qname": "mx.controls.advancedDataGridClasses.AdvancedDataGridListArea",
-  "baseClassname": "org.apache.royale.html.beads.DataGridListArea"
+  "baseClassname": "mx.controls.dataGridClasses.DataGridListArea"
   ,
     "description": "The AdvancedDataGridColumnList class represnts a column in an AdvancedDataGrid control. There is one AdvancedDataGridColumnList per displayable column, even if a column is hidden or off-screen.",
   "tags": [
@@ -20,15 +20,6 @@
         "details": [],
         "deprecated": {},
           "return": "",
-          "params": []}
-      ,
-      { "type": "method",
-        "qname": "internalChildren",
-        "namespace": "public",
-        "bindable": [],
-        "details": ["override"],
-        "deprecated": {},
-          "return": "Array",
           "params": []}
       ]
   }

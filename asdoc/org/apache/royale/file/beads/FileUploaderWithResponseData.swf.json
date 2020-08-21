@@ -38,6 +38,10 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.net.URLBinaryLoader"]}  ],
           "return": "void",
           "params": [{ "name": "event", "type": "org.apache.royale.events.Event"}]}
       ]

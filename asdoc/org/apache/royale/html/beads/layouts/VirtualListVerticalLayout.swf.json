@@ -97,7 +97,7 @@
         "details": [],
         "deprecated": {},
           "return": "void",
-          "params": [{ "name": "ir", "type": "org.apache.royale.core.ISelectableItemRenderer"},
+          "params": [{ "name": "ir", "type": "org.apache.royale.core.IIndexedItemRenderer"},
         { "name": "xpos", "type": "Number"},
         { "name": "ypos", "type": "Number"},
         { "name": "hostWidth", "type": "Number"},

@@ -2,7 +2,7 @@
   "qname": "org.apache.royale.core.StyleableCSSTextField",
   "baseClassname": "org.apache.royale.core.CSSTextField"
   ,
-    "description": "The StyleableCSSTextField class implements more CSS text styles in a TextField. This makes it easier to use one in a \\&quot;shadow DOM\\&quot; in a complex skin.",
+    "description": "The StyleableCSSTextField class implements more CSS text styles in a TextField. This makes it easier to use one in a &quot;shadow DOM&quot; in a complex skin.",
   "tags": [
   {  "tagName": "playerversion",
          "values": ["Flash 10.2", "AIR 2.6"]},
@@ -60,7 +60,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The object that contains \\&quot;styles\\&quot; and other associated name-value pairs.  You can also specify a string in HTML style attribute format.",
+          "description": "The object that contains &quot;styles&quot; and other associated name-value pairs.  You can also specify a string in HTML style attribute format.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

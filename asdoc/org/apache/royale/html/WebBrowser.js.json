@@ -29,7 +29,7 @@
           "description": "",
         "tags": [
         {  "tagName": "royaleignorecoercion",
-               "values": ["org.apache.royale.core.WrappedHTMLElement", "org.apache.royale.core.HTMLIFrameElement"]}  ],
+               "values": ["HTMLIFrameElement"]}  ],
           "return": "org.apache.royale.core.WrappedHTMLElement",
           "params": []}
       ,
@@ -47,6 +47,8 @@
                "values": ["Flash 10.2", "AIR 2.6"]},
             {  "tagName": "productversion",
                "values": ["Royale 0.0"]},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.html.beads.models.WebBrowserModel"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
   }

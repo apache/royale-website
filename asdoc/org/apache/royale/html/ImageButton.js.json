@@ -54,5 +54,23 @@
           "description": "Sets the image for the button. This is a URL. TODO: figure out how to set the source in the style, rather than using backgroundImage behind the scenes.",
         "tags": [
         {  "tagName": "royaleignorecoercion",
-               "values": ["org.apache.royale.html.beads.models.ImageModel"]}  ]}]
+               "values": ["org.apache.royale.html.beads.models.ImageModel"]}  ]},
+      { "type": "accessor",
+        "access": "read-only",
+        "return": "Element",
+        "qname": "imageElement",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Element image. HTMLImageElement.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.8"]},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.IImageButton#imageElement", "Element", "HTMLImageElement"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
   }

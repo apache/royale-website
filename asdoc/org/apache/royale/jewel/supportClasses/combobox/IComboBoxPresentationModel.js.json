@@ -1,0 +1,31 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.jewel.supportClasses.combobox.IComboBoxPresentationModel",
+"baseInterfaceNames": [
+"org.apache.royale.jewel.supportClasses.list.IListPresentationModel"]
+,
+    "description": "The Jewel IComboBoxPresentationModel interface holds key values for the display a Jewel ComboBox.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.7"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "int",
+    "qname": "rowCount",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "Maximum number of rows visible in the ComboBox popup list. If there are fewer items in the dataProvider, the ComboBox shows only as many items as there are in the dataProvider.",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.9.7"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]}]
+  }

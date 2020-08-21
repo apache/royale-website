@@ -27,5 +27,12 @@
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
+        "deprecated": {}},
+      { "type": "field",
+        "qname": "STATIC_ONLY",
+        "return": "uint",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
         "deprecated": {}}]
   }

@@ -19,10 +19,10 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Constructor.   such as <code>\\&quot;MyResources\\&quot;</code>.",
+          "description": "Constructor.   such as <code>&quot;MyResources&quot;</code>.",
         "tags": [
         {  "tagName": "param",
-               "values": ["locale A locale string, such as <code>&quot;en_US&quot;</code>.", "bundleName A name that identifies this bundle,"]},
+               "values": ["locale A locale string, such as <code>"en_US"</code>.", "bundleName A name that identifies this bundle,"]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",

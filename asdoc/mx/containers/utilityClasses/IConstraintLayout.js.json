@@ -1,6 +1,6 @@
 { "type": "interface",
   "qname": "mx.containers.utilityClasses.IConstraintLayout",
-    "description": "IConstraintLayout is a marker interface that indicates that a container supports ConstraintColumn class and ConstraintRow class within its layout. Application, Canvas, and Panel containers support ConstraintRow and ConstraintColumn classes. To utilize this type of constraint in these containers, set the <code>layout</code> property to <code>\\&quot;absolute\\&quot;</code> and create ConstraintColumn and ConstraintRow instances.",
+    "description": "IConstraintLayout is a marker interface that indicates that a container supports ConstraintColumn class and ConstraintRow class within its layout. Application, Canvas, and Panel containers support ConstraintRow and ConstraintColumn classes. To utilize this type of constraint in these containers, set the <code>layout</code> property to <code>&quot;absolute&quot;</code> and create ConstraintColumn and ConstraintRow instances.",
   "tags": [
   {  "tagName": "see",
          "values": ["mx.containers.Canvas", "mx.containers.Panel", "mx.core.Application", "mx.containers.utilityClasses.ConstraintColumn", "mx.containers.utilityClasses.ConstraintRow", "mx.modules.Module"]},

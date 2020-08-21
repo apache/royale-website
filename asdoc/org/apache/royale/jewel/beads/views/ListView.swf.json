@@ -2,6 +2,10 @@
   "qname": "org.apache.royale.jewel.beads.views.ListView",
   "baseClassname": "org.apache.royale.html.beads.DataContainerView"
   ,
+    "description": "",
+  "tags": [
+  {  "tagName": "param",
+         "values": ["index"]}  ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.jewel.beads.views.ListView",
@@ -39,7 +43,7 @@
                "values": ["3.0"]}  ]},
       { "type": "accessor",
         "access": "read-only",
-        "return": "org.apache.royale.core.IItemRendererParent",
+        "return": "org.apache.royale.core.IItemRendererOwnerView",
         "qname": "dataGroup",
         "namespace": "public",
         "bindable": [],
@@ -58,5 +62,26 @@
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}}]
+        "deprecated": {}},
+      { "type": "method",
+        "qname": "scrollToIndex",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Ensures that the data provider item at the given index is visible.  If the item is visible, the <code>verticalScrollPosition</code> property is left unchanged even if the item is not the first visible item. If the item is not currently visible, the <code>verticalScrollPosition</code> property is changed make the item the first visible item, unless there aren't enough rows to do so because the <code>verticalScrollPosition</code> value is limited by the <code>maxVerticalScrollPosition</code> property.",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["index The index of the item in the data provider."]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.7"]},
+            {  "tagName": "return",
+               "values": ["<code>true</code> if <code>verticalScrollPosition</code> changed."]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "Boolean",
+          "params": [{ "name": "index", "type": "int"}]}
+      ]
   }

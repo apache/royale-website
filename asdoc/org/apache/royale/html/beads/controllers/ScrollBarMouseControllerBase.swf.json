@@ -82,7 +82,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Force the input number to be \\&quot;snapped\\&quot; to the snapInterval.",
+          "description": "Force the input number to be &quot;snapped&quot; to the snapInterval.",
         "tags": [
         {  "tagName": "param",
                "values": ["value The input number."]},
@@ -91,7 +91,7 @@
             {  "tagName": "productversion",
                "values": ["Royale 0.0"]},
             {  "tagName": "return",
-               "values": ["The input number &quot;snapped&quot; to the snapInterval."]},
+               "values": ["The input number "snapped" to the snapInterval."]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ],
           "return": "Number",

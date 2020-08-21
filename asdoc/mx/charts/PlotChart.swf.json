@@ -2,7 +2,7 @@
   "qname": "mx.charts.PlotChart",
   "baseClassname": "mx.charts.chartClasses.CartesianChart"
   ,
-    "description": "The PlotChart control represents data with two values for each data point. One value determines the position of the data point along the horizontal axis, and one value determines its position along the vertical axis.  <p>The PlotChart control expects its <code>series</code> property to contain an Array of PlotSeries objects.</p>   The <code>&lt;mx:PlotChart&gt;</code> tag inherits all the properties of its parent classes and adds the following properties:</p>  <pre> &lt;mx:PlotChart /&gt; </pre>",
+    "description": "The PlotChart control represents data with two values for each data point. One value determines the position of the data point along the horizontal axis, and one value determines its position along the vertical axis.  <p>The PlotChart control expects its <code>series</code> property to contain an Array of PlotSeries objects.</p>   The <code>&lt;mx:PlotChart&gt;</code> tag inherits all the properties of its parent classes and adds the following properties:</p>  <pre>\\n &lt;mx:PlotChart\\n /&gt;\\n </pre>",
   "tags": [
   {  "tagName": "includeExample",
          "values": ["examples/PlotChartExample.mxml"]},

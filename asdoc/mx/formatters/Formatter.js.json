@@ -2,7 +2,7 @@
   "qname": "mx.formatters.Formatter",
   "baseClassname": ""
   ,
-    "description": "The Formatter class is the base class for all data formatters. Any subclass of Formatter must override the <code>format()</code> method.   <p>The Formatter class defines the following tag attributes, which all of its subclasses inherit:</p>  <pre> &lt;mx:<i>tagname</i> <b>Properties</b> error=\\&quot;\\&quot; /&gt; </pre>",
+    "description": "The Formatter class is the base class for all data formatters. Any subclass of Formatter must override the <code>format()</code> method.   <p>The Formatter class defines the following tag attributes, which all of its subclasses inherit:</p>  <pre>\\n &lt;mx:<i>tagname</i>\\n <b>Properties</b>\\n error=&quot;&quot;\\n /&gt;\\n </pre>",
   "tags": [
   {  "tagName": "includeExample",
          "values": ["examples/SimpleFormatterExample.mxml"]},
@@ -26,7 +26,7 @@
           "description": "Error message for an invalid format string specified to the formatter. The localeChain property of the ResourceManager is used to resolve the default error message. If it is unable to find a value, it will return <code>null</code>. This can happen if none of the locales specified in the localeChain are compiled into the application.",
         "tags": [
         {  "tagName": "default",
-               "values": ["&quot;Invalid format&quot;"]},
+               "values": [""Invalid format""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
@@ -44,7 +44,7 @@
           "description": "Error messages for an invalid value specified to the formatter. The localeChain property of the ResourceManager is used to resolve the default error message. If it is unable to find a value, it will return <code>null</code>. This can happen if none of the locales specified in the localeChain are compiled into the application.",
         "tags": [
         {  "tagName": "default",
-               "values": ["&quot;Invalid value&quot;"]},
+               "values": [""Invalid value""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",

@@ -2,7 +2,7 @@
   "qname": "spark.components.gridClasses.GridDimensionsView",
   "baseClassname": ""
   ,
-    "description": "A \\&quot;view\\&quot; of a rectangular region within a GridDimensions object.   The origin of the region is specified by viewRowIndex,viewColumnIndex and the size of the region by viewRowCount and viewColumnCount.  Unless otherwise specified, all of the methods defined here have GridDimensionsView-relative parameters and similarly return values relative to the GridView's viewRow,ColumnIndex origin.  All of the methods and properties defined here just delegate to GridDimensions methods with the same names and semantics.  This class is internal to the Grid implementation.",
+    "description": "A &quot;view&quot; of a rectangular region within a GridDimensions object.   The origin of the region is specified by viewRowIndex,viewColumnIndex and the size of the region by viewRowCount and viewColumnCount.  Unless otherwise specified, all of the methods defined here have GridDimensionsView-relative parameters and similarly return values relative to the GridView's viewRow,ColumnIndex origin.  All of the methods and properties defined here just delegate to GridDimensions methods with the same names and semantics.  This class is internal to the Grid implementation.",
   "tags": [
   {  "tagName": "playerversion",
          "values": ["Flash 11", "AIR 3"]},

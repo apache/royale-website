@@ -13,6 +13,8 @@
       {  "tagName": "return",
          "values": ["<code>true</code> if the specified string is"]},
       {  "tagName": "langversion",
-         "values": ["3.0"]}  ],
+         "values": ["3.0"]},
+      {  "tagName": "royalesuppressexport",
+         "values": []}  ],
     "return": "Boolean",
     "params": [{ "name": "character", "type": "String"}]}

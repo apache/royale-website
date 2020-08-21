@@ -14,7 +14,7 @@
   "members": [
   { "type": "accessor",
     "access": "read-only",
-    "return": "org.apache.royale.core.IListPresentationModel",
+    "return": "org.apache.royale.core.IBead",
     "qname": "presentationModel",
     "namespace": "public",
     "bindable": [],

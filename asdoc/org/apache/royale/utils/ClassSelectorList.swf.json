@@ -21,6 +21,19 @@
           "params": [{ "name": "component", "type": "org.apache.royale.core.IUIBase"}]}
       ,
       { "type": "method",
+        "qname": "setOverride",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["HTMLElement"]}  ],
+          "return": "void",
+          "params": [{ "name": "value", "type": "Object"}]}
+      ,
+      { "type": "method",
         "qname": "add",
         "namespace": "public",
         "bindable": [],

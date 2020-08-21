@@ -1,6 +1,6 @@
 { "type": "class",
   "qname": "org.apache.royale.jewel.GridCell",
-  "baseClassname": "org.apache.royale.jewel.Group"
+  "baseClassname": "org.apache.royale.jewel.supportClasses.container.AlignmentItemsContainer"
   ,
     "description": "The GridCell class is the inmediate container in a Grid Layout to host grid cell content.",
   "tags": [
@@ -44,7 +44,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The X Number for \\&quot;widescreen-col-X-Y\\&quot; effect selector. Sets the widescreen numerator for the X/Y fraction that indicates the cell's size in widescreen screen. Needs to be set in conjunction with widescreen denominator",
+          "description": "The X Number for &quot;widescreen-col-X-Y&quot; effect selector. Sets the widescreen numerator for the X/Y fraction that indicates the cell's size in widescreen screen. Needs to be set in conjunction with widescreen denominator",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -60,7 +60,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The Y Number for \\&quot;widescreen-col-X-Y\\&quot; effect selector. Sets the desktop denominator for the X/Y fraction that indicates the cell's size in desktop screen. Needs to be set in conjunction with desktop denominator",
+          "description": "The Y Number for &quot;widescreen-col-X-Y&quot; effect selector. Sets the desktop denominator for the X/Y fraction that indicates the cell's size in desktop screen. Needs to be set in conjunction with desktop denominator",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -76,7 +76,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The X Number for \\&quot;desktop-col-X-Y\\&quot; effect selector. Sets the desktop numerator for the X/Y fraction that indicates the cell's size in desktop screen. Needs to be set in conjunction with desktop denominator",
+          "description": "The X Number for &quot;desktop-col-X-Y&quot; effect selector. Sets the desktop numerator for the X/Y fraction that indicates the cell's size in desktop screen. Needs to be set in conjunction with desktop denominator",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -92,7 +92,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The Y Number for \\&quot;desktop-col-X-Y\\&quot; effect selector. Sets the desktop denominator for the X/Y fraction that indicates the cell's size in desktop screen. Needs to be set in conjunction with desktop denominator",
+          "description": "The Y Number for &quot;desktop-col-X-Y&quot; effect selector. Sets the desktop denominator for the X/Y fraction that indicates the cell's size in desktop screen. Needs to be set in conjunction with desktop denominator",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -108,7 +108,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The X Number for \\&quot;tablet-col-X-Y\\&quot; effect selector. Sets the tablet numerator for the X/Y fraction that indicates the cell's size in tablet screen. Needs to be set in conjunction with tablet denominator",
+          "description": "The X Number for &quot;tablet-col-X-Y&quot; effect selector. Sets the tablet numerator for the X/Y fraction that indicates the cell's size in tablet screen. Needs to be set in conjunction with tablet denominator",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -124,7 +124,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The Y Number for \\&quot;tablet-col-X-Y\\&quot; effect selector. Sets the tablet denominator for the X/Y fraction that indicates the cell's size in tablet screen. Needs to be set in conjunction with tablet denominator",
+          "description": "The Y Number for &quot;tablet-col-X-Y&quot; effect selector. Sets the tablet denominator for the X/Y fraction that indicates the cell's size in tablet screen. Needs to be set in conjunction with tablet denominator",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -140,7 +140,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The X Number for \\&quot;phone-col-X-Y\\&quot; effect selector. Sets the phone numerator for the X/Y fraction that indicates the cell's size in phone screen. Needs to be set in conjunction with phone denominator",
+          "description": "The X Number for &quot;phone-col-X-Y&quot; effect selector. Sets the phone numerator for the X/Y fraction that indicates the cell's size in phone screen. Needs to be set in conjunction with phone denominator",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -156,7 +156,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The Y Number for \\&quot;phone-col-X-Y\\&quot; effect selector. Sets the phone denominator for the X/Y fraction that indicates the cell's size in phone screen. Needs to be set in conjunction with phone denominator",
+          "description": "The Y Number for &quot;phone-col-X-Y&quot; effect selector. Sets the phone denominator for the X/Y fraction that indicates the cell's size in phone screen. Needs to be set in conjunction with phone denominator",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -172,7 +172,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Makes the cell to be visible or hidden in phone size Uses \\&quot;visible-phone\\&quot; and \\&quot;hidden-phone\\&quot; effect selectors.",
+          "description": "Makes the cell to be visible or hidden in phone size Uses &quot;visible-phone&quot; and &quot;hidden-phone&quot; effect selectors.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -188,7 +188,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Makes the cell to be visible or hidden in phone size Uses \\&quot;visible-tablet\\&quot; and \\&quot;hidden-tablet\\&quot; effect selectors.",
+          "description": "Makes the cell to be visible or hidden in phone size Uses &quot;visible-tablet&quot; and &quot;hidden-tablet&quot; effect selectors.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -204,7 +204,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Makes the cell to be visible or hidden in phone size Uses \\&quot;visible-desktop\\&quot; and \\&quot;hidden-desktop\\&quot; effect selectors.",
+          "description": "Makes the cell to be visible or hidden in phone size Uses &quot;visible-desktop&quot; and &quot;hidden-desktop&quot; effect selectors.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -220,7 +220,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Makes the cell to be visible or hidden in phone size Uses \\&quot;visible-widescreen\\&quot; and \\&quot;hidden-widescreen\\&quot; effect selectors.",
+          "description": "Makes the cell to be visible or hidden in phone size Uses &quot;visible-widescreen&quot; and &quot;hidden-widescreen&quot; effect selectors.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

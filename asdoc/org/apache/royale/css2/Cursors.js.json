@@ -80,7 +80,7 @@
             {  "tagName": "langversion",
                "values": ["3.0"]}  ],
           "return": "String",
-          "params": [{ "name": "obj", "type": "org.apache.royale.core.IUIBase"}]}
+          "params": [{ "name": "obj", "type": "org.apache.royale.core.IRenderedObject"}]}
       ]
   }
 

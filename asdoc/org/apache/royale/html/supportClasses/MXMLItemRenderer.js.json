@@ -67,6 +67,10 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.IBeadLayout"]}  ],
           "return": "void",
           "params": []}
       ,
@@ -76,7 +80,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "return": "void",
+          "return": "Boolean",
           "params": []}
       ,
       { "type": "method",

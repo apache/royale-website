@@ -33,13 +33,15 @@
     "deprecated": {},
       "description": "Invoked prior to performing the layout.",
     "tags": [
-    {  "tagName": "playerversion",
+    {  "tagName": "returns",
+           "values": ["false if it isn't worth laying out"]},
+        {  "tagName": "playerversion",
            "values": ["Flash 10.2", "AIR 2.6"]},
         {  "tagName": "productversion",
            "values": ["Royale 0.8"]},
         {  "tagName": "langversion",
            "values": ["3.0"]}  ],
-      "return": "void",
+      "return": "Boolean",
       "params": []}
   ,
   { "type": "method",

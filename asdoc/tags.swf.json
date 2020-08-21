@@ -7,7 +7,6 @@
 "deprecated",
 "eventType",
 "example",
-"export",
 "flexcomponent",
 "flexdocurl",
 "helpid",
@@ -43,5 +42,6 @@
 "throw",
 "throws",
 "tiptext",
+"todo",
 "toplevel",
 "viewbead"]}

@@ -1,6 +1,6 @@
 { "type": "class",
   "qname": "org.apache.royale.html.beads.controllers.ListSingleSelectionMouseController",
-  "baseClassname": ""
+  "baseClassname": "org.apache.royale.core.Bead"
   ,
     "description": "The ListSingleSelectionMouseController class is a controller for org.apache.royale.html.List.  Controllers watch for events from the interactive portions of a View and update the data model or dispatch a semantic event. This controller watches for events from the item renderers and updates an ISelectionModel (which only supports single selection).  Other controller/model pairs would support various kinds of multiple selection.",
   "tags": [
@@ -60,7 +60,7 @@
                "values": ["3.0"]}  ]},
       { "type": "field",
         "qname": "dataGroup",
-        "return": "org.apache.royale.core.IItemRendererParent",
+        "return": "org.apache.royale.core.IItemRendererOwnerView",
         "namespace": "protected",
         "bindable": [],
         "details": [],
@@ -79,7 +79,7 @@
         "qname": "strand",
         "namespace": "public",
         "bindable": [],
-        "details": [],
+        "details": ["override"],
         "deprecated": {},
           "description": "",
         "tags": [
@@ -137,7 +137,7 @@
           "description": "",
         "tags": [
         {  "tagName": "royaleemitcoercion",
-               "values": ["org.apache.royale.core.ISelectableItemRenderer"]},
+               "values": ["org.apache.royale.core.IIndexedItemRenderer"]},
             {  "tagName": "royaleignorecoercion",
                "values": ["org.apache.royale.core.IRollOverModel"]}  ],
           "return": "void",
@@ -152,7 +152,7 @@
           "description": "",
         "tags": [
         {  "tagName": "royaleemitcoercion",
-               "values": ["org.apache.royale.core.ISelectableItemRenderer"]},
+               "values": ["org.apache.royale.core.IIndexedItemRenderer"]},
             {  "tagName": "royaleignorecoercion",
                "values": ["org.apache.royale.core.IRollOverModel"]}  ],
           "return": "void",

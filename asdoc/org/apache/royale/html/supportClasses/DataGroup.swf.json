@@ -2,7 +2,7 @@
   "qname": "org.apache.royale.html.supportClasses.DataGroup",
   "baseClassname": "org.apache.royale.html.supportClasses.ContainerContentArea"
   ,
-    "description": "The DataGroup class is the IItemRendererParent used internally by org.apache.royale.html.List class.",
+    "description": "The DataGroup class is the IItemRendererOwnerView used internally by org.apache.royale.html.List class.",
   "tags": [
   {  "tagName": "playerversion",
          "values": ["Flash 10.2", "AIR 2.6"]},

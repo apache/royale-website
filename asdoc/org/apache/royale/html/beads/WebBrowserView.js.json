@@ -31,7 +31,9 @@
           "description": "",
         "tags": [
         {  "tagName": "private",
-               "values": []}  ]},
+               "values": []},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.IUIBase"]}  ]},
       { "type": "accessor",
         "access": "write-only",
         "return": "org.apache.royale.core.IStrand",
@@ -48,6 +50,8 @@
                "values": ["org.apache.royale.core.IBead#strand"]},
             {  "tagName": "productversion",
                "values": ["Royale 0.0"]},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.UIBase", "org.apache.royale.events.IEventDispatcher", "HTMLIFrameElement", "org.apache.royale.html.beads.models.WebBrowserModel"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
   }

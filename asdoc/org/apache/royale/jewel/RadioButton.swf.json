@@ -93,7 +93,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The value associated with the RadioButton. For example, RadioButtons with labels, \\&quot;Red\\&quot;, \\&quot;Green\\&quot;, and \\&quot;Blue\\&quot; might have the values 0, 1, and 2 respectively.",
+          "description": "The value associated with the RadioButton. For example, RadioButtons with labels, &quot;Red&quot;, &quot;Green&quot;, and &quot;Blue&quot; might have the values 0, 1, and 2 respectively.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

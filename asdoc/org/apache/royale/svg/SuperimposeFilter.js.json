@@ -26,6 +26,10 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.svg.IChainableFilter"]}  ],
           "return": "void",
           "params": []}
       ]

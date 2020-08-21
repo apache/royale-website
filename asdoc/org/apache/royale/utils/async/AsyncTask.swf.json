@@ -185,7 +185,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "cancel resolves the task as \\&quot;canceled\\&quot;",
+          "description": "cancel resolves the task as &quot;canceled&quot;",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -217,7 +217,7 @@
   { "qname": "complete",
         "type": "org.apache.royale.events.Event"
       ,
-          "description": "AsyncTask is a base class for AsyncTasks which let the caller know when they are done. AsyncTask is an OOP replacement for Promises and simple callbacks which allows for strongly typed async requests with any kind of payload and behavior. AsyncTask must be subclassed to be used. The subclass must implement the `run` method to define the behavior when the task is \\&quot;run\\&quot;."},
+          "description": "AsyncTask is a base class for AsyncTasks which let the caller know when they are done. AsyncTask is an OOP replacement for Promises and simple callbacks which allows for strongly typed async requests with any kind of payload and behavior. AsyncTask must be subclassed to be used. The subclass must implement the `run` method to define the behavior when the task is &quot;run&quot;."},
       { "qname": "failed",
         "type": "org.apache.royale.events.Event"
       },

@@ -28,10 +28,11 @@
           "return": "",
           "params": []}
       ,
-      { "type": "field",
+      { "type": "accessor",
+        "access": "read-only",
+        "return": "org.apache.royale.core.IUIBase",
         "qname": "host",
-        "return": "org.apache.royale.core.IStrand",
-        "namespace": "protected",
+        "namespace": "public",
         "bindable": [],
         "details": [],
         "deprecated": {}},
@@ -42,5 +43,9 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}}]
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.IUIBase"]}  ]}]
   }

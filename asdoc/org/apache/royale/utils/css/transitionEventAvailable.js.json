@@ -13,6 +13,8 @@
       {  "tagName": "royaleignorecoercion",
          "values": ["org.apache.royale.core.IUIBase"]},
       {  "tagName": "langversion",
-         "values": ["3.0"]}  ],
+         "values": ["3.0"]},
+      {  "tagName": "royalesuppressexport",
+         "values": []}  ],
     "return": "String",
     "params": [{ "name": "c", "type": "org.apache.royale.core.IUIBase"}]}

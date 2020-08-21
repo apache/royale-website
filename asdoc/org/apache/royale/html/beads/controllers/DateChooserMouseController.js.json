@@ -44,6 +44,8 @@
                "values": ["org.apache.royale.core.IBead#strand"]},
             {  "tagName": "productversion",
                "values": ["Royale 0.0"]},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.html.beads.DateChooserView", "org.apache.royale.events.IEventDispatcher"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
   }

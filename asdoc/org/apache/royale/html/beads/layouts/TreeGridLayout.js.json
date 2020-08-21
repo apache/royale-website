@@ -1,6 +1,6 @@
 { "type": "class",
   "qname": "org.apache.royale.html.beads.layouts.TreeGridLayout",
-  "baseClassname": ""
+  "baseClassname": "org.apache.royale.core.Bead"
   ,
     "description": "The TreeGridLayout class provides the sizing and positioning for the sub-components that make up the TreeGrid.",
   "tags": [
@@ -34,18 +34,8 @@
         "qname": "strand",
         "namespace": "public",
         "bindable": [],
-        "details": [],
-        "deprecated": {},
-          "description": "",
-        "tags": [
-        {  "tagName": "see",
-               "values": ["org.apache.royale.core.IStrand"]},
-            {  "tagName": "playerversion",
-               "values": ["Flash 10.2", "AIR 2.6"]},
-            {  "tagName": "productversion",
-               "values": ["Royale 0.9"]},
-            {  "tagName": "langversion",
-               "values": ["3.0"]}  ]},
+        "details": ["override"],
+        "deprecated": {}},
       { "type": "method",
         "qname": "layout",
         "namespace": "public",
@@ -59,7 +49,7 @@
             {  "tagName": "productversion",
                "values": ["Royale 0.9"]},
             {  "tagName": "royaleignorecoercion",
-               "values": ["org.apache.royale.core.IBorderPaddingMarginValuesImpl", "org.apache.royale.core.IUIBase", "org.apache.royale.core.IRenderedObject"]},
+               "values": ["org.apache.royale.core.IBorderPaddingMarginValuesImpl", "org.apache.royale.core.IUIBase", "org.apache.royale.core.UIBase", "org.apache.royale.core.IRenderedObject", "org.apache.royale.html.beads.models.TreeGridModel", "org.apache.royale.html.beads.TreeGridView", "org.apache.royale.html.ButtonBar"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ],
           "return": "Boolean",

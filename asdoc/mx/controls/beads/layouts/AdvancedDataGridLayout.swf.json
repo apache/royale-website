@@ -29,27 +29,12 @@
           "params": []}
       ,
       { "type": "method",
-        "qname": "scrollHandler",
+        "qname": "setHeaderWidths",
         "namespace": "protected",
-        "bindable": [],
-        "details": [],
-        "deprecated": {},
-          "return": "void",
-          "params": [{ "name": "e", "type": "org.apache.royale.events.Event"}]}
-      ,
-      { "type": "method",
-        "qname": "layout",
-        "namespace": "public",
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
-          "description": "",
-        "tags": [
-        {  "tagName": "copy",
-               "values": ["org.apache.royale.core.IBeadLayout#layout"]},
-            {  "tagName": "royaleignorecoercion",
-               "values": ["org.apache.royale.core.IBorderPaddingMarginValuesImpl", "org.apache.royale.core.IDataGridModel", "org.apache.royale.core.IUIBase", "org.apache.royale.core.UIBase", "org.apache.royale.html.beads.IDataGridView", "org.apache.royale.html.beads.models.ButtonBarModel", "org.apache.royale.html.supportClasses.IDataGridColumn"]}  ],
-          "return": "Boolean",
-          "params": []}
+          "return": "void",
+          "params": [{ "name": "columnWidths", "type": "Array"}]}
       ]
   }

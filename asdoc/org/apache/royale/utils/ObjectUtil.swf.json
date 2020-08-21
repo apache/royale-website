@@ -103,7 +103,7 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Convert the object to a string of form: PROP: VAL&PROP: VAL where: PROP is a property VAL is its corresponding value & is the specified optional delimiter This method is named with underscore \\&quot;_\\&quot; since toString is in use",
+          "description": "Convert the object to a string of form: PROP: VAL&PROP: VAL where: PROP is a property VAL is its corresponding value & is the specified optional delimiter This method is named with underscore &quot;_&quot; since toString is in use",
         "tags": [
         {  "tagName": "param",
                "values": ["obj Object to convert", "delimiter (optional) Delimiter of property/value pairs"]},

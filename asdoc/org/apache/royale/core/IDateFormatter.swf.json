@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "org.apache.royale.core.IDateFormatter",
+"baseInterfaceNames": [
+"org.apache.royale.core.IFormatter"]
+,
     "description": "The IDateFormatter interface should be implemented by any bead that provides formatting of a date.",
   "tags": [
   {  "tagName": "playerversion",

@@ -48,6 +48,18 @@
                "values": ["3.0"]}  ]},
       { "type": "accessor",
         "access": "read-only",
+        "return": "org.apache.royale.core.IItemRendererOwnerView",
+        "qname": "dataGroup",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.IItemRendererOwnerView"]}  ]},
+      { "type": "accessor",
+        "access": "read-only",
         "return": "org.apache.royale.charts.core.IAxisGroup",
         "qname": "horizontalAxisGroup",
         "namespace": "public",
@@ -94,7 +106,7 @@
                "values": ["org.apache.royale.core.IBorderPaddingMarginValuesImpl"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ],
-          "return": "void",
+          "return": "Boolean",
           "params": []}
       ]
   }

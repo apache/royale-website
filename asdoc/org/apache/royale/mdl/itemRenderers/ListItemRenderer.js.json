@@ -83,7 +83,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Activate \\&quot;mdl-list__item--two-line\\&quot; class selector, for use in list item. Optional Two Line List Variant",
+          "description": "Activate &quot;mdl-list__item--two-line&quot; class selector, for use in list item. Optional Two Line List Variant",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -99,7 +99,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Activate \\&quot;mdl-list__item--three-line\\&quot; class selector, for use in list item. Optional Three Line List Variant",
+          "description": "Activate &quot;mdl-list__item--three-line&quot; class selector, for use in list item. Optional Three Line List Variant",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

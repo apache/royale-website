@@ -27,10 +27,22 @@
                "values": ["3.0"]}  ],
           "return": "",
           "params": []}
+      ,
+      { "type": "accessor",
+        "access": "read-only",
+        "return": "int",
+        "qname": "dataProviderLength",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {}},
+      { "type": "method",
+        "qname": "getItemAt",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "Object",
+          "params": [{ "name": "index", "type": "int"}]}
       ]
-  ,
-  "events": [
-  { "qname": "itemRendererCreated",
-        "type": "org.apache.royale.events.ItemRendererEvent"
-      }]
   }

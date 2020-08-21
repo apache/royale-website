@@ -68,7 +68,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A boolean flag to activate \\&quot;mdl-data-table__header--sorted-ascending\\&quot; effect selector. Applies visual styling to indicate the column is sorted in ascending order Optional;",
+          "description": "A boolean flag to activate &quot;mdl-data-table__header--sorted-ascending&quot; effect selector. Applies visual styling to indicate the column is sorted in ascending order Optional;",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -91,7 +91,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A boolean flag to activate \\&quot;mdl-data-table__header--sorted-descending\\&quot; effect selector. Applies visual styling to indicate the column is sorted in descending order Optional;",
+          "description": "A boolean flag to activate &quot;mdl-data-table__header--sorted-descending&quot; effect selector. Applies visual styling to indicate the column is sorted in descending order Optional;",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

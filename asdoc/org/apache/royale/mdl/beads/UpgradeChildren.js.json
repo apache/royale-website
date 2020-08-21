@@ -59,7 +59,7 @@
             {  "tagName": "productversion",
                "values": ["Royale 0.8"]},
             {  "tagName": "royaleignorecoercion",
-               "values": ["org.apache.royale.core.UIBase;"]},
+               "values": ["org.apache.royale.core.UIBase"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
   }

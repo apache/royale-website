@@ -23,12 +23,4 @@
           "return": "org.apache.royale.net.Responder",
           "params": []}
       ]
-  ,
-  "events": [
-  { "qname": "result",
-        "type": "org.apache.royale.net.events.ResultEvent"
-      },
-      { "qname": "fault",
-        "type": "org.apache.royale.net.events.FaultEvent"
-      }]
   }

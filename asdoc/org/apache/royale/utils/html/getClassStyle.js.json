@@ -1,0 +1,12 @@
+{ "type": "method",
+  "qname": "org.apache.royale.utils.html.getClassStyle",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "Get an Object with all styles in a CSS className. classname must match exactly the selector used in the CSS  Note that due to CORS restrictions im Chrome, if you're working offline you need to use: chrome --allow-file-access-from-files, or other browser",
+  "tags": [
+  {  "tagName": "royalesuppressexport",
+         "values": []}  ],
+    "return": "Object",
+    "params": [{ "name": "className", "type": "String"}]}

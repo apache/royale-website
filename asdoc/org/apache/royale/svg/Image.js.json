@@ -75,6 +75,10 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["SVGImageElement"]}  ],
           "return": "void",
           "params": [{ "name": "binaryDataAsString", "type": "String"}]}
       ,

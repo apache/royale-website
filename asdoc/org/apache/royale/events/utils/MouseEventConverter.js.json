@@ -9,7 +9,12 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "We're lying to the compiler for now because it thinks it's supposed to accept a goog.events.Event. We need to fix this in typedefs",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["goog.events.Event"]}  ],
           "return": "org.apache.royale.events.MouseEvent",
-          "params": [{ "name": "nativeEvent", "type": "Object"}]}
+          "params": [{ "name": "nativeEvent", "type": "Object"},
+        { "name": "browserEvent", "type": "goog.events.BrowserEvent"}]}
       ]
   }

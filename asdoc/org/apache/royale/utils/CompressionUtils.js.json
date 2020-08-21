@@ -9,7 +9,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The Royale Compiler will inject html into the index.html file.  Surround with \\&quot;inject_html\\&quot; tag as follows:  <inject_html> <script src=\\&quot;https://cdnjs.cloudflare.com/ajax/libs/pako/1.0.3/pako.min.js\\&quot;></script> </inject_html>  Constructor.",
+          "description": "The Royale Compiler will inject a script into the index.html file.  Surround with &quot;inject_script&quot; tag as follows:  <inject_script> var script = document.createElement(&quot;script&quot;); script.setAttribute(&quot;src&quot;, &quot;https://cdnjs.cloudflare.com/ajax/libs/pako/1.0.3/pako.min.js&quot;); document.head.appendChild(script); </inject_script>  Constructor.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

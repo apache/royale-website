@@ -2,7 +2,7 @@
   "qname": "mx.containers.FormItem",
   "baseClassname": "mx.core.Container"
   ,
-    "description": "The FormItem container defines a label and one or more children arranged horizontally or vertically. Children can be controls or other containers. A single Form container can hold multiple FormItem containers.   <p>The <code>&lt;mx:FormItem&gt;</code> tag inherits all of the tag attributes of its superclass, except <code>paddingLeft</code>, and adds the following tag attributes:</p>  <pre> &lt;mx:FormItem <strong>Properties</strong> direction=\\&quot;vertical|horizontal\\&quot; label=\\&quot;\\&quot; required=\\&quot;false|true\\&quot;  <strong>Styles</strong> horizontalAlign=\\&quot;left|center|right\\&quot; horizontalGap=\\&quot;8\\&quot; indicatorGap=\\&quot;14\\&quot; indicatorSkin=\\&quot;<i>'mx.containers.FormItem.Required' symbol in Assets.swf</i>\\&quot; labelStyleName=\\&quot;\\&quot; labelWidth=\\&quot;<i>Calculated</i>\\&quot; paddingBottom=\\&quot;0\\&quot; paddingRight=\\&quot;0\\&quot; paddingTop=\\&quot;0\\&quot; verticalGap=\\&quot;6\\&quot; &gt; ... <i>child tags</i> ... &lt;/mx:FormItem&gt; </pre>",
+    "description": "The FormItem container defines a label and one or more children arranged horizontally or vertically. Children can be controls or other containers. A single Form container can hold multiple FormItem containers.   <p>The <code>&lt;mx:FormItem&gt;</code> tag inherits all of the tag attributes of its superclass, except <code>paddingLeft</code>, and adds the following tag attributes:</p>  <pre>\\n &lt;mx:FormItem\\n <strong>Properties</strong>\\n direction=&quot;vertical|horizontal&quot;\\n label=&quot;&quot;\\n required=&quot;false|true&quot;\\n \\n <strong>Styles</strong>\\n horizontalAlign=&quot;left|center|right&quot;\\n horizontalGap=&quot;8&quot;\\n indicatorGap=&quot;14&quot;\\n indicatorSkin=&quot;<i>'mx.containers.FormItem.Required' symbol in Assets.swf</i>&quot;\\n labelStyleName=&quot;&quot;\\n labelWidth=&quot;<i>Calculated</i>&quot;\\n paddingBottom=&quot;0&quot;\\n paddingRight=&quot;0&quot;\\n paddingTop=&quot;0&quot;\\n verticalGap=&quot;6&quot;\\n &gt;\\n ...\\n <i>child tags</i>\\n ...\\n &lt;/mx:FormItem&gt;\\n </pre>",
   "tags": [
   {  "tagName": "includeExample",
          "values": ["examples/FormExample.mxml"]},
@@ -45,7 +45,7 @@
           "description": "Text label for the FormItem. This label appears to the left of the child components of the form item. The position of the label is controlled by the <code>textAlign</code> style property.",
         "tags": [
         {  "tagName": "default",
-               "values": ["&quot;&quot;"]},
+               "values": [""""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
@@ -60,7 +60,7 @@
         "bindable": ["directionChanged"],
         "details": [],
         "deprecated": {},
-          "description": "Direction of the FormItem subcomponents. Possible MXML values are <code>\\&quot;vertical\\&quot;</code> or <code>\\&quot;horizontal\\&quot;</code>. The default MXML value is <code>\\&quot;vertical\\&quot;</code>. Possible ActionScript values are <code>FormItemDirection.VERTICAL</code> or <code>FormItemDirection.HORIZONTAL</code>.  <p>When <code>direction</code> is <code>\\&quot;vertical\\&quot;</code>, the children of the  FormItem are stacked vertically to the right of the FormItem label. When <code>direction</code> is <code>\\&quot;horizontal\\&quot;</code>, the children are placed in a single row (if they fit), or in two equally-sized columns.</p>  <p>If you need more control over the layout of FormItem children, you can use a container such as Grid or Tile as the direct child of the FormItem and put the desired controls inside it.</p>",
+          "description": "Direction of the FormItem subcomponents. Possible MXML values are <code>&quot;vertical&quot;</code> or <code>&quot;horizontal&quot;</code>. The default MXML value is <code>&quot;vertical&quot;</code>. Possible ActionScript values are <code>FormItemDirection.VERTICAL</code> or <code>FormItemDirection.HORIZONTAL</code>.  <p>When <code>direction</code> is <code>&quot;vertical&quot;</code>, the children of the  FormItem are stacked vertically to the right of the FormItem label. When <code>direction</code> is <code>&quot;horizontal&quot;</code>, the children are placed in a single row (if they fit), or in two equally-sized columns.</p>  <p>If you need more control over the layout of FormItem children, you can use a container such as Grid or Tile as the direct child of the FormItem and put the desired controls inside it.</p>",
         "tags": [
         {  "tagName": "default",
                "values": ["FormItemDirection.VERTICAL"]},
@@ -141,13 +141,25 @@
           "return": "void",
           "params": []}
       ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "Number",
+        "qname": "measuredWidth",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "private",
+               "values": []}  ]},
       { "type": "method",
         "qname": "updateDisplayList",
         "namespace": "protected",
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
-          "description": "Responds to size changes by setting the positions and sizes of this container's children. See the <code>UIComponent.updateDisplayList()</code> method for more information about the <code>updateDisplayList()</code> method.  <p>See the <code>FormItem.measure()</code> method for more information on how the FormItem controls are positioned.</p>  <p>The label is aligned in the label area according to the <code>textAlign</code> style property. All labels in a form are aligned with each other.</p>  <p>If the <code>required</code> property is <code>true</code>, a symbol indicating the field is required is placed between the label and the controls.</p>  <p>The controls are positioned in columns, as described in the documentation for the <code>measure()</code> method. The  <code>horizontalAlign</code> style property determines where the controls are placed horizontally.</p>  <p>When the <code>direction</code> property is <code>\\&quot;vertical\\&quot;</code>, any child that has no <code>width</code> specified uses the <code>measuredWidth</code> rounded up to the nearest 1/4 width of the control area. This is done to avoid jagged right edges of controls.</p>  <p>This method calls the <code>super.updateDisplayList()</code> method before doing anything else.</p>  in the component's coordinates, regardless of the value of the <code>scaleX</code> property of the component.  in the component's coordinates, regardless of the value of the <code>scaleY</code> property of the component.",
+          "description": "Responds to size changes by setting the positions and sizes of this container's children. See the <code>UIComponent.updateDisplayList()</code> method for more information about the <code>updateDisplayList()</code> method.  <p>See the <code>FormItem.measure()</code> method for more information on how the FormItem controls are positioned.</p>  <p>The label is aligned in the label area according to the <code>textAlign</code> style property. All labels in a form are aligned with each other.</p>  <p>If the <code>required</code> property is <code>true</code>, a symbol indicating the field is required is placed between the label and the controls.</p>  <p>The controls are positioned in columns, as described in the documentation for the <code>measure()</code> method. The  <code>horizontalAlign</code> style property determines where the controls are placed horizontally.</p>  <p>When the <code>direction</code> property is <code>&quot;vertical&quot;</code>, any child that has no <code>width</code> specified uses the <code>measuredWidth</code> rounded up to the nearest 1/4 width of the control area. This is done to avoid jagged right edges of controls.</p>  <p>This method calls the <code>super.updateDisplayList()</code> method before doing anything else.</p>  in the component's coordinates, regardless of the value of the <code>scaleX</code> property of the component.  in the component's coordinates, regardless of the value of the <code>scaleY</code> property of the component.",
         "tags": [
         {  "tagName": "param",
                "values": ["unscaledWidth Specifies the width of the component, in pixels,", "unscaledHeight Specifies the height of the component, in pixels,"]},

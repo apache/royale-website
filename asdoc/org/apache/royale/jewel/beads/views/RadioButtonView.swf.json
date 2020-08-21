@@ -2,7 +2,7 @@
   "qname": "org.apache.royale.jewel.beads.views.RadioButtonView",
   "baseClassname": "org.apache.royale.core.BeadViewBase"
   ,
-    "description": "The RadioButtonView class creates the visual elements of the org.apache.royale.html.RadioButton component.",
+    "description": "The RadioButtonView class creates the visual elements of the org.apache.royale.jewel.RadioButton for the SWF platform component.",
   "tags": [
   {  "tagName": "playerversion",
          "values": ["Flash 10.2", "AIR 2.6"]},

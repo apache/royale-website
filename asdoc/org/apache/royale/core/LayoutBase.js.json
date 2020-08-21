@@ -1,6 +1,6 @@
 { "type": "class",
   "qname": "org.apache.royale.core.LayoutBase",
-  "baseClassname": ""
+  "baseClassname": "org.apache.royale.core.Bead"
   ,
     "description": "This class is the base class for most, if not all, layouts.",
   "tags": [
@@ -49,7 +49,7 @@
         "qname": "strand",
         "namespace": "public",
         "bindable": [],
-        "details": [],
+        "details": ["override"],
         "deprecated": {},
           "description": "",
         "tags": [
@@ -60,7 +60,7 @@
             {  "tagName": "productversion",
                "values": ["Royale 0.8"]},
             {  "tagName": "royaleignorecoercion",
-               "values": ["org.apache.royale.core.ILayoutChild", "org.apache.royale.events.IEventDispatcher"]},
+               "values": ["org.apache.royale.core.ILayoutChild"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]},
       { "type": "method",
@@ -122,7 +122,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Called whenever \\&quot;layoutNeeded\\&quot; event is dispatched against the host strand.",
+          "description": "Called whenever &quot;layoutNeeded&quot; event is dispatched against the host strand.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -216,6 +216,13 @@
                "values": ["org.apache.royale.core.ILayoutParent"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]},
+      { "type": "field",
+        "qname": "isLayoutRunning",
+        "return": "Boolean",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}},
       { "type": "method",
         "qname": "performLayout",
         "namespace": "public",

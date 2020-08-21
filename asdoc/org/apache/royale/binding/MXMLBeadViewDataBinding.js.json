@@ -27,18 +27,5 @@
                "values": ["3.0"]}  ],
           "return": "",
           "params": []}
-      ,
-      { "type": "method",
-        "qname": "initBindingsHandler",
-        "namespace": "protected",
-        "bindable": [],
-        "details": ["override"],
-        "deprecated": {},
-          "description": "",
-        "tags": [
-        {  "tagName": "royaleignorecoercion",
-               "values": ["String", "org.apache.royale.core.IBinding"]}  ],
-          "return": "void",
-          "params": [{ "name": "event", "type": "org.apache.royale.events.Event"}]}
       ]
   }

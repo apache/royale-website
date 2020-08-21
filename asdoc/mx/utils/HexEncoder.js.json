@@ -1,0 +1,11 @@
+{ "type": "class",
+  "qname": "mx.utils.HexEncoder",
+  "baseClassname": ""
+  ,
+    "description": "Documentation is not currently available. Ported to ActionScript from flex/messaging/util/Hex.java",
+  "tags": [
+  {  "tagName": "private",
+         "values": []}  ],
+  "members": [
+  ]
+  }

@@ -2,7 +2,7 @@
   "qname": "spark.components.supportClasses.RegExPatterns",
   "baseClassname": ""
   ,
-    "description": "This provides a means to standardize certain common regex patterns and functionality.  <p>Use the constants in ActionsScript, as the following example shows: </p> <pre> createRegExp(\\&quot;my search value\\&quot;, RegExPatterns.CONTAINS):RegExp </pre>",
+    "description": "This provides a means to standardize certain common regex patterns and functionality.  <p>Use the constants in ActionsScript, as the following example shows: </p> <pre>\\n createRegExp(&quot;my search value&quot;, RegExPatterns.CONTAINS):RegExp\\n </pre>",
   "tags": [
   {  "tagName": "playerversion",
          "values": ["Flash 11.1", "AIR 3.4"]},

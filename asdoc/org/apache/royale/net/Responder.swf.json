@@ -14,12 +14,4 @@
           "params": [{ "name": "onSuccess", "type": "Function"},
         { "name": "onFailure", "type": "Function"}]}
       ]
-  ,
-  "events": [
-  { "qname": "result",
-        "type": "org.apache.royale.net.events.ResultEvent"
-      },
-      { "qname": "fault",
-        "type": "org.apache.royale.net.events.FaultEvent"
-      }]
   }

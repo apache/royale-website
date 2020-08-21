@@ -28,6 +28,15 @@
           "return": "",
           "params": []}
       ,
+      { "type": "method",
+        "qname": "dispatchChangeEvent",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "event", "type": "org.apache.royale.events.Event"}]}
+      ,
       { "type": "accessor",
         "access": "read-write",
         "return": "Number",

@@ -2,7 +2,7 @@
   "qname": "mx.messaging.messages.MessagePerformanceUtils",
   "baseClassname": ""
   ,
-    "description": "The MessagePerformanceUtils utility class is used to retrieve various metrics about the sizing and timing of a message sent from a client to the server and its response message, as well as pushed messages from the server to the client. Metrics are gathered when corresponding properties on the channel used are enabled: &lt;record-message-times&gt; denotes capturing of timing information, &lt;record-message-sizes&gt; denotes capturing of sizing information.  <p>You can then use methods of this utility class to retrieve various performance information about the message that you have just received.</p>  <p>When these metrics are enabled an instance of this class should be created from a response, acknowledgement, or message handler using code such as below: </p>  <pre> var mpiutil:MessagePerformanceUtils = new MessagePerformanceUtils(event.message); </pre>",
+    "description": "The MessagePerformanceUtils utility class is used to retrieve various metrics about the sizing and timing of a message sent from a client to the server and its response message, as well as pushed messages from the server to the client. Metrics are gathered when corresponding properties on the channel used are enabled: &lt;record-message-times&gt; denotes capturing of timing information, &lt;record-message-sizes&gt; denotes capturing of sizing information.  <p>You can then use methods of this utility class to retrieve various performance information about the message that you have just received.</p>  <p>When these metrics are enabled an instance of this class should be created from a response, acknowledgement, or message handler using code such as below: </p>  <pre>\\n var mpiutil:MessagePerformanceUtils = new MessagePerformanceUtils(event.message);\\n </pre>",
   "tags": [
   {  "tagName": "playerversion",
          "values": ["Flash 9", "AIR 1.1"]},
@@ -334,7 +334,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Returns a summary of all information available in MPI. For example:  <pre> var mpiutil:MessagePerformanceUtils = new MessagePerformanceUtils(message); Alert.show(mpiutil.prettyPrint(), \\&quot;MPI Output\\&quot;, Alert.NONMODAL); </pre>",
+          "description": "Returns a summary of all information available in MPI. For example:  <pre>\\n var mpiutil:MessagePerformanceUtils = new MessagePerformanceUtils(message);\\n Alert.show(mpiutil.prettyPrint(), &quot;MPI Output&quot;, Alert.NONMODAL);\\n </pre>",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},

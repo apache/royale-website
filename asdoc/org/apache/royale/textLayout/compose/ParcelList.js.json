@@ -56,7 +56,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Index of the \\&quot;current\\&quot; parcel. These next two variables must be kept in sync."},
+          "description": "Index of the &quot;current&quot; parcel. These next two variables must be kept in sync."},
       { "type": "field",
         "qname": "_currentParcel",
         "return": "org.apache.royale.textLayout.compose.Parcel",

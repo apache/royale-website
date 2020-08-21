@@ -1,6 +1,6 @@
 { "type": "class",
   "qname": "org.apache.royale.html.supportClasses.HDividedContainerGripper",
-  "baseClassname": ""
+  "baseClassname": "org.apache.royale.core.Bead"
   ,
     "description": "The HDividedContainerGripper is a bead added to the HDividedContainerDivider to provide a visual cue that the divider can be grabbed and moved.",
   "tags": [
@@ -34,12 +34,12 @@
         "qname": "strand",
         "namespace": "public",
         "bindable": [],
-        "details": [],
+        "details": ["override"],
         "deprecated": {},
           "description": "",
         "tags": [
         {  "tagName": "copy",
                "values": ["org.apache.royale.core.IStrand#strand"]},
             {  "tagName": "royaleignorecoercion",
-               "values": ["UIBase"]}  ]}]
+               "values": ["org.apache.royale.core.UIBase"]}  ]}]
   }

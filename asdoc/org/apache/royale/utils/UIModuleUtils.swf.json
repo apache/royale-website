@@ -78,6 +78,13 @@
           "return": "void",
           "params": [{ "name": "host", "type": "org.apache.royale.core.IParentIUIBase"}]}
       ,
+      { "type": "field",
+        "qname": "moduleInstance",
+        "return": "org.apache.royale.core.IUIBase",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}},
       { "type": "method",
         "qname": "completeHandler",
         "namespace": "protected",

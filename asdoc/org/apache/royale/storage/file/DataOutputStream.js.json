@@ -38,7 +38,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Writes a chunk of text into the file. When the file is ready to accept the nex chunk, a FileEvent \\&quot;WRITE\\&quot; event is dispatched.",
+          "description": "Writes a chunk of text into the file. When the file is ready to accept the nex chunk, a FileEvent &quot;WRITE&quot; event is dispatched.",
         "tags": [
         {  "tagName": "param",
                "values": ["text The string to write into the file."]},
@@ -57,7 +57,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Closes the file and dispatches a FileEvent \\&quot;COMPLETE\\&quot; event.",
+          "description": "Closes the file and dispatches a FileEvent &quot;COMPLETE&quot; event.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

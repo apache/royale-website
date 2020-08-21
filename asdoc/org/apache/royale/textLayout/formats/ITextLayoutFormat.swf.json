@@ -498,7 +498,7 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
-      "description": "Style of text. <p>Legal values style names specified byt the font.</p> <p>Default value is undefined indicating not set.</p> <p>If undefined during the cascade this property will inherit its value from an ancestor. If no ancestor has set this property, it will have a value of \\&quot;Regular\\&quot;.</p>",
+      "description": "Style of text. <p>Legal values style names specified byt the font.</p> <p>Default value is undefined indicating not set.</p> <p>If undefined during the cascade this property will inherit its value from an ancestor. If no ancestor has set this property, it will have a value of &quot;Regular&quot;.</p>",
     "tags": [
     {  "tagName": "see",
            "values": ["org.apache.royale.text.engine.FontPosture"]},

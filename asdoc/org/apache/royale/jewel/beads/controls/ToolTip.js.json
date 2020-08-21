@@ -130,5 +130,35 @@
             {  "tagName": "royaleignorecoercion",
                "values": ["org.apache.royale.events.IEventDispatcher"]},
             {  "tagName": "langversion",
-               "values": ["3.0"]}  ]}]
+               "values": ["3.0"]}  ]},
+      { "type": "method",
+        "qname": "changeHandler",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "event", "type": "org.apache.royale.events.Event"}]}
+      ,
+      { "type": "method",
+        "qname": "removeTip",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "copy",
+               "values": ["org.apache.royale.core.IToolTipBead#removeTip()"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.7"]},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.events.IEventDispatcher"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "void",
+          "params": []}
+      ]
   }

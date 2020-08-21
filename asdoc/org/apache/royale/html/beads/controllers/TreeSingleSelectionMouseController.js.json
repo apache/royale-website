@@ -28,16 +28,30 @@
           "return": "",
           "params": []}
       ,
-      { "type": "accessor",
-        "access": "write-only",
-        "return": "org.apache.royale.core.IStrand",
-        "qname": "strand",
-        "namespace": "public",
+      { "type": "method",
+        "qname": "handleItemAdded",
+        "namespace": "protected",
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
           "description": "",
         "tags": [
-        {  "tagName": "private",
-               "values": []}  ]}]
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.events.IEventDispatcher"]}  ],
+          "return": "void",
+          "params": [{ "name": "event", "type": "org.apache.royale.events.ItemAddedEvent"}]}
+      ,
+      { "type": "method",
+        "qname": "handleItemRemoved",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.events.IEventDispatcher"]}  ],
+          "return": "void",
+          "params": [{ "name": "event", "type": "org.apache.royale.events.ItemRemovedEvent"}]}
+      ]
   }

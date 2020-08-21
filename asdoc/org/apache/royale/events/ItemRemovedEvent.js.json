@@ -2,7 +2,7 @@
   "qname": "org.apache.royale.events.ItemRemovedEvent",
   "baseClassname": "org.apache.royale.events.CustomEvent"
   ,
-    "description": "The ItemRemovedEvent is dispatched by IItemRendererParent objects whenenver an itemRenderer is removed.",
+    "description": "The ItemRemovedEvent is dispatched by IItemRendererOwnerView objects whenenver an itemRenderer is removed.",
   "tags": [
   {  "tagName": "playerversion",
          "values": ["Flash 10.2", "AIR 2.6"]},
@@ -47,8 +47,6 @@
                "values": ["Flash 10.2", "AIR 2.6"]},
             {  "tagName": "productversion",
                "values": ["Royale 0.0"]},
-            {  "tagName": "export",
-               "values": []},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
   }

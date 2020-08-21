@@ -1,6 +1,6 @@
 { "type": "class",
   "qname": "org.apache.royale.html.accessories.TextPromptBead",
-  "baseClassname": ""
+  "baseClassname": "org.apache.royale.core.Bead"
   ,
     "description": "The TextPromptBead class is a specialty bead that can be used with any TextInput control. The bead places a string into the input field when there is no value associated with the text property.",
   "tags": [
@@ -50,7 +50,7 @@
         "qname": "strand",
         "namespace": "public",
         "bindable": [],
-        "details": [],
+        "details": ["override"],
         "deprecated": {},
           "description": "",
         "tags": [

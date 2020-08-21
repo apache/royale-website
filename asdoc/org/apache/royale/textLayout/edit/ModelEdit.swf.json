@@ -2,7 +2,7 @@
   "qname": "org.apache.royale.textLayout.edit.ModelEdit",
   "baseClassname": ""
   ,
-    "description": "The ModelEdit class contains static functions for performing speficic suboperations.  Each suboperation returns a \\&quot;memento\\&quot; for undo/redo.",
+    "description": "The ModelEdit class contains static functions for performing speficic suboperations.  Each suboperation returns a &quot;memento&quot; for undo/redo.",
   "tags": [
   {  "tagName": "playerversion",
          "values": ["Flash 10", "AIR 1.5"]},

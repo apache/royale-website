@@ -203,7 +203,7 @@
           "description": "Sets the info type of this message (IN or OUT).  Used to mark the MPI with the client receive time when this MPI is of type OUT (IN, OUT are from the perspective of the server)",
         "tags": [
         {  "tagName": "param",
-               "values": ["type - &quot;IN&quot; or &quot;OUT&quot; info type"]},
+               "values": ["type - "IN" or "OUT" info type"]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
@@ -218,7 +218,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Sets reveive time of this message. When the infoType is \\&quot;OUT\\&quot;, we should skip override the receive time See the set infoType for details",
+          "description": "Sets reveive time of this message. When the infoType is &quot;OUT&quot;, we should skip override the receive time See the set infoType for details",
         "tags": [
         {  "tagName": "param",
                "values": ["time - the receive time to set"]}  ]}]

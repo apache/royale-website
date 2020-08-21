@@ -36,7 +36,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A boolean flag to activate \\&quot;mdl-card--border\\&quot; effect selector. Adds a border to the card section that it's applied to.",
+          "description": "A boolean flag to activate &quot;mdl-card--border&quot; effect selector. Adds a border to the card section that it's applied to.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -52,7 +52,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A boolean flag to activate \\&quot;mdl-card--expand\\&quot; effect selector. Makes the container grows all available space. Is flex css dependant It seems it will be deprecated in new MDL versions.",
+          "description": "A boolean flag to activate &quot;mdl-card--expand&quot; effect selector. Makes the container grows all available space. Is flex css dependant It seems it will be deprecated in new MDL versions.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

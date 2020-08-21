@@ -58,5 +58,9 @@
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}}]
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.htmls.beads.IDrawingLayerBead"]}  ]}]
   }

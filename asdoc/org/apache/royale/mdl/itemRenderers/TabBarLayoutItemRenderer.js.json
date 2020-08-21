@@ -2,7 +2,7 @@
   "qname": "org.apache.royale.mdl.itemRenderers.TabBarLayoutItemRenderer",
   "baseClassname": "org.apache.royale.mdl.supportClasses.TabItemRendererBase"
   ,
-    "description": "Layout type content for Tabs Creates MDL \\&quot;mdl-layout__tab-panel\\&quot; conponent",
+    "description": "Layout type content for Tabs Creates MDL &quot;mdl-layout__tab-panel&quot; conponent",
   "tags": [
   {  "tagName": "playerversion",
          "values": ["Flash 10.2", "AIR 2.6"]},

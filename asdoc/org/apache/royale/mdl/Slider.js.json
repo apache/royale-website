@@ -2,7 +2,7 @@
   "qname": "org.apache.royale.mdl.Slider",
   "baseClassname": "org.apache.royale.core.UIBase"
   ,
-    "description": "The Slider class is used for selecting a value out of a range. The Material Design Lite (MDL) slider component is an enhanced version of the new HTML5 <input type=\\&quot;range\\&quot;> element. A slider consists of a horizontal line upon which sits a small, movable disc (the thumb) and, typically, text that clearly communicates a value that will be set when the user moves it.  In Royale the MDL Slider uses the following bead types:  org.apache.royale.core.IBeadModel: the data model, typically an IRangeModel, that holds the Slider values. org.apache.royale.core.IBeadView:  the bead that constructs the visual parts of the Slider. org.apache.royale.core.IBeadController: the bead that handles input.",
+    "description": "The Slider class is used for selecting a value out of a range. The Material Design Lite (MDL) slider component is an enhanced version of the new HTML5 <input type=&quot;range&quot;> element. A slider consists of a horizontal line upon which sits a small, movable disc (the thumb) and, typically, text that clearly communicates a value that will be set when the user moves it.  In Royale the MDL Slider uses the following bead types:  org.apache.royale.core.IBeadModel: the data model, typically an IRangeModel, that holds the Slider values. org.apache.royale.core.IBeadView:  the bead that constructs the visual parts of the Slider. org.apache.royale.core.IBeadController: the bead that handles input.",
   "tags": [
   {  "tagName": "playerversion",
          "values": ["Flash 10.2", "AIR 2.6"]},

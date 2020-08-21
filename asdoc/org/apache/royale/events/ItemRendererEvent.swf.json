@@ -54,8 +54,6 @@
                "values": ["Flash 10.2", "AIR 2.6"]},
             {  "tagName": "productversion",
                "values": ["Royale 0.0"]},
-            {  "tagName": "export",
-               "values": []},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
   }

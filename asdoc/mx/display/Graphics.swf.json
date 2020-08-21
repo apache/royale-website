@@ -3,7 +3,19 @@
   "baseClassname": ""
   ,
   "members": [
-  { "type": "method",
+  { "type": "accessor",
+        "access": "read-only",
+        "return": "mx.geom.Matrix",
+        "qname": "MATRIX_ROTATE90",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["mx.geom.Matrix"]}  ]},
+      { "type": "method",
         "qname": "mx.display.Graphics",
         "namespace": "",
         "bindable": [],

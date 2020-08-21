@@ -2,7 +2,7 @@
   "qname": "org.apache.royale.jewel.beads.views.SliderThumbView",
   "baseClassname": "org.apache.royale.core.BeadViewBase"
   ,
-    "description": "The SliderThumbView class creates the draggable input element for the org.apache.royale.jewel.Slider component.",
+    "description": "The SliderThumbView class creates the draggable input element for the org.apache.royale.jewel.HSlider component for the SWF platform.",
   "tags": [
   {  "tagName": "viewbead",
          "values": []},

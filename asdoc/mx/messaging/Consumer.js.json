@@ -2,7 +2,7 @@
   "qname": "mx.messaging.Consumer",
   "baseClassname": "mx.messaging.AbstractConsumer"
   ,
-    "description": "A Consumer subscribes to a destination to receive messages. Consumers send subscribe and unsubscribe messages which generate a MessageAckEvent or MessageFaultEvent depending upon whether the operation was successful or not. Once subscribed, a Consumer dispatches a MessageEvent for each message it receives. Consumers provide the ability to filter messages using a selector. These selectors must be understood by the destination. <p> The &lt;mx:Consumer&gt; tag inherits all the tag attributes of its superclass, and adds the following tag attributes: </p> <pre> &lt;mx:Consumer <b>Properties</b> resubscribeAttempts=\\&quot;<i>5</i>\\&quot; resubscribeInterval=\\&quot;<i>5000</i>\\&quot; selector=\\&quot;<i>No default.</i>\\&quot; timestamp=\\&quot;<i>No default.</i>\\&quot; /&gt; </pre>",
+    "description": "A Consumer subscribes to a destination to receive messages. Consumers send subscribe and unsubscribe messages which generate a MessageAckEvent or MessageFaultEvent depending upon whether the operation was successful or not. Once subscribed, a Consumer dispatches a MessageEvent for each message it receives. Consumers provide the ability to filter messages using a selector. These selectors must be understood by the destination. <p> The &lt;mx:Consumer&gt; tag inherits all the tag attributes of its superclass, and adds the following tag attributes: </p> <pre>\\n &lt;mx:Consumer\\n <b>Properties</b>\\n resubscribeAttempts=&quot;<i>5</i>&quot;\\n resubscribeInterval=&quot;<i>5000</i>&quot;\\n selector=&quot;<i>No default.</i>&quot;\\n timestamp=&quot;<i>No default.</i>&quot;\\n /&gt;\\n </pre>",
   "tags": [
   {  "tagName": "mxml",
          "values": []},
@@ -19,7 +19,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Constructor.  hosting the remote destination the Consumer will subscribe to. This parameter is deprecated and it is ignored by the constructor.  <listing version=\\&quot;3.0\\&quot;> function initConsumer():void { var consumer:Consumer = new Consumer(); consumer.destination = \\&quot;NASDAQ\\&quot;; consumer.selector = \\&quot;operation IN ('Bid','Ask')\\&quot;; consumer.addEventListener(MessageEvent.MESSAGE, messageHandler); consumer.subscribe(); }  function messageHandler(event:MessageEvent):void { var msg:IMessage = event.message; var info:Object = msg.body; trace(\\&quot;-App recieved message: \\&quot; + msg.toString()); } </listing>",
+          "description": "Constructor.  hosting the remote destination the Consumer will subscribe to. This parameter is deprecated and it is ignored by the constructor.  <listing version=&quot;3.0&quot;> function initConsumer():void { var consumer:Consumer = new Consumer(); consumer.destination = &quot;NASDAQ&quot;; consumer.selector = &quot;operation IN ('Bid','Ask')&quot;; consumer.addEventListener(MessageEvent.MESSAGE, messageHandler); consumer.subscribe(); }  function messageHandler(event:MessageEvent):void { var msg:IMessage = event.message; var info:Object = msg.body; trace(&quot;-App recieved message: &quot; + msg.toString()); } </listing>",
         "tags": [
         {  "tagName": "param",
                "values": ["messageType The alias for the message type processed by the service"]},

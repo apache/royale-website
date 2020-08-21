@@ -47,5 +47,19 @@
             {  "tagName": "productversion",
                "values": ["Royale 0.9.4"]},
             {  "tagName": "langversion",
-               "values": ["3.0"]}  ]}]
+               "values": ["3.0"]}  ]},
+      { "type": "field",
+        "qname": "timer",
+        "return": "org.apache.royale.utils.Timer",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}},
+      { "type": "field",
+        "qname": "timerdelay",
+        "return": "Number",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}}]
   }

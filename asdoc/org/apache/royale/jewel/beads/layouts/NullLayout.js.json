@@ -27,5 +27,18 @@
                "values": ["3.0"]}  ],
           "return": "",
           "params": []}
+      ,
+      { "type": "method",
+        "qname": "layout",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "copy",
+               "values": ["org.apache.royale.core.IBeadLayout#layout"]}  ],
+          "return": "Boolean",
+          "params": []}
       ]
   }

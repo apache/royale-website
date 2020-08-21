@@ -1,6 +1,6 @@
 { "type": "class",
   "qname": "org.apache.royale.html.supportClasses.DataGridColumn",
-  "baseClassname": ""
+  "baseClassname": "org.apache.royale.events.EventDispatcher"
   ,
     "description": "The DataGridColumn class is the collection of properties that describe a column of the org.apache.royale.html.DataGrid: which renderer to use for each cell in the column, the width of the column, the label for the column, and the name of the field in the data containing the value to display in the column.",
   "tags": [

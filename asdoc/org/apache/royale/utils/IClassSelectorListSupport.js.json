@@ -89,5 +89,25 @@
            "values": ["3.0"]}  ],
       "return": "Boolean",
       "params": [{ "name": "name", "type": "String"}]}
+  ,
+  { "type": "method",
+    "qname": "replaceClass",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "Replace a class for a new one. If new class is not set, use the old one instead",
+    "tags": [
+    {  "tagName": "param",
+           "values": ["oldClass Name of selector to remove.", "newClass Name of selector to set."]},
+        {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.10.0"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ],
+      "return": "void",
+      "params": [{ "name": "oldClass", "type": "String"},
+    { "name": "newClass", "type": "String"}]}
   ]
   }

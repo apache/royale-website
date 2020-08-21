@@ -2,7 +2,7 @@
   "qname": "org.apache.royale.mdl.beads.TableNumericEnable",
   "baseClassname": ""
   ,
-    "description": "TableNumericEnable bead applies numeric formatting to header (TableColumn) or data cell (TableCell) It removes class \\&quot;mdl-data-table__cell--non-numeric\\&quot; from strand (content of column will be align to the right)",
+    "description": "TableNumericEnable bead applies numeric formatting to header (TableColumn) or data cell (TableCell) It removes class &quot;mdl-data-table__cell--non-numeric&quot; from strand (content of column will be align to the right)",
   "tags": [
   {  "tagName": "playerversion",
          "values": ["Flash 10.2", "AIR 2.6"]},

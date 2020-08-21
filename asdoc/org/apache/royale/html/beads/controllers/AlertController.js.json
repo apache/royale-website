@@ -1,6 +1,6 @@
 { "type": "class",
   "qname": "org.apache.royale.html.beads.controllers.AlertController",
-  "baseClassname": ""
+  "baseClassname": "org.apache.royale.core.Bead"
   ,
     "description": "The AlertControler class bead handles the close event on the org.apache.royale.html.Alert by removing the org.apache.royale.html.Alert from the display.",
   "tags": [

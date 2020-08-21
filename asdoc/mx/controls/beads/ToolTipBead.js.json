@@ -29,5 +29,22 @@
             {  "tagName": "productversion",
                "values": ["Royale 0.0"]},
             {  "tagName": "langversion",
-               "values": ["3.0"]}  ]}]
+               "values": ["3.0"]}  ]},
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "Boolean",
+        "qname": "isError",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}},
+      { "type": "method",
+        "qname": "rollOverHandler",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "event", "type": "org.apache.royale.events.MouseEvent"}]}
+      ]
   }

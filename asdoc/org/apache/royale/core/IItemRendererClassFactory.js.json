@@ -18,12 +18,10 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
-      "description": "This method is called to generate another instance of an item renderer and attach it to the given parent.",
+      "description": "This method is called to generate another instance of an item renderer.",
     "tags": [
     {  "tagName": "see",
-           "values": ["org.apache.royale.core.IItemRendererParent", "org.apache.royale.core.IItemRenderer"]},
-        {  "tagName": "param",
-           "values": ["parent The parent of the item renderer."]},
+           "values": ["org.apache.royale.core.IItemRenderer"]},
         {  "tagName": "playerversion",
            "values": ["Flash 10.2", "AIR 2.6"]},
         {  "tagName": "productversion",
@@ -33,6 +31,6 @@
         {  "tagName": "langversion",
            "values": ["3.0"]}  ],
       "return": "org.apache.royale.core.IItemRenderer",
-      "params": [{ "name": "parent", "type": "org.apache.royale.core.IItemRendererParent"}]}
+      "params": []}
   ]
   }

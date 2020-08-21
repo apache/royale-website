@@ -1,6 +1,6 @@
 { "type": "class",
   "qname": "org.apache.royale.html.beads.models.ArrayListSelectionModel",
-  "baseClassname": "org.apache.royale.events.EventDispatcher"
+  "baseClassname": "org.apache.royale.core.DispatcherBead"
   ,
     "description": "The ArrayListSelectionModel class is a selection model for a dataProvider that is an ArrayList. It assumes that items can be fetched from the dataProvider using dataProvider.getItemAt(index).",
   "tags": [
@@ -28,24 +28,6 @@
           "return": "",
           "params": []}
       ,
-      { "type": "accessor",
-        "access": "write-only",
-        "return": "org.apache.royale.core.IStrand",
-        "qname": "strand",
-        "namespace": "public",
-        "bindable": [],
-        "details": [],
-        "deprecated": {},
-          "description": "",
-        "tags": [
-        {  "tagName": "playerversion",
-               "values": ["Flash 10.2", "AIR 2.6"]},
-            {  "tagName": "copy",
-               "values": ["org.apache.royale.core.IBead#strand"]},
-            {  "tagName": "productversion",
-               "values": ["Royale 0.0"]},
-            {  "tagName": "langversion",
-               "values": ["3.0"]}  ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Object",

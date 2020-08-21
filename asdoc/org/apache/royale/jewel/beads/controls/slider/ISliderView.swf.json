@@ -3,7 +3,7 @@
 "baseInterfaceNames": [
 "org.apache.royale.core.IBead"]
 ,
-    "description": "The ISliderView interface provides the protocol for any bead that creates the visual parts for a org.apache.royale.html.Slider control.",
+    "description": "The ISliderView interface provides the protocol for any bead that creates the visual parts for a org.apache.royale.jewel.HSlider control.",
   "tags": [
   {  "tagName": "playerversion",
          "values": ["Flash 10.2", "AIR 2.6"]},
@@ -20,7 +20,7 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
-      "description": "The component used for the track area of the org.apache.royale.html.Slider.",
+      "description": "The component used for the track area of the org.apache.royale.jewel.HSlider.",
     "tags": [
     {  "tagName": "playerversion",
            "values": ["Flash 10.2", "AIR 2.6"]},
@@ -36,7 +36,7 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
-      "description": "The component used for the thumb button of the org.apache.royale.html.Slider.",
+      "description": "The component used for the thumb button of the org.apache.royale.jewel.HSlider.",
     "tags": [
     {  "tagName": "playerversion",
            "values": ["Flash 10.2", "AIR 2.6"]},

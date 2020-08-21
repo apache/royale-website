@@ -2,7 +2,7 @@
   "qname": "org.apache.royale.collections.FlattenedList",
   "baseClassname": "org.apache.royale.collections.ArrayList"
   ,
-    "description": "The FlattenedList class takes a HierarchicalData object and \\&quot;flattens\\&quot; it using all of the open members.",
+    "description": "The FlattenedList class takes a HierarchicalData object and &quot;flattens&quot; it using all of the open members.",
   "tags": [
   {  "tagName": "playerversion",
          "values": ["Flash 10.2", "AIR 2.6"]},
@@ -155,5 +155,25 @@
                "values": ["3.0"]}  ],
           "return": "int",
           "params": [{ "name": "node", "type": "Object"}]}
+      ,
+      { "type": "method",
+        "qname": "addItemAt",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "When adding items from outside FlattenedList, it needs to be added to the data structure as well.",
+          "return": "void",
+          "params": [{ "name": "item", "type": "Object"},
+        { "name": "index", "type": "int"}]}
+      ,
+      { "type": "method",
+        "qname": "removeItemAt",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "Object",
+          "params": [{ "name": "index", "type": "int"}]}
       ]
   }

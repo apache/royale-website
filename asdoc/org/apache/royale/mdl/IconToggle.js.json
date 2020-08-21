@@ -2,7 +2,7 @@
   "qname": "org.apache.royale.mdl.IconToggle",
   "baseClassname": "org.apache.royale.html.TextButton"
   ,
-    "description": "The Material Design Lite (MDL) icon-toggle component is an enhanced version of the standard HTML <input type=\\&quot;checkbox\\&quot;> element. An icon-toggle consists of a user defined icon that indicates, by visual highlighting, a binary condition that will be set or unset when the user clicks or touches it. Like checkboxes, icon-toggles may appear individually or in groups, and can be selected and deselected individually.  Icon toggles, particularly as a replacement for certain checkboxes, can be a valuable feature in user interfaces, regardless of a site's content or function.  The icon-toggle component can have a more customized visual look than a standard checkbox, and may be initially or programmatically disabled.",
+    "description": "The Material Design Lite (MDL) icon-toggle component is an enhanced version of the standard HTML <input type=&quot;checkbox&quot;> element. An icon-toggle consists of a user defined icon that indicates, by visual highlighting, a binary condition that will be set or unset when the user clicks or touches it. Like checkboxes, icon-toggles may appear individually or in groups, and can be selected and deselected individually.  Icon toggles, particularly as a replacement for certain checkboxes, can be a valuable feature in user interfaces, regardless of a site's content or function.  The icon-toggle component can have a more customized visual look than a standard checkbox, and may be initially or programmatically disabled.",
   "tags": [
   {  "tagName": "playerversion",
          "values": ["Flash 10.2", "AIR 2.6"]},
@@ -42,6 +42,8 @@
                "values": ["Flash 10.2", "AIR 2.6"]},
             {  "tagName": "productversion",
                "values": ["Royale 0.8"]},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.IToggleButtonModel"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]},
       { "type": "accessor",
@@ -68,7 +70,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A boolean flag to activate \\&quot;mdl-js-ripple-effect\\&quot; effect selector. Applies ripple click effect. May be used in combination with any other classes",
+          "description": "A boolean flag to activate &quot;mdl-js-ripple-effect&quot; effect selector. Applies ripple click effect. May be used in combination with any other classes",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

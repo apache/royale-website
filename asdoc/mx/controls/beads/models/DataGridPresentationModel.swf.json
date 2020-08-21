@@ -1,0 +1,39 @@
+{ "type": "class",
+  "qname": "mx.controls.beads.models.DataGridPresentationModel",
+  "baseClassname": "org.apache.royale.html.beads.models.DataGridPresentationModel"
+  ,
+    "description": "DataGrid Presentation Model",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.controls.beads.models.DataGridPresentationModel",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "Boolean",
+        "qname": "virtualized",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}}]
+  }

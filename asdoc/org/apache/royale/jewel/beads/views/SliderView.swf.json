@@ -2,7 +2,7 @@
   "qname": "org.apache.royale.jewel.beads.views.SliderView",
   "baseClassname": "org.apache.royale.core.BeadViewBase"
   ,
-    "description": "The SliderView class creates the visual elements of the org.apache.royale.jewel.Slider component. The Slider has a track and a thumb control which are also created with view beads.",
+    "description": "The SliderView class creates the visual elements of the org.apache.royale.jewel.HSlider component. The HSlider has a track and a thumb control which are also created with view beads.",
   "tags": [
   {  "tagName": "viewbead",
          "values": []},

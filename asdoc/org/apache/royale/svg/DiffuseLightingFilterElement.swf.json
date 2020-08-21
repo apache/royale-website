@@ -20,15 +20,6 @@
           "return": "",
           "params": []}
       ,
-      { "type": "method",
-        "qname": "build",
-        "namespace": "public",
-        "bindable": [],
-        "details": ["override"],
-        "deprecated": {},
-          "return": "void",
-          "params": []}
-      ,
       { "type": "accessor",
         "access": "read-write",
         "return": "Number",

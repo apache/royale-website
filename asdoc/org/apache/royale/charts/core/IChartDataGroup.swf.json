@@ -1,7 +1,7 @@
 { "type": "interface",
   "qname": "org.apache.royale.charts.core.IChartDataGroup",
 "baseInterfaceNames": [
-"org.apache.royale.core.IItemRendererParent", 
+"org.apache.royale.core.IItemRendererOwnerView", 
 "org.apache.royale.core.ILayoutView"]
 ,
     "description": "The IChartDataGroup is the interface for the parent element of chart itemRenderers.",

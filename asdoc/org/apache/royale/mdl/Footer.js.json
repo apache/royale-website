@@ -56,7 +56,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A boolean flag to activate \\&quot;mdl-mega-footer\\&quot; or \\&quot;mdl-mini-footer\\&quot; effect selector.",
+          "description": "A boolean flag to activate &quot;mdl-mega-footer&quot; or &quot;mdl-mini-footer&quot; effect selector.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

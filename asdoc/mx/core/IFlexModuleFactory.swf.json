@@ -36,7 +36,7 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
-      "description": "Returns a block of key/value pairs that hold static data known to the module. This method always succeeds, but can return an empty object.  contains information about the module or modules created by this factory; for example:  <pre> return {\\&quot;description\\&quot;: \\&quot;This module returns 42.\\&quot;}; </pre>  Other common values in the returned object include the following: <ul> <li><code>fonts</code>: A list of embedded font faces.</li> <li><code>rsls</code>: A list of run-time shared libraries.</li> <li><code>mixins</code>: A list of classes initialized at startup.</li> </ul>",
+      "description": "Returns a block of key/value pairs that hold static data known to the module. This method always succeeds, but can return an empty object.  contains information about the module or modules created by this factory; for example:  <pre>\\n return {&quot;description&quot;: &quot;This module returns 42.&quot;};\\n </pre>  Other common values in the returned object include the following: <ul> <li><code>fonts</code>: A list of embedded font faces.</li> <li><code>rsls</code>: A list of run-time shared libraries.</li> <li><code>mixins</code>: A list of classes initialized at startup.</li> </ul>",
     "tags": [
     {  "tagName": "playerversion",
            "values": ["Flash 9", "AIR 1.1"]},

@@ -2,7 +2,7 @@
   "qname": "mx.collections.ArrayList",
   "baseClassname": "org.apache.royale.events.EventDispatcher"
   ,
-    "description": "The ArrayList class is a simple implementation of IList that uses a backing Array as the source of the data.  Items in the backing Array can be accessed and manipulated using the methods and properties of the <code>IList</code> interface. Operations on an ArrayList instance modify the data source; for example, if you use the <code>removeItemAt()</code> method on an ArrayList, you remove the item from the underlying Array.  This base class will not throw ItemPendingErrors but it is possible that a subclass might.  <pre> &lt;mx:ArrayList <b>Properties</b> source=\\&quot;null\\&quot; /&gt; </pre>",
+    "description": "The ArrayList class is a simple implementation of IList that uses a backing Array as the source of the data.  Items in the backing Array can be accessed and manipulated using the methods and properties of the <code>IList</code> interface. Operations on an ArrayList instance modify the data source; for example, if you use the <code>removeItemAt()</code> method on an ArrayList, you remove the item from the underlying Array.  This base class will not throw ItemPendingErrors but it is possible that a subclass might.  <pre>\\n &lt;mx:ArrayList\\n <b>Properties</b>\\n source=&quot;null&quot;\\n /&gt;\\n </pre>",
   "tags": [
   {  "tagName": "playerversion",
          "values": ["Flash 10", "AIR 1.5"]},

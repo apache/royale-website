@@ -77,7 +77,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A boolean flag to activate \\&quot;mdl-js-ripple-effect\\&quot; effect selector. Applies ripple click effect. May be used in combination with any other classes",
+          "description": "A boolean flag to activate &quot;mdl-js-ripple-effect&quot; effect selector. Applies ripple click effect. May be used in combination with any other classes",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -108,8 +108,7 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {},
-          "description": "@export"},
+        "deprecated": {}},
       { "type": "accessor",
         "access": "read-write",
         "return": "Object",

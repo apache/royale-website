@@ -151,5 +151,14 @@
             {  "tagName": "productversion",
                "values": ["Royale 0.9"]},
             {  "tagName": "langversion",
-               "values": ["3.0"]}  ]}]
+               "values": ["3.0"]}  ]},
+      { "type": "method",
+        "qname": "collectionChangeHandler",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "event", "type": "mx.events.CollectionEvent"}]}
+      ]
   }

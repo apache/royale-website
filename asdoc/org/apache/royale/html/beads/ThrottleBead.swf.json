@@ -1,6 +1,6 @@
 { "type": "class",
   "qname": "org.apache.royale.html.beads.ThrottleBead",
-  "baseClassname": "org.apache.royale.events.EventDispatcher"
+  "baseClassname": "org.apache.royale.core.DispatcherBead"
   ,
     "description": "The ThrottleBead class allows you to listen to an event only after a timeout has been reached. This can be useful in situations where events are thrown repeatedly but the application is only interested in the last dispatching.",
   "tags": [
@@ -50,7 +50,7 @@
         "qname": "strand",
         "namespace": "public",
         "bindable": [],
-        "details": [],
+        "details": ["override"],
         "deprecated": {},
           "description": "",
         "tags": [
@@ -61,7 +61,19 @@
             {  "tagName": "productversion",
                "values": ["Royale 0.9"]},
             {  "tagName": "langversion",
-               "values": ["3.0"]}  ]}]
+               "values": ["3.0"]}  ]},
+      { "type": "accessor",
+        "access": "read-only",
+        "return": "org.apache.royale.events.IEventDispatcher",
+        "qname": "host",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.events.IEventDispatcher"]}  ]}]
   ,
   "events": [
   { "qname": "startingThrottle",

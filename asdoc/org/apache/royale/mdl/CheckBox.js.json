@@ -2,7 +2,7 @@
   "qname": "org.apache.royale.mdl.CheckBox",
   "baseClassname": "org.apache.royale.html.CheckBox"
   ,
-    "description": "The CheckBox class provides a MDL UI-like appearance for a CheckBox.  The Material Design Lite (MDL) checkbox component is an enhanced version of the standard HTML <input type=\\&quot;checkbox\\&quot;> element. A checkbox consists of a small square and, typically, text that clearly communicates a binary condition that will be set or unset when the user clicks or touches it. Checkboxes typically, but not necessarily, appear in groups, and can be selected and deselected individually. The MDL checkbox component allows you to add display and click effects.",
+    "description": "The CheckBox class provides a MDL UI-like appearance for a CheckBox.  The Material Design Lite (MDL) checkbox component is an enhanced version of the standard HTML <input type=&quot;checkbox&quot;> element. A checkbox consists of a small square and, typically, text that clearly communicates a binary condition that will be set or unset when the user clicks or touches it. Checkboxes typically, but not necessarily, appear in groups, and can be selected and deselected individually. The MDL checkbox component allows you to add display and click effects.",
   "tags": [
   {  "tagName": "playerversion",
          "values": ["Flash 10.2", "AIR 2.6"]},
@@ -77,7 +77,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A boolean flag to activate \\&quot;mdl-js-ripple-effect\\&quot; effect selector. Applies ripple click effect. May be used in combination with any other classes",
+          "description": "A boolean flag to activate &quot;mdl-js-ripple-effect&quot; effect selector. Applies ripple click effect. May be used in combination with any other classes",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

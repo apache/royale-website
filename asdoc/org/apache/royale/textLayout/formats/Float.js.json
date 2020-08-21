@@ -42,7 +42,7 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Graphic floats on the leading side of the text (left if paragraph direction is \\&quot;ltr\\&quot;, right if paragraph direction is \\&quot;rtl\\&quot;)."},
+          "description": "Graphic floats on the leading side of the text (left if paragraph direction is &quot;ltr&quot;, right if paragraph direction is &quot;rtl&quot;)."},
       { "type": "field",
         "qname": "END",
         "return": "String",
@@ -50,5 +50,5 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Graphic floats on the trailing side of the text (right if paragraph direction is \\&quot;ltr\\&quot;, left if paragraph direction is \\&quot;rtl\\&quot;)."}]
+          "description": "Graphic floats on the trailing side of the text (right if paragraph direction is &quot;ltr&quot;, left if paragraph direction is &quot;rtl&quot;)."}]
   }

@@ -39,5 +39,31 @@
           "description": "",
         "tags": [
         {  "tagName": "royaleignorecoercion",
-               "values": ["Class", "org.apache.royale.core.UIBase"]}  ]}]
+               "values": ["Class", "org.apache.royale.core.UIBase"]}  ]},
+      { "type": "method",
+        "qname": "setScrollStyle",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "Subclasses override this method to change scrolling behavior.  Since we can affect UIBase components (not only StyledUIBase) (for example and html:Div or html:Pre) we use className to set (we need to run computeFinalClassNames) and classList to remove.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.7"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "void",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "Boolean",
+        "qname": "clipContent",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Whether to apply a clip mask if the positions and/or sizes of this container's children extend outside the borders of this container.  If false, the children of this container remain visible when they are moved or sized outside the borders of this container. If true, the children of this container are clipped.  If clipContent is false, then scrolling is disabled for this container and scrollbars will not appear. If clipContent is true, then scrollbars will usually appear when the container's children extend outside the border of the container. For additional control over the appearance of scrollbars, see horizontalScrollPolicy and verticalScrollPolicy.  The default value is true."}]
   }

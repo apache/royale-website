@@ -37,13 +37,21 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.events.IEventDispatcher"]}  ]},
       { "type": "method",
         "qname": "layoutCompleteHandler",
         "namespace": "protected",
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.IStrand", "org.apache.royale.html.beads.IOneFlexibleChildLayout", "org.apache.royale.core.IRenderedObject"]}  ],
           "return": "void",
           "params": [{ "name": "event", "type": "org.apache.royale.events.Event"}]}
       ]

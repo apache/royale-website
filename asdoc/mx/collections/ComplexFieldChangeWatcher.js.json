@@ -22,7 +22,7 @@
           "params": []}
       ,
       { "type": "accessor",
-        "access": "read-write",
+        "access": "write-only",
         "return": "mx.collections.IList",
         "qname": "list",
         "namespace": "mx_internal",

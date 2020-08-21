@@ -29,6 +29,15 @@
           "params": []}
       ,
       { "type": "method",
+        "qname": "handleSizeChange",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "event", "type": "org.apache.royale.events.Event"}]}
+      ,
+      { "type": "method",
         "qname": "layout",
         "namespace": "public",
         "bindable": [],

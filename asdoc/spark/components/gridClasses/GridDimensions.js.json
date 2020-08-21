@@ -17,7 +17,7 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Inserts specified elements starting from startIndex.  <pre>Our implementation of: var argArray:Array = []; for each (var x:Number in values) { argArray.push(x); } argArray.splice(0, 0, startIndex, 0); vec.splice.apply(vec, argArray);</pre>",
+          "description": "Inserts specified elements starting from startIndex.  <pre>Our implementation of:\\n var argArray:Array = [];\\n for each (var x:Number in values)\\n {\\n argArray.push(x);\\n }\\n argArray.splice(0, 0, startIndex, 0);\\n vec.splice.apply(vec, argArray);</pre>",
         "tags": [
         {  "tagName": "param",
                "values": ["vec The vector to insert into.", "startIndex The index to insert at.", "elements The elements to be inserted."]},
@@ -429,7 +429,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Return the dimensions of a row that's being used to \\&quot;pad\\&quot; the grid by filling unused space below the last row in a layout where all rows are visible.  Pad rows have index >= rowCount, height = defaultRowHeight.",
+          "description": "Return the dimensions of a row that's being used to &quot;pad&quot; the grid by filling unused space below the last row in a layout where all rows are visible.  Pad rows have index >= rowCount, height = defaultRowHeight.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10", "AIR 2.0"]},

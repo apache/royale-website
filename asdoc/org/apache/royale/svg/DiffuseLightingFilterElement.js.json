@@ -26,6 +26,10 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["Element"]}  ],
           "return": "void",
           "params": []}
       ,

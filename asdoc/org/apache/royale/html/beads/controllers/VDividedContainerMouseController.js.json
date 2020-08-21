@@ -1,6 +1,6 @@
 { "type": "class",
   "qname": "org.apache.royale.html.beads.controllers.VDividedContainerMouseController",
-  "baseClassname": ""
+  "baseClassname": "org.apache.royale.core.Bead"
   ,
     "description": "This is the mouse controller for the VDividedContainer. This bead class tracks the mouse over a VDividedContainerDivider (its strand) causing the rows above and below it to grow and shrink.",
   "tags": [
@@ -34,10 +34,6 @@
         "qname": "strand",
         "namespace": "public",
         "bindable": [],
-        "details": [],
-        "deprecated": {},
-          "description": "",
-        "tags": [
-        {  "tagName": "copy",
-               "values": ["org.apache.royale.core.IStrand#strand"]}  ]}]
+        "details": ["override"],
+        "deprecated": {}}]
   }

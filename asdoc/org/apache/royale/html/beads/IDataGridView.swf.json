@@ -22,7 +22,7 @@
     "deprecated": {}},
   { "type": "accessor",
     "access": "read-only",
-    "return": "org.apache.royale.html.Container",
+    "return": "org.apache.royale.core.IUIBase",
     "qname": "listArea",
     "namespace": "public",
     "bindable": [],

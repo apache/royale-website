@@ -1,6 +1,6 @@
 { "type": "class",
   "qname": "org.apache.royale.html.beads.DataGridColumnChangePropagator",
-  "baseClassname": ""
+  "baseClassname": "org.apache.royale.core.Bead"
   ,
     "description": "The DataGridColumnChangePropagator picks up the dataProviderChanged event and lets the data grid columns know about it.",
   "tags": [
@@ -28,12 +28,8 @@
         "qname": "strand",
         "namespace": "public",
         "bindable": [],
-        "details": [],
-        "deprecated": {},
-          "description": "",
-        "tags": [
-        {  "tagName": "royaleignorecoercion",
-               "values": ["org.apache.royale.events.IEventDispatcher"]}  ]},
+        "details": ["override"],
+        "deprecated": {}},
       { "type": "method",
         "qname": "finishSetup",
         "namespace": "protected",

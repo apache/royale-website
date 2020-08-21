@@ -26,18 +26,5 @@
         { "name": "d", "type": "Number"},
         { "name": "tx", "type": "Number"},
         { "name": "ty", "type": "Number"}]}
-      ,
-      { "type": "method",
-        "qname": "createGradientBox",
-        "namespace": "public",
-        "bindable": [],
-        "details": [],
-        "deprecated": {},
-          "return": "void",
-          "params": [{ "name": "width", "type": "Number"},
-        { "name": "height", "type": "Number"},
-        { "name": "rotation", "type": "Number"},
-        { "name": "tx", "type": "Number"},
-        { "name": "ty", "type": "Number"}]}
       ]
   }

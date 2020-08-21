@@ -63,5 +63,18 @@
             {  "tagName": "royaleignorecoercion",
                "values": ["org.apache.royale.core.UIBase"]},
             {  "tagName": "langversion",
-               "values": ["3.0"]}  ]}]
+               "values": ["3.0"]}  ]},
+      { "type": "method",
+        "qname": "updateTextToRestriction",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "update the text in the input to the restriction pattern",
+        "tags": [
+        {  "tagName": "return",
+               "values": ["true if text changed, false otherwise"]}  ],
+          "return": "Boolean",
+          "params": []}
+      ]
   }

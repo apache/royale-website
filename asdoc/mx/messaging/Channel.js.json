@@ -229,7 +229,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Provides access to the protocol that the channel uses.  <p><b>Note:</b> Subclasses of Channel must override this method and return a string that represents their supported protocol. Examples of supported protocol strings are \\&quot;rtmp\\&quot;, \\&quot;http\\&quot; or \\&quot;https\\&quot;. </p>"},
+          "description": "Provides access to the protocol that the channel uses.  <p><b>Note:</b> Subclasses of Channel must override this method and return a string that represents their supported protocol. Examples of supported protocol strings are &quot;rtmp&quot;, &quot;http&quot; or &quot;https&quot;. </p>"},
       { "type": "accessor",
         "access": "read-only",
         "return": "Boolean",

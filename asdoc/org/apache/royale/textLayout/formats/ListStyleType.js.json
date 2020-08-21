@@ -18,7 +18,7 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Upper-case alphabetic \\&quot;numbering\\&quot;: A-Z, AA-ZZ, and so on.",
+          "description": "Upper-case alphabetic &quot;numbering&quot;: A-Z, AA-ZZ, and so on.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10", "AIR 1.5"]},
@@ -31,7 +31,7 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Lower-case alphabetic \\&quot;numbering\\&quot;: a-z, aa-zz, and so on.",
+          "description": "Lower-case alphabetic &quot;numbering&quot;: a-z, aa-zz, and so on.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10", "AIR 1.5"]},
@@ -421,7 +421,7 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Lower-case Greek alphabetic \\&quot;numering\\&quot;.",
+          "description": "Lower-case Greek alphabetic &quot;numering&quot;.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10", "AIR 1.5"]},
@@ -434,7 +434,7 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Lower-case alphabetic \\&quot;numbering\\&quot;: a-z, aa-zz, and so on.",
+          "description": "Lower-case alphabetic &quot;numbering&quot;: a-z, aa-zz, and so on.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10", "AIR 1.5"]},
@@ -447,7 +447,7 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Upper-case Greek alphabetic \\&quot;numering\\&quot;.",
+          "description": "Upper-case Greek alphabetic &quot;numering&quot;.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10", "AIR 1.5"]},
@@ -460,7 +460,7 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Upper-case alphabetic \\&quot;numbering\\&quot;: A-Z, AA-ZZ, and so on.",
+          "description": "Upper-case alphabetic &quot;numbering&quot;: A-Z, AA-ZZ, and so on.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10", "AIR 1.5"]},

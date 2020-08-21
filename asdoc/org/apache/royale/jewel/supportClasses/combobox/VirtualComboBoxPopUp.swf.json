@@ -1,0 +1,31 @@
+{ "type": "class",
+  "qname": "org.apache.royale.jewel.supportClasses.combobox.VirtualComboBoxPopUp",
+  "baseClassname": "org.apache.royale.jewel.supportClasses.combobox.ComboBoxPopUp"
+  ,
+    "description": "The VirtualComboBoxPopUp class is the popup that holds the VirtualList used internally by VirtualComboBox as the dropdown/popup.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.7"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.jewel.supportClasses.combobox.VirtualComboBoxPopUp",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.7"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ]
+  }

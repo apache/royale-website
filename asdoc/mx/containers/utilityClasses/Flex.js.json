@@ -66,7 +66,7 @@
             {  "tagName": "productversion",
                "values": ["Flex 3"]},
             {  "tagName": "return",
-               "values": ["When this function finishes executing, a &quot;size&quot; property"]},
+               "values": ["When this function finishes executing, a "size" property"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ],
           "return": "Number",

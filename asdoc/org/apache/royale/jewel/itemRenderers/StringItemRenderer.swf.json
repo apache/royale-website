@@ -1,6 +1,6 @@
 { "type": "class",
   "qname": "org.apache.royale.jewel.itemRenderers.StringItemRenderer",
-  "baseClassname": "org.apache.royale.html.supportClasses.DataItemRenderer"
+  "baseClassname": "org.apache.royale.html.supportClasses.StyledDataItemRenderer"
   ,
     "description": "The StringItemRenderer class displays data in string form using the data's toString() function.",
   "tags": [
@@ -85,6 +85,22 @@
                "values": ["Royale 0.9.4"]},
             {  "tagName": "royaleignorecoercion",
                "values": ["String"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]},
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "org.apache.royale.core.IItemRendererOwnerView",
+        "qname": "itemRendererOwnerView",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "The parent container for the itemRenderer instance.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.7"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
   }

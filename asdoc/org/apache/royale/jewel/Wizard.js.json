@@ -32,7 +32,7 @@
         {  "tagName": "see",
                "values": ["org.apache.royale.jewel.WizardContent.selectedContent"]},
             {  "tagName": "param",
-               "values": ["stepName, that is the &quot;id&quot; of the content (the WizardPage) to activate"]}  ],
+               "values": ["stepName, that is the "id" of the content (the WizardPage) to activate"]}  ],
           "return": "void",
           "params": [{ "name": "stepName", "type": "String"}]}
       ,

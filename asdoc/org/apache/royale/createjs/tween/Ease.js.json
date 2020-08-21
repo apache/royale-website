@@ -477,7 +477,7 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Configurable \\&quot;back in\\&quot; ease.",
+          "description": "Configurable &quot;back in&quot; ease.",
         "tags": [
         {  "tagName": "static",
                "values": []},
@@ -527,7 +527,7 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Configurable \\&quot;back out\\&quot; ease.",
+          "description": "Configurable &quot;back out&quot; ease.",
         "tags": [
         {  "tagName": "static",
                "values": []},
@@ -577,7 +577,7 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Configurable \\&quot;back in out\\&quot; ease.",
+          "description": "Configurable &quot;back in out&quot; ease.",
         "tags": [
         {  "tagName": "static",
                "values": []},

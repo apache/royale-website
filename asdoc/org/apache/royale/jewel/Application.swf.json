@@ -2,10 +2,10 @@
   "qname": "org.apache.royale.jewel.Application",
   "baseClassname": "org.apache.royale.core.ApplicationBase"
   ,
-    "description": "Jewel Application holds specific Jewel need in a Royale Application.  This class extends the standard Application and sets up the AllCSSValuesImpl (implementation) for convenience.  The Application class is the main class and entry point for a Royale application.  This Application class is different than the Flex SDK's mx:Application or spark:Application in that it does not contain user interface elements.  Those UI elements go in the views (ViewBase).  This Application class expects there to be a main model, a controller, and an initial view.",
+    "description": "The Application class is the main class and entry point for a Royale application and does not contain user interface elements. Those UI elements go in the view (Jewel ViewBase).  This Application class expects there to be a main model, a controller, and an initial view.  Jewel Application holds specific Jewel needs in a Royale Application. This class extends the standard ApplicationBase and sets up the AllCSSValuesImpl implementation for convenience.",
   "tags": [
   {  "tagName": "see",
-         "values": ["ViewBase"]},
+         "values": ["org.apache.royale.jewel.supportClasses.view.ViewBase", "org.apache.royale.core.ApplicationBase", "org.apache.royale.core.AllCSSValuesImpl"]},
       {  "tagName": "playerversion",
          "values": ["Flash 10.2", "AIR 2.6"]},
       {  "tagName": "productversion",

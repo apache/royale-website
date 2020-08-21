@@ -107,7 +107,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A boolean flag to activate \\&quot;mdl-textfield--floating-label\\&quot; effect selector. Applies floating label effect.",
+          "description": "A boolean flag to activate &quot;mdl-textfield--floating-label&quot; effect selector. Applies floating label effect.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -123,7 +123,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A boolean flag to activate \\&quot;is-invalid\\&quot; effect selector. Defines the textfield as invalid on initial load. Optional",
+          "description": "A boolean flag to activate &quot;is-invalid&quot; effect selector. Defines the textfield as invalid on initial load. Optional",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

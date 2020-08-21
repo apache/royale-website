@@ -1,0 +1,15 @@
+{ "type": "class",
+  "qname": "mx.utils.ByteArray",
+  "baseClassname": "flash.utils.ByteArray"
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "ByteArray",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ]
+  }

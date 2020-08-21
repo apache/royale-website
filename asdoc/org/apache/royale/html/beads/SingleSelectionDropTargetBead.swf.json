@@ -50,7 +50,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The direction the drop indicator should display. \\&quot;horizontal\\&quot; (default) or \\&quot;vertical\\&quot;.",
+          "description": "The direction the drop indicator should display. &quot;horizontal&quot; (default) or &quot;vertical&quot;.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -76,7 +76,9 @@
           "description": "",
         "tags": [
         {  "tagName": "private",
-               "values": []}  ]}]
+               "values": []},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.html.beads.IDrawingLayerBead"]}  ]}]
   ,
   "events": [
   { "qname": "enter",
@@ -115,7 +117,7 @@
       { "qname": "drop",
         "type": "org.apache.royale.events.Event"
       ,
-          "description": "The drop event is dispatched just prior to incorporating the drag source data into the drop target's dataProvider. This event may be cancelled to prevent that from happening. Note that a \\&quot;exit\\&quot; event always precedes this event to allow any drag-drop graphics to be cleared.",
+          "description": "The drop event is dispatched just prior to incorporating the drag source data into the drop target's dataProvider. This event may be cancelled to prevent that from happening. Note that a &quot;exit&quot; event always precedes this event to allow any drag-drop graphics to be cleared.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

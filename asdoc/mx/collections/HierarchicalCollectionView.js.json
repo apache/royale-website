@@ -2,7 +2,7 @@
   "qname": "mx.collections.HierarchicalCollectionView",
   "baseClassname": "org.apache.royale.events.EventDispatcher"
   ,
-    "description": "The HierarchicalCollectionView class provides a hierarchical view of a standard collection.   The <code>&lt;mx.HierarchicalCollectionView&gt;</code> inherits all the tag attributes of its superclass, and defines the following tag attributes:</p>  <pre> &lt;mx:HierarchicalCollectionView <b>Properties </b> showRoot=\\&quot;true|false\\&quot; source=\\&quot;<i>No default</i>\\&quot; /&gt; </pre>",
+    "description": "The HierarchicalCollectionView class provides a hierarchical view of a standard collection.   The <code>&lt;mx.HierarchicalCollectionView&gt;</code> inherits all the tag attributes of its superclass, and defines the following tag attributes:</p>  <pre>\\n &lt;mx:HierarchicalCollectionView\\n <b>Properties </b>\\n showRoot=&quot;true|false&quot;\\n source=&quot;<i>No default</i>&quot;\\n /&gt;\\n </pre>",
   "tags": [
   {  "tagName": "mxml",
          "values": []},

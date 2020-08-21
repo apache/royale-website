@@ -84,6 +84,23 @@
                "values": ["3.0"]}  ],
           "return": "void",
           "params": [{ "name": "event", "type": "org.apache.royale.events.Event"}]}
+      ,
+      { "type": "method",
+        "qname": "enterEventHandler",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "dispatch change event in response to a textChange event",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.7"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "void",
+          "params": [{ "name": "event", "type": "org.apache.royale.events.KeyboardEvent"}]}
       ]
   ,
   "events": [
@@ -96,6 +113,19 @@
                "values": ["Flash 10.2", "AIR 2.6"]},
             {  "tagName": "productversion",
                "values": ["Royale 0.9.4"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]},
+      { "qname": "enter",
+        "type": "org.apache.royale.events.Event"
+      ,
+          "description": "Dispatched when the user presses the Enter key.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "eventType",
+               "values": ["org.apache.royale.events.utils.WhitespaceKeys.ENTER"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.7"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
   }

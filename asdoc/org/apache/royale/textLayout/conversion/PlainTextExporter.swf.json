@@ -2,7 +2,7 @@
   "qname": "org.apache.royale.textLayout.conversion.PlainTextExporter",
   "baseClassname": "org.apache.royale.textLayout.conversion.ConverterBase"
   ,
-    "description": "Export converter for plain text format. This class provides an alternative to the <code>TextConverter.export()</code> static method for exporting plain text. The PlainTextExporter class's <code>export()</code> method results in the same output string as the <code>TextConverter.export()</code> static method if the two properties of the PlainTextExporter class, the <code>PARAGRAPH_SEPARATOR_PROPERTY</code> and the <code>STRIP_DISCRETIONARY_HYPHENS_PROPERTY</code> properties, contain their default values of <code>\\&quot;\\n\\&quot;</code> and <code>true</code>, respectively.",
+    "description": "Export converter for plain text format. This class provides an alternative to the <code>TextConverter.export()</code> static method for exporting plain text. The PlainTextExporter class's <code>export()</code> method results in the same output string as the <code>TextConverter.export()</code> static method if the two properties of the PlainTextExporter class, the <code>PARAGRAPH_SEPARATOR_PROPERTY</code> and the <code>STRIP_DISCRETIONARY_HYPHENS_PROPERTY</code> properties, contain their default values of <code>&quot;\\n&quot;</code> and <code>true</code>, respectively.",
   "tags": [
   {  "tagName": "playerversion",
          "values": ["Flash 10", "AIR 1.5"]},

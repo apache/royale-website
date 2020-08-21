@@ -1,0 +1,40 @@
+{ "type": "class",
+  "qname": "org.apache.royale.jewel.beads.itemRenderers.TabBarItemRendererInitializer",
+  "baseClassname": "org.apache.royale.jewel.beads.itemRenderers.ListItemRendererInitializer"
+  ,
+    "description": "The TabBarItemRendererInitializer class initializes item renderers in TabBar component.  By Default this works the same as ListItemRendererInitializer, but create a placeholder for it.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.7"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.jewel.beads.itemRenderers.TabBarItemRendererInitializer",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.7"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "setPaddings",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "ir", "type": "org.apache.royale.core.IStrand"}]}
+      ]
+  }

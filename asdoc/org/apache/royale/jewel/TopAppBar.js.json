@@ -51,7 +51,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A boolean flag to activate \\&quot;fixed\\&quot; effect selector. Optional. Makes the header always visible.",
+          "description": "A boolean flag to activate &quot;fixed&quot; effect selector. Optional. Makes the header always visible.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

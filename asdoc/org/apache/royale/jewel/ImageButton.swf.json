@@ -2,7 +2,7 @@
   "qname": "org.apache.royale.jewel.ImageButton",
   "baseClassname": "org.apache.royale.jewel.Button"
   ,
-    "description": "The ImageButton class presents an image as a button. In html is an input type=\\&quot;image\\&quot;, this shows the hand pointer cursor",
+    "description": "The ImageButton class presents an image as a button. In html is an input type=&quot;image&quot;, this shows the hand pointer cursor",
   "tags": [
   {  "tagName": "toplevel",
          "values": []},
@@ -24,7 +24,7 @@
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
             {  "tagName": "productversion",
-               "values": ["Royale 0.0"]},
+               "values": ["Royale 0.9.4"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ],
           "return": "",

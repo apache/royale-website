@@ -274,7 +274,7 @@
         "return": "int",
         "qname": "length",
         "namespace": "public",
-        "bindable": [],
+        "bindable": ["lengthChanged"],
         "details": [],
         "deprecated": {},
           "description": "The number of items.",

@@ -3,7 +3,8 @@
 "baseInterfaceNames": [
 "mx.core.IFlexDisplayObject", 
 "org.apache.royale.core.IChild", 
-"org.apache.royale.core.IUIBase"]
+"org.apache.royale.core.IUIBase", 
+"mx.core.IChildList"]
 ,
     "description": "The IUIComponent interface defines the basic set of APIs that you must implement to create a child of a Flex container or list.",
   "tags": [
@@ -470,6 +471,6 @@
         {  "tagName": "langversion",
            "values": ["3.0"]}  ],
       "return": "Boolean",
-      "params": [{ "name": "displayObject", "type": "mx.core.IUIComponent"}]}
+      "params": [{ "name": "displayObject", "type": "org.apache.royale.core.IUIBase"}]}
   ]
   }
