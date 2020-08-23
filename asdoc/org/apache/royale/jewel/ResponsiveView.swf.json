@@ -1,8 +1,8 @@
 { "type": "class",
-  "qname": "org.apache.royale.jewel.supportClasses.bar.BarRow",
-  "baseClassname": "org.apache.royale.jewel.Group"
+  "qname": "org.apache.royale.jewel.ResponsiveView",
+  "baseClassname": "org.apache.royale.jewel.View"
   ,
-    "description": "The BarRow class is a container to organize content in a row. Is used with Bar, TopAppBar or CardHeader and CardActions. It represent a row. More than one row can be suported.",
+    "description": "The ResponsiveView class is the main Container component capable of parenting other components in a responsive Jewel Application.  ResponsiveView doesn't need to specify `width` and `height` since are sized 100% in both directions by default. In this way we can use the width of the application container to apply responsive rules on any part of the application.  It normaly can host a TopAppBar, a Drawer and a Container with other organized content for navigation",
   "tags": [
   {  "tagName": "playerversion",
          "values": ["Flash 10.2", "AIR 2.6"]},
@@ -12,7 +12,7 @@
          "values": ["3.0"]}  ],
   "members": [
   { "type": "method",
-        "qname": "org.apache.royale.jewel.supportClasses.bar.BarRow",
+        "qname": "org.apache.royale.jewel.ResponsiveView",
         "namespace": "",
         "bindable": [],
         "details": [],

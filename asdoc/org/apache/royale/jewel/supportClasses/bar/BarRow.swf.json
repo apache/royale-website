@@ -2,7 +2,7 @@
   "qname": "org.apache.royale.jewel.supportClasses.bar.BarRow",
   "baseClassname": "org.apache.royale.jewel.Group"
   ,
-    "description": "The BarRow class is a container component used with Bar or TopAppBar It represent a row. Bar and TopAppBar supports more than one row",
+    "description": "The BarRow class is a container to organize content in a row. Is used with Bar, TopAppBar or CardHeader and CardActions. It represent a row. More than one row can be suported.",
   "tags": [
   {  "tagName": "playerversion",
          "values": ["Flash 10.2", "AIR 2.6"]},

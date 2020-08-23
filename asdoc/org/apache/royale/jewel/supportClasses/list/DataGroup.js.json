@@ -2,7 +2,7 @@
   "qname": "org.apache.royale.jewel.supportClasses.list.DataGroup",
   "baseClassname": "org.apache.royale.jewel.DataContainer"
   ,
-    "description": "The DataGroup class is the IItemRendererOwnerView used internally by org.apache.royale.jewel.List class.",
+    "description": "The DataGroup class is the IItemRendererOwnerView used internally by org.apache.royale.jewel.List class.  Unlike Flex, this component is only used by List in the SWF platform. In JS you should use a Jewel DataContainer",
   "tags": [
   {  "tagName": "toplevel",
          "values": []},

@@ -2,9 +2,11 @@
   "qname": "org.apache.royale.jewel.View",
   "baseClassname": "org.apache.royale.jewel.supportClasses.view.ViewBase"
   ,
-    "description": "The View class is the class for most views in a Royale application.  It is generally used as the root tag of MXML documents and UI controls and containers are added to it.",
+    "description": "The View class is the class used as the initialView in a Royale Jewel Application.  It is generally used as the root tag of MXML documents and UI controls and containers are added to it.  For responsive applications you can use ResponsiveView instead.",
   "tags": [
-  {  "tagName": "playerversion",
+  {  "tagName": "see",
+         "values": ["org.apache.royale.jewel.ResponsiveView"]},
+      {  "tagName": "playerversion",
          "values": ["Flash 10.2", "AIR 2.6"]},
       {  "tagName": "productversion",
          "values": ["Royale 0.9.4"]},
@@ -64,7 +66,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "",
+          "description": "The array of childs for this view. Is the `DefaultProperty`.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

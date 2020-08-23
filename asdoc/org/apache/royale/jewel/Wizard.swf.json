@@ -2,7 +2,10 @@
   "qname": "org.apache.royale.jewel.Wizard",
   "baseClassname": "org.apache.royale.jewel.Group"
   ,
-    "description": "",
+    "description": "Wizard is a container that navigates from one content to the next. The content is organized in wizard pages It can provide previous and next navigation buttons",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["org.apache.royale.jewel.WizardPage"]}  ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.jewel.Wizard",
