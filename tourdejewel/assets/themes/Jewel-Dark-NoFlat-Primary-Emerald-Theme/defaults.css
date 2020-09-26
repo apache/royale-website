@@ -371,7 +371,7 @@ hr {
   border-bottom: 1px solid #c3c3c3;
   padding: 12px 20px;
 }
-.jewel.card .card-header .card-title {
+.jewel.card .card-title {
   font-size: 1.5em;
   margin: 0.408rem 0rem;
   letter-spacing: 0.0125em;
@@ -463,6 +463,19 @@ j|CardActions {
   background: url("data:image/svg+xml,%3Csvg viewBox='0 0 12 8' version='1.1' xmlns='http://www.w3.org/2000/svg'%3E%3Cg stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg transform='translate(0.000000, -1.000000)' fill='%23191919' fill-rule='nonzero'%3E%3Cg transform='translate(-2.000000, 0.000000)'%3E%3Cpolygon transform='translate(8.000000, 4.705000) scale(1, -1) translate(-8.000000, -4.705000) ' points='3.41 8.41 8 3.83 12.59 8.41 14 7 8 1 2 7'%3E%3C/polygon%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E") no-repeat center center;
 }
 
+.jewel.datagrid {
+  background: linear-gradient(#7f7f7f, #737373);
+  border-bottom: 1px solid #333333;
+  box-shadow: inset 0 1px 0 #8c8c8c;
+  border-radius: 0.25rem;
+}
+.jewel.datagrid .jewel.buttonbar.header {
+  background: linear-gradient(#737373, #666666);
+  border: 0 none;
+  box-shadow: none;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
 .jewel.datagrid .jewel.buttonbar.header .jewel.button.first {
   border-bottom-left-radius: 0;
 }
@@ -473,7 +486,7 @@ j|CardActions {
   border-top-width: 0px;
   border-left-width: 0px;
   border-right-width: 0px;
-  border-bottom-width: 1px;
+  border-bottom-width: 0px;
   border-bottom-left-radius: 0.25rem;
   border-bottom-right-radius: 0.25rem;
   border-style: solid;
@@ -488,7 +501,7 @@ j|CardActions {
 .jewel.datagrid .jewel.list.column {
   border-radius: 0px;
   border-bottom-width: 0px;
-  box-shadow: inset 0px 0.5px 0px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.1);
 }
 .jewel.datagrid .jewel.list.column.first {
   border-bottom-left-radius: 0.25rem;
@@ -497,7 +510,13 @@ j|CardActions {
   border-bottom-right-radius: 0.25rem;
 }
 .jewel.datagrid .jewel.list.column .jewel.item.datagrid {
+  border-top: none;
+  border-left: none;
+  border-right: none;
   border-bottom: 1px solid #6d6d6d;
+  border-right: 0;
+  border-radius: 0;
+  box-shadow: none;
 }
 .jewel.datagrid .jewel.list.column .jewel.item.datagrid.primary.hovered {
   background: #a8d46b;
@@ -1155,8 +1174,12 @@ j|FormItem {
     border-radius: 0px;
   }
 }
-.jewel.tabbar.sameWidths .content > * {
-  flex: 1 0 0%;
+.jewel.tabbar.sameWidths > * {
+  flex: 1 0 0% !important;
+}
+
+j|TabBar {
+  itemsExpand: true;
 }
 
 .jewel.tabbarbutton {
@@ -1172,12 +1195,7 @@ j|FormItem {
   font-weight: 600;
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
-.jewel.tabbarbutton > .content {
-  padding-top: 12px;
-  padding-bottom: 12px;
-}
-.jewel.tabbarbutton .indicator > .indicatorContent {
-  height: 2px;
+.jewel.tabbarbutton .indicator > .indicator-content {
   background-color: #8CC63C;
 }
 .jewel.tabbarbutton.hovered {
@@ -1186,6 +1204,13 @@ j|FormItem {
 .jewel.tabbarbutton.selected, .jewel.tabbarbutton.selectable:active {
   color: #638c29;
   background: rgba(140, 198, 60, 0.4);
+}
+
+.jewel.tabbar.layout.horizontal .indicator > .indicator-content {
+  height: 2px;
+}
+.jewel.tabbar.layout.vertical .indicator > .indicator-content {
+  width: 2px;
 }
 
 .jewel.simpletable {
@@ -1358,6 +1383,81 @@ div {
   font-size: 14px;
 }
 
+@media (min-width: 992px) and (max-width: 1200px) {
+  .jewel {
+    font-size: 100%;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  h3 {
+    font-size: 1.5em;
+  }
+
+  h4 {
+    font-size: 1.25em;
+  }
+
+  h5 {
+    font-size: 1em;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .jewel {
+    font-size: 99%;
+  }
+
+  h1 {
+    font-size: 1.9em;
+  }
+
+  h2 {
+    font-size: 1.9em;
+  }
+
+  h3 {
+    font-size: 1.4em;
+  }
+
+  h4 {
+    font-size: 1.1em;
+  }
+
+  h5 {
+    font-size: 0.98em;
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .jewel {
+    font-size: 97%;
+  }
+
+  h1 {
+    font-size: 1.7em;
+  }
+
+  h2 {
+    font-size: 1.7em;
+  }
+
+  h3 {
+    font-size: 1.3em;
+  }
+
+  h4 {
+    font-size: 1em;
+  }
+
+  h5 {
+    font-size: 0.97em;
+  }
+}
 .jewel.textinput {
   font-weight: 400;
   color: #FFFFFF;
