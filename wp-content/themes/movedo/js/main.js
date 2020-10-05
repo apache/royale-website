@@ -2844,7 +2844,8 @@ if( 1 == movedo_grve_main_data.device_animations ) {
 
 			var headerHeight   = $('#grve-header').length && $('#grve-header').attr('data-sticky-header') != 'none' && !$('#grve-main-header').hasClass('grve-header-side') ? $('#grve-main-header').outerHeight() : 0,
 				anchorBarHeight = $('.grve-anchor-menu').length ? $('.grve-anchor-menu').outerHeight() : 0,
-				offsetTop      = headerHeight + anchorBarHeight + wpBarHeight,
+				topbarH         = $('#grve-top-bar').length && ( $('#grve-top-bar').hasClass('grve-sticky-topbar') || $('#grve-top-bar').hasClass('grve-device-sticky-topbar') ) ? $('#grve-top-bar').outerHeight() : 0,
+				offsetTop      = headerHeight + anchorBarHeight + topbarH + wpBarHeight,
 				scroll         = $(window).scrollTop();
 
 			$section.each(function(){

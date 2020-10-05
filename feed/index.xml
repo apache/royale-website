@@ -12,14 +12,31 @@
 	<atom:link href="//royale.apache.org/feed/" rel="self" type="application/rss+xml" />
 	<link>//royale.apache.org/</link>
 	<description>Code once. Run everywhere</description>
-	<lastBuildDate>Thu, 13 Aug 2020 14:25:00 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 02 Oct 2020 15:56:03 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.5</generator>
+	<generator>https://wordpress.org/?v=5.5.1</generator>
 	<item>
+		<title>Royale at ApacheCon 2020</title>
+		<link>//royale.apache.org/royale-at-apachecon-2020/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=royale-at-apachecon-2020</link>
+		
+		<dc:creator><![CDATA[Andrew Wetmore]]></dc:creator>
+		<pubDate>Fri, 02 Oct 2020 15:40:38 +0000</pubDate>
+				<category><![CDATA[General]]></category>
+		<category><![CDATA[Presentations]]></category>
+		<guid isPermaLink="false">//royale.apache.org/?p=16404</guid>
+
+					<description><![CDATA[<p>The Apache Software Foundation (ASF) held its annual convention, ApacheCon, September 29-October 1, 2020. Apache Royale was among them, with presenters in Pakistan, Spain, and Canada.</p>
+<p>The post <a rel="nofollow" href="//royale.apache.org/royale-at-apachecon-2020/">Royale at ApacheCon 2020</a> appeared first on <a rel="nofollow" href="//royale.apache.org/">Apache Royale™</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
 		<title>Using Jewel TileHorizontalLayout</title>
 		<link>//royale.apache.org/using-jewel-tilehorizontallayout/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=using-jewel-tilehorizontallayout</link>
 					<comments>//royale.apache.org/using-jewel-tilehorizontallayout/#respond</comments>
@@ -239,35 +256,6 @@
 ]]></description>
 		
 					<wfw:commentRss>//royale.apache.org/hello-node-how-to-transpile-actionscript-for-node-js/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Loading external data through HTTPService</title>
-		<link>//royale.apache.org/loading-external-data-through-httpservice/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=loading-external-data-through-httpservice</link>
-					<comments>//royale.apache.org/loading-external-data-through-httpservice/#respond</comments>
-		
-		<dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
-		<pubDate>Sun, 23 Sep 2018 09:16:43 +0000</pubDate>
-				<category><![CDATA[Jewel UI Set]]></category>
-		<category><![CDATA[Royale Examples]]></category>
-		<category><![CDATA[j: HorizontalCenteredLayout]]></category>
-		<category><![CDATA[j:Alert]]></category>
-		<category><![CDATA[j:Application]]></category>
-		<category><![CDATA[j:Button]]></category>
-		<category><![CDATA[j:HorizontalLayout]]></category>
-		<category><![CDATA[j:Label]]></category>
-		<category><![CDATA[j:ScrollingViewport]]></category>
-		<category><![CDATA[js:HTTPService]]></category>
-		<category><![CDATA[JSON]]></category>
-		<guid isPermaLink="false">//royale.apache.org/?p=15834</guid>
-
-					<description><![CDATA[<p>Learn how to use the HTTPService to access external data in your Apache Royale application. We'll access Github API services to get JSON formatted data.</p>
-<p>The post <a rel="nofollow" href="//royale.apache.org/loading-external-data-through-httpservice/">Loading external data through HTTPService</a> appeared first on <a rel="nofollow" href="//royale.apache.org/">Apache Royale™</a>.</p>
-]]></description>
-		
-					<wfw:commentRss>//royale.apache.org/loading-external-data-through-httpservice/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

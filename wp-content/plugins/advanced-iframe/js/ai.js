@@ -1718,6 +1718,7 @@ jQuery(document).ready(function() {
 	// wordpress adds often p elements that have margins we remove here. 
 	jQuery('iframe').parent('p').css('margin','0');
 	
+	aiWindowWidth = jQuery(window).width();
     jQuery.each(aiReadyCallbacks, function(index, callback){
       callback();
     });

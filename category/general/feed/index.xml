@@ -12,14 +12,31 @@
 	<atom:link href="//royale.apache.org/category/general/feed/" rel="self" type="application/rss+xml" />
 	<link>//royale.apache.org/</link>
 	<description>Code once. Run everywhere</description>
-	<lastBuildDate>Fri, 10 Nov 2017 23:28:07 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 02 Oct 2020 15:56:03 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.5</generator>
+	<generator>https://wordpress.org/?v=5.5.1</generator>
 	<item>
+		<title>Royale at ApacheCon 2020</title>
+		<link>//royale.apache.org/royale-at-apachecon-2020/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=royale-at-apachecon-2020</link>
+		
+		<dc:creator><![CDATA[Andrew Wetmore]]></dc:creator>
+		<pubDate>Fri, 02 Oct 2020 15:40:38 +0000</pubDate>
+				<category><![CDATA[General]]></category>
+		<category><![CDATA[Presentations]]></category>
+		<guid isPermaLink="false">//royale.apache.org/?p=16404</guid>
+
+					<description><![CDATA[<p>The Apache Software Foundation (ASF) held its annual convention, ApacheCon, September 29-October 1, 2020. Apache Royale was among them, with presenters in Pakistan, Spain, and Canada.</p>
+<p>The post <a rel="nofollow" href="//royale.apache.org/royale-at-apachecon-2020/">Royale at ApacheCon 2020</a> appeared first on <a rel="nofollow" href="//royale.apache.org/">Apache Royale™</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
 		<title>Welcome to Apache Royale!</title>
 		<link>//royale.apache.org/welcome-to-apache-royale/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=welcome-to-apache-royale</link>
 					<comments>//royale.apache.org/welcome-to-apache-royale/#respond</comments>
