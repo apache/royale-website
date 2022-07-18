@@ -20,6 +20,8 @@ jobs:
       - name: Deploy to asf-staging
         if: ${{ github.repository_owner == 'apache' && github.event_name != 'pull_request' && github.ref_name == '11ty' }}
         run: |
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'dev@royale.apache.org'
           git fetch
           git checkout asf-staging
           cp -a _site/. .
