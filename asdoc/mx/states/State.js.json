@@ -1,0 +1,54 @@
+{ "type": "class",
+  "qname": "mx.states.State",
+  "baseClassname": "org.apache.royale.states.State"
+  ,
+    "description": "The State class defines a view state, a particular view of a component. For example, a product thumbnail could have two view states; a base view state with minimal information, and a rich view state with additional information. The <code>overrides</code> property specifies a set of child classes to add or remove from the base view state, and properties, styles, and event handlers to set when the view state is in effect.  <p>You use the State class in the <code>states</code> property of Flex components. You can only specify a <code>states</code> property at the root of an application or a custom control, not on child controls.</p>  <p>You enable a view state by setting a component's <code>currentState</code> property.</p>  <p>The <code>&lt;mx:State&gt;</code> tag has the following attributes:</p>  <pre>\\n &lt;mx:State\\n <b>Properties</b>\\n basedOn=&quot;null&quot;\\n name=&quot;null&quot;\\n overrides=&quot;null&quot;\\n /&gt;\\n </pre>",
+  "tags": [
+  {  "tagName": "includeExample",
+         "values": ["examples/StatesExample.mxml"]},
+      {  "tagName": "see",
+         "values": ["mx.states.AddChild", "mx.states.RemoveChild", "mx.states.SetEventHandler", "mx.states.SetProperty", "mx.states.SetStyle", "mx.states.Transition"]},
+      {  "tagName": "mxml",
+         "values": []},
+      {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.states.State",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.   the display list hierarchy.  associated with the event can be prevented.",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["type The event type; indicates the action that caused the event.", "bubbles Specifies whether the event can bubble up", "cancelable Specifies whether the behavior"]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": [{ "name": "properties", "type": "Object"}]}
+      ]
+  ,
+  "events": [
+  { "qname": "exitState",
+        "type": "mx.events.FlexEvent"
+      ,
+          "description": "Dispatched just before a view state is exited. This event is dispatched before the changes to the default view state have been removed.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "eventType",
+               "values": ["mx.events.FlexEvent.EXIT_STATE"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  }

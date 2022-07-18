@@ -1,0 +1,40 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.formats.ListStylePosition",
+  "baseClassname": ""
+  ,
+    "description": "Defines values for setting the <code>listStylePosition</code> property. These values control the placement of a list item marker relative to the list item.",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["TextLayoutFormat#listStylePosition"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10", "AIR 1.5"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "field",
+        "qname": "INSIDE",
+        "return": "String",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "Marker will appear inline with the list item. This style position lets you include trailing spaces.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10", "AIR 1.5"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]},
+      { "type": "field",
+        "qname": "OUTSIDE",
+        "return": "String",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "Marker will appear in the margin of the list. This style position does not recognize trailing spaces.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10", "AIR 1.5"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  }

@@ -1,0 +1,42 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.graphics.ICircle",
+"baseInterfaceNames": [
+"org.apache.royale.graphics.IGraphicShape"]
+,
+  "members": [
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "Number",
+    "qname": "radius",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "The size of the circle's radius.",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 9", "AIR 1.1"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.8"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]},
+  { "type": "method",
+    "qname": "drawCircle",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "Draws the circle. (The same behavior as the default draw() method, but requires specifying the center x and y and radius explicitly.)",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 9", "AIR 1.1"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.8"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ],
+      "return": "void",
+      "params": [{ "name": "cx", "type": "Number"},
+    { "name": "cy", "type": "Number"},
+    { "name": "radius", "type": "Number"}]}
+  ]
+  }

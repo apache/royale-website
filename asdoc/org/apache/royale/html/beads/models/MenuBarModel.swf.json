@@ -1,0 +1,32 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.beads.models.MenuBarModel",
+  "baseClassname": "org.apache.royale.html.beads.models.ArraySelectionModel"
+  ,
+    "description": "The model used by the MenuBar.",
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html.beads.models.MenuBarModel",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "String",
+        "qname": "submenuField",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "The field in the data object that identifies sub-menus. The default is &quot;menu&quot;. This value is transferred to the CascadingMenu opened for each menu item.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  }

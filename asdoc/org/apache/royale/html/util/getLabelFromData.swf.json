@@ -1,0 +1,17 @@
+{ "type": "method",
+  "qname": "org.apache.royale.html.util.getLabelFromData",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "Utility function to get a label string from a value object",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+    "return": "String",
+    "params": [{ "name": "obj", "type": "Object"},
+  { "name": "data", "type": "Object"}]}

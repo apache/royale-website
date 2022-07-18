@@ -1,0 +1,143 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.Button",
+  "baseClassname": "org.apache.royale.html.ButtonBase"
+  ,
+    "description": "The Button class is a simple button.  Use TextButton for buttons that should show text.  This is the lightest weight button used for non-text buttons like the arrow buttons in a Scrollbar or NumericStepper.  The most common view for this button is CSSButtonView that allows you to specify a backgroundImage in CSS that defines the look of the button.  However, when used in ScrollBar and when composed in many other components, it is more common to assign a custom view to the button.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html.Button",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ]
+  ,
+  "events": [
+  { "qname": "click",
+        "type": "org.apache.royale.events.MouseEvent"
+      ,
+          "description": "Dispatched when the user clicks on a button.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]},
+      { "qname": "rollOver",
+        "type": "org.apache.royale.events.MouseEvent"
+      ,
+          "description": "Set a different class for rollOver events so that there aren't dependencies on the flash classes on the JS side.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]},
+      { "qname": "rollOut",
+        "type": "org.apache.royale.events.MouseEvent"
+      ,
+          "description": "Set a different class for rollOut events so that there aren't dependencies on the flash classes on the JS side.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]},
+      { "qname": "mouseDown",
+        "type": "org.apache.royale.events.MouseEvent"
+      ,
+          "description": "Set a different class for mouseDown events so that there aren't dependencies on the flash classes on the JS side.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]},
+      { "qname": "mouseUp",
+        "type": "org.apache.royale.events.MouseEvent"
+      ,
+          "description": "Set a different class for mouseUp events so that there aren't dependencies on the flash classes on the JS side.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]},
+      { "qname": "mouseMove",
+        "type": "org.apache.royale.events.MouseEvent"
+      ,
+          "description": "Set a different class for mouseMove events so that there aren't dependencies on the flash classes on the JS side.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]},
+      { "qname": "mouseOut",
+        "type": "org.apache.royale.events.MouseEvent"
+      ,
+          "description": "Set a different class for mouseOut events so that there aren't dependencies on the flash classes on the JS side.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]},
+      { "qname": "mouseOver",
+        "type": "org.apache.royale.events.MouseEvent"
+      ,
+          "description": "Set a different class for mouseOver events so that there aren't dependencies on the flash classes on the JS side.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]},
+      { "qname": "mouseWheel",
+        "type": "org.apache.royale.events.MouseEvent"
+      ,
+          "description": "Set a different class for mouseWheel events so that there aren't dependencies on the flash classes on the JS side.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]},
+      { "qname": "doubleClick",
+        "type": "org.apache.royale.events.MouseEvent"
+      ,
+          "description": "Set a different class for doubleClick events so that there aren't dependencies on the flash classes on the JS side.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  }

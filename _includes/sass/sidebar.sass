@@ -1,0 +1,220 @@
+/**
+ * Licensed under the Apache License, Version 2.0 (the "License")
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     https://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+.sidebar-button
+    display: none
+    background-color: #20232a
+    top: 80px
+    color: #61dafb
+    cursor: pointer
+    position: fixed
+    left: -38px
+    outline: none
+    width: 42px
+    height: 42px
+    transform: scaleX(-1)
+    padding: 4px 10px 4px 4px
+    border-top-right-radius: 50%
+    border-bottom-right-radius: 50%
+
+.sidebar-button-inner
+    width: 20px
+    height: 20px
+    align-self: center
+    display: flex
+    flex-direction: column
+    color: #61dafb
+
+.titanic path
+    fill: #fff
+    stroke: #fff
+
+.toc
+    font-family: 'Source Sans Pro'
+    display: flex
+    flex-direction: column
+    margin-top: 80px
+    background-color: #f7f7f7
+    padding: 30px
+    border-radius: 10px
+    text-transform: uppercase
+
+.sidebar
+    display: flex
+    flex-direction: column
+    justify-content: flex-start
+    align-items: stretch
+    width: 280px
+    overflow-y: auto
+
+.sidebar-logo
+    display: none
+
+.search-bar
+    display: flex
+    align-items: center
+
+@media (min-width: 600px)
+    .toc
+        margin-left: 80px
+
+@media (max-width: 979px) and (min-width: 600px)
+    .toc
+        margin-left: 40px
+        padding: 20px
+    .sidebar
+        width: 240px
+
+
+@media (max-width: 599px)
+    .toc
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.4)
+        top: 0px
+        bottom: 0px
+        right: 0px
+        position: fixed
+        background-color: rgb(255, 255, 255)
+        height: 100vh
+        pointer-events: auto
+        background-color: #20232a
+        color: white
+        margin-top: 0px
+        border-radius: 0px
+        transform: translateX(100%)
+        transition: all 0.2s
+        z-index: 200
+
+    .toc-link a, .toc-title-wrapper a
+        color: white
+    .toc-current
+        color: #4393c3 !important
+    .open
+        transform: translateX(0%)
+    .noscroll
+        &::before
+            background-color: rgba(0,0,0,0.65)
+            position: absolute
+            content: ""
+            top: 0
+            left: 0
+            width: 100%
+            height: 100%
+            opacity: 0
+            will-change: opacity
+            transition: opacity 0.4s 0ms
+            pointer-events: none
+        &.open
+            position: fixed
+            &::before
+                opacity: 1       
+                pointer-events: auto
+
+    .sidebar-button
+        display: inline-block
+
+    .sidebar
+        width: 100%
+
+    .sidebar-logo
+        display: inline-flex
+        flex: 0 0 auto
+        flex-direction: column
+        align-self: center
+        width: 170px
+        margin: 0px 10px 0px 10px
+
+        a
+            background-color: transparent
+            border-bottom: 0px
+
+.menu_div2 
+    margin-left: 15px
+
+.toc-title-arrow
+    display: inline-flex
+    align-items: center
+
+.toc-title-wrapper 
+    padding: 0px 0px
+    line-height: 1em
+    position: relative
+    cursor: pointer
+    display: block
+    font-weight: 600
+    font-style: normal
+
+.toc-title-wrapper a
+    padding: 0px
+    background-color: transparent
+    border-bottom: none
+
+.toc-title-wrapper h3 
+    font-size: 16px
+    line-height: 28px
+    letter-spacing: 0px
+
+.accordion-content 
+    margin-left: 15px
+    font-weight: 600
+    font-style: normal
+
+.accordion-content h4 
+    font-size: 14px
+    line-height: 24px
+    letter-spacing: 0px
+
+.accordion-content h5 	
+    font-size: 13px
+    line-height: 20px
+    letter-spacing: 0px
+
+.toc-link 
+    text-decoration: none
+    color: rgb(67, 147, 195)
+    position: relative
+    margin-bottom: 0
+    line-height: 1.4em
+    display: inline-block
+    user-select: none
+
+.toc-current
+    text-decoration: none
+    color: black
+    position: relative
+    margin-bottom: 0
+    line-height: 1.4em
+    display: inline-block
+    user-select: none
+
+.toc-arrow
+    width: 26px
+    opacity: .4
+
+.toc-arrow-main
+    display: none
+    position: absolute
+    top: 32px
+    width: 26px
+    opacity: .8
+    margin: 1px 38px
+    color: white
+
+@media screen and (max-width: 1160px)
+    .toc-arrow-main
+        display: block
+
+.toc-arrow-rot
+    width: 26px
+    transform: rotateX(180deg)
+    

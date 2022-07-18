@@ -1,0 +1,25 @@
+{ "type": "class",
+  "qname": "mx.controls.advancedDataGridClasses.AdvancedDataGridColumnList",
+  "baseClassname": "mx.controls.dataGridClasses.DataGridColumnList"
+  ,
+    "description": "The AdvancedDataGridColumnList class represnts a column in an AdvancedDataGrid control. There is one AdvancedDataGridColumnList per displayable column, even if a column is hidden or off-screen.",
+  "tags": [
+  {  "tagName": "royalesuppresspublicvarwarning",
+         "values": []},
+      {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.controls.advancedDataGridClasses.AdvancedDataGridColumnList",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ]
+  }

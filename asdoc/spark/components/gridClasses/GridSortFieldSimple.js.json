@@ -1,0 +1,37 @@
+{ "type": "class",
+  "qname": "spark.components.gridClasses.GridSortFieldSimple",
+  "baseClassname": "spark.collections.SortField"
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "spark.components.gridClasses.GridSortFieldSimple",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": [{ "name": "column", "type": "spark.components.gridClasses.GridColumn"},
+        { "name": "name", "type": "String"},
+        { "name": "descending", "type": "Boolean"},
+        { "name": "numeric", "type": "Object"},
+        { "name": "sortCompareType", "type": "String"},
+        { "name": "customCompareFunction", "type": "Function"}]}
+      ,
+      { "type": "accessor",
+        "access": "read-only",
+        "return": "spark.components.gridClasses.GridColumn",
+        "qname": "column",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}},
+      { "type": "method",
+        "qname": "getSortFieldValue",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "*",
+          "params": [{ "name": "obj", "type": "Object"}]}
+      ]
+  }

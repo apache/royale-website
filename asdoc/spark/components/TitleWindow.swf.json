@@ -1,0 +1,60 @@
+{ "type": "class",
+  "qname": "spark.components.TitleWindow",
+  "baseClassname": "spark.components.Panel"
+  ,
+    "description": "The TitleWindow class extends Panel to include a close button and move area.  <p>The TitleWindow is designed as a pop-up window. Do not create a TitleWindow in MXML as part of an application. Instead, you typically create a custom MXML component based on the TitleWindow class, and then use the <code>PopUpManager.createPopUp()</code> method to pop up the component, and the <code>PopUpManager.removePopUp()</code> method to remove the component.</p>  <p>The TitleWindow container has the following default sizing characteristics:</p> <table class=&quot;innertable&quot;> <tr> <th>Characteristic</th> <th>Description</th> </tr> <tr> <td>Default size</td> <td>Height is large enough to hold all of the children in the content area at the default or explicit heights of the children, plus the title bar and border, plus any vertical gap between the children, plus the top and bottom padding of the container.<br/> Width is the larger of the default or explicit width of the widest child, plus the left and right container borders padding, or the width of the title text.</td> </tr> <tr> <td>Default skin class</td> <td>spark.skins.spark.TitleWindowSkin</td> </tr> </table>   <p>The <code>&lt;s:TitleWindow&gt;</code> tag inherits all of the tag attributes of its superclass and adds the following tag attributes:</p>  <pre>\\n &lt;s:TitleWindow&gt;\\n <strong>Events</strong>\\n close=&quot;<i>No default</i>&quot;\\n windowMove=&quot;<i>No default</i>&quot;\\n windowMoveEnd=&quot;<i>No default</i>&quot;\\n windowMoveStart=&quot;<i>No default</i>&quot;\\n windowMoving=&quot;<i>No default</i>&quot;\\n &lt;/s:TitleWindow&gt;\\n </pre>",
+  "tags": [
+  {  "tagName": "includeExample",
+         "values": ["examples/SimpleTitleWindowExample.mxml -noswf", "examples/TitleWindowApp.mxml"]},
+      {  "tagName": "see",
+         "values": ["spark.components.Panel", "spark.skins.spark.TitleWindowSkin", "spark.skins.spark.TitleWindowCloseButtonSkin", "mx.managers.PopUpManager"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10", "AIR 1.5"]},
+      {  "tagName": "mxml",
+         "values": []},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.4"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "spark.components.TitleWindow",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10", "AIR 1.5"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.4"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "field",
+        "qname": "closeButton",
+        "return": "spark.components.Button",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "The skin part that defines the appearance of the close icon (a small x in the upper-right corner of the TitleWindow title bar). When clicked, the close icon dispatches a <code>close</code> event.  <p>Flex does not close the window automatically. To suport the close icon, you must create a handler for the <code>close</code> event and close the TitleWindow from that event handler.</p>  <p>Focus is disabled for this skin part.</p>"}]
+  ,
+  "events": [
+  { "qname": "close",
+        "type": "mx.events.CloseEvent"
+      ,
+          "description": "Dispatched when the user selects the close button.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10", "AIR 1.5"]},
+            {  "tagName": "eventType",
+               "values": ["mx.events.CloseEvent.CLOSE"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.4"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  }

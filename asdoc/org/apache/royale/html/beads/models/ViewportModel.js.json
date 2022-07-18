@@ -1,0 +1,43 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.beads.models.ViewportModel",
+  "baseClassname": "org.apache.royale.core.DispatcherBead"
+  ,
+    "description": "",
+  "tags": [
+  {  "tagName": "copy",
+         "values": ["org.apache.royale.core.IViewportModel"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html.beads.models.ViewportModel",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "org.apache.royale.core.layout.EdgeData",
+        "qname": "borderMetrics",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "copy",
+               "values": ["org.apache.royale.core.IViewportModel"]}  ]},
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "org.apache.royale.core.layout.EdgeData",
+        "qname": "chromeMetrics",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "copy",
+               "values": ["org.apache.royale.core.IViewportModel"]}  ]}]
+  }

@@ -1,0 +1,33 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.property.EnumPropertyHandler",
+  "baseClassname": "org.apache.royale.textLayout.property.PropertyHandler"
+  ,
+    "description": "An property description with an enumerated string as its value. @private",
+  "members": [
+  { "type": "accessor",
+        "access": "read-only",
+        "return": "String",
+        "qname": "className",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {}},
+      { "type": "method",
+        "qname": "org.apache.royale.textLayout.property.EnumPropertyHandler",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": [{ "name": "propArray", "type": "Array"}]}
+      ,
+      { "type": "accessor",
+        "access": "read-only",
+        "return": "Object",
+        "qname": "range",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Returns object whose properties are the legal enum values"}]
+  }

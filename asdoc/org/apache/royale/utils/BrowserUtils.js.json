@@ -1,0 +1,40 @@
+{ "type": "class",
+  "qname": "org.apache.royale.utils.BrowserUtils",
+  "baseClassname": ""
+  ,
+    "description": "The BrowserUtils class has convenience methods abstracting differences in executing browser code in Flash and HTML.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.7.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "executeJS",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "evals arbitrary javascript code in the current browser context",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.7.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "*",
+          "params": [{ "name": "str", "type": "String"}]}
+      ,
+      { "type": "method",
+        "qname": "org.apache.royale.utils.BrowserUtils",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ]
+  }

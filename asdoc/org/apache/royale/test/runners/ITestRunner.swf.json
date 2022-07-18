@@ -1,0 +1,37 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.test.runners.ITestRunner",
+    "description": "An interface for test runner implementations, such as <code>MetadataRunner</code> and <code>SuiteRunner</code>.",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["org.apache.royale.test.runners.MetadataRunner", "org.apache.royale.test.runners.SuiteRunner"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-only",
+    "return": "String",
+    "qname": "description",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "A description of this test runner."},
+  { "type": "method",
+    "qname": "pleaseStop",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "Requests that the runner stops running the tests. Phrased politely because the test that is currently running may not be interrupted before completing.",
+      "return": "void",
+      "params": []}
+  ,
+  { "type": "method",
+    "qname": "run",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "Runs the tests.",
+      "return": "void",
+      "params": [{ "name": "notifier", "type": "org.apache.royale.test.runners.notification.IRunNotifier"}]}
+  ]
+  }

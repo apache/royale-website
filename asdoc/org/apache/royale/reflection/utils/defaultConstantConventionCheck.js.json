@@ -1,0 +1,14 @@
+{ "type": "method",
+  "qname": "org.apache.royale.reflection.utils.defaultConstantConventionCheck",
+  "namespace": "internal",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "",
+  "tags": [
+  {  "tagName": "param",
+         "values": ["candidate the string name to check for conformance with naming convention for constants"]},
+      {  "tagName": "return",
+         "values": ["true if the candidate string matches the naming convention for constants"]}  ],
+    "return": "Boolean",
+    "params": [{ "name": "candidate", "type": "String"}]}

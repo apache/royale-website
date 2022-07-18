@@ -1,0 +1,29 @@
+{ "type": "class",
+  "qname": "org.apache.royale.net.remoting.Operation",
+  "baseClassname": "org.apache.royale.events.EventDispatcher"
+  ,
+    "description": "used by RemoteObject implementation",
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.net.remoting.Operation",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "This Operation is used by RemoteObject to deal with a BlazeDS, LCDS or CF AMF server",
+          "return": "",
+          "params": [{ "name": "name", "type": "String"},
+        { "name": "remoteObject", "type": "org.apache.royale.net.RemoteObject"},
+        { "name": "args", "type": "Array"}]}
+      ,
+      { "type": "method",
+        "qname": "send",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "performs the sendind. If we have a clientId, we send the message, if not we make a ping operation command to make the server generate an UUID for us and use it in the rest of communications so the server knows who we are.",
+          "return": "void",
+          "params": []}
+      ]
+  }

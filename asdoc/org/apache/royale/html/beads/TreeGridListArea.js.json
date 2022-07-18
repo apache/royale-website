@@ -1,0 +1,15 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.beads.TreeGridListArea",
+  "baseClassname": "org.apache.royale.html.Container"
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html.beads.TreeGridListArea",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ]
+  }

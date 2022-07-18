@@ -1,0 +1,53 @@
+{ "type": "class",
+  "qname": "org.apache.royale.events.EventDispatcher",
+  "baseClassname": "goog.events.EventTarget"
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.events.EventDispatcher",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": [{ "name": "target", "type": "org.apache.royale.events.IEventDispatcher"}]}
+      ,
+      { "type": "method",
+        "qname": "hasEventListener",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "Boolean",
+          "params": [{ "name": "type", "type": "String"}]}
+      ,
+      { "type": "method",
+        "qname": "dispatchEvent",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "Boolean",
+          "params": [{ "name": "event1", "type": "Object"}]}
+      ,
+      { "type": "method",
+        "qname": "fireListeners",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "Boolean",
+          "params": [{ "name": "type", "type": "Object"},
+        { "name": "capture", "type": "Boolean"},
+        { "name": "eventObject", "type": "Object"}]}
+      ,
+      { "type": "method",
+        "qname": "toString",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "String",
+          "params": []}
+      ]
+  }

@@ -1,0 +1,25 @@
+{ "type": "class",
+  "qname": "org.apache.royale.createjs.core.View",
+  "baseClassname": "org.apache.royale.core.ViewBase"
+  ,
+    "description": "This version of View is specific for CreateJS since CreateJS does not use the HTML DOM.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "events": [
+  { "qname": "initComplete",
+        "type": "org.apache.royale.events.Event"
+      ,
+          "description": "Dispatched at startup. Attributes and sub-instances of the MXML document have been created and assigned. The component lifecycle is different than the Flex SDK.  There is no creationComplete event.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  }

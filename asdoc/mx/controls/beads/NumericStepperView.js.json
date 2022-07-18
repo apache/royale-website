@@ -1,0 +1,33 @@
+{ "type": "class",
+  "qname": "mx.controls.beads.NumericStepperView",
+  "baseClassname": "org.apache.royale.html.beads.NumericStepperView"
+  ,
+    "description": "The NumericStepperView class overrides the Basic NumericStepperView and sets default sizes to better emulate Flex.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "royaleignorecoercion",
+         "values": ["mx.core.UIComponent"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+        "access": "write-only",
+        "return": "org.apache.royale.core.IStrand",
+        "qname": "strand",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {}},
+      { "type": "method",
+        "qname": "getInput",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "org.apache.royale.core.IUIBase",
+          "params": []}
+      ]
+  }

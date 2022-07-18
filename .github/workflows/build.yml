@@ -1,0 +1,25 @@
+name: Build Website
+
+on:
+  push:
+    branches:
+      - 11ty
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - name: Install dependencies
+        run: npm ci
+      - name: Build website
+          npm run build
+      - name: Upload Site
+        if: ${{ github.repository_owner == 'apache' && github.event_name != 'pull_request' && github.ref_name == '11ty' }}
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: asf-staging
+          folder: _site

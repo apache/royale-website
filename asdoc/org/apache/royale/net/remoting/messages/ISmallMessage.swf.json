@@ -1,0 +1,34 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.net.remoting.messages.ISmallMessage",
+"baseInterfaceNames": [
+"org.apache.royale.net.remoting.messages.IMessage"]
+,
+    "description": "A marker interface that is used to indicate that an IMessage has an alternative smaller form for serialization.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["BlazeDS 4", "LCDS 3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+    "qname": "getSmallMessage",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "This method must be implemented by subclasses that have a &quot;small&quot; form, typically achieved through the use of <code>flash.utils.IExternalizable</code>. If a small form is not available this method should return null.  flex.messaging.messages.IMessage so that the serialized form is smaller than the regular message.",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 9", "AIR 1.1"]},
+        {  "tagName": "productversion",
+           "values": ["BlazeDS 4", "LCDS 3"]},
+        {  "tagName": "return",
+           "values": ["Returns An alternative representation of an"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ],
+      "return": "org.apache.royale.net.remoting.messages.IMessage",
+      "params": []}
+  ]
+  }

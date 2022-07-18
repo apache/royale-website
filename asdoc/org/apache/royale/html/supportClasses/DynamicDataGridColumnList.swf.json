@@ -1,0 +1,15 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.supportClasses.DynamicDataGridColumnList",
+  "baseClassname": "org.apache.royale.html.supportClasses.DataGridColumnList"
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html.supportClasses.DynamicDataGridColumnList",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ]
+  }

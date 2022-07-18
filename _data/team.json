@@ -1,0 +1,133 @@
+[
+  {
+    "name": "Alex Harui",
+    "title": "PMC",
+    "imgUrl": "/img/team/aharui.jpg"
+  },
+  {
+    "name": "Carlos Rovira",
+    "title": "PMC",
+    "url": "http://about.me/carlosrovira",
+    "imgUrl": "/img/team/carlos_rovira_instagram.jpg",
+    "twitter": "https://twitter.com/carlosrovira",
+    "linkedin": "https://es.linkedin.com/in/carlosrovira/"
+  },
+  {
+    "name": "Erik de Bruin",
+    "title": "PMC",
+    "imgUrl": "/img/team/erikdebruin.jpg",
+    "linkedin": "https://www.linkedin.com/pub/erik-de-bruin/1/281/176"
+  },
+  {
+    "name": "Frédéric Thomas",
+    "title": "PMC",
+    "imgUrl": "/img/team/fthomas.jpg",
+    "twitter": "https://twitter.com/webdoublefx"
+  },
+  {
+    "name": "Gabe Harbs",
+    "title": "PMC",
+    "url": "https://github.com/Harbs",
+    "imgUrl": "/img/team/harbs.jpg",
+    "facebook": "https://www.facebook.com/gharbs",
+    "twitter": "https://twitter.com/intools",
+    "linkedin": "https://www.linkedin.com/profile/view?id=46698545"
+  },
+  {
+    "name": "Josh Tynjala",
+    "title": "PMC",
+    "url": "https://bowlerhat.dev",
+    "imgUrl": "/img/team/joshtynjala.jpg",
+    "twitter": "https://twitter.com/joshtynjala"
+  },
+  {
+    "name": "Michael Schmalle",
+    "title": "PMC",
+    "url": "https://github.com/teotigraphix",
+    "imgUrl": "/img/team/mschmalle.jpg",
+    "twitter": "https://twitter.com/teotigraphix",
+    "linkedin": "https://www.linkedin.com/pub/michael-schmalle/4/409/980/"
+  },
+  {
+    "name": "Olaf Krueger",
+    "title": "PMC",
+    "imgUrl": "/img/team/okrueger.png",
+    "twitter": "https://twitter.com/openoli"
+  },
+  {
+    "name": "OmPrakash Muppirala",
+    "title": "PMC",
+    "imgUrl": "/img/team/bigosmallm.jpg",
+    "twitter": "https://twitter.com/bigosmallm",
+    "linkedin": "https://www.linkedin.com/in/omprakashm/"
+  },
+  {
+    "name": "Piotr Zarzycki",
+    "title": "PMC",
+    "url": "http://patreon.com/piotrzarzycki",
+    "imgUrl": "/img/team/piotr.zarzycki.jpg",
+    "linkedin": "https://pl.linkedin.com/pub/piotr-zarzycki/52/535/92a/"
+  },
+  {
+    "name": "Peter Ent",
+    "title": "PMC",
+    "imgUrl": "/img/team/peter_ent@1024.png"
+  },
+  {
+    "name": "Yishay Weiss",
+    "title": "PMC",
+    "imgUrl": "/img/team/yishay_weiss.png"
+  },
+  {
+    "name": "Andrew Wetmore",
+    "title": "PMC",
+    "imgUrl": "/img/team/awsweater.gif",
+    "facebook": "https://www.facebook.com/andrew.wetmore1",
+    "twitter": "https://twitter.com/cottage14",
+    "linkedin": "https://www.linkedin.com/in/andrewwetmore/",
+    "email": "cottage14@gmail.com"
+  },
+  {
+    "name": "Greg Dove",
+    "title": "PMC",
+    "imgUrl": "/img/team/gregdove.jpeg"
+  },
+  {
+    "name": "Alina Kazi",
+    "title": "Committer",
+    "imgUrl": "/img/team/alina-kazi.png",
+    "facebook": "https://www.facebook.com/alinakaziqureshi",
+    "twitter": "https://twitter.com/alinakazi1990",
+    "linkedin": "https://www.linkedin.com/in/aleena-kazi-47428b100/",
+    "email": "alinakazi1990@gmail.com"
+  },
+  {
+    "name": "Chris Dutz",
+    "title": "Committer",
+    "imgUrl": "/img/team/Chris_Dutz.jpg",
+    "twitter": "https://twitter.com/ChristoferDutz",
+    "linkedin": "https://www.linkedin.com/in/christofer-dutz",
+    "email": "cdutz@apache.org"
+  },
+  {
+    "name": "Hugo Ferreira",
+    "title": "Committer",
+    "imgUrl": "/img/team/hugo_ferreira.jpg",
+    "email": "hugoferreira@apache.org"
+  },
+  {
+    "name": "Pushmina Kazi",
+    "title": "Committer"
+  },
+  {
+    "name": "Raúl Nuñez",
+    "title": "Committer",
+    "imgUrl": "/img/team/raul-nunez.png",
+    "email": "raudjcholo@gmail.com"
+  },
+  {
+    "name": "Dave Fisher",
+    "title": "Emeritus PMC",
+    "imgUrl": "/img/team/dave_fisher.jpg"
+  }
+]

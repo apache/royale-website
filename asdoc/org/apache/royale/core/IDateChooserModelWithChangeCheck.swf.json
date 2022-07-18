@@ -1,0 +1,31 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.core.IDateChooserModelWithChangeCheck",
+"baseInterfaceNames": [
+"org.apache.royale.core.IDateChooserModel"]
+,
+    "description": "The IDateChooserModelWithChangeCheck adds a disabledChangeCheck API to the IDateChooserModel interface.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "Boolean",
+    "qname": "disableChangeCheck",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "If true, the DateChooser will dispatch change events even if the date clicked is the selected date. This flag is used by DateField to get the dropdown to dismiss when clicking the selected date.",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.0"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]}]
+  }

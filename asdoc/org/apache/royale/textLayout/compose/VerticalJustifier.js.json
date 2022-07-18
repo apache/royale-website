@@ -1,0 +1,34 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.compose.VerticalJustifier",
+  "baseClassname": ""
+  ,
+    "description": "@private Adjust line positions according to verticalAlign settings.  Vertical alignment is perpendicular to the linebreak direction.",
+  "members": [
+  { "type": "method",
+        "qname": "applyVerticalAlignmentToColumn",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "Vertical justify the subset of lines from startIndext to startIndex to numLines according to the rule specified by verticalAlignAttr. The assumption is that they are all the lines in a single column of cont.",
+        "tags": [
+        {  "tagName": "see",
+               "values": ["text.formats.VerticalAlign"]},
+            {  "tagName": "return",
+               "values": ["adjustment applied to the first line in the column."]}  ],
+          "return": "Number",
+          "params": [{ "name": "controller", "type": "org.apache.royale.textLayout.container.IContainerController"},
+        { "name": "verticalAlignAttr", "type": "String"},
+        { "name": "lines", "type": "Array"},
+        { "name": "startIndex", "type": "int"},
+        { "name": "numLines", "type": "int"},
+        { "name": "beginFloatIndex", "type": "int"},
+        { "name": "endFloatIndex", "type": "int"}]}
+      ]
+  }
+
+
+
+
+
+

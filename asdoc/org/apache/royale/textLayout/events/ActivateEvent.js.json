@@ -1,0 +1,20 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.events.ActivateEvent",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "field",
+        "qname": "ACTIVATE",
+        "return": "String",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {}},
+      { "type": "field",
+        "qname": "DEACTIVATE",
+        "return": "String",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {}}]
+  }

@@ -1,0 +1,41 @@
+{ "type": "class",
+  "qname": "org.apache.royale.utils.CompressionUtils",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.utils.CompressionUtils",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "The Royale Compiler will inject a script into the index.html file.  Surround with &quot;inject_script&quot; tag as follows:  <inject_script> var script = document.createElement(&quot;script&quot;); script.setAttribute(&quot;src&quot;, &quot;https://cdnjs.cloudflare.com/ajax/libs/pako/1.0.3/pako.min.js&quot;); document.head.appendChild(script); </inject_script>  Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "inflate",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "return": "org.apache.royale.utils.BinaryData",
+          "params": [{ "name": "data", "type": "org.apache.royale.utils.BinaryData"}]}
+      ,
+      { "type": "method",
+        "qname": "deflate",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "return": "org.apache.royale.utils.BinaryData",
+          "params": [{ "name": "data", "type": "org.apache.royale.utils.BinaryData"}]}
+      ]
+  }

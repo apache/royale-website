@@ -1,0 +1,22 @@
+---
+title: "Apache Royale Blog"
+pagination:
+  data: collections.blog
+  size: 3
+  reverse: true
+  alias: blog
+layout: "blog-post.html"
+permalink: "blog{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber | plus: 1 }}{% endif %}/index.html"
+---
+{% for post in blog %}
+<h2 class="post-title"><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
+{% include "blog-post-meta.html", author: post.data.author, date: post.date %}
+<div>{{ post.templateContent }}</div>
+{% endfor %}
+
+{% if pagination.href.previous %}
+<a class="btn btn-quiet" href="{{ pagination.href.previous }}"><i class="fa fa-arrow-left"></i> Newer Posts</a>
+{% endif %}
+{% if pagination.href.next %}
+<a class="btn btn-quiet" href="{{ pagination.href.next }}">Older Posts <i class="fa fa-arrow-right"></i></a>
+{% endif %}

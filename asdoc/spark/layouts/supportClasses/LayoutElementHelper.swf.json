@@ -1,0 +1,50 @@
+{ "type": "class",
+  "qname": "spark.layouts.supportClasses.LayoutElementHelper",
+  "baseClassname": ""
+  ,
+    "description": "The LayoutElementHelper class is for internal use only. TODO (egeorgie): move to a more general place, this is not specific to the LayoutElementHelper",
+  "tags": [
+  {  "tagName": "private",
+         "values": []}  ],
+  "members": [
+  { "type": "method",
+        "qname": "pinBetween",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "<code>min</code> or <code>max</code>.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10", "AIR 1.5"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 4"]},
+            {  "tagName": "return",
+               "values": ["Returns <code>val</code> clamped to the range of"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "Number",
+          "params": [{ "name": "val", "type": "Number"},
+        { "name": "min", "type": "Number"},
+        { "name": "max", "type": "Number"}]}
+      ,
+      { "type": "method",
+        "qname": "parseConstraintValue",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "can be a Number, or a string in the format &quot;col1:10&quot;.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10", "AIR 1.5"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 4"]},
+            {  "tagName": "return",
+               "values": ["returns the number for the passed in constraint value. Constraint value"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "Number",
+          "params": [{ "name": "value", "type": "Object"}]}
+      ]
+  }

@@ -1,0 +1,5 @@
+<div class="post-meta">
+{% if author or date %}
+{% if author %}by {{ author }}{% endif %} {% if date %}on {{ date | date: "%B %d, %Y" }}{% endif %}
+{% endif %}
+</div>

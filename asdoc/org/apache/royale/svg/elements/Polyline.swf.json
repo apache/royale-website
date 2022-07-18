@@ -1,0 +1,15 @@
+{ "type": "class",
+  "qname": "org.apache.royale.svg.elements.Polyline",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.svg.elements.Polyline",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ]
+  }

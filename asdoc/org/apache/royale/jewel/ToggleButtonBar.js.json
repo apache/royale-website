@@ -1,0 +1,33 @@
+{ "type": "class",
+  "qname": "org.apache.royale.jewel.ToggleButtonBar",
+  "baseClassname": "org.apache.royale.jewel.IconButtonBar"
+  ,
+    "description": "The Jewel ToggleButtonBar class is a component that displays a set of ToggleButtons. The ToggleButtonBar is actually an IconButtonBar with an itemRenderer that produces Jewel ToggleButtons.  By default buttons are equally sized, by setting `widthType` to NaN.  The ToggleButtonBar uses the following beads:  org.apache.royale.core.IBeadModel: the data model for the ButtonBar, including the dataProvider. org.apache.royale.core.IBeadView: constructs the parts of the component. org.apache.royale.core.IBeadController: handles input events. org.apache.royale.core.IBeadLayout: sizes and positions the component parts. org.apache.royale.core.IDataProviderItemRendererMapper: produces itemRenderers. org.apache.royale.core.IItemRenderer: the class or class factory to use.",
+  "tags": [
+  {  "tagName": "toplevel",
+         "values": []},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.7"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.jewel.ToggleButtonBar",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.7"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ]
+  }

@@ -1,0 +1,35 @@
+{ "type": "class",
+  "qname": "mx.collections.ComplexFieldChangeWatcher",
+  "baseClassname": "org.apache.royale.events.EventDispatcher"
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "stopWatchingForComplexFieldChanges",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "void",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "startWatchingForComplexFieldChanges",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "void",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "write-only",
+        "return": "mx.collections.IList",
+        "qname": "list",
+        "namespace": "mx_internal",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}}]
+  }
+
+
+

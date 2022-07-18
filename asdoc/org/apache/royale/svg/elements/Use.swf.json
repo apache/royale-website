@@ -1,0 +1,15 @@
+{ "type": "class",
+  "qname": "org.apache.royale.svg.elements.Use",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.svg.elements.Use",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ]
+  }

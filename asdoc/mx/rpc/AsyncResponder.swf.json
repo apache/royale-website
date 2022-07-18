@@ -1,0 +1,35 @@
+{ "type": "class",
+  "qname": "mx.rpc.AsyncResponder",
+  "baseClassname": ""
+  ,
+    "description": "This class provides an RPC specific implementation of <code>mx.rpc.IResponder</code>.  It allows the creator to associate data (a token) and methods that should be called when a request is completed.  The result method specified must have the following signature: <code><pre>\\n public function myResultFunction(result:Object, token:Object = null):void;\\n </pre></code>  The fault method specified must have the following signature: <code><pre>\\n public function myFaultFunction(error:Object, token:Object = null):void;\\n </pre></code>  Any other signature will result in a runtime error.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.rpc.AsyncResponder",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructs an instance of the responder with the specified data and handlers.  completed successfully. Must have the following signature: <pre>public function (result:Object, token:Object = null):void;</pre> completed with errors. Must have the following signature: <pre>public function (error:FaultEvent, token:Object = null):void;</pre> this request.",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["result Function that should be called when the request has", "fault Function that should be called when the request has", "token Additional information to associate with"]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": [{ "name": "result", "type": "Function"},
+        { "name": "fault", "type": "Function"},
+        { "name": "token", "type": "Object"}]}
+      ]
+  }

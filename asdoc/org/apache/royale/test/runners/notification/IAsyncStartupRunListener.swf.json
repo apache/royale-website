@@ -1,0 +1,18 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.test.runners.notification.IAsyncStartupRunListener",
+"baseInterfaceNames": [
+"org.apache.royale.test.runners.notification.IRunListener", 
+"org.apache.royale.events.IEventDispatcher"]
+,
+    "description": "A listener that requires extra time to startup.",
+  "members": [
+  { "type": "accessor",
+    "access": "read-only",
+    "return": "Boolean",
+    "qname": "ready",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "Indicates if the listener is ready or not."}]
+  }

@@ -1,0 +1,47 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.core.IRuntimeSelectableItemRenderer",
+"baseInterfaceNames": [
+"org.apache.royale.core.ISelectableItemRenderer"]
+,
+    "description": "The IItemRenderer interface is the basic interface for item renderers. More complex item renderers may implements extensions of this interface.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "Boolean",
+    "qname": "selectable",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "<code>true</code> if the item renderer is can be selected false otherwise. Use to configure a renderer to be non selectable.  Defaults to true",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.9.3"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]},
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "Boolean",
+    "qname": "hoverable",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "<code>true</code> if the item renderer is can be hovered false otherwise. Use to configure a renderer to be non hoverable.  Defaults to true",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.9.3"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]}]
+  }

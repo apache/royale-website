@@ -1,0 +1,16 @@
+<header class="docs-header">
+  <div class="container">
+    {% include "topbar.html" %}
+    <div class="hero-header">
+      {% if hero_subtitle %}
+      <small>{{ hero_subtitle }}</small>
+      {% endif %}
+      <h1>{{ hero_title }}</h1>
+      <p>{{ hero_description }}</p>
+
+      {% if hero_button_link and hero_button_text %}
+      <a class="btn" href="{{ hero_button_link }}">{{ hero_button_text }}</a>
+      {% endif %}
+    </div>
+  </div>
+</header>

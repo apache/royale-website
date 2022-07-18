@@ -1,0 +1,133 @@
+.topbar
+  display: inline-flex
+  margin: 5px auto 0 auto
+  width: 100%
+  height: 70px
+
+.topbar-left
+  display: inline-flex
+  justify-content: flex-start
+
+  .site-title
+    display: inline-block
+    margin-top: 15px
+    margin-bottom: 5px
+    width: 180px
+    height: 40px
+    background-image: url('/img/apache-royale-tm-logo-light.svg')
+    background-attachment: top left
+    background-repeat: no-repeat
+    background-size: 180px 40px
+    white-space: nowrap
+    text-indent: -9999px
+  
+.topbar-center
+  display: inline-flex
+  // flex: 1 1 auto
+  justify-content: center
+  // padding: 0px 20px
+
+.topbar-right
+  display: inline-flex
+  flex: 1 1 auto
+  justify-content: flex-end
+
+.dropdown-wrapper
+  display: flex
+
+.topMenu-dropbtn
+  display: none
+  height: 40px
+  background: transparent
+  border: transparent
+  color: rgba(255,255,255,0.7)
+  font-size: 14px
+  font-weight: 600
+  line-height: 40px
+  white-space: nowrap
+  outline: 0
+  text-transform: uppercase
+  font-family: 'Signika'
+  letter-spacing: 1px
+  margin: 15px 0 0 0
+
+  i
+    padding-top: 12px
+  
+.topMenu 
+  display: inline-block
+  vertical-align: top
+  margin-top: 15px
+  margin-bottom: 0px
+  height: 40px
+    
+.topMenu > li
+  font-family: 'Signika'
+  display: inline
+  margin-right: 20px
+  font-size: 14px
+  font-weight: 600
+  line-height: 40px
+  letter-spacing: 1px
+  text-transform: uppercase
+
+.topMenu > li:last-of-type
+  margin-right: 0
+
+.topMenu > li > a 
+  text-decoration: none
+  color: rgba(255,255,255,0.7)
+
+.topMenu > li a:hover 
+  color: #fff
+
+.marketing
+
+  .site-title
+    background-image: url('/img/apache-royale-tm-logo-dark.svg')
+
+  .topMenu-dropbtn
+    color: rgba(0,0,0,0.7)
+
+  .topMenu > li > a 
+    color: rgba(0,0,0,0.7)
+
+    &:hover
+      color: #000
+
+@media screen and (max-width: 840px)
+  .topbar-center
+    align-items: center
+
+  .topMenu-dropbtn
+    display: flex
+    z-index: 100
+
+  .topMenu 
+    display: none
+    flex-direction: column
+    position: absolute
+    z-index: 1
+
+  .topMenu > li
+    background-color: #f7f7f7
+    padding: 6px 18px
+    margin: 0px
+    box-shadow: 0px 18px 16px 0px rgba(0,0,0,0.2)
+    line-height: 1em
+    
+  .topMenu > li > a
+    font-family: "Source Sans Pro"
+    color: #4393c3 !important
+    font-size: 16px
+    line-height: 28px
+    letter-spacing: 0px
+
+  .topbar-right:hover .topMenu
+    display: flex
+    z-index: 1000
+
+@media (max-width: 599px)
+  .topbar-left
+    div
+      width: 140px

@@ -1,0 +1,32 @@
+{ "type": "class",
+  "qname": "google.maps.UnitSystem",
+  "baseClassname": ""
+  ,
+    "description": "",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["[google_maps_api_v3_11]"]}  ],
+  "members": [
+  { "type": "field",
+        "qname": "METRIC",
+        "return": "Number",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "Generated doc for missing field JSDoc.",
+        "tags": [
+        {  "tagName": "see",
+               "values": ["[google_maps_api_v3_11]"]}  ]},
+      { "type": "field",
+        "qname": "IMPERIAL",
+        "return": "Number",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "Generated doc for missing field JSDoc.",
+        "tags": [
+        {  "tagName": "see",
+               "values": ["[google_maps_api_v3_11]"]}  ]}]
+  }

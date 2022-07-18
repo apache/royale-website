@@ -1,0 +1,40 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.formats.BlockProgression",
+  "baseClassname": ""
+  ,
+    "description": "Defines values for the <code>blockProgression</code> property of the <code>TextLayouFormat</code> class. BlockProgression specifies the direction in which lines are placed in the container.",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["org.apache.royale.textLayout.formats.TextLayoutFormat#blockProgression TextLayoutFormat.blockProgression"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10", "AIR 1.5"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "field",
+        "qname": "RL",
+        "return": "String",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "Specifies right to left block progression. Lines are laid out vertically starting at the right edge of the container and progressing leftward. Used for vertical text, for example, vertical Chinese or Japanese text.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10", "AIR 1.5"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]},
+      { "type": "field",
+        "qname": "TB",
+        "return": "String",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "Specifies top to bottom block progression. Lines are laid out horizontally starting at the top of the container and progressing down to the bottom. Used for horizontal text.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10", "AIR 1.5"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  }

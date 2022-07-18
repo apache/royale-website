@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Adobe",
+    "url": "https://www.adobe.com/",
+    "description": "Our journey started when Adobe donated Apache Flex, the project from which Apache Royale was born, in 2011. Since then, Adobe has provided full time contributors to the project; this has been a huge help in Royale's development.",
+    "imgUrl": "/img/thanks-to/adobe-thanks-to.png"
+  },
+  {
+    "name": "BrowserStack",
+    "url": "https://www.browserstack.com/",
+    "description": "Thanks to BrowserStack for donating an Open Source license for the Apache Royale Team to help us test the code and our technology across many browsers and platforms.",
+    "imgUrl": "/img/thanks-to/browserstack-thanks-to.png"
+  },
+  {
+    "name": "Codeoscopic",
+    "url": "https://www.codeoscopic.com/",
+    "description": "Codeoscopic has helped Apache Royale from the project's beginning with full time contributors and a preproduction website infrastructure server to simplify website development and deployment.",
+    "imgUrl": "/img/thanks-to/codeoscopic-thanks-to.png"
+  },
+  {
+    "name": "JetBrains",
+    "url": "https://www.jetbrains.com/",
+    "description": "JetBrains has helped the PMC and committers in this project with its IntelliJ IDEA open source license. This has made it more simple for contributors to develop code for Apache Royale.",
+    "imgUrl": "/img/thanks-to/jetbrains-thanks-to.png"
+  },
+  {
+    "name": "PrintUI",
+    "url": "https://printui.com/",
+    "description": "From the beginning of the Apache Royale project, PrintUI has provided full-time contributors who have helped with both coding and management of the project.",
+    "imgUrl": "/img/thanks-to/printui-thanks-to.png"
+  },
+  {
+    "name": "Bowler Hat LLC",
+    "url": "https://bowlerhat.dev/",
+    "description": "Bowler Hat LLC not only provides a contributor to the Apache Royale compiler, but it also develops the ActionScript & MXML language extension for Visual Studio Code, which makes it easier for us and our community to develop both the Royale framework and applications.",
+    "imgUrl": "/img/thanks-to/bowlerhat-thanks-to.png"
+  },
+  {
+    "name": "Prominic",
+    "url": "https://prominic.net/",
+    "description": "Prominic.NET has been betting on Apache Royale from the beginnings of the project by adding support to Moonshine IDE, and its developers are part of our PMC that work on the Apache Royale project to enhance and maintain it.",
+    "imgUrl": "/img/thanks-to/prominic-thanks-to.png"
+  }
+]

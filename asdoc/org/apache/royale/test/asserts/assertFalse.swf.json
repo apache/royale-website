@@ -1,0 +1,10 @@
+{ "type": "method",
+  "qname": "org.apache.royale.test.asserts.assertFalse",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "Alias for org.apache.royale.test.Assert assertFalse method",
+    "return": "void",
+    "params": [{ "name": "condition", "type": "*"},
+  { "name": "message", "type": "String"}]}

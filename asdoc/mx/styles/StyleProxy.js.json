@@ -1,0 +1,36 @@
+{ "type": "class",
+  "qname": "mx.styles.StyleProxy",
+  "baseClassname": ""
+  ,
+    "description": "Wraps an object that implements the IAdvancedStyleClient interface. This interface supports a <code>filterMap</code> property that contains style-source/style-destination pairs.",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["mx.styles.IAdvancedStyleClient"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.styles.StyleProxy",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["source The object that implements the IStyleClient interface.", "filterMap The set of styles to pass from the source to the subcomponent."]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": [{ "name": "source", "type": "Object"},
+        { "name": "filterMap", "type": "Object"}]}
+      ]
+  }

@@ -1,0 +1,36 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.compose.FactoryComposer",
+  "baseClassname": "org.apache.royale.textLayout.compose.StandardFlowComposer"
+  ,
+    "description": "@private FactoryDisplayComposer - overridable",
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.textLayout.compose.FactoryComposer",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "callTheComposer",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "org.apache.royale.textLayout.container.IContainerController",
+          "params": [{ "name": "absoluteEndPosition", "type": "int"},
+        { "name": "controllerEndIndex", "type": "int"}]}
+      ,
+      { "type": "method",
+        "qname": "preCompose",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "Returns true if composition is necessary, false otherwise",
+          "return": "Boolean",
+          "params": []}
+      ]
+  }

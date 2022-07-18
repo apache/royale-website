@@ -1,0 +1,35 @@
+{ "type": "interface",
+  "qname": "mx.formatters.IFormatter",
+    "description": "This interface specifies the method that a formatter object must implement to allow it to be used as the formatter property for UI controls such as the <code>AdvancedDataGridColumn</code>.",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["mx.controls.advancedDataGridClasses#formatter"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10.1", "AIR 2.5"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 4.5"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+    "qname": "format",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "Formats a value and returns a <code>String</code> containing the new formatted value.",
+    "tags": [
+    {  "tagName": "param",
+           "values": ["value Value to be formatted."]},
+        {  "tagName": "playerversion",
+           "values": ["Flash 10.1", "AIR 2.5"]},
+        {  "tagName": "productversion",
+           "values": ["Flex 4.5"]},
+        {  "tagName": "return",
+           "values": ["The formatted string."]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ],
+      "return": "String",
+      "params": [{ "name": "value", "type": "Object"}]}
+  ]
+  }

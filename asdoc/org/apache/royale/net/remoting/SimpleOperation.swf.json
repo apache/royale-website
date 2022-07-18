@@ -1,0 +1,27 @@
+{ "type": "class",
+  "qname": "org.apache.royale.net.remoting.SimpleOperation",
+  "baseClassname": "org.apache.royale.events.EventDispatcher"
+  ,
+    "description": "used by SimpleRemoteObject implementation",
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.net.remoting.SimpleOperation",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": [{ "name": "name", "type": "String"},
+        { "name": "remoteObject", "type": "org.apache.royale.net.SimpleRemoteObject"},
+        { "name": "args", "type": "Array"}]}
+      ,
+      { "type": "method",
+        "qname": "send",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "void",
+          "params": []}
+      ]
+  }

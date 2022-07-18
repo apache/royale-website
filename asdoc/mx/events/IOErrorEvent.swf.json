@@ -1,0 +1,36 @@
+{ "type": "class",
+  "qname": "mx.events.IOErrorEvent",
+  "baseClassname": "flash.events.IOErrorEvent"
+  ,
+    "description": "",
+  "tags": [
+  {  "tagName": "royalesuppresspublicvarwarning",
+         "values": []},
+      {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "field",
+        "qname": "IO_ERROR",
+        "return": "String",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {}},
+      { "type": "method",
+        "qname": "mx.events.IOErrorEvent",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": [{ "name": "type", "type": "String"},
+        { "name": "bubbles", "type": "Boolean"},
+        { "name": "cancelable", "type": "Boolean"},
+        { "name": "text", "type": "String"},
+        { "name": "id", "type": "int"}]}
+      ]
+  }

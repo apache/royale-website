@@ -1,0 +1,23 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.html.beads.layouts.IOneFlexibleChildLayout",
+"baseInterfaceNames": [
+"org.apache.royale.core.IBeadLayout"]
+,
+    "description": "IOneFlexibleChildLayout will flex one of the children to take up the space remaining in a container after the rest of the elements have been laid out according to CSS layout rules.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "String",
+    "qname": "flexibleChild",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {}}]
+  }

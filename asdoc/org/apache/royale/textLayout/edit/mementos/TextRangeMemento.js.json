@@ -1,0 +1,17 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.edit.mementos.TextRangeMemento",
+  "baseClassname": "org.apache.royale.textLayout.edit.mementos.DeleteTextMemento"
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.textLayout.edit.mementos.TextRangeMemento",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": [{ "name": "textFlow", "type": "org.apache.royale.textLayout.elements.ITextFlow"},
+        { "name": "absoluteStart", "type": "int"},
+        { "name": "absoluteEnd", "type": "int"}]}
+      ]
+  }

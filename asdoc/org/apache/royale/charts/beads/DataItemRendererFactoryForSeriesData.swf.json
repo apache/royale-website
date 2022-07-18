@@ -1,0 +1,87 @@
+{ "type": "class",
+  "qname": "org.apache.royale.charts.beads.DataItemRendererFactoryForSeriesData",
+  "baseClassname": "org.apache.royale.html.beads.DataItemRendererFactoryBase"
+  ,
+    "description": "The DataItemRendererFactoryForSeriesData creates the itemRenderers necessary for series-based charts.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.charts.beads.DataItemRendererFactoryForSeriesData",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "write-only",
+        "return": "org.apache.royale.core.IStrand",
+        "qname": "strand",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {}},
+      { "type": "field",
+        "qname": "chartSeries",
+        "return": "org.apache.royale.charts.core.IChartSeries",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}},
+      { "type": "method",
+        "qname": "dispatchItemCreatedEvent",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "void",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "removeAllItemRenderers",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "parent", "type": "org.apache.royale.core.IItemRendererOwnerView"}]}
+      ,
+      { "type": "accessor",
+        "access": "read-only",
+        "return": "int",
+        "qname": "dataProviderLength",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {}},
+      { "type": "method",
+        "qname": "getItemAt",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "Object",
+          "params": [{ "name": "index", "type": "int"}]}
+      ]
+  }
+
+
+
+
+
+

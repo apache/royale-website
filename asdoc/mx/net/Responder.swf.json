@@ -1,0 +1,36 @@
+{ "type": "class",
+  "qname": "mx.net.Responder",
+  "baseClassname": ""
+  ,
+    "description": "This class mimics flash.net.Responder which is different from mx.rpc.Responder",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]},
+      {  "tagName": "royalesuppresspublicvarwarning",
+         "values": []}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.net.Responder",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructs an instance of the responder with the specified handlers.  completed successfully. completed with errors.",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["result Function that should be called when the request has", "fault Function that should be called when the request has"]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": [{ "name": "result", "type": "Function"},
+        { "name": "fault", "type": "Function"}]}
+      ]
+  }

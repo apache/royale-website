@@ -1,0 +1,138 @@
+---
+title: "Team"
+---
+<h1>Team</h1>
+
+<p>The faces behind the code</p>
+
+<h2>Apache Royale Project Management Committee (PMC)</h2>
+
+<p>Apache Royale™ is updated and maintained by a large group of individuals, including you. Your contributions, whether just using the software, reporting bugs or proposing patches to code and documentation, are a welcome part of making Royale better.</p>
+
+<p>Certain individuals can earn committer rights and eventually earn membership in the Project Management Committee (PMC).</p>
+
+<p>Here are some of the committers and PMC members. Find them on the mailing lists and elsewhere talking about Royale. If you are looking for support, please contact us on the mailing lists or open a ticket in our issue tracking system (GitHub).</p>
+
+<div class="grid grid-team">
+  {% for item in team %}
+  {% if item.title == "PMC" or item.title == "PMC Chair" %}
+  <div class="grid-item">
+    <div class="grid-item-img">
+      {% if item.url %}<a href="{{ item.url }}">{% endif %}
+        {% if item.imgUrl %}
+        <img src="{{ item.imgUrl }}" alt="{{ item.name }}">
+        {% else %}
+        <img src="/img/team/blank-profile-picture.png" alt="{{ item.name }}">
+        {% endif %}
+        {% if item.url %}</a>{% endif %}
+    </div>
+    <h2>
+      {% if item.url %}<a href="{{ item.url }}">{% endif %}
+        {{ item.name }}
+        {% if item.url %}</a>{% endif %}
+    </h2>
+    <p>{{ item.title }}</p>
+    {% if item.facebook or item.twitter or item.linkedin or item.email %}
+    <ul class="social-links">
+      {% if item.facebook %}
+      <li><a href="{{item.facebook}}"><i class="fa fa-facebook-square"></i></a></li>
+      {% endif %}
+      {% if item.twitter %}
+      <li><a href="{{item.twitter}}"><i class="fa fa-twitter-square"></i></a></li>
+      {% endif %}
+      {% if item.linkedin %}
+      <li><a href="{{item.linkedin}}"><i class="fa fa-linkedin"></i></a></li>
+      {% endif %}
+      {% if item.email %}
+      <li><a href="mailto:{{item.email}}"><i class="fa fa-envelope"></i></a></li>
+      {% endif %}
+    </ul>
+    {% endif %}
+  </div>
+  {% endif %}
+  {% endfor %}
+</div>
+
+<h2>Apache Royale Committers</h2>
+
+<div class="grid grid-team">
+  {% for item in team %}
+  {% if item.title == "Committer" %}
+  <div class="grid-item">
+    <div class="grid-item-img">
+      {% if item.url %}<a href="{{ item.url }}">{% endif %}
+        {% if item.imgUrl != null %}
+        <img src="{{ item.imgUrl }}" alt="{{ item.name }}">
+        {% else %}
+        <img src="/img/team/blank-profile-picture.png" alt="{{ item.name }}">
+        {% endif %}
+        {% if item.url %}</a>{% endif %}
+    </div>
+    <h2>
+      {% if item.url %}<a href="{{ item.url }}">{% endif %}
+        {{ item.name }}
+        {% if item.url %}</a>{% endif %}
+    </h2>
+    <p>{{ item.title }}</p>
+    {% if item.facebook or item.twitter or item.linkedin or item.email %}
+    <ul class="social-links">
+      {% if item.facebook %}
+      <li><a href="{{item.facebook}}"><i class="fa fa-facebook-square"></i></a></li>
+      {% endif %}
+      {% if item.twitter %}
+      <li><a href="{{item.twitter}}"><i class="fa fa-twitter-square"></i></a></li>
+      {% endif %}
+      {% if item.linkedin %}
+      <li><a href="{{item.linkedin}}"><i class="fa fa-linkedin"></i></a></li>
+      {% endif %}
+      {% if item.email %}
+      <li><a href="mailto:{{item.email}}"><i class="fa fa-envelope"></i></a></li>
+      {% endif %}
+    </ul>
+    {% endif %}
+  </div>
+  {% endif %}
+  {% endfor %}
+</div>
+
+<h2>Emeritus</h2>
+
+<div class="grid grid-team">
+  {% for item in team %}
+  {% if item.title == "Emeritus PMC" or item.title == "Emeritus Committer" %}
+  <div class="grid-item">
+    <div class="grid-item-img">
+      {% if item.url %}<a href="{{ item.url }}">{% endif %}
+        {% if item.imgUrl != null %}
+        <img src="{{ item.imgUrl }}" alt="{{ item.name }}">
+        {% else %}
+        <img src="/img/team/blank-profile-picture.png" alt="{{ item.name }}">
+        {% endif %}
+        {% if item.url %}</a>{% endif %}
+    </div>
+    <h2>
+      {% if item.url %}<a href="{{ item.url }}">{% endif %}
+        {{ item.name }}
+        {% if item.url %}</a>{% endif %}
+    </h2>
+    <p>{{ item.title }}</p>
+    {% if item.facebook or item.twitter or item.linkedin or item.email %}
+    <ul class="social-links">
+      {% if item.facebook %}
+      <li><a href="{{item.facebook}}"><i class="fa fa-facebook-square"></i></a></li>
+      {% endif %}
+      {% if item.twitter %}
+      <li><a href="{{item.twitter}}"><i class="fa fa-twitter-square"></i></a></li>
+      {% endif %}
+      {% if item.linkedin %}
+      <li><a href="{{item.linkedin}}"><i class="fa fa-linkedin"></i></a></li>
+      {% endif %}
+      {% if item.email %}
+      <li><a href="mailto:{{item.email}}"><i class="fa fa-envelope"></i></a></li>
+      {% endif %}
+    </ul>
+    {% endif %}
+  </div>
+  {% endif %}
+  {% endfor %}
+</div>

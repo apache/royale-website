@@ -1,0 +1,35 @@
+{ "type": "class",
+  "qname": "mx.modules.ModuleManager",
+  "baseClassname": ""
+  ,
+    "description": "The ModuleManager class centrally manages dynamically loaded modules. It maintains a mapping of URLs to modules. A module can exist in a state where it is already loaded (and ready for use), or in a not-loaded-yet state. The ModuleManager dispatches events that indicate module status. Clients can register event handlers and then call the <code>load()</code> method, which dispatches events when the factory is ready (or immediately, if it was already loaded).",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "getModule",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "Get the IModuleInfo interface associated with a particular URL. There is no requirement that this URL successfully load, but the ModuleManager returns a unique IModuleInfo handle for each unique URL.",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["url A URL that represents the location of the module."]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.3"]},
+            {  "tagName": "return",
+               "values": ["The IModuleInfo interface associated with a particular URL."]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "mx.modules.IModuleInfo",
+          "params": [{ "name": "url", "type": "String"}]}
+      ]
+  }

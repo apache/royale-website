@@ -1,0 +1,22 @@
+{ "type": "method",
+  "qname": "org.apache.royale.reflection.utils.getStaticConstantsByConvention",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "A utility method to retrieve public static constants that is only reliable in a cross-target way by using a convention check. For this to work, javascript output needs js-default-initializers=true By default this assumes all candidates with names that are upper case only with possible underscores  should be a function that inspects a string and returns true or false depending on whether it matches the convention or not.",
+  "tags": [
+  {  "tagName": "param",
+         "values": ["classRef the class reference to inspect", "conventionCheck optional replacement check for default check described above"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+    "return": "Array",
+    "params": [{ "name": "classRef", "type": "Class"},
+  { "name": "conventionCheck", "type": "Function"}]}
+
+
+

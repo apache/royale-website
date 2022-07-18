@@ -1,0 +1,33 @@
+{ "type": "class",
+  "qname": "spark.skins.spark.DefaultItemRenderer",
+  "baseClassname": "mx.core.UIComponent"
+  ,
+    "description": "The DefaultItemRenderer class defines the default item renderer for a List control. The default item renderer just draws the text associated with each item in the list.  <p>You can override the default item renderer by creating a custom item renderer.</p>",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["spark.components.List", "mx.core.IDataRenderer", "spark.components.IItemRenderer", "spark.components.supportClasses.ItemRenderer"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10", "AIR 1.5"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 4"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "spark.skins.spark.DefaultItemRenderer",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10", "AIR 1.5"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 4"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ]
+  }

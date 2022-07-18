@@ -1,0 +1,38 @@
+{ "type": "interface",
+  "qname": "mx.rpc.IResponder",
+    "description": "This interface provides the contract for any service that needs to respond to remote or asynchronous calls.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+    "qname": "result",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "This method is called by a service when the return value has been received. While <code>data</code> is typed as Object, it is often (but not always) an mx.rpc.events.ResultEvent object.",
+    "tags": [
+    {  "tagName": "param",
+           "values": ["data Contains the information returned from the request."]}  ],
+      "return": "void",
+      "params": [{ "name": "data", "type": "Object"}]}
+  ,
+  { "type": "method",
+    "qname": "fault",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "This method is called by a service when an error has been received. While <code>info</code> is typed as Object it is often (but not always) an mx.rpc.events.FaultEvent object.  occured.",
+    "tags": [
+    {  "tagName": "param",
+           "values": ["info Contains the information about the error that"]}  ],
+      "return": "void",
+      "params": [{ "name": "info", "type": "Object"}]}
+  ]
+  }

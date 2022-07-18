@@ -1,0 +1,50 @@
+{ "type": "class",
+  "qname": "mx.controls.advancedDataGridClasses.DataItemRendererFactoryForICollectionViewAdvancedDataGridData",
+  "baseClassname": "org.apache.royale.html.beads.VirtualDataItemRendererFactoryBase"
+  ,
+    "description": "The DataItemRendererFactoryForHierarchicalData class reads a HierarchicalData object and creates an item renderer for every item in the array.  Other implementations of IDataProviderItemRendererMapper map different data structures or manage a virtual set of renderers.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.controls.advancedDataGridClasses.DataItemRendererFactoryForICollectionViewAdvancedDataGridData",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "getItemAt",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "Get a item for a given index.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.0"]},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.IStrandWithModelView", "org.apache.royale.html.beads.IListView"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "Object",
+          "params": [{ "name": "index", "type": "int"}]}
+      ]
+  }

@@ -1,0 +1,24 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.property.BooleanPropertyHandler",
+  "baseClassname": "org.apache.royale.textLayout.property.PropertyHandler"
+  ,
+    "description": "A property description with a Boolean value. @private",
+  "members": [
+  { "type": "accessor",
+        "access": "read-only",
+        "return": "String",
+        "qname": "className",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {}},
+      { "type": "method",
+        "qname": "owningHandlerCheck",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "*",
+          "params": [{ "name": "newVal", "type": "*"}]}
+      ]
+  }

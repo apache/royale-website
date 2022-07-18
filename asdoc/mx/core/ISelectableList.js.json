@@ -1,0 +1,31 @@
+{ "type": "interface",
+  "qname": "mx.core.ISelectableList",
+"baseInterfaceNames": [
+"mx.collections.IList"]
+,
+    "description": "The ISelectableList interface indicates that the implementor is an IList element that supports a <code>selectedIndex</code> property.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10", "AIR 1.5"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 4"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "int",
+    "qname": "selectedIndex",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "The index of the selected IList item.",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10", "AIR 1.5"]},
+        {  "tagName": "productversion",
+           "values": ["Flex 4"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]}]
+  }

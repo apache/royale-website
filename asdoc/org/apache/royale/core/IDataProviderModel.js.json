@@ -1,0 +1,48 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.core.IDataProviderModel",
+"baseInterfaceNames": [
+"org.apache.royale.events.IEventDispatcher", 
+"org.apache.royale.core.IBeadModel"]
+,
+    "description": "The IDataProviderModel interface describes the minimum set of properties available to control that let the user choose within a set of items in a dataProvider.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "Object",
+    "qname": "dataProvider",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "The set of choices displayed in the ComboBox's dropdown.  The dataProvider can be a simple array or vector if the set of choices is not going to be modified (except by wholesale replacement of the dataProvider).  To use different kinds of data sets, you may need to provide an alternate &quot;mapping&quot; bead that iterates the dataProvider, generates item renderers and assigns a data item to the item renderers.",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.0"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]},
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "String",
+    "qname": "labelField",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "The property on the data item that the item renderer should renderer.",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.0"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]}]
+  }

@@ -1,0 +1,14 @@
+{ "type": "class",
+  "qname": "org.apache.royale.display.UIGraphicsBase",
+  "baseClassname": "org.apache.royale.core.UIBase"
+  ,
+  "members": [
+  { "type": "accessor",
+        "access": "read-only",
+        "return": "flash.display.Graphics",
+        "qname": "graphicsRenderTarget",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}}]
+  }

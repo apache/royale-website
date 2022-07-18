@@ -1,0 +1,23 @@
+{ "type": "class",
+  "qname": "org.apache.royale.text.engine.Fonts",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "accessor",
+        "access": "read-only",
+        "return": "org.apache.royale.text.engine.IFontLoader",
+        "qname": "loader",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {}},
+      { "type": "method",
+        "qname": "registerLoader",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "loader", "type": "org.apache.royale.text.engine.IFontLoader"}]}
+      ]
+  }

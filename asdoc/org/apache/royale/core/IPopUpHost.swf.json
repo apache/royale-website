@@ -1,0 +1,20 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.core.IPopUpHost",
+    "description": "The IPopUpHost interface is a &quot;marker&quot; interface for a component that parents components that implement IPopUp.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-only",
+    "return": "org.apache.royale.core.IPopUpHostParent",
+    "qname": "popUpParent",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {}}]
+  }

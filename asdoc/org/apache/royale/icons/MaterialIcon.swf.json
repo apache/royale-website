@@ -1,0 +1,47 @@
+{ "type": "class",
+  "qname": "org.apache.royale.icons.MaterialIcon",
+  "baseClassname": "org.apache.royale.icons.FontIconBase"
+  ,
+    "description": "A Material based icon can be used alone or in buttons and other controls",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.7"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.icons.MaterialIcon",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "constructor.  <inject_script> var link = document.createElement(&quot;link&quot;); link.setAttribute(&quot;rel&quot;, &quot;stylesheet&quot;); link.setAttribute(&quot;type&quot;, &quot;text/css&quot;); link.setAttribute(&quot;href&quot;, &quot;https://fonts.googleapis.com/icon?family=Material+Icons&quot;); document.head.appendChild(link); </inject_script>",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.7"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "String",
+        "qname": "text",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "The text of the icon",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.7"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  }

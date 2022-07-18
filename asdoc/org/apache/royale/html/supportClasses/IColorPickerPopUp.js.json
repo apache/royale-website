@@ -1,0 +1,32 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.html.supportClasses.IColorPickerPopUp",
+"baseInterfaceNames": [
+"org.apache.royale.core.IPopUp", 
+"org.apache.royale.core.IStrand"]
+,
+    "description": "All color picker pop-ups must implement this interface.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.6"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "write-only",
+    "return": "Object",
+    "qname": "model",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "The model being used with the IColorPickerPopup.",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.9.6"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]}]
+  }

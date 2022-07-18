@@ -1,0 +1,57 @@
+.grid
+  display: grid
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr))
+  grid-gap: 10px
+  // align-items: end
+
+  .grid-item
+    .grid-item-img
+      text-align: center
+
+      a
+        background: none
+        border: none
+      img
+        width: 100%
+
+.grid.grid-blog-preview
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr))
+
+.grid.grid-team
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr))
+  text-align: center
+
+  h2
+    font-size: 16px
+    margin-bottom: 0.1em
+  
+  p
+    font-size: 11px
+    line-height: 1em
+    margin-top: 0.1em
+    font-weight: bold
+    text-transform: uppercase
+
+  .social-links
+    list-style: none
+    padding: 0
+
+    li
+      display: inline
+      padding: 0
+      margin-right: 10px
+
+      &:last-of-type
+        margin-right: 0
+
+      a
+        background: none
+        border: none
+
+.grid.grid-benefits
+  .grid-item
+    .grid-item-img
+      img
+        width: auto
+        max-width: 100%
+        height: 100px

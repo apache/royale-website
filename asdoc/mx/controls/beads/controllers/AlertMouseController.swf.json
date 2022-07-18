@@ -1,0 +1,23 @@
+{ "type": "class",
+  "qname": "mx.controls.beads.controllers.AlertMouseController",
+  "baseClassname": "org.apache.royale.html.beads.controllers.AlertController"
+  ,
+    "description": "The RadioButtonMouseController is the default controller for the radio button emulation class. It is responsible for creating the item click event",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "alertCloseHandler",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "event", "type": "org.apache.royale.events.CloseEvent"}]}
+      ]
+  }

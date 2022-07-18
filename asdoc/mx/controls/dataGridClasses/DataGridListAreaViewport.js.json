@@ -1,0 +1,44 @@
+{ "type": "class",
+  "qname": "mx.controls.dataGridClasses.DataGridListAreaViewport",
+  "baseClassname": "org.apache.royale.html.supportClasses.ScrollingViewport"
+  ,
+    "description": "The ScrollingViewport extends the Viewport class by adding horizontal and vertical scroll bars, if needed, to the content area of a Container. In addition, the content of the Container is clipped so that items extending outside the Container are hidden and reachable only by scrolling.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.controls.dataGridClasses.DataGridListAreaViewport",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "setScrollStyle",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.ILayoutChild"]}  ],
+          "return": "void",
+          "params": []}
+      ]
+  }

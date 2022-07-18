@@ -1,0 +1,50 @@
+{ "type": "class",
+  "qname": "org.apache.royale.core.CallLaterBead",
+  "baseClassname": "org.apache.royale.core.Bead"
+  ,
+    "description": "The CallLater bead implements ways for a method to be called after other code has finished running.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.core.CallLaterBead",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "callLater",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Calls a function after some amount of time.  CallLater works a bit differently than in the Flex SDK.  The Flex SDK version was could use the Flash Player's RENDER event to try to run code before the scren was updated.  Since there is no deferred rendering in HTML/JS/CSS, this version of callLater is almost always going to run after the screen is updated.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "void",
+          "params": [{ "name": "fn", "type": "Function"},
+        { "name": "args", "type": "Array"},
+        { "name": "thisArg", "type": "Object"}]}
+      ]
+  }

@@ -1,0 +1,16 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.supportClasses.PanelContent",
+  "baseClassname": "org.apache.royale.html.Container"
+  ,
+    "description": "A Container specialized for the content area of a Panel. Needed for its type name",
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html.supportClasses.PanelContent",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ]
+  }

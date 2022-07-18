@@ -1,0 +1,16 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.PanelTitleBar",
+  "baseClassname": "org.apache.royale.html.TitleBar"
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html.PanelTitleBar",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "A specially styled TitleBar for use in a Panel",
+          "return": "",
+          "params": []}
+      ]
+  }

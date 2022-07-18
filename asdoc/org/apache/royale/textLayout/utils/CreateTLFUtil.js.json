@@ -1,0 +1,16 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.utils.CreateTLFUtil",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "createTLF",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "return": "org.apache.royale.textLayout.formats.TextLayoutFormat",
+          "params": [{ "name": "localStyles", "type": "org.apache.royale.textLayout.formats.ITextLayoutFormat"},
+        { "name": "parentPrototype", "type": "org.apache.royale.textLayout.formats.TextLayoutFormat"}]}
+      ]
+  }

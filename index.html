@@ -1,0 +1,114 @@
+---
+title: "Apache Royale"
+layout: "marketing.html"
+hero_title: "Code once. Run everywhere."
+hero_subtitle: "Designed for the future"
+hero_description: "Apache Royale™ is a productive, open-source frontend application technology that lets you code in MXML & AS3 and output to different formats."
+hero_button_text: "Get Started"
+hero_button_link: "https://apache.github.io/royale-docs/get-started"
+---
+<div class="benefits-section">
+  <div class="container">
+    <div class="grid grid-benefits">
+      <div class="grid-item">
+        <div class="grid-item-img">
+          <img src="/img/enterprise_class_level.svg">
+        </div>
+        <h3>Enterprise Class</h3>
+        <p>Design and code in enterprise level languages and tools to ensure the level of quality your applications and clients demand.</p>
+      </div>
+
+      <div class="grid-item">
+        <div class="grid-item-img">
+          <img src="/img/multiple_target_devices.svg">
+        </div>
+        <h3>Multiple Targets &amp; Devices</h3>
+        <p>Maintain your knowledge and workflows intact for years to come and let Royale provide you with the right output you need.</p>
+      </div>
+
+      <div class="grid-item">
+        <div class="grid-item-img">
+          <img src="/img/fast_performance_lightweight.svg">
+        </div>
+        <h3>Fast Performance &amp; Lightweight</h3>
+        <p>Royale Apps are light and performant thanks to the <a href="https://apache.github.io/royale-docs/features/payg">PAYG (Pay As You Go)</a> philosophy combined with their composition architecture (Strands and Beads).</p>
+      </div>
+
+      <div class="grid-item">
+        <div class="grid-item-img">
+          <img src="/img/OOP_declarative_programing.svg">
+        </div>
+        <h3>OOP & Declarative Programming</h3>
+        <p>Write code in <a href="https://apache.github.io/royale-docs/features/as3">ActionScript 3.0</a>, a robust OOP language, and build your interfaces in <a href="https://apache.github.io/royale-docs/features/mxml">MXML</a>, a fast declarative markup language.</p>
+      </div>
+
+      <div class="grid-item">
+        <div class="grid-item-img">
+          <img src="/img/advanced_communications.svg">
+        </div>
+        <h3>Advanced Communications</h3>
+        <p>Royale support <a href="https://apache.github.io/royale-docs/working-with-data/loading-external-data/amf">AMF</a> and <a href="https://apache.github.io/royale-docs/working-with-data/loading-external-data/remoteobject">RemoteObject</a> communications a performant way to share object graphs with your backend of choice.</p>
+      </div>
+
+      <div class="grid-item">
+        <div class="grid-item-img">
+          <img src="/img/supported_apache.svg">
+        </div>
+        <h3>Supported by Apache</h3>
+        <p>Being a part of this great <a href="https://www.apache.org/foundation/">open source foundation</a> ensures long term evolution of the technologies you choose far beyond market and corporate trends.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="download-section">
+  <div class="container">
+    <h2>Download Apache Royale</h2>
+
+    <p>You can download the Apache Royale <a href="/source-code">source code</a> to build yourself, or you can download a pre-built <a href="/download">binary distribution</a> that's ready to go.</p>
+
+    <a class="btn" href="/source-code"><i class="fa fa-code"></i> Source Code</a>
+    <a class="btn" href="/download"><i class="fa fa-download"></i> Binary Distributions</a>
+
+    <h3>Install Apache Royale via npm</h3>
+
+    <p>Get started quickly by installing Apache Royale with npm:</p>
+
+    <pre><code>npm install -g @apache-royale/royale-js</code></pre>
+
+    <p>After global installation, the following compiler command line tools will be available for you to use:
+      <strong>mxmlc</strong>, <strong>compc</strong>, <strong>asformat</strong>, <strong>asjsc</strong>,
+      <strong>asjscompc</strong>, <strong>asnodec</strong>, and <strong>externc</strong>.
+    </p>
+
+    <h4>Usage:</h4>
+
+    <pre><code>mxmlc &lt;path to <em>.mxml</em> file&gt;
+asjsc &lt;path to <em>.as</em> file&gt;</code></pre>
+  </div>
+</div>
+
+<div class="blog-preview-section">
+  <div class="container">
+    <h2><a href="/blog/">Latest From Our Blog</a></h2>
+    <p>Stay up to date with all of the news, updates, and tutorials</p>
+    <div class="grid grid-blog-preview">
+      {% assign sliceOfBlog = collections.blog | reverse | getSliceOfCollectionItems %}
+      {% for post in sliceOfBlog %}
+      <div class="grid-item">
+        <h3 class="post-title"><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+        {% include "blog-post-meta.html", author: post.data.author, date: post.date %}
+        <div><p>{{ post.templateContent | excerpt }}</p></div>
+        <p><a href="{{ post.url }}">Read More</a></p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+<div class="join-section">
+  <div class="container">
+    <a class="btn" href="/get-involved/" style="float:right"><i class="fa fa-user-plus"></i> Get Involved</a>
+    <h2>Join Apache Royale</h2>
+    <p>Apache Royale needs your help. Want to be part of our community and contribute?</p>
+  </div>
+</div>

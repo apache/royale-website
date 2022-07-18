@@ -1,0 +1,31 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.html.beads.IListView",
+"baseInterfaceNames": [
+"org.apache.royale.core.IBeadView"]
+,
+    "description": "The IListView interface provides the protocol for any bead that creates the visual parts for a org.apache.royale.html.List control.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-only",
+    "return": "org.apache.royale.core.IItemRendererOwnerView",
+    "qname": "dataGroup",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "The component which parents all of the itemRenderers for each datum being displayed by the List component.",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.0"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]}]
+  }

@@ -1,0 +1,25 @@
+{ "type": "class",
+  "qname": "mx.controls.dataGridClasses.DataGridButtonBar",
+  "baseClassname": "org.apache.royale.html.DataGridButtonBar"
+  ,
+    "description": "The mx DataGridButtonBar class extends DataGridButtonBar to allow some specialized css",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.7"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]},
+      {  "tagName": "royalesuppresspublicvarwarning",
+         "values": []}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.controls.dataGridClasses.DataGridButtonBar",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ]
+  }

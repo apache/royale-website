@@ -1,0 +1,29 @@
+{ "type": "class",
+  "qname": "org.apache.royale.jewel.beads.layouts.GapConstants",
+  "baseClassname": ""
+  ,
+    "description": "Jewel GapConstants must to be synced with _layout.sass values",
+  "members": [
+  { "type": "field",
+        "qname": "GAPS",
+        "return": "Number",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "number of gap styles available in CSS",
+        "tags": [
+        {  "tagName": "see",
+               "values": ["$gaps variable in _layout.sass"]}  ]},
+      { "type": "field",
+        "qname": "GAP_STEP",
+        "return": "Number",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "gap step size in each gap style rule in CSS",
+        "tags": [
+        {  "tagName": "see",
+               "values": ["$gap-step variable in _layout.sass"]}  ]}]
+  }

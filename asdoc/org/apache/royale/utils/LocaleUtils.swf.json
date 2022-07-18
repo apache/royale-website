@@ -1,0 +1,33 @@
+{ "type": "class",
+  "qname": "org.apache.royale.utils.LocaleUtils",
+  "baseClassname": ""
+  ,
+    "description": "The LocaleUtils class is an all-static class with methods for getting informatiojn about the locale. You do not create instances of LocaleUtils; instead you call methods such as the <code>LocaleUtils.getLocale()</code> method.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 1.0.0", "Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.utils.LocaleUtils",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "getLocale",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "Gets the locale of the operating system.",
+          "return": "String",
+          "params": []}
+      ]
+  }

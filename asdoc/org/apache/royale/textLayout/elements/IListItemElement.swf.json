@@ -1,0 +1,34 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.textLayout.elements.IListItemElement",
+"baseInterfaceNames": [
+"org.apache.royale.textLayout.elements.IContainerFormattedElement"]
+,
+  "members": [
+  { "type": "method",
+    "qname": "normalizeNeedsInitialParagraph",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "return": "Boolean",
+      "params": []}
+  ,
+  { "type": "method",
+    "qname": "computedListMarkerFormat",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "return": "org.apache.royale.textLayout.formats.IListMarkerFormat",
+      "params": []}
+  ,
+  { "type": "method",
+    "qname": "getListItemNumber",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "return": "int",
+      "params": [{ "name": "listMarkerFormat", "type": "org.apache.royale.textLayout.formats.IListMarkerFormat"}]}
+  ]
+  }

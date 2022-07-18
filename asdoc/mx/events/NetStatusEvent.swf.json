@@ -1,0 +1,28 @@
+{ "type": "class",
+  "qname": "mx.events.NetStatusEvent",
+  "baseClassname": "flash.events.NetStatusEvent"
+  ,
+    "description": "",
+  "tags": [
+  {  "tagName": "royalesuppresspublicvarwarning",
+         "values": []},
+      {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.events.NetStatusEvent",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": [{ "name": "type", "type": "String"},
+        { "name": "bubbles", "type": "Boolean"},
+        { "name": "cancelable", "type": "Boolean"},
+        { "name": "info", "type": "Object"}]}
+      ]
+  }

@@ -1,0 +1,23 @@
+---
+title: "Thanks To"
+---
+<h1>Thanks To</h1>
+
+<p>A big thank you to all of the individuals and companies that help us in our journey</p>
+
+<p>The Apache Royale PMC wants to recognize third parties that provide software or services to Apache Royale to further the goals of the project.</p>
+
+<p>Your support helps make Apache Royale a great technology!</p>
+
+<div class="grid grid-thanks">
+  {% for item in thanks %}
+  <div class="grid-item">
+    <div class="grid-item-img">
+      <a href="{{ item.url }}"><img src="{{ item.imgUrl }}" alt="{{ item.name }}"></a>
+    </div>
+    <h2><a href="{{ item.url }}">{{ item.name }}</a></h2>
+    <p>{{ item.description }}</p>
+    <p><a href="{{ item.url }}"><i class="fa fa-external-link-square"></i> Link to {{ item.name }}</a></p>
+  </div>
+  {% endfor %}
+</div>

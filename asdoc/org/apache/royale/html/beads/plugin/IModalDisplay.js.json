@@ -1,0 +1,22 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.html.beads.plugin.IModalDisplay",
+  "members": [
+  { "type": "method",
+    "qname": "show",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "return": "void",
+      "params": [{ "name": "parent", "type": "org.apache.royale.core.IPopUpHost"}]}
+  ,
+  { "type": "method",
+    "qname": "hide",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "return": "void",
+      "params": []}
+  ]
+  }

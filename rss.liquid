@@ -1,0 +1,30 @@
+---
+# Metadata comes from _data/feedmeta.json
+permalink: "/feed/index.xml"
+eleventyExcludeFromCollections: true
+layout: null
+---
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xml:base="{{ feedmeta.url }}">
+  <channel>
+    <title>{{ feedmeta.title }}</title>
+    <atom:link href="{{ permalink | url | absoluteUrl: feedmeta.url }}" rel="self" type="application/rss+xml" />
+    <link>{{ feedmeta.url }}</link>
+    <description>{{ feedmeta.description }}</description>
+    <lastBuildDate>{{ collections.blog | getNewestCollectionItemDate | dateToRfc822 }}</lastBuildDate>
+    <language>{{ feedmeta.language }}</language>
+    {% for post in collections.blog reversed %}
+        {% assign absolutePostUrl = post.url | url | absoluteUrl: feedmeta.url %}
+        <item>
+            <title>{{ post.data.title }}</title>
+            <link>{{ absolutePostUrl }}</link>
+            <pubDate>{{ post.date | dateToRfc822 }}</pubDate>
+            <dc:creator><![CDATA[{% if post.data.author %}{{ post.data.author }}{% else %}{{ "Apache Royale Team" }}{% endif %}]]></dc:creator>
+            <guid isPermaLink="false">{{ absolutePostUrl }}</guid>
+            <description><![CDATA[{{ post.templateContent | htmlToAbsoluteUrls: absolutePostUrl }}]]></description>
+        </item>
+    {% endfor %}
+  </channel>
+</rss>

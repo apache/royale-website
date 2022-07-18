@@ -1,0 +1,10 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.jewel.supportClasses.textinput.ITextInput",
+    "description": "ITextInput is the interface for all text input jewel classes. It's used mainly in org.apache.royale.jewel.supportClasses.textinput.TextInputBase",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 9.4"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ]}

@@ -1,0 +1,24 @@
+{ "type": "class",
+  "qname": "org.apache.royale.test.AssertionError",
+  "baseClassname": "Error"
+  ,
+    "description": "Error class used when assertions fail.",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["org.apache.royale.test.Assert"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.test.AssertionError",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["message The assertion failure message", "error An optional error that caused the assertion failure"]}  ],
+          "return": "",
+          "params": [{ "name": "message", "type": "String"},
+        { "name": "error", "type": "Error"}]}
+      ]
+  }

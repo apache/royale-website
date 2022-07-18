@@ -1,0 +1,60 @@
+{ "type": "class",
+  "qname": "mx.rpc.Responder",
+  "baseClassname": ""
+  ,
+    "description": "This class provides a default implementation of the mx.rpc.IResponder interface.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.rpc.Responder",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructs an instance of the responder with the specified handlers.  completed successfully. completed with errors.",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["result Function that should be called when the request has", "fault Function that should be called when the request has"]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": [{ "name": "result", "type": "Function"},
+        { "name": "fault", "type": "Function"}]}
+      ,
+      { "type": "method",
+        "qname": "result",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "This method is called by a remote service when the return value has been received.  While <code>data</code> is typed as Object, it is often (but not always) an mx.rpc.events.ResultEvent.",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["data Object containing the information about the error that occured. ."]}  ],
+          "return": "void",
+          "params": [{ "name": "data", "type": "Object"}]}
+      ,
+      { "type": "method",
+        "qname": "fault",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "This method is called by a service when an error has been received.  While <code>info</code> is typed as Object, it is often (but not always) an mx.rpc.events.FaultEvent.",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["info Object containing the information returned from the request."]}  ],
+          "return": "void",
+          "params": [{ "name": "info", "type": "Object"}]}
+      ]
+  }

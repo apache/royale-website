@@ -1,0 +1,46 @@
+{ "type": "class",
+  "qname": "org.apache.royale.net.remoting.messages.AcknowledgeMessage",
+  "baseClassname": "org.apache.royale.net.remoting.messages.AsyncMessage"
+  ,
+    "description": "An AcknowledgeMessage acknowledges the receipt of a message that was sent previously. Every message sent within the messaging system must receive an acknowledgement.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["BlazeDS 4", "LCDS 3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "field",
+        "qname": "ERROR_HINT_HEADER",
+        "return": "String",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "Header name for the error hint header. Used to indicate that the acknowledgement is for a message that generated an error.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["BlazeDS 4", "LCDS 3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]},
+      { "type": "method",
+        "qname": "org.apache.royale.net.remoting.messages.AcknowledgeMessage",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructs an instance of an AcknowledgeMessage with an empty body and header.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["BlazeDS 4", "LCDS 3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ]
+  }

@@ -1,0 +1,75 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.SimpleAlert",
+  "baseClassname": "org.apache.royale.core.UIBase"
+  ,
+    "description": "The SimpleAlert class is a component that displays a message and an OK button. The SimpleAlert converts directly to window.alert() for HTML. SimpleAlert uses the following beads:  org.apache.royale.core.IBeadModel: the data model, which includes the message. org.apache.royale.core.IBeadView:  the bead that constructs the visual parts of the Alert. org.apache.royale.core.IBeadController: the bead responsible for handling input events. org.apache.royale.html.beads.IBorderBead: a bead, if present, that draws a border around the control. org.apache.royale.html.beads.IBackgroundBead: a bead, if present, that creates a solid-color background.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html.SimpleAlert",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "showAlert",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "This function causes the SimpleAlert to appear. The parent is used for ActionScript and identifies the IPopUpParent that manages the alert.",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["Object parent The object that hosts the pop-up."]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "void",
+          "params": [{ "name": "parent", "type": "Object"}]}
+      ,
+      { "type": "method",
+        "qname": "show",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "A convenience function to compose and display the alert.",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["String message The content to display in the SimpleAlert.", "Object parent The object that hosts the pop-up."]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "org.apache.royale.html.SimpleAlert",
+          "params": [{ "name": "message", "type": "String"},
+        { "name": "parent", "type": "Object"}]}
+      ]
+  ,
+  "events": [
+  { "qname": "close",
+        "type": "org.apache.royale.events.Event"
+      }]
+  }

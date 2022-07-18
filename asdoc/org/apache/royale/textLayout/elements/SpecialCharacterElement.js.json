@@ -1,0 +1,37 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.elements.SpecialCharacterElement",
+  "baseClassname": "org.apache.royale.textLayout.elements.SpanElement"
+  ,
+    "description": "The SpecialCharacterElement class is an abstract base class for elements that represent special characters.  <p>You cannot create a SpecialCharacterElement object directly. Invoking <code>new SpecialCharacterElement()</code> throws an error exception.</p>",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["BreakElement", "TabElement"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10", "AIR 1.5"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.textLayout.elements.SpecialCharacterElement",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Base class - invoking <code>new SpecialCharacterElement()</code> throws an error exception.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10", "AIR 1.5"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "read-only",
+        "return": "String",
+        "qname": "className",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {}}]
+  }

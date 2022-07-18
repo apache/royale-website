@@ -1,0 +1,64 @@
+{ "type": "class",
+  "qname": "org.apache.royale.utils.EffectTimer",
+  "baseClassname": "org.apache.royale.events.EventDispatcher"
+  ,
+    "description": "The Timer class dispatches events based on a delay and repeat count.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.utils.EffectTimer",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.  to wait before dispatching the event. the event.  If 0, keep dispatching forever.",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["delay The number of milliseconds", "repeatCount The number of times to dispatch"]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "start",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "Number",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "stop",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "void",
+          "params": []}
+      ]
+  ,
+  "events": [
+  { "qname": "update",
+        "type": "org.apache.royale.events.ValueEvent"
+      ,
+          "description": "Dispatched as requested via the delay and repeat count parameters in the constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  }

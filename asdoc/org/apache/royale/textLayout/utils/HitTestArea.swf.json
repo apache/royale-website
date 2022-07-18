@@ -1,0 +1,36 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.utils.HitTestArea",
+  "baseClassname": ""
+  ,
+    "description": "The HitTestArea class is a lightweight implementation of the Warnock algorithm for rectangles. It is used for hit-testing in FlowElements, which may contain multiple child elements. The algorithm attempts to set the logical midpoint to be outside of a bounding rectangle to avoid having to split too many rectangles. Note that the code is optimized for non-overlapping rectangles; the determination of the logical midpoint does not work well for overlapping rectangles because the algorithm breaks once it found a rectangle that contains the geometric midpoint.  The pseudocode for this algorithm is:  if !(point in this rectangle) return false; if !(hasKids) return true; determine the quadrant where the point is in (top left &quot;tl&quot;, top right &quot;tr&quot;, bottom left &quot;bl&quot;, or bottom right &quot;br&quot;); if this[quadrant] == null, return false; // no rectangle covers this area else return this[quadrant].hitTest(x,y);  To avoid having to create a 4-element array for the four quadrants, the code constructs the property name and accesses the property with dynamic lookup.",
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.textLayout.utils.HitTestArea",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Create a HitTestArea with an object containing enumerable property objects as a rectangle in a &quot;rect&quot; property, and a a FlowElement in its &quot;owner&quot; property. First, determine the bounding rectangle; then, determine the midpoint, and fill in each quadrant with the intersecting rectangles.",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["obj    An object containing {rect:Rectangle, owner:FlowElement} objects as property values."]}  ],
+          "return": "",
+          "params": [{ "name": "objects", "type": "Object"}]}
+      ,
+      { "type": "method",
+        "qname": "hitTest",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Do a hit test. If the point is within this rectangle, determine the quadrant of the point. If the quadrant is empty, the hit test is true. If not, recurse into that quadrant.",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["x    the X coordinate", "y    the Y coordinate"]},
+            {  "tagName": "return",
+               "values": ["the owner if the hit test succeeds, null otherwise"]}  ],
+          "return": "org.apache.royale.textLayout.elements.FlowElement",
+          "params": [{ "name": "x", "type": "Number"},
+        { "name": "y", "type": "Number"}]}
+      ]
+  }

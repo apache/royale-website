@@ -1,0 +1,13 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.html.supportClasses.IDividedContainerGripper",
+"baseInterfaceNames": [
+"org.apache.royale.core.IBead"]
+,
+    "description": "This interface defines a gripper bead control for a DividedContainer.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ]}

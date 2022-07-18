@@ -1,0 +1,33 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.textLayout.elements.ISubParagraphGroupElementBase",
+"baseInterfaceNames": [
+"org.apache.royale.textLayout.elements.IFlowGroupElement"]
+,
+  "members": [
+  { "type": "accessor",
+    "access": "read-only",
+    "return": "uint",
+    "qname": "precedence",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {}},
+  { "type": "method",
+    "qname": "acceptTextAfter",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "return": "Boolean",
+      "params": []}
+  ,
+  { "type": "method",
+    "qname": "acceptTextBefore",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "return": "Boolean",
+      "params": []}
+  ]
+  }

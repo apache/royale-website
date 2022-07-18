@@ -1,0 +1,9 @@
+{ "type": "method",
+  "qname": "org.apache.royale.debugging.throwError",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "assert throws an error if the condition is not met.",
+    "return": "void",
+    "params": [{ "name": "errorMessage", "type": "String"}]}

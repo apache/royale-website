@@ -1,0 +1,31 @@
+{ "type": "class",
+  "qname": "org.apache.royale.charts.beads.layouts.StackedBarChartLayoutForArrayList",
+  "baseClassname": "org.apache.royale.charts.beads.layouts.StackedBarChartLayout"
+  ,
+    "description": "The StackedBarChartLayoutForArrayList class calculates the size and position of all of the itemRenderers for all of the series in a BarChart.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.charts.beads.layouts.StackedBarChartLayoutForArrayList",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ]
+  }

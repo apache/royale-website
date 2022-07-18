@@ -1,0 +1,50 @@
+{ "type": "class",
+  "qname": "mx.controls.listClasses.ListVerticalLayout",
+  "baseClassname": "org.apache.royale.core.LayoutBase"
+  ,
+    "description": "The ListVerticalLayout class is a simple layout bead.  It takes the set of children and lays them out vertically in one column, using absolute positioning",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.controls.listClasses.ListVerticalLayout",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "layout",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "Layout children vertically",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.ILayoutHost", "org.apache.royale.core.IParentIUIBase", "org.apache.royale.core.WrappedHTMLElement"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "Boolean",
+          "params": []}
+      ]
+  }

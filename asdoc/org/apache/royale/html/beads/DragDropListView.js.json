@@ -1,0 +1,28 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.beads.DragDropListView",
+  "baseClassname": "org.apache.royale.html.beads.ListView"
+  ,
+    "description": "DragDropListView is the view to use for Lists when you want to use drag and drop beads. This view provides a drawing layer in which the the drop indicator can be displayed when the list is the target for drag and drop operations.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.8"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+        "access": "write-only",
+        "return": "org.apache.royale.core.IStrand",
+        "qname": "strand",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "private",
+               "values": []},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.IParent"]}  ]}]
+  }

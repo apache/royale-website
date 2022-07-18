@@ -1,0 +1,52 @@
+{ "type": "class",
+  "qname": "mx.logging.targets.TraceTarget",
+  "baseClassname": "mx.logging.targets.LineFormattedTarget"
+  ,
+    "description": "Provides a logger target that uses the global <code>trace()</code> method to output log messages.  <p>To view <code>trace()</code> method output, you must be running the debugger version of Flash Player or AIR Debug Launcher.</p>  <p>The debugger version of Flash Player and AIR Debug Launcher send output from the <code>trace()</code> method to the flashlog.txt file. The default location of this file is the same directory as the mm.cfg file. You can customize the location of this file by using the <code>TraceOutputFileName</code> property in the mm.cfg file. You must also set <code>TraceOutputFileEnable</code> to 1 in your mm.cfg file.</p>",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]},
+      {  "tagName": "royalesuppresspublicvarwarning",
+         "values": []}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.logging.targets.TraceTarget",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.  <p>Constructs an instance of a logger target that will send the log data to the global <code>trace()</code> method. All output will be directed to flashlog.txt by default.</p>",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "internalLog",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "Implementation to log the message via the <code>trace()</code> method.  include time, date, category, etc. based on property settings, such as <code>includeDate</code>, <code>includeCategory</code>, etc.",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["message String containing preprocessed log message which may"]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "void",
+          "params": [{ "name": "message", "type": "String"}]}
+      ]
+  }

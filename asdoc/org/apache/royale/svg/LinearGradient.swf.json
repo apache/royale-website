@@ -1,0 +1,35 @@
+{ "type": "class",
+  "qname": "org.apache.royale.svg.LinearGradient",
+  "baseClassname": "org.apache.royale.graphics.GradientBase"
+  ,
+  "members": [
+  { "type": "accessor",
+        "access": "read-write",
+        "return": "Number",
+        "qname": "scaleX",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "The horizontal scale of the gradient transform, which defines the width of the (unrotated) gradient"},
+      { "type": "method",
+        "qname": "begin",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "g", "type": "flash.display.Graphics"},
+        { "name": "targetBounds", "type": "flash.geom.Rectangle"},
+        { "name": "targetOrigin", "type": "flash.geom.Point"}]}
+      ,
+      { "type": "method",
+        "qname": "end",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "g", "type": "flash.display.Graphics"}]}
+      ]
+  }

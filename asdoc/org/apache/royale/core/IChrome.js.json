@@ -1,0 +1,10 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.core.IChrome",
+    "description": "The IChrome interface is a &quot;marker&quot; interface. Items that implement IChrome are designating themselves as being attached to their parent in a way that's different from normal content. For example, to a Container, a child being added that's an IChrome implementor will be added outside of the content area.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ]}

@@ -1,0 +1,39 @@
+{ "type": "class",
+  "qname": "mx.effects.WipeLeft",
+  "baseClassname": "org.apache.royale.effects.Wipe"
+  ,
+    "description": "The WipeLeft class defines a wipe left effect. The before or after state of the component must be invisible.  <p>You often use this effect with the <code>showEffect</code> and <code>hideEffect</code> triggers. The <code>showEffect</code> trigger occurs when a component becomes visible by changing its <code>visible</code> property from <code>false</code> to <code>true</code>. The <code>hideEffect</code> trigger occurs when the component becomes invisible by changing its <code>visible</code> property from <code>true</code> to <code>false</code>.</p>  <p>This effect inherits the <code>MaskEffect.show</code> property. If you set the value to <code>true</code>, the component appears. If you set the value to <code>false</code>, the component disappears. The default value is <code>true</code>.</p>  <p>If you specify this effect for a <code>showEffect</code> or <code>hideEffect</code> trigger, Flex sets the <code>show</code> property for you, either to <code>true</code> if the component becomes invisible, or <code>false</code> if the component becomes visible.</p>   <p>The <code>&lt;mx:WipeLeft&gt;</code> tag inherits all of the tag attributes of its superclass, and adds the following tag attributes:</p>  <pre>\\n &lt;mx:WipeLeft\\n id=&quot;ID&quot;\\n /&gt;\\n </pre>",
+  "tags": [
+  {  "tagName": "includeExample",
+         "values": ["examples/WipeLeftExample.mxml"]},
+      {  "tagName": "see",
+         "values": ["mx.effects.effectClasses.WipeLeftInstance"]},
+      {  "tagName": "mxml",
+         "values": []},
+      {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.effects.WipeLeft",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["target The Object to animate with this effect."]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": [{ "name": "target", "type": "Object"}]}
+      ]
+  }

@@ -1,0 +1,10 @@
+{ "type": "method",
+  "qname": "org.apache.royale.utils.replaceBead",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "return": "org.apache.royale.core.IBead",
+    "params": [{ "name": "strand", "type": "org.apache.royale.core.IStrand"},
+  { "name": "bead", "type": "org.apache.royale.core.IBead"},
+  { "name": "classOrInterface", "type": "Class"}]}

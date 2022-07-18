@@ -1,0 +1,15 @@
+{ "type": "class",
+  "qname": "org.apache.royale.express.VSlider",
+  "baseClassname": "org.apache.royale.html.Slider"
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.express.VSlider",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ]
+  }

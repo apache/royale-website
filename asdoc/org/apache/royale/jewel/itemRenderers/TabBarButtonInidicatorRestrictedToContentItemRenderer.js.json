@@ -1,0 +1,41 @@
+{ "type": "class",
+  "qname": "org.apache.royale.jewel.itemRenderers.TabBarButtonInidicatorRestrictedToContentItemRenderer",
+  "baseClassname": "org.apache.royale.jewel.itemRenderers.TabBarButtonItemRenderer"
+  ,
+    "description": "The TabBarButtonInidicatorRestrictedToContentItemRenderer is a TabBarButtonItemRenderer that restrict indicator to content",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.6"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.jewel.itemRenderers.TabBarButtonInidicatorRestrictedToContentItemRenderer",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.4"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "addIndicator",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "adding indicator to positioner makes the indicator fill all available space adding to &quot;span&quot; HTMLElement restrict indicator to content. Override this function in TabBarButtonItemRenderer subclasses",
+          "return": "void",
+          "params": []}
+      ]
+  }

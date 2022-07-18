@@ -1,0 +1,190 @@
+/**
+ * Licensed under the Apache License, Version 2.0 (the "License")
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     https://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+
+@import "royale-theme-topbar"
+@import "royale-theme-footer"
+
+h2.post-title
+  font-family: 'Signika'
+  margin-bottom: 0.25em
+  font-size: 36px
+  color: #2166ac
+
+  a
+    color: #2166ac
+
+h3.post-title
+  font-family: 'Signika'
+  margin-bottom: 0.25em
+  font-size: 20px
+  color: #2166ac
+
+  a
+    color: #2166ac
+
+.page
+  background-image: url('/img/page-bg-1-1920x300.png')
+  background-repeat: no-repeat
+  margin-top: 0
+  background-position: center top
+
+.post-header
+  width: 100%
+  margin: auto
+
+.container
+  padding-left: 20px
+  padding-right: 20px
+  margin-left: auto
+  margin-right: auto
+
+.page-content
+  font-family: "Hind Siliguri"
+  display: flex
+  flex-direction: column
+  min-height: calc(100vh - 60px)
+  margin-bottom: 2em
+  margin-top: 3em
+
+  article
+    max-width: 100%
+
+  h1 + p 
+    color: #4393c3
+    font-weight: 400
+    font-size: 20px
+
+    code
+      color: #4393c3
+      background-color: #ecf8ff
+      box-shadow: none
+
+
+.marketing
+  background: none
+  
+  .docs-header
+    background-image: url("/img/isometric-devices-light-curve-1920x1025.png")
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: bottom center
+    padding-bottom: 4em
+
+.hero-header
+  padding-top: 4em
+
+  p
+    max-width: min(100%, 60ch)
+
+  h1
+    color: #000
+
+  small
+    font-family: 'Signika'
+    font-size: 15px
+
+.page.post
+  background: none
+  
+  .docs-header
+    background-image: url('/img/royale_spheres_header.png')
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center center
+
+  .post-header
+    padding-bottom: 1em
+
+    h1
+      color: #fff
+      margin: 1em 0 0.2em 0
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.45) 
+
+    .post-meta
+      color: #fff
+      font-size: 16px
+      margin-top: 0.5em
+      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.45)
+
+  .page-content
+    margin-top: 1.5em
+
+.post-meta
+  font-family: 'Signika'
+  color: #4393c3
+  font-size: 14px
+  margin-bottom: 1.5em
+
+pre
+  background-color: #002b36
+  color: #c3d4d6
+  padding: 1em 1.5em
+  border-radius: 1em
+
+.marketing
+
+  .page-content
+    margin-top: 1em
+    margin-bottom: 0
+
+.download-section
+  background-image: url("/img/redsand3-1920x1080.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center center
+
+  p
+    color: #fff
+
+.join-section
+  background: #000
+
+.download-section, .join-section
+  padding: 2em 0
+
+  *
+    color: #fff
+
+  a 
+    background-color: rgba(255, 255, 255, 0.1)
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.8)
+
+    &:hover
+      background-color: rgba(255, 255, 255, 0.2)
+      color: #fff
+      
+
+  .btn
+    background: #fff
+    color: #000
+
+    i.fa
+      color: #000
+
+.join-section
+  .btn
+    &:hover
+      background: #fa461e
+
+.benefits-section
+  padding-bottom: 1.5em
+
+@media (min-width: 1340px)
+  .container
+    max-width: 1260px
+
+@media (min-width: 780px)
+  .container
+    width: 90%

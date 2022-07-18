@@ -1,0 +1,32 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.core.IPanelModel",
+"baseInterfaceNames": [
+"org.apache.royale.core.IBeadModel", 
+"org.apache.royale.core.ITitleBarModel"]
+,
+    "description": "The IPanelModel interface describes the minimum set of properties available to a Panel control.  More sophisticated Panel controls could have models that extend IPanelModel.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "Array",
+    "qname": "controlBar",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "The items in the org.apache.royale.html.ControlBar. Setting this property automatically causes the ControlBar to display if you are using a View bead that supports it.",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.0"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]}]
+  }

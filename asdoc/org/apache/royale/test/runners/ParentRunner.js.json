@@ -1,0 +1,58 @@
+{ "type": "class",
+  "qname": "org.apache.royale.test.runners.ParentRunner",
+  "baseClassname": ""
+  ,
+    "description": "Provides a base implementation of a runner with children, and intended to be subclassed, similar to <code>SuiteRunner</code>.",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["org.apache.royale.test.runners.SuiteRunner"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.test.runners.ParentRunner",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+          "return": "",
+          "params": [{ "name": "children", "type": "Vector.<Class>"}]}
+      ,
+      { "type": "accessor",
+        "access": "read-only",
+        "return": "String",
+        "qname": "description",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "inheritDoc",
+               "values": []}  ]},
+      { "type": "method",
+        "qname": "pleaseStop",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "inheritDoc",
+               "values": []}  ],
+          "return": "void",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "collectChildren",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Subclasses must override to collect all children for this parent runner.",
+          "return": "void",
+          "params": [{ "name": "result", "type": "Vector.<Class>"}]}
+      ]
+  }
+
+
+

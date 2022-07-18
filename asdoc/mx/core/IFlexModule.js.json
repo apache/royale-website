@@ -1,0 +1,24 @@
+{ "type": "interface",
+  "qname": "mx.core.IFlexModule",
+    "description": "The IFlexModule interface is used as an optional contract with IFlexModuleFactory. When an IFlexModule instance is created with the IFlexModuleFactory, the factory stores a reference to itself after creation.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "mx.core.IFlexModuleFactory",
+    "qname": "moduleFactory",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "",
+    "tags": [
+    {  "tagName": "private",
+           "values": []}  ]}]
+  }

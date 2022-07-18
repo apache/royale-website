@@ -1,0 +1,32 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.textLayout.conversion.IFormatImporter",
+    "description": "Interface for exporting text content from a TextFlow to either a String or XML.",
+  "members": [
+  { "type": "method",
+    "qname": "reset",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "return": "void",
+      "params": []}
+  ,
+  { "type": "accessor",
+    "access": "read-only",
+    "return": "Object",
+    "qname": "result",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {}},
+  { "type": "method",
+    "qname": "importOneFormat",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "return": "Boolean",
+      "params": [{ "name": "key", "type": "String"},
+    { "name": "val", "type": "String"}]}
+  ]
+  }

@@ -1,0 +1,11 @@
+{ "type": "class",
+  "qname": "org.apache.royale.test.listeners.BrowserConsoleListener",
+  "baseClassname": ""
+  ,
+    "description": "Outputs the status of a test run to the debug console.",
+  "members": [
+  ]
+  }
+
+
+

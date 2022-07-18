@@ -1,0 +1,39 @@
+{ "type": "interface",
+  "qname": "spark.core.IViewport",
+"baseInterfaceNames": [
+"mx.core.IVisualElement"]
+,
+    "description": "The IViewport interface is implemented by components that support a viewport. If a component's children are larger than the component, and you want to clip the children to the component boundaries, you can define a viewport and scroll bars. A viewport is a rectangular subset of the area of a component that you want to display, rather than displaying the entire component.  <p>A viewport on its own is not movable by the application user. However, you can combine a viewport with scroll bars so the user can scroll the viewport to see the entire content of the component. Use the Scroller component to add scrolbars to the component.</p>",
+  "tags": [
+  {  "tagName": "includeExample",
+         "values": ["examples/IViewportExample.mxml"]},
+      {  "tagName": "see",
+         "values": ["spark.components.Scroller"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10", "AIR 1.5"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 4"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "Boolean",
+    "qname": "clipAndEnableScrolling",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "If <code>true</code>, specifies to clip the children to the boundaries of the viewport. If <code>false</code>, the container children extend past the container boundaries, regardless of the size specification of the component.",
+    "tags": [
+    {  "tagName": "default",
+           "values": ["false"]},
+        {  "tagName": "see",
+           "values": ["spark.layouts.supportClasses.LayoutBase#updateScrollRect", "#verticalScrollPosition", "#horizontalScrollPosition"]},
+        {  "tagName": "playerversion",
+           "values": ["Flash 10", "AIR 1.5"]},
+        {  "tagName": "productversion",
+           "values": ["Flex 4"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]}]
+  }

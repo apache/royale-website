@@ -1,0 +1,11 @@
+{ "type": "class",
+  "qname": "mx.rpc.AsyncDispatcher",
+  "baseClassname": ""
+  ,
+    "description": "This class provides a mechanism for dispatching a method asynchronously.",
+  "tags": [
+  {  "tagName": "private",
+         "values": []}  ],
+  "members": [
+  ]
+  }

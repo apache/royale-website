@@ -1,0 +1,11 @@
+{ "type": "class",
+  "qname": "spark.core.CSSTextLayoutFormat",
+  "baseClassname": "org.apache.royale.textLayout.formats.TextLayoutFormat"
+  ,
+    "description": "This class is used by components such as RichText and RichEditableText which use TLF to display their text. The default formatting for their text is determined by the component's CSS styles.  TLF recognizes the copy that is done in this constructor and does not do another one. If TLF adds formats to TextLayoutFormats this should continue to work as long as Flex doesn't want some alterate behavior.  The only extra functionality supported here, beyond what TLF has, is the ability for the fontLookup style to have the value &quot;auto&quot;; in this case, the client object's embeddedFontContext is used to determine whether the the fontLookup format in TLF should be &quot;embeddedCFF&quot; or &quot;device&quot;.",
+  "tags": [
+  {  "tagName": "private",
+         "values": []}  ],
+  "members": [
+  ]
+  }

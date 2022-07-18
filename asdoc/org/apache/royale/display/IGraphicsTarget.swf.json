@@ -1,0 +1,16 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.display.IGraphicsTarget",
+"baseInterfaceNames": [
+"org.apache.royale.core.IRenderedObject", 
+"org.apache.royale.events.IEventDispatcher"]
+,
+  "members": [
+  { "type": "accessor",
+    "access": "read-only",
+    "return": "flash.display.Graphics",
+    "qname": "graphicsRenderTarget",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {}}]
+  }

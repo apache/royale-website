@@ -1,0 +1,34 @@
+{ "type": "interface",
+  "qname": "mx.rpc.soap.types.ICustomSOAPType",
+    "description": "Implementations handle encoding and decoding between custom SOAP types and ActionScript.",
+  "tags": [
+  {  "tagName": "private",
+         "values": []}  ],
+  "members": [
+  { "type": "method",
+    "qname": "encode",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "return": "void",
+      "params": [{ "name": "encoder", "type": "mx.rpc.soap.SOAPEncoder"},
+    { "name": "parent", "type": "XML"},
+    { "name": "name", "type": "QName"},
+    { "name": "value", "type": "*"},
+    { "name": "restriction", "type": "XML"}]}
+  ,
+  { "type": "method",
+    "qname": "decode",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "return": "void",
+      "params": [{ "name": "decoder", "type": "mx.rpc.soap.SOAPDecoder"},
+    { "name": "parent", "type": "*"},
+    { "name": "name", "type": "*"},
+    { "name": "value", "type": "*"},
+    { "name": "restriction", "type": "XML"}]}
+  ]
+  }

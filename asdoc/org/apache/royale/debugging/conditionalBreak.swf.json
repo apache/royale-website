@@ -1,0 +1,9 @@
+{ "type": "method",
+  "qname": "org.apache.royale.debugging.conditionalBreak",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "If the condition is not met, the code will break into the debugger.",
+    "return": "void",
+    "params": [{ "name": "condition", "type": "Boolean"}]}

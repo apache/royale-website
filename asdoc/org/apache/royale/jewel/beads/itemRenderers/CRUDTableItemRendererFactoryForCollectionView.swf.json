@@ -1,0 +1,24 @@
+{ "type": "class",
+  "qname": "org.apache.royale.jewel.beads.itemRenderers.CRUDTableItemRendererFactoryForCollectionView",
+  "baseClassname": "org.apache.royale.jewel.beads.itemRenderers.TableItemRendererFactoryForCollectionView"
+  ,
+    "description": "This class creates itemRenderer instances from the data contained within an ICollectionView and generates the appropiate table structure with thead, tbody and table rows and cells to hold the columns and data in cells.",
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.jewel.beads.itemRenderers.CRUDTableItemRendererFactoryForCollectionView",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": [{ "name": "target", "type": "Object"}]}
+      ,
+      { "type": "field",
+        "qname": "dped",
+        "return": "org.apache.royale.events.IEventDispatcher",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "the dataProvider as a dispatcher"}]
+  }

@@ -1,0 +1,25 @@
+{ "type": "class",
+  "qname": "mx.core.ClassFactory",
+  "baseClassname": "org.apache.royale.core.ClassFactory"
+  ,
+    "description": "The ClassFactory class is the basic implementation of an IFactory that will generate multiple instances of item renderers or custom classes.",
+  "tags": [
+  {  "tagName": "royalesuppresspublicvarwarning",
+         "values": []},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.core.ClassFactory",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": [{ "name": "generator", "type": "Class"}]}
+      ]
+  }

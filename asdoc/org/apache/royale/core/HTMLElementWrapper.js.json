@@ -1,0 +1,41 @@
+{ "type": "class",
+  "qname": "org.apache.royale.core.HTMLElementWrapper",
+  "baseClassname": "org.apache.royale.core.ElementWrapper"
+  ,
+  "members": [
+  { "type": "field",
+        "qname": "_model",
+        "return": "org.apache.royale.core.IBeadModel",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "allow access from overrides"},
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "Object",
+        "qname": "model",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["Class", "org.apache.royale.core.IBeadModel"]}  ]},
+      { "type": "method",
+        "qname": "addBead",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["bead The new bead."]},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.IBeadModel"]}  ],
+          "return": "void",
+          "params": [{ "name": "bead", "type": "org.apache.royale.core.IBead"}]}
+      ]
+  }

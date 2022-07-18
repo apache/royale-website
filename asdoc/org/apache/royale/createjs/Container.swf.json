@@ -1,0 +1,12 @@
+{ "type": "class",
+  "qname": "org.apache.royale.createjs.Container",
+  "baseClassname": "org.apache.royale.html.Container"
+  ,
+    "description": "Provides a nestable Container for CreateJS elements.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ]}

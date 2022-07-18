@@ -1,0 +1,25 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.jewel.supportClasses.datagrid.IDataGridColumn",
+"baseInterfaceNames": [
+"org.apache.royale.jewel.supportClasses.table.ITableColumn"]
+,
+    "description": "Jewel IDataGridColumn is the interface used by Jewel DataGridColumn in the Jewel DataGrid.  Define which renderer to use for each cell in the column, and other optional data like the width, the label (used in header), and the name of the field in the data containing the value to display in the column (for the simplest ItemRenderer).",
+  "members": [
+  { "type": "method",
+    "qname": "createColumn",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "Returns a new instance of a UIBase component to be used as the actual column in the grid.",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.9.7"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ],
+      "return": "org.apache.royale.core.IStyledUIBase",
+      "params": []}
+  ]
+  }

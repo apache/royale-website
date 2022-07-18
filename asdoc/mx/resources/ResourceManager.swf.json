@@ -1,0 +1,35 @@
+{ "type": "class",
+  "qname": "mx.resources.ResourceManager",
+  "baseClassname": ""
+  ,
+    "description": "This class is used to get a single instance of the IResourceManager implementation. The IResourceManager and IResourceBundle interfaces work together to provide internationalization support for Flex applications.  <p>A single instance of an IResourceManager implementation manages all localized resources for a Flex application.</p>",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["mx.resources.IResourceManager", "mx.resources.IResourceBundle"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "getInstance",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "Gets the single instance of the ResourceManager class. This object manages all localized resources for a Flex application.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 3"]},
+            {  "tagName": "return",
+               "values": ["An object implementing IResourceManager."]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "mx.resources.IResourceManager",
+          "params": []}
+      ]
+  }

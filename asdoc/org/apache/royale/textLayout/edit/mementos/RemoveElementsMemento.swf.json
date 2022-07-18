@@ -1,0 +1,62 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.edit.mementos.RemoveElementsMemento",
+  "baseClassname": "org.apache.royale.textLayout.edit.mementos.BaseMemento"
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.textLayout.edit.mementos.RemoveElementsMemento",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "RemoveElements from the ITextFlow,",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["parent parent of elements to rmeove", "startIndex index of first child to remove", "numElements number of elements to remove"]}  ],
+          "return": "",
+          "params": [{ "name": "textFlow", "type": "org.apache.royale.textLayout.elements.ITextFlow"},
+        { "name": "elementParent", "type": "org.apache.royale.textLayout.edit.ElementMark"},
+        { "name": "startIndex", "type": "int"},
+        { "name": "numElements", "type": "int"},
+        { "name": "elements", "type": "Array"}]}
+      ,
+      { "type": "method",
+        "qname": "perform",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "return": "*",
+          "params": [{ "name": "textFlow", "type": "org.apache.royale.textLayout.elements.ITextFlow"},
+        { "name": "parent", "type": "org.apache.royale.textLayout.elements.IFlowGroupElement"},
+        { "name": "startIndex", "type": "int"},
+        { "name": "numElements", "type": "int"},
+        { "name": "createMemento", "type": "Boolean"}]}
+      ,
+      { "type": "method",
+        "qname": "undo",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.textLayout.elements.IFlowGroupElement"]}  ],
+          "return": "*",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "redo",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.textLayout.elements.IFlowGroupElement"]}  ],
+          "return": "*",
+          "params": []}
+      ]
+  }

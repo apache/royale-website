@@ -1,0 +1,50 @@
+{ "type": "class",
+  "qname": "mx.rpc.xml.SimpleXMLEncoder",
+  "baseClassname": ""
+  ,
+    "description": "The SimpleXMLEncoder class takes ActionScript Objects and encodes them to XML using default serialization.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.rpc.xml.SimpleXMLEncoder",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["myXML The XML object."]}  ],
+          "return": "",
+          "params": [{ "name": "myXML", "type": "flash.xml.XMLDocument"}]}
+      ,
+      { "type": "method",
+        "qname": "encodeValue",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Encodes an ActionScript object to XML using default serialization.    value.",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["obj The ActionScript object to encode.", "qname The qualified name of the child node.", "parentNode An XMLNode under which to put the encoded"]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 3"]},
+            {  "tagName": "return",
+               "values": ["The XMLNode object."]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "flash.xml.XMLNode",
+          "params": [{ "name": "obj", "type": "Object"},
+        { "name": "qname", "type": "QName"},
+        { "name": "parentNode", "type": "flash.xml.XMLNode"}]}
+      ]
+  }

@@ -1,0 +1,15 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.supportClasses.DateChooserList",
+  "baseClassname": "org.apache.royale.html.List"
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html.supportClasses.DateChooserList",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ]
+  }

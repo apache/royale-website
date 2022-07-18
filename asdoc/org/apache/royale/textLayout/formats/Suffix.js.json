@@ -1,0 +1,40 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.formats.Suffix",
+  "baseClassname": ""
+  ,
+    "description": "Defines values for setting the <code>suffix</code> property of a ListMarkerFormat.",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["ListMarkerFormat#suffix"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10", "AIR 1.5"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "field",
+        "qname": "AUTO",
+        "return": "String",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "Specifies that the auto suffix is appended to the list marker after the content. See <a href=&quot;http://www.w3.org/TR/css3-lists/&quot;>http://www.w3.org/TR/css3-lists/</a> for the default suffixes.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10", "AIR 1.5"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]},
+      { "type": "field",
+        "qname": "NONE",
+        "return": "String",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "Specifies that no suffix is appended to a list marker after the content.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10", "AIR 1.5"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  }

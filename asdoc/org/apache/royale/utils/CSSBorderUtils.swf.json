@@ -1,0 +1,39 @@
+{ "type": "class",
+  "qname": "org.apache.royale.utils.CSSBorderUtils",
+  "baseClassname": ""
+  ,
+    "description": "The CSSBorderUtils class is shared code for getting the styles regarding borders and drawing one.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "draw",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "Get the related styles and draw a border",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["g The flash.display.Graphics to draw into.", "width The width.", "height The height.", "host The object to pull styles from.", "state The pseudo-state, if any.", "drawBackground True if area inside border should be filled with backgroundColor.", "clear True if graphics.clear() should be called."]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "void",
+          "params": [{ "name": "g", "type": "flash.display.Graphics"},
+        { "name": "width", "type": "Number"},
+        { "name": "height", "type": "Number"},
+        { "name": "host", "type": "Object"},
+        { "name": "state", "type": "String"},
+        { "name": "drawBackground", "type": "Boolean"},
+        { "name": "clear", "type": "Boolean"}]}
+      ]
+  }

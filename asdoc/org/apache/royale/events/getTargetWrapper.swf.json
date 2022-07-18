@@ -1,0 +1,8 @@
+{ "type": "method",
+  "qname": "org.apache.royale.events.getTargetWrapper",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "return": "Object",
+    "params": [{ "name": "obj", "type": "Object"}]}

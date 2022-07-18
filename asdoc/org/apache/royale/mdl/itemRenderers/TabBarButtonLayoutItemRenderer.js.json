@@ -1,0 +1,23 @@
+{ "type": "class",
+  "qname": "org.apache.royale.mdl.itemRenderers.TabBarButtonLayoutItemRenderer",
+  "baseClassname": "org.apache.royale.mdl.supportClasses.TabBarButtonItemRendererBase"
+  ,
+    "description": "Represents an item renderer for the TabBarButton Layout type item renderer. Creates MDL &quot;mdl-layout__tab&quot; conponent",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.8"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.mdl.itemRenderers.TabBarButtonLayoutItemRenderer",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ]
+  }

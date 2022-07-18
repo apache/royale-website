@@ -1,0 +1,74 @@
+{ "type": "class",
+  "qname": "org.apache.royale.storage.file.DataOutputStream",
+  "baseClassname": "org.apache.royale.events.EventDispatcher"
+  ,
+    "description": "Instances of the DataOutput stream are created by the storage provider when a file is opened for output streaming. Events are dispatches as the file is opened, written to, and finally closed.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.storage.file.DataOutputStream",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["target The object to as the event dispatch target.", "fileHandle A reference to a platform-specific file object.", "fileWriter A reference to a platform-specific file object."]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": [{ "name": "target", "type": "org.apache.royale.events.IEventDispatcher"},
+        { "name": "fileHandle", "type": "Object"},
+        { "name": "fileWriter", "type": "Object"}]}
+      ,
+      { "type": "method",
+        "qname": "writeText",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Writes a chunk of text into the file. When the file is ready to accept the nex chunk, a FileEvent &quot;WRITE&quot; event is dispatched.",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["text The string to write into the file."]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "void",
+          "params": [{ "name": "text", "type": "String"}]}
+      ,
+      { "type": "method",
+        "qname": "close",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Closes the file and dispatches a FileEvent &quot;COMPLETE&quot; event.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "void",
+          "params": []}
+      ]
+  }
+
+
+

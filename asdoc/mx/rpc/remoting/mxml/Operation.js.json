@@ -1,0 +1,15 @@
+{ "type": "class",
+  "qname": "mx.rpc.remoting.mxml.Operation",
+  "baseClassname": "mx.rpc.remoting.Operation"
+  ,
+    "description": "The Operation used for RemoteObject when created in an MXML document.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  ]
+  }

@@ -1,0 +1,15 @@
+{ "type": "class",
+  "qname": "org.apache.royale.svg.elements.G",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.svg.elements.G",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ]
+  }

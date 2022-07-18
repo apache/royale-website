@@ -1,0 +1,33 @@
+{ "type": "class",
+  "qname": "spark.skins.spark.BorderContainerSkin",
+  "baseClassname": "spark.components.supportClasses.Skin"
+  ,
+    "description": "The default skin class for a Spark BorderContainer component.",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["spark.components.BorderContainer"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10", "AIR 1.5"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 4"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "spark.skins.spark.BorderContainerSkin",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10", "AIR 1.5"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 4"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ]
+  }

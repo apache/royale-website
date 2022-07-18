@@ -1,0 +1,45 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.operations.RedoOperation",
+  "baseClassname": "org.apache.royale.textLayout.operations.FlowOperation"
+  ,
+    "description": "The RedoOperation class encapsulates a redo operation.",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["org.apache.royale.textLayout.edit.EditManager", "org.apache.royale.textLayout.events.FlowOperationEvent"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10", "AIR 1.5"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.textLayout.operations.RedoOperation",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Creates a RedoOperation object.",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["operation The operation to redo."]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 10", "AIR 1.5"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": [{ "name": "operation", "type": "org.apache.royale.textLayout.operations.FlowOperation"}]}
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "org.apache.royale.textLayout.operations.FlowOperation",
+        "qname": "operation",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "The operation to redo.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10", "AIR 1.5"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  }

@@ -1,0 +1,43 @@
+{ "type": "class",
+  "qname": "mx.controls.beads.controllers.CascadingMenuSelectionMouseController",
+  "baseClassname": "org.apache.royale.html.beads.controllers.CascadingMenuSelectionMouseController"
+  ,
+    "description": "The CascadingMenuSelectionMouseController is the default controller for emulation cascading menu",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "getSubMenuDataProvider",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "Object",
+          "params": [{ "name": "node", "type": "Object"},
+        { "name": "model", "type": "org.apache.royale.core.ICascadingMenuModel"}]}
+      ,
+      { "type": "method",
+        "qname": "getHasMenu",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "Boolean",
+          "params": [{ "name": "node", "type": "Object"},
+        { "name": "model", "type": "org.apache.royale.core.ICascadingMenuModel"}]}
+      ,
+      { "type": "method",
+        "qname": "selectedHandler",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "event", "type": "org.apache.royale.events.ItemClickedEvent"}]}
+      ]
+  }

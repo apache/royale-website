@@ -1,0 +1,37 @@
+{ "type": "class",
+  "qname": "org.apache.royale.jewel.beads.itemRenderers.DropDownListItemRendererFactoryForCollectionView",
+  "baseClassname": "org.apache.royale.html.beads.DataItemRendererFactoryForCollectionView"
+  ,
+    "description": "This class creates itemRenderer instances from the data contained within an ICollectionView",
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.jewel.beads.itemRenderers.DropDownListItemRendererFactoryForCollectionView",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": [{ "name": "target", "type": "Object"}]}
+      ,
+      { "type": "field",
+        "qname": "promptRender",
+        "return": "org.apache.royale.core.IIndexedItemRenderer",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royalesuppresspublicvarwarning",
+               "values": []}  ]},
+      { "type": "method",
+        "qname": "updatePromptRender",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "used when need to update prompt at runtime",
+          "return": "void",
+          "params": []}
+      ]
+  }

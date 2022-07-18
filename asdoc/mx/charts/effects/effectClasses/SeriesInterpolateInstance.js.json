@@ -1,0 +1,35 @@
+{ "type": "class",
+  "qname": "mx.charts.effects.effectClasses.SeriesInterpolateInstance",
+  "baseClassname": "mx.charts.effects.effectClasses.SeriesEffectInstance"
+  ,
+    "description": "The SeriesInterpolateInstance class implements the instance class for the SeriesInterpolate effect. Flex creates an instance of this class when it plays a SeriesInterpolate effect; you do not create one yourself.",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["mx.charts.effects.SeriesInterpolate"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.charts.effects.effectClasses.SeriesInterpolateInstance",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["target The target of the effect."]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": [{ "name": "target", "type": "Object"}]}
+      ]
+  }

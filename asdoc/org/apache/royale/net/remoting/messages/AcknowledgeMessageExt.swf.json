@@ -1,0 +1,44 @@
+{ "type": "class",
+  "qname": "org.apache.royale.net.remoting.messages.AcknowledgeMessageExt",
+  "baseClassname": "org.apache.royale.net.remoting.messages.AcknowledgeMessage"
+  ,
+    "description": "",
+  "tags": [
+  {  "tagName": "private",
+         "values": []}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.net.remoting.messages.AcknowledgeMessageExt",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": [{ "name": "message", "type": "org.apache.royale.net.remoting.messages.AcknowledgeMessage"}]}
+      ,
+      { "type": "method",
+        "qname": "writeExternal",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "output", "type": "flash.utils.IDataOutput"}]}
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "String",
+        "qname": "messageId",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "The unique id for the message.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["BlazeDS 4", "LCDS 3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  }

@@ -1,0 +1,32 @@
+{ "type": "interface",
+  "qname": "mx.core.IMXMLObject",
+    "description": "The IMXMLObject interface defines the APIs that a non-visual component must implement in order to work properly with the MXML compiler. Currently, the only supported method is the <code>initialized()</code> method.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+    "qname": "initialized",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "Called after the implementing object has been created and all component properties specified on the MXML tag have been initialized.   to this object. If the object is a deep property on <code>document</code>, <code>id</code> is null.",
+    "tags": [
+    {  "tagName": "param",
+           "values": ["document The MXML document that created this object.", "id The identifier used by <code>document</code> to refer"]},
+        {  "tagName": "playerversion",
+           "values": ["Flash 9", "AIR 1.1"]},
+        {  "tagName": "productversion",
+           "values": ["Flex 3"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ],
+      "return": "void",
+      "params": [{ "name": "document", "type": "Object"},
+    { "name": "id", "type": "String"}]}
+  ]
+  }

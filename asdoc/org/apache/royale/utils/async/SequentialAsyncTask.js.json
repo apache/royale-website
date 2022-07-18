@@ -1,0 +1,33 @@
+{ "type": "class",
+  "qname": "org.apache.royale.utils.async.SequentialAsyncTask",
+  "baseClassname": "org.apache.royale.utils.async.CompoundAsyncTask"
+  ,
+    "description": "The SequentialAsyncTask runs a list of tasks in sequential order. Each sunsequent task is only run once the previous task is done. The previous task is used as the argument for the next task's run method. This enables the chaining of results.",
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.utils.async.SequentialAsyncTask",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.6"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": [{ "name": "tasks", "type": "Array"}]}
+      ,
+      { "type": "method",
+        "qname": "run",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "data", "type": "Object"}]}
+      ]
+  }

@@ -1,0 +1,16 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.beads.SelectionDataItemRendererFactoryForCollectionView",
+  "baseClassname": "org.apache.royale.html.beads.DataItemRendererFactoryForCollectionView"
+  ,
+    "description": "This class is an extension of DataItemRendererFactoryForCollectionView for components using ISelectionModel that will need special handling of selected index for items added, removed or updated at runtime from the dataprovider.",
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html.beads.SelectionDataItemRendererFactoryForCollectionView",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": [{ "name": "target", "type": "Object"}]}
+      ]
+  }
