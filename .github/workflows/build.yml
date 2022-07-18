@@ -16,7 +16,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: Build website
-          npm run build
+        run: npm run build
       - name: Upload Site
         if: ${{ github.repository_owner == 'apache' && github.event_name != 'pull_request' && github.ref_name == '11ty' }}
         uses: JamesIves/github-pages-deploy-action@v4
