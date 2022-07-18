@@ -1,0 +1,32 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.dummy.BitmapData",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.textLayout.dummy.BitmapData",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": [{ "name": "width", "type": "int"},
+        { "name": "height", "type": "int"},
+        { "name": "transparent", "type": "Boolean"},
+        { "name": "fillColor", "type": "uint"}]}
+      ,
+      { "type": "method",
+        "qname": "draw",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "source", "type": "org.apache.royale.textLayout.dummy.IBitmapDrawable"},
+        { "name": "matrix", "type": "org.apache.royale.geom.Matrix"},
+        { "name": "colorTransform", "type": "org.apache.royale.textLayout.dummy.ColorTransform"},
+        { "name": "blendMode", "type": "String"},
+        { "name": "clipRect", "type": "org.apache.royale.geom.Rectangle"},
+        { "name": "smoothing", "type": "Boolean"}]}
+      ]
+  }

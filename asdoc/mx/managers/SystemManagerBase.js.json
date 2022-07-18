@@ -1,0 +1,4 @@
+{ "type": "class",
+  "qname": "mx.managers.SystemManagerBase",
+  "baseClassname": "org.apache.royale.core.UIBase"
+  }

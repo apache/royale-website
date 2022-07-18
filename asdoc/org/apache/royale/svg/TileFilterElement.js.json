@@ -1,0 +1,31 @@
+{ "type": "class",
+  "qname": "org.apache.royale.svg.TileFilterElement",
+  "baseClassname": "org.apache.royale.svg.FilterElement"
+  ,
+    "description": "The TileFilterElement fills up the filter by repeating the input",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.5"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.svg.TileFilterElement",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "read-only",
+        "return": "String",
+        "qname": "filterElementType",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {}}]
+  }

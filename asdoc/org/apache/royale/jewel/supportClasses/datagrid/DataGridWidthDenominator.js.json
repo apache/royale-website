@@ -1,0 +1,19 @@
+{ "type": "class",
+  "qname": "org.apache.royale.jewel.supportClasses.datagrid.DataGridWidthDenominator",
+  "baseClassname": ""
+  ,
+    "description": "internal use only",
+  "tags": [
+  {  "tagName": "langversion",
+         "values": ["3.0"]},
+      {  "tagName": "royalesuppressexport",
+         "values": []}  ],
+  "members": [
+  { "type": "field",
+        "qname": "value",
+        "return": "int",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}}]
+  }

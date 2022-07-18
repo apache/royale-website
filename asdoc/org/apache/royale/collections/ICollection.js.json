@@ -1,0 +1,29 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.collections.ICollection",
+    "description": "The ICollection interface is the basic interface for an iterable collection of data items.  Other extension may offer the ability to modify the collection and dispatch change events.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+    "qname": "getItemAt",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "Get the item at a particular index.",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.0"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ],
+      "return": "Object",
+      "params": [{ "name": "index", "type": "int"}]}
+  ]
+  }

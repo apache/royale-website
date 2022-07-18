@@ -1,0 +1,34 @@
+{ "type": "class",
+  "qname": "mx.events.utils.FocusEventConverter",
+  "baseClassname": ""
+  ,
+    "description": "Converts low level focus events to Royale FocusEvents",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.8"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "convert",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "Converts JS keyboard events to Royale ones.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.8"]},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["goog.events.BrowserEvent"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "mx.events.FocusEvent",
+          "params": [{ "name": "nativeEvent", "type": "Object"},
+        { "name": "browserEvent", "type": "goog.events.BrowserEvent"}]}
+      ]
+  }

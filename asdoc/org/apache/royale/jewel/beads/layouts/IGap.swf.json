@@ -1,0 +1,21 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.jewel.beads.layouts.IGap",
+    "description": "Jewel IGap is the interface used by Jewel Layouts that implement gaps.",
+  "members": [
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "Number",
+    "qname": "gap",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "Assigns variable gap in steps of GAP_STEP. You have available GAPS*GAP_STEP gap styles Activate &quot;gap-{X}x{GAP_STEP}px&quot; effect selector to set a numeric gap between elements. i.e: gap-2x3px will result in a gap of 6px",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.9.4"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]}]
+  }

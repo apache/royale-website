@@ -1,0 +1,24 @@
+{ "type": "class",
+  "qname": "org.apache.royale.utils.URLUtils",
+  "baseClassname": ""
+  ,
+    "description": "The URLUtils class is a collection of static functions that wrap dealing with object URLs in the browser.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.7"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "getFullPath",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "return": "String",
+          "params": [{ "name": "host", "type": "Object"},
+        { "name": "url", "type": "String"}]}
+      ]
+  }

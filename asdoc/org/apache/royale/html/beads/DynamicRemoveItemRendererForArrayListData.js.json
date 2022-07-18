@@ -1,0 +1,50 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.beads.DynamicRemoveItemRendererForArrayListData",
+  "baseClassname": "org.apache.royale.html.beads.ItemRendererFactoryBase"
+  ,
+    "description": "Handles the removal of an itemRenderer once the corresponding datum has been removed from the IDataProviderModel.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html.beads.DynamicRemoveItemRendererForArrayListData",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "handleItemRemoved",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Handles the itemRemoved event by removing the item.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.0"]},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.IStrandWithModelView", "org.apache.royale.core.IIndexedItemRenderer", "org.apache.royale.html.beads.IListView"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "void",
+          "params": [{ "name": "event", "type": "org.apache.royale.events.CollectionEvent"}]}
+      ]
+  }

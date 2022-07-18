@@ -1,0 +1,31 @@
+{ "type": "class",
+  "qname": "mx.skins.RectangularBorder",
+  "baseClassname": "mx.skins.Border"
+  ,
+    "description": "The RectangularBorder class is an abstract base class for various classes that draw rectangular borders around UIComponents.  <p>This class implements support for the <code>backgroundImage</code>, <code>backgroundSize</code>, and <code>backgroundAttachment</code> styles.</p>",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.skins.RectangularBorder",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ]
+  }

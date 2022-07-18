@@ -1,0 +1,15 @@
+{ "type": "class",
+  "qname": "org.apache.royale.svg.elements.Rect",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.svg.elements.Rect",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ]
+  }

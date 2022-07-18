@@ -1,0 +1,40 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.formats.TextJustify",
+  "baseClassname": ""
+  ,
+    "description": "Defines values for setting the <code>textJustify</code> property of the TextLayoutFormat class. Default value is INTER_WORD, meaning that extra space in justification is added to the space characters. DISTRIBUTE specifies that extra space is added both to space characters and between individual letters. Use these values only when setting <code>justificationRule</code> to SPACE.",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["TextLayoutFormat#textJustify", "TextLayoutFormat#justificationRule"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10", "AIR 1.5"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "field",
+        "qname": "DISTRIBUTE",
+        "return": "String",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "Specifies that justification is to add space both to space characters and between individual letters.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10", "AIR 1.5"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]},
+      { "type": "field",
+        "qname": "INTER_WORD",
+        "return": "String",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "Specifies that justification is to add space to space characters.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10", "AIR 1.5"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  }

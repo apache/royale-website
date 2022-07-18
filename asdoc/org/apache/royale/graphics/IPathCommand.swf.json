@@ -1,0 +1,22 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.graphics.IPathCommand",
+  "members": [
+  { "type": "method",
+    "qname": "toString",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "return": "String",
+      "params": []}
+  ,
+  { "type": "method",
+    "qname": "execute",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "return": "void",
+      "params": [{ "name": "g", "type": "flash.display.Graphics"}]}
+  ]
+  }

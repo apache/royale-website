@@ -1,0 +1,30 @@
+{ "type": "class",
+  "qname": "org.apache.royale.core.WrappedMovieClip",
+  "baseClassname": "flash.display.MovieClip"
+  ,
+  "members": [
+  { "type": "accessor",
+        "access": "read-write",
+        "return": "Object",
+        "qname": "royale_wrapper",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "A pointer back to the instance that wrapped this element.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]},
+      { "type": "accessor",
+        "access": "read-only",
+        "return": "flash.display.DisplayObject",
+        "qname": "$displayObject",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}}]
+  }

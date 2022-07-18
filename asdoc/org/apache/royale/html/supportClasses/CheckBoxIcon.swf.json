@@ -1,0 +1,31 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.supportClasses.CheckBoxIcon",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html.supportClasses.CheckBoxIcon",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "String",
+        "qname": "className",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}},
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "String",
+        "qname": "id",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}}]
+  }

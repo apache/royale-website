@@ -1,0 +1,12 @@
+{ "type": "method",
+  "qname": "org.apache.royale.conversions.MouseEventInit",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "",
+  "tags": [
+  {  "tagName": "royaleignorecoercion",
+         "values": ["window.MouseEventInit"]}  ],
+    "return": "MouseEventInit",
+    "params": [{ "name": "value", "type": "Object"}]}

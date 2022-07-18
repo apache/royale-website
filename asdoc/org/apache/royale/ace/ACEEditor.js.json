@@ -1,0 +1,33 @@
+{ "type": "class",
+  "qname": "org.apache.royale.ace.ACEEditor",
+  "baseClassname": "org.apache.royale.core.UIBase"
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.ace.ACEEditor",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "<inject_script> var script = document.createElement(&quot;script&quot;); script.setAttribute(&quot;src&quot;, &quot;https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.6/ace.js&quot;); document.head.appendChild(script); </inject_script>",
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "addedToParent",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "void",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "String",
+        "qname": "theme",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}}]
+  }

@@ -1,0 +1,29 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.compose.utils.FactoryHelper",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "getComposer",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "return": "org.apache.royale.textLayout.compose.IFactoryComposer",
+          "params": []}
+      ,
+      { "type": "field",
+        "qname": "composerClass",
+        "return": "Class",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {}},
+      { "type": "field",
+        "qname": "staticComposer",
+        "return": "org.apache.royale.textLayout.compose.ISimpleCompose",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {}}]
+  }

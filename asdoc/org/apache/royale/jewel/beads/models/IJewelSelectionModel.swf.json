@@ -1,0 +1,31 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.jewel.beads.models.IJewelSelectionModel",
+"baseInterfaceNames": [
+"org.apache.royale.core.ISelectionModel"]
+,
+    "description": "The IJewelSelectionModel interface is a simple extension to core ISelectionModel",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.4"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "org.apache.royale.events.IEventDispatcher",
+    "qname": "dispatcher",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {}},
+  { "type": "accessor",
+    "access": "read-only",
+    "return": "Boolean",
+    "qname": "hasDispatcher",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {}}]
+  }

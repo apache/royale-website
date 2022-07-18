@@ -1,0 +1,10 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.mdl.supportClasses.ITextField",
+    "description": "ITextField is the interface that all TextField MDL classes implement It's used mainly in org.apache.royale.mdl.supportClasses.TextFieldBase",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.8"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ]}

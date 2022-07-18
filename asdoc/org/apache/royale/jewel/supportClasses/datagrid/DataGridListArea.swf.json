@@ -1,0 +1,15 @@
+{ "type": "class",
+  "qname": "org.apache.royale.jewel.supportClasses.datagrid.DataGridListArea",
+  "baseClassname": "org.apache.royale.jewel.Container"
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.jewel.supportClasses.datagrid.DataGridListArea",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ]
+  }

@@ -1,0 +1,30 @@
+{ "type": "class",
+  "qname": "mx.core.FlexCSSStyles",
+  "baseClassname": "org.apache.royale.core.AllCSSStyles"
+  ,
+    "description": "The Flex styles holder.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]},
+      {  "tagName": "royalesuppresspublicvarwarning",
+         "values": []}  ],
+  "members": [
+  { "type": "field",
+        "qname": "horizontalGap",
+        "return": "*",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}},
+      { "type": "field",
+        "qname": "verticalGap",
+        "return": "*",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}}]
+  }

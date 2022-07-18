@@ -1,0 +1,14 @@
+{ "type": "method",
+  "qname": "org.apache.royale.utils.callLater",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "",
+  "tags": [
+  {  "tagName": "royalesuppressexport",
+         "values": []}  ],
+    "return": "void",
+    "params": [{ "name": "fn", "type": "Function"},
+  { "name": "args", "type": "Array"},
+  { "name": "thisArg", "type": "Object"}]}

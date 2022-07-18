@@ -1,0 +1,15 @@
+{ "type": "interface",
+  "qname": "mx.core.IFactory",
+"baseInterfaceNames": [
+"org.apache.royale.core.IFactory"]
+,
+    "description": "The IFactory interface defines the interface that factory classes such as ClassFactory must implement. An object of type IFactory is a &quot;factory object&quot; which Flex uses to generate multiple instances of another class, each with identical properties.  <p>For example, a DataGridColumn has an <code>itemRenderer</code> of type IFactory; it calls <code>itemRenderer.newInstance()</code> to create the cells for a particular column of the DataGrid.</p>",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["mx.core.ClassFactory"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ]}

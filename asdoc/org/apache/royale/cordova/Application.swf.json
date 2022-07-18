@@ -1,0 +1,35 @@
+{ "type": "class",
+  "qname": "org.apache.royale.cordova.Application",
+  "baseClassname": "org.apache.royale.core.AirApplication"
+  ,
+    "description": "A customized Application that dispatches the Cordova deviceReady event",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.cordova.Application",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "The Royale Compiler will inject script elements into the index.html file.  Surround with &quot;inject_script&quot; tag as follows:  <inject_script> var meta = document.createElement(&quot;meta&quot;); meta.setAttribute(&quot;name&quot;, &quot;viewport&quot;); meta.setAttribute(&quot;content&quot;, &quot;width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0&quot;); document.head.appendChild(meta); var script = document.createElement(&quot;script&quot;); script.setAttribute(&quot;src&quot;, &quot;cordova.js&quot;); document.head.appendChild(script); </inject_script>",
+          "return": "",
+          "params": []}
+      ,
+      { "type": "field",
+        "qname": "isDeviceReady",
+        "return": "Boolean",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "A flag to tell if the device is ready.  Not bindable.",
+        "tags": [
+        {  "tagName": "royalesuppresspublicvarwarning",
+               "values": []}  ]}]
+  }

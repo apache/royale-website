@@ -1,0 +1,46 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.supportClasses.HScrollViewport",
+  "baseClassname": "org.apache.royale.html.supportClasses.ScrollingViewport"
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html.supportClasses.HScrollViewport",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "Number",
+        "qname": "verticalScrollPosition",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {}},
+      { "type": "method",
+        "qname": "layoutViewportAfterContentLayout",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "copy",
+               "values": ["org.apache.royale.core.IViewport"]},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.IBorderPaddingMarginValuesImpl"]}  ],
+          "return": "void",
+          "params": [{ "name": "contentSize", "type": "org.apache.royale.geom.Size"}]}
+      ]
+  }

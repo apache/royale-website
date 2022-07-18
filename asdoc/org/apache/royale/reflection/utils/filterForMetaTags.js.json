@@ -1,0 +1,16 @@
+{ "type": "method",
+  "qname": "org.apache.royale.reflection.utils.filterForMetaTags",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "",
+  "tags": [
+  {  "tagName": "param",
+         "values": ["memberDefinitions the member definitions to check", "tags the metatags to search for", "intoArray optional external Array to add matching definitions to"]},
+      {  "tagName": "return",
+         "values": ["array of matching members"]}  ],
+    "return": "Array",
+    "params": [{ "name": "memberDefinitions", "type": "Array"},
+  { "name": "tags", "type": "Array"},
+  { "name": "intoArray", "type": "Array"}]}

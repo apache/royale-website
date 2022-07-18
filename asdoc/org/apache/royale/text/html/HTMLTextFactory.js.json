@@ -1,0 +1,41 @@
+{ "type": "class",
+  "qname": "org.apache.royale.text.html.HTMLTextFactory",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "getTextBlock",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "org.apache.royale.text.engine.ITextBlock",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "getTextContainer",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "org.apache.royale.core.IUIBase",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "getFontLoader",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "org.apache.royale.text.engine.IFontLoader",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "org.apache.royale.core.IParentIUIBase",
+        "qname": "currentContainer",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}}]
+  }

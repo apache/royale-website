@@ -1,0 +1,50 @@
+{ "type": "class",
+  "qname": "mx.controls.beads.DataGridLinesBeadForICollectionView",
+  "baseClassname": "org.apache.royale.html.beads.DataGridLinesBead"
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "mx.controls.beads.DataGridLinesBeadForICollectionView",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "handleInitComplete",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "event", "type": "org.apache.royale.events.Event"}]}
+      ,
+      { "type": "method",
+        "qname": "getDataProviderLength",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "int",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "drawLines",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "This event handler is invoked whenever something happens to the DataGrid. This function draws the lines either using a default stroke or the one specified by the stroke property.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "void",
+          "params": [{ "name": "event", "type": "org.apache.royale.events.Event"}]}
+      ]
+  }

@@ -1,0 +1,58 @@
+{ "type": "class",
+  "qname": "org.apache.royale.net.remoting.amf.AMFBinaryData",
+  "baseClassname": "org.apache.royale.utils.BinaryData"
+  ,
+    "description": "A version of BinaryData specific to AMF.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["BlazeDS 4", "LCDS 3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]},
+      {  "tagName": "royalesuppresspublicvarwarning",
+         "values": []}  ],
+  "members": [
+  { "type": "accessor",
+        "access": "read-write",
+        "return": "org.apache.royale.utils.net.IDynamicPropertyWriter",
+        "qname": "dynamicPropertyWriter",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "Allows greater control over the serialization of dynamic properties of dynamic objects. When this property is set to null, the default value, dynamic properties are serialized using native code, which writes all dynamic properties excluding those whose value is a function. This value is called only for properties of a dynamic object (objects declared within a dynamic class) or for objects declared using the new operator. You can use this property to exclude properties of dynamic objects from serialization; to write values to properties of dynamic objects; or to create new properties for dynamic objects. To do so, set this property to an object that implements the IDynamicPropertyWriter interface. For more information, see the IDynamicPropertyWriter interface."},
+      { "type": "method",
+        "qname": "org.apache.royale.net.remoting.amf.AMFBinaryData",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": [{ "name": "bytes", "type": "Object"}]}
+      ,
+      { "type": "method",
+        "qname": "writeObject",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "v", "type": "*"}]}
+      ,
+      { "type": "method",
+        "qname": "readObject",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "*",
+          "params": []}
+      ]
+  }
+
+
+
+
+
+

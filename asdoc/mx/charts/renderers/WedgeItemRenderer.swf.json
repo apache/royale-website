@@ -1,0 +1,47 @@
+{ "type": "class",
+  "qname": "mx.charts.renderers.WedgeItemRenderer",
+  "baseClassname": "mx.skins.ProgrammaticSkin"
+  ,
+    "description": "The default itemRenderer for a PieSeries object. This class renders a wedge using the <code>stroke</code> and <code>radialStroke</code> styles of the owning series to draw the inner and outer edges and side edges of the wedge, respectively. The wedge is filled using the value of the <code>fill</code> property of the associated chart item.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.charts.renderers.WedgeItemRenderer",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "Object",
+        "qname": "data",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "The chart item that this renderer represents. WedgeItemRenderers assume that this value is an instance of PieSeriesItem. This value is assigned by the owning series.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  }

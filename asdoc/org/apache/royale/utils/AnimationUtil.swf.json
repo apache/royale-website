@@ -1,0 +1,53 @@
+{ "type": "class",
+  "qname": "org.apache.royale.utils.AnimationUtil",
+  "baseClassname": ""
+  ,
+    "description": "The AnimationUtil class wraps callbacks to be called when the platform is ready for the next draw. (requestAnimationFrame in HTML and ENTER_FRAME in Flash)",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.8"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "requestFrame",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "The callback is called with a high-rez timestamp as per the HTML spec",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["callback."]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.8"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "String",
+          "params": [{ "name": "callback", "type": "Function"},
+        { "name": "element", "type": "org.apache.royale.core.IUIBase"}]}
+      ,
+      { "type": "method",
+        "qname": "cancelFrame",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "Cancels the requestFrame with the specified id.",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["id"]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.8"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "void",
+          "params": [{ "name": "id", "type": "String"}]}
+      ]
+  }

@@ -1,0 +1,30 @@
+{ "type": "interface",
+  "qname": "mx.styles.ISimpleStyleClient",
+    "description": "This interface describes the properties and methods that an object must implement so that it can participate in the style subsystem. This interface is intended to be used by classes that obtain their style values from other objects rather than through locally set values and type selectors. This interface is implemented by ProgrammaticSkin.",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["mx.styles.IStyleClient", "mx.styles.CSSStyleDeclaration"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "Object",
+    "qname": "styleName",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "The source of this object's style values. The value of the <code>styleName</code> property can be one of three possible types:  <ul> <li>String, such as &quot;headerStyle&quot;. The String names a class selector that is defined in a CSS style sheet.</li>  <li>CSSStyleDeclaration, such as <code>StyleManager.getStyleDeclaration(&quot;.headerStyle&quot;)</code>.</li>  <li>UIComponent. The object that implements this interface inherits all the style values from the referenced UIComponent.</li> </ul>",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 9", "AIR 1.1"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.9.3"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]}]
+  }

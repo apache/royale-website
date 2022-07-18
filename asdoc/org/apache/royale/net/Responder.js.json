@@ -1,0 +1,26 @@
+{ "type": "class",
+  "qname": "org.apache.royale.net.Responder",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.net.Responder",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "",
+          "return": "",
+          "params": [{ "name": "onSuccess", "type": "Function"},
+        { "name": "onFailure", "type": "Function"}]}
+      ,
+      { "type": "method",
+        "qname": "getActualResponder",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "org.apache.royale.net.Responder",
+          "params": []}
+      ]
+  }

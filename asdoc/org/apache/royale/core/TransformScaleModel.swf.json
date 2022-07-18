@@ -1,0 +1,23 @@
+{ "type": "class",
+  "qname": "org.apache.royale.core.TransformScaleModel",
+  "baseClassname": "org.apache.royale.core.TransformModel"
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.core.TransformScaleModel",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "Number",
+        "qname": "scale",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}}]
+  }

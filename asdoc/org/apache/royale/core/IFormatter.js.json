@@ -1,0 +1,32 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.core.IFormatter",
+"baseInterfaceNames": [
+"org.apache.royale.core.IBead"]
+,
+    "description": "The IFormatter interface should be implemented by any bead that provides a formatting service.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.6"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+    "qname": "format",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "Takes the source object to format and returns the formatted string",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.9.6"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ],
+      "return": "String",
+      "params": [{ "name": "source", "type": "Object"}]}
+  ]
+  }

@@ -1,0 +1,11 @@
+{ "type": "class",
+  "qname": "mx.core.Singleton",
+  "baseClassname": ""
+  ,
+    "description": "This all-static class serves as a singleton registry.  For example, pop-up management throughout a Flex application is provided by a single instance of the PopUpManagerImpl class, even when the main application loads modules and sub-applications each of which might have PopUpManagerImpl linked in.  The factory class for a framework-based application or a module (i.e., SystemManager or FlexModuleFactory, both of which implements IFlexModuleFactory) calls the registerClass() method to populate the registry.  Later, other classes call getInstance() to access the singleton instance.  The registry policy is &quot;first class in wins&quot;. For example, if the main application registers its PopUpManagerImpl, then a loaded SWF will use that one. However, if the main application doesn't contain a PopUpManagerImpl, then it registers null, and the first loaded SWF containing a PopUpManagerImpl will register that one.",
+  "tags": [
+  {  "tagName": "private",
+         "values": []}  ],
+  "members": [
+  ]
+  }

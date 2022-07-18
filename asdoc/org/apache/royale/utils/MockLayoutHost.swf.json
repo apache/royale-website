@@ -1,0 +1,41 @@
+{ "type": "class",
+  "qname": "org.apache.royale.utils.MockLayoutHost",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.utils.MockLayoutHost",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": [{ "name": "source", "type": "org.apache.royale.core.ILayoutHost"}]}
+      ,
+      { "type": "accessor",
+        "access": "read-only",
+        "return": "org.apache.royale.core.ILayoutView",
+        "qname": "contentView",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}},
+      { "type": "method",
+        "qname": "beforeLayout",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "Boolean",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "afterLayout",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "void",
+          "params": []}
+      ]
+  }

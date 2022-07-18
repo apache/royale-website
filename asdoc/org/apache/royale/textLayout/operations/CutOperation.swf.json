@@ -1,0 +1,46 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.operations.CutOperation",
+  "baseClassname": "org.apache.royale.textLayout.operations.FlowTextOperation"
+  ,
+    "description": "The CutOperation class encapsulates a cut operation.  <p>The specified range is removed from the text flow.</p>  <p><b>Note:</b> The edit manager is responsible for copying the text scrap to the clipboard. Undoing a cut operation does not restore the original clipboard state.</p>",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["org.apache.royale.textLayout.edit.EditManager", "org.apache.royale.textLayout.events.FlowOperationEvent"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10", "AIR 1.5"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.textLayout.operations.CutOperation",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Creates a CutOperation object.",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["operationState The range of text to be cut.", "scrapToCut A copy of the deleted text."]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 10", "AIR 1.5"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": [{ "name": "operationState", "type": "org.apache.royale.textLayout.edit.SelectionState"},
+        { "name": "scrapToCut", "type": "org.apache.royale.textLayout.edit.TextScrap"}]}
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "org.apache.royale.textLayout.edit.TextScrap",
+        "qname": "scrapToCut",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "scrapToCut the original removed text",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10", "AIR 1.5"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  }

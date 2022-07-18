@@ -1,0 +1,39 @@
+{ "type": "class",
+  "qname": "mx.utils.ObjectProxy",
+  "baseClassname": ""
+  ,
+    "description": "This class provides the ability to track changes to an item managed by this proxy. Any number of objects can &quot;listen&quot; for changes on this object, by using the <code>addEventListener()</code> method.  <pre>\\n import mx.events.PropertyChangeEvent;\\n import mx.utils.ObjectUtil;\\n import mx.utils.ObjectProxy;\\n import mx.utils.StringUtil;\\n \\n var a:Object = { name: &quot;Tyler&quot;, age: 5, ssnum: &quot;555-55-5555&quot; };\\n var p:ObjectProxy = new ObjectProxy(a);\\n p.addEventListener(PropertyChangeEvent.PROPERTY_CHANGE, updateHandler);\\n p.name = &quot;Jacey&quot;;\\n p.age = 2;\\n delete p.ssnum;\\n \\n // handler function\\n function updateHandler(event:ChangeEvent):void\\n {\\n trace(StringUtil.substitute(&quot;updateHandler('{0}', {1}, {2}, {3}, '{4}')&quot;,\\n event.kind,\\n event.property,\\n event.oldValue,\\n event.newValue,\\n event.target.object_proxy::UUID));\\n }\\n \\n // The trace output appears as:\\n // updateHandler('opUpdate', name, Tyler, Jacey, '698AF8CB-B3D9-21A3-1AFFDGHT89075CD2')\\n // updateHandler('opUpdate', age, 5, 2, '698AF8CB-B3D9-21A3-1AFFDGHT89075CD2')\\n // updateHandler('opDelete', ssnum, 555-55-5555, null, '698AF8CB-B3D9-21A3-1AFFDGHT89075CD2')\\n </pre>",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 3"]},
+      {  "tagName": "example",
+         "values": []},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.utils.ObjectProxy",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Initializes this proxy with the specified object, id and proxy depth.  If no item is specified, an anonymous object will be constructed and assigned.  for this object instance. Required for IPropertyChangeNotifier compliance as every object must provide a unique way of identifying it. If no value is specified, a random id will be assigned.  object graph should have a proxy created during property access. The default is -1, meaning &quot;proxy to infinite depth&quot;.   <pre>\\n import mx.events.PropertyChangeEvent;\\n import mx.utils.ObjectUtil;\\n import mx.utils.ObjectProxy;\\n import mx.utils.StringUtil;\\n \\n var a:Object = { name: &quot;Tyler&quot;, age: 5, ssnum: &quot;555-55-5555&quot; };\\n var p:ObjectProxy = new ObjectProxy(a);\\n p.addEventListener(PropertyChangeEvent.PROPERTY_CHANGE, updateHandler);\\n p.name = &quot;Jacey&quot;;\\n p.age = 2;\\n delete p.ssnum;\\n \\n // handler function\\n function updateHandler(event:PropertyChangeEvent):void\\n {\\n trace(StringUtil.substitute(&quot;updateHandler('{0}', {1}, {2}, {3}, '{4}')&quot;,\\n event.kind,\\n event.property,\\n event.oldValue,\\n event.newValue,\\n event.target.uid));\\n }\\n \\n // trace output\\n updateHandler('opUpdate', name, Jacey, '698AF8CB-B3D9-21A3-1AFFDGHT89075CD2')\\n updateHandler('opUpdate', age, 2, '698AF8CB-B3D9-21A3-1AFFDGHT89075CD2')\\n updateHandler('opDelete', ssnum, null, '698AF8CB-B3D9-21A3-1AFFDGHT89075CD2')\\n </pre>",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["item Object to proxy.", "uid String containing the unique id", "proxyDepth An integer indicating how many levels in a complex"]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 3"]},
+            {  "tagName": "example",
+               "values": []},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": [{ "name": "item", "type": "Object"},
+        { "name": "uid", "type": "String"},
+        { "name": "proxyDepth", "type": "int"}]}
+      ]
+  }

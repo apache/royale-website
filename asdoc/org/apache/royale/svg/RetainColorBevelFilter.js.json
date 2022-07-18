@@ -1,0 +1,36 @@
+{ "type": "class",
+  "qname": "org.apache.royale.svg.RetainColorBevelFilter",
+  "baseClassname": "org.apache.royale.svg.BevelFilter"
+  ,
+    "description": "RetainColorBevelFilter extends BevelFilter to and darkens it somewhat in an attempt to retain the original colors in its graphic core. This is an exprimental component designed to emulate PhotoShop's behavior.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.5"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.svg.RetainColorBevelFilter",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "build",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.svg.FilterElement"]}  ],
+          "return": "void",
+          "params": []}
+      ]
+  }

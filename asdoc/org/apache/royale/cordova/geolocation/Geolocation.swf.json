@@ -1,0 +1,39 @@
+{ "type": "class",
+  "qname": "org.apache.royale.cordova.geolocation.Geolocation",
+  "baseClassname": ""
+  ,
+    "description": "The Geolocation class implements Cordova geolocation plugin",
+  "tags": [
+  {  "tagName": "royalecordovaplugin",
+         "values": ["cordova-plugin-geolocation"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "royaleignorecoercion",
+         "values": ["FileEntry", "FileWriter", "window", "Blob"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.cordova.geolocation.Geolocation",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor",
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "getCurrentPosition",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Gets the device current location. If successful, the onSuccess function is called with position parameter (see Cordova documentation). If failure, the onError function is called with an error parameter (.code and .message members).",
+          "return": "void",
+          "params": [{ "name": "onSuccess", "type": "Function"},
+        { "name": "onError", "type": "Function"}]}
+      ]
+  }

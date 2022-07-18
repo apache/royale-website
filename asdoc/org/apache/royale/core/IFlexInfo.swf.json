@@ -1,0 +1,29 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.core.IFlexInfo",
+    "description": "The IFlexInfo interface is an interface used to signal to the compiler that it should generate a data structure that contains information about the application such as its size, mixins, locale, etc.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+    "qname": "info",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "The compiler overrides this getter to provide the data structure.",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.0"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ],
+      "return": "Object",
+      "params": []}
+  ]
+  }

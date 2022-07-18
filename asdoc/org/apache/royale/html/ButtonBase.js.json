@@ -1,0 +1,19 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.ButtonBase",
+  "baseClassname": "org.apache.royale.core.UIBase"
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "createElement",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.WrappedHTMLElement"]}  ],
+          "return": "org.apache.royale.core.WrappedHTMLElement",
+          "params": []}
+      ]
+  }

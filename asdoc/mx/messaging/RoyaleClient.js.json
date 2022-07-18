@@ -1,0 +1,60 @@
+{ "type": "class",
+  "qname": "mx.messaging.RoyaleClient",
+  "baseClassname": "org.apache.royale.net.remoting.messages.RoyaleClient"
+  ,
+    "description": "Singleton class that stores the global Id for this Player instance that is server assigned when the client makes its initial connection to the server.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["BlazeDS 4", "LCDS 3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "getInstance",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "Returns the sole instance of this singleton class, creating it if it does not already exist.  creating it if it does not already exist.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["BlazeDS 4", "LCDS 3"]},
+            {  "tagName": "return",
+               "values": ["Returns the sole instance of this singleton class,"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "mx.messaging.RoyaleClient",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "Boolean",
+        "qname": "waitForRoyaleClientId",
+        "namespace": "mx_internal",
+        "bindable": ["propertyChange"],
+        "details": [],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "private",
+               "values": []}  ]}]
+  ,
+  "events": [
+  { "qname": "propertyChange",
+        "type": "mx.events.PropertyChangeEvent"
+      ,
+          "description": "Dispatched when a property of the RoyaleClient singleton changes. Listeners must be added via RoyaleClient.getInstance().addEventListener(...).",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "eventType",
+               "values": ["mx.events.PropertyChangeEvent.PROPERTY_CHANGE"]},
+            {  "tagName": "productversion",
+               "values": ["BlazeDS 4", "LCDS 3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  }

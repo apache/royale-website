@@ -1,0 +1,53 @@
+{ "type": "class",
+  "qname": "org.apache.royale.test.RoyaleUnitCore",
+  "baseClassname": "org.apache.royale.events.EventDispatcher"
+  ,
+    "description": "Simple entry point for running tests.",
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.test.RoyaleUnitCore",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "pleaseStop",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Requests that the runner stops running the tests. Phrased politely because the test that is currently running may not be interrupted before completing.",
+          "return": "void",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "addListener",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Adds a run listener.",
+          "return": "void",
+          "params": [{ "name": "listener", "type": "org.apache.royale.test.runners.notification.IRunListener"}]}
+      ,
+      { "type": "method",
+        "qname": "removeListener",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Removes a run listener.",
+          "return": "void",
+          "params": [{ "name": "listener", "type": "org.apache.royale.test.runners.notification.IRunListener"}]}
+      ]
+  }
+
+
+
+
+
+

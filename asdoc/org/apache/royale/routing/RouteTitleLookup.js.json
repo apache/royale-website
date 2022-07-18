@@ -1,0 +1,31 @@
+{ "type": "class",
+  "qname": "org.apache.royale.routing.RouteTitleLookup",
+  "baseClassname": "org.apache.royale.routing.SetRouteTitle"
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.routing.RouteTitleLookup",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ,
+      { "type": "field",
+        "qname": "lookup",
+        "return": "Object",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}},
+      { "type": "method",
+        "qname": "handleStateSet",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "void",
+          "params": []}
+      ]
+  }

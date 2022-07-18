@@ -1,0 +1,31 @@
+{ "type": "class",
+  "qname": "org.apache.royale.jewel.VirtualList",
+  "baseClassname": "org.apache.royale.jewel.List"
+  ,
+    "description": "The VirtualList class is a List component used for large data providers that need to create and recicle just the visible list renderers. The List uses the following bead types:  org.apache.royale.core.IBeadModel: the data model, which includes the dataProvider, selectedItem, and so forth. org.apache.royale.core.IBeadView:  the bead that constructs the visual parts of the list. org.apache.royale.core.IBeadController: the bead that handles input and output. org.apache.royale.core.IBeadLayout: the bead responsible for the size and position of the itemRenderers. org.apache.royale.core.IDataProviderItemRendererMapper: the bead responsible for creating the itemRenders. org.apache.royale.core.IItemRenderer: the class or factory used to display an item in the list.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.7"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.jewel.VirtualList",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.7"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ]
+  }

@@ -1,0 +1,16 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.core.IBeadModel",
+"baseInterfaceNames": [
+"org.apache.royale.core.IBead", 
+"org.apache.royale.events.IEventDispatcher"]
+,
+    "description": "The IBeadModel interface is a &quot;marker&quot; interface for beads that represent the data model for a control.  A marker interface has no addtional APIs. It is used to find the model bead on the strand via calls to getBeadByType.",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["org.apache.royale.core.IStrand#getBeadByType"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ]}

@@ -1,0 +1,32 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.charts.core.IChartDataModel",
+"baseInterfaceNames": [
+"org.apache.royale.core.ISelectionModel", 
+"org.apache.royale.core.IRollOverModel"]
+,
+    "description": "The IChartDataModel provides extensions to the standard ISelectionModel to include the series selected (or rolled over).",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "org.apache.royale.charts.core.IChartSeries",
+    "qname": "selectedSeries",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {}},
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "org.apache.royale.charts.core.IChartSeries",
+    "qname": "rollOverSeries",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {}}]
+  }

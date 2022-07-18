@@ -1,0 +1,16 @@
+{ "type": "interface",
+  "qname": "mx.core.IPropertyChangeNotifier",
+"baseInterfaceNames": [
+"org.apache.royale.events.IEventDispatcher", 
+"mx.core.IUID"]
+,
+    "description": "The <code>IPropertyChangeNotifier</code> interface defines a marker interface. Classes that support this interface declare support for event propagation in a specialized manner. Classes that implement this interface must dispatch events for each property of this class and any nested classes publicly exposed as properties. For those properties that are anonymous (complex and not strongly typed), implementing classes provide custom support or directly use the ObjectProxy class. Implementors of this interface should use the <code>PropertyChangeEvent.createUpdateEvent()</code> method to construct an appropriate update event for dispatch. <code><pre>\\n \\n function set myProperty(value:Object):void\\n {\\n var oldValue:IPropertyChangeNotifier = _myProperty;\\n var newValue:IPropertyChangeNotifier = value;\\n \\n // Need to ensure to dispatch changes on the new property.\\n // Listeners use the source property to determine which object\\n // actually originated the event.\\n // In their event handler code, they can tell if an event has been\\n // propagated from deep within the object graph by comparing\\n // event.target and event.source. If they are equal, then the property\\n // change is at the surface of the object. If they are not equal, the\\n // property change is somewhere deeper in the object graph.\\n newValue.addEventListener(\\n PropertyChangeEvent.PROPERTY_CHANGE,\\n dispatchEvent);\\n \\n // need to stop listening for events from the old property\\n oldValue.removeEventListener(\\n PropertyChangeEvent.PROPERTY_CHANGE,\\n dispatchEvent);\\n \\n _myProperty = newValue;\\n \\n // now notify anyone that is listening\\n if (dispatcher.hasEventListener(PropertyChangeEvent.PROPERTY_CHANGE))\\n {\\n var event:PropertyChangeEvent =\\n PropertyChangeEvent.createUpdateEvent(\\n this,\\n &quot;myProperty&quot;,\\n newValue,\\n oldValue);\\n dispatchEvent(event);\\n }\\n }\\n \\n \\n </pre></code>",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 3"]},
+      {  "tagName": "example",
+         "values": []},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ]}

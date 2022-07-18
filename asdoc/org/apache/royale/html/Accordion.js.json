@@ -1,0 +1,58 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.Accordion",
+  "baseClassname": "org.apache.royale.html.List"
+  ,
+    "description": "The Accordion class used to display a list of collapsible components All but the selected item are expected to be collapsed.",
+  "tags": [
+  {  "tagName": "toplevel",
+         "values": []},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html.Accordion",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "addedToParent",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.events.IEventDispatcher"]}  ],
+          "return": "void",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "read-only",
+        "return": "org.apache.royale.html.beads.IAccordionCollapseBead",
+        "qname": "accordionCollapseBead",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.html.beads.IAccordionCollapseBead"]}  ]}]
+  }

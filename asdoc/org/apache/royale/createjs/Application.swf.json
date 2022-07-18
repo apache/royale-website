@@ -1,0 +1,60 @@
+{ "type": "class",
+  "qname": "org.apache.royale.createjs.Application",
+  "baseClassname": "org.apache.royale.core.Application"
+  ,
+    "description": "The Application class is the main class and entry point for a Royale application.  This Application class is different than the Flex SDK's mx:Application or spark:Application in that it does not contain user interface elements.  Those UI elements go in the views (ViewBase).  This Application class expects there to be a main model, a controller, and an initial view.  This is the CreateJS Application class which must be used in place of the normal Royale Application. CreateJS uses the HTML5 &lt;canvas&gt;, rather than the HTML DOM. This class sets up the canvas and injects the necessary script elements into the index.html file to bootstrap CreateJS.",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["ViewBase"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "events": [
+  { "qname": "initialize",
+        "type": "org.apache.royale.events.Event"
+      ,
+          "description": "Dispatched at startup. Attributes and sub-instances of the MXML document have been created and assigned. The component lifecycle is different than the Flex SDK.  There is no creationComplete event.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]},
+      { "qname": "preinitialize",
+        "type": "org.apache.royale.events.Event"
+      ,
+          "description": "Dispatched at startup before the instances get created. Beads can call preventDefault and defer initialization. This event will be dispatched on every frame until no listeners call preventDefault(), then the initialize() method will be called.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]},
+      { "qname": "viewChanged",
+        "type": "org.apache.royale.events.Event"
+      ,
+          "description": "Dispatched at startup after the initial view has been put on the display list. This event is sent before applicationComplete is dispatched.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]},
+      { "qname": "applicationComplete",
+        "type": "org.apache.royale.events.Event"
+      ,
+          "description": "Dispatched at startup after the initial view has been put on the display list.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  }

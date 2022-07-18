@@ -1,0 +1,12 @@
+{ "type": "interface",
+  "qname": "mx.core.IVisualElementContainer",
+    "description": "The IVisualElementContainer interface defines the minimum properties and methods required for a container to manage Spark components for display.  <p>Note that the Spark SkinnableDataContainer and DataGroup containers do not implement this interface. Those containers manage their children through the <code>dataProvider</code> property.</p>",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["mx.core.IVisualElement"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10", "AIR 1.5"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ]}

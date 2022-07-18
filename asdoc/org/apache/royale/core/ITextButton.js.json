@@ -1,0 +1,47 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.core.ITextButton",
+"baseInterfaceNames": [
+"org.apache.royale.core.IUIBase"]
+,
+    "description": "ITextButton interface is implemented by button classes with text property like Button, CheckBox and RadioButton",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.10.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "String",
+    "qname": "text",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "The text of the icon",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.10.0"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]},
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "HTMLSpanElement",
+    "qname": "spanLabel",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "the span for the label text",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.10.0"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]}]
+  }

@@ -1,0 +1,47 @@
+{ "type": "class",
+  "qname": "org.apache.royale.jewel.beads.models.ComboBoxPresentationModel",
+  "baseClassname": "org.apache.royale.jewel.beads.models.ListPresentationModel"
+  ,
+    "description": "The ComboBoxPresentationModel class contains the data to present the popup list of the org.apache.royale.jewel.ComboBox along with the rowCount, the height of the rows or the align of column labels.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.7"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.jewel.beads.models.ComboBoxPresentationModel",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.7"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "int",
+        "qname": "rowCount",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Maximum number of rows visible in the ComboBox popup list. If there are fewer items in the dataProvider, the ComboBox shows only as many items as there are in the dataProvider.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.7"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  }

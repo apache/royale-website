@@ -1,0 +1,38 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.elements.OverflowPolicy",
+  "baseClassname": ""
+  ,
+    "description": "The OverflowPolicy class defines a set of constants for the <code>overflowPolicy</code> property of the IConfiguration class. This defines how the composer will treat lines at the end of the composition area.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10", "AIR 1.5"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "field",
+        "qname": "FIT_ANY",
+        "return": "String",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "Fit the line in the composition area if any part of the line fits.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10", "AIR 1.5"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]},
+      { "type": "field",
+        "qname": "FIT_DESCENDERS",
+        "return": "String",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "Fit the line in the composition area if the area from the top to the baseline fits.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10", "AIR 1.5"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  }

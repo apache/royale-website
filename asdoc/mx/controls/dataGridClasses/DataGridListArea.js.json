@@ -1,0 +1,52 @@
+{ "type": "class",
+  "qname": "mx.controls.dataGridClasses.DataGridListArea",
+  "baseClassname": "org.apache.royale.html.beads.DataGridListArea"
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "mx.controls.dataGridClasses.DataGridListArea",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "internalChildren",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "Array",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "addElement",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "c", "type": "org.apache.royale.core.IChild"},
+        { "name": "dispatchEvent", "type": "Boolean"}]}
+      ,
+      { "type": "method",
+        "qname": "resetEmpty",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "void",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "contains",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "Boolean",
+          "params": [{ "name": "other", "type": "org.apache.royale.core.UIBase"}]}
+      ]
+  }

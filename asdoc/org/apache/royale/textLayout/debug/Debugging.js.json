@@ -1,0 +1,5 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.debug.Debugging",
+  "baseClassname": ""
+  ,
+    "description": "@private"}

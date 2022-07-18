@@ -1,0 +1,23 @@
+{ "type": "class",
+  "qname": "org.apache.royale.core.TransformMoveYModel",
+  "baseClassname": "org.apache.royale.core.TransformModel"
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.core.TransformMoveYModel",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "Number",
+        "qname": "y",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}}]
+  }

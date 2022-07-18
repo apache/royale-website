@@ -1,0 +1,10 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.charts.core.ICartesianChartLayout",
+    "description": "This interface is implemented by any Cartesian-style chart layout bead.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ]}

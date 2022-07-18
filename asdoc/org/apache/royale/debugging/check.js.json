@@ -1,0 +1,10 @@
+{ "type": "method",
+  "qname": "org.apache.royale.debugging.check",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "Traces a warning if the condition is not met.",
+    "return": "void",
+    "params": [{ "name": "condition", "type": "Boolean"},
+  { "name": "message", "type": "String"}]}

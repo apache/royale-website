@@ -1,0 +1,19 @@
+{ "type": "class",
+  "qname": "org.apache.royale.svg.DOMWrapper",
+  "baseClassname": "org.apache.royale.core.ContainerBase"
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.svg.DOMWrapper",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.WrappedHTMLElement"]}  ],
+          "return": "",
+          "params": []}
+      ]
+  }

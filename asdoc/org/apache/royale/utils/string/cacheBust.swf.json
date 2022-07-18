@@ -1,0 +1,18 @@
+{ "type": "method",
+  "qname": "org.apache.royale.utils.string.cacheBust",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "Converts a url into a version which will be loaded even if it's already cached.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.7"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]},
+      {  "tagName": "royalesuppressexport",
+         "values": []}  ],
+    "return": "String",
+    "params": [{ "name": "url", "type": "String"}]}

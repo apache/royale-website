@@ -1,0 +1,37 @@
+{ "type": "class",
+  "qname": "mx.effects.Tween",
+  "baseClassname": "org.apache.royale.effects.Tween"
+  ,
+    "description": "Tween is the underlying animation class for the effects in Royale.  The Tween class defines a tween, a property animation performed on a target object over a period of time. That animation can be a change in position, such as performed by the Move effect; a change in size, as performed by the Resize or Zoom effects; a change in visibility, as performed by the Fade or Dissolve effects; or other types of animations.  <p>A Tween instance accepts the <code>startValue</code>, <code>endValue</code>, and <code>duration</code> properties, and an optional easing function to define the animation.</p>",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.effects.Tween",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 1.0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": [{ "name": "listener", "type": "Object"},
+        { "name": "startValue", "type": "Object"},
+        { "name": "endValue", "type": "Object"},
+        { "name": "duration", "type": "Number"},
+        { "name": "minFps", "type": "Number"},
+        { "name": "updateFunction", "type": "Function"},
+        { "name": "endFunction", "type": "Function"}]}
+      ]
+  }

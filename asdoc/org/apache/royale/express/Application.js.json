@@ -1,0 +1,25 @@
+{ "type": "class",
+  "qname": "org.apache.royale.express.Application",
+  "baseClassname": "org.apache.royale.core.Application"
+  ,
+    "description": "This class extends the standard Application and sets up the SimpleCSSValuesImpl (implementation) for convenience.",
+  "tags": [
+  {  "tagName": "flexdocurl",
+         "values": ["https://flex.apache.org/asdoc/spark/components/Application.html"]},
+      {  "tagName": "flexcomponent",
+         "values": ["spark.components.Application"]},
+      {  "tagName": "commentary",
+         "values": ["Unlike Flex Application, Royale Application does not provide a user interface container. Instead, you create an instance of org.apache.royale.express.View as the Application's initialView property.", "The Express version of Application pre-packages some additional beads."]},
+      {  "tagName": "example",
+         "values": ["&lt;js:Application&gt;", "&nbsp;&nbsp;&lt;js:initialView&gt;", "&nbsp;&nbsp;&nbsp;&nbsp;&lt;local:MyInitialView /&gt;", "&nbsp;&nbsp;&lt;/js:initialView&gt;", "&lt;/js:Application&gt;"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.express.Application",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ]
+  }

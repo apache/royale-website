@@ -1,0 +1,26 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.storage.file.IDataInput",
+"baseInterfaceNames": [
+"org.apache.royale.storage.file.IDataStream"]
+,
+    "description": "The File class provides access to a specific file on the device.",
+  "members": [
+  { "type": "method",
+    "qname": "readText",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "return": "void",
+      "params": []}
+  ,
+  { "type": "method",
+    "qname": "close",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "return": "void",
+      "params": []}
+  ]
+  }

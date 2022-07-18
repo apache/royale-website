@@ -1,0 +1,47 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.core.IMultiSelectionModel",
+"baseInterfaceNames": [
+"org.apache.royale.core.IDataProviderModel"]
+,
+    "description": "The IMultiSelectionModel interface describes the minimum set of properties available to control that let the user select one or more items from within a set of items in a dataProvider.  A more sophisticated model would support multiple selection.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.7"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "Array",
+    "qname": "selectedIndices",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "The indices of the selected items in the dataProvider.  Null can have specific meanings but generally means that no item is selected because the user has typed in a custom entry or has yet to make a choice.",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.9.7"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]},
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "Array",
+    "qname": "selectedItems",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "The data items selected in the dataProvider.  null usually means that the user has not selected any value and has typed in a custom entry.",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.9.7"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]}]
+  }

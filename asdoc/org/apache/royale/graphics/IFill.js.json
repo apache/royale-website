@@ -1,0 +1,13 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.graphics.IFill",
+  "members": [
+  { "type": "method",
+    "qname": "addFillAttrib",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "return": "String",
+      "params": [{ "name": "s", "type": "org.apache.royale.graphics.IGraphicShape"}]}
+  ]
+  }

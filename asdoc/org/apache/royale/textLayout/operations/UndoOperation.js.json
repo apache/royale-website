@@ -1,0 +1,45 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.operations.UndoOperation",
+  "baseClassname": "org.apache.royale.textLayout.operations.FlowOperation"
+  ,
+    "description": "The UndoOperation class encapsulates an undo operation.",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["org.apache.royale.textLayout.edit.EditManager", "org.apache.royale.textLayout.events.FlowOperationEvent"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10", "AIR 1.5"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.textLayout.operations.UndoOperation",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Creates an UndoOperation object.",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["op The operation to undo."]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 10", "AIR 1.5"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": [{ "name": "op", "type": "org.apache.royale.textLayout.operations.FlowOperation"}]}
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "org.apache.royale.textLayout.operations.FlowOperation",
+        "qname": "operation",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "The operation to undo.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10", "AIR 1.5"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  }

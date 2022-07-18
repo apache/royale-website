@@ -1,0 +1,27 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.formats.BackgroundColor",
+  "baseClassname": ""
+  ,
+    "description": "Defines a constant for specifying that the value of the <code>backgroundColor</code> property of the <code>TextLayoutFormat</code> class is &quot;transparent&quot;.",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["org.apache.royale.textLayout.formats.TextLayoutFormat#backgroundColor TextLayoutFormat.backgroundColor"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10", "AIR 1.5"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "field",
+        "qname": "TRANSPARENT",
+        "return": "String",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "Transparent - no background color is applied.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10", "AIR 1.5"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  }

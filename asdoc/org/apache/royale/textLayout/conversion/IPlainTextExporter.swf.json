@@ -1,0 +1,41 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.textLayout.conversion.IPlainTextExporter",
+"baseInterfaceNames": [
+"org.apache.royale.textLayout.conversion.ITextExporter"]
+,
+    "description": "This interface should be implemented by converters that export plain text. Clients that have explicitly created an exporter using TextConverter.getExporter may control the export process by calling into these methods on the exporter.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.0", "AIR 2.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "String",
+    "qname": "paragraphSeparator",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "Specifies the character sequence used (in a text flow's plain-text equivalent) to separate paragraphs. The paragraph separator is not added after the last paragraph.  <p>This property applies to the <code>PLAIN_TEXT_FORMAT</code> exporter.</p>  <p>The default value is &quot;\\n&quot;.</p>",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10", "AIR 1.5"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]},
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "Boolean",
+    "qname": "stripDiscretionaryHyphens",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "This property indicates whether discretionary hyphens in the text should be stripped during the export process. Discretionary hyphens, also known as &quot;soft hyphens&quot;, indicate where to break a word in case the word must be split between two lines. The Unicode character for discretionary hyphens is <code>\\u00AD</code>. <p>If this property is set to <code>true</code>, discretionary hyphens that are in the original text will not be in the exported text, even if they are part of the original text. If <code>false</code>, discretionary hyphens will be in the exported text.</p>",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10", "AIR 1.5"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]}]
+  }

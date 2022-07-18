@@ -1,0 +1,31 @@
+{ "type": "class",
+  "qname": "org.apache.royale.svg.TransformableCompoundGraphic",
+  "baseClassname": "org.apache.royale.svg.CompoundGraphic"
+  ,
+    "description": "TransformableCompoundGraphic adds a <g> element in which drawn elements are nested. This is useful for applying transforms and other low level operations not available on SVG elements.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "clear",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "Clears all of the drawn path data.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "void",
+          "params": []}
+      ]
+  }

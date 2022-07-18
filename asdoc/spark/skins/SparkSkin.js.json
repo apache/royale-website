@@ -1,0 +1,48 @@
+{ "type": "class",
+  "qname": "spark.skins.SparkSkin",
+  "baseClassname": "spark.components.supportClasses.Skin"
+  ,
+    "description": "Base class for Spark skins.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10", "AIR 1.5"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 4"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "field",
+        "qname": "useChromeColor",
+        "return": "Boolean",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Specifies whether or not this skin should be affected by the <code>chromeColor</code> style.",
+        "tags": [
+        {  "tagName": "default",
+               "values": ["false"]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 10", "AIR 1.5"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 4"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]},
+      { "type": "method",
+        "qname": "spark.skins.SparkSkin",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10", "AIR 1.5"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 4"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ]
+  }

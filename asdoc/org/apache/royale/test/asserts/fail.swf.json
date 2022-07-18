@@ -1,0 +1,9 @@
+{ "type": "method",
+  "qname": "org.apache.royale.test.asserts.fail",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "Alias for org.apache.royale.test.Assert fail method",
+    "return": "void",
+    "params": [{ "name": "message", "type": "String"}]}

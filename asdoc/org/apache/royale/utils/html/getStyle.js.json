@@ -1,0 +1,12 @@
+{ "type": "method",
+  "qname": "org.apache.royale.utils.html.getStyle",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "",
+  "tags": [
+  {  "tagName": "royalesuppressexport",
+         "values": []}  ],
+    "return": "CSSStyleDeclaration",
+    "params": [{ "name": "wrapper", "type": "org.apache.royale.core.ElementWrapper"}]}

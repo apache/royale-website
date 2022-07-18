@@ -1,0 +1,37 @@
+{ "type": "class",
+  "qname": "spark.components.ToggleButton",
+  "baseClassname": "spark.components.supportClasses.ToggleButtonBase"
+  ,
+    "description": "The ToggleButton component defines a toggle button. Clicking the button toggles it between the up and an down states. If you click the button while it is in the up state, it toggles to the down state. You must click the button again to toggle it back to the up state.  <p>You can get or set this state programmatically by using the <code>selected</code> property.</p>  <p>To use this component in a list-based component, such as a List or DataGrid, create an item renderer. For information about creating an item renderer, see <a href=&quot;http://help.adobe.com/en_US/flex/using/WS4bebcd66a74275c3-fc6548e124e49b51c4-8000.html&quot;> Custom Spark item renderers</a>. </p>  <p>The ToggleButton control has the following default characteristics:</p> <table class=&quot;innertable&quot;> <tr> <th>Characteristic</th> <th>Description</th> </tr> <tr> <td>Default size</td> <td>Wide enough to display the text label of the control</td> </tr> <tr> <td>Minimum size</td> <td>21 pixels wide and 21 pixels high</td> </tr> <tr> <td>Maximum size</td> <td>10000 pixels wide and 10000 pixels high</td> </tr> <tr> <td>Default skin class</td> <td>spark.skins.spark.ToggleButtonSkin</td> </tr> </table>   <p>The <code>&lt;s:ToggleButton&gt;</code> tag inherits all of the tag attributes of its superclass and adds no tag attributes:</p>  <pre>\\n &lt;s:ToggleButton/&gt;\\n </pre>",
+  "tags": [
+  {  "tagName": "includeExample",
+         "values": ["examples/ToggleButtonExample.mxml"]},
+      {  "tagName": "see",
+         "values": ["spark.skins.spark.ToggleButtonSkin"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10", "AIR 1.5"]},
+      {  "tagName": "mxml",
+         "values": []},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.4"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "spark.components.ToggleButton",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10", "AIR 1.5"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.4"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ]
+  }

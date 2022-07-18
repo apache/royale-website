@@ -1,0 +1,20 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.core.IState",
+    "description": "The IState interface is a basic interface for States that are handled by various IStatesImpls.  IStatesImpls watche for the currentState property to change and executes changes accordingly.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-only",
+    "return": "String",
+    "qname": "name",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {}}]
+  }

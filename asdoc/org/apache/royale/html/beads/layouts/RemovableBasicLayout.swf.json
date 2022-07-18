@@ -1,0 +1,34 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.beads.layouts.RemovableBasicLayout",
+  "baseClassname": "org.apache.royale.html.beads.layouts.BasicLayout"
+  ,
+    "description": "The RemovableBasicLayout class is a simple layout bead.  It takes the set of children and lays them out as specified by CSS properties like left, right, top and bottom. It correctly handles removal and replacement between different strands, and null strand assignment",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+        "access": "write-only",
+        "return": "org.apache.royale.core.IStrand",
+        "qname": "strand",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "copy",
+               "values": ["org.apache.royale.core.IBead#strand"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.8"]},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.ILayoutChild"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  }

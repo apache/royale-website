@@ -1,0 +1,53 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.conversion.TextFieldHtmlExporter",
+  "baseClassname": "org.apache.royale.textLayout.conversion.ConverterBase"
+  ,
+    "description": "Export converter for HTML format.",
+  "tags": [
+  {  "tagName": "private",
+         "values": []}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.textLayout.conversion.TextFieldHtmlExporter",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "export",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "@copy ITextExporter#export()",
+          "return": "Object",
+          "params": [{ "name": "source", "type": "org.apache.royale.textLayout.elements.ITextFlow"},
+        { "name": "conversionType", "type": "String"}]}
+      ,
+      { "type": "method",
+        "qname": "exportDiv",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Export a DIV element",
+          "return": "void",
+          "params": [{ "name": "div", "type": "org.apache.royale.textLayout.elements.DivElement"},
+        { "name": "parentXML", "type": "XML"}]}
+      ,
+      { "type": "method",
+        "qname": "exportSubParagraphElement",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "elem", "type": "org.apache.royale.textLayout.elements.SubParagraphGroupElementBase"},
+        { "name": "xml", "type": "XML"},
+        { "name": "parentXML", "type": "XML"},
+        { "name": "checkTypeName", "type": "Boolean"}]}
+      ]
+  }

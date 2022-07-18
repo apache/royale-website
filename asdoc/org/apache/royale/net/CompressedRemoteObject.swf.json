@@ -1,0 +1,41 @@
+{ "type": "class",
+  "qname": "org.apache.royale.net.CompressedRemoteObject",
+  "baseClassname": "org.apache.royale.net.RemoteObject"
+  ,
+    "description": "A RemoteObject that performs automatic serialization/deserialization of results.  It deserializes the compressed ByteArray in order to optimize the transfer time. TOOD improve to serialize the sending.",
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.net.CompressedRemoteObject",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Uses the pako library for the zlib compression algorithm  <inject_script> var script = document.createElement(&quot;script&quot;); script.setAttribute(&quot;src&quot;, &quot;https://cdnjs.cloudflare.com/ajax/libs/pako/1.0.6/pako.min.js&quot;); document.head.appendChild(script); </inject_script>",
+          "return": "",
+          "params": []}
+      ,
+      { "type": "field",
+        "qname": "disableCompression",
+        "return": "Boolean",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "disable the compression if true  defaults to false",
+        "tags": [
+        {  "tagName": "royalesuppresspublicvarwarning",
+               "values": []}  ]},
+      { "type": "method",
+        "qname": "resultHandler",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.net.remoting.amf.AMFBinaryData"]}  ],
+          "return": "void",
+          "params": [{ "name": "param", "type": "Object"}]}
+      ]
+  }

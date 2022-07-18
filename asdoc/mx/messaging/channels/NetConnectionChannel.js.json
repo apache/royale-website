@@ -1,0 +1,65 @@
+{ "type": "class",
+  "qname": "mx.messaging.channels.NetConnectionChannel",
+  "baseClassname": "mx.messaging.channels.PollingChannel"
+  ,
+    "description": "This NetConnectionChannel provides the basic NetConnection support for messaging. The AMFChannel and RTMPChannel both extend this class.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["BlazeDS 4", "LCDS 3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.messaging.channels.NetConnectionChannel",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Creates a new NetConnectionChannel instance. <p> The underlying NetConnection's <code>objectEncoding</code> is set to <code>ObjectEncoding.AMF3</code> by default. It can be changed manually by accessing the channel's <code>netConnection</code> property. The global <code>NetConnection.defaultObjectEncoding</code> setting is not honored by this channel. </p>",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["id The id of this Channel.", "uri The uri for this Channel."]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["BlazeDS 4", "LCDS 3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": [{ "name": "id", "type": "String"},
+        { "name": "uri", "type": "String"}]}
+      ,
+      { "type": "accessor",
+        "access": "read-only",
+        "return": "mx.net.NetConnection",
+        "qname": "netConnection",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Provides access to the associated NetConnection for this Channel.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["BlazeDS 4", "LCDS 3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]},
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "Boolean",
+        "qname": "useSmallMessages",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "private",
+               "values": []}  ]}]
+  }
+
+
+

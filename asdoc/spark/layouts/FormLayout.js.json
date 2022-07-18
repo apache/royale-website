@@ -1,0 +1,56 @@
+{ "type": "class",
+  "qname": "spark.layouts.FormLayout",
+  "baseClassname": "spark.layouts.VerticalLayout"
+  ,
+    "description": "The FormLayout class defines the default layout for Spark Form skins. FormLayout provides a vertical layout for the child FormItem containers in the Form.  If any of the child containers uses a FormItemLayout, FormLayout will align the ConstraintColumns of each child. The number of columns across children should be the same, and the columns should have the same type of width setting. For example, if the first child's second column has a percent width, then the second child's second column should also be a percent width.  <p><b>Note</b>: Only use the FormLayout class with the Spark Form container. Do not use it to lay out the contents of any other container.</p>",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["spark.components.Form", "spark.components.FormHeading", "spark.components.FormItem", "spark.layouts.FormItemLayout"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10", "AIR 2.5"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 4.5"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "spark.layouts.FormLayout",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10", "AIR 2.5"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 4.5"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "spark.components.supportClasses.GroupBase",
+        "qname": "target",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "The GroupBase container whose elements are measured, sized and positioned by this layout.  <p>Subclasses may override the setter to perform target specific actions. For example a 3D layout may set the target's <code>maintainProjectionCenter</code> property here.</p>",
+        "tags": [
+        {  "tagName": "default",
+               "values": ["null", "null", "null"]},
+            {  "tagName": "see",
+               "values": ["#updateDisplayList()", "#measure()", "#updateDisplayList()", "#measure()", "#updateDisplayList()", "#measure()"]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 10", "AIR 1.5", "Flash 10", "AIR 1.5", "Flash 10", "AIR 1.5"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 4", "Flex 4", "Flex 4"]},
+            {  "tagName": "langversion",
+               "values": ["3.0", "3.0", "3.0"]}  ]}]
+  }
+
+
+

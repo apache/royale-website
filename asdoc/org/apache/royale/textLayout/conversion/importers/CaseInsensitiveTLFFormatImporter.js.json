@@ -1,0 +1,37 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.conversion.importers.CaseInsensitiveTLFFormatImporter",
+  "baseClassname": "org.apache.royale.textLayout.conversion.TLFormatImporter"
+  ,
+    "description": "Specialized to provide case insensitivity (as required by TEXT_FIELD_HTML_FORMAT) Keys need to be lower-cased. Values may or may not based on a flag passed to the constructor.",
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.textLayout.conversion.importers.CaseInsensitiveTLFFormatImporter",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": [{ "name": "classType", "type": "Class"},
+        { "name": "description", "type": "Object"},
+        { "name": "convertValuesToLowerCase", "type": "Boolean"}]}
+      ,
+      { "type": "method",
+        "qname": "importOneFormat",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "Boolean",
+          "params": [{ "name": "key", "type": "String"},
+        { "name": "val", "type": "String"}]}
+      ,
+      { "type": "method",
+        "qname": "getFormatValue",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "*",
+          "params": [{ "name": "key", "type": "String"}]}
+      ]
+  }

@@ -1,0 +1,15 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html5.TextButton",
+  "baseClassname": "org.apache.royale.html.TextButton"
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html5.TextButton",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ]
+  }

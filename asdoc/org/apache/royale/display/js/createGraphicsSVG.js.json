@@ -1,0 +1,13 @@
+{ "type": "method",
+  "qname": "org.apache.royale.display.js.createGraphicsSVG",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "",
+  "tags": [
+  {  "tagName": "royaleignorecoercion",
+         "values": ["SVGElement"]}  ],
+    "return": "SVGElement",
+    "params": [{ "name": "elementName", "type": "String"},
+  { "name": "noPointerEvents", "type": "Boolean"}]}

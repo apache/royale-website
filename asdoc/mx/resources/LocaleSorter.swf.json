@@ -1,0 +1,17 @@
+{ "type": "class",
+  "qname": "mx.resources.LocaleSorter",
+  "baseClassname": ""
+  ,
+    "description": "The APIs of the LocaleSorter class provides the sorting functionality of application locales against system preferences.",
+  "tags": [
+  {  "tagName": "private",
+         "values": []}  ],
+  "members": [
+  ]
+  }
+
+
+
+
+
+

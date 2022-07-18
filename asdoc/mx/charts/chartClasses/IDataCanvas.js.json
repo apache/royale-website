@@ -1,0 +1,24 @@
+{ "type": "interface",
+  "qname": "mx.charts.chartClasses.IDataCanvas",
+    "description": "This interface is for internal use only.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "Array",
+    "qname": "dataChildren",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "",
+    "tags": [
+    {  "tagName": "private",
+           "values": []}  ]}]
+  }

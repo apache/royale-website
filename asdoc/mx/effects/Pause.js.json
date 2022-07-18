@@ -1,0 +1,33 @@
+{ "type": "class",
+  "qname": "mx.effects.Pause",
+  "baseClassname": "org.apache.royale.effects.Tween"
+  ,
+    "description": "The Pause effect does nothing for a duration.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.effects.Pause",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.  have its x and/or y property animated.",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["target Object ID or reference to an object that will"]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 1.0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": [{ "name": "target", "type": "org.apache.royale.core.IUIBase"}]}
+      ]
+  }

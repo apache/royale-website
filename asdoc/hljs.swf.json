@@ -1,0 +1,20 @@
+{ "type": "class",
+  "qname": "hljs",
+  "baseClassname": ""
+  ,
+    "description": "",
+  "tags": [
+  {  "tagName": "externs",
+         "values": []}  ],
+  "members": [
+  { "type": "method",
+        "qname": "hljs",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "<inject_html> <script src=\\&quot;https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js\\&quot;></script> <link rel=\\&quot;stylesheet\\&quot; title=\\&quot;Atom One Dark\\&quot; href=\\&quot;https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-dark.min.css\\&quot;> </inject_html>",
+          "return": "",
+          "params": []}
+      ]
+  }

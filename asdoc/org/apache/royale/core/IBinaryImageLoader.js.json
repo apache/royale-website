@@ -1,0 +1,13 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.core.IBinaryImageLoader",
+"baseInterfaceNames": [
+"org.apache.royale.core.IBead"]
+,
+    "description": "The IBinaryImageLoader interface marks classes that are used for loading binary data to image views",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ]}

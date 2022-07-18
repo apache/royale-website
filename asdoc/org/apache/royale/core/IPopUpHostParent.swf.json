@@ -1,0 +1,23 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.core.IPopUpHostParent",
+"baseInterfaceNames": [
+"org.apache.royale.core.IParent"]
+,
+    "description": "The IPopUpHostParent is the effective parent of popups. The actual parent may not be the effective parent in some implementations, so the effective parent provides a reference back to the IPopUpHost for removing",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-only",
+    "return": "org.apache.royale.core.IPopUpHost",
+    "qname": "popUpHost",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {}}]
+  }

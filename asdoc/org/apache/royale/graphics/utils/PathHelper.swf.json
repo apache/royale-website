@@ -1,0 +1,50 @@
+{ "type": "class",
+  "qname": "org.apache.royale.graphics.utils.PathHelper",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "getSegments",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "return": "flash.display.GraphicsPath",
+          "params": [{ "name": "data", "type": "String"},
+        { "name": "x", "type": "Number"},
+        { "name": "y", "type": "Number"}]}
+      ,
+      { "type": "method",
+        "qname": "getBounds",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "return": "flash.geom.Rectangle",
+          "params": [{ "name": "data", "type": "String"}]}
+      ]
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

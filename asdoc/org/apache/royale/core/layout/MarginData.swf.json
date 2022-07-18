@@ -1,0 +1,31 @@
+{ "type": "class",
+  "qname": "org.apache.royale.core.layout.MarginData",
+  "baseClassname": "org.apache.royale.core.layout.EdgeData"
+  ,
+    "description": "The MarginData class is a utility class for holding four margins of a component, plus a flag for if both left and right margin have been set to &quot;auto&quot;.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.core.layout.MarginData",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "Boolean",
+        "qname": "auto",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}}]
+  }

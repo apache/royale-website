@@ -1,0 +1,32 @@
+{ "type": "class",
+  "qname": "mx.controls.dateFieldClasses.DateFieldDateChooser",
+  "baseClassname": "mx.controls.DateChooser"
+  ,
+    "description": "The DateFieldDateChooser is the DateChooser dropdown for a DateField.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+        "access": "read-write",
+        "return": "Date",
+        "qname": "selectedDate",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "Date selected in the DateChooser control. If the incoming Date object has any time values, they are zeroed out.  <p>Holding down the Control key when selecting the currently selected date in the control deselects it, sets the <code>selectedDate</code> property to <code>null</code>, and then dispatches the <code>change</code> event.</p>",
+        "tags": [
+        {  "tagName": "default",
+               "values": ["null", "null"]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1", "Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 3", "Flex 3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0", "3.0"]}  ]}]
+  }

@@ -1,0 +1,12 @@
+{ "type": "method",
+  "qname": "org.apache.royale.utils.transparentPixelElement",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "",
+  "tags": [
+  {  "tagName": "royaleignorecoercion",
+         "values": ["HTMLImageElement"]}  ],
+    "return": "HTMLImageElement",
+    "params": [{ "name": "className", "type": "String"}]}

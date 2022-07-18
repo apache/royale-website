@@ -1,0 +1,50 @@
+{ "type": "class",
+  "qname": "org.apache.royale.jewel.itemRenderers.AlternateRowColorTableItemRendererInitializer",
+  "baseClassname": "org.apache.royale.jewel.beads.itemRenderers.TableItemRendererInitializer"
+  ,
+    "description": "Note: This is just an experiment. Better use TableAlternateRowColor  The TableItemRendererInitializer class initializes item renderers in Table component.  By Default this works the same as ListItemRendererInitializer, but create a placeholder for it.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.10.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.jewel.itemRenderers.AlternateRowColorTableItemRendererInitializer",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.10.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "setupVisualsForItemRenderer",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "copy",
+               "values": ["org.apache.royale.core.IBead#strand"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.10.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "void",
+          "params": [{ "name": "ir", "type": "org.apache.royale.core.IIndexedItemRenderer"}]}
+      ]
+  }

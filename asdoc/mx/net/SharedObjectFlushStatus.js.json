@@ -1,0 +1,31 @@
+{ "type": "class",
+  "qname": "mx.net.SharedObjectFlushStatus",
+  "baseClassname": ""
+  ,
+    "description": "This class is not available for reflection in the javascript target",
+  "tags": [
+  {  "tagName": "royalesuppressexport",
+         "values": []}  ],
+  "members": [
+  { "type": "field",
+        "qname": "PENDING",
+        "return": "String",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {}},
+      { "type": "field",
+        "qname": "FLUSHED",
+        "return": "String",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {}},
+      { "type": "field",
+        "qname": "FAILED",
+        "return": "String",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {}}]
+  }

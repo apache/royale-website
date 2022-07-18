@@ -1,0 +1,40 @@
+{ "type": "class",
+  "qname": "mx.rpc.http.mxml.HTTPService",
+  "baseClassname": "mx.rpc.http.HTTPService"
+  ,
+    "description": "You use the <code>&lt;mx:HTTPService&gt;</code> tag to represent an HTTPService object in an MXML file. When you call the HTTPService object's <code>send()</code> method, it makes an HTTP request to the specified URL, and an HTTP response is returned. Optionally, you can pass parameters to the specified URL. When you do not go through the server-based proxy service, you can use only HTTP GET or POST methods. However, when you set the useProxy  property to true and you use the server-based proxy service, you can also use the HTTP HEAD, OPTIONS, TRACE, and DELETE methods.  <p><b>Note:</b> Due to a software limitation, HTTPService does not generate user-friendly error messages when using GET. </p>  <p> The &lt;mx:HTTPService&gt; tag accepts the following tag attributes: </p> <pre>\\n &lt;mx:HTTPService\\n <b>Properties</b>\\n concurrency=&quot;multiple|single|last&quot;\\n contentType=&quot;application/x-www-form-urlencoded|application/xml&quot;\\n destination=&quot;<i>DefaultHTTP</i>&quot;\\n id=&quot;<i>No default.</i>&quot;\\n method=&quot;GET|POST|HEAD|OPTIONS|PUT|TRACE|DELETE&quot;\\n resultFormat=&quot;object|array|xml|e4x|flashvars|text&quot;\\n showBusyCursor=&quot;false|true&quot;\\n makeObjectsBindable=&quot;false|true&quot;\\n url=&quot;<i>No default.</i>&quot;\\n useProxy=&quot;false|true&quot;\\n xmlEncode=&quot;<i>No default.</i>&quot;\\n xmlDecode=&quot;<i>No default.</i>&quot;\\n \\n <b>Events</b>\\n fault=&quot;<i>No default.</i>&quot;\\n result=&quot;<i>No default.</i>&quot;\\n /&gt;\\n </pre>  The <code>&lt;mx:HTTPService&gt;</code> tag can have a single &lt;mx:request&gt; tag under which the parameters can be specified. </p>",
+  "tags": [
+  {  "tagName": "includeExample",
+         "values": ["examples/HTTPServiceExample.mxml -noswf"]},
+      {  "tagName": "see",
+         "values": ["mx.rpc.http.HTTPService", "mx.validators.Validator", "mx.managers.CursorManager"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "mxml",
+         "values": []},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.rpc.http.mxml.HTTPService",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Creates a new HTTPService. This constructor is usually called by the generated code of an MXML document. You usually use the mx.rpc.http.HTTPService class to create an HTTPService in ActionScript.",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["rootURL The URL the HTTPService should use when computing relative URLS.", "destination An HTTPService destination name in the service-config.xml file."]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": [{ "name": "rootURL", "type": "String"},
+        { "name": "destination", "type": "String"}]}
+      ]
+  }

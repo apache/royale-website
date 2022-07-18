@@ -1,0 +1,47 @@
+{ "type": "class",
+  "qname": "mx.charts.series.AreaSet",
+  "baseClassname": "mx.charts.chartClasses.StackedSeries"
+  ,
+    "description": "A grouping set that can be used to stack AreaSeries objects in any chart. An AreaSet encapsulates the same stacking behavior that is used in an AreaChart control, but can be used to assemble custom charts that are based on the CartesianChart class.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.charts.series.AreaSet",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "String",
+        "qname": "type",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "The grouping behavior of this series. All stacking series support <code>&quot;overlaid&quot;</code>, <code>&quot;stacked&quot;</code>, and <code>&quot;100%&quot;</code>. When the <code>type</code> property is <code>&quot;overlaid&quot;</code>, all sub-series are rendererd normally, with no special behavior applied. When the <code>type</code> property is <code>&quot;stacked&quot;</code>, each sub-series is rendered as the sum of its data plus the values of all previous series. When the <code>type</code> property is <code>&quot;100%&quot;</code>, each sub-series is rendered as its portion of the total sum of all series.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1", "Flash 9", "AIR 1.1", "Flash 9", "AIR 1.1", "Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 3", "Flex 3", "Flex 3", "Flex 3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0", "3.0", "3.0", "3.0"]}  ]}]
+  }

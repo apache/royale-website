@@ -1,0 +1,23 @@
+{ "type": "class",
+  "qname": "google.maps.MapTypeRegistry",
+  "baseClassname": "google.maps.MVCObject"
+  ,
+    "description": "",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["[google_maps_api_v3_11]"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "google.maps.MapTypeRegistry",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "see",
+               "values": ["[google_maps_api_v3_11]"]}  ],
+          "return": "",
+          "params": []}
+      ]
+  }

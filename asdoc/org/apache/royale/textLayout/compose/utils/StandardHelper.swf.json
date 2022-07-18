@@ -1,0 +1,24 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.compose.utils.StandardHelper",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "getStandardClass",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "return": "Class",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "getNewComposer",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "return": "org.apache.royale.textLayout.compose.IFlowComposer",
+          "params": []}
+      ]
+  }

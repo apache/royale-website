@@ -1,0 +1,33 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.HContainer",
+  "baseClassname": "org.apache.royale.html.Container"
+  ,
+    "description": "A Container that has a HorizontalLayout.  This is effectively the same as the pattern <code> <basic:Container xmlns:basic=&quot;library://ns.apache.org/royale/basic&quot;> <basic:layout> <basic:HorizontalLayout /> </basic:layout> </basic:Container> </code>",
+  "tags": [
+  {  "tagName": "toplevel",
+         "values": []},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html.HContainer",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ]
+  }

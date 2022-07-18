@@ -1,0 +1,31 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.utils.GeometryUtil",
+  "baseClassname": ""
+  ,
+    "description": "Utilities for getting information about text geometry and bounds. The methods of this class are static and must be called using the syntax <code>GeometryUtil.method(<em>parameter</em>)</code>.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10", "AIR 1.5"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "getHighlightBounds",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "Returns an array of line/rectangle object pairs describing the highlight area of the text based on the content bounded within the indicies. The rectangles are the same as those which would be created if the text were selected. May return one or more pair per line.   obj.textLine - to access the TextLine object obj.rect - to access the rectangle describing the selection in TextLine coordinates   Example Usage: var theRect:Rectangle = returnArray[0].rect.clone(); var textLine:TextLine = returnArray[0].textLine; var globalStart:Point = new Point(theRect.x, theRect.y); globalStart = textLine.localToGlobal(globalStart); globalStart = textLine.parent.globalToLocal(globalStart); theRect.x = globalStart.x; theRect.y = globalStart.y;  [Make a new shape and draw the path into it. See flash.display.graphics] textLine.parent.addChild(newShape);",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["range - a TextRange describing the TextFlow as well as the beginning and end indicies"]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 10", "AIR 1.5"]},
+            {  "tagName": "return",
+               "values": ["Array - An array of TextLine and Rectangle pairs. The objects can be referenced as:"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "Array",
+          "params": [{ "name": "range", "type": "org.apache.royale.textLayout.elements.TextRange"}]}
+      ]
+  }

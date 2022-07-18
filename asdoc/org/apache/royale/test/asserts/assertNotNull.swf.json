@@ -1,0 +1,10 @@
+{ "type": "method",
+  "qname": "org.apache.royale.test.asserts.assertNotNull",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "Alias for org.apache.royale.test.Assert assertNotNull method",
+    "return": "void",
+    "params": [{ "name": "value", "type": "*"},
+  { "name": "message", "type": "String"}]}

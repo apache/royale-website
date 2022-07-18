@@ -1,0 +1,25 @@
+{ "type": "class",
+  "qname": "org.apache.royale.express.ImageAndTextButton",
+  "baseClassname": "org.apache.royale.html.ImageAndTextButton"
+  ,
+    "description": "This class extends ImageAndTextButton and adds the toolTip bead as a convenience.",
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.express.ImageAndTextButton",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "String",
+        "qname": "toolTip",
+        "namespace": "public",
+        "bindable": ["toolTipChanged"],
+        "details": [],
+        "deprecated": {},
+          "description": "Displays a hint when the mouse hovers over the button"}]
+  }

@@ -1,0 +1,7 @@
+{ "type": "class",
+  "qname": "org.apache.royale.createjs.graphics.Rect",
+  "baseClassname": "org.apache.royale.createjs.graphics.GraphicShape"
+  ,
+  "members": [
+  ]
+  }

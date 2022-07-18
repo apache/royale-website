@@ -1,0 +1,48 @@
+{ "type": "class",
+  "qname": "org.apache.royale.mdl.Application",
+  "baseClassname": "org.apache.royale.core.Application"
+  ,
+    "description": "MDL Application holds specific MDL need in a Royale Application.  This class extends the standard Application and sets up the SimpleCSSValuesImpl (implementation) for convenience.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.8"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.mdl.Application",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.8"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "field",
+        "qname": "topLevelApplication",
+        "return": "Object",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "static reference to this application used mainly for dialog (Dialog class)",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.8"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]},
+            {  "tagName": "royalesuppresspublicvarwarning",
+               "values": []}  ]}]
+  }

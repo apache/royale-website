@@ -1,0 +1,32 @@
+{ "type": "class",
+  "qname": "mx.rpc.soap.types.DataSetType",
+  "baseClassname": ""
+  ,
+    "description": "Marshalls between a .NET DataSet diffgram and ActionScript.",
+  "tags": [
+  {  "tagName": "private",
+         "values": []}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.rpc.soap.types.DataSetType",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "encode",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "encoder", "type": "mx.rpc.soap.SOAPEncoder"},
+        { "name": "parent", "type": "XML"},
+        { "name": "name", "type": "QName"},
+        { "name": "value", "type": "*"},
+        { "name": "restriction", "type": "XML"}]}
+      ]
+  }

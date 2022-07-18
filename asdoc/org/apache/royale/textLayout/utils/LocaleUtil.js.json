@@ -1,0 +1,60 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.utils.LocaleUtil",
+  "baseClassname": ""
+  ,
+    "description": "Utilities for managing and getting information about Locale based defaults. The methods of this class are static and must be called using the syntax <code>LocaleUtil.method(<em>parameter</em>)</code>.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10", "AIR 1.5"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.textLayout.utils.LocaleUtil",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "justificationRule",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "return": "String",
+          "params": [{ "name": "locale", "type": "String"}]}
+      ,
+      { "type": "method",
+        "qname": "justificationStyle",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "return": "String",
+          "params": [{ "name": "locale", "type": "String"}]}
+      ,
+      { "type": "method",
+        "qname": "leadingModel",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "return": "String",
+          "params": [{ "name": "locale", "type": "String"}]}
+      ,
+      { "type": "method",
+        "qname": "dominantBaseline",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "return": "String",
+          "params": [{ "name": "locale", "type": "String"}]}
+      ]
+  }
+
+
+

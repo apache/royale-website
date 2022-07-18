@@ -1,0 +1,19 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.utils.net.IDynamicPropertyWriter",
+    "description": "This interface controls the serialization of dynamic properties of dynamic objects. This interface is used with the IDynamicPropertyOutput interface to control the serialization of dynamic properties of dynamic objects. To use this interface, assign an object that implements the IDynamicPropertyWriter interface to the AMFObjectEncoding.dynamicPropertyWriter property.",
+  "members": [
+  { "type": "method",
+    "qname": "writeDynamicProperties",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "Writes the name and value of an IDynamicPropertyOutput object to an object with dynamic properties. If ObjectEncoding.dynamicPropertyWriter is set, this method is invoked for each object with dynamic properties.",
+    "tags": [
+    {  "tagName": "param",
+           "values": ["name  The name of the property. You can use this parameter either to specify the name of an existing property of the dynamic object or to create a new property.", "value The value to write to the specified property."]}  ],
+      "return": "void",
+      "params": [{ "name": "obj", "type": "Object"},
+    { "name": "output", "type": "org.apache.royale.utils.net.IDynamicPropertyOutput"}]}
+  ]
+  }

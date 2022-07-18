@@ -1,0 +1,36 @@
+{ "type": "class",
+  "qname": "org.apache.royale.svg.SuperimposeFilter",
+  "baseClassname": "org.apache.royale.svg.Filter"
+  ,
+    "description": "SuperimposeFilter composes superimposes several filters one on top of the other.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.svg.SuperimposeFilter",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "filter",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.svg.IChainableFilter"]}  ],
+          "return": "void",
+          "params": []}
+      ]
+  }

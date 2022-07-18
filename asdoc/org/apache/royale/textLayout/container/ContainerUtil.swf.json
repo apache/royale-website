@@ -1,0 +1,17 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.container.ContainerUtil",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "getController",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "return": "org.apache.royale.textLayout.container.IContainerController",
+          "params": [{ "name": "container", "type": "org.apache.royale.core.IParentIUIBase"},
+        { "name": "width", "type": "Number"},
+        { "name": "height", "type": "Number"}]}
+      ]
+  }

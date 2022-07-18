@@ -1,0 +1,43 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.beads.layouts.HDividedContainerLayout",
+  "baseClassname": "org.apache.royale.core.LayoutBase"
+  ,
+    "description": "This sub-class of DividedContainerLayout class is responsible for sizing and positioning the children of the DividedContainer into columns with separators between them.  In order to correctly size and place the children, the DividedContainerLayout relies on additional information contained in the DividedContainerModel. These adjustments (which default to zero) can be changed by interacting with the DividedContainerSeparators and their mouse controllers.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html.beads.layouts.HDividedContainerLayout",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "write-only",
+        "return": "org.apache.royale.core.IStrand",
+        "qname": "strand",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "copy",
+               "values": ["org.apache.royale.core.IStrand#strand"]}  ]}]
+  }

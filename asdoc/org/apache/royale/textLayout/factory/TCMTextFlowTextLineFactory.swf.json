@@ -1,0 +1,23 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.factory.TCMTextFlowTextLineFactory",
+  "baseClassname": "org.apache.royale.textLayout.factory.TextFlowTextLineFactory"
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.textLayout.factory.TCMTextFlowTextLineFactory",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "org.apache.royale.textLayout.container.TextContainerManager",
+        "qname": "tcm",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}}]
+  }

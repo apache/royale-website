@@ -1,0 +1,38 @@
+{ "type": "class",
+  "qname": "org.apache.royale.core.ItemRendererOwnerViewBead",
+  "baseClassname": "org.apache.royale.core.Bead"
+  ,
+    "description": "The ItemRendererOwnerViewBead stores a reference to the IItemRendererOwnerView for an IItemRenderer",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.core.ItemRendererOwnerViewBead",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": [{ "name": "ownerView", "type": "org.apache.royale.core.IItemRendererOwnerView"}]}
+      ,
+      { "type": "field",
+        "qname": "ownerView",
+        "return": "org.apache.royale.core.IItemRendererOwnerView",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}}]
+  }

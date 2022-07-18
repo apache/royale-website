@@ -1,0 +1,12 @@
+{ "type": "method",
+  "qname": "org.apache.royale.utils.html.isFocused",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "",
+  "tags": [
+  {  "tagName": "royalesuppressexport",
+         "values": []}  ],
+    "return": "Boolean",
+    "params": [{ "name": "host", "type": "org.apache.royale.core.ElementWrapper"}]}

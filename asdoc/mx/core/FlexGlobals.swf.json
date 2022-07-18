@@ -1,0 +1,31 @@
+{ "type": "class",
+  "qname": "mx.core.FlexGlobals",
+  "baseClassname": ""
+  ,
+    "description": "A class that contains variables that are global to all applications within the same ApplicationDomain.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10", "AIR 1.5"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 4"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "field",
+        "qname": "topLevelApplication",
+        "return": "Object",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "The first application run in an ApplicationDomain is the top-level application. This property is set to a reference to the top-level application in the top-level application's constructor. Each ApplicationDomain will have its own <code>topLevelApplication</code>.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10", "AIR 1.5"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 4"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]},
+            {  "tagName": "royalesuppresspublicvarwarning",
+               "values": []}  ]}]
+  }

@@ -1,0 +1,33 @@
+{ "type": "interface",
+  "qname": "spark.components.gridClasses.IDataGridElement",
+"baseInterfaceNames": [
+"mx.core.IVisualElement", 
+"mx.managers.ILayoutManagerClient", 
+"mx.core.IInvalidating"]
+,
+    "description": "Visual elements of the Spark DataGrid control that must remain in sync with the grid's layout and scroll position must implement this interface. When the DataGrid control's <code>grid</code> skin part is added, it sets the <code>IDataGridElement.dataGrid</code> property. The IDataGridElements object can respond by adding event listeners for scroll position changes. When the DataGrid control is changed in a way that affects its row or column layout, all IDataGridElements object are invalidated.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10", "AIR 2.5"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 4.5"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "spark.components.DataGrid",
+    "qname": "dataGrid",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "The DataGrid control associated with this element.",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10", "AIR 2.5"]},
+        {  "tagName": "productversion",
+           "values": ["Flex 4.5"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]}]
+  }

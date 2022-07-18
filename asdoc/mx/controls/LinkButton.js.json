@@ -1,0 +1,37 @@
+{ "type": "class",
+  "qname": "mx.controls.LinkButton",
+  "baseClassname": "mx.controls.Button"
+  ,
+    "description": "The LinkButton control is a borderless Button control whose contents are highlighted when a user moves the mouse over it. These traits are often exhibited by HTML links contained within a browser page. In order for the LinkButton control to perform some action, you must specify a <code>click</code> event handler, as you do with a Button control.  <p>The LinkButton control has the following default characteristics:</p> <table class=&quot;innertable&quot;> <tr> <th>Characteristic</th> <th>Description</th> </tr> <tr> <td>Default size</td> <td>Width and height large enough for the text</td> </tr> <tr> <td>Minimum size</td> <td>0 pixels</td> </tr> <tr> <td>Maximum size</td> <td>Undefined</td> </tr> </table>   <p>The <code>&lt;mx:LinkButton&gt;</code> tag inherits all of the tag attributes of its superclass, and adds the following tag attributes:</p>  <pre>\\n &lt;mx:LinkButton\\n <b>Styles</b>\\n cornerRadius=&quot;4&quot;&quot;\\n rollOverColor=&quot;0xEEFEE6&quot;\\n selectionColor=&quot;0xB7F39B&quot;\\n textRollOverColor=&quot;0x2B333C&quot;\\n textSelectedColor=&quot;0x2B333C&quot;\\n /&gt;\\n </pre>",
+  "tags": [
+  {  "tagName": "includeExample",
+         "values": ["examples/LinkButtonExample.mxml"]},
+      {  "tagName": "see",
+         "values": ["mx.controls.LinkBar"]},
+      {  "tagName": "mxml",
+         "values": []},
+      {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.controls.LinkButton",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ]
+  }

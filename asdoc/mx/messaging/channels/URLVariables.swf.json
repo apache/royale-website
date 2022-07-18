@@ -1,0 +1,33 @@
+{ "type": "class",
+  "qname": "mx.messaging.channels.URLVariables",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "mx.messaging.channels.URLVariables",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": [{ "name": "source", "type": "String"}]}
+      ,
+      { "type": "method",
+        "qname": "decode",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "source", "type": "String"}]}
+      ,
+      { "type": "method",
+        "qname": "toString",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "String",
+          "params": []}
+      ]
+  }

@@ -1,0 +1,33 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.ControlBar",
+  "baseClassname": "org.apache.royale.html.Group"
+  ,
+    "description": "The ControlBar class is used within a Panel as a place to position additional controls. The ControlBar appears at the bottom of the org.apache.royale.html.Panel and is not part of the Panel's scrollable content area. The ControlBar is a Container and implements the org.apache.royale.core.IChrome interface, indicating that is outside of the Container's content area. The ControlBar uses the following beads:  org.apache.royale.core.IBeadModel: the data model for the component. org.apache.royale.core.IMeasurementBead: helps determine the overlay size of the ControlBar for layout. org.apache.royale.html.beads.IBorderBead: if present, displays a border around the component. org.apache.royale.html.beads.IBackgroundBead: if present, displays a solid background below the ControlBar.",
+  "tags": [
+  {  "tagName": "toplevel",
+         "values": []},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html.ControlBar",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ]
+  }

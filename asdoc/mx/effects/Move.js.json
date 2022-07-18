@@ -1,0 +1,33 @@
+{ "type": "class",
+  "qname": "mx.effects.Move",
+  "baseClassname": "org.apache.royale.effects.Move"
+  ,
+    "description": "The Move effect animates a UI component's x or y position.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.effects.Move",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.  have its x and/or y property animated.",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["target Object ID or reference to an object that will"]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 1.0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": [{ "name": "target", "type": "org.apache.royale.core.IUIBase"}]}
+      ]
+  }

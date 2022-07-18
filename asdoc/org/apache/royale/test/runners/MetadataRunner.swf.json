@@ -1,0 +1,81 @@
+{ "type": "class",
+  "qname": "org.apache.royale.test.runners.MetadataRunner",
+  "baseClassname": ""
+  ,
+    "description": "Runs a class containing methods marked with <code>[Test]</code> metadata.  <p>Also supports the following optional metadata:</p>  <ul> <li>Tests with <code>[Ignore]</code> metadata should be ignored (skipped).</li> <li>Methods with <code>[Before]</code> metadata are run before every individual test.</li> <li>Methods with <code>[After]</code> metadata are run after every individual test.</li> <li>Static methods with <code>[BeforeClass]</code> metadata are run one time, before the first test.</li> <li>Static methods with <code>[AfterClass]</code> metadata are run one time, after the final test.</li> </ul>  <p>To test asynchronous functionality, add the <code>async</code> modifier to the <code>[Test]</code> metadata, and use the static methods on the <code>org.apache.royale.test.async.Async</code> class to set up a context for testing asynchronously.</p>  <pre><code>[Test(async)]</code></pre>  <p>By default, asynchronous tests fail if they do not complete within 500 milliseconds. Set the <code>timeout</code> modifier on the <code>[Test]</code> metadata to customize this duration (measured in milliseconds).</p>  <pre><code>[Test(async,timeout=&quot;2000&quot;)]</code></pre>  <p>To require that a specific exception is thrown while a test is running, set the `expected` modifier on the `[Test]` metadata to the name of the exception class.</p>  <pre><code>[Test(expected=&quot;RangeError&quot;)]</code></pre>",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["org.apache.royale.test.async.Async"]}  ],
+  "members": [
+  { "type": "field",
+        "qname": "DEFAULT_ASYNC_TIMEOUT",
+        "return": "int",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "The default timeout, measured in milliseconds, before an asynchronous test should be considered a failure."},
+      { "type": "method",
+        "qname": "org.apache.royale.test.runners.MetadataRunner",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+          "return": "",
+          "params": [{ "name": "testClass", "type": "Class"}]}
+      ,
+      { "type": "accessor",
+        "access": "read-only",
+        "return": "String",
+        "qname": "description",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "private",
+               "values": []}  ]},
+      { "type": "method",
+        "qname": "pleaseStop",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "inheritDoc",
+               "values": []}  ],
+          "return": "void",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "run",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "inheritDoc",
+               "values": []}  ],
+          "return": "void",
+          "params": [{ "name": "notifier", "type": "org.apache.royale.test.runners.notification.IRunNotifier"}]}
+      ,
+      { "type": "method",
+        "qname": "afterTest",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "test", "type": "TestInfo"}]}
+      ]
+  }
+
+
+
+
+
+

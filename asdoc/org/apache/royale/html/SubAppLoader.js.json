@@ -1,0 +1,53 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.SubAppLoader",
+  "baseClassname": "org.apache.royale.core.UIBase"
+  ,
+    "description": "The SubAppLoader class can load Flash or HTML content into a space within an application. Use SubAppLoader to identify where the application should appear, then use its loadApplication() function to load the application dynamically.",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["org.apache.royale.html.beads.layout", "org.apache.royale.html.supportClasses.ScrollingViewport"]},
+      {  "tagName": "toplevel",
+         "values": []},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html.SubAppLoader",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "loadApplication",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Specifies the URL to load, depending on the runtime platform. Pass null for whichever URL is not being used.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "void",
+          "params": [{ "name": "swfURL", "type": "String"},
+        { "name": "htmlURL", "type": "String"}]}
+      ]
+  }

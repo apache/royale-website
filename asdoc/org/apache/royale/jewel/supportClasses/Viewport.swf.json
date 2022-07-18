@@ -1,0 +1,40 @@
+{ "type": "class",
+  "qname": "org.apache.royale.jewel.supportClasses.Viewport",
+  "baseClassname": "org.apache.royale.html.supportClasses.Viewport"
+  ,
+    "description": "A Viewport is the area of a Container set aside for displaying content. If the content exceeds the visible area of the viewport it will be clipped or hidden.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.jewel.supportClasses.Viewport",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "Boolean",
+        "qname": "clipContent",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Whether to apply a clip mask if the positions and/or sizes of this container's children extend outside the borders of this container.  If false, the children of this container remain visible when they are moved or sized outside the borders of this container. If true, the children of this container are clipped.  If clipContent is false, then scrolling is disabled for this container and scrollbars will not appear. If clipContent is true, then scrollbars will usually appear when the container's children extend outside the border of the container. For additional control over the appearance of scrollbars, see horizontalScrollPolicy and verticalScrollPolicy.  The default value is true."}]
+  }

@@ -1,0 +1,15 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.core.IDataProviderNotifier",
+"baseInterfaceNames": [
+"org.apache.royale.core.IBead"]
+,
+    "description": "The IDataProviderNotifier interface is a &quot;marker&quot; interface for beads that manage that dispatch events when data providers change.  A marker interface has no addtional APIs. It is used to find the notifier bead on the strand via calls to getBeadByType.",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["org.apache.royale.core.IStrand#getBeadByType"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ]}

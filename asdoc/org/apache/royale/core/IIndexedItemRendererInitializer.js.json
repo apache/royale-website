@@ -1,0 +1,38 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.core.IIndexedItemRendererInitializer",
+"baseInterfaceNames": [
+"org.apache.royale.core.IItemRendererInitializer"]
+,
+    "description": "The IIndexedItemRendererInitializer interface is the basic interface for beads that initialize properties on an IItemRenderer.  Simple implementations only assign the data and itemRendererOwnerView property, but others will assign other properties if needed.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+    "qname": "initializeIndexedItemRenderer",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "This method is called to generate another instance of an item renderer.",
+    "tags": [
+    {  "tagName": "see",
+           "values": ["org.apache.royale.core.IItemRenderer"]},
+        {  "tagName": "param",
+           "values": ["renderer The renderer", "data The data for the renderer", "ownerView the view of the component that owns the renderers", "index the index in the list of renderers"]},
+        {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.0"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ],
+      "return": "void",
+      "params": [{ "name": "renderer", "type": "org.apache.royale.core.IIndexedItemRenderer"},
+    { "name": "data", "type": "Object"},
+    { "name": "index", "type": "int"}]}
+  ]
+  }

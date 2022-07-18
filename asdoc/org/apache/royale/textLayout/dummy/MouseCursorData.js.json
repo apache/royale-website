@@ -1,0 +1,27 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.dummy.MouseCursorData",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "field",
+        "qname": "data",
+        "return": "Vector.<org.apache.royale.textLayout.dummy.BitmapData>",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}},
+      { "type": "field",
+        "qname": "frameRate",
+        "return": "Number",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}},
+      { "type": "field",
+        "qname": "hotSpot",
+        "return": "org.apache.royale.geom.Point",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}}]
+  }

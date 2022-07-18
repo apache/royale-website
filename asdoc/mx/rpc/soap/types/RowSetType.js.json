@@ -1,0 +1,45 @@
+{ "type": "class",
+  "qname": "mx.rpc.soap.types.RowSetType",
+  "baseClassname": ""
+  ,
+    "description": "Marshalls between the SOAP representation of a ColdFusion Query (aka a &quot;Query Bean&quot;) and ActionScript.",
+  "tags": [
+  {  "tagName": "private",
+         "values": []}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.rpc.soap.types.RowSetType",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "encode",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "encoder", "type": "mx.rpc.soap.SOAPEncoder"},
+        { "name": "parent", "type": "XML"},
+        { "name": "name", "type": "QName"},
+        { "name": "value", "type": "*"},
+        { "name": "restriction", "type": "XML"}]}
+      ,
+      { "type": "method",
+        "qname": "decode",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "decoder", "type": "mx.rpc.soap.SOAPDecoder"},
+        { "name": "parent", "type": "*"},
+        { "name": "name", "type": "*"},
+        { "name": "value", "type": "*"},
+        { "name": "restriction", "type": "XML"}]}
+      ]
+  }

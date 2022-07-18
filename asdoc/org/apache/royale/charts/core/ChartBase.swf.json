@@ -1,0 +1,47 @@
+{ "type": "class",
+  "qname": "org.apache.royale.charts.core.ChartBase",
+  "baseClassname": "org.apache.royale.html.List"
+  ,
+    "description": "The ChartBase class contains all of the properties common to most charts. Some charts may not make any or full use of the properties however.  A chart is based on List which provides data and item renderers to draw the chart graphics. Charts are essentially lists with a different visualization.  Similar to a List, the chart's layout provides the structure of chart while the itemRenderers take care of the actual drawing.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.charts.core.ChartBase",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.8"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "Array",
+        "qname": "series",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "The collection of series for the chart. Each element of the series array should be of type IChartSeries.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.8"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  }

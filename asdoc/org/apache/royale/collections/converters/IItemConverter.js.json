@@ -1,0 +1,35 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.collections.converters.IItemConverter",
+    "description": "The IItemConverter interface is the basic interface for converting a serialized data item to a data class instance.  This interface is generally used in a LazyCollection.",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["org.apache.royale.net.dataConverters.LazyCollection."]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+    "qname": "convertItem",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "Take the input string (could be serialized data set, XML, or JSON) and return a data class instance.",
+    "tags": [
+    {  "tagName": "param",
+           "values": ["s Serialized data item, XML or JSON."]},
+        {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.0"]},
+        {  "tagName": "return",
+           "values": ["An instance of a data class."]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ],
+      "return": "Object",
+      "params": [{ "name": "data", "type": "String"}]}
+  ]
+  }

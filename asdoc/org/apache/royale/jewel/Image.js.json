@@ -1,0 +1,80 @@
+{ "type": "class",
+  "qname": "org.apache.royale.jewel.Image",
+  "baseClassname": "org.apache.royale.core.supportClasses.StyledImageBase"
+  ,
+    "description": "The Jewel Image is a simple component that loads an Image. For button images use ImageButton",
+  "tags": [
+  {  "tagName": "toplevel",
+         "values": []},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.4"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.jewel.Image",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.4"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "createElement",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.WrappedHTMLElement"]}  ],
+          "return": "org.apache.royale.core.WrappedHTMLElement",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "read-only",
+        "return": "Element",
+        "qname": "imageElement",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {}},
+      { "type": "method",
+        "qname": "applyImageData",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["HTMLImageElement"]}  ],
+          "return": "void",
+          "params": [{ "name": "binaryDataAsString", "type": "String"}]}
+      ]
+  ,
+  "events": [
+  { "qname": "loadComplete",
+        "type": "org.apache.royale.events.Event"
+      ,
+          "description": "Report the image was loaded",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.10.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  }

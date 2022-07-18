@@ -1,0 +1,23 @@
+{ "type": "class",
+  "qname": "org.apache.royale.charts.beads.layouts.LineChartCategoryVsLinearLayout",
+  "baseClassname": "org.apache.royale.charts.beads.layouts.ChartBaseLayout"
+  ,
+    "description": "The LineChartCategoryVsLinearLayout displays a line graph of plot points where the horizontal axis is category value and the vertical axis is numeric.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.charts.beads.layouts.LineChartCategoryVsLinearLayout",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ]
+  }

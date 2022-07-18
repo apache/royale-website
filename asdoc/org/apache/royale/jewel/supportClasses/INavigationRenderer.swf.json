@@ -1,0 +1,15 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.jewel.supportClasses.INavigationRenderer",
+"baseInterfaceNames": [
+"org.apache.royale.jewel.beads.itemRenderers.ITextItemRenderer"]
+,
+    "description": "INavigationRenderer is the interface that all item renderers used with Navigation List component must implement. Jewel supports a basic implementation with NavigationLinkItemRenderer",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["org.apache.royale.jewel.itemRenderers.NavigationLinkItemRenderer"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.4"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ]}

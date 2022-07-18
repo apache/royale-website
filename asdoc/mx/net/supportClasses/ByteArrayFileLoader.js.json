@@ -1,0 +1,15 @@
+{ "type": "class",
+  "qname": "mx.net.supportClasses.ByteArrayFileLoader",
+  "baseClassname": "org.apache.royale.file.beads.FileLoader"
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "fileLoadHandler",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "event", "type": "org.apache.royale.events.Event"}]}
+      ]
+  }

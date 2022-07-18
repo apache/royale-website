@@ -1,0 +1,17 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.utils.net.IDataOutput",
+"baseInterfaceNames": [
+"org.apache.royale.utils.IBinaryDataOutput"]
+,
+    "description": "initial work on replacement for flash.utils.IDataOutput",
+  "members": [
+  { "type": "method",
+    "qname": "writeObject",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "return": "void",
+      "params": [{ "name": "object", "type": "*"}]}
+  ]
+  }

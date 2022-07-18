@@ -1,0 +1,26 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.conversion.importers.HtmlCustomParaFormatImporter",
+  "baseClassname": "org.apache.royale.textLayout.conversion.TLFormatImporter"
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.textLayout.conversion.importers.HtmlCustomParaFormatImporter",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": [{ "name": "classType", "type": "Class"},
+        { "name": "description", "type": "Object"}]}
+      ,
+      { "type": "method",
+        "qname": "importOneFormat",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "Boolean",
+          "params": [{ "name": "key", "type": "String"},
+        { "name": "val", "type": "String"}]}
+      ]
+  }

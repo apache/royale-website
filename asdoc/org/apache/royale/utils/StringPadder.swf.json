@@ -1,0 +1,38 @@
+{ "type": "class",
+  "qname": "org.apache.royale.utils.StringPadder",
+  "baseClassname": ""
+  ,
+    "description": "The StringPadder utility class is an all-static class with methods for working with String objects. You do not create instances of StringPadder; instead you call methods such as the <code>StringPadder.pad()</code> method.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 1.0.0", "Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "pad",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "Pads a string with an arbitrary string.",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["str The string to be padded.", "padChar The character used to pad the string. This should be a single character.", "size The size of the padded string.", "padRight Which side to add the padding on. By default it's added to the left."]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 10", "AIR 1.5"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 1.0.0.1", "Royale 0.0"]},
+            {  "tagName": "return",
+               "values": ["The padded string."]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "String",
+          "params": [{ "name": "str", "type": "String"},
+        { "name": "padChar", "type": "String"},
+        { "name": "size", "type": "int"},
+        { "name": "padRight", "type": "Boolean"}]}
+      ]
+  }

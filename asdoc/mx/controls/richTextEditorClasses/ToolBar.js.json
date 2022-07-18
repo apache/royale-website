@@ -1,0 +1,31 @@
+{ "type": "class",
+  "qname": "mx.controls.richTextEditorClasses.ToolBar",
+  "baseClassname": "mx.core.Container"
+  ,
+    "description": "The ToolBar container lays out its children in a single horizontal row. If the width of the container is less than the measured width, the children wrap to the next line. While wrapping, any VRule controls (separators) at the end of a row or the beginning of a row are not drawn.  <p><b>MXML Syntax</b></p>  <p>The <code>&lt;mx:ToolBar&gt;</code> tag inherits all the properties of its parent classes but adds no new ones.</p>  <pre>\\n &lt;mx:ToolBar\\n ...\\n <i>child tags</i>\\n ...\\n /&gt;\\n </pre>",
+  "tags": [
+  {  "tagName": "includeExample",
+         "values": ["examples/ToolBarExample.mxml"]},
+      {  "tagName": "private",
+         "values": []},
+      {  "tagName": "see",
+         "values": ["mx.containers.VBox"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.controls.richTextEditorClasses.ToolBar",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.4"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ]
+  }

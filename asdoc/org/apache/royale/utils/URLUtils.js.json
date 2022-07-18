@@ -1,0 +1,50 @@
+{ "type": "class",
+  "qname": "org.apache.royale.utils.URLUtils",
+  "baseClassname": ""
+  ,
+    "description": "The URLUtils class is a collection of static functions that wrap dealing with object URLs in the browser.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.7"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "createObjectURL",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "Creates an object URL for of a blob or a file",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["blobOrFile:* The blob of file", "win:*=null   The active window can be optionally specified"]},
+            {  "tagName": "return",
+               "values": ["The object URL"]}  ],
+          "return": "String",
+          "params": [{ "name": "blobOrFile", "type": "*"},
+        { "name": "win", "type": "*"}]}
+      ,
+      { "type": "method",
+        "qname": "revokeObjectURL",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "objectURL", "type": "String"},
+        { "name": "win", "type": "*"}]}
+      ,
+      { "type": "method",
+        "qname": "getFullPath",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "return": "String",
+          "params": [{ "name": "host", "type": "Object"},
+        { "name": "url", "type": "String"}]}
+      ]
+  }

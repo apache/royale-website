@@ -1,0 +1,40 @@
+{ "type": "class",
+  "qname": "mx.controls.beads.AdvancedDataGridSelectableItemRendererClassFactory",
+  "baseClassname": "org.apache.royale.core.SelectableItemRendererClassFactory"
+  ,
+    "description": "The AdvancedDataGridItemRendererInitializer class initializes item renderers in tree classes.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.controls.beads.AdvancedDataGridSelectableItemRendererClassFactory",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "createItemRenderer",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "org.apache.royale.core.IItemRenderer",
+          "params": []}
+      ]
+  }

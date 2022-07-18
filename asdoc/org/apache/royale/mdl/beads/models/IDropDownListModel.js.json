@@ -1,0 +1,28 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.mdl.beads.models.IDropDownListModel",
+    "description": "The IDropDownListModel interface describes the minimum set of properties available to DropDownList control",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "String",
+    "qname": "selectedValue",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "Gets selectedValue from Select in DropDownList",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.9"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]}]
+  }

@@ -1,0 +1,38 @@
+{ "type": "class",
+  "qname": "mx.messaging.channels.amfx.AMFXDecoder",
+  "baseClassname": ""
+  ,
+    "description": "Decodes an AMFX packet into an ActionScript Object graph. Headers and the result body are accessed from the returned AMFXResult.",
+  "tags": [
+  {  "tagName": "private",
+         "values": []}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.messaging.channels.amfx.AMFXDecoder",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "decode",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "mx.messaging.channels.amfx.AMFXResult",
+          "params": [{ "name": "xml", "type": "XML"}]}
+      ,
+      { "type": "method",
+        "qname": "decodeValue",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "return": "Object",
+          "params": [{ "name": "xml", "type": "XML"},
+        { "name": "context", "type": "mx.messaging.channels.amfx.AMFXContext"}]}
+      ]
+  }

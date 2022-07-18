@@ -1,0 +1,48 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.beads.DataItemRendererFactoryForArrayList",
+  "baseClassname": "org.apache.royale.html.beads.DataItemRendererFactoryBase"
+  ,
+    "description": "The DataItemRendererFactoryForArrayList class uses an ArrayList and creates an item renderer for every item in the collection.  Other implementations of IDataProviderItemRendererMapper map different data structures or manage a virtual set of renderers.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html.beads.DataItemRendererFactoryForArrayList",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": [{ "name": "target", "type": "Object"}]}
+      ,
+      { "type": "accessor",
+        "access": "read-only",
+        "return": "int",
+        "qname": "dataProviderLength",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {}},
+      { "type": "method",
+        "qname": "getItemAt",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "Object",
+          "params": [{ "name": "i", "type": "int"}]}
+      ]
+  }

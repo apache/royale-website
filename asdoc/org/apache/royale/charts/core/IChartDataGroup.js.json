@@ -1,0 +1,51 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.charts.core.IChartDataGroup",
+"baseInterfaceNames": [
+"org.apache.royale.core.IItemRendererOwnerView", 
+"org.apache.royale.core.ILayoutView"]
+,
+    "description": "The IChartDataGroup is the interface for the parent element of chart itemRenderers.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+    "qname": "getItemRendererForSeriesAtIndex",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "Returns the itemRenderer that matches both the series and child index value.",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.0"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ],
+      "return": "org.apache.royale.charts.core.IChartItemRenderer",
+      "params": [{ "name": "series", "type": "org.apache.royale.charts.core.IChartSeries"},
+    { "name": "index", "type": "int"}]}
+  ,
+  { "type": "method",
+    "qname": "getItemRendererUnderPoint",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "Returns the first itemRenderer that encompasses the point.",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.0"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ],
+      "return": "org.apache.royale.charts.core.IChartItemRenderer",
+      "params": [{ "name": "point", "type": "org.apache.royale.geom.Point"}]}
+  ]
+  }

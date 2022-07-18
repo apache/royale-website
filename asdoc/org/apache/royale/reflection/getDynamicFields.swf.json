@@ -1,0 +1,11 @@
+{ "type": "method",
+  "qname": "org.apache.royale.reflection.getDynamicFields",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "return": "Array",
+    "params": [{ "name": "inspect", "type": "Object"},
+  { "name": "includePredicate", "type": "Function"},
+  { "name": "checkFirst", "type": "Boolean"},
+  { "name": "numericFields", "type": "Boolean"}]}
