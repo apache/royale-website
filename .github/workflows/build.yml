@@ -3,7 +3,7 @@ name: Build Website
 on:
   push:
     branches:
-      - 11ty
+      - master
 
 jobs:
   build:
@@ -18,7 +18,7 @@ jobs:
       - name: Build website
         run: npm run build
       - name: Deploy to asf-staging
-        if: ${{ github.repository_owner == 'apache' && github.event_name != 'pull_request' && github.ref_name == '11ty' }}
+        if: ${{ github.repository_owner == 'apache' && github.event_name != 'pull_request' && github.ref_name == 'master' }}
         run: |
           git config --global user.name 'GitHub Actions'
           git config --global user.email 'dev@royale.apache.org'
