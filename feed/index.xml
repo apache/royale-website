@@ -1344,7 +1344,7 @@ ipcMain.on(&quot;mainMessageHandler&quot;, (event, arg) =&gt; {
 <p>Note: This author has not found a way to hit both breakpoints for the Royale application and the Electron app in one session in Visual Studio Code. However, using a combination of the integrated Chrome dev tools (shown above) to set breakpoints you can use the second configuration, <strong>Debug main Electron process</strong>, to break on both the Royale and Electron processes, but the break occurs in the Chrome Dev tools and not Visual Studio Code. You could also debug the Royale instance only using the Firefox debugger and launching in a browser.</p>
 <h2>Summary</h2>
 <p>In this guide you've created a desktop application using Royale and Electron. You've sent a message to the Main process and sent that message back to the Renderer process. You've set a break point in the debugger.</p>
-<p>The example project is attached here: <a href="https://royale.apache.org/wp-content/uploads/2019/05/ApacheRoyaleElectron_1.0.0.zip">Apache Royale Electron zip</a></p>
+<p>The example project is attached here: <a href="https://royale.apache.org/blog/downloads/ApacheRoyaleElectron_1.0.0.zip">Apache Royale Electron zip</a></p>
 <p>If you use the Moonshine IDE, an example project is available <a href="https://github.com/prominic/Royale-Examples/tree/master/ElectronRoyale">here</a>.</p>
 <h2>Next Steps</h2>
 <ul>
