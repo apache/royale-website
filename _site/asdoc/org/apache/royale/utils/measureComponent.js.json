@@ -1,8 +1,0 @@
-{ "type": "method",
-  "qname": "org.apache.royale.utils.measureComponent",
-  "namespace": "public",
-  "bindable": [],
-  "details": [],
-  "deprecated": {},
-    "return": "void",
-    "params": [{ "name": "component", "type": "org.apache.royale.core.ILayoutChild"}]}

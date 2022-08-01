@@ -1,5 +1,0 @@
-{ "type": "interface",
-  "qname": "org.apache.royale.textLayout.elements.ISpecialCharacterElement",
-"baseInterfaceNames": [
-"org.apache.royale.textLayout.elements.ISpanElement"]
-}

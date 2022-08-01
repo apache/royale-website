@@ -1,4 +1,0 @@
-{ "type": "class",
-  "qname": "org.apache.royale.jquery.RadioButton",
-  "baseClassname": "org.apache.royale.html.RadioButton"
-  }

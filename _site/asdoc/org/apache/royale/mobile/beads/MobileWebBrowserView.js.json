@@ -1,4 +1,0 @@
-{ "type": "class",
-  "qname": "org.apache.royale.mobile.beads.MobileWebBrowserView",
-  "baseClassname": "org.apache.royale.html.beads.WebBrowserView"
-  }

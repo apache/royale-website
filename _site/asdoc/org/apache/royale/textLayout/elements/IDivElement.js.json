@@ -1,5 +1,0 @@
-{ "type": "interface",
-  "qname": "org.apache.royale.textLayout.elements.IDivElement",
-"baseInterfaceNames": [
-"org.apache.royale.textLayout.elements.IContainerFormattedElement"]
-}

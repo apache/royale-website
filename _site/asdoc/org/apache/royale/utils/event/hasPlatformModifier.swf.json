@@ -1,8 +1,0 @@
-{ "type": "method",
-  "qname": "org.apache.royale.utils.event.hasPlatformModifier",
-  "namespace": "public",
-  "bindable": [],
-  "details": [],
-  "deprecated": {},
-    "return": "Boolean",
-    "params": [{ "name": "event", "type": "*"}]}
