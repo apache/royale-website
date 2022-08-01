@@ -36,6 +36,12 @@ title: "Royale Commercial Support"
 			{% if item.url %}<a href="{{ item.url }}">{% elsif item.contactEmail %}<a href="mailto:{{ item.contactEmail }}">{% endif %}
 			{{ item.name }}
 			{% if item.url or item.contactEmail %}</a>{% endif %}
+			{% if item.secondaryName %}
+			<br><br>
+			{% if item.secondaryUrl %}<a href="{{ item.secondaryUrl }}">{% endif %}
+			{{ item.secondaryName }}
+			{% if item.secondaryUrl %}</a>{% endif %}
+			{% endif %}
 		</td>
 		<td>
 			{{ item.description }}
