@@ -20,7 +20,7 @@
 	{
 	  "name": "Dove Software Development",
 	  "url": "https://greg-dove.com/",
-	  "imgUrl": "/img/dove-software-development.png",
+	  "imgUrl": "/img/commercial-support/dove-software-development.png",
 	  "description": "Independent, remote development services, with over 12 years of experience working with MXML and ActionScript 3, for clients around the globe.",
 	  "contactPerson": "Greg Dove",
 	  "contactEmail": "greg.dove@gmail.com",
@@ -30,7 +30,7 @@
 	{
 	  "name": "HARMAN Connected Services",
 	  "url": "https://services.harman.com/",
-	  "imgUrl": "/img/harman-connected-services.png",
+	  "imgUrl": "/img/commercial-support/harman-connected-services.png",
 	  "description": "Software services company with web development teams plus background in Adobe technologies",
 	  "contactPerson": "Andrew Frost",
 	  "contactEmail": "Andrew.Frost@harman.com",
@@ -42,7 +42,7 @@
 	  "secondaryName": "Moonshine-IDE",
 	  "url": "https://prominic.net/",
 	  "secondaryUrl": "https://moonshine-ide.com/",
-	  "imgUrl": "/img/Prominic-Logo.png",
+	  "imgUrl": "/img/commercial-support/Prominic-Logo.png",
 	  "description": "Prominic.NET is a home-grown, US-based hosting services provider, providing services and support to businesses all over the world. Among its products is the Moonshine IDE which is targeted specifically at Apache Flex and Apache Royale. Our team includes Royale specialists with experience in porting Apache Flex applications to Apache Royale.",
 	  "contactPerson": "Yishay Weiss, Piotr Zarzyck",
 	  "contactEmail": "sales@moonshine-ide.com",
