@@ -1,0 +1,31 @@
+# Redirect http to https
+
+RewriteEngine On 
+RewriteCond %{HTTPS} !=on 
+RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L] 
+
+# redirect old blog URLs
+Redirect Permanent /adding-an-item-to-a-jewel-list/ /blog/adding-an-item-to-a-jewel-list/
+Redirect Permanent /apache-royale-v0-9-0-released/ /blog/apache-royale-v0-9-0-released/
+Redirect Permanent /apache-royale-v0-9-1-released/ /blog/apache-royale-v0-9-1-released/
+Redirect Permanent /apache-royale-v0-9-2-released/ /blog/apache-royale-v0-9-2-released/
+Redirect Permanent /apache-royale-v0-9-4-released/ /blog/apache-royale-v0-9-4-released/
+Redirect Permanent /apache-royale-v0-9-6-released/ /blog/apache-royale-v0-9-6-released/
+Redirect Permanent /apache-royale-v0-9-7-released/ /blog/apache-royale-v0-9-7-released/
+Redirect Permanent /binding-the-text-property-of-a-jewel-textinput-to-update-a-text-label/ /blog/binding-the-text-property-of-a-jewel-textinput-to-update-a-text-label/
+Redirect Permanent /creating-a-group-of-jewel-radiobuttons/ /blog/creating-a-group-of-jewel-radiobuttons/
+Redirect Permanent /creating-a-hello-world-in-apache-royale/ /blog/creating-a-hello-world-in-apache-royale/
+Redirect Permanent /customization-through-the-royale-api/ /blog/customization-through-the-royale-api/
+Redirect Permanent /dividing-an-apache-royale-application-with-modules/ /blog/dividing-an-apache-royale-application-with-modules/
+Redirect Permanent /hello-node-how-to-transpile-actionscript-for-node-js/ /blog/hello-node-how-to-transpile-actionscript-for-node-js/
+Redirect Permanent /how-to-create-a-desktop-application-with-royale-and-electron/ /blog/how-to-create-a-desktop-application-with-royale-and-electron/
+Redirect Permanent /loading-external-data-through-httpservice/ /blog/loading-external-data-through-httpservice/
+Redirect Permanent /royale-at-apachecon-2020/ /blog/royale-at-apachecon-2020/
+Redirect Permanent /selecting-options-from-a-group-of-jewel-checkbox-controls/ /blog/selecting-options-from-a-group-of-jewel-checkbox-controls/
+Redirect Permanent /using-an-item-renderer-with-a-list/ /blog/using-an-item-renderer-with-a-list/
+Redirect Permanent /using-external-javascript-libraries-in-apache-royale/ /blog/using-external-javascript-libraries-in-apache-royale/
+Redirect Permanent /using-jewel-alert-control/ /blog/using-jewel-alert-control/
+Redirect Permanent /using-jewel-tilehorizontallayout/ /blog/using-jewel-tilehorizontallayout/
+Redirect Permanent /using-the-jewel-slider-control/ /blog/using-the-jewel-slider-control/
+Redirect Permanent /using-view-states-to-show-or-hide-content/ /blog/using-view-states-to-show-or-hide-content/
+Redirect Permanent /working-with-vector-graphics/ /blog/working-with-vector-graphics/
