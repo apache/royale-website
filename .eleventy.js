@@ -26,6 +26,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("asdoc");
   eleventyConfig.addPassthroughCopy("blog-examples");
   eleventyConfig.addPassthroughCopy("tourdejewel");
+  eleventyConfig.addPassthroughCopy("blog/downloads");
 
   // compile sass files into css files
   eleventyConfig.addTemplateFormats("sass");

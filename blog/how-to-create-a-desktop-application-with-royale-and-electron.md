@@ -776,7 +776,7 @@ Note: This author has not found a way to hit both breakpoints for the Royale app
 
 In this guide you've created a desktop application using Royale and Electron. You've sent a message to the Main process and sent that message back to the Renderer process. You've set a break point in the debugger.
 
-The example project is attached here: [Apache Royale Electron zip](https://royale.apache.org/wp-content/uploads/2019/05/ApacheRoyaleElectron_1.0.0.zip)
+The example project is attached here: [Apache Royale Electron zip](/blog/downloads/ApacheRoyaleElectron_1.0.0.zip)
 
 If you use the Moonshine IDE, an example project is available [here](https://github.com/prominic/Royale-Examples/tree/master/ElectronRoyale).
 
