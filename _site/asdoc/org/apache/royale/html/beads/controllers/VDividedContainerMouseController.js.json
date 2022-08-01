@@ -1,0 +1,39 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.beads.controllers.VDividedContainerMouseController",
+  "baseClassname": "org.apache.royale.core.Bead"
+  ,
+    "description": "This is the mouse controller for the VDividedContainer. This bead class tracks the mouse over a VDividedContainerDivider (its strand) causing the rows above and below it to grow and shrink.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html.beads.controllers.VDividedContainerMouseController",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "write-only",
+        "return": "org.apache.royale.core.IStrand",
+        "qname": "strand",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {}}]
+  }

@@ -1,0 +1,42 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.beads.TableCellView",
+  "baseClassname": "org.apache.royale.html.beads.GroupView"
+  ,
+    "description": "The TableCellView class is the view bead for TableCell. It has no function on the JS platform, but with SWF, it prevents the cell from shrinking to fit its content.",
+  "tags": [
+  {  "tagName": "viewbead",
+         "values": []},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html.beads.TableCellView",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "afterLayout",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "void",
+          "params": []}
+      ]
+  }

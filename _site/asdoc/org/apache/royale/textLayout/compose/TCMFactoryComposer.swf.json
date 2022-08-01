@@ -1,0 +1,32 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.compose.TCMFactoryComposer",
+  "baseClassname": "org.apache.royale.textLayout.compose.FactoryComposer"
+  ,
+  "members": [
+  { "type": "field",
+        "qname": "_tcm",
+        "return": "org.apache.royale.textLayout.container.TextContainerManager",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}},
+      { "type": "method",
+        "qname": "org.apache.royale.textLayout.compose.TCMFactoryComposer",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": [{ "name": "tcm", "type": "org.apache.royale.textLayout.container.TextContainerManager"}]}
+      ,
+      { "type": "method",
+        "qname": "callTheComposer",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "org.apache.royale.textLayout.container.IContainerController",
+          "params": [{ "name": "absoluteEndPosition", "type": "int"},
+        { "name": "controllerEndIndex", "type": "int"}]}
+      ]
+  }

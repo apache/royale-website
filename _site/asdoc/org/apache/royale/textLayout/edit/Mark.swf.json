@@ -1,0 +1,24 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.edit.Mark",
+  "baseClassname": ""
+  ,
+    "description": "@private - not ready for prime time",
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.textLayout.edit.Mark",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": [{ "name": "value", "type": "int"}]}
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "int",
+        "qname": "position",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}}]
+  }

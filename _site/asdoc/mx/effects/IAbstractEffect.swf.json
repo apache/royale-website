@@ -1,0 +1,15 @@
+{ "type": "interface",
+  "qname": "mx.effects.IAbstractEffect",
+"baseInterfaceNames": [
+"org.apache.royale.events.IEventDispatcher"]
+,
+    "description": "The IAbstractEffect interface is used to denote that a property or parameter must be of type Effect, but does not actually implement any of the APIs of the IEffect interface. The UIComponent class recognizes when property that implements the AbstractEffect interface changes, and passes it to the EffectManager class for processing.",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["mx.effects.IEffect"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ]}

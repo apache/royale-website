@@ -1,0 +1,44 @@
+{ "type": "class",
+  "qname": "org.apache.royale.mdl.NavigationLink",
+  "baseClassname": "org.apache.royale.html.elements.A"
+  ,
+    "description": "The NavigationLink class is a link component used in some components and is created for convenience or to use alone as a component. Notice that Navigation does not use this component (as a List compomemt, it uses NavigationLinkItemRenderer).",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.8"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.mdl.NavigationLink",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.8"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "createElement",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.WrappedHTMLElement"]}  ],
+          "return": "org.apache.royale.core.WrappedHTMLElement",
+          "params": []}
+      ]
+  }

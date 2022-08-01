@@ -1,0 +1,44 @@
+{ "type": "class",
+  "qname": "mx.containers.gridClasses.GridColumnInfo",
+  "baseClassname": "mx.containers.utilityClasses.FlexChildInfo"
+  ,
+    "description": "Internal helper class used to exchange information between Grid and GridRow.",
+  "tags": [
+  {  "tagName": "private",
+         "values": []},
+      {  "tagName": "royalesuppresspublicvarwarning",
+         "values": []}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.containers.gridClasses.GridColumnInfo",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "field",
+        "qname": "x",
+        "return": "Number",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Output: the actual position of each column, as determined by updateDisplayList().",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  }

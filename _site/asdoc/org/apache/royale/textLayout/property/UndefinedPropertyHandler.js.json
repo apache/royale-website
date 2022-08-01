@@ -1,0 +1,15 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.property.UndefinedPropertyHandler",
+  "baseClassname": "org.apache.royale.textLayout.property.PropertyHandler"
+  ,
+    "description": "An property description with an enumerated string as its value. @private",
+  "members": [
+  { "type": "accessor",
+        "access": "read-only",
+        "return": "String",
+        "qname": "className",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {}}]
+  }

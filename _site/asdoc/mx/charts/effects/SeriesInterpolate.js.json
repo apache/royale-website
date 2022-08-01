@@ -1,0 +1,35 @@
+{ "type": "class",
+  "qname": "mx.charts.effects.SeriesInterpolate",
+  "baseClassname": "mx.charts.effects.SeriesEffect"
+  ,
+    "description": "The SeriesInterpolate effect moves the graphics that represent the existing data in a series to the new points. Instead of clearing the chart and then repopulating it as with SeriesZoom and SeriesSlide, this effect keeps the data on the screen at all times.  <p>You only use the SeriesInterpolate effect with a <code>showDataEffect</code> effect trigger. It has no effect if set with a <code>hideDataEffect</code>.</p>",
+  "tags": [
+  {  "tagName": "includeExample",
+         "values": ["examples/SeriesInterpolateExample.mxml"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.charts.effects.SeriesInterpolate",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["target The target of the effect."]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": [{ "name": "target", "type": "Object"}]}
+      ]
+  }

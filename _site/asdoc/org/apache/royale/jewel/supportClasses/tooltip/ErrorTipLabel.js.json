@@ -1,0 +1,33 @@
+{ "type": "class",
+  "qname": "org.apache.royale.jewel.supportClasses.tooltip.ErrorTipLabel",
+  "baseClassname": "org.apache.royale.jewel.supportClasses.tooltip.ToolTipLabel"
+  ,
+    "description": "The ErrorTipLabel class is the control used for ToolTip bead to popup an error text over a control",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.4"]},
+      {  "tagName": "toplevel",
+         "values": []},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.jewel.supportClasses.tooltip.ErrorTipLabel",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.4"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ]
+  }

@@ -1,0 +1,40 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.events.ScrollEventDirection",
+  "baseClassname": ""
+  ,
+    "description": "Constants for the values of the <code>direction</code> property of a ScrollEvent.",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["org.apache.royale.textLayout.events.ScrollEvent"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10.0", "AIR 2.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "field",
+        "qname": "HORIZONTAL",
+        "return": "String",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "The user scrolled horizontally.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.0", "AIR 2.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]},
+      { "type": "field",
+        "qname": "VERTICAL",
+        "return": "String",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "The user scrolled vertically.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.0", "AIR 2.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  }

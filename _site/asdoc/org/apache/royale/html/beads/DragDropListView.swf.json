@@ -1,0 +1,37 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.beads.DragDropListView",
+  "baseClassname": "org.apache.royale.html.beads.ListView"
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html.beads.DragDropListView",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.8"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "write-only",
+        "return": "org.apache.royale.core.IStrand",
+        "qname": "strand",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "private",
+               "values": []},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.IContainer"]}  ]}]
+  }

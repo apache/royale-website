@@ -1,0 +1,16 @@
+{ "type": "method",
+  "qname": "org.apache.royale.mdl.utils.getMdlContainerParent",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "To some MDL components after upgrading process MDL framework adding additional container which is not part of Royale. Function is trying to return parent component of that added container.",
+  "tags": [
+  {  "tagName": "productversion",
+         "values": ["Royale 0.9.4"]},
+      {  "tagName": "royaleignorecoercion",
+         "values": ["org.apache.royale.core.WrappedHTMLElement", "org.apache.royale.core.IParent"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+    "return": "org.apache.royale.core.IParent",
+    "params": [{ "name": "positioner", "type": "org.apache.royale.core.WrappedHTMLElement"}]}

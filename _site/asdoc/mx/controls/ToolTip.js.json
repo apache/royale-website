@@ -1,0 +1,33 @@
+{ "type": "class",
+  "qname": "mx.controls.ToolTip",
+  "baseClassname": "mx.controls.Label"
+  ,
+    "description": "The ToolTip control lets you provide helpful information to your users. When a user moves the mouse pointer over a graphical component, the ToolTip control pops up and displays text that provides information about the component. You can use ToolTips to guide users as they work with your application or customize the ToolTip controls to provide additional functionality.",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["mx.managers.ToolTipManager", "mx.styles.CSSStyleDeclaration"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.controls.ToolTip",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ]
+  }

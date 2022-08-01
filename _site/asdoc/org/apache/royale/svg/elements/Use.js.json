@@ -1,0 +1,32 @@
+{ "type": "class",
+  "qname": "org.apache.royale.svg.elements.Use",
+  "baseClassname": "org.apache.royale.svg.elements.SVGBase"
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.svg.elements.Use",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "createElement",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "org.apache.royale.core.WrappedHTMLElement",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "String",
+        "qname": "href",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}}]
+  }

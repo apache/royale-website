@@ -1,0 +1,13 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.elements.utils.BackgroundHelper",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "field",
+        "qname": "BACKGROUND_MANAGER_CACHE",
+        "return": "org.apache.royale.utils.ObjectMap",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {}}]
+  }

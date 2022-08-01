@@ -1,0 +1,32 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.jewel.beads.itemRenderers.ITextItemRenderer",
+"baseInterfaceNames": [
+"org.apache.royale.core.IItemRenderer", 
+"org.apache.royale.core.ILabelFieldItemRenderer"]
+,
+    "description": "The ITextItemRenderer interface is the interface for for org.apache.royale.core.IItemRenderer that display text.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "String",
+    "qname": "text",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "The text to be displayed in the item renderer.",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.0"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]}]
+  }

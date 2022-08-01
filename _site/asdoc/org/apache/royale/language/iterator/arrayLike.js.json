@@ -1,0 +1,23 @@
+{ "type": "method",
+  "qname": "org.apache.royale.language.iterator.arrayLike",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "Used by the compiler for classes with [RoyaleArrayLike] metadata when processing for-in/for-each-in loops",
+  "tags": [
+  {  "tagName": "param",
+         "values": ["forInstance the instance to be checked", "lengthCheck either a string that represents a property to return length value, or a function method reference, e.g. instance.length()", "getAt the String name of the accessor for the item at index... e.g. 'getItemAt'. If null it will default to Array Access []", "lengthIsMethodCall true if the length accessor is an explicit method call instead of a getter", "keys true if the request is to iterate over keys (as opposed to values)"]},
+      {  "tagName": "return",
+         "values": ["a lightweight iterator Object with hasNext() and next() methods"]},
+      {  "tagName": "royalesuppressexport",
+         "values": []}  ],
+    "return": "Object",
+    "params": [{ "name": "forInstance", "type": "Object"},
+  { "name": "lengthCheck", "type": "String"},
+  { "name": "getAt", "type": "String"},
+  { "name": "lengthIsMethodCall", "type": "Boolean"},
+  { "name": "keys", "type": "Boolean"}]}
+
+
+

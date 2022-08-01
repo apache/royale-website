@@ -1,0 +1,13 @@
+{ "type": "class",
+  "qname": "org.apache.royale.events.ElementEvents",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "field",
+        "qname": "elementEvents",
+        "return": "Object",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {}}]
+  }

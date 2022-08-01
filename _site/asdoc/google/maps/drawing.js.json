@@ -1,0 +1,60 @@
+{ "type": "class",
+  "qname": "google.maps.drawing",
+  "baseClassname": ""
+  ,
+    "description": "",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["[google_maps_api_v3_11]"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "google.maps.drawing",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "see",
+               "values": ["[google_maps_api_v3_11]"]}  ],
+          "return": "void",
+          "params": []}
+      ,
+      { "type": "field",
+        "qname": "OverlayType",
+        "return": "google.maps.drawing.OverlayType",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "see",
+               "values": ["[google_maps_api_v3_11]"]}  ]},
+      { "type": "method",
+        "qname": "DrawingControlOptions",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "see",
+               "values": ["[google_maps_api_v3_11]"]}  ],
+          "return": "void",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "DrawingManagerOptions",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "see",
+               "values": ["[google_maps_api_v3_11]"]}  ],
+          "return": "void",
+          "params": []}
+      ]
+  }

@@ -1,0 +1,61 @@
+{ "type": "class",
+  "qname": "spark.components.beads.PanelView",
+  "baseClassname": "org.apache.royale.html.beads.PanelView"
+  ,
+    "description": "The PanelView for emulation.",
+  "tags": [
+  {  "tagName": "private",
+         "values": []}  ],
+  "members": [
+  { "type": "method",
+        "qname": "spark.components.beads.PanelView",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "write-only",
+        "return": "org.apache.royale.core.IStrand",
+        "qname": "strand",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": ""},
+      { "type": "method",
+        "qname": "setupContentAreaLayout",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["mx.core.UIComponent", "org.apache.royale.core.UIBase", "mx.containers.beads.models.PanelModel"]}  ],
+          "return": "void",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "setupLayout",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "void",
+          "params": []}
+      ]
+  }
+
+
+

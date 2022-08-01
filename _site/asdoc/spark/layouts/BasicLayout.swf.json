@@ -1,0 +1,45 @@
+{ "type": "class",
+  "qname": "spark.layouts.BasicLayout",
+  "baseClassname": "spark.layouts.supportClasses.LayoutBase"
+  ,
+    "description": "The BasicLayout class arranges the layout elements according to their individual settings, independent of each-other. BasicLayout, also called absolute layout, requires that you explicitly position each container child. You can use the <code>x</code> and <code>y</code> properties of the child, or constraints to position each child.  <p><b>Note: </b>The Spark list-based controls (the Spark List control and its subclasses such as ButtonBar, ComboBox, DropDownList, and TabBar) do not support the BasicLayout class. Do not use BasicLayout with the Spark list-based controls.</p>  <p>Per-element supported constraints are <code>left</code>, <code>right</code>, <code>top</code>, <code>bottom</code>, <code>horizontalCenter</code>, <code>verticalCenter</code>, <code>baseline</code>, <code>percentWidth</code>, and <code>percentHeight</code>. Element's minimum and maximum sizes will always be respected.</p>  <p>The measured size of the container is calculated from the elements, their constraints and their preferred sizes. The measured size of the container is big enough to fit in all of the elements at their preferred sizes with their constraints satisfied. </p>  <p>Here are some examples of how measured size is calculated: <ul> <li>If the container has a single element with <code>left</code> constraint specified, then the container's measured width will be equal to the element's preferred width plus the value of the <code>left</code> constraint.</li>  <li>If the container has a single element with <code>percentWidth</code> specified, then the container's measured width will be equal to the element's preferred width. Even though the element's <code>percentWidth</code> is not directly factored in the calculations, it will be respected during a call to the <code>updateDisplayList()</code> method.</li>  <li>If the container has a single element with <code>baseline</code> constraint specified, then the container's measured height will be equal to the element's preferred height plus the <code>baseline</code> and minus the value of the element's <code>baselinePosition</code> property.</li>  <li>If the container has a single element with <code>verticalCenter</code> constraint specified, then the container's measured height will be equal to the element's preferred height plus double the value of the <code>verticalCenter</code> constraint.</li> </ul> </p>  <p>During a call to the <code>updateDisplayList()</code> method, the element's size is determined according to the rules in the following order of precedence (the element's minimum and maximum sizes are always respected):</p> <ul> <li>If the element has <code>percentWidth</code> or <code>percentHeight</code> set, then its size is calculated as a percentage of the available size, where the available size is the container size minus any <code>left</code>, <code>right</code>, <code>top</code>, or <code>bottom</code> constraints.</li>  <li>If the element has both left and right constraints, it's width is set to be the container's width minus the <code>left</code> and <code>right</code> constraints.</li>  <li>If the element has both <code>top</code> and <code>bottom</code> constraints, it's height is set to be the container's height minus the <code>top</code> and <code>bottom</code> constraints.</li>  <li>The element is set to its preferred width and/or height.</li> </ul>  <p>The BasicLayout class calculates its minimum size as the maximum of the minimum child sizes:</p>  <ol> <li>For each child in the container, determine the minimum size to which the child could shrink: <ul> <li>If the child is constrained to its parent's width or height, then the child could shrink to its minimum width or height. Use the minimum size of the child.</li> <li>If the child is not constrained to the parent, then it remains at its preferred size. Use the preferred size of the child.  </li> </ul></li> <li>Find the maximum of the sizes from step 1. </li> </ol>  <p>Therefore, if a child is constrained to its parent, then the layout uses the child's minimum size. Otherwise, it uses its preferred size of the child to calculate the minimum size for the container.</p>  <p>The element's position is determined according to the rules in the following order of precedence:</p> <ul> <li>The <code>horizontalCenter</code> or <code>verticalCenter</code> constraints specify the distance between the container's center and the element's center. Set the <code>horizontalCenter</code> or <code>verticalCenter</code> constraints to zero to center the element within the container in the horizontal or vertical direction.</li>  <li>If element's baseline is specified, then the element is positioned in the vertical direction such that its <code>baselinePosition</code> (usually the base line of its first line of text) is aligned with <code>baseline</code> constraint.</li>  <li>If element's <code>top</code> or <code>left</code> constraints are specified, then the element is positioned such that the top-left corner of the element's layout bounds is offset from the top-left corner of the container by the specified values.</li>  <li>If element's <code>bottom</code> or <code>right</code> constraints are specified, then the element is positioned such that the bottom-right corner of the element's layout bounds is offset from the bottom-right corner of the container by the specified values.</li>  <li>When no constraints determine the position in the horizontal or vertical direction, the element is positioned according to its x and y coordinates.</li> </ul>  <p>The content size of the container is calculated as the maximum of the coordinates of the bottom-right corner of all the layout elements.</p>  <p>The <code>&lt;s:BasicLayout&gt;</code> tag inherits all of the tag attributes of its superclass and adds no additional tag attributes:</p>  <pre>\\n &lt;s:BasicLayout/&gt;\\n </pre>",
+  "tags": [
+  {  "tagName": "mxml",
+         "values": [""]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10", "AIR 1.5"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 4"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "spark.layouts.BasicLayout",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10", "AIR 1.5"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 4"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "void",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "read-only",
+        "return": "Boolean",
+        "qname": "virtualLayoutSupported",
+        "namespace": "mx_internal",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "private",
+               "values": []}  ]}]
+  }

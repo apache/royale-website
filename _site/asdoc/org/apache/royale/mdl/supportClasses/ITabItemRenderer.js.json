@@ -1,0 +1,48 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.mdl.supportClasses.ITabItemRenderer",
+"baseInterfaceNames": [
+"org.apache.royale.core.ILabelFieldItemRenderer", 
+"org.apache.royale.core.IIndexedItemRenderer"]
+,
+    "description": "The ITabItemRenderer interface is the basic interface for MDL Tabs and TabBar item renderers.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.8"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "String",
+    "qname": "tabIdField",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "Provides name of the property which stores &quot;id&quot; for Tab",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.8"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]},
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "Boolean",
+    "qname": "isActive",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "Indicates whether specific Tab is currently selected/active",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.8"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]}]
+  }

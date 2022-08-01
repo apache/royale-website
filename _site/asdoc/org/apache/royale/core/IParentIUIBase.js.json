@@ -1,0 +1,14 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.core.IParentIUIBase",
+"baseInterfaceNames": [
+"org.apache.royale.core.IParent", 
+"org.apache.royale.core.IUIBase"]
+,
+    "description": "The IParentIUIBase interface is a convenience interface for IUIBase components that contains subcomponents.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ]}

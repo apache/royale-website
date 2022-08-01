@@ -1,0 +1,35 @@
+{ "type": "class",
+  "qname": "org.apache.royale.jewel.beads.views.VirtualComboBoxPopUpView",
+  "baseClassname": "org.apache.royale.jewel.beads.views.ComboBoxPopUpView"
+  ,
+    "description": "The VirtualComboBoxPopUpView class is a view bead for the VirtualComboBoxPopUp.  This class creates a VirtualList that will be pop up when the combo box needs to show the associated list",
+  "tags": [
+  {  "tagName": "viewbead",
+         "values": [""]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.jewel.beads.views.VirtualComboBoxPopUpView",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "constructor",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.7"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "read-only",
+        "return": "org.apache.royale.jewel.List",
+        "qname": "list",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {}}]
+  }

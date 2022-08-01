@@ -1,0 +1,42 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.beads.DataGridColumnForceChangePropagator",
+  "baseClassname": ""
+  ,
+    "description": "The DataGridColumnForceChangePropagator picks up the dataProviderChanged event and lets the data grid columns know about it, whether or not the data provider object was changed.",
+  "tags": [
+  {  "tagName": "viewbead",
+         "values": []},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html.beads.DataGridColumnForceChangePropagator",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "write-only",
+        "return": "org.apache.royale.core.IStrand",
+        "qname": "strand",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}},
+      { "type": "method",
+        "qname": "handleDataProviderChanged",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "e", "type": "org.apache.royale.events.Event"}]}
+      ]
+  }

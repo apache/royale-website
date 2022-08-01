@@ -1,0 +1,16 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.beads.TitleBarTitle",
+  "baseClassname": "org.apache.royale.html.Label"
+  ,
+    "description": "A specially styled Label used in TitleBar",
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html.beads.TitleBarTitle",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ]
+  }

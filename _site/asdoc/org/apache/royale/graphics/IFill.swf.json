@@ -1,0 +1,24 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.graphics.IFill",
+  "members": [
+  { "type": "method",
+    "qname": "begin",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "return": "void",
+      "params": [{ "name": "s", "type": "flash.display.Graphics"},
+    { "name": "targetBounds", "type": "flash.geom.Rectangle"},
+    { "name": "targetOrigin", "type": "flash.geom.Point"}]}
+  ,
+  { "type": "method",
+    "qname": "end",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "return": "void",
+      "params": [{ "name": "s", "type": "flash.display.Graphics"}]}
+  ]
+  }

@@ -1,0 +1,58 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.supportClasses.ClippingViewport",
+  "baseClassname": "org.apache.royale.html.supportClasses.Viewport"
+  ,
+    "description": "The ClippingViewport extends the Viewport class and makes sure that items extending outside the Container are hidden.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html.supportClasses.ClippingViewport",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "layoutViewportBeforeContentLayout",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "copy",
+               "values": ["org.apache.royale.core.IViewport"]}  ],
+          "return": "void",
+          "params": [{ "name": "width", "type": "Number"},
+        { "name": "height", "type": "Number"}]}
+      ,
+      { "type": "method",
+        "qname": "layoutViewportAfterContentLayout",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "copy",
+               "values": ["org.apache.royale.core.IViewport"]}  ],
+          "return": "void",
+          "params": [{ "name": "contentSize", "type": "org.apache.royale.geom.Size"}]}
+      ]
+  }

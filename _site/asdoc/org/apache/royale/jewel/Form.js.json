@@ -1,0 +1,68 @@
+{ "type": "class",
+  "qname": "org.apache.royale.jewel.Form",
+  "baseClassname": "org.apache.royale.jewel.Group"
+  ,
+    "description": "The Form class works with all validators, which implements IPopUpHost can host error tips. strand with FormValidator to dispatch invalid/valid event.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.4"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.jewel.Form",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.4"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "createElement",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.WrappedHTMLElement"]}  ],
+          "return": "org.apache.royale.core.WrappedHTMLElement",
+          "params": []}
+      ]
+  ,
+  "events": [
+  { "qname": "valid",
+        "type": "org.apache.royale.events.Event"
+      ,
+          "description": "Dispatched when the form validation succeeds.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.4"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]},
+      { "qname": "invalid",
+        "type": "org.apache.royale.events.Event"
+      ,
+          "description": "Dispatched when the form validation fails.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.4"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  }

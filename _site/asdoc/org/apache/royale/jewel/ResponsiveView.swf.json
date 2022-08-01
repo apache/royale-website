@@ -1,0 +1,31 @@
+{ "type": "class",
+  "qname": "org.apache.royale.jewel.ResponsiveView",
+  "baseClassname": "org.apache.royale.jewel.View"
+  ,
+    "description": "The ResponsiveView class is the main Container component capable of parenting other components in a responsive Jewel Application.  ResponsiveView doesn't need to specify `width` and `height` since are sized 100% in both directions by default. In this way we can use the width of the application container to apply responsive rules on any part of the application.  It normaly can host a TopAppBar, a Drawer and a Container with other organized content for navigation",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.4"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.jewel.ResponsiveView",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.4"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ]
+  }

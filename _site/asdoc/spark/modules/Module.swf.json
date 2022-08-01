@@ -1,0 +1,33 @@
+{ "type": "class",
+  "qname": "spark.modules.Module",
+  "baseClassname": "spark.components.SkinnableContainer"
+  ,
+    "description": "The base class for MXML-based dynamically-loadable modules. You extend this class in MXML by using the <code>&lt;s:Module&gt;</code> tag in an MXML file, as the following example shows:  <pre>\\n &lt;?xml version=&quot;1.0&quot;?&gt;\\n &lt;!-- This module loads an image. --&gt;\\n &lt;s:Module  width=&quot;100%&quot; height=&quot;100%&quot; xmlns:s=&quot;library://ns.adobe.com/flex/spark&quot;&gt;\\n \\n &lt;s:Image source=&quot;trinity.gif&quot;/&gt;\\n \\n &lt;/s:Module&gt;\\n </pre>",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["mx.modules.ModuleManager", "spark.modules.ModuleLoader"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.5"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 4.5"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "spark.modules.Module",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.5"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 4.5"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ]
+  }

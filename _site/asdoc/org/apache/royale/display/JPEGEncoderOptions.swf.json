@@ -1,0 +1,30 @@
+{ "type": "class",
+  "qname": "org.apache.royale.display.JPEGEncoderOptions",
+  "baseClassname": ""
+  ,
+    "description": "This class is not available for reflection",
+  "tags": [
+  {  "tagName": "royalesuppressexport",
+         "values": []}  ],
+  "members": [
+  { "type": "field",
+        "qname": "quality",
+        "return": "uint",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royalesuppresspublicvarwarning",
+               "values": []}  ]},
+      { "type": "method",
+        "qname": "org.apache.royale.display.JPEGEncoderOptions",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": [{ "name": "quality", "type": "uint"}]}
+      ]
+  }

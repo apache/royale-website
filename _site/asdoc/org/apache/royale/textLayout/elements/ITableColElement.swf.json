@@ -1,0 +1,31 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.textLayout.elements.ITableColElement",
+"baseInterfaceNames": [
+"org.apache.royale.textLayout.elements.ITableFormattedElement"]
+,
+  "members": [
+  { "type": "accessor",
+    "access": "read-only",
+    "return": "Number",
+    "qname": "x",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {}},
+  { "type": "accessor",
+    "access": "read-only",
+    "return": "int",
+    "qname": "colIndex",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {}},
+  { "type": "accessor",
+    "access": "read-only",
+    "return": "Vector.<org.apache.royale.textLayout.elements.ITableCellElement>",
+    "qname": "cells",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {}}]
+  }

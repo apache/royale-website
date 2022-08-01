@@ -1,0 +1,31 @@
+{ "type": "interface",
+  "qname": "mx.graphics.IStroke",
+  "members": [
+  { "type": "method",
+    "qname": "apply",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "return": "void",
+      "params": [{ "name": "s", "type": "mx.display.Graphics"},
+    { "name": "targetBounds", "type": "org.apache.royale.geom.Rectangle"},
+    { "name": "targetOrigin", "type": "org.apache.royale.geom.Point"}]}
+  ,
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "Number",
+    "qname": "weight",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "The line weight, in pixels. For many chart lines, the default value is 1 pixel.",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 9", "AIR 1.1"]},
+        {  "tagName": "productversion",
+           "values": ["Flex 3"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]}]
+  }

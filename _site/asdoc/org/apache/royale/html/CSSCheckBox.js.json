@@ -1,0 +1,56 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.CSSCheckBox",
+  "baseClassname": "org.apache.royale.core.UIBase"
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "createElement",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.WrappedHTMLElement"]}  ],
+          "return": "org.apache.royale.core.WrappedHTMLElement",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "String",
+        "qname": "checkClassName",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}},
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "String",
+        "qname": "text",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}},
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "Boolean",
+        "qname": "selected",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}}]
+  ,
+  "events": [
+  { "qname": "change",
+        "type": "org.apache.royale.events.Event"
+      ,
+          "description": "Dispatched when the user checks or un-checks the CSSCheckBox.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  }

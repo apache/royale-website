@@ -1,0 +1,69 @@
+{ "type": "class",
+  "qname": "org.apache.royale.mdl.Snackbar",
+  "baseClassname": "org.apache.royale.mdl.Toast"
+  ,
+    "description": "Snackbar are transient popup notifications without actions.  The Material Design Lite (MDL) snackbar component is a container used to notify a user of an operation's status. It displays at the bottom of the screen. A snackbar may contain an action button to execute a command for the user. Actions should undo the committed action or retry it if it failed for example. Actions should not be to close the snackbar. By not providing an action, the snackbar becomes a toast component (see Toast class)",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.8"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.mdl.Snackbar",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.8"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "String",
+        "qname": "actionText",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Text which appears on action button",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.8"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]},
+      { "type": "method",
+        "qname": "show",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "Show the snackbar",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.8"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "void",
+          "params": []}
+      ]
+  ,
+  "events": [
+  { "qname": "action",
+        "type": "org.apache.royale.events.Event"
+      }]
+  }

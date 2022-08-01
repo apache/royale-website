@@ -1,0 +1,49 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.edit.MementoList",
+  "baseClassname": ""
+  ,
+    "description": "The MementoList class is a meta-memento.  It encapuslates the concept of having a sequence of mementos behave as a memento.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10", "AIR 1.5"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.textLayout.edit.MementoList",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "MementoList is a memento made of a list of other mementos",
+          "return": "",
+          "params": [{ "name": "textFlow", "type": "org.apache.royale.textLayout.elements.ITextFlow"}]}
+      ,
+      { "type": "method",
+        "qname": "push",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "memento", "type": "org.apache.royale.textLayout.edit.IMemento"}]}
+      ,
+      { "type": "method",
+        "qname": "undo",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "*",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "redo",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "*",
+          "params": []}
+      ]
+  }

@@ -1,0 +1,47 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.html.beads.IComboBoxView",
+"baseInterfaceNames": [
+"org.apache.royale.html.beads.IViewWithPopUp"]
+,
+    "description": "The IComboBoxView interface provides the protocol for any bead that creates the visual parts for a org.apache.royale.html.ComboBox control.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-only",
+    "return": "Object",
+    "qname": "textInputField",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "The sub-component used for the input area of the ComboBox.",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.0"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]},
+  { "type": "accessor",
+    "access": "read-only",
+    "return": "Object",
+    "qname": "popupButton",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "The sub-component used for the button to activate the pop-up.",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.0"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]}]
+  }

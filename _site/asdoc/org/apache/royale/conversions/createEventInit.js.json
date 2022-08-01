@@ -1,0 +1,13 @@
+{ "type": "method",
+  "qname": "org.apache.royale.conversions.createEventInit",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "",
+  "tags": [
+  {  "tagName": "royaleignorecoercion",
+         "values": ["EventModifierInit"]}  ],
+    "return": "EventModifierInit",
+    "params": [{ "name": "bubbles", "type": "Boolean"},
+  { "name": "cancelable", "type": "Boolean"}]}

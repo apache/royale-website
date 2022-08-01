@@ -1,0 +1,31 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.accessories.DateFormatDDMMYYYY",
+  "baseClassname": "org.apache.royale.html.accessories.SimpleDateFormatter"
+  ,
+    "description": "The DateFormatDDMMYYYY class formats the display of a DateField using DD/MM/YYYY format.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.8"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html.accessories.DateFormatDDMMYYYY",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.8"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ]
+  }

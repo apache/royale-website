@@ -1,0 +1,125 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="CACHE-CONTROL" content="NO-CACHE"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><meta http-equiv="X-UA-Compatible" content="ie=edge"><title>Using an Item Renderer with a List</title><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"><link rel="stylesheet" href="/css/styles.css"><link rel="shortcut icon" href="/img/favicon.ico"></head><body class="page post" id="main"><header class="docs-header"><div class="container"><div class="topbar"><div class="topbar-left"><a href="/"><span class="site-title">Apache Royale</span></a></div><div class="topbar-center"></div><div class="topbar-right"><button class="topMenu-dropbtn"><i class="fa fa-bars"></i>&nbsp;Menu</button><ul class="topMenu"><li><a href="/features">Features</a></li><li><a href="https://apache.github.io/royale-docs/get-started">Get Started</a></li><li><a href="/download">Download</a></li><li><a href="/docs">Docs</a></li><li><a href="/blog">Blog</a></li><li><a href="https://github.com/apache/royale-asjs/wiki/Apache-Royale-Source-Code-Repositories"><i class="fa fa-github"></i> GitHub</a></li></ul></div></div><div class="post-header"><h1>Using an Item Renderer with a List</h1><div class="post-meta">by Carlos Rovira on July 13, 2018</div></div></div></header><div class="page-content"><div class="container"><article><p>This example shows how to use an <strong>ItemRenderer</strong> to display the items in a List in your Royale application. It uses the new Jewel UI set that supports themes and is available in <a href="https://royale.apache.org/download/">the 0.9.4 release or later</a>.</p><pre><code class="language-mxml">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;j:Application xmlns:fx=&quot;http://ns.adobe.com/mxml/2009&quot;
+              xmlns:j=&quot;library://ns.apache.org/royale/jewel&quot;
+              xmlns:js=&quot;library://ns.apache.org/royale/basic&quot;
+              xmlns:html=&quot;library://ns.apache.org/royale/html&quot;
+              xmlns:models=&quot;models.*&quot;&gt;
+
+    &lt;fx:Style&gt;
+        @namespace &quot;http://www.w3.org/1999/xhtml&quot;;
+        @namespace j &quot;library://ns.apache.org/royale/jewel&quot;;
+
+        .iconListItemRenderer
+        {
+            IItemRenderer: ClassReference(&quot;itemRenderers.IconListItemRenderer&quot;);
+        }
+        .iconListItemRenderer .fonticon
+        {
+            margin-right: 24px;
+        }
+    &lt;/fx:Style&gt;
+
+    &lt;j:model&gt;
+        &lt;models:ListsModel id=&quot;listModel&quot;/&gt;
+    &lt;/j:model&gt;
+
+    &lt;j:initialView&gt;
+        &lt;j:View&gt;
+            &lt;j:beads&gt;
+                &lt;j:VerticalCenteredLayout/&gt;
+            &lt;/j:beads&gt;
+
+            &lt;j:Card width=&quot;340&quot;&gt;
+                &lt;j:CardHeader&gt;
+                    &lt;html:H3 text=&quot;Jewel List With ItemRenderer&quot; className=&quot;primary-normal&quot;/&gt;
+                &lt;/j:CardHeader&gt;
+                &lt;j:CardPrimaryContent&gt;
+                
+                    &lt;j:List width=&quot;100%&quot; height=&quot;300&quot; className=&quot;iconListItemRenderer&quot;&gt;
+                        &lt;j:beads&gt;
+                            &lt;js:ConstantBinding
+                               sourceID=&quot;listModel&quot;
+                               sourcePropertyName=&quot;iconListData&quot;
+                               destinationPropertyName=&quot;dataProvider&quot;/&gt;
+                        &lt;/j:beads&gt;
+                    &lt;/j:List&gt;
+                    
+                &lt;/j:CardPrimaryContent&gt;
+            &lt;/j:Card&gt;
+        &lt;/j:View&gt;
+    &lt;/j:initialView&gt;
+
+&lt;/j:Application&gt;
+</code></pre><p>By default, Apache Royale Jewel List-based controls display their data as plain text using <strong>ListItemRenderer</strong>. But Royale is capable of much more, and you can extend ListItemRenderer to display the items in your list in a pleasing and user-friendly way.</p><p>In this example we created an <strong>IconListItemRenderer</strong> in mxml that extends ListItemRenderer:</p><pre><code class="language-mxml">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;j:ListItemRenderer xmlns:fx=&quot;http://ns.adobe.com/mxml/2009&quot;
+                    xmlns:j=&quot;library://ns.apache.org/royale/jewel&quot;
+                    xmlns:js=&quot;library://ns.apache.org/royale/basic&quot;
+                    xmlns:html=&quot;library://ns.apache.org/royale/html&quot;&gt;
+
+    &lt;fx:Script&gt;
+        &lt;![CDATA[
+            import vos.IconListVO;
+            
+            [Bindable(&quot;dataChange&quot;)]
+            public function get iconList():IconListVO
+            {
+                return data as IconListVO;
+            }
+        ]]&gt;
+    &lt;/fx:Script&gt;
+
+    &lt;j:beads&gt;
+        &lt;js:ItemRendererDataBinding /&gt;
+        &lt;j:HorizontalLayout gap=&quot;3&quot; itemsVerticalAlign=&quot;itemsCenter&quot;/&gt;
+    &lt;/j:beads&gt;
+    
+    &lt;js:MaterialIcon text=&quot;{iconList ? iconList.icon : ''}&quot; visible=&quot;{iconList ? iconList.icon != null : false}&quot;/&gt;
+
+    &lt;html:Span text=&quot;{iconList ? iconList.label : ''}&quot;/&gt;
+    
+&lt;/j:ListItemRenderer&gt;
+</code></pre><p>The list gets its items from the data provider and passes them through the item renderer. The item renderer models each item in a consistent way: it adds a <strong>FontIcon</strong> to display an appropriate icon (selected, in this case, from the Google Material Icons font) at the left, and the text of the item in a Label to the right. To manage the components for each list item, you can use absolute positioning, layout classes or CSS. We used CSS in the <strong>fx:Style</strong> section in the main file for simplicity. As you see, the item renderer is declared in CSS as well, and is located in the <em>itemRenderers</em> package.</p><p>Note that we use Data Binding, deploying <strong>ItemRendererDataBinding</strong>. Data binding in Royale is not available by default to reduce code size. You add it where you need it, following the <strong>PAYG</strong> principle in Royale: <strong>Pay As You Go</strong>. We add a data binding bead here since we need the function, and not anywhere we don't need it.</p><p>The data used in the List control <strong>dataProvider</strong> is declared in the ActionScript 3 <strong>ListsModel</strong> class:</p><pre><code class="language-mxml">package models
+{
+    import org.apache.royale.collections.ArrayList;
+    import vos.IconListVO;
+
+    public class ListsModel 
+    {
+        /**
+         * this is the dataProvider for the List
+         */
+        private var _iconListData:ArrayList = new ArrayList([
+            new IconListVO(&quot;Alert&quot;, MaterialIconType.WEB_ASSET),
+            new IconListVO(&quot;Button&quot;, MaterialIconType.CROP_7_5),
+            new IconListVO(&quot;DropDownList&quot;, MaterialIconType.CREDIT_CARD),
+            new IconListVO(&quot;CheckBox&quot;, MaterialIconType.CHECK_BOX),
+            new IconListVO(&quot;Label&quot;, MaterialIconType.LABEL),
+            new IconListVO(&quot;List&quot;, MaterialIconType.LIST_ALT),
+            new IconListVO(&quot;RadioButton&quot;, MaterialIconType.RADIO_BUTTON_CHECKED),
+            new IconListVO(&quot;Slider&quot;, MaterialIconType.STORAGE),
+            new IconListVO(&quot;Text&quot;, MaterialIconType.SUBJECT),
+            new IconListVO(&quot;TextInput&quot;, MaterialIconType.TEXT_FIELDS)            
+        ]);
+
+        public function get iconListData():ArrayList
+        {
+            return _iconListData;
+        }
+    }
+}
+</code></pre><p>The <strong>MaterialIconType</strong> class uses the icon names as they appear in the Material Icons font for convenience and to avoid typos. One additional benefit of using MaterialIconType in your code is that it injects the font into your html directly, without you having to deal with that step.</p><p>This class uses a data object (DOT, or POJO, depending on how you name this kind of code), called <strong>IconListVO</strong> to instance each piece of data that will appear in the List control.</p><p>Here's the result of this code snippet:</p><pre><code class="language-as3">package vos
+{
+    [Bindable]
+    public class IconListVO
+    {
+        public var label:String;
+        public var icon:String;
+
+        public function IconListVO(label:String, icon:String = null)
+        {
+            this.label = label;
+            this.icon = icon;
+        }
+    }
+}
+</code></pre><p>In the main file, note how we link the <strong>ListsModel</strong> class through the <strong>model</strong> variable accessible throughout Royale to make it easy to link a model as a bead.</p><p>Finally, we link the model data to the list dataProvider using data binding, with <strong>ApplicationDataBinding</strong> (since we are at the Application level) and the <strong>ConstantBinding</strong> class that knows where the data is located (<em>sourceID</em>), what property holds it (<em>iconListData</em>) and where to inject the data (<em>destinationPropertyName</em>).</p><p>Hope you like this example 🙂</p><h2>Where to go from here</h2><ul><li><a href="https://apache.github.io/royale-docs/features/item-renderers">ItemRenderers Royale Docs page</a></li><li><a href="https://apache.github.io/royale-docs/component-sets/jewel/list">Jewel List Royale Docs page</a></li><li><a href="https://apache.github.io/royale-docs/component-sets/jewel/card">Jewel Card Royale Docs page</a></li></ul><p>The result of this code snippet is the following:</p><iframe width="100%" height="500" src="/blog-examples/BE0009_Using_an_Item_Renderer_with_a_List/index.html"></iframe><p>(We're using an iframe to host the actual results of this example compilation. To see the example in a separate window click <a href="/blog-examples/BE0009_Using_an_Item_Renderer_with_a_List/index.html" target="_blank">this link</a>.)</p><p>Full project with source code can be found <a href="https://github.com/apache/royale-asjs/tree/develop/examples/blog/BE0009_Using_an_Item_%20Renderer_with_a_List">here</a>:</p><p><a class="btn btn-download" href="https://github.com/apache/royale-asjs/tree/develop/examples/blog/BE0009_Using_an_Item_%20Renderer_with_a_List"><i class="fa fa-download"></i> Project Source Code</a></p></article></div></div><footer class="footer"><div class="footer-row"><div class="footer-column"><ul class="footer-list"><li class="apacheroyale"><a href="/">Apache Royale</a></li><li><a href="/">Home</a></li><li><a href="/features">Features</a></li><li><a href="/download">Download</a></li><li><a href="/ides">IDEs and Editors</a></li><li><a href="/showcase">Showcase</a></li><li><a href="/blog">Blog</a></li><li><a href="/team">Team</a></li><li><a href="/thanks-to">Thanks To</a></li><li><a href="https://apache.org/logos/#royale"><i class="fa fa-external-link-square"></i> Logos</a></li><li><a href="https://www.apache.org/licenses/"><i class="fa fa-external-link-square"></i> Apache License v2.0</a></li></ul></div><div class="footer-column"><ul class="footer-list"><li class="documentation"><a href="/docs">Documentation</a></li><li><a href="https://apache.github.io/royale-docs/get-started">Get Started</a></li><li><a href="/docs">Docs</a></li><li><a href="/asdoc">API Reference</a></li><li><a href="https://github.com/apache/royale-asjs/wiki"><i class="fa fa-github"></i>Wiki</a></li><li><a href="https://stackoverflow.com/questions/tagged/apache-royale"><i class="fa fa-stack-overflow"></i> StackOverFlow Tag</a></li></ul><ul class="footer-list"><li class="community"><a href="/get-involved">Community</a></li><li><a href="/get-involved">Get Involved</a></li><li><a href="/mailing-lists">Mailing Lists</a></li><li><a href="/faq">FAQ</a></li></ul><ul class="footer-list"><li class="development"><a href="/source-code">Development</a></li><li><a href="https://github.com/apache/royale-asjs/wiki/Apache-Royale-Source-Code-Repositories"><i class="fa fa-github"></i> Github</a></li><li><a href="https://github.com/apache/royale-asjs/issues"><i class="fa fa-github"></i> Issues</a></li><li><a href="/source-code"><i class="fa fa-code"></i> Source Code</a></li></ul></div><div class="footer-column"><ul class="footer-list"><li class="social_t">Social</li><li><a href="https://twitter.com/apacheroyale"><i class="fa fa-twitter"></i> Twitter</a></li><li><a href="https://facebook.com/ApacheRoyaleSDK/"><i class="fa fa-facebook"></i> Facebook</a></li><li><a href="https://www.linkedin.com/groups/12118437"><i class="fa fa-linkedin"></i> LinkedIn</a></li><li><a href="/feed/index.xml"><i class="fa fa-rss"></i> RSS</a></li></ul><ul class="footer-list"><li class="apache"><a href="https://www.apache.org/">Apache</a></li><li><a href="https://www.apache.org/"><i class="fa fa-external-link-square"></i> Apache</a></li><li><a href="https://www.apache.org/foundation/contributing.html"><i class="fa fa-external-link-square"></i> Donations</a></li><li><a href="https://www.apache.org/events/current-event"><i class="fa fa-external-link-square"></i> Events</a></li><li><a href="https://www.apache.org/foundation/sponsorship.html"><i class="fa fa-external-link-square"></i> Sponsorship</a></li><li><a href="https://www.apache.org/foundation/thanks.html"><i class="fa fa-external-link-square"></i> Thanks</a></li><li><a href="https://www.apache.org/security/"><i class="fa fa-external-link-square"></i>Security</a></li></ul></div><div class="aboutusdiv"><p class="aboutus">About Us</p><p class="aboutus_p"><img class="aboutus-logo" src="/img/apache-royale-logo-footer-circle-grey.svg"><a href="/" class="aboutus_a">Apache Royale™</a> is a highly productive open source application technology for building expressive frontend applications that outputs to different formats and deploy consistently on all major browsers, desktops and devices.</p><p><img class="aboutus-apache-logo" src="/img/Apache_PoweredBy.svg"> <a href="/" class="aboutus_a">Apache Royale™</a>, <a href="https://www.apache.org" class="aboutus_a">Apache™</a> and the <a href="https://www.apache.org/foundation/press/kit/" class="aboutus_a">Apache feather logo™</a> are trademarks of The Apache Software Foundation. All other marks mentioned may be trademarks or registered trademarks of their respective owners. Read more about our privacy policy on our <a href="/privacy-policy">Privacy Policy page</a>.</p></div></div><div class="asf">Copyright &copy; 2017-2022 <a href="https://www.apache.org">The Apache Software Foundation</a>, Licensed under the <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a></div></footer></body></html>

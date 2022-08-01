@@ -1,0 +1,16 @@
+{ "type": "method",
+  "qname": "org.apache.royale.reflection.isDynamicObject",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "A utility method to check if an object is dynamic (can have non-sealed members added or deleted) Note that static class objects are always dynamic, as are Interface Objects",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+    "return": "Boolean",
+    "params": [{ "name": "inspect", "type": "Object"}]}

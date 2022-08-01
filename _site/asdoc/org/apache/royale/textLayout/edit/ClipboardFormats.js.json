@@ -1,0 +1,13 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.edit.ClipboardFormats",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "field",
+        "qname": "TEXT_FORMAT",
+        "return": "String",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {}}]
+  }

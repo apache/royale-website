@@ -1,0 +1,50 @@
+{ "type": "interface",
+  "qname": "mx.managers.IFocusManagerComplexComponent",
+"baseInterfaceNames": [
+"mx.managers.IFocusManagerComponent"]
+,
+    "description": "The IFocusManagerComplexComponent interface defines the interface that components that can have more than one internal focus target should implement in order to receive focus from the FocusManager.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-only",
+    "return": "Boolean",
+    "qname": "hasFocusableContent",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "A flag that indicates whether the component currently has internal focusable targets",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 9", "AIR 1.1"]},
+        {  "tagName": "productversion",
+           "values": ["Flex 3"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]},
+  { "type": "method",
+    "qname": "assignFocus",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "Called by the FocusManager when the component receives focus. The component may in turn set focus to an internal component. The components setFocus() method will still be called when focused by the mouse, but this method will be used when focus changes via the keyboard",
+    "tags": [
+    {  "tagName": "param",
+           "values": ["direction "bottom" if TAB used with SHIFT key, "top" otherwise"]},
+        {  "tagName": "playerversion",
+           "values": ["Flash 9", "AIR 1.1"]},
+        {  "tagName": "productversion",
+           "values": ["Flex 3"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ],
+      "return": "void",
+      "params": [{ "name": "direction", "type": "String"}]}
+  ]
+  }

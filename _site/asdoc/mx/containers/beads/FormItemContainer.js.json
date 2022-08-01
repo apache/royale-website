@@ -1,0 +1,36 @@
+{ "type": "class",
+  "qname": "mx.containers.beads.FormItemContainer",
+  "baseClassname": "mx.containers.Box"
+  ,
+    "description": "The FormItemContainer for emulation.",
+  "tags": [
+  {  "tagName": "private",
+         "values": []}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.containers.beads.FormItemContainer",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "addedToParent",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "void",
+          "params": []}
+      ]
+  }

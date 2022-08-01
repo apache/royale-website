@@ -1,0 +1,31 @@
+{ "type": "class",
+  "qname": "org.apache.royale.mdl.NavigationLayoutContent",
+  "baseClassname": "org.apache.royale.html.Group"
+  ,
+    "description": "The NavigationLayoutContent class is a Container component capable of parenting the content of the NavigationLayout parent. If the navigation uses a TabBar component for navigation, each piece of content will be a TabBarPanel.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.8"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.mdl.NavigationLayoutContent",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.8"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ]
+  }

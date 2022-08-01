@@ -1,0 +1,33 @@
+{ "type": "class",
+  "qname": "spark.components.gridClasses.GridLayer",
+  "baseClassname": "spark.components.Group"
+  ,
+    "description": "The GridLayer class defines a container used for the layers of the Grid control's visual elements. The Grid control creates and adds visual elements to its layers as needed, and is responsible for their layout.",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["spark.components.Grid"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10", "AIR 2.5"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 4.5"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "spark.components.gridClasses.GridLayer",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10", "AIR 2.5"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 4.5"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ]
+  }

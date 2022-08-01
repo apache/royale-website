@@ -1,0 +1,12 @@
+{ "type": "class",
+  "qname": "org.apache.royale.createjs.core.UIBase",
+  "baseClassname": "org.apache.royale.core.UIBase"
+  ,
+    "description": "The CreateJS framework provides its own version of UIBase. CreateJS uses the HTML 5 &lt;canvas&gt; for its work and does not use the HTML DOM like the most of Royale, so this replacement for UIBase allows the CreateJS wrapper classes for Royale to fit in.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ]}

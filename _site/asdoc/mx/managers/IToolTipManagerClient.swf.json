@@ -1,0 +1,33 @@
+{ "type": "interface",
+  "qname": "mx.managers.IToolTipManagerClient",
+"baseInterfaceNames": [
+"mx.core.IFlexDisplayObject"]
+,
+    "description": "Components that implement IToolTipManagerClient can have tooltips and must have a toolTip getter/setter. The ToolTipManager class manages showing and hiding the tooltip on behalf of any component which is an IToolTipManagerClient.",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["mx.controls.ToolTip", "mx.managers.ToolTipManager", "mx.core.IToolTip"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "String",
+    "qname": "toolTip",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "The text of this component's tooltip.",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 9", "AIR 1.1"]},
+        {  "tagName": "productversion",
+           "values": ["Flex 3"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]}]
+  }

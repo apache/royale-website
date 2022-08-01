@@ -1,0 +1,26 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.core.IViewportModel",
+"baseInterfaceNames": [
+"org.apache.royale.core.IBead"]
+,
+    "description": "A Viewport is the area of a Container set aside for displaying content and any scrolling controls. The ViewportModel caches the offsets required to compute the size of the Viewport.",
+  "members": [
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "org.apache.royale.core.layout.EdgeData",
+    "qname": "borderMetrics",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "Size of the borders."},
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "org.apache.royale.core.layout.EdgeData",
+    "qname": "chromeMetrics",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "Size of the chrome.  A plain container doesn't have any chrome but a Panel's TitleBar and any ControlBar or StatusBar is considered chrome.  Scrollbars used to scroll content are not factored into the viewport calculation.  The Viewport is responsible for displaying any scrolling controls and deciding whether to further shrink the content area or have the scrollbars overlay the content."}]
+  }

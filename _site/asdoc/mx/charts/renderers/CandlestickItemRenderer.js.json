@@ -1,0 +1,47 @@
+{ "type": "class",
+  "qname": "mx.charts.renderers.CandlestickItemRenderer",
+  "baseClassname": "mx.skins.ProgrammaticSkin"
+  ,
+    "description": "The default itemRenderer for a CandlestickSeries object. This class renders a standard CandlestickChart item by using the <code>stroke</code>, <code>boxStroke</code>, <code>fill</code>, and <code>declineFill</code> styles of its associated series.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.charts.renderers.CandlestickItemRenderer",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "Object",
+        "qname": "data",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "The chart item that this renderer represents. CandlestickItemRenderers assume that this value is an instance of HLOCSeriesItem. This value is assigned by the owning series.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  }

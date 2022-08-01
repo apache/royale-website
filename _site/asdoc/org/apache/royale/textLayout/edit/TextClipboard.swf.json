@@ -1,0 +1,53 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.edit.TextClipboard",
+  "baseClassname": ""
+  ,
+    "description": "The TextClipboard class copies and pastes TextScrap objects to and from the system clipboard.  <p>When you copy a TextScrap to the TextClipboard, the information is copied to the system clipboard in two clipboard formats. One format is an XML string expressing the copied TextScrap object in Text Layout Markup syntax. This clipboard object uses the format name: &quot;TEXT_LAYOUT_MARKUP&quot;. The second format is a plain-text string, which uses the standard Clipboard.TEXT_FORMAT name.</p>  <p>The methods of the TextClipboard class are static functions, you do not need to create an instance of TextClipboard.</p>",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["flash.desktop.Clipboard"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10", "AIR 1.5"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "getContents",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "Gets any text on the system clipboard as a TextScrap object.  <p>If the &quot;TEXT_LAYOUT_MARKUP&quot; format is available, this method converts the formatted string into a TextScrap and returns it. Otherwise, if the Clipboard.TEXT_Format is available, this method converts the plain-text string into a TextScrap. If neither clipboard format is available, this method returns <code>null</code>.</p>  <p>Flash Player requires that the <code>getContents()</code> method be called in a paste event handler. In AIR, this restriction only applies to content outside of the application security sandbox.</p>",
+        "tags": [
+        {  "tagName": "see",
+               "values": ["org.apache.royale.events.Event#PASTE"]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 10", "AIR 1.5"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "org.apache.royale.textLayout.edit.TextScrap",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "setContents",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "Puts a TextScrap onto the system clipboard.  <p>The TextScrap is placed onto the system clipboard as both a Text Layout Markup representation and a plain text representation.</p>  <p>Flash Player requires a user event (such as a key press or mouse click) before calling <code>setContents()</code>. In AIR, this restriction only applies to content outside of the application security sandbox. </p>",
+        "tags": [
+        {  "tagName": "see",
+               "values": ["org.apache.royale.events.Event#COPY", "org.apache.royale.events.Event#CUT"]},
+            {  "tagName": "param",
+               "values": ["scrap The TextScrap to paste into the clipboard."]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 10", "AIR 1.5"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "void",
+          "params": [{ "name": "textScrap", "type": "org.apache.royale.textLayout.edit.TextScrap"}]}
+      ]
+  }
+
+
+

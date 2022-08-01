@@ -1,0 +1,46 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.beads.layouts.DataGridPercentageLayout",
+  "baseClassname": "org.apache.royale.html.beads.layouts.DataGridLayout"
+  ,
+    "description": "DataGridPercentageLayout is a class that handles the size and positioning of the elements of a DataGrid. This includes the ButtonBar used for the column headers and the Lists that are the columns. The columns are sized on their percentage of the width of the DataGrid space.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html.beads.layouts.DataGridPercentageLayout",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "constructor",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "layout",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "copy",
+               "values": ["org.apache.royale.core.IBeadLayout#layout"]},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.UIBase", "org.apache.royale.core.IDataGridModel", "org.apache.royale.html.ButtonBar", "org.apache.royale.html.beads.IDataGridView", "org.apache.royale.html.supportClasses.IDataGridColumn"]}  ],
+          "return": "Boolean",
+          "params": []}
+      ]
+  }

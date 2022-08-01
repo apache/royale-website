@@ -1,0 +1,27 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.textLayout.conversion.ITextLayoutImporter",
+"baseInterfaceNames": [
+"org.apache.royale.textLayout.conversion.ITextImporter"]
+,
+    "description": "This interface should be implemented by converters that import TextLayout structured data. Clients that have explicitly created an importer using TextConverter.getImporter may control the import process by calling into these methods on the importer.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.0", "AIR 2.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "Function",
+    "qname": "imageSourceResolveFunction",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "This property allows specification of a function to modify the source property supplied to an <code>&lt;img&gt;</code> element. Sample use would be to modify relative paths to some caller specified root path.  The function takes the string set in the markup and returns the actual string to be used.  <p>Note that by default relative paths are relative to the loaded SWF.  One use of this function is to make relative paths relative to some other location.</p>  <p>The resolver function should look like this:</p> <code>function resolver(src:String):String</code> <p>It takes as an input parameter the value of src on the incoming img element, and returns the adjusted value.</p>",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.0", "AIR 2.0"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]}]
+  }

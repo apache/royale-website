@@ -1,0 +1,31 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.core.IDataProviderItemRendererMapper",
+"baseInterfaceNames": [
+"org.apache.royale.core.IBead"]
+,
+    "description": "The IDataProviderItemRendererMapper interface is the interface for beads that know how to iterate through a dataProvider, generate item renderers, and assign items from the dataProvider to those item renderers.  In Royale, a wide range of data providers are allowed, from simple Arrays and Vectors on up to sophisticated data structures that dispatch change events. Different IDataProviderItemRendererMapper implements are often required to iterate through those different data structures.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "org.apache.royale.core.IItemRendererClassFactory",
+    "qname": "itemRendererFactory",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "IDataProviderItemRendererMapper use an IItemRendererClassFactory to generate instances of item renderers.",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.0"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]}]
+  }

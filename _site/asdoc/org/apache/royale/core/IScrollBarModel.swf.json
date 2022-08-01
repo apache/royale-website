@@ -1,0 +1,47 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.core.IScrollBarModel",
+"baseInterfaceNames": [
+"org.apache.royale.core.IRangeModel"]
+,
+    "description": "The IScrollBarModel interface describes the minimum set of properties available to control that let the user select from within a range of numbers like ScrollBar.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "Number",
+    "qname": "pageSize",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "The size of the page.  This generally is used to compute the size of the thumb in the scrollbar.",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.0"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]},
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "Number",
+    "qname": "pageStepSize",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "The change in value when clicking on above or below the thumb on a scrollbar.  Also used for pageUp/pageDown keys.",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.0"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]}]
+  }

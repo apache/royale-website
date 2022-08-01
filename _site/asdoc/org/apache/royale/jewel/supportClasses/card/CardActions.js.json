@@ -1,0 +1,31 @@
+{ "type": "class",
+  "qname": "org.apache.royale.jewel.supportClasses.card.CardActions",
+  "baseClassname": "org.apache.royale.jewel.HContainer"
+  ,
+    "description": "The CardActions class is a footer for Cards where actions (i.e: buttons, icons) use to be located.  Actions are placed horizontally by default, and can be separated using BarSection for left, middle and right sections.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.7"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.jewel.supportClasses.card.CardActions",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.7"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ]
+  }

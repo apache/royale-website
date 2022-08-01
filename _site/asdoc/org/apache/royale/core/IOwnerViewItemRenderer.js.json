@@ -1,0 +1,31 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.core.IOwnerViewItemRenderer",
+"baseInterfaceNames": [
+"org.apache.royale.core.IItemRenderer"]
+,
+    "description": "The IOwnerViewItemRenderer interface is the basic interface for item renderers that have an itemRendererOwnerView property that references the View of the component that eventually parents the item renderers.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "org.apache.royale.core.IItemRendererOwnerView",
+    "qname": "itemRendererOwnerView",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "The reference to the IItemRendererOwnerView of the renderer",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.9.4"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]}]
+  }

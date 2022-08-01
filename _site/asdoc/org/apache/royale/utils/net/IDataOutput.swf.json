@@ -1,0 +1,6 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.utils.net.IDataOutput",
+"baseInterfaceNames": [
+"org.apache.royale.utils.IBinaryDataOutput", 
+"flash.utils.IDataOutput"]
+}

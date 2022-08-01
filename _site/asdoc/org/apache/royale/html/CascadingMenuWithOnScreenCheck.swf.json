@@ -1,0 +1,25 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.CascadingMenuWithOnScreenCheck",
+  "baseClassname": "org.apache.royale.html.CascadingMenu"
+  ,
+    "description": "The CascadingMenuWithOnScreenCheck adjusts the position to make sure it is on-screen.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "show",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "component", "type": "org.apache.royale.core.IUIBase"},
+        { "name": "xoffset", "type": "Number"},
+        { "name": "yoffset", "type": "Number"}]}
+      ]
+  }

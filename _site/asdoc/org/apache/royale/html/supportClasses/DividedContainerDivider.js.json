@@ -1,0 +1,47 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.supportClasses.DividedContainerDivider",
+  "baseClassname": "org.apache.royale.core.UIBase"
+  ,
+    "description": "The DividedContainerSeparator is a control that lays between the children of a DividedContainer. This is the base class for the HDividedContainerDivider and VDividedContainerDivider.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html.supportClasses.DividedContainerDivider",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "int",
+        "qname": "pairIndex",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "The index of this divider instance, indicating which pair of children it is managing.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  }

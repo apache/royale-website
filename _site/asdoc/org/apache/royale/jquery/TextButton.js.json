@@ -1,0 +1,37 @@
+{ "type": "class",
+  "qname": "org.apache.royale.jquery.TextButton",
+  "baseClassname": "org.apache.royale.html.TextButton"
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.jquery.TextButton",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "createElement",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.WrappedHTMLElement"]}  ],
+          "return": "org.apache.royale.core.WrappedHTMLElement",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "addedToParent",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "void",
+          "params": []}
+      ]
+  }

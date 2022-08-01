@@ -1,0 +1,31 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.mobile.IViewManager",
+"baseInterfaceNames": [
+"org.apache.royale.mobile.IViewManagerView"]
+,
+    "description": "The IViewManager interface is implemented by classes that manage or control IViews.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-only",
+    "return": "org.apache.royale.mobile.IViewManagerView",
+    "qname": "selectedView",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "The view that is currently active in the view manager.",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.0"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]}]
+  }

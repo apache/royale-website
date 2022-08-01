@@ -1,0 +1,45 @@
+{ "type": "class",
+  "qname": "org.apache.royale.jewel.itemRenderers.DatagridHeaderRenderer",
+  "baseClassname": "org.apache.royale.jewel.itemRenderers.ButtonBarItemRenderer"
+  ,
+    "description": "The DatagridHeaderRenderer class extends ButtonBarItemRenderer and turns it into an itemRenderer suitable for use in most DataContainer/List/DataGrid applications.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.7"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.jewel.itemRenderers.DatagridHeaderRenderer",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "setClassName",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "value", "type": "String"}]}
+      ,
+      { "type": "method",
+        "qname": "createElement",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.WrappedHTMLElement"]}  ],
+          "return": "org.apache.royale.core.WrappedHTMLElement",
+          "params": []}
+      ]
+  }

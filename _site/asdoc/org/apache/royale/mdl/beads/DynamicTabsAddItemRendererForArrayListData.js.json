@@ -1,0 +1,14 @@
+{ "type": "class",
+  "qname": "org.apache.royale.mdl.beads.DynamicTabsAddItemRendererForArrayListData",
+  "baseClassname": "org.apache.royale.html.beads.DynamicAddItemRendererForArrayListData"
+  ,
+    "description": "",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "copy",
+         "values": ["org.apache.royale.html.beads.DynamicAddItemRendererForArrayListData"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ]}

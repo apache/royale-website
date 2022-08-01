@@ -1,0 +1,32 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.core.IBorderModel",
+"baseInterfaceNames": [
+"org.apache.royale.core.IBead", 
+"org.apache.royale.core.IBeadModel"]
+,
+    "description": "The IBorderModel interface is the basic interface for a data model for drawing borders.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-only",
+    "return": "flash.geom.Rectangle",
+    "qname": "offsets",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "The offsets from the edges of the host component where the border should be drawn.",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.0"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]}]
+  }

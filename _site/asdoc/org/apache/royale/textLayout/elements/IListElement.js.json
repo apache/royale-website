@@ -1,0 +1,44 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.textLayout.elements.IListElement",
+"baseInterfaceNames": [
+"org.apache.royale.textLayout.elements.IContainerFormattedElement"]
+,
+  "members": [
+  { "type": "method",
+    "qname": "computeListItemText",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "return": "String",
+      "params": [{ "name": "child", "type": "org.apache.royale.textLayout.elements.IListItemElement"},
+    { "name": "listMarkerFormat", "type": "org.apache.royale.textLayout.formats.IListMarkerFormat"}]}
+  ,
+  { "type": "method",
+    "qname": "isNumberedList",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "return": "Boolean",
+      "params": []}
+  ,
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "*",
+    "qname": "listStyleType",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "<p>Legal values are ListStyleType.UPPER_ALPHA, ListStyleType.LOWER_ALPHA, ListStyleType.UPPER_ROMAN, ListStyleType.LOWER_ROMAN, ListStyleType.NONE, ListStyleType.DISC, ListStyleType.CIRCLE, ListStyleType.SQUARE, ListStyleType.BOX, ListStyleType.CHECK, ListStyleType.DIAMOND, ListStyleType.HYPHEN, ListStyleType.ARABIC_INDIC, ListStyleType.BENGALI, ListStyleType.DECIMAL, ListStyleType.DECIMAL_LEADING_ZERO, ListStyleType.DEVANAGARI, ListStyleType.GUJARATI, ListStyleType.GURMUKHI, ListStyleType.KANNADA, ListStyleType.PERSIAN, ListStyleType.THAI, ListStyleType.URDU, ListStyleType.CJK_EARTHLY_BRANCH, ListStyleType.CJK_HEAVENLY_STEM, ListStyleType.HANGUL, ListStyleType.HANGUL_CONSTANT, ListStyleType.HIRAGANA, ListStyleType.HIRAGANA_IROHA, ListStyleType.KATAKANA, ListStyleType.KATAKANA_IROHA, ListStyleType.LOWER_ALPHA, ListStyleType.LOWER_GREEK, ListStyleType.LOWER_LATIN, ListStyleType.UPPER_ALPHA, ListStyleType.UPPER_GREEK, ListStyleType.UPPER_LATIN, FormatValue.INHERIT.</p> <p>Default value is undefined indicating not set.</p> <p>If undefined during the cascade this property will inherit its value from an ancestor. If no ancestor has set this property, it will have a value of ListStyleType.DISC.</p>",
+    "tags": [
+    {  "tagName": "see",
+           "values": ["org.apache.royale.textLayout.formats.ListStyleType", "org.apache.royale.textLayout.formats.ListStyleType"]},
+        {  "tagName": "playerversion",
+           "values": ["Flash 10", "AIR 1.5", "Flash 10", "AIR 1.5"]},
+        {  "tagName": "throws",
+           "values": ["RangeError when set value is not within range for this property", "RangeError when set value is not within range for this property"]},
+        {  "tagName": "langversion",
+           "values": ["3.0", "3.0"]}  ]}]
+  }

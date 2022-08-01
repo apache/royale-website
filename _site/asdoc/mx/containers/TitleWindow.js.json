@@ -1,0 +1,68 @@
+{ "type": "class",
+  "qname": "mx.containers.TitleWindow",
+  "baseClassname": "mx.containers.Panel"
+  ,
+    "description": "A TitleWindow layout container contains a title bar, a caption, a border, and a content area for its child. Typically, you use TitleWindow containers to wrap self-contained application modules. For example, you could include a form in a TitleWindow container. When the user completes the form, you can close the TitleWindow container programmatically, or let the user close it by using the Close button.  <p>The TitleWindow container has the following default sizing characteristics:</p> <table class=&quot;innertable&quot;> <tr> <th>Characteristic</th> <th>Description</th> </tr> <tr> <td>Default size</td> <td>Height is large enough to hold all of the children in the content area at the default or explicit heights of the children, plus the title bar and border, plus any vertical gap between the children, plus the top and bottom padding of the container.<br/> Width is the larger of the default or explicit width of the widest child, plus the left and right container borders padding, or the width of the title text.</td> </tr> <tr> <td>borders</td> <td>10 pixels for the left and right values.<br/> 2 pixels for the top value.<br/> 0 pixels for the bottom value. </td> </tr> <tr> <td>padding</td> <td>4 pixels for the top, bottom, left, and right values.</td> </tr> </table>   <p>The <code>&lt;mx:TitleWindow&gt;</code> tag inherits all of the tag attributes of its superclass, and adds the following tag attributes:</p>  <pre>\\n &lt;mx:TitleWindow\\n <b>Properties</b>\\n showCloseButton=&quot;false|true&quot;\\n \\n <b>Styles</b>\\n closeButtonDisabledSkin=&quot;<i>'CloseButtonDisabled' symbol in Assets.swf</i>&quot;\\n closeButtonDownSkin=&quot;<i>'CloseButtonDown' symbol in Assets.swf</i>&quot;\\n closeButtonOverSkin=&quot;<i>'CloseButtonOver' symbol in Assets.swf</i>&quot;\\n closeButtonUpSkin=&quot;<i>'CloseButtonUp' symbol in Assets.swf</i>&quot;\\n \\n <strong>Events</strong>\\n close=&quot;<i>No default</i>&quot;\\n &gt;\\n ...\\n child tags\\n ...\\n /&gt;\\n </pre>",
+  "tags": [
+  {  "tagName": "includeExample",
+         "values": ["examples/SimpleTitleWindowExample.mxml -noswf", "examples/TitleWindowApp.mxml"]},
+      {  "tagName": "see",
+         "values": ["mx.core.Application", "mx.managers.PopUpManager", "mx.containers.Panel"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "mxml",
+         "values": []},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.containers.TitleWindow",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "Boolean",
+        "qname": "showCloseButton",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "private",
+               "values": []}  ]}]
+  ,
+  "events": [
+  { "qname": "close",
+        "type": "mx.events.CloseEvent"
+      ,
+          "description": "Dispatched when the user selects the close button.",
+        "tags": [
+        {  "tagName": "helpid",
+               "values": ["3985"]},
+            {  "tagName": "tiptext",
+               "values": ["close event"]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "eventType",
+               "values": ["mx.events.CloseEvent.CLOSE"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  }

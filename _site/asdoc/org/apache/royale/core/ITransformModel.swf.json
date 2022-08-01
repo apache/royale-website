@@ -1,0 +1,32 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.core.ITransformModel",
+"baseInterfaceNames": [
+"org.apache.royale.events.IEventDispatcher", 
+"org.apache.royale.core.IBead"]
+,
+    "description": "The ITransformModel interface describes the minimum set of properties needed to define a transformation on an object.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "org.apache.royale.geom.Matrix",
+    "qname": "matrix",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "The matrix of the Transform",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.0"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]}]
+  }

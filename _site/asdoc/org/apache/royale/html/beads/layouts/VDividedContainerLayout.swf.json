@@ -1,0 +1,31 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.beads.layouts.VDividedContainerLayout",
+  "baseClassname": "org.apache.royale.core.LayoutBase"
+  ,
+    "description": "This sub-class of DividedContainerLayout class is responsible for sizing and positioning the children of the DividedContainer into rows with separators between them.  In order to correctly size and place the children, the DividedContainerLayout relies on additional information contained in the DividedContainerModel. These adjustments (which default to zero) can be changed by interacting with the DividedContainerSeparators and their mouse controllers.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html.beads.layouts.VDividedContainerLayout",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ]
+  }

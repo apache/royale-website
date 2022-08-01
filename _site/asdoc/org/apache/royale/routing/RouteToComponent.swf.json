@@ -1,0 +1,31 @@
+{ "type": "class",
+  "qname": "org.apache.royale.routing.RouteToComponent",
+  "baseClassname": "org.apache.royale.routing.PathRouteBead"
+  ,
+    "description": "RouteToComponent is a bead designed for IRouter One or more routes should be assigned to the bead",
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.routing.RouteToComponent",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ,
+      { "type": "field",
+        "qname": "routes",
+        "return": "Array",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}},
+      { "type": "accessor",
+        "access": "write-only",
+        "return": "org.apache.royale.core.IStrand",
+        "qname": "strand",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {}}]
+  }

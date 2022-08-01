@@ -1,0 +1,15 @@
+{ "type": "class",
+  "qname": "org.apache.royale.utils.MD5",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "hash",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "return": "String",
+          "params": [{ "name": "value", "type": "String"}]}
+      ]
+  }

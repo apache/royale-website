@@ -1,0 +1,52 @@
+{ "type": "class",
+  "qname": "org.apache.royale.events.CustomEvent",
+  "baseClassname": "org.apache.royale.events.Event"
+  ,
+    "description": "MXML auto-imports flash.events.Event which then requires full qualification to use org.apache.royale.events.Event. Use CustomEvent to skip all that extra typing.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.events.CustomEvent",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["type The name of the event.", "bubbles Whether the event bubbles.", "cancelable Whether the event can be canceled."]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": [{ "name": "type", "type": "String"},
+        { "name": "bubbles", "type": "Boolean"},
+        { "name": "cancelable", "type": "Boolean"}]}
+      ,
+      { "type": "method",
+        "qname": "cloneEvent",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "Create a copy/clone of the CustomEvent object.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "org.apache.royale.events.IRoyaleEvent",
+          "params": []}
+      ]
+  }

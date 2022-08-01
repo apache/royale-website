@@ -1,0 +1,13 @@
+{ "type": "class",
+  "qname": "org.apache.royale.text.engine.TextEngine",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "field",
+        "qname": "textFactory",
+        "return": "org.apache.royale.text.engine.ITextFactory",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {}}]
+  }

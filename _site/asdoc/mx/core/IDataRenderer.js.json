@@ -1,0 +1,13 @@
+{ "type": "interface",
+  "qname": "mx.core.IDataRenderer",
+"baseInterfaceNames": [
+"org.apache.royale.core.IIndexedItemRenderer"]
+,
+    "description": "The IDataRenderer interface defines the interface for components that have a <code>data</code> property.  <p>Components that are used in an item renderer or item editor in a list control (such as the List, HorizontalList, TileList, DataGrid, and Tree controls), or as renderers in a chart are passed the data to render or edit by using the <code>data</code> property. The component must implement IDataRenderer so that the host components can pass this information. All Flex containers and many Flex components implement IDataRenderer and the <code>data</code> property.</p>  <p>In a list control, Flex sets the <code>data</code> property of an item renderer or item editor to the element in the data provider that corresponds to the item being rendered or edited. For a DataGrid control, the <code>data</code> property contains the data provider element for the entire row of the DataGrid control, not just for the item.</p>  <p>To implement this interface, you define a setter and getter method to implement the <code>data</code> property. Typically, the setter method writes the value of the <code>data</code> property to an internal variable and dispatches a <code>dataChange</code> event, and the getter method returns the current value of the internal variable, as the following example shows:</p>  <pre>\\n // Internal variable for the property value.\\n private var _data:Object;\\n \\n // Make the data property bindable.\\n [Bindable(&quot;dataChange&quot;)]\\n \\n // Define the getter method.\\n public function get data():Object {\\n return _data;\\n }\\n \\n // Define the setter method, and dispatch an event when the property\\n // changes to support data binding.\\n public function set data(value:Object):void {\\n _data = value;\\n \\n dispatchEvent(new FlexEvent(FlexEvent.DATA_CHANGE));\\n }\\n </pre>",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ]}

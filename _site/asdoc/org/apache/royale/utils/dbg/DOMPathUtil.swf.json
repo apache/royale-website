@@ -1,0 +1,35 @@
+{ "type": "class",
+  "qname": "org.apache.royale.utils.dbg.DOMPathUtil",
+  "baseClassname": ""
+  ,
+    "description": "The DOMPathUtil class is a tracks instances of display objects and provides a unique string for each one based on its position in the tree of display objects.  It is generally used for trace output.  If you think you need this for production applications you might want to re-think your design.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "getPath",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "Returns a string for an object.  IF the object is parented, it creates a string based on the DOMPathUtil of the parent.",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["obj The object to generate a path/name for."]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "return",
+               "values": ["The unique name based on the parents."]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "String",
+          "params": [{ "name": "obj", "type": "Object"}]}
+      ]
+  }

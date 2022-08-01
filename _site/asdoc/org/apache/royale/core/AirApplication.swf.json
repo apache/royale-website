@@ -1,0 +1,79 @@
+{ "type": "class",
+  "qname": "org.apache.royale.core.AirApplication",
+  "baseClassname": "org.apache.royale.core.Application"
+  ,
+    "description": "The AirApplication class should be used by Air applications as their main entry point.",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["Application"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.8"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.core.AirApplication",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ]
+  ,
+  "events": [
+  { "qname": "initialize",
+        "type": "org.apache.royale.events.Event"
+      ,
+          "description": "Dispatched at startup. Attributes and sub-instances of the MXML document have been created and assigned. The component lifecycle is different than the Flex SDK.  There is no creationComplete event.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]},
+      { "qname": "preinitialize",
+        "type": "org.apache.royale.events.Event"
+      ,
+          "description": "Dispatched at startup before the instances get created. Beads can call preventDefault and defer initialization. This event will be dispatched on every frame until no listeners call preventDefault(), then the initialize() method will be called.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]},
+      { "qname": "viewChanged",
+        "type": "org.apache.royale.events.Event"
+      ,
+          "description": "Dispatched at startup after the initial view has been put on the display list. This event is sent before applicationComplete is dispatched.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]},
+      { "qname": "applicationComplete",
+        "type": "org.apache.royale.events.Event"
+      ,
+          "description": "Dispatched at startup after the initial view has been put on the display list.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  }

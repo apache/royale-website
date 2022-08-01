@@ -1,0 +1,48 @@
+{ "type": "class",
+  "qname": "org.apache.royale.file.beads.FileUploaderWithResponseData",
+  "baseClassname": "org.apache.royale.file.beads.FileUploader"
+  ,
+    "description": "FileUploaderWithResponseData records responseData before dispatching the complete event",
+  "tags": [
+  {  "tagName": "toplevel",
+         "values": []},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "field",
+        "qname": "responseData",
+        "return": "Object",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "The responseData from the file upload",
+        "tags": [
+        {  "tagName": "toplevel",
+               "values": []},
+            {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]},
+            {  "tagName": "royalesuppresspublicvarwarning",
+               "values": []}  ]},
+      { "type": "method",
+        "qname": "completeHandler",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.net.URLBinaryLoader"]}  ],
+          "return": "void",
+          "params": [{ "name": "event", "type": "org.apache.royale.events.Event"}]}
+      ]
+  }

@@ -1,0 +1,28 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.utils.IEmphasis",
+    "description": "The IEmphasis is the interface a jewel control implements to get diferent jewel look and feels. Jewel has PRIMARY, SECONDARY and EMPHASIZED emphasis look and feels.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.7"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "String",
+    "qname": "emphasis",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "Applies emphasis color display. Possible constant values are: PRIMARY, SECONDARY, EMPHASIZED. Colors are defined in royale jewel theme CSS.  Left without value to get the default look (light or dark).",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.9.7"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]}]
+  }

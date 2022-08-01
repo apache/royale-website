@@ -1,0 +1,38 @@
+{ "type": "class",
+  "qname": "mx.controls.TabBar",
+  "baseClassname": "mx.controls.ToggleButtonBar"
+  ,
+    "description": "The TabBar control is a ButtonBar with buttons that look like Tabs.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.controls.TabBar",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ]
+  ,
+  "events": [
+  { "qname": "change",
+        "type": "org.apache.royale.events.Event"
+      ,
+          "description": "Dispatched when a Tab is selected",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "eventType",
+               "values": ["flash.events.Event.CHANGE"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  }

@@ -1,0 +1,40 @@
+{ "type": "class",
+  "qname": "org.apache.royale.jewel.beads.controls.button.ResponsiveLabelVisibility",
+  "baseClassname": "org.apache.royale.jewel.beads.layouts.ResponsiveVisibility"
+  ,
+    "description": "The ResponsiveLabelVisibility bead class is a specialty bead that can be used to show or hide the label text of a Button depending on responsive rules.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.10.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.jewel.beads.controls.button.ResponsiveLabelVisibility",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.10.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "showOrHideHost",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "void",
+          "params": []}
+      ]
+  }

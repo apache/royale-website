@@ -1,0 +1,44 @@
+{ "type": "interface",
+  "qname": "mx.managers.IFocusManager",
+"baseInterfaceNames": [
+"org.apache.royale.events.IEventDispatcher"]
+,
+    "description": "The IFocusManager interface defines the interface that components must implement to manage the focus on components in response to mouse activity or keyboard activity (Tab key), and to support a default button.",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["mx.managers.FocusManager"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+    "qname": "getNextFocusManagerComponent",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "return": "mx.managers.IFocusManagerComponent",
+      "params": [{ "name": "backward", "type": "Boolean"}]}
+  ,
+  { "type": "method",
+    "qname": "getFocus",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "return": "mx.managers.IFocusManagerComponent",
+      "params": []}
+  ,
+  { "type": "method",
+    "qname": "setFocus",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "return": "void",
+      "params": [{ "name": "o", "type": "mx.managers.IFocusManagerComponent"}]}
+  ]
+  }

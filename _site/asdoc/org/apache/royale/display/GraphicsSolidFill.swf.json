@@ -1,0 +1,36 @@
+{ "type": "class",
+  "qname": "org.apache.royale.display.GraphicsSolidFill",
+  "baseClassname": ""
+  ,
+    "description": "",
+  "tags": [
+  {  "tagName": "royalesuppresspublicvarwarning",
+         "values": []},
+      {  "tagName": "royalesuppressexport",
+         "values": []}  ],
+  "members": [
+  { "type": "field",
+        "qname": "alpha",
+        "return": "Number",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}},
+      { "type": "field",
+        "qname": "color",
+        "return": "uint",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}},
+      { "type": "method",
+        "qname": "org.apache.royale.display.GraphicsSolidFill",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": [{ "name": "color", "type": "uint"},
+        { "name": "alpha", "type": "Number"}]}
+      ]
+  }

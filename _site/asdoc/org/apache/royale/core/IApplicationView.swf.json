@@ -1,0 +1,34 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.core.IApplicationView",
+"baseInterfaceNames": [
+"org.apache.royale.core.IUIBase", 
+"org.apache.royale.core.IStatesObject"]
+,
+    "description": "The IApplicationView interface is the  interface for main view of the application.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "write-only",
+    "return": "Object",
+    "qname": "applicationModel",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "The application model.",
+    "tags": [
+    {  "tagName": "param",
+           "values": ["value The subcomponent to add."]},
+        {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.0"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]}]
+  }

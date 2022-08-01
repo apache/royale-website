@@ -1,0 +1,35 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.core.layout.ILayoutStyleProperties",
+"baseInterfaceNames": [
+"org.apache.royale.core.IBeadLayout"]
+,
+    "description": "The ILayoutStyleProperties interface is the contract for layout beads that needs to retrieve style properties set in their host component and apply to itself.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+    "qname": "applyStyleToLayout",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "Get the component layout style and apply to if exists",
+    "tags": [
+    {  "tagName": "param",
+           "values": ["component the IUIBase component that host this layout", "cssProperty the style property in css set for the component to retrieve"]},
+        {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.9.3"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ],
+      "return": "void",
+      "params": [{ "name": "component", "type": "org.apache.royale.core.IUIBase"},
+    { "name": "cssProperty", "type": "String"}]}
+  ]
+  }

@@ -1,0 +1,46 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.operations.PasteOperation",
+  "baseClassname": "org.apache.royale.textLayout.operations.FlowTextOperation"
+  ,
+    "description": "The PasteOperation class encapsulates a paste operation.  <p>The specified range is replaced by the new content.</p>  <p><b>Note:</b> The edit manager is responsible for copying the contents of the clipboard.</p>",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["org.apache.royale.textLayout.edit.EditManager", "org.apache.royale.textLayout.events.FlowOperationEvent"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10", "AIR 1.5"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.textLayout.operations.PasteOperation",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Creates a PasteOperation object.  to replace.",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["operationState Describes the insertion point or a range of text", "textScrap The content to paste into the text flow."]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 10", "AIR 1.5"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": [{ "name": "operationState", "type": "org.apache.royale.textLayout.edit.SelectionState"},
+        { "name": "textScrap", "type": "org.apache.royale.textLayout.edit.TextScrap"}]}
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "org.apache.royale.textLayout.edit.TextScrap",
+        "qname": "textScrap",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "textScrap the text being pasted",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10", "AIR 1.5"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  }

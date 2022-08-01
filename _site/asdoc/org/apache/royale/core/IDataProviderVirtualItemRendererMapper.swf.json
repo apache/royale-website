@@ -1,0 +1,54 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.core.IDataProviderVirtualItemRendererMapper",
+"baseInterfaceNames": [
+"org.apache.royale.core.IDataProviderItemRendererMapper"]
+,
+    "description": "The IDataProviderItemRendererMapper interface is the interface for beads that know how to iterate through a dataProvider, generate item renderers, and assign items from the dataProvider to those item renderers.  In Royale, a wide range of data providers are allowed, from simple Arrays and Vectors on up to sophisticated data structures that dispatch change events. Different IDataProviderItemRendererMapper implements are often required to iterate through those different data structures.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+    "qname": "getItemRendererForIndex",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "Get an item renderer for a given index.",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.9.0"]},
+        {  "tagName": "royaleignorecoercion",
+           "values": ["org.apache.royale.core.IStrandWithModelView", "org.apache.royale.html.beads.IListView"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ],
+      "return": "org.apache.royale.core.IIndexedItemRenderer",
+      "params": [{ "name": "index", "type": "int"},
+    { "name": "elementIndex", "type": "int"}]}
+  ,
+  { "type": "method",
+    "qname": "freeItemRendererForIndex",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "Free an item renderer for a given index.",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.9.0"]},
+        {  "tagName": "royaleignorecoercion",
+           "values": ["org.apache.royale.core.IStrandWithModelView", "org.apache.royale.html.beads.IListView"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ],
+      "return": "void",
+      "params": [{ "name": "index", "type": "int"}]}
+  ]
+  }

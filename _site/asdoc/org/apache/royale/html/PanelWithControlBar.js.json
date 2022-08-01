@@ -1,0 +1,54 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.PanelWithControlBar",
+  "baseClassname": "org.apache.royale.html.Panel"
+  ,
+    "description": "The Panel class is a Container component capable of parenting other components. The Panel has a TitleBar and an optional org.apache.royale.html.ControlBar. The Panel uses the following bead types:  org.apache.royale.core.IBeadModel: the data model for the Panel that includes the title and whether or not to display the close button. org.apache.royale.core.IBeadView: creates the parts of the Panel. org.apache.royale.core.IBorderBead: if present, draws a border around the Panel. org.apache.royale.core.IBackgroundBead: if present, provides a colored background for the Panel.",
+  "tags": [
+  {  "tagName": "toplevel",
+         "values": []},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html.PanelWithControlBar",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "Array",
+        "qname": "controlBar",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "The items in the org.apache.royale.html.ControlBar. Setting this property automatically causes the ControlBar to display.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  { "qname": "close",
+        "type": "org.apache.royale.events.Event"
+      }]
+  }

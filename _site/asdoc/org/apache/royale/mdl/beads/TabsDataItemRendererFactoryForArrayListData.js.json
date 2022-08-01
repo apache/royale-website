@@ -1,0 +1,23 @@
+{ "type": "class",
+  "qname": "org.apache.royale.mdl.beads.TabsDataItemRendererFactoryForArrayListData",
+  "baseClassname": "org.apache.royale.html.beads.DataItemRendererFactoryForArrayList"
+  ,
+    "description": "The TabsDataItemRendererFactoryForArrayListData class reads an array of data and creates an item renderer for every ITabItemRenderer in the array.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.8"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.mdl.beads.TabsDataItemRendererFactoryForArrayListData",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": [{ "name": "target", "type": "Object"}]}
+      ]
+  }

@@ -1,0 +1,14 @@
+{ "type": "method",
+  "qname": "org.apache.royale.reflection.getAliasByClass",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "Retrieves a an alias for a class, based on an alias mapping, previously registered with registerClassAlias, or possibly using [RemoteClass(alias='someAlias')] metadata",
+  "tags": [
+  {  "tagName": "param",
+         "values": ["classObject the class to retrieve the alias for"]},
+      {  "tagName": "return",
+         "values": ["the most recently mapped alias, if found otherwise null"]}  ],
+    "return": "String",
+    "params": [{ "name": "classObject", "type": "Class"}]}

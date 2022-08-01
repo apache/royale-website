@@ -1,0 +1,15 @@
+{ "type": "method",
+  "qname": "org.apache.royale.utils.sendEvent",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "Helper function for dispatching events Using this helper function enables better minification because `dispatchEvent` cannot be minified",
+  "tags": [
+  {  "tagName": "royaleignorecoercion",
+         "values": ["org.apache.royale.events.IEventDispatcher"]},
+      {  "tagName": "royalesuppressexport",
+         "values": []}  ],
+    "return": "Boolean",
+    "params": [{ "name": "dispatcher", "type": "org.apache.royale.events.IEventDispatcher"},
+  { "name": "event", "type": "Object"}]}

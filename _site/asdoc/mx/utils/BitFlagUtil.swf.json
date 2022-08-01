@@ -1,0 +1,56 @@
+{ "type": "class",
+  "qname": "mx.utils.BitFlagUtil",
+  "baseClassname": ""
+  ,
+    "description": "BitFlagUtil is a framework internal class to help manipulate bit flags for the purpose of storing booleans effeciently in one integer.",
+  "tags": [
+  {  "tagName": "private",
+         "values": []}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.utils.BitFlagUtil",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "isSet",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "Returns true if all of the flags specified by <code>flagMask</code> are set.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "Boolean",
+          "params": [{ "name": "flags", "type": "uint"},
+        { "name": "flagMask", "type": "uint"}]}
+      ,
+      { "type": "method",
+        "qname": "update",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "Sets the flags specified by <code>flagMask</code> according to <code>value</code>. Returns the new bitflag. <code>flagMask</code> can be a combination of multiple flags.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "uint",
+          "params": [{ "name": "flags", "type": "uint"},
+        { "name": "flagMask", "type": "uint"},
+        { "name": "value", "type": "Boolean"}]}
+      ]
+  }

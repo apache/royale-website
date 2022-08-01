@@ -1,0 +1,28 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.core.IColumns",
+    "description": "The IColumns interface describes the minimum set of properties available for a component that uses columns. Examples of components are DataGrids and Tables.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.10.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "Array",
+    "qname": "columns",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "The set of Table Columns.",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.10.0"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]}]
+  }

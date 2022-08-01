@@ -1,0 +1,12 @@
+{ "type": "method",
+  "qname": "org.apache.royale.utils.getSelectionRenderBead",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "",
+  "tags": [
+  {  "tagName": "royaleignorecoercion",
+         "values": ["org.apache.royale.core.ISelectableItemRenderer"]}  ],
+    "return": "org.apache.royale.core.ISelectableItemRenderer",
+    "params": [{ "name": "renderer", "type": "org.apache.royale.core.IItemRenderer"}]}

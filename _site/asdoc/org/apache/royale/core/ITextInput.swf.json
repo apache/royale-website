@@ -1,0 +1,37 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.core.ITextInput",
+"baseInterfaceNames": [
+"org.apache.royale.core.IUIBase"]
+,
+    "description": "The IContainer interface is used to mark certain components as Containers. While most components are containers in the sense that they are composited from a set of child components, the term Container is commonly used in Flex to denote components that take an arbitrary set or sets of children and do not try to abstract away that fact.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "String",
+    "qname": "text",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "Plain text that appears in the control. Its appearance is determined by the CSS styles of this Label control.  <p>Any HTML tags in the text string are ignored, and appear as entered in the string. To display text formatted using HTML tags, use the <code>htmlText</code> property instead. If you set the <code>htmlText</code> property, the HTML replaces any text you had set using this propety, and the <code>text</code> property returns a plain-text version of the HTML text, with all HTML tags stripped out. For more information see the <code>htmlText</code> property.</p>  <p>To include the special characters left angle  bracket (&lt;), right angle bracket (&gt;), or ampersand (&amp;) in the text, wrap the text string in the CDATA tag. Alternatively, you can use HTML character entities for the special characters, for example, <code>&amp;lt;</code>.</p>  <p>If you try to set this property to <code>null</code>, it is set, instead, to the empty string. The <code>text</code> property can temporarily have the value <code>null</code>, which indicates that the <code>htmlText</code> has been recently set and the corresponding <code>text</code> value has not yet been determined.</p>",
+    "tags": [
+    {  "tagName": "default",
+           "values": [""""]},
+        {  "tagName": "helpid",
+           "values": ["3190"]},
+        {  "tagName": "tiptext",
+           "values": ["Gets or sets the TextInput content"]},
+        {  "tagName": "playerversion",
+           "values": ["Flash 10", "AIR 1.5"]},
+        {  "tagName": "productversion",
+           "values": ["Flex 4"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]}]
+  }

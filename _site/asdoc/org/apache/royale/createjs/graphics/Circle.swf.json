@@ -1,0 +1,12 @@
+{ "type": "class",
+  "qname": "org.apache.royale.createjs.graphics.Circle",
+  "baseClassname": "org.apache.royale.svg.Circle"
+  ,
+    "description": "Creates a circle.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ]}

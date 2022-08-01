@@ -1,0 +1,44 @@
+{ "type": "class",
+  "qname": "spark.components.supportClasses.RichEditableTextContainerManager",
+  "baseClassname": "org.apache.royale.textLayout.container.TextContainerManager"
+  ,
+    "description": "A subclass of TextContainerManager that manages the text in a RichEditableText component.",
+  "tags": [
+  {  "tagName": "private",
+         "values": []},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10", "AIR 1.5"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 4"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "spark.components.supportClasses.RichEditableTextContainerManager",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10", "AIR 1.5"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 4"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": [{ "name": "container", "type": "spark.components.RichEditableText"},
+        { "name": "configuration", "type": "org.apache.royale.textLayout.elements.IConfiguration"}]}
+      ,
+      { "type": "method",
+        "qname": "getTextFlowWithComposer",
+        "namespace": "mx_internal",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Note:  It is probably a TLF bug that, if delayedUpdates is true, we have to call updateAllControllers before doing a format operation to guarantee the correct results.",
+          "return": "org.apache.royale.textLayout.elements.TextFlow",
+          "params": []}
+      ]
+  }

@@ -1,0 +1,47 @@
+{ "type": "class",
+  "qname": "mx.charts.renderers.ShadowLineRenderer",
+  "baseClassname": "mx.skins.ProgrammaticSkin"
+  ,
+    "description": "An implementation of a line segment renderer that is used by LineSeries objects. This class renders a line on screen with a dropshadow by using the stroke and form defined by the owning series's <code>lineStroke</code> and <code>form</code> styles, respectively. <p>ShadowLineRenderer is the default lineSegmentRenderer for the LineSeries class.</p>",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.charts.renderers.ShadowLineRenderer",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "Object",
+        "qname": "data",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "The chart item that this renderer represents. ShadowLineRenderers assume that this value is an instance of LineSeriesItem. This value is assigned by the owning series.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  }

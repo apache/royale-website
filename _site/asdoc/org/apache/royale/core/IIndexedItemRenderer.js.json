@@ -1,0 +1,31 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.core.IIndexedItemRenderer",
+"baseInterfaceNames": [
+"org.apache.royale.core.IItemRenderer"]
+,
+    "description": "The IIndexedItemRenderer interface is the basic interface for item renderers that have an index property that indicates its index in the list of renderers.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "int",
+    "qname": "index",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "The index of the item renderer.",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.0"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]}]
+  }

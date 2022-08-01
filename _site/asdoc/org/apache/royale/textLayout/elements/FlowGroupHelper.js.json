@@ -1,0 +1,29 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.elements.FlowGroupHelper",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "setMxmlChildren",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "group", "type": "org.apache.royale.textLayout.elements.IFlowGroupElement"},
+        { "name": "array", "type": "Array"}]}
+      ,
+      { "type": "method",
+        "qname": "getText",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "return": "String",
+          "params": [{ "name": "group", "type": "org.apache.royale.textLayout.elements.IFlowGroupElement"},
+        { "name": "text", "type": "String"},
+        { "name": "relativeStart", "type": "int"},
+        { "name": "relativeEnd", "type": "int"},
+        { "name": "paragraphSeparator", "type": "String"}]}
+      ]
+  }

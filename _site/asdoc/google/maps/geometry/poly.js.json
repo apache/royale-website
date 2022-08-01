@@ -1,0 +1,60 @@
+{ "type": "class",
+  "qname": "google.maps.geometry.poly",
+  "baseClassname": ""
+  ,
+    "description": "",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["[google_maps_api_v3_11]"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "google.maps.geometry.poly",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "see",
+               "values": ["[google_maps_api_v3_11]"]}  ],
+          "return": "void",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "containsLocation",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "see",
+               "values": ["[google_maps_api_v3_11]"]},
+            {  "tagName": "param",
+               "values": ["point [(google.maps.LatLng|null)]", "polygon [(google.maps.Polygon|null)]"]},
+            {  "tagName": "returns",
+               "values": ["{boolean}"]}  ],
+          "return": "Boolean",
+          "params": [{ "name": "point", "type": "google.maps.LatLng"},
+        { "name": "polygon", "type": "google.maps.Polygon"}]}
+      ,
+      { "type": "method",
+        "qname": "isLocationOnEdge",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "see",
+               "values": ["[google_maps_api_v3_11]"]},
+            {  "tagName": "param",
+               "values": ["point [(google.maps.LatLng|null)]", "poly [(google.maps.Polygon|google.maps.Polyline|null)]", "opt_tolerance [(number|undefined)]"]},
+            {  "tagName": "returns",
+               "values": ["{boolean}"]}  ],
+          "return": "Boolean",
+          "params": [{ "name": "point", "type": "google.maps.LatLng"},
+        { "name": "poly", "type": "Object"},
+        { "name": "opt_tolerance", "type": "Number"}]}
+      ]
+  }

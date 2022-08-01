@@ -1,0 +1,37 @@
+{ "type": "class",
+  "qname": "spark.components.CheckBox",
+  "baseClassname": "spark.components.supportClasses.ToggleButtonBase"
+  ,
+    "description": "The CheckBox component consists of an optional label and a small box that can contain a check mark or not.  <p>When a user clicks a CheckBox component or its associated text, the CheckBox component sets its <code>selected</code> property to <code>true</code> for checked, and to <code>false</code> for unchecked.</p>  <p>To use this component in a list-based component, such as a List or DataGrid, create an item renderer. For information about creating an item renderer, see <a href=&quot;http://help.adobe.com/en_US/flex/using/WS4bebcd66a74275c3-fc6548e124e49b51c4-8000.html&quot;> Custom Spark item renderers</a>. </p>  <p>The CheckBox control has the following default characteristics:</p> <table class=&quot;innertable&quot;> <tr> <th>Characteristic</th> <th>Description</th> </tr> <tr> <td>Default size</td> <td>Wide enough to display the text label of the control</td> </tr> <tr> <td>Minimum size</td> <td>18 pixels wide and 18 pixels high</td> </tr> <tr> <td>Maximum size</td> <td>10000 pixels wide and 10000 pixels high</td> </tr> <tr> <td>Default skin class</td> <td>spark.skins.spark.CheckBoxSkin</td> </tr> </table>   <p>The <code>&lt;s:CheckBox&gt;</code> tag inherits all of the tag attributes of its superclass and adds the following attributes:</p> <pre>\\n &lt;s:CheckBox\\n <strong>Properties</strong>\\n symbolColor=&quot;0x000000&quot;\\n /&gt;\\n </pre>",
+  "tags": [
+  {  "tagName": "includeExample",
+         "values": ["examples/CheckBoxExample.mxml"]},
+      {  "tagName": "see",
+         "values": ["spark.skins.spark.CheckBoxSkin"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10", "AIR 1.5"]},
+      {  "tagName": "mxml",
+         "values": []},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.4"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "spark.components.CheckBox",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10", "AIR 1.5"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.4"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ]
+  }

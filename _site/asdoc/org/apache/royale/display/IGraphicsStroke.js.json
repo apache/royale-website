@@ -1,0 +1,14 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.display.IGraphicsStroke",
+  "members": [
+  { "type": "method",
+    "qname": "apply",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "return": "SVGPathElement",
+      "params": [{ "name": "graphics", "type": "org.apache.royale.display.Graphics"},
+    { "name": "element", "type": "SVGPathElement"}]}
+  ]
+  }

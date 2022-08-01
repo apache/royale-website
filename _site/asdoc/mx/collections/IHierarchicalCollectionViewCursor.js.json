@@ -1,0 +1,33 @@
+{ "type": "interface",
+  "qname": "mx.collections.IHierarchicalCollectionViewCursor",
+"baseInterfaceNames": [
+"mx.collections.IViewCursor"]
+,
+    "description": "The IHierarchicalCollectionViewCursor interface defines the interface for enumerating a hierarchical collection view bidirectionally. This cursor provides capabilities to find the current depth of an item.",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["mx.collections.IViewCursor", "mx.controls.IHierarchicalCollectionView"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-only",
+    "return": "int",
+    "qname": "currentDepth",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "Contains the depth of the node at the location in the source collection referenced by this cursor. If the cursor is beyond the end of the collection, this property contains 0.",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 9", "AIR 1.1"]},
+        {  "tagName": "productversion",
+           "values": ["Flex 3"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]}]
+  }

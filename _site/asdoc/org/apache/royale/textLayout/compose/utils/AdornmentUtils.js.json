@@ -1,0 +1,35 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.compose.utils.AdornmentUtils",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "updateIMEAdornments",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.textLayout.compose.ITextFlowLine"]}  ],
+          "return": "void",
+          "params": [{ "name": "element", "type": "org.apache.royale.textLayout.elements.IFlowLeafElement"},
+        { "name": "tLine", "type": "org.apache.royale.text.engine.ITextLine"},
+        { "name": "blockProgression", "type": "String"},
+        { "name": "imeStatus", "type": "String"}]}
+      ,
+      { "type": "method",
+        "qname": "calculateUnderlineOffset",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "return": "Number",
+          "params": [{ "name": "element", "type": "org.apache.royale.textLayout.elements.IFlowLeafElement"},
+        { "name": "stOffset", "type": "Number"},
+        { "name": "blockProgression", "type": "String"},
+        { "name": "metrics", "type": "org.apache.royale.text.engine.FontMetrics"},
+        { "name": "textLine", "type": "org.apache.royale.text.engine.ITextLine"}]}
+      ]
+  }

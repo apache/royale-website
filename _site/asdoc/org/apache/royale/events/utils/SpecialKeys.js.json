@@ -1,0 +1,22 @@
+{ "type": "class",
+  "qname": "org.apache.royale.events.utils.SpecialKeys",
+  "baseClassname": ""
+  ,
+    "description": "This class holds constants for special keys See: https://w3c.github.io/uievents-key/#keys-special See: https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key/Key_Values#Special_values",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.8"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "field",
+        "qname": "UNIDENTIFIED",
+        "return": "String",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "The user agent wasn't able to map the event's virtual keycode to a specific key value. This can happen due to hardware or software constraints, or because of constraints around the platform on which the user agent is running."}]
+  }

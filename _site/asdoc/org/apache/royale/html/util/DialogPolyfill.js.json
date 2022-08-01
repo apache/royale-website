@@ -1,0 +1,25 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.util.DialogPolyfill",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html.util.DialogPolyfill",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "<inject_script> var script = document.createElement(&quot;script&quot;); script.setAttribute(&quot;src&quot;, &quot;https://cdnjs.cloudflare.com/ajax/libs/dialog-polyfill/0.4.9/dialog-polyfill.min.js&quot;); document.head.appendChild(script) var link = document.createElement(&quot;link&quot;); link.setAttribute(&quot;rel&quot;, &quot;stylesheet&quot;); link.setAttribute(&quot;type&quot;, &quot;text/css&quot;); link.setAttribute(&quot;href&quot;, &quot;https://cdnjs.cloudflare.com/ajax/libs/dialog-polyfill/0.4.9/dialog-polyfill.min.css&quot;); document.head.appendChild(link); </inject_script>",
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "registerDialog",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "dialog", "type": "Element"}]}
+      ]
+  }

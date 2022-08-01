@@ -1,0 +1,91 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.beads.OutOfApplicationDropTargetBead",
+  "baseClassname": "org.apache.royale.events.EventDispatcher"
+  ,
+    "description": "The OutOfApplicationDropTargetBead enables items to be dropped outside of the application",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.7"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html.beads.OutOfApplicationDropTargetBead",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.7"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "write-only",
+        "return": "org.apache.royale.core.IStrand",
+        "qname": "strand",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "private",
+               "values": []},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.events.IEventDispatcher"]}  ]}]
+  ,
+  "events": [
+  { "qname": "enter",
+        "type": "org.apache.royale.events.Event"
+      ,
+          "description": "The enter event is dispatched when a DragEnter has been detected in the drop target strand. This event can be used to determine if the strand can and will accept the data being dragged onto it. If the data cannot be used by the drop target strand this event should be cancelled.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.7"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]},
+      { "qname": "exit",
+        "type": "org.apache.royale.events.Event"
+      ,
+          "description": "The exit event is sent when the drag goes outside of the drop target space.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.7"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]},
+      { "qname": "drop",
+        "type": "org.apache.royale.events.Event"
+      ,
+          "description": "The complete event is dispatched when the drop operation has completed from the drop target's perspective.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.7"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]},
+      { "qname": "complete",
+        "type": "org.apache.royale.events.Event"
+      ,
+          "description": "The drop event is dispatched when the drop operation is about to be completed. DragEvent.dragSource is still available and default can still be prevented.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.7"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  }

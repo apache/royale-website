@@ -1,0 +1,10 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.html.beads.IGraphicsDrawing",
+    "description": "The IGraphicsDrawing interface is a marker interface for beads that draw into the graphics layer.  This helps a bead determine if it is the first of many graphics drawing beads so it can know whether or not to clear the graphics layer before drawing.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ]}

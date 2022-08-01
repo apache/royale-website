@@ -1,0 +1,34 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.core.IRemovableBead",
+"baseInterfaceNames": [
+"org.apache.royale.core.IBead"]
+,
+    "description": "The IRemovableBead interface is an interface for beads that need to do some work before beign removed from the strand calling tearDown method like clean listeners.",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["org.apache.royale.core.IStrand#getBeadByType"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.8"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+    "qname": "tearDown",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "The actions needed before the removal",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.9.8"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ],
+      "return": "void",
+      "params": []}
+  ]
+  }

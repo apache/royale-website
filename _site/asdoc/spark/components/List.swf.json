@@ -1,0 +1,37 @@
+{ "type": "class",
+  "qname": "spark.components.List",
+  "baseClassname": "spark.components.supportClasses.ListBase"
+  ,
+    "description": "The List control displays a vertical list of items. Its functionality is similar to that of the SELECT form element in HTML. If there are more items than can be displayed at once, it can display a vertical scroll bar so the user can access all items in the list. An optional horizontal scroll bar lets the user view items when the full width of the list items is unlikely to fit. The user can select one or more items from the list, depending on the value of the <code>allowMultipleSelection</code> property.  <p><b>Note: </b>The Spark list-based controls (the Spark ListBase class and its subclasses such as ButtonBar, ComboBox, DropDownList, List, and TabBar) do not support the BasicLayout class as the value of the <code>layout</code> property. Do not use BasicLayout with the Spark list-based controls.  When a layout is specified, the layout's typicalLayoutElement property should not be set; it's automatically set to an item renderer created with the List's <code>typicalItem</code>.</p>  <p>To use this component in a list-based component, such as a List or DataGrid, create an item renderer. For information about creating an item renderer, see <a href=&quot;http://help.adobe.com/en_US/flex/using/WS4bebcd66a74275c3-fc6548e124e49b51c4-8000.html&quot;> Custom Spark item renderers</a>. </p>  <p>The List control has the following default characteristics:</p> <table class=&quot;innertable&quot;> <tr><th>Characteristic</th><th>Description</th></tr> <tr><td>Default size</td><td>112 pixels wide by 112 pixels high</td></tr> <tr><td>Minimum size</td><td>112 pixels wide by 112 pixels high</td></tr> <tr><td>Maximum size</td><td>10000 pixels wide and 10000 pixels high</td></tr> <tr><td>Default skin class</td><td>spark.skins.spark.ListSkin</td></tr> </table>  attributes of its superclass and adds the following tag attributes:</p>  <pre>\\n &lt;s:List\\n <strong>Properties</strong>\\n allowMultipleSelection=&quot;false&quot;\\n dragEnabled=&quot;false&quot;\\n dragMoveEnabled=&quot;false&quot;\\n dropEnabled=&quot;false&quot;\\n selectedIndices=&quot;null&quot;\\n selectedItems=&quot;null&quot;\\n useVirtualLayout=&quot;true&quot;\\n \\n <strong>Styles</strong>\\n alternatingItemColors=&quot;undefined&quot;\\n borderAlpha=&quot;1.0&quot;\\n borderColor=&quot;0#CCCCCC&quot;\\n borderVisible=&quot;true&quot;\\n contentBackgroundColor=&quot;0xFFFFFF&quot;\\n downColor=&quot;0xA8C6EE&quot;\\n dragIndicator=&quot;ListItemDragProxy&quot;\\n dropIndicatorSkin=&quot;ListDropIndicator&quot;\\n rollOverColor=&quot;0xCEDBEF&quot;\\n selectionColor=&quot;0xA8C6EE&quot;\\n symbolColor=&quot;0x000000&quot;\\n /&gt;\\n </pre>",
+  "tags": [
+  {  "tagName": "includeExample",
+         "values": ["examples/ListExample.mxml"]},
+      {  "tagName": "see",
+         "values": ["spark.skins.spark.ListSkin"]},
+      {  "tagName": "mxml",
+         "values": ["<p>The <code>&lt;s:List&gt;</code> tag inherits all of the tag"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10", "AIR 1.5"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 4"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "spark.components.List",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10", "AIR 1.5"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 4"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ]
+  }

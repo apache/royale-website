@@ -1,0 +1,265 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="CACHE-CONTROL" content="NO-CACHE"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><meta http-equiv="X-UA-Compatible" content="ie=edge"><title>How to create a Desktop Application with Royale and Electron</title><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"><link rel="stylesheet" href="/css/styles.css"><link rel="shortcut icon" href="/img/favicon.ico"></head><body class="page post" id="main"><header class="docs-header"><div class="container"><div class="topbar"><div class="topbar-left"><a href="/"><span class="site-title">Apache Royale</span></a></div><div class="topbar-center"></div><div class="topbar-right"><button class="topMenu-dropbtn"><i class="fa fa-bars"></i>&nbsp;Menu</button><ul class="topMenu"><li><a href="/features">Features</a></li><li><a href="https://apache.github.io/royale-docs/get-started">Get Started</a></li><li><a href="/download">Download</a></li><li><a href="/docs">Docs</a></li><li><a href="/blog">Blog</a></li><li><a href="https://github.com/apache/royale-asjs/wiki/Apache-Royale-Source-Code-Repositories"><i class="fa fa-github"></i> GitHub</a></li></ul></div></div><div class="post-header"><h1>How to create a Desktop Application with Royale and Electron</h1><div class="post-meta">by Judah Frangipane on March 26, 2020</div></div></div></header><div class="page-content"><div class="container"><article><p>With <strong>Apache Royale</strong> and <strong>Electron</strong> you can publish your projects to desktop applications. In this guide you'll learn how to do that.</p><p>The short version is to create an Electron project, create an Apache Royale project inside of that and then point the Electron app to the generated Apache Royale html page. You then communicate through the ipcRenderer. We'll be using Visual Studio Code for this guide. The complete example project is attached at the end.</p><p>Prerequisites:</p><ul><li>Install Visual Studio Code – <a href="https://code.visualstudio.com/">Link</a></li><li>Install ActionScript &amp; MXML plugin <em>(required – also included in the extension pack below)</em> – <a href="https://marketplace.visualstudio.com/items?itemName=bowlerhatllc.vscode-nextgenas">Link</a></li><li>Install npm <em>(required)</em> – <a href="https://blog.teamtreehouse.com/install-node-js-npm-mac">Link</a></li><li>Install Apache Royale SDK <em>(required)</em> – <a href="https://royale.apache.org/download/">Link</a></li><li>Install Electron plugin – <a href="https://marketplace.visualstudio.com/items?itemName=kodetech.electron-debug">Link</a></li><li>Install Firefox Debugger plugin – <a href="https://marketplace.visualstudio.com/items?itemName=hbenl.vscode-firefox-debug">Link</a></li><li>Install Git – <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">Link</a></li><li>Extension pack that includes AS3 &amp; MXML plugin, AS3 projects and AS3 snippets – <a href="https://marketplace.visualstudio.com/items?itemName=neminovno.flex-and-actionscript-extension-pack">Link</a></li></ul><h2>Create an Electron project</h2><p>A basic Electron application needs just these files:</p><ul><li><strong>package.json</strong> – This points to the app's main file and lists its details and dependencies.</li><li><strong>main.js</strong> – Starts the app and creates a browser window to render HTML. This is the app's <strong><em>main process</em></strong>.</li><li><strong>index.html</strong> – A web page to render. This is the app's <strong><em>renderer process</em></strong>.</li></ul><p>You also need a reference to an Electron development instance. This can be in the form of a <strong>/node_modules</strong> directory in your project or a reference to another external location. We will show two ways to reference it.</p><h2>Creating a New Project</h2><p>Visual Studio Code doesn't have a <strong>New Project</strong> menu option that you might be used to from using Flash Builder or other IDEs. Some extensions will set up new projects for you.</p><p>Instead you create a folder and define configuration files in the folder. Visual Studio Code then looks for those settings and uses them to set up the environment and provide code intelligence.</p><p>Open Visual Studio Code (if it is open already, create a new instance with Command + Shift + N or Control + Shift + N) and then click on Open Folder.</p><p><img src="/img/blog/electron-visual-studio-code-welcome.png" alt=""></p><p>Create a new folder named &quot;Electron-Royale&quot;, select it and then click <strong>Open</strong>.</p><p><img src="/img/blog/open-electron-royale.png" alt=""></p><p>A new <strong>Explorer</strong> section opens.</p><p><img src="/img/blog/electron-new-blank-project.png" alt=""></p><p><em>New Visual Studio Project (showing Welcome screen)</em></p><p>On the right side of the screen (or left) you see the Explorer section. Under that you the &quot;<strong>Electron-Royale</strong>&quot; area. That is our project folder.</p><p>In the heading are the <strong>New File</strong>, <strong>New Folder</strong>, <strong>Refresh</strong> and <strong>Collapse</strong> buttons. They appear when you hover the mouse pointer over the header area.</p><p><img src="/img/blog/electron-project-folder.png" alt=""></p><p><em>Project Folder</em></p><p>Open files appear in the <strong>Open Editors</strong> view:</p><p><img src="/img/blog/electron-open-editors.png" alt=""></p><p><em>Open Editors area</em></p><p>If the Welcome screen is still open, click the X button to close it.</p><p>For an Electron app we create this folder structure:</p><pre><code>your-app/
+├── package.json
+├── main.js
+└── index.html
+</code></pre><p>If you haven't created an Electron app before, read this short <a href="https://electronjs.org/docs/tutorial/first-app">overview</a> page and then return here.</p><p>There are extensions that can create the project for us but we're going to do it by hand for this guide. Why? You will be editing these options frequently until the project is set up.</p><p>Create the <strong>package.json</strong> in the root directory by clicking the <strong>New File</strong> button and adding the following:</p><pre><code class="language-json">{
+   &quot;name&quot;: &quot;electron-royale-app&quot;,
+   &quot;version&quot;: &quot;1.0.0&quot;,
+   &quot;description&quot;: &quot;Electron and Royale&quot;,
+   &quot;main&quot;: &quot;main.js&quot;,
+   &quot;scripts&quot;: {
+      &quot;start&quot;: &quot;electron .&quot;
+   },
+   &quot;devDependencies&quot;: {
+      &quot;electron&quot;: &quot;^5.0.1&quot;
+   }
+}
+</code></pre><p>You could also create the <strong>package.json</strong> project by using the <strong>npm init</strong> command.</p><p>Open a new <strong>Terminal</strong> window (built in to Visual Studio Code):</p><p><img src="/img/blog/electron-terminal-window.png" alt=""></p><p><em>New Terminal Window</em></p><p>In the Window that opens enter the following command and follow the prompts:</p><pre><code class="language-sh">npm init
+</code></pre><p>You can simply press enter multiple times and type the values into the editor afterwards:</p><p><img src="/img/blog/electron-npm-init.png" alt=""></p><p><em>Prompts from npm init</em></p><p>Type <strong>yes</strong> to confirm. Visual Studio creates a new <strong>package.json</strong> file in the root directory. A few of the values will be different, so set them back to the values we have above.</p><p>Now we create the main Electron js file <strong>main.js</strong>. Note: There are other examples that use <strong>index.js</strong> instead.</p><p>Click the <strong>New File</strong> button and name the file <strong>main.js</strong>:</p><p><img src="/img/blog/electron-main-js.png" alt=""></p><p><em>Main js</em></p><p>Again, read this <a href="https://electronjs.org/docs/tutorial/first-app">overview page</a> if you are new to Electron, and then return here.</p><p>Enter the following for <strong>main.js</strong>:</p><pre><code class="language-js">const { app, BrowserWindow } = require('electron')
+
+// Keep a global reference of the window object. If you don't, the window will
+// close automatically when the JavaScript object is garbage collected.
+let win
+
+function createWindow () {
+  // Create the browser window.
+  win = new BrowserWindow({
+    width: 800,
+    height: 600,
+    webPreferences: {
+      nodeIntegration: true
+    }
+  })
+
+  // and load the index.html of the app.
+  win.loadFile('index.html')
+
+  // Open the DevTools.
+  //win.webContents.openDevTools()
+
+  // Emitted when the window is closed.
+  win.on('closed', () =&gt; {
+    // Dereference the window object, usually you would store windows
+    // in an array if your app supports multi windows, this is the time
+    // when you should delete the corresponding element.
+    win = null
+  })
+}
+
+// This method will be called when Electron has finished
+// initialization and is ready to create browser windows.
+// Some APIs can only be used after this event occurs.
+app.on('ready', createWindow)
+
+// Quit when all windows are closed.
+app.on('window-all-closed', () =&gt; {
+  // On macOS it is common for applications and their menu bar
+  // to stay active until the user quits explicitly with Cmd + Q
+  if (process.platform !== 'darwin') {
+    app.quit()
+  }
+})
+
+app.on('activate', () =&gt; {
+  // On macOS it's common to re-create a window in the app when the
+  // dock icon is clicked and there are no other windows open.
+  if (win === null) {
+    createWindow()
+  }
+})
+
+// In this file you can include the rest of your app's specific main process
+// code. You can also put them in separate files and require them here.
+</code></pre><p>Note: Some code may be affected by the copy and paste process. If any code is encoded into HTML entities then you will see an error. Simply convert them back to the greater than or less than characters. Use the example project at the end for comparison.</p><p>We then need to create an HTML page to display in our Electron app.</p><p>Click the <strong>New File</strong> button, name it <strong>index.html</strong> and then enter the following value:</p><pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;title&gt;Hello World!&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Hello World!&lt;/h1&gt;
+    We are using node &lt;script&gt;document.write(process.versions.node)&lt;/script&gt;,
+    Chrome &lt;script&gt;document.write(process.versions.chrome)&lt;/script&gt;,
+    and Electron &lt;script&gt;document.write(process.versions.electron)&lt;/script&gt;.
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre><p>We have one last step before running our project. We need the Electron <strong>node_modules</strong> folder (or a reference to it).</p><p>We can install this folder locally to our project or, if we've installed the Electron plugin, we can use that.</p><p>Let's use the extension first and then do it manually after.</p><p>Install the Electron plugin above and then click the <strong>Debug</strong> button that runs along the edge of Visual Studio Code. When you click it, it opens the <strong>Debug</strong> view:</p><p><img src="/img/blog/electron-vscode-debug-view.png" alt=""></p><p>Here you can launch different tasks, including debugging your application.</p><p>Click the <strong>No configurations</strong> dropdown list and you'll see <strong>Add Configuration</strong>. Click that.</p><p><img src="/img/blog/electron-add-configuration.png" alt=""></p><p><em>Add Configuration option</em></p><p>This will show a list of options, including one called <strong>Electron</strong>. Select this option.</p><p><img src="/img/blog/electron-configuration.png" alt=""></p><p><em>Electron Launch Configuration</em></p><p>When you select <strong>Electron</strong> from the dropdown list, a <strong>launch.json</strong> file is created and placed in a <strong>.vscode</strong> folder in the root of your project, and the <strong>launch.json</strong> file opens in an editor tab.</p><p><img src="/img/blog/electron-launch-json.png" alt=""></p><p><em>Launch Configuration</em></p><p>You can see the configuration is a simple JSON string like our other configurations.</p><p>Let's update the name to <strong>Launch Electron</strong> and save the document. You can see the name updated in the Debug view:</p><p><img src="/img/blog/launch-electron.png" alt=""></p><p><em>Launch Electron button</em></p><p>Now, to launch your first Electron app you can use <strong>npm start</strong> from the Terminal view, or you can click the <strong>Launch</strong> button in the Debug view. For this guide use the <strong>Launch</strong> button.</p><p>If everything went correctly your first Electron app appears. Congratulations!</p><p><img src="/img/electron-hello-world.png" alt=""></p><p><em>Hello World in Electron</em></p><p>Shortly after opening it it will show the Chrome dev tools:</p><p><img src="/img/blog/electron-hello-world-dev-tools.png" alt=""></p><p><em>Dev tools</em></p><p>You can use the Dev tools to set breakpoints, inspect the page elements and more.</p><p>Let's prevent the dev tools from opening for now. You can re-enable them later.</p><p>Open main.js and find and comment out or remove the line below, then save the document:</p><pre><code class="language-js">win.webContents.openDevTools();
+</code></pre><p>When you're debugging a session in Visual Studio Code a debug bar appears:</p><p><img src="/img/blog/electron-debug-bar.png" alt=""></p><p><em>Debug bar appearing</em></p><p>Use that to <strong>Pause</strong>, <strong>Continue</strong>, <strong>Step Over</strong>, <strong>Step Into</strong>, <strong>Step Out of</strong>, <strong>Reload</strong> or <strong>Stop</strong> your app. You can dock this bar through an option in the VSC preferences… <em>Code &gt; Preferences &gt; Settings &gt; Tool bar location &gt; docked</em>.</p><h2>Install Electron in the Project</h2><p>We can set up Electron manually as well, and in this case we install it inside the project folder.</p><p>The reason to install it in the project is so we can switch between different versions and maintain control of our dependencies. The downside is that the project has to download an Electron instance and each project instance will take up additional space. If you work on a project on a team it's recommended to keep the instance in your project but not to commit it into version control.</p><p>Note: We can have Electron installed inside our project and use the electron install from the Electron plugin or reference another instance externally. Our launch configurations will allow that.</p><p>We are going to install Electron in to our root project directory.</p><p>Close the app if it is open by going to the menu and choosing <strong>Quit your-app</strong>.</p><p><img src="/img/blog/electron-app-quit-menu.png" alt=""></p><p><em>Quit menu</em></p><p>Open the built in Terminal and enter the following <strong>npm</strong> command:</p><pre><code class="language-sh">npm install --save-dev electron
+</code></pre><p>Electron will begin downloading the <strong>node_modules</strong> and its progress will show in the Terminal view:</p><p><img src="/img/blog/downloading-electron-1.png" alt=""></p><p><em>Downloading…</em></p><p><img src="/img/blog/downloading-electron-2.png" alt=""></p><p><em>Download Complete</em></p><p>When the download is complete you see a new folder in your project called <strong>node_modules</strong>:</p><p><img src="/img/blog/electron-node-module-folder.png" alt=""></p><p><em>Node installed locally</em></p><p>You will also see that <strong>npm install</strong> creates a <strong>package-lock.json</strong> file.</p><p>The file <strong>package-lock.json</strong> is like a quick save for your project. Using it, you or your teammates can restore the dependencies to a specific versioned state. It's described more <a href="https://stackoverflow.com/a/50868741/441016">here</a>, <a href="https://stackoverflow.com/a/55606805/441016">here</a> and <a href="https://stackoverflow.com/a/55318035/441016">here</a>. Commit this configuration instead of the <strong>node_modules</strong> directory when using version control.</p><p>Once the Node modules have been downloaded we may need to manually create the <strong>.vscode</strong> directory and the <strong>launch.json</strong> configuration. Create the <strong>.vscode</strong> directory and <strong>launch.json</strong> file and enter the value below:</p><pre><code class="language-json">{
+   &quot;version&quot;: &quot;0.2.0&quot;,
+   &quot;configurations&quot;: [
+      {
+         &quot;name&quot;: &quot;Debug Main Electron Process&quot;,
+         &quot;type&quot;: &quot;node&quot;,
+         &quot;request&quot;: &quot;launch&quot;,
+         &quot;cwd&quot;: &quot;${workspaceRoot}&quot;,
+         &quot;runtimeExecutable&quot;: &quot;${workspaceRoot}/node_modules/.bin/electron&quot;,
+         &quot;windows&quot;: {
+            &quot;runtimeExecutable&quot;: &quot;${workspaceRoot}/node_modules/.bin/electron.cmd&quot;
+         },
+         &quot;args&quot; : [&quot;.&quot;],
+         &quot;outputCapture&quot;: &quot;std&quot;
+      }
+   ]
+}
+</code></pre><p>Since the <strong>launch.json</strong> already exists we can <strong>add</strong> our new configuration settings to it.</p><p>BTW notice in the launch configuration above that the <strong>type</strong> is <strong>node</strong> and that <strong>runtimeExecutable</strong> options are defined.</p><p>Let's <em>add</em> our new manual configuration next to our existing extension-created configuration. Open <strong>launch.json</strong> config and use the values below:</p><pre><code class="language-json">{
+   &quot;version&quot;: &quot;0.2.0&quot;,
+   &quot;configurations&quot;: [
+      {
+         &quot;type&quot;: &quot;electron&quot;,
+         &quot;request&quot;: &quot;launch&quot;,
+         &quot;name&quot;: &quot;Launch Electron&quot;,
+         &quot;appDir&quot;: &quot;${workspaceFolder}&quot;
+      },
+      {
+         &quot;name&quot;: &quot;Debug Main Electron Process&quot;,
+         &quot;type&quot;: &quot;node&quot;,
+         &quot;request&quot;: &quot;launch&quot;,
+         &quot;cwd&quot;: &quot;${workspaceRoot}&quot;,
+         &quot;runtimeExecutable&quot;: &quot;${workspaceRoot}/node_modules/.bin/electron&quot;,
+         &quot;windows&quot;: {
+            &quot;runtimeExecutable&quot;: &quot;${workspaceRoot}/node_modules/.bin/electron.cmd&quot;
+         },
+         &quot;args&quot; : [&quot;.&quot;],
+         &quot;outputCapture&quot;: &quot;std&quot;
+      }
+   ]
+}
+</code></pre><p>You'll see why we have added both later.</p><p>I recommend you read about the Electron Architecture <a href="https://electronjs.org/docs/tutorial/application-architecture">here</a> and then continue.</p><p>You can read more here:</p><ul><li>Electron Quick Start – <a href="https://electronjs.org/docs/tutorial/quick-start">link</a></li><li>Electron Quick Start project – <a href="https://github.com/electron/electron-quick-start">link</a></li><li>Your first Electron project – <a href="https://electronjs.org/docs/tutorial/first-app">link</a></li><li>Electron Architecture – <a href="https://electronjs.org/docs/tutorial/application-architecture">link</a></li></ul><h2>Create an Apache Royale project</h2><p>Now we are going to create our Apache Royale project.</p><p>Make sure you have the AS3 &amp; MXML extension installed as mentioned above. This requires Java 1.8. An install page is listed <a href="https://github.com/BowlerHatLLC/vscode-as3mxml/wiki/Install-the-ActionScript-and-MXML-extension-for-Visual-Studio-Code">here</a>.</p><p>Once the extension is installed you need to point to the Apache Royale SDK in the project. We will do it manually and you can see how to have the extension do it at the <a href="https://github.com/BowlerHatLLC/vscode-as3mxml/wiki/Install-the-ActionScript-and-MXML-extension-for-Visual-Studio-Code">link</a> provided earlier.</p><p>Open the <strong>Explorer</strong> view and open the <strong>.vscode</strong> directory.</p><p>In that directory create a <strong>settings.json</strong> file:</p><p><img src="/img/blog/electron-settings.png" alt=""></p><p><em>Apache Royale SDK settings.json</em></p><p>Enter the following text:</p><pre><code class="language-json">{
+   &quot;as3mxml.sdk.framework&quot;: &quot;/Users/user/Documents/Royale_SDK/apache-royale-0.9.4-bin-js/royale-asjs&quot;
+}
+</code></pre><p>That will not work as is. You need to enter the path to the directory where you downloaded and installed the Apache Royale SDK.</p><p>There is a more in-depth guide <a href="https://github.com/BowlerHatLLC/vscode-as3mxml/wiki/Choose-an-ActionScript-SDK-for-the-current-workspace-in-Visual-Studio-Code">here</a> that shows how to set up the SDK with the help of the AS3 &amp; Flex extension. You can use the information to confirm the SDK is available to your project.</p><p>Once the SDK is set up you'll need to add an <a href="https://github.com/BowlerHatLLC/vscode-as3mxml/wiki/asconfig.json"><strong>asconfig.json</strong></a> to your project. The <strong>asconfig.json</strong> file is used to add code intelligence to AS3 and MXML files.</p><p>Open the Explorer view, select the root project directory, and create a new file with the <strong>New File</strong> button. Name it <strong>asconfig.json</strong>.</p><p><img src="/img/blog/electron-asconfig.png" alt=""></p><p><em>asconfig in project directory</em></p><p>Open the <strong>asconfig.json</strong> file and enter the following:</p><pre><code class="language-json">{
+   &quot;compilerOptions&quot;: {
+      &quot;source-map&quot;: true,
+      &quot;html-template&quot;: &quot;index.html&quot;,
+      &quot;theme&quot;: &quot;${royalelib}/themes/JewelTheme/src/main/resources/defaults.css&quot;
+   },
+   &quot;additionalOptions&quot;: &quot;-warn-public-vars=false&quot;,
+   &quot;files&quot;:
+   [
+      &quot;src/HelloWorld.mxml&quot;
+   ]
+}
+</code></pre><p>Notice the page we are pointing to in the <strong>html-template</strong> option. This is the Electron <strong>index.html</strong> page. We will use this as the Royale app <em>template page</em>.</p><p>Note: We can use any page as a template but we need to update the page with special tokens that the Apache Royale compiler looks for.</p><p>Note: In the theme option we have a token for <strong>royalelib</strong>. If you have any issues with this, if the components do not look like they have any theme, then you may have to use the full path to your Royale install.</p><p>For example, you may have to use something like:</p><pre><code>&quot;C:/ApacheFlexInstall/apache-royale-0.9.6-bin-js-swf/royale-asjs/frameworks/themes/JewelTheme/src/main/resources/defaults.css&quot;
+</code></pre><p>Note: We can add another configuration option called <strong>config</strong> that will provide us with code intelligence for the node APIs (see first line).</p><pre><code class="language-json">{
+   &quot;config&quot;: &quot;node&quot;,
+   &quot;compilerOptions&quot;: {
+      &quot;source-map&quot;: true,
+      &quot;html-template&quot;: &quot;index.html&quot;,
+      &quot;theme&quot;: &quot;${royalelib}/themes/JewelTheme/src/main/resources/defaults.css&quot;
+   },
+   &quot;additionalOptions&quot;: &quot;-warn-public-vars=false&quot;,
+   &quot;files&quot;:
+   [
+      &quot;src/HelloWorld.mxml&quot;
+   ]
+}
+</code></pre><p>This shows us classes and code completion for some Node APIs (possibly only for the Main process). The issue when we use this option is we get an error on the first line of our MXML document:</p><blockquote><p>This tag could not be resolved to an ActionScript class. It will be ignored. js:Application</p></blockquote><p>You can have this option enabled and choose to Debug anyway and it will run. For now, remove this option and add it in later if appropriate as needed.</p><p>Let's continue and update our HTML page to our HTML template.</p><p>Open the <strong>index.html</strong> page in the root of the project directory and enter the following HTML:</p><pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=utf-8&quot;&gt;
+    &lt;meta name=&quot;Custom Template for injecting custom style CSS&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no&quot; /&gt;
+    &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;${application}.css&quot;&gt;
+    &lt;link href=&quot;//fonts.googleapis.com/css?family=Lato:400,700&quot; rel=&quot;stylesheet&quot;&gt;
+${head}
+&lt;/head&gt;
+&lt;body&gt;
+${body}
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre><p>Notice we have the <code>${head}</code> and <code>${body}</code> tokens.</p><p>Now we need to create a new directory for our application.</p><p>In the root of the project create a directory named src and create an MXML document in that directory named <strong>HelloWorld.mxml</strong>.</p><p><img src="/img/blog/electron-src-hello-world.png" alt=""></p><p><em>HelloWorld.mxml</em></p><p>In <strong>HelloWorld.mxml</strong> enter the following value:</p><pre><code class="language-mxml">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;js:Application xmlns:fx=&quot;http://ns.adobe.com/mxml/2009&quot; 
+   xmlns:js=&quot;library://ns.apache.org/royale/express&quot; 
+   xmlns:html=&quot;library://ns.apache.org/royale/html&quot; 
+   xmlns:j=&quot;library://ns.apache.org/royale/jewel&quot;&gt;
+   &lt;js:initialView&gt;
+      &lt;js:View&gt;
+         &lt;js:Label id=&quot;helloLabel&quot; text=&quot;Hello World&quot; x=&quot;240&quot; y=&quot;20&quot;/&gt;
+         &lt;j:Button id=&quot;helloButton&quot; text=&quot;Hello&quot; x=&quot;20&quot; y=&quot;20&quot;/&gt;
+      &lt;/js:View&gt;
+   &lt;/js:initialView&gt;
+&lt;/js:Application&gt;
+</code></pre><h2>Create the Compile Task</h2><p>To compile our Royale application we need to create a compile task. We can use the AS3 &amp; MXML extension to create a compile task or we can do it manually.</p><p>Let's create a compile task manually and then maybe later create it with the extension.</p><p>In the <strong>.vscode</strong> directory create a <strong>tasks.json</strong>:</p><p><img src="/img/blog/electron-tasks.png" alt=""></p><p><em>Tasks</em></p><p>In <strong>tasks.json</strong> add the following value:</p><pre><code class="language-json">{
+   &quot;version&quot;: &quot;2.0.0&quot;,
+   &quot;tasks&quot;: [
+      {
+         &quot;label&quot;: &quot;Compile&quot;,    
+         &quot;type&quot;: &quot;actionscript&quot;,
+         &quot;debug&quot;: true,
+         &quot;group&quot;: {
+            &quot;kind&quot;: &quot;build&quot;,
+            &quot;isDefault&quot;: true
+         }
+      }
+   ]
+}
+</code></pre><p>For documentation about the <strong>tasks.json</strong> format go <a href="https://go.microsoft.com/fwlink/?LinkId=733558">here</a>.</p><p>Notice the <strong>label</strong> property. It is named <strong>Compile</strong>. We can name it anything, but for now name it <strong>Compile</strong>. We'll refer to this task later by name as a <strong>preLaunchTask</strong>.</p><p>Before we can launch our Apache Royale app we need to build it. Building it compiles the MXML and ActionScript into HTML and JS.</p><p>We can build it from the <strong>Run Build Task</strong> in the Visual Studio Code menu.</p><p>In the menu go to <strong>Terminal</strong> and choose <strong>Run Build Task</strong>.</p><p><img src="/img/blog/electron-run-build-task.png" alt=""></p><p><em>Run Build Task</em></p><p>You can also use Command + Shift + B or CTRL + Shift + B.</p><p>That will open Terminal and show you messages from the Apache Royale compiler. Check these messages for any errors and information about the project.</p><p>When that is complete you'll see a &quot;compile successful&quot; message:</p><p><img src="/img/blog/electron-compile-successful.png" alt=""></p><p><em>Compile Successful</em></p><p>Congratulations! You will also see a new directory in your project named <strong>/bin</strong>:</p><p><img src="/img/blog/electron-export-bin.png" alt=""></p><p><em>Exported to bin directory</em></p><p>We could open this index page in a browser using the Firefox debugger, but for our Electron app we are not done yet.</p><p>If we launched our Electron app now, not the Royale app, it would open the template page because it is still pointing to the index page in the root of our project.</p><p><img src="/img/blog/electron-index-template.png" alt=""></p><p><em>Pointing to the template</em></p><p>The actual Royale application is in <strong>bin/js-debug/index.html</strong> that is created after we compile <strong>HelloWorld.mxml</strong>. So we need our Electron app to load in the application page and not the template.</p><p>Open <strong>main.js</strong> and find the line that loads in <strong>index.html</strong>:</p><pre><code class="language-js">// load the index.html of the app.
+win.loadFile('index.html')
+</code></pre><p>Change it to point to our exported Royale application:</p><pre><code class="language-js">// load the Apache Royale index.html
+win.loadFile('bin/js-debug/index.html')
+</code></pre><p>Note: We can easily load in different pages in Electron using the loadFile() method. You can use inter-process communication to have an action on your web page load another web page. You'll learn more about this later.</p><p>If you've compiled the Royale project successfully and changed the path to load the index.html page in the bin directory, we are ready to start our Electron project.</p><p>Open the <strong>Debug</strong> view and start <strong>Launch Electron</strong>. Since everything always goes well on the first try you should have a running application:</p><p><img src="/img/blog/electron-royale-hello-world.png" alt=""></p><p><em>Royale Hello World</em></p><p>Note: If you the button is missing its theme, check the theme value in the asconfig.json and troubleshoot as mentioned above.</p><p>Note: If we make changes to our application and then run the <strong>Launch Electron</strong> task again we may not see our changes.</p><p>In Flash Builder there was an option to Build Automatically that was enabled by default. What this means is your projects were built automatically when you saved the document. Building the application also provided warnings and error messages in the problems view. We can do something similar with a prelaunch task.</p><p>Let's add a prelaunch task to build our application before we launch it.</p><p>Remember how we named our compile task earlier? We are are going to tell our Electron launch configuration to run the Royale compile task before starting the application.</p><p>Open <strong>launch.json</strong> and add a prelaunch task property and set it to our <strong>Compile</strong> build task (mentioned in the <strong>tasks.json</strong> file). The <strong>launch.json</strong> should look like the following:</p><pre><code class="language-json">{
+   &quot;version&quot;: &quot;0.2.0&quot;,
+   &quot;configurations&quot;: [
+      {
+         &quot;name&quot;: &quot;Launch Electron&quot;,
+         &quot;type&quot;: &quot;electron&quot;,
+         &quot;request&quot;: &quot;launch&quot;,
+         &quot;preLaunchTask&quot;: &quot;Compile&quot;,
+         &quot;appDir&quot;: &quot;${workspaceFolder}&quot;
+      },
+      {
+         &quot;name&quot;: &quot;Debug Main Electron Process&quot;,
+         &quot;type&quot;: &quot;node&quot;,
+         &quot;request&quot;: &quot;launch&quot;,
+         &quot;cwd&quot;: &quot;${workspaceRoot}&quot;,
+         &quot;preLaunchTask&quot;: &quot;Compile&quot;,
+         &quot;runtimeExecutable&quot;: &quot;${workspaceRoot}/node_modules/.bin/electron&quot;,
+         &quot;windows&quot;: {
+            &quot;runtimeExecutable&quot;: &quot;${workspaceRoot}/node_modules/.bin/electron.cmd&quot;
+         },
+         &quot;args&quot; : [&quot;.&quot;],
+         &quot;outputCapture&quot;: &quot;std&quot;
+      }
+   ]
+}
+</code></pre><p>Make sure the name is the same. It is case sensitive. We can, of course, add more launch configurations with or without these options at any time.</p><p>FYI You can learn about the possible launch attributes and their values by hovering your mouse pointer over them or by going <a href="https://go.microsoft.com/fwlink/?linkid=830387">here</a>.</p><p>Now launch the application again using either of the two launch configurations.</p><p>You'll see that the Royale application is built right before the Electron application is launched. If there are any errors in your Royale app the Electron app will not launch.</p><h2>Communicating with the Main Process</h2><p>Electron apps have two primary processes. The <strong>Main</strong> process and the <strong>Renderer</strong> process. The Royale application runs in the <strong>Renderer</strong> process and the Electron application runs in the <strong>Main</strong> process.</p><p>Although the processes are separate you can communicate between them using a variety of methods. Read more about this <a href="https://electronjs.org/docs/tutorial/application-architecture">here</a> and then continue.</p><p>For this guide we'll send messages.</p><p>Open your &quot;Hello World&quot; mxml application and add a script block below the js <strong>Application</strong> tag and above the <strong>initialView</strong> tag:</p><pre><code class="language-mxml">&lt;fx:Script&gt;
+    &lt;![CDATA[
+
+    public function clickHandler(event:Event):void {
+        var electron:Object;
+        var ipcRenderer:Object;
+
+        // check for electron
+        // if we add tag config:&quot;node&quot; to our asconfig we get node code intelligence but error for js:Appliction
+        if (window[&quot;require&quot;]) {
+          electron = window[&quot;require&quot;](&quot;electron&quot;);
+          ipcRenderer = electron.ipcRenderer;
+          ipcRenderer.send(&quot;mainMessageHandler&quot;, &quot;hello&quot;);
+          ipcRenderer.on(&quot;rendererMessageHandler&quot;, rendererMessageHandler)
+        }
+        else {
+          helloLabel.text = &quot;Electron is not found&quot;;
+        }
+    }
+
+    public function rendererMessageHandler(event:Object, data:String):void {
+        trace(&quot;Data received:&quot;, data);
+        helloLabel.text = data;
+    }
+
+    ]]&gt;
+&lt;/fx:Script&gt;
+</code></pre><p>In the button add a click handler:</p><pre><code class="language-mxml">&lt;j:Button id=&quot;helloButton&quot; text=&quot;Hello&quot; x=&quot;20&quot; y=&quot;20&quot; click=&quot;clickHandler(event)&quot;/&gt;
+</code></pre><p>When we are running in an Electron app the <strong>Renderer</strong> process, or the browser window, makes additional objects available. The main ones are <strong>electron</strong> and <strong>ipcRenderer</strong>. We will use these for communication.</p><p>Sending a message is somewhat like dispatching an event. We can send synchronous and asynchronous messages.</p><p>The following example code will dispatch a &quot;sayHello&quot; message with a &quot;hello&quot; value:</p><pre><code class="language-as3">// example code
+const electron = window[&quot;require&quot;](&quot;electron&quot;);
+const ipcRenderer = electron.ipcRenderer;
+
+ipcRenderer.send(&quot;sayHello&quot;, &quot;hello&quot;);
+</code></pre><p>We are sending a String but we could send an Object. Read more <a href="https://electronjs.org/docs/api/ipc-main">here</a> before continuing.</p><p>In our <strong>main.js</strong> we will add a listener to handle this event. At the end of the <strong>main.js</strong> document add the following:</p><pre><code class="language-js">const { ipcMain } = require('electron')
+ipcMain.on(&quot;mainMessageHandler&quot;, (event, arg) =&gt; {
+  console.log(arg);
+  var time = new Date().toLocaleTimeString();
+  win.webContents.send(&quot;rendererMessageHandler&quot;, &quot;hello there. it's &quot; + time);
+})
+</code></pre><p>Notice the <strong>rendererMessageHandler</strong>. We have added a listener for this event in <strong>HelloWorld.mxml</strong>.</p><p>Launch the application and click the <strong>Hello World</strong> button.</p><p><img src="/img/blog/hello-world-electron.png" alt=""></p><p><em>Hello World message</em></p><h2>Debugging</h2><p>To debug the <strong>Renderer</strong> process, <strong>HelloWorld.mxml</strong>, add a breakpoint in the button click handler. Open the debug view and click <strong>Launch Electron</strong>. When you click the <strong>Hello</strong> button, the debugger opens at that point showing you local variables and classes. Take a minute and review the objects available to your application:</p><p><img src="/img/blog/electron-debug-hello-world.png" alt=""></p><p><em>Debug Hello World</em></p><p>To debug the Main process, <strong>main.js</strong>, add a breakpoint in the <strong>mainMessageHandler</strong>. Open the debug view and click <strong>Debug main Electron process</strong>.</p><p><img src="/img/blog/electron-debug-main-process.png" alt=""></p><p><em>Debug Main</em></p><p>We use the first one to debug the <strong>Renderer</strong> process and the second to debug the <strong>Main</strong> process. You can also use the integrated Chrome dev tools mentioned earlier.</p><p><img src="/img/blog/electron-chrome-debugger-1.png" alt=""></p><p><em>Chrome dev tools</em></p><p>Open <strong>launch.json</strong>. In the first launch configuration notice the <strong>type</strong> says <strong>electron</strong>. In the second launch configuration notice the <strong>type</strong> is <strong>node</strong>.</p><p>Note: This author has not found a way to hit both breakpoints for the Royale application and the Electron app in one session in Visual Studio Code. However, using a combination of the integrated Chrome dev tools (shown above) to set breakpoints you can use the second configuration, <strong>Debug main Electron process</strong>, to break on both the Royale and Electron processes, but the break occurs in the Chrome Dev tools and not Visual Studio Code. You could also debug the Royale instance only using the Firefox debugger and launching in a browser.</p><h2>Summary</h2><p>In this guide you've created a desktop application using Royale and Electron. You've sent a message to the Main process and sent that message back to the Renderer process. You've set a break point in the debugger.</p><p>The example project is attached here: <a href="https://royale.apache.org/wp-content/uploads/2019/05/ApacheRoyaleElectron_1.0.0.zip">Apache Royale Electron zip</a></p><p>If you use the Moonshine IDE, an example project is available <a href="https://github.com/prominic/Royale-Examples/tree/master/ElectronRoyale">here</a>.</p><h2>Next Steps</h2><ul><li>The Wiki has more information on the AS3 &amp; MXML plugin <a href="https://github.com/BowlerHatLLC/vscode-as3mxml/wiki">here</a></li><li>Electron documentation <a href="https://electronjs.org/docs/tutorial">here</a> and <a href="https://electronjs.org/docs/">here</a></li><li>Sample Electron apps <a href="https://github.com/hokein/electron-sample-apps">here</a></li><li><a href="https://electronjs.org/docs/api/ipc-main">ipcMain</a> and <a href="https://electronjs.org/docs/api/ipc-renderer">ipcRenderer</a></li><li>Apache Royale Getting Started <a href="https://apache.github.io/royale-docs/Get%20Started.html">here</a></li><li>Install the <a href="https://marketplace.visualstudio.com/items?itemName=hbenl.vscode-firefox-debug">Firefox Debugger</a> and debug Royale in the browser</li><li>Electron Hello World Walkthrough on YouTube <a href="https://www.youtube.com/playlist?list=PLYxzS__5yYQmocPoLUiEAfD1cJNjhdQar">here</a></li><li>Learn the Apache Royale components and layouts with Tour of Jewel <a href="https://royale.apache.org/tourdejewel">here</a></li><li>Join the Apache Royale <a href="https://royale.apache.org/mailing-lists/">Mailing Lists</a></li></ul><h2>Contributions</h2><p>Thanks to the work of numerous individuals and projects in the <a href="https://royale.apache.org/">Apache Royale</a> community.</p></article></div></div><footer class="footer"><div class="footer-row"><div class="footer-column"><ul class="footer-list"><li class="apacheroyale"><a href="/">Apache Royale</a></li><li><a href="/">Home</a></li><li><a href="/features">Features</a></li><li><a href="/download">Download</a></li><li><a href="/ides">IDEs and Editors</a></li><li><a href="/showcase">Showcase</a></li><li><a href="/blog">Blog</a></li><li><a href="/team">Team</a></li><li><a href="/thanks-to">Thanks To</a></li><li><a href="https://apache.org/logos/#royale"><i class="fa fa-external-link-square"></i> Logos</a></li><li><a href="https://www.apache.org/licenses/"><i class="fa fa-external-link-square"></i> Apache License v2.0</a></li></ul></div><div class="footer-column"><ul class="footer-list"><li class="documentation"><a href="/docs">Documentation</a></li><li><a href="https://apache.github.io/royale-docs/get-started">Get Started</a></li><li><a href="/docs">Docs</a></li><li><a href="/asdoc">API Reference</a></li><li><a href="https://github.com/apache/royale-asjs/wiki"><i class="fa fa-github"></i>Wiki</a></li><li><a href="https://stackoverflow.com/questions/tagged/apache-royale"><i class="fa fa-stack-overflow"></i> StackOverFlow Tag</a></li></ul><ul class="footer-list"><li class="community"><a href="/get-involved">Community</a></li><li><a href="/get-involved">Get Involved</a></li><li><a href="/mailing-lists">Mailing Lists</a></li><li><a href="/faq">FAQ</a></li></ul><ul class="footer-list"><li class="development"><a href="/source-code">Development</a></li><li><a href="https://github.com/apache/royale-asjs/wiki/Apache-Royale-Source-Code-Repositories"><i class="fa fa-github"></i> Github</a></li><li><a href="https://github.com/apache/royale-asjs/issues"><i class="fa fa-github"></i> Issues</a></li><li><a href="/source-code"><i class="fa fa-code"></i> Source Code</a></li></ul></div><div class="footer-column"><ul class="footer-list"><li class="social_t">Social</li><li><a href="https://twitter.com/apacheroyale"><i class="fa fa-twitter"></i> Twitter</a></li><li><a href="https://facebook.com/ApacheRoyaleSDK/"><i class="fa fa-facebook"></i> Facebook</a></li><li><a href="https://www.linkedin.com/groups/12118437"><i class="fa fa-linkedin"></i> LinkedIn</a></li><li><a href="/feed/index.xml"><i class="fa fa-rss"></i> RSS</a></li></ul><ul class="footer-list"><li class="apache"><a href="https://www.apache.org/">Apache</a></li><li><a href="https://www.apache.org/"><i class="fa fa-external-link-square"></i> Apache</a></li><li><a href="https://www.apache.org/foundation/contributing.html"><i class="fa fa-external-link-square"></i> Donations</a></li><li><a href="https://www.apache.org/events/current-event"><i class="fa fa-external-link-square"></i> Events</a></li><li><a href="https://www.apache.org/foundation/sponsorship.html"><i class="fa fa-external-link-square"></i> Sponsorship</a></li><li><a href="https://www.apache.org/foundation/thanks.html"><i class="fa fa-external-link-square"></i> Thanks</a></li><li><a href="https://www.apache.org/security/"><i class="fa fa-external-link-square"></i>Security</a></li></ul></div><div class="aboutusdiv"><p class="aboutus">About Us</p><p class="aboutus_p"><img class="aboutus-logo" src="/img/apache-royale-logo-footer-circle-grey.svg"><a href="/" class="aboutus_a">Apache Royale™</a> is a highly productive open source application technology for building expressive frontend applications that outputs to different formats and deploy consistently on all major browsers, desktops and devices.</p><p><img class="aboutus-apache-logo" src="/img/Apache_PoweredBy.svg"> <a href="/" class="aboutus_a">Apache Royale™</a>, <a href="https://www.apache.org" class="aboutus_a">Apache™</a> and the <a href="https://www.apache.org/foundation/press/kit/" class="aboutus_a">Apache feather logo™</a> are trademarks of The Apache Software Foundation. All other marks mentioned may be trademarks or registered trademarks of their respective owners. Read more about our privacy policy on our <a href="/privacy-policy">Privacy Policy page</a>.</p></div></div><div class="asf">Copyright &copy; 2017-2022 <a href="https://www.apache.org">The Apache Software Foundation</a>, Licensed under the <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a></div></footer></body></html>

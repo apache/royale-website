@@ -1,0 +1,15 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.utils.NumberFactoryUtil",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "getNumberFactory",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "return": "org.apache.royale.textLayout.factory.INumberLineFactory",
+          "params": []}
+      ]
+  }

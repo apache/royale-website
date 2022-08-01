@@ -1,0 +1,31 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.events.ContextMenuEvent",
+  "baseClassname": "org.apache.royale.events.Event"
+  ,
+  "members": [
+  { "type": "field",
+        "qname": "MENU_ITEM_SELECT",
+        "return": "String",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {}},
+      { "type": "field",
+        "qname": "MENU_SELECT",
+        "return": "String",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {}},
+      { "type": "method",
+        "qname": "org.apache.royale.textLayout.events.ContextMenuEvent",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": [{ "name": "type", "type": "String"},
+        { "name": "bubbles", "type": "Boolean"},
+        { "name": "cancelable", "type": "Boolean"}]}
+      ]
+  }

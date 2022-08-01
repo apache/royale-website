@@ -1,0 +1,42 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.core.IImageView",
+"baseInterfaceNames": [
+"org.apache.royale.core.IBeadView"]
+,
+    "description": "The IImageView interface is the interface for beads that represent image views. It is used to find the view bead on the strand via calls to getBeadByType.",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["org.apache.royale.core.IStrand#getBeadByType"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-only",
+    "return": "flash.display.Loader",
+    "qname": "loader",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "The loader where images are implemented.",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.0"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]},
+  { "type": "method",
+    "qname": "setupLoader",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "return": "void",
+      "params": []}
+  ]
+  }

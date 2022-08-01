@@ -1,0 +1,27 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.elements.TableFormattedElement",
+  "baseClassname": "org.apache.royale.textLayout.elements.ContainerFormattedElement"
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.textLayout.elements.TableFormattedElement",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "org.apache.royale.textLayout.elements.ITableElement",
+        "qname": "table",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Returns a reference to the table. For this to work we need to set the table to null when it's removed.",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.textLayout.elements.ITableElement"]}  ]}]
+  }

@@ -1,0 +1,12 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.textLayout.elements.ITableColSetter",
+  "members": [
+  { "type": "accessor",
+    "access": "write-only",
+    "return": "*",
+    "qname": "tableColumnWidth",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {}}]
+  }

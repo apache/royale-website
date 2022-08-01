@@ -1,0 +1,14 @@
+{ "type": "method",
+  "qname": "org.apache.royale.utils.getTimer",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "The number of milliseconds since the current script host environment was started. This is from the time of the current window load (Browser javascript), or process started (Node javascript) or the AVM started (SWF)",
+  "tags": [
+  {  "tagName": "return",
+         "values": ["an integer representing the number of milliseconds since start."]},
+      {  "tagName": "royalesuppressexport",
+         "values": []}  ],
+    "return": "int",
+    "params": []}

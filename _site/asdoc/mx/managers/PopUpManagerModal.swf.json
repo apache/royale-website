@@ -1,0 +1,37 @@
+{ "type": "class",
+  "qname": "mx.managers.PopUpManagerModal",
+  "baseClassname": "mx.core.UIComponent"
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "mx.managers.PopUpManagerModal",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "show",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["Object"]}  ],
+          "return": "void",
+          "params": [{ "name": "host", "type": "org.apache.royale.core.IUIBase"}]}
+      ,
+      { "type": "method",
+        "qname": "remove",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "host", "type": "org.apache.royale.core.IUIBase"}]}
+      ]
+  }

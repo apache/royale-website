@@ -1,0 +1,34 @@
+{ "type": "class",
+  "qname": "org.apache.royale.core.StyleChangeNotifier",
+  "baseClassname": ""
+  ,
+    "description": "The StyleChangeNotifier can be added to the bead list of any UI component that needs to react to dynamic changes to its styles.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+        "access": "write-only",
+        "return": "org.apache.royale.core.IStrand",
+        "qname": "strand",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "copy",
+               "values": ["org.apache.royale.core.IBead#strand"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9"]},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.IStyleableObject", "org.apache.royale.events.IEventDispatcher"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  }

@@ -1,0 +1,33 @@
+{ "type": "class",
+  "qname": "org.apache.royale.jewel.beads.views.TabBarView",
+  "baseClassname": "org.apache.royale.jewel.beads.views.ListView"
+  ,
+    "description": "The TabBarView class creates the visual elements of the org.apache.royale.jewel.TabBar component.",
+  "tags": [
+  {  "tagName": "viewbead",
+         "values": []},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.6"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.jewel.beads.views.TabBarView",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "constructor.  <inject_script> var script = document.createElement(&quot;script&quot;); script.setAttribute(&quot;src&quot;, &quot;https://cdnjs.cloudflare.com/ajax/libs/web-animations/2.3.1/web-animations.min.js&quot;); document.head.appendChild(script); </inject_script>",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.6"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ]
+  }

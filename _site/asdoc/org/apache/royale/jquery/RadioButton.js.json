@@ -1,0 +1,19 @@
+{ "type": "class",
+  "qname": "org.apache.royale.jquery.RadioButton",
+  "baseClassname": "org.apache.royale.html.RadioButton"
+  ,
+    "description": "",
+  "tags": [
+  {  "tagName": "royaleignorecoercion",
+         "values": ["HTMLInputElement"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "addedToParent",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "void",
+          "params": []}
+      ]
+  }

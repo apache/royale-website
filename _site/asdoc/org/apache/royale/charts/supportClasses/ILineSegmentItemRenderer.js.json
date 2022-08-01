@@ -1,0 +1,47 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.charts.supportClasses.ILineSegmentItemRenderer",
+"baseInterfaceNames": [
+"org.apache.royale.charts.core.IChartItemRenderer"]
+,
+    "description": "The ILineSegmentItemRenderer interface must be implemented by any class that will become an line segment itemRenderer for a LineSeries.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "Array",
+    "qname": "points",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "The points that define the vertices of the line segment.",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.0"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]},
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "org.apache.royale.graphics.IStroke",
+    "qname": "stroke",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "The characteristics of the line.",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.0"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]}]
+  }

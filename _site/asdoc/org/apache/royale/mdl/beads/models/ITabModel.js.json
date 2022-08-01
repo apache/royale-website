@@ -1,0 +1,31 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.mdl.beads.models.ITabModel",
+"baseInterfaceNames": [
+"org.apache.royale.core.ISelectionModel"]
+,
+    "description": "The ITabModel interface describes the minimum set of properties available to Tabs control",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.8"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "String",
+    "qname": "tabIdField",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "The property on data which represents &quot;id&quot; of TabBarPanel  TabBarPanel requires unique id",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.8"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]}]
+  }

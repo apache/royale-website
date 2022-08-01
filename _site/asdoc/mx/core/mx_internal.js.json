@@ -1,0 +1,11 @@
+{ "type": "namespace",
+  "qname": "mx.core.mx_internal"
+,
+    "description": "This namespace is used for undocumented APIs -- usually implementation details -- which can't be private because they need to visible to other classes. APIs in this namespace are completely unsupported and are likely to change in future versions of Flex.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ]}

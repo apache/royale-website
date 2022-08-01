@@ -1,0 +1,62 @@
+{ "type": "class",
+  "qname": "mx.rpc.wsdl.WSDLLoader",
+  "baseClassname": "mx.rpc.xml.XMLLoader"
+  ,
+    "description": "Manages the loading of a WSDL at runtime, including all imports for WSDL",
+  "tags": [
+  {  "tagName": "private",
+         "values": []}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.rpc.wsdl.WSDLLoader",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": [{ "name": "httpService", "type": "mx.rpc.http.HTTPService"}]}
+      ,
+      { "type": "method",
+        "qname": "load",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "Asynchronously loads a WSDL for a given URL, including resolving all WSDL imports and includes and XML Schema imports and includes.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "void",
+          "params": [{ "name": "url", "type": "String"}]}
+      ,
+      { "type": "method",
+        "qname": "faultHandler",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "event", "type": "mx.rpc.events.FaultEvent"}]}
+      ,
+      { "type": "method",
+        "qname": "resultHandler",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "event", "type": "mx.rpc.events.ResultEvent"}]}
+      ]
+  ,
+  "events": [
+  { "qname": "fault",
+        "type": "mx.rpc.events.FaultEvent"
+      },
+      { "qname": "wsdlLoad",
+        "type": "mx.rpc.events.WSDLLoadEvent"
+      }]
+  }

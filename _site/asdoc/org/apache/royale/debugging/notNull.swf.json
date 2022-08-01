@@ -1,0 +1,9 @@
+{ "type": "method",
+  "qname": "org.apache.royale.debugging.notNull",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "Throws an error if the object is null.",
+    "return": "void",
+    "params": [{ "name": "obj", "type": "Object"}]}

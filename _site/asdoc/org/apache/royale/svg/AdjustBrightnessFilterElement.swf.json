@@ -1,0 +1,52 @@
+{ "type": "class",
+  "qname": "org.apache.royale.svg.AdjustBrightnessFilterElement",
+  "baseClassname": "org.apache.royale.svg.FilterElement"
+  ,
+    "description": "The AdjustBrightnessFilterElement adjusts the brightness of the filter",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.5"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.svg.AdjustBrightnessFilterElement",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "build",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["Element"]}  ],
+          "return": "void",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "Number",
+        "qname": "brightnessFactor",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "The brightnessFactor value, can be between 0 and 255.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.5"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  }

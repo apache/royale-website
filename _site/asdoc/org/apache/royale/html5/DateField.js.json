@@ -1,0 +1,60 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html5.DateField",
+  "baseClassname": "org.apache.royale.html.DateField"
+  ,
+    "description": "The HTML5:DateField displays a date input selector when run on an HTML5-compatible browser. On non-compatible browsers, a single input field is displayed. On the SWF platform, the basic:DateField is used.  As of Oct 30, 2017, Safari and Internet Explorer do not support the HTML5 input 'date'.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "createElement",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "Constructor",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "org.apache.royale.core.WrappedHTMLElement",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "Date",
+        "qname": "selectedDate",
+        "namespace": "public",
+        "bindable": ["selectedDateChanged"],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "The date currently displayed by the DateField.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  { "qname": "change",
+        "type": "org.apache.royale.events.Event"
+      ,
+          "description": "A valueChange event is dispatched whenever the selected date changes. It corresponds to the change event dispatched by the basic:DateField component.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  }

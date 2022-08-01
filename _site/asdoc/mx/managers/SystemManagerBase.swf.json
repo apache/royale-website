@@ -1,0 +1,12 @@
+{ "type": "class",
+  "qname": "mx.managers.SystemManagerBase",
+  "baseClassname": "flash.display.MovieClip"
+  ,
+    "description": "The platform base class for SystemManager",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.4"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ]}

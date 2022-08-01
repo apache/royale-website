@@ -1,0 +1,47 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.jewel.supportClasses.list.IListPresentationModel",
+"baseInterfaceNames": [
+"org.apache.royale.core.IListPresentationModel"]
+,
+    "description": "The Jewel IListPresentationModel interface holds key values for the display of lists.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.7"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "String",
+    "qname": "align",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "How text aligns in the itemRenderer instance.",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.9.7"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]},
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "Boolean",
+    "qname": "variableRowHeight",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "Specifies whether layout elements are allocated their preferred height. Setting this property to false specifies fixed height rows.  If false, the actual height of each layout element is the value of rowHeight. The default value is true.  Note: From Flex but we should see what to do in Royale -> Setting this property to false causes the layout to ignore the layout elements' percentHeight property.",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.9.7"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]}]
+  }

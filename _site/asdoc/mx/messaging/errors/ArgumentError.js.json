@@ -1,0 +1,52 @@
+{ "type": "class",
+  "qname": "mx.messaging.errors.ArgumentError",
+  "baseClassname": "Error"
+  ,
+    "description": "This is the base class for any messaging related error. It allows for less granular catch code.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["BlazeDS 4", "LCDS 3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.messaging.errors.ArgumentError",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructs a new instance of a ArgumentError with the specified message.",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["msg String that contains the message that describes the error."]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["BlazeDS 4", "LCDS 3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": [{ "name": "msg", "type": "String"}]}
+      ,
+      { "type": "method",
+        "qname": "toString",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Returns the string &quot;[ArgumentError]&quot; by default, and includes the message property if defined.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["BlazeDS 4", "LCDS 3"]},
+            {  "tagName": "return",
+               "values": ["String representation of the ArgumentError."]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "String",
+          "params": []}
+      ]
+  }

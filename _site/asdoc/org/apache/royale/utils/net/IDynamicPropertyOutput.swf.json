@@ -1,0 +1,6 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.utils.net.IDynamicPropertyOutput",
+"baseInterfaceNames": [
+"flash.net.IDynamicPropertyOutput"]
+,
+    "description": "This interface controls the serialization of dynamic properties of dynamic objects. You use this interface with the IDynamicPropertyWriter interface to create an implementation for configuring serialization of dynamic objects.  This interface is a placeholder for SWF, and cannot be used to with native serialization, because the native class (e.g. ByteArray) that supports serialization does not implement this interface (and that cannot change)"}

@@ -1,0 +1,12 @@
+{ "type": "interface",
+  "qname": "mx.collections.IComplexSortField",
+  "members": [
+  { "type": "accessor",
+    "access": "read-only",
+    "return": "Array",
+    "qname": "nameParts",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {}}]
+  }

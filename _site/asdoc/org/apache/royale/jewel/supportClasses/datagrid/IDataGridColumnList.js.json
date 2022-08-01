@@ -1,0 +1,40 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.jewel.supportClasses.datagrid.IDataGridColumnList",
+"baseInterfaceNames": [
+"org.apache.royale.html.supportClasses.IDataGridColumnList", 
+"org.apache.royale.utils.IEmphasis"]
+,
+    "description": "The Jewel IDataGridColumnList interface is a marker interface for Jewel DataGrid Column Lists",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.7"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "int",
+    "qname": "rollOverIndex",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {}},
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "org.apache.royale.jewel.DataGrid",
+    "qname": "datagrid",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "Pointer back to the DataGrid that owns this column List",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.9.7"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]}]
+  }

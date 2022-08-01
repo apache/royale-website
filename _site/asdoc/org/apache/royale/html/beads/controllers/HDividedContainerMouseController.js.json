@@ -1,0 +1,36 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.beads.controllers.HDividedContainerMouseController",
+  "baseClassname": "org.apache.royale.core.Bead"
+  ,
+    "description": "This is the mouse controller for the HDividedContainer. This bead class tracks the mouse over a HDividedContainerDivider (its strand) causing the columns on either side of the divider to grow and shrink.",
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html.beads.controllers.HDividedContainerMouseController",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "write-only",
+        "return": "org.apache.royale.core.IStrand",
+        "qname": "strand",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "copy",
+               "values": ["org.apache.royale.core.IStrand#strand"]}  ]}]
+  }

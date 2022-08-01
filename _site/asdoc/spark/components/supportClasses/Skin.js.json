@@ -1,0 +1,33 @@
+{ "type": "class",
+  "qname": "spark.components.supportClasses.Skin",
+  "baseClassname": "spark.components.Group"
+  ,
+    "description": "The Skin class defines the base class for all skins used by skinnable components. The SkinnableComponent class defines the base class for skinnable components.  <p>You typically write the skin classes in MXML, as the followiong example shows:</p>  <pre>  &lt;?xml version=&quot;1.0&quot;?&gt;\\n &lt;Skin xmlns=&quot;http://ns.adobe.com/mxml/2009&quot;&gt;\\n \\n &lt;Metadata&gt;\\n &lt;!-- Specify the component that uses this skin class. --&gt;\\n [HostComponent(&quot;my.component.MyComponent&quot;)]\\n &lt;/Metadata&gt;\\n \\n &lt;states&gt;\\n &lt;!-- Specify the states controlled by this skin. --&gt;\\n &lt;/states&gt;\\n \\n &lt;!-- Define skin. --&gt;\\n \\n &lt;/Skin&gt;</pre>",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["mx.core.SkinnableComponent"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10", "AIR 1.5"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 4"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "spark.components.supportClasses.Skin",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10", "AIR 1.5"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 4"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ]
+  }

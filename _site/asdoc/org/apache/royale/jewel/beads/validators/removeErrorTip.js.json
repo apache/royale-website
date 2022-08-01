@@ -1,0 +1,16 @@
+{ "type": "method",
+  "qname": "org.apache.royale.jewel.beads.validators.removeErrorTip",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "Destroy the created errorTip for a validator instance import this utility function to support this functionality in externally defined subclasses.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.4"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+    "return": "void",
+    "params": [{ "name": "validator", "type": "org.apache.royale.jewel.beads.validators.Validator"}]}

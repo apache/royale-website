@@ -1,0 +1,29 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.jewel.beads.views.IScrollToIndexView",
+    "description": "The IListView interface provides the protocol for any bead that creates the visual parts for a org.apache.royale.jewel.List control.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.7"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+    "qname": "scrollToIndex",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "The component which parents all of the itemRenderers for each datum being displayed by the List component.",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.9.7"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ],
+      "return": "Boolean",
+      "params": [{ "name": "index", "type": "int"}]}
+  ]
+  }

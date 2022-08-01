@@ -1,0 +1,43 @@
+{ "type": "class",
+  "qname": "google.maps.StrokePosition",
+  "baseClassname": ""
+  ,
+    "description": "",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["[google_maps_api_v3_11]"]}  ],
+  "members": [
+  { "type": "field",
+        "qname": "INSIDE",
+        "return": "Number",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "Generated doc for missing field JSDoc.",
+        "tags": [
+        {  "tagName": "see",
+               "values": ["[google_maps_api_v3_11]"]}  ]},
+      { "type": "field",
+        "qname": "CENTER",
+        "return": "Number",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "Generated doc for missing field JSDoc.",
+        "tags": [
+        {  "tagName": "see",
+               "values": ["[google_maps_api_v3_11]"]}  ]},
+      { "type": "field",
+        "qname": "OUTSIDE",
+        "return": "Number",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "Generated doc for missing field JSDoc.",
+        "tags": [
+        {  "tagName": "see",
+               "values": ["[google_maps_api_v3_11]"]}  ]}]
+  }

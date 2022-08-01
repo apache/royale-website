@@ -1,0 +1,40 @@
+{ "type": "class",
+  "qname": "org.apache.royale.textLayout.conversion.ConversionType",
+  "baseClassname": ""
+  ,
+    "description": "Values for the format of exported text. The values <code>STRING_TYPE</code> and <code>XML_TYPE</code> can be used for the <code>conversionType</code> parameter for the export() method in the ITextExporter interface and the TextConverter class.",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["org.apache.royale.textLayout.conversion.ITextExporter#export()", "org.apache.royale.textLayout.conversion.TextConverter#export()"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10", "AIR 1.5"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "field",
+        "qname": "STRING_TYPE",
+        "return": "String",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "Export as type String.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10", "AIR 1.5"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]},
+      { "type": "field",
+        "qname": "XML_TYPE",
+        "return": "String",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "Export as type XML.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10", "AIR 1.5"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  }

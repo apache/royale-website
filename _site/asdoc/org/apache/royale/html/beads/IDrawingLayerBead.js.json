@@ -1,0 +1,31 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.html.beads.IDrawingLayerBead",
+"baseInterfaceNames": [
+"org.apache.royale.core.IBead"]
+,
+    "description": "The IDrawingLayerBead interface is implemented by beads that providing a a drawing surface within a component.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.8"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-only",
+    "return": "org.apache.royale.core.UIBase",
+    "qname": "layer",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "Returns the component to use as the actual drawing surface.",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.8"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]}]
+  }

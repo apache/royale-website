@@ -1,0 +1,35 @@
+{ "type": "class",
+  "qname": "mx.collections.SummaryObject",
+  "baseClassname": ""
+  ,
+    "description": "The SummaryObject class defines the object used to store information when performing custom data summaries on grouped data. Use the <code>SummaryRow.summaryObjectFunction</code> property and the <code>SummaryField.summaryFunction property</code> to add the custom summary logic to your application.",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["mx.collections.SummaryField", "mx.collections.SummaryRow"]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]},
+      {  "tagName": "royalesuppresspublicvarwarning",
+         "values": []}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.collections.SummaryObject",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ]
+  }

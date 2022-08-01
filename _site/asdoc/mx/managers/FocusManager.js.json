@@ -1,0 +1,46 @@
+{ "type": "class",
+  "qname": "mx.managers.FocusManager",
+  "baseClassname": "org.apache.royale.events.EventDispatcher"
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "mx.managers.FocusManager",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": [{ "name": "container", "type": "mx.managers.IFocusManagerContainer"},
+        { "name": "popup", "type": "Boolean"}]}
+      ,
+      { "type": "method",
+        "qname": "getNextFocusManagerComponent",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "mx.managers.IFocusManagerComponent",
+          "params": [{ "name": "backward", "type": "Boolean"}]}
+      ,
+      { "type": "method",
+        "qname": "getFocus",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "mx.managers.IFocusManagerComponent",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "setFocus",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "o", "type": "mx.managers.IFocusManagerComponent"}]}
+      ]
+  }
+
+
+

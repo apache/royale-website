@@ -1,0 +1,14 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.core.IStatesImpl",
+"baseInterfaceNames": [
+"org.apache.royale.events.IEventDispatcher", 
+"org.apache.royale.core.IBead"]
+,
+    "description": "The IStatesImpl interface is a &quot;marker&quot; interface for the implementation view states in a View like ViewBase.  The implementation watches for the currentState property to change and executes changes accordingly.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ]}
