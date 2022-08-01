@@ -17,14 +17,14 @@ jobs:
         run: npm ci
       - name: Build website
         run: npm run build
-      - name: Deploy to asf-staging
+      - name: Deploy to asf-site
         if: ${{ github.repository_owner == 'apache' && github.event_name != 'pull_request' && github.ref_name == 'master' }}
         run: |
           git config --global user.name 'GitHub Actions'
           git config --global user.email 'dev@royale.apache.org'
           git fetch
-          git checkout asf-staging
+          git checkout asf-site
           cp -a _site/. .
           git add -A
           git diff-index --quiet HEAD || git commit -m "Deploy site"
-          git push origin asf-staging
+          git push origin asf-site
