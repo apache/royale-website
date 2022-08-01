@@ -1,0 +1,65 @@
+---
+title: "Royale Commercial Support"
+---
+<h1>Royale Commercial Support</h1>
+
+<p>List of third party providers that offer Apache Royale services</p>
+
+<p>Individual users are able to install and use Apache Royale without any help, or with the assistance of volunteers on our community support forum and mailing lists. Others, especially corporate users, may have more complex requirements that require professional services in order to optimize their use or Apache Royale.</p>
+
+<p>The following individuals and firms listed alphabetically offer services that may be of interest. The information provided here was provided by the entities named, and is not verified or endorsed by the Apache Software Foundation or the Apache Royale Project.</p>
+
+<p>We offer this listing as a service to the ecosystem.</p>
+
+<h2>Apache Royale Experts and Consultants</h2>
+
+<table>
+	<tr>
+		<th>Logo</th>
+		<th>Name</th>
+		<th>Short Description</th>
+		<th>Contact Person</th>
+		<th>Contact Email</th>
+		<th>Contact Phone</th>
+		<th>Apache Royale Contributor</th>
+	</tr>
+	{% for item in commercial_support %}
+	<tr>
+		<td width="150">
+			{% if item.imgUrl %}
+			{% if item.url %}<a href="{{ item.url }}">{% elsif item.contactEmail %}<a href="mailto:{{ item.contactEmail }}">{% endif %}
+			  <img src="{{ item.imgUrl }}" alt="{{ item.name }}">
+			  {% if item.url or item.contactEmail %}</a>{% endif %}
+			  {% endif %}
+		</td>
+		<td>
+			{% if item.url %}<a href="{{ item.url }}">{% elsif item.contactEmail %}<a href="mailto:{{ item.contactEmail }}">{% endif %}
+			{{ item.name }}
+			{% if item.url or item.contactEmail %}</a>{% endif %}
+		</td>
+		<td>
+			{{ item.description }}
+		</td>
+		<td>
+			{{ item.contactPerson }}
+		</td>
+		<td>
+			{% if item.contactEmail %}
+			<a href="mailto:{{ item.contactEmail }}">{{ item.contactEmail }}</a>
+			{% endif %}
+		</td>
+		<td>
+			{{ item.contactPhone }}
+		</td>
+		<td>
+			{% if item.contributorStatus == "pmc" %}
+			Yes (PMC)
+			{% elsif item.contributorStatus == "committer" %}
+			Yes (Committer)
+			{% elsif item.contributorStatus == "external" %}
+			Yes (Pull Requests)
+			{% endif %}
+		</td>
+	</tr>
+	{% endfor %}
+</table>
