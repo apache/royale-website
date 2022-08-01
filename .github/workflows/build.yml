@@ -26,5 +26,5 @@ jobs:
           git checkout asf-staging
           cp -a _site/. .
           git add -A
-          git commit -m "Deploy site"
+          git diff-index --quiet HEAD || git commit -m "Deploy site"
           git push origin asf-staging
