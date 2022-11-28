@@ -7,11 +7,11 @@
     "start": "npx @11ty/eleventy --serve"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.1",
+    "@11ty/eleventy": "^1.0.2",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
-    "clean-css": "^5.3.0",
+    "clean-css": "^5.3.1",
     "html-minifier": "^4.0.0",
     "rimraf": "^3.0.2",
-    "sass": "^1.51.0"
+    "sass": "^1.56.1"
   }
 }
