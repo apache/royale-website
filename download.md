@@ -46,7 +46,7 @@ npm install -g @apache-royale/royale-js
 To create JavaScript and SWF applications with Royale, run this command:
 
 ```sh
-npm install -g @apache-royale/royale-js-swf
+npm install -g @apache-royale/royale-js-swf --foreground-scripts
 ```
 
 ## Nightly Builds
