@@ -9,22 +9,22 @@ On this page, you can find the _binary distributions_ of Apache Royale SDK to do
 
 ## Current Release
 
-The current version of Apache Royale is **0.9.9**, released in **April 2022**. It is **beta-quality**. This means that Royale may not work entirely as you or we want it to, and that certain "standard" components or functions are not yet available. However, you can create applications in Royale and compile them to run either in a browser window or on the Flash/AIR platforms.
+The current version of Apache Royale is **0.9.10**, released in **May 2023**. It is **beta-quality**. This means that Royale may not work entirely as you or we want it to, and that certain "standard" components or functions are not yet available. However, you can create applications in Royale and compile them to run either in a browser window or on the Flash/AIR platforms.
 
 Download the compiled (binary) version of Royale from one of the Apache mirror sites linked below.
 
 To create JavaScript applications with Royale, download from here:
 
 <div class="btn-group">
-<a class="btn btn-download" href="https://www.apache.org/dyn/closer.lua/royale/0.9.9/binaries/apache-royale-0.9.9-bin-js.tar.gz"><i class="fa fa-download"></i> Apache Royale JS-Only 0.9.9 (TAR.GZ)</a>
-<a class="btn btn-download" href="https://www.apache.org/dyn/closer.lua/royale/0.9.9/binaries/apache-royale-0.9.9-bin-js.zip"><i class="fa fa-download"></i> Apache Royale JS-Only 0.9.9 (ZIP)</a>
+<a class="btn btn-download" href="https://www.apache.org/dyn/closer.lua/royale/0.9.10/binaries/apache-royale-0.9.10-bin-js.tar.gz"><i class="fa fa-download"></i> Apache Royale JS-Only 0.9.10 (TAR.GZ)</a>
+<a class="btn btn-download" href="https://www.apache.org/dyn/closer.lua/royale/0.9.10/binaries/apache-royale-0.9.10-bin-js.zip"><i class="fa fa-download"></i> Apache Royale JS-Only 0.9.10 (ZIP)</a>
 </div>
 
 To create JavaScript and SWF applications with Royale, download from here:
 
 <div class="btn-group">
-<a class="btn btn-download" href="https://www.apache.org/dyn/closer.lua/royale/0.9.9/binaries/apache-royale-0.9.9-bin-js-swf.tar.gz"><i class="fa fa-download"></i> Apache Royale JS/SWF 0.9.9 (TAR.GZ)</a>
-<a class="btn btn-download" href="https://www.apache.org/dyn/closer.lua/royale/0.9.9/binaries/apache-royale-0.9.9-bin-js-swf.zip"><i class="fa fa-download"></i> Apache Royale JS/SWF 0.9.9 (ZIP)</a>
+<a class="btn btn-download" href="https://www.apache.org/dyn/closer.lua/royale/0.9.10/binaries/apache-royale-0.9.10-bin-js-swf.tar.gz"><i class="fa fa-download"></i> Apache Royale JS/SWF 0.9.10 (TAR.GZ)</a>
+<a class="btn btn-download" href="https://www.apache.org/dyn/closer.lua/royale/0.9.10/binaries/apache-royale-0.9.10-bin-js-swf.zip"><i class="fa fa-download"></i> Apache Royale JS/SWF 0.9.10 (ZIP)</a>
 </div>
 
 Copy the contents of the download into a directory on your computer, then connect it to the IDE you are using.
