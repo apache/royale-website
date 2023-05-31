@@ -7,8 +7,69 @@
     <atom:link href="https://royale.apache.org/feed/index.xml" rel="self" type="application/rss+xml" />
     <link>https://royale.apache.org/</link>
     <description>News and tutorials about Apache Royale™</description>
-    <lastBuildDate>Wed, 30 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 31 May 2023 00:00:00 +0000</lastBuildDate>
     <language>en-US</language>
+    
+        
+        <item>
+            <title>Apache Royale v0.9.10 released!</title>
+            <link>https://royale.apache.org/blog/apache-royale-v0-9-10-released/</link>
+            <pubDate>Wed, 31 May 2023 00:00:00 +0000</pubDate>
+            <dc:creator><![CDATA[Yishay Weiss]]></dc:creator>
+            <guid isPermaLink="false">https://royale.apache.org/blog/apache-royale-v0-9-10-released/</guid>
+            <description><![CDATA[<p>The Apache Royale community is pleased to announce the release of <strong>Apache Royale 0.9.10</strong>.</p>
+<p>The Apache Royale project is the next generation of the Apache Flex SDK. It lets developers use <strong>MXML</strong> and <strong>ActionScript 3</strong> to generate <strong>HTML/JS/CSS</strong> applications which can run natively in browsers. The cross-compiled code can also run on platforms like <strong>Electron</strong> or <strong>Apache Cordova</strong> (Adobe PhoneGap) to build mobile applications.</p>
+<p>This release should be considered 'beta' quality, although <em>we're very close to a 1.0 release</em> and <em>we have many applications in production</em> at this point. The purpose of this release is to continue to gather feedback about Royale's features and the project's implementation strategies, and to recruit new contributors. We hope to grow the code base into an SDK and tool chain that delivers the highest productivity when developing applications that can run on many platforms. Beta releases, however, may not handle all production needs.</p>
+<h2>Changes in 0.9.10:</h2>
+<h3>Apache Royale Framework 0.9.10</h3>
+<ul>
+<li>RoyaleUnit
+<ul>
+<li>Added BDD-style expect() method for natural language assertions</li>
+<li>Added a number of new asserts, including checks for NaN, less than, greater than, less or equal, greater or equal, within range, is of type, throws exception, and matches regular expression.</li>
+</ul>
+</li>
+<li>MXRoyale
+<ul>
+<li>Various bug fixes</li>
+</ul>
+</li>
+<li>Jewel
+<ul>
+<li>Various bug fixes</li>
+</ul>
+</li>
+<li>Dozens of bugs reported, investigated, and squashed. For details of closed bug reports see <a href="https://github.com/apache/royale-asjs/issues?q=is%3Aissue+is%3Aclosed">GitHub Issues list</a>.</li>
+</ul>
+<h3>Apache Royale Compiler 0.9.10</h3>
+<ul>
+<li><strong>aslint</strong> is a new command line code linter for ActionScript and MXML, with a programmatic API for use in editors and IDEs.</li>
+<li>compiler: Added <code>--watch</code> compiler option that keeps compiler active and incrementally compiles when changes to <em>.as</em> and <em>.mxml</em> files are detected. You may exit with Ctrl+C.</li>
+<li>compiler: Added support for <code>??</code> null coalescing operator to ActionScript.</li>
+<li>compiler: Added support for <code>?.</code> null conditional operator to ActionScript.</li>
+<li>compiler: Added support for <code>@&quot;&quot;</code> verbatim strings to ActionScript.</li>
+<li>compiler: Fix JS output for chained <code>Date</code> setter initialization, like <code>date.minutes = date.seconds = 0</code>.</li>
+<li>compiler: Fix <code>&lt;![CDATA[]]&gt;</code> handling in MXML for properties with <code>[CollapseWhiteSpace]</code> metadata.</li>
+<li>royaleunit-ant-tasks: The <code>&lt;royaleunit&gt;</code> Ant Task can now use Playwright to run headless tests in HTML/JS. Set the <code>player</code> to chromium, webkit, or firefox.</li>
+<li>royaleunit-ant-tasks: Added a new <code>commandArgs</code> attribute to the <code>&lt;royaleunit&gt;</code> Ant Task. It may be used to pass extra command line arguments to the executable specified in the <code>command</code> attribute.</li>
+<li>formatter: Can load configuration options with <code>-load-config+=path/to/file.xml</code>, similar to compiler.</li>
+<li>formatter: If a file named <em>asformat-config.xml</em> appears in the current working directory, automatically load it with <code>-load-config</code>. To disable this behavior, use <code>-skip-local-config-file=true</code>.</li>
+<li>formatter: Fix issue where more than one new line might appear at the end of a file.</li>
+<li>formatter: Fix indentation between opening and closing parentheses/brackets on separate lines.</li>
+<li>formatter: Fix detection of <code>Script</code> elements in MXML when line endings are CRLF.</li>
+<li>formatter: Fix exception when file starts with UTF BOM character.</li>
+<li>formatter: Fix issue where ternary operator inside <code>if</code> condition was formatted incorrectly.</li>
+<li>formatter: Fix missing formatting for <code>finally</code> block.</li>
+<li>formatter: If a case or default clause in a <code>switch</code> contains only a block, indent is not increased.</li>
+<li>formatter: If formatting is skipped because compiler errors are found, display those compiler errors.</li>
+</ul>
+<p>For additional information on recent issues that have been closed, see <a href="https://github.com/apache/royale-compiler/issues?q=is%3Aissue+is%3Aclosed">Github Issues List</a></p>
+<p>You can download a <a href="https://royale.apache.org/download/">binary distribution</a>, the <a href="https://royale.apache.org/source-code/">source code</a> or browse our <a href="https://github.com/apache/royale-asjs/wiki/Apache-Royale-Source-Code-Repositories">GitHub repositories</a>. If you're a NPM user you can check <a href="https://www.npmjs.com/org/apache-royale">Apache Royale at NPM</a>.</p>
+<p>As well, you can help us <a href="https://github.com/apache/royale-asjs/issues">filing bug reports for issues you encounter in the framework</a> or <a href="https://github.com/apache/royale-compiler/issues">compiler</a>.</p>
+<p>For questions about how to use Royale, send email to <a href="https://royale.apache.org/blog/apache-royale-v0-9-10-released/users@royale.apache.org">mailto:users@royale.apache.org</a>.  For questions and feedback on the development of the source code in the release, send email to <a href="mailto:dev@royale.apache.org">dev@royale.apache.org</a>.</p>
+<p>Enjoy! 🙂</p>
+]]></description>
+        </item>
     
         
         <item>
