@@ -50,15 +50,9 @@ If you submit a few patches that meet the Apache standards, you will probably be
 
 ## Nightly Builds
 
-We provide two kind of nightly build packages. The first one only output JavaScript and the other one outputs JavaScript and SWF.
+We provide nightly build packages to allow contributors to test the latest changes.
 
 > These nightly builds are generated from our development branch, which means the distributions may not be fully functional and/or could contain bugs. **We strongly recommend not to use this nightly builds in production environments.**
 
-### Royale JS-Only Nightly Build
-
-- [<i class="fa fa-external-link"></i> Download royale-asjs (JS-only) artifacts](http://apacheroyaleci2.westus2.cloudapp.azure.com:8080/job/royale-asjs_jsonly/lastSuccessfulBuild/artifact/out/)
+- [<i class="fa fa-external-link"></i> Download royale-asjs artifacts](https://nightlies.apache.org/Royale/Royale-asjs/)
 </ul>
-
-### Royale JS and SWF Nightly Build
-
-- [<i class="fa fa-external-link"></i> Download royale-asjs (JS and SWF) artifacts](http://apacheroyaleci2.westus2.cloudapp.azure.com:8080/job/royale-asjs/lastSuccessfulBuild/artifact/out/)
