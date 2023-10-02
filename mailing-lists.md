@@ -27,8 +27,7 @@ This is where community users can get together and discuss Royale and how they u
 
 ### Users List Archives
 
-- [Pony Mail](https://lists.apache.org/list.html?users@royale.apache.org)
-- [Nabble](http://apache-royale-users.20374.n8.nabble.com/)
+- [Apache Pony Mail](https://lists.apache.org/list.html?users@royale.apache.org)
 
 ## Development Mailing List
 
@@ -44,8 +43,7 @@ This mailing list is geared towards users working on the SDK or related utilitie
 
 ### Development List Archives
 
-- [Pony Mail](https://lists.apache.org/list.html?dev@royale.apache.org)
-- [Nabble](http://apache-royale-development.20373.n8.nabble.com/)
+- [Apache Pony Mail](https://lists.apache.org/list.html?dev@royale.apache.org)
 
 ## Commits Mailing List
 
