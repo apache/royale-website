@@ -5,13 +5,13 @@ title: "Download"
 
 Get the latest bits
 
-On this page, you can find the _binary distributions_ of Apache Royale SDK to download. If you prefer, you may download the [source code](/source-code) instead, to compile it yourself. You may also checkout directly from our [GitHub repositories](https://github.com/apache/royale-asjs/wiki/Apache-Royale-Source-Code-Repositories).
+On this page, you can find the _binary distributions_ of Apache Royale SDK to download. If you prefer, you may download the [source code](/source-code) instead, to compile it yourself. You may also check out files directly from our [GitHub repositories](https://github.com/apache/royale-asjs/wiki/Apache-Royale-Source-Code-Repositories).
 
 ## Current Release
 
 The current version of Apache Royale is **0.9.10**, released in **May 2023**. It is **beta-quality**. This means that Royale may not work entirely as you or we want it to, and that certain "standard" components or functions are not yet available. However, you can create applications in Royale and compile them to run either in a browser window or on the Flash/AIR platforms.
 
-Download the compiled (binary) version of Royale from one of the Apache mirror sites linked below.
+Download the compiled (binary) version of Royale using the links below.
 
 To create JavaScript applications with Royale, download from here:
 
