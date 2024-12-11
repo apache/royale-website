@@ -13,9 +13,10 @@ The following products and tools support Apache Royale and make working with AS3
 
 <img src="/img/ides/vscode-as3mxml-ide.png" width="256">
 
-ActionScript and MXML language extension for Visual Studio Code to develop apps for Adobe AIR, Flash Player, or Apache Royale.
+ActionScript and MXML language extension for Visual Studio Code to develop apps for Apache Royale, Apache Flex, and Adobe AIR. Also available for VSCodium and other code editors that support the Open VSX Registry.
 
-- [Learn More about vscode-as3mxml](https://as3mxml.com/)
+- [vscode-as3mxml on Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=bowlerhatllc.vscode-as3mxml)
+- [vscode-as3mxml on Open VSX Registry](https://open-vsx.org/extension/bowlerhatllc/vscode-as3mxml)
 
 ### Moonshine IDE
 
