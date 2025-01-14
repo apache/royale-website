@@ -17,12 +17,16 @@ module.exports = function (eleventyConfig) {
     const content = post.replace(/(<([^>]+)>)/gi, "");
     return content.substr(0, content.lastIndexOf(" ", 200)) + "...";
   });
+  eleventyConfig.addFilter("dateToISOString", function (date) {
+    return date.toISOString();
+  });
 
   // copy these files to the output directory
   // if the directories contain any template extensions (such as.html or .md),
   // be sure to add the directory to .eleventyignore
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy(".htaccess");
+  eleventyConfig.addPassthroughCopy("robots.txt");
   eleventyConfig.addPassthroughCopy("asdoc");
   eleventyConfig.addPassthroughCopy("blog-examples");
   eleventyConfig.addPassthroughCopy("tourdejewel");
