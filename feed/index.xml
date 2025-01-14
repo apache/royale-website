@@ -7,14 +7,14 @@
     <atom:link href="https://royale.apache.org/feed/index.xml" rel="self" type="application/rss+xml" />
     <link>https://royale.apache.org/</link>
     <description>News and tutorials about Apache Royale™</description>
-    <lastBuildDate>Wed, 11 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Dec 2024 24:00:00 GMT</lastBuildDate>
     <language>en-US</language>
     
         
         <item>
             <title>Apache Royale v0.9.12 released!</title>
             <link>https://royale.apache.org/blog/apache-royale-v0-9-12-released/</link>
-            <pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate>
+            <pubDate>Wed, 11 Dec 2024 24:00:00 GMT</pubDate>
             <dc:creator><![CDATA[Josh Tynjala]]></dc:creator>
             <guid isPermaLink="false">https://royale.apache.org/blog/apache-royale-v0-9-12-released/</guid>
             <description><![CDATA[<p>The Apache Royale community is pleased to announce the release of <strong>Apache Royale 0.9.12</strong>.</p>
@@ -190,7 +190,7 @@
         <item>
             <title>Apache Royale v0.9.10 released!</title>
             <link>https://royale.apache.org/blog/apache-royale-v0-9-10-released/</link>
-            <pubDate>Wed, 31 May 2023 00:00:00 +0000</pubDate>
+            <pubDate>Wed, 31 May 2023 24:00:00 GMT</pubDate>
             <dc:creator><![CDATA[Yishay Weiss]]></dc:creator>
             <guid isPermaLink="false">https://royale.apache.org/blog/apache-royale-v0-9-10-released/</guid>
             <description><![CDATA[<p>The Apache Royale community is pleased to announce the release of <strong>Apache Royale 0.9.10</strong>.</p>
@@ -251,7 +251,7 @@
         <item>
             <title>Apache Royale v0.9.9 released!</title>
             <link>https://royale.apache.org/blog/apache-royale-v0-9-9-released/</link>
-            <pubDate>Wed, 30 Mar 2022 00:00:00 +0000</pubDate>
+            <pubDate>Wed, 30 Mar 2022 24:00:00 GMT</pubDate>
             <dc:creator><![CDATA[Yishay Weiss]]></dc:creator>
             <guid isPermaLink="false">https://royale.apache.org/blog/apache-royale-v0-9-9-released/</guid>
             <description><![CDATA[<p>The Apache Royale community is pleased to announce the release of <strong>Apache Royale 0.9.9</strong>.</p>
@@ -352,7 +352,7 @@
         <item>
             <title>Apache Royale v0.9.8 released!</title>
             <link>https://royale.apache.org/blog/apache-royale-v0-9-8-released/</link>
-            <pubDate>Thu, 02 Sep 2021 00:00:00 +0000</pubDate>
+            <pubDate>Thu, 02 Sep 2021 24:00:00 GMT</pubDate>
             <dc:creator><![CDATA[Yishay Weiss]]></dc:creator>
             <guid isPermaLink="false">https://royale.apache.org/blog/apache-royale-v0-9-8-released/</guid>
             <description><![CDATA[<p>The Apache Royale community is pleased to announce the release of <strong>Apache Royale 0.9.8</strong>.</p>
@@ -541,7 +541,7 @@
         <item>
             <title>Royale at ApacheCon 2020</title>
             <link>https://royale.apache.org/blog/royale-at-apachecon-2020/</link>
-            <pubDate>Fri, 02 Oct 2020 00:00:00 +0000</pubDate>
+            <pubDate>Fri, 02 Oct 2020 24:00:00 GMT</pubDate>
             <dc:creator><![CDATA[Andrew Wetmore]]></dc:creator>
             <guid isPermaLink="false">https://royale.apache.org/blog/royale-at-apachecon-2020/</guid>
             <description><![CDATA[<p>The Apache Software Foundation (ASF) held its annual convention, ApacheCon, September 29-October 1, 2020. Because of the pandemic, it was an all-virtual conference. Participants logged in and attended keynote speeches, track sessions, and informal hallway meetings from all around the world. The conference had a track in Mandarin, and sessions in Hindi.</p>
@@ -574,7 +574,7 @@
         <item>
             <title>Using Jewel TileHorizontalLayout</title>
             <link>https://royale.apache.org/blog/using-jewel-tilehorizontallayout/</link>
-            <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+            <pubDate>Tue, 11 Aug 2020 24:00:00 GMT</pubDate>
             <dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
             <guid isPermaLink="false">https://royale.apache.org/blog/using-jewel-tilehorizontallayout/</guid>
             <description><![CDATA[<p>This example shows how to use the Jewel <strong>TileHorizontalLayout</strong> in Jewel components and data-based containers to arrange child elements as tiles. The layout lets you customize the tiles' size, the gaps between tiles, and whether you want them organized by rows or columns.</p>
@@ -710,7 +710,7 @@
         <item>
             <title>Apache Royale v0.9.7 released!</title>
             <link>https://royale.apache.org/blog/apache-royale-v0-9-7-released/</link>
-            <pubDate>Fri, 15 May 2020 00:00:00 +0000</pubDate>
+            <pubDate>Fri, 15 May 2020 24:00:00 GMT</pubDate>
             <dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
             <guid isPermaLink="false">https://royale.apache.org/blog/apache-royale-v0-9-7-released/</guid>
             <description><![CDATA[<p>The Apache Royale community is pleased to announce the release of <strong>Apache Royale 0.9.7</strong>.</p>
@@ -907,7 +907,7 @@ distribution can be JS only</li>
         <item>
             <title>Working with vector graphics</title>
             <link>https://royale.apache.org/blog/working-with-vector-graphics/</link>
-            <pubDate>Sun, 29 Mar 2020 00:00:00 +0000</pubDate>
+            <pubDate>Sun, 29 Mar 2020 24:00:00 GMT</pubDate>
             <dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
             <guid isPermaLink="false">https://royale.apache.org/blog/working-with-vector-graphics/</guid>
             <description><![CDATA[<p>This example shows some ways you can work with vector graphics in Apache Royale. Since Royale draws in part from the sources of Flash and Flex technologies, you'll find that <a href="https://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/flash/display/Graphics.html">the powerful Flash drawing API</a> is supported for JavaScript and SWF applications. On the other hand, Apache Royale also supports use of <a href="https://en.wikipedia.org/wiki/Scalable_Vector_Graphics">SVG graphics</a>.</p>
@@ -1058,7 +1058,7 @@ private function changeFill(event:ValueChangeEvent):void {
         <item>
             <title>How to create a Desktop Application with Royale and Electron</title>
             <link>https://royale.apache.org/blog/how-to-create-a-desktop-application-with-royale-and-electron/</link>
-            <pubDate>Thu, 26 Mar 2020 00:00:00 +0000</pubDate>
+            <pubDate>Thu, 26 Mar 2020 24:00:00 GMT</pubDate>
             <dc:creator><![CDATA[Judah Frangipane]]></dc:creator>
             <guid isPermaLink="false">https://royale.apache.org/blog/how-to-create-a-desktop-application-with-royale-and-electron/</guid>
             <description><![CDATA[<p>With <strong>Apache Royale</strong> and <strong>Electron</strong> you can publish your projects to desktop applications. In this guide you'll learn how to do that.</p>
@@ -1604,7 +1604,7 @@ ipcMain.on(&quot;mainMessageHandler&quot;, (event, arg) =&gt; {
         <item>
             <title>Apache Royale v0.9.6 released!</title>
             <link>https://royale.apache.org/blog/apache-royale-v0-9-6-released/</link>
-            <pubDate>Tue, 08 Oct 2019 00:00:00 +0000</pubDate>
+            <pubDate>Tue, 08 Oct 2019 24:00:00 GMT</pubDate>
             <dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
             <guid isPermaLink="false">https://royale.apache.org/blog/apache-royale-v0-9-6-released/</guid>
             <description><![CDATA[<p>The Apache Royale community is pleased to announce the release of <strong>Apache Royale 0.9.6</strong>.</p>
@@ -1683,7 +1683,7 @@ ipcMain.on(&quot;mainMessageHandler&quot;, (event, arg) =&gt; {
         <item>
             <title>Dividing an Apache Royale application with modules</title>
             <link>https://royale.apache.org/blog/dividing-an-apache-royale-application-with-modules/</link>
-            <pubDate>Wed, 26 Jun 2019 00:00:00 +0000</pubDate>
+            <pubDate>Wed, 26 Jun 2019 24:00:00 GMT</pubDate>
             <dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
             <guid isPermaLink="false">https://royale.apache.org/blog/dividing-an-apache-royale-application-with-modules/</guid>
             <description><![CDATA[<p>This example shows how you can break an Apache Royale application into parts called Modules. You then have a main application that acts as a shell for the modules, that hold key features or functions, and that are loaded on demand, not when the user first opens the application.</p>
@@ -1803,7 +1803,7 @@ ipcMain.on(&quot;mainMessageHandler&quot;, (event, arg) =&gt; {
         <item>
             <title>Using external JavaScript libraries in Apache Royale</title>
             <link>https://royale.apache.org/blog/using-external-javascript-libraries-in-apache-royale/</link>
-            <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
+            <pubDate>Mon, 03 Jun 2019 24:00:00 GMT</pubDate>
             <dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
             <guid isPermaLink="false">https://royale.apache.org/blog/using-external-javascript-libraries-in-apache-royale/</guid>
             <description><![CDATA[<p>This example shows how to use external JavaScript libraries in your Apache Royale application. You can add quick functionality to your application by including code that is not part of Apache Royale itself or is even not written in ActionScript.</p>
@@ -1976,7 +1976,7 @@ hljs[&quot;highlightBlock&quot;](block);
         <item>
             <title>Apache Royale v0.9.4 released!</title>
             <link>https://royale.apache.org/blog/apache-royale-v0-9-4-released/</link>
-            <pubDate>Mon, 10 Dec 2018 00:00:00 +0000</pubDate>
+            <pubDate>Mon, 10 Dec 2018 24:00:00 GMT</pubDate>
             <dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
             <guid isPermaLink="false">https://royale.apache.org/blog/apache-royale-v0-9-4-released/</guid>
             <description><![CDATA[<p>The Apache Royale community is pleased to announce the release of Apache Royale 0.9.4.</p>
@@ -2015,7 +2015,7 @@ hljs[&quot;highlightBlock&quot;](block);
         <item>
             <title>Hello Node: How to transpile ActionScript 3 for Node.js</title>
             <link>https://royale.apache.org/blog/hello-node-how-to-transpile-actionscript-for-node-js/</link>
-            <pubDate>Wed, 03 Oct 2018 00:00:00 +0000</pubDate>
+            <pubDate>Wed, 03 Oct 2018 24:00:00 GMT</pubDate>
             <dc:creator><![CDATA[Josh Tynjala]]></dc:creator>
             <guid isPermaLink="false">https://royale.apache.org/blog/hello-node-how-to-transpile-actionscript-for-node-js/</guid>
             <description><![CDATA[<blockquote>
@@ -2091,7 +2091,7 @@ The address of localhost is: 127.0.0.1
         <item>
             <title>Loading external data through HTTPService</title>
             <link>https://royale.apache.org/blog/loading-external-data-through-httpservice/</link>
-            <pubDate>Sun, 23 Sep 2018 00:00:00 +0000</pubDate>
+            <pubDate>Sun, 23 Sep 2018 24:00:00 GMT</pubDate>
             <dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
             <guid isPermaLink="false">https://royale.apache.org/blog/loading-external-data-through-httpservice/</guid>
             <description><![CDATA[<p>This example shows you how to use <strong>HTTPService</strong> to access external data to use in your Apache Royale application.</p>
@@ -2273,7 +2273,7 @@ The address of localhost is: 127.0.0.1
         <item>
             <title>Customization through the Royale API</title>
             <link>https://royale.apache.org/blog/customization-through-the-royale-api/</link>
-            <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+            <pubDate>Wed, 01 Aug 2018 24:00:00 GMT</pubDate>
             <dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
             <guid isPermaLink="false">https://royale.apache.org/blog/customization-through-the-royale-api/</guid>
             <description><![CDATA[<p>This example shows you how to use the powerful Royale API to get access to the internal workings of components and customize them to suit your needs. As you can see, although Royale does a lot for you to simplify development, you always have full control of your code.</p>
@@ -2396,7 +2396,7 @@ The address of localhost is: 127.0.0.1
         <item>
             <title>Using an Item Renderer with a List</title>
             <link>https://royale.apache.org/blog/using-an-item-renderer-with-a-list/</link>
-            <pubDate>Fri, 13 Jul 2018 00:00:00 +0000</pubDate>
+            <pubDate>Fri, 13 Jul 2018 24:00:00 GMT</pubDate>
             <dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
             <guid isPermaLink="false">https://royale.apache.org/blog/using-an-item-renderer-with-a-list/</guid>
             <description><![CDATA[<p>This example shows how to use an <strong>ItemRenderer</strong> to display the items in a List in your Royale application. It uses the new Jewel UI set that supports themes and is available in <a href="https://royale.apache.org/download/">the 0.9.4 release or later</a>.</p>
@@ -2557,7 +2557,7 @@ The address of localhost is: 127.0.0.1
         <item>
             <title>Using View States to show or hide content</title>
             <link>https://royale.apache.org/blog/using-view-states-to-show-or-hide-content/</link>
-            <pubDate>Wed, 06 Jun 2018 00:00:00 +0000</pubDate>
+            <pubDate>Wed, 06 Jun 2018 24:00:00 GMT</pubDate>
             <dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
             <guid isPermaLink="false">https://royale.apache.org/blog/using-view-states-to-show-or-hide-content/</guid>
             <description><![CDATA[<p>This example shows you how to display or hide content in your Royale application, thanks to the <strong>View States</strong> feature. It uses the new Jewel UI set that supports themes and is available in <a href="https://royale.apache.org/download/">the 0.9.4 release or later</a>.</p>
@@ -2648,7 +2648,7 @@ global {
         <item>
             <title>Selecting options from a group of Jewel CheckBox controls</title>
             <link>https://royale.apache.org/blog/selecting-options-from-a-group-of-jewel-checkbox-controls/</link>
-            <pubDate>Tue, 22 May 2018 00:00:00 +0000</pubDate>
+            <pubDate>Tue, 22 May 2018 24:00:00 GMT</pubDate>
             <dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
             <guid isPermaLink="false">https://royale.apache.org/blog/selecting-options-from-a-group-of-jewel-checkbox-controls/</guid>
             <description><![CDATA[<p>In this example we'll show a set of Jewel <strong>CheckBox</strong> controls that let the user select one or more options in a Royale application. It uses the new Jewel UI set that supports themes and is available in <a href="https://royale.apache.org/download/">the 0.9.4 release or later</a>.</p>
@@ -2725,7 +2725,7 @@ global {
         <item>
             <title>Binding the text property of a Jewel TextInput to update a text Label</title>
             <link>https://royale.apache.org/blog/binding-the-text-property-of-a-jewel-textinput-to-update-a-text-label/</link>
-            <pubDate>Wed, 09 May 2018 00:00:00 +0000</pubDate>
+            <pubDate>Wed, 09 May 2018 24:00:00 GMT</pubDate>
             <dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
             <guid isPermaLink="false">https://royale.apache.org/blog/binding-the-text-property-of-a-jewel-textinput-to-update-a-text-label/</guid>
             <description><![CDATA[<p>In this example we'll cover how to use the data binding feature with a Jewel <strong>TextInput</strong> field in a Royale application. It uses the new Jewel UI set that supports themes and is available in <a href="https://royale.apache.org/download/">the 0.9.4 release or later</a>.</p>
@@ -2797,7 +2797,7 @@ global {
         <item>
             <title>Creating a group of Jewel radio buttons</title>
             <link>https://royale.apache.org/blog/creating-a-group-of-jewel-radiobuttons/</link>
-            <pubDate>Wed, 02 May 2018 00:00:00 +0000</pubDate>
+            <pubDate>Wed, 02 May 2018 24:00:00 GMT</pubDate>
             <dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
             <guid isPermaLink="false">https://royale.apache.org/blog/creating-a-group-of-jewel-radiobuttons/</guid>
             <description><![CDATA[<p>In this example we'll cover how to show a list of options in a Royale application with a group of Jewel <strong>RadioButton</strong> controls. It uses the new Jewel UI set that supports themes and is available in <a href="https://royale.apache.org/download/">the 0.9.4 release or later</a>.</p>
@@ -2868,7 +2868,7 @@ global {
         <item>
             <title>Adding an item to a Jewel List</title>
             <link>https://royale.apache.org/blog/adding-an-item-to-a-jewel-list/</link>
-            <pubDate>Mon, 16 Apr 2018 00:00:00 +0000</pubDate>
+            <pubDate>Mon, 16 Apr 2018 24:00:00 GMT</pubDate>
             <dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
             <guid isPermaLink="false">https://royale.apache.org/blog/adding-an-item-to-a-jewel-list/</guid>
             <description><![CDATA[<p>In this example we'll cover how to set up a Jewel <strong>List</strong> control that shows a list of basic string data in a Royale application, and then add an item to the list. It uses the new Jewel UI set that supports themes and is available in <a href="https://royale.apache.org/download/">the 0.9.4 release or later</a>.</p>
@@ -2935,7 +2935,7 @@ For this example we used the Amethyst Jewel Theme to match movie colors better.<
         <item>
             <title>Using the Jewel Slider Control</title>
             <link>https://royale.apache.org/blog/using-the-jewel-slider-control/</link>
-            <pubDate>Thu, 12 Apr 2018 00:00:00 +0000</pubDate>
+            <pubDate>Thu, 12 Apr 2018 24:00:00 GMT</pubDate>
             <dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
             <guid isPermaLink="false">https://royale.apache.org/blog/using-the-jewel-slider-control/</guid>
             <description><![CDATA[<p>In this example we'll see the basic use of the Jewel <strong>Slider</strong> control in a Royale application. It uses the new Jewel UI set that supports themes and is available in <a href="https://royale.apache.org/download/">the 0.9.4 release or later</a>.</p>
@@ -3000,7 +3000,7 @@ For this example we used the Amethyst Jewel Theme to match movie colors better.<
         <item>
             <title>Using the Jewel Alert Control</title>
             <link>https://royale.apache.org/blog/using-jewel-alert-control/</link>
-            <pubDate>Fri, 06 Apr 2018 00:00:00 +0000</pubDate>
+            <pubDate>Fri, 06 Apr 2018 24:00:00 GMT</pubDate>
             <dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
             <guid isPermaLink="false">https://royale.apache.org/blog/using-jewel-alert-control/</guid>
             <description><![CDATA[<p>The following code shows the basic method for displaying an <strong>Alert</strong> dialog in a Royale application. It uses the new Jewel UI set that supports themes and is available in <a href="https://royale.apache.org/download/">the 0.9.4 release or later</a>.</p>
@@ -3054,7 +3054,7 @@ For this example we used the Amethyst Jewel Theme to match movie colors better.<
         <item>
             <title>Apache Royale v0.9.2 released!</title>
             <link>https://royale.apache.org/blog/apache-royale-v0-9-2-released/</link>
-            <pubDate>Mon, 19 Mar 2018 00:00:00 +0000</pubDate>
+            <pubDate>Mon, 19 Mar 2018 24:00:00 GMT</pubDate>
             <dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
             <guid isPermaLink="false">https://royale.apache.org/blog/apache-royale-v0-9-2-released/</guid>
             <description><![CDATA[<p>The Apache Royale community is pleased to announce the release of Apache Royale 0.9.2.</p>
@@ -3099,7 +3099,7 @@ For this example we used the Amethyst Jewel Theme to match movie colors better.<
         <item>
             <title>Apache Royale v0.9.1 released!</title>
             <link>https://royale.apache.org/blog/apache-royale-v0-9-1-released/</link>
-            <pubDate>Wed, 14 Feb 2018 00:00:00 +0000</pubDate>
+            <pubDate>Wed, 14 Feb 2018 24:00:00 GMT</pubDate>
             <dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
             <guid isPermaLink="false">https://royale.apache.org/blog/apache-royale-v0-9-1-released/</guid>
             <description><![CDATA[<p>The Apache Royale community is pleased to announce the release of Apache Royale 0.9.1.</p>
@@ -3117,7 +3117,7 @@ For this example we used the Amethyst Jewel Theme to match movie colors better.<
         <item>
             <title>Creating a Hello World in Apache Royale</title>
             <link>https://royale.apache.org/blog/creating-a-hello-world-in-apache-royale/</link>
-            <pubDate>Mon, 12 Feb 2018 00:00:00 +0000</pubDate>
+            <pubDate>Mon, 12 Feb 2018 24:00:00 GMT</pubDate>
             <dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
             <guid isPermaLink="false">https://royale.apache.org/blog/creating-a-hello-world-in-apache-royale/</guid>
             <description><![CDATA[<p>This section will try to bring simple code examples that should help to develop with Apache Royale more quickly. This is in part a tribute to Peter deHaan blogs he did for <a href="http://blog.flexexamples.com/">Apache Flex</a>, <a href="http://actionscriptexamples.com/">ActionScript 3</a> and <a href="http://airexamples.com/">Adobe AIR</a> some years ago. Hope you like it and want to contribute to get a huge library of Royale code snippets well organized and searchable.</p>
@@ -3161,7 +3161,7 @@ For this example we used the Amethyst Jewel Theme to match movie colors better.<
         <item>
             <title>Apache Royale v0.9.0 released!</title>
             <link>https://royale.apache.org/blog/apache-royale-v0-9-0-released/</link>
-            <pubDate>Tue, 30 Jan 2018 00:00:00 +0000</pubDate>
+            <pubDate>Tue, 30 Jan 2018 24:00:00 GMT</pubDate>
             <dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
             <guid isPermaLink="false">https://royale.apache.org/blog/apache-royale-v0-9-0-released/</guid>
             <description><![CDATA[<p>The Apache Royale community is pleased to announce the release of Apache Royale 0.9.0.</p>
