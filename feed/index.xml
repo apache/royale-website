@@ -2256,7 +2256,7 @@ The address of localhost is: 127.0.0.1
 <p>Finally, the source code is in the <strong>json.content</strong> variable, but comes encoded in <strong>base64</strong>, so we can use Apache Royale's <strong>decode</strong> function in the <strong>Base64</strong> class to get the decoded xml string to use in our example App. We exposed this in a convenient getter function in our service called <strong>sourceCode</strong>.</p>
 <h2>Where to go from here</h2>
 <ul>
-<li><a href="https://apache.github.io/royale-docs/features/loading-external-data">Apache Royale documentation page about loading external data</a></li>
+<li><a href="https://apache.github.io/royale-docs/working-with-data/loading-external-data">Apache Royale documentation page about loading external data</a></li>
 <li><a href="https://apache.github.io/royale-docs/component-sets/jewel/label">Jewel Label Royale Docs page</a></li>
 <li><a href="https://apache.github.io/royale-docs/component-sets/jewel/button">Jewel Button Royale Docs page</a></li>
 <li><a href="https://apache.github.io/royale-docs/component-sets/jewel/card">Jewel Card Royale Docs page</a></li>
