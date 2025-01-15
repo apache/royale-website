@@ -181,7 +181,7 @@ Finally, the source code is in the **json.content** variable, but comes encoded 
 
 ## Where to go from here
 
-- [Apache Royale documentation page about loading external data](https://apache.github.io/royale-docs/features/loading-external-data)
+- [Apache Royale documentation page about loading external data](https://apache.github.io/royale-docs/working-with-data/loading-external-data)
 - [Jewel Label Royale Docs page](https://apache.github.io/royale-docs/component-sets/jewel/label)
 - [Jewel Button Royale Docs page](https://apache.github.io/royale-docs/component-sets/jewel/button)
 - [Jewel Card Royale Docs page](https://apache.github.io/royale-docs/component-sets/jewel/card)
