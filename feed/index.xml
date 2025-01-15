@@ -2095,7 +2095,7 @@ The address of localhost is: 127.0.0.1
             <dc:creator><![CDATA[Carlos Rovira]]></dc:creator>
             <guid isPermaLink="false">https://royale.apache.org/blog/loading-external-data-through-httpservice/</guid>
             <description><![CDATA[<p>This example shows you how to use <strong>HTTPService</strong> to access external data to use in your Apache Royale application.</p>
-<p>You can use HTTPService to retrieve data in XML, JSON, or other formats. We'll use Github API services to get JSON formatted GitHub data so we can load info about the code of this example, which is hosted in GitHub.</p>
+<p>You can use HTTPService to retrieve data in XML, JSON, or other formats. We'll use GitHub API services to get JSON formatted GitHub data so we can load info about the code of this example, which is hosted in GitHub.</p>
 <p>It uses the new Jewel UI set that supports themes and is available in <a href="https://royale.apache.org/download/">the 0.9.4 release or later</a>.</p>
 <pre><code class="language-mxml">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;j:Application xmlns:fx=&quot;http://ns.adobe.com/mxml/2009&quot;
@@ -2158,7 +2158,7 @@ The address of localhost is: 127.0.0.1
     &lt;/j:initialView&gt;
 &lt;/j:Application&gt;
 </code></pre>
-<p>We create an Apache Royale interface that shows a text code panel to load the source code of this example in it. Github doesn't let us load a page from its domain in an iFrame, so this is the only way to embed GitHub content in your application.</p>
+<p>We create an Apache Royale interface that shows a text code panel to load the source code of this example in it. GitHub doesn't let us load a page from its domain in an iFrame, so this is the only way to embed GitHub content in your application.</p>
 <p>The text code panel is made of <em>pre</em> and <em>code</em> html tags with some custom style to make the background white. We provide a Label to show accessing Json data directly with dot notation. Finally we provide a button to trigger the <strong>HTTPService</strong>.</p>
 <blockquote>
 <p><strong>Tip:</strong> We use the <strong>ScrollingViewport</strong> bead to add scrolling behavior to our text code panel.</p>
