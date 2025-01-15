@@ -7,7 +7,7 @@ layout: "blog-post.html"
 ---
 This example shows you how to use **HTTPService** to access external data to use in your Apache Royale application.
 
-You can use HTTPService to retrieve data in XML, JSON, or other formats. We'll use Github API services to get JSON formatted GitHub data so we can load info about the code of this example, which is hosted in GitHub.
+You can use HTTPService to retrieve data in XML, JSON, or other formats. We'll use GitHub API services to get JSON formatted GitHub data so we can load info about the code of this example, which is hosted in GitHub.
 
 It uses the new Jewel UI set that supports themes and is available in [the 0.9.4 release or later](https://royale.apache.org/download/).
 
@@ -74,7 +74,7 @@ It uses the new Jewel UI set that supports themes and is available in [the 0.9.4
 </j:Application>
 ```
 
-We create an Apache Royale interface that shows a text code panel to load the source code of this example in it. Github doesn't let us load a page from its domain in an iFrame, so this is the only way to embed GitHub content in your application.
+We create an Apache Royale interface that shows a text code panel to load the source code of this example in it. GitHub doesn't let us load a page from its domain in an iFrame, so this is the only way to embed GitHub content in your application.
 
 The text code panel is made of _pre_ and _code_ html tags with some custom style to make the background white. We provide a Label to show accessing Json data directly with dot notation. Finally we provide a button to trigger the **HTTPService**.
 
