@@ -25,6 +25,7 @@ module.exports = function (eleventyConfig) {
   // if the directories contain any template extensions (such as.html or .md),
   // be sure to add the directory to .eleventyignore
   eleventyConfig.addPassthroughCopy("img");
+  eleventyConfig.addPassthroughCopy("fnt");
   eleventyConfig.addPassthroughCopy(".htaccess");
   eleventyConfig.addPassthroughCopy("robots.txt");
   eleventyConfig.addPassthroughCopy("asdoc");
