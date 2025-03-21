@@ -33,5 +33,17 @@
                "values": ["3.0"]}  ],
           "return": "",
           "params": []}
-      ]
+      ,
+      { "type": "accessor",
+        "access": "write-only",
+        "return": "uint",
+        "qname": "symbolColor",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "private",
+               "values": []}  ]}]
   }

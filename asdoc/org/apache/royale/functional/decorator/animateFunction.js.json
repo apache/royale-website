@@ -1,0 +1,17 @@
+{ "type": "method",
+  "qname": "org.apache.royale.functional.decorator.animateFunction",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "Returns a debounced function to run after a delay. The first invocation of the function will be run after its delay. Any invocations between the first invocation and the delay will be ignored.",
+  "tags": [
+  {  "tagName": "productversion",
+         "values": ["Royale 0.9.9"]},
+      {  "tagName": "royalesuppressexport",
+         "values": []},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+    "return": "Function",
+    "params": [{ "name": "method", "type": "Function"},
+  { "name": "fps", "type": "Number"}]}

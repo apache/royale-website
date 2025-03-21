@@ -81,5 +81,14 @@
         "deprecated": {},
           "return": "void",
           "params": []}
-      ]
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "org.apache.royale.jewel.List",
+        "qname": "list",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "the list to filter"}]
   }

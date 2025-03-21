@@ -61,21 +61,5 @@
             {  "tagName": "productversion",
                "values": ["Royale 0.9.7"]},
             {  "tagName": "langversion",
-               "values": ["3.0"]}  ]},
-      { "type": "accessor",
-        "access": "read-write",
-        "return": "Boolean",
-        "qname": "material",
-        "namespace": "public",
-        "bindable": [],
-        "details": [],
-        "deprecated": {},
-          "description": "Use the Material Icons",
-        "tags": [
-        {  "tagName": "playerversion",
-               "values": ["Flash 10.2", "AIR 2.6"]},
-            {  "tagName": "productversion",
-               "values": ["Royale 0.9.7"]},
-            {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
   }

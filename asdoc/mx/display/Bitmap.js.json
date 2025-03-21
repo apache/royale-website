@@ -1,0 +1,33 @@
+{ "type": "class",
+  "qname": "mx.display.Bitmap",
+  "baseClassname": "mx.core.UIComponent"
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "mx.display.Bitmap",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": [{ "name": "bitmapData", "type": "Object"},
+        { "name": "pixelSnapping", "type": "String"},
+        { "name": "smoothing", "type": "Boolean"}]}
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "Boolean",
+        "qname": "smoothing",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}},
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "org.apache.royale.display.BitmapData",
+        "qname": "bitmapData",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}}]
+  }

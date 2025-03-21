@@ -1,0 +1,14 @@
+{ "type": "method",
+  "qname": "jsUnsafeNativeInline",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "Caution - this is for advanced use only and will easily cause problems if used incorrectly. This specific static method has special treatment by the compiler. It should only ever be 'called' with a String literal as an argument. The String literal is then output by the compiler as-is, inline, as native javascript code.  Example (not realistic): var f:Function = jsUnsafeNativeInline(&quot;function(a){console.log(a)}&quot;);",
+  "tags": [
+  {  "tagName": "productversion",
+         "values": ["Royale 0.9.9"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+    "return": "*",
+    "params": [{ "name": "script", "type": "String"}]}

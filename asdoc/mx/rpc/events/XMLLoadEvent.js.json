@@ -106,7 +106,7 @@
         "qname": "formatToString",
         "namespace": "public",
         "bindable": [],
-        "details": [],
+        "details": ["override"],
         "deprecated": {},
           "return": "String",
           "params": [{ "name": "className", "type": "String"},

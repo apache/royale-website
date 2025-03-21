@@ -106,7 +106,7 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "caches closures and returns the one closure",
+          "description": "caches closures and returns the one closure  Note: It's important for each instance's methods to be different, but match when comparing two closure references of a single instance method to one another. That's what makes things like addEventListener and removeEventListener behave like you'd expect. That's how it works in Flash and why we have to using caching.",
         "tags": [
         {  "tagName": "param",
                "values": ["fn The method on the instance.", "object The instance.", "boundMethodName The name to use to cache the closure."]},
@@ -125,13 +125,13 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "",
+          "description": "Note this might mean testing for results is not matching across implementations: &quot;The array is modified to reflect the sort order; multiple elements that have identical sort fields are placed consecutively in the sorted array in no particular order.&quot;",
         "tags": [
         {  "tagName": "param",
                "values": ["arr", "names", "opt"]},
             {  "tagName": "royaleignorecoercion",
                "values": ["Function"]}  ],
-          "return": "void",
+          "return": "Object",
           "params": [{ "name": "arr", "type": "Array"},
         { "name": "args", "type": "Array"}]}
       ,
@@ -141,7 +141,7 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "",
+          "description": "Note this might mean testing for results is not matching across implementations: &quot;The array is modified to reflect the sort order; multiple elements that have identical sort fields are placed consecutively in the sorted array in no particular order.&quot;",
         "tags": [
         {  "tagName": "param",
                "values": ["arr", "names", "opt"]},
@@ -224,7 +224,9 @@
         "deprecated": {},
           "description": "A light wrapper around a Vector constructor call that has an untyped return type (because the resulting type is unknown at compile time) This could be used to create and return a default Vector instance  no export (allow dead code elimination if never used):",
         "tags": [
-        {  "tagName": "royaleignorecoercion",
+        {  "tagName": "royalesuppressresolveuncertain",
+               "values": []},
+            {  "tagName": "royaleignorecoercion",
                "values": ["Array"]}  ],
           "return": "*",
           "params": [{ "name": "size", "type": "int"},

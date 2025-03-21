@@ -27,5 +27,38 @@
                "values": ["3.0"]}  ],
           "return": "",
           "params": []}
+      ,
+      { "type": "method",
+        "qname": "getDefaultController",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "org.apache.royale.core.IBeadController",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "makeListData",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.collections.ITreeData"]}  ],
+          "return": "mx.controls.listClasses.BaseListData",
+          "params": [{ "name": "data", "type": "Object"},
+        { "name": "uid", "type": "String"},
+        { "name": "rowNum", "type": "int"}]}
+      ,
+      { "type": "method",
+        "qname": "adjustItemRendererForMX",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "ir", "type": "org.apache.royale.core.IIndexedItemRenderer"}]}
       ]
   }

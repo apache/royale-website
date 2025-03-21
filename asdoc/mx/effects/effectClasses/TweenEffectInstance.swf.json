@@ -92,6 +92,15 @@
         { "name": "minFps", "type": "Number"}]}
       ,
       { "type": "method",
+        "qname": "applyTweenStartValues",
+        "namespace": "mx_internal",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "void",
+          "params": []}
+      ,
+      { "type": "method",
         "qname": "onTweenUpdate",
         "namespace": "public",
         "bindable": [],

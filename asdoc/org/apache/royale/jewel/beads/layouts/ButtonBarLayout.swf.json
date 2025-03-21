@@ -83,7 +83,7 @@
         {  "tagName": "copy",
                "values": ["org.apache.royale.core.IBeadLayout#layout"]},
             {  "tagName": "royaleignorecoercion",
-               "values": ["org.apache.royale.core.ILayoutChild", "org.apache.royale.core.IStrand", "org.apache.royale.html.beads.models.ButtonBarModel"]}  ],
+               "values": ["org.apache.royale.core.ILayoutChild", "org.apache.royale.core.IStrand", "org.apache.royale.jewel.beads.models.ButtonBarModel"]}  ],
           "return": "Boolean",
           "params": []}
       ]

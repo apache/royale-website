@@ -4,14 +4,14 @@
   ,
     "description": "The DragSource class contains the data being dragged. The data can be in multiple formats, depending on the type of control that initiated the drag.  <p>Each format of data is identified with a string. The <code>hasFormat()</code> method is used to determine if the object has data in that format. The <code>dataForFormat()</code> method is used to retrieve the data in the specified format.</p>  <p>Data can be added directly using the <code>addData()</code> method, or indirectly using the <code>addHandler()</code> method. The <code>addHandler()</code> method registers a callback that will be called if the data is requested. This is useful for adding data in a non-native format that may require large computations or conversions. For example, if you have raw sound data you can add an MP3 format handler. The MP3 conversion will only be done if the MP3 data is requested.</p>",
   "tags": [
-  {  "tagName": "royalesuppresspublicvarwarning",
-         "values": []},
-      {  "tagName": "playerversion",
+  {  "tagName": "playerversion",
          "values": ["Flash 9", "AIR 1.1"]},
       {  "tagName": "productversion",
          "values": ["Royale 0.9.3"]},
       {  "tagName": "langversion",
-         "values": ["3.0"]}  ],
+         "values": ["3.0"]},
+      {  "tagName": "royalesuppresspublicvarwarning",
+         "values": []}  ],
   "members": [
   { "type": "method",
         "qname": "mx.core.DragSource",

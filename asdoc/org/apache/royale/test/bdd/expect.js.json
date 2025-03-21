@@ -1,0 +1,12 @@
+{ "type": "method",
+  "qname": "org.apache.royale.test.bdd.expect",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "Allows chaining of BDD-style assertions using natural language.",
+    "return": "org.apache.royale.test.bdd.IExpect",
+    "params": [{ "name": "value", "type": "*"}]}
+
+
+

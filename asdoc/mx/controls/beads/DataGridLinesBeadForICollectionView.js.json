@@ -13,6 +13,19 @@
           "params": []}
       ,
       { "type": "method",
+        "qname": "getHost",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["mx.core.UIComponent"]}  ],
+          "return": "mx.core.UIComponent",
+          "params": []}
+      ,
+      { "type": "method",
         "qname": "handleInitComplete",
         "namespace": "protected",
         "bindable": [],

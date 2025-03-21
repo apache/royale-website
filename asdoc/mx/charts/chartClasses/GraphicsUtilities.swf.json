@@ -17,16 +17,6 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Applies the values in a Stroke to the provded Graphics object. This utility function applies the Stroke passed in, or clears the line style of the provided Graphics object if the <code>ls</code> parameter is set to <code>null</code>.",
-        "tags": [
-        {  "tagName": "param",
-               "values": ["g The Graphics object to modify.", "ls The IStroke instance to apply; set to <code>null</code> to render with no Stroke."]},
-            {  "tagName": "playerversion",
-               "values": ["Flash 9", "AIR 1.1"]},
-            {  "tagName": "productversion",
-               "values": ["Flex 3"]},
-            {  "tagName": "langversion",
-               "values": ["3.0"]}  ],
           "return": "void",
           "params": [{ "name": "g", "type": "mx.display.Graphics"},
         { "name": "ls", "type": "mx.graphics.IStroke"}]}

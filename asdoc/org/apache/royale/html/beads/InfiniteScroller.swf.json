@@ -1,0 +1,57 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.beads.InfiniteScroller",
+  "baseClassname": "org.apache.royale.core.DispatcherBead"
+  ,
+    "description": "The InfiniteScroller class is a Javascript-only bead that can be used with a List to dispatch a scrollEnd event when the last item renderer scrolls into view. This can be used to implement infinite scrolling.  This bead requires that the strand has a view which is an IItemRendererOwnerView.  By default, the strand is used as the container to be scrolled. This can be changed by setting the scrollContainer property.  The margin property can be used to trigger the scrollEnd event before the last item renderer is completely scrolled into view. The default is 0.  The threshold property can be used to trigger the scrollEnd event when a percentage of the last item renderer is visible. The default is 0.  The bead uses the IntersectionObserver API to detect when the last item renderer is scrolled into view. This API is not supported in all browsers. If the browser does not support it, the scrollEnd event will never be dispatched. Please check https://caniuse.com/intersectionobserver for browser support.",
+  "tags": [
+  {  "tagName": "productversion",
+         "values": ["Royale 0.9.10"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html.beads.InfiniteScroller",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": [{ "name": "scrollContainer", "type": "org.apache.royale.core.IParentIUIBase"}]}
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "org.apache.royale.core.IParentIUIBase",
+        "qname": "scrollContainer",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "The container that will be scrolled. By default this will be the strand."},
+      { "type": "field",
+        "qname": "margin",
+        "return": "Number",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "The number of pixels from the bottom of the scroller that will trigger the scrollEnd event. The default is 0."},
+      { "type": "field",
+        "qname": "threshold",
+        "return": "Number",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "A number between 0 and 1. 0 means if any pixels are visible. 1 means completely visible. The default is 0."}]
+  ,
+  "events": [
+  { "qname": "scrollEnd",
+        "type": "org.apache.royale.events.Event"
+      ,
+          "description": "The scrollEnd event is dispatched when the last item render scrolls into view.",
+        "tags": [
+        {  "tagName": "productversion",
+               "values": ["Royale 0.9.10"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  }

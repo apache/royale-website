@@ -60,11 +60,7 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {},
-          "description": "",
-        "tags": [
-        {  "tagName": "royalesuppresspublicvarwarning",
-               "values": []}  ]},
+        "deprecated": {}},
       { "type": "method",
         "qname": "loadModule",
         "namespace": "public",

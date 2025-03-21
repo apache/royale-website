@@ -1,0 +1,18 @@
+{ "type": "class",
+  "qname": "mx.containers.beads.ButtonBarLayout",
+  "baseClassname": "mx.containers.beads.BoxLayout"
+  ,
+    "description": "The ButtonBarLayout class is for internal use only.",
+  "tags": [
+  {  "tagName": "private",
+         "values": []}  ],
+  "members": [
+  { "type": "accessor",
+        "access": "read-write",
+        "return": "String",
+        "qname": "direction",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {}}]
+  }

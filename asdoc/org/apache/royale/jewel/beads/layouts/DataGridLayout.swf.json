@@ -78,7 +78,7 @@
         {  "tagName": "copy",
                "values": ["org.apache.royale.core.IBeadLayout#layout"]},
             {  "tagName": "royaleignorecoercion",
-               "values": ["org.apache.royale.core.IBorderPaddingMarginValuesImpl", "org.apache.royale.core.IDataGridModel", "org.apache.royale.core.IUIBase", "org.apache.royale.core.UIBase", "org.apache.royale.html.beads.IDataGridView", "org.apache.royale.html.beads.models.ButtonBarModel", "org.apache.royale.jewel.supportClasses.datagrid.IDataGridColumn"]}  ],
+               "values": ["org.apache.royale.core.IBorderPaddingMarginValuesImpl", "org.apache.royale.core.IDataGridModel", "org.apache.royale.core.IUIBase", "org.apache.royale.core.UIBase", "org.apache.royale.html.beads.IDataGridView", "org.apache.royale.jewel.beads.models.ButtonBarModel", "org.apache.royale.jewel.supportClasses.datagrid.IDataGridColumn"]}  ],
           "return": "Boolean",
           "params": []}
       ]

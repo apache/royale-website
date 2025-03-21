@@ -54,7 +54,10 @@
         "bindable": ["__NoChangeEvent__"],
         "details": [],
         "deprecated": {},
-          "description": "The model object."},
+          "description": "The model object.",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.IStrandWithModel"]}  ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Array",

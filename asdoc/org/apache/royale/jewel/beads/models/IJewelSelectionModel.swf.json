@@ -27,5 +27,22 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}}]
+    "deprecated": {}},
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "Boolean",
+    "qname": "isItemClicked",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {}},
+  { "type": "method",
+    "qname": "setDataProvider__NoCheck",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "return": "void",
+      "params": [{ "name": "value", "type": "Object"}]}
+  ]
   }

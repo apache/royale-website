@@ -23,7 +23,7 @@
         "details": ["override"],
         "deprecated": {},
           "return": "void",
-          "params": [{ "name": "output", "type": "org.apache.royale.utils.net.IDataOutput"}]}
+          "params": [{ "name": "output", "type": "flash.utils.IDataOutput"}]}
       ,
       { "type": "accessor",
         "access": "read-write",

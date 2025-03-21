@@ -1,0 +1,42 @@
+{ "type": "class",
+  "qname": "mx.utils.RoyaleUtil",
+  "baseClassname": ""
+  ,
+    "description": "The RoyaleUtil utility class is an all-static class with methods for emulation support",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.9"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]},
+      {  "tagName": "royalesuppressexport",
+         "values": []}  ],
+  "members": [
+  { "type": "field",
+        "qname": "DELAY",
+        "return": "uint",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {}},
+      { "type": "method",
+        "qname": "commitDeferred",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "return": "Boolean",
+          "params": [{ "name": "commitPropertiesFunc", "type": "Function"}]}
+      ,
+      { "type": "method",
+        "qname": "childByName",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "return": "mx.core.IUIComponent",
+          "params": [{ "name": "parent", "type": "mx.core.IChildList"},
+        { "name": "name", "type": "String"}]}
+      ]
+  }

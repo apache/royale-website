@@ -66,5 +66,14 @@
         "deprecated": {},
           "return": "org.apache.royale.promises.interfaces.IThenable",
           "params": [{ "name": "onRejected", "type": "Function"}]}
+      ,
+      { "type": "method",
+        "qname": "finally",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "org.apache.royale.promises.interfaces.IThenable",
+          "params": [{ "name": "onFinally", "type": "Function"}]}
       ]
   }

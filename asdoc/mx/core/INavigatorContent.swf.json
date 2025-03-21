@@ -1,7 +1,10 @@
 { "type": "interface",
   "qname": "mx.core.INavigatorContent",
 "baseInterfaceNames": [
-"org.apache.royale.events.IEventDispatcher"]
+"org.apache.royale.events.IEventDispatcher", 
+"mx.core.IUIComponent", 
+"mx.core.IDeferredContentOwner", 
+"mx.managers.IToolTipManagerClient"]
 ,
     "description": "The INavigatorContent interface defines the interface that a container must implement to be used as the child of a navigator container, such as the ViewStack, TabNavigator, and Accordion navigator containers.",
   "tags": [

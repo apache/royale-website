@@ -31,6 +31,15 @@
           "params": []}
       ,
       { "type": "method",
+        "qname": "cancel",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "void",
+          "params": []}
+      ,
+      { "type": "method",
         "qname": "loaderCompleteHandler",
         "namespace": "public",
         "bindable": [],
@@ -57,6 +66,16 @@
           "params": [{ "name": "request", "type": "org.apache.royale.net.URLRequest"},
         { "name": "uploadDataFieldName", "type": "String"},
         { "name": "testUpload", "type": "Boolean"}]}
+      ,
+      { "type": "method",
+        "qname": "download",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "request", "type": "org.apache.royale.net.URLRequest"},
+        { "name": "defaultFileName", "type": "String"}]}
       ,
       { "type": "method",
         "qname": "save",

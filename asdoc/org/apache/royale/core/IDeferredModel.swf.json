@@ -1,0 +1,31 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.core.IDeferredModel",
+"baseInterfaceNames": [
+"org.apache.royale.core.IBeadModel"]
+,
+    "description": "The IDeferredModel interface describes the minimum set of properties available for models that cache their values until TLC's content creation is being deferred.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.10"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "write-only",
+    "return": "Boolean",
+    "qname": "deferred",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "Whether or not model population is deferred",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.9.10"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]}]
+  }

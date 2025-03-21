@@ -61,6 +61,15 @@
           "params": [{ "name": "event", "type": "org.apache.royale.events.Event"}]}
       ,
       { "type": "method",
+        "qname": "itemRendererChangedHandler",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "event", "type": "org.apache.royale.events.Event"}]}
+      ,
+      { "type": "method",
         "qname": "handleCollectionChanged",
         "namespace": "protected",
         "bindable": [],
@@ -136,7 +145,7 @@
           "description": "",
         "tags": [
         {  "tagName": "royaleignorecoercion",
-               "values": ["mx.controls.listClasses.ListBase", "mx.controls.dataGridClasses.DataGridColumnList", "mx.controls.dataGridClasses.DataGridColumn", "org.apache.royale.core.UIBase;"]}  ],
+               "values": ["mx.controls.listClasses.ListBase", "mx.controls.dataGridClasses.DataGridColumnList", "mx.controls.dataGridClasses.DataGridColumn", "org.apache.royale.core.UIBase", "mx.controls.beads.models.DataGridColumnICollectionViewModel"]}  ],
           "return": "void",
           "params": [{ "name": "list", "type": "org.apache.royale.html.supportClasses.IDataGridColumnList"},
         { "name": "forColumn", "type": "org.apache.royale.html.supportClasses.IDataGridColumn"}]}

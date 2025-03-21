@@ -1,0 +1,35 @@
+{ "type": "class",
+  "qname": "spark.effects.Fade",
+  "baseClassname": "mx.effects.Fade"
+  ,
+  "members": [
+  { "type": "accessor",
+        "access": "write-only",
+        "return": "Array",
+        "qname": "targets",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}},
+      { "type": "accessor",
+        "access": "read-only",
+        "return": "Boolean",
+        "qname": "isPlaying",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}},
+      { "type": "accessor",
+        "access": "read-only",
+        "return": "Number",
+        "qname": "playheadTime",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}}]
+  ,
+  "events": [
+  { "qname": "effectUpdate",
+        "type": "mx.events.EffectEvent"
+      }]
+  }

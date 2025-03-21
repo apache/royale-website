@@ -1,0 +1,16 @@
+{ "type": "class",
+  "qname": "mx.controls.beads.TitleBarTitle",
+  "baseClassname": "mx.core.UITextField"
+  ,
+    "description": "A specially styled Label used in TitleBar",
+  "members": [
+  { "type": "method",
+        "qname": "mx.controls.beads.TitleBarTitle",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ]
+  }

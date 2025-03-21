@@ -1,0 +1,16 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.beads.ReusableDataItemRendererFactoryForCollectionView",
+  "baseClassname": "org.apache.royale.html.beads.DataItemRendererFactoryForCollectionView"
+  ,
+    "description": "The ReusableDataItemRendererFactoryForCollectionView class will save removed itemRenderers and reuse them when new item renderers are needed. This is useful for large collections where creating new item renderers can be expensive. Using this class can drastically reduce rendering time at the expense of preventing the unused item renderers from being garbage collected.  In an unscientific test, using this class reduced rendering time by about a factor of 100 in some cases.  Item renderers must be able to be reused. Resetting the data property must properly reset the state and clean any event listeners from the old state.",
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html.beads.ReusableDataItemRendererFactoryForCollectionView",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": [{ "name": "target", "type": "Object"}]}
+      ]
+  }

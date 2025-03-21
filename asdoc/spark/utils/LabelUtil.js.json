@@ -1,0 +1,37 @@
+{ "type": "class",
+  "qname": "spark.utils.LabelUtil",
+  "baseClassname": ""
+  ,
+    "description": "The LabelUtil class is used by components to determine the correct text to display for their renderers or sub-parts.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10", "AIR 1.5"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 4"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "itemToLabel",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "A function used by components that support item renderers to determine the correct text an item renderer should display for a data item. If no <code>labelField</code> or <code>labelFunction</code> parameter is specified, the <code>toString()</code> method of the data item is called to return a String representation of the data item.  <p>The <code>labelFunction</code> property takes a reference to a function. The function takes a single argument which is the item in the data provider and returns a String:</p> <pre>\\n myLabelFunction(item:Object):String</pre>   to an empty string (&quot;&quot;), no field will be considered on the data item to represent label.  as a single parameter and returns a String.",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["item The data item. Null items return the empty string.", "labelField The field in the data item to return. If labelField is set", "labelFunction A function that takes the data item"]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 10", "AIR 1.5"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 4"]},
+            {  "tagName": "return",
+               "values": ["A String representation for the data item"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "String",
+          "params": [{ "name": "item", "type": "Object"},
+        { "name": "labelField", "type": "String"},
+        { "name": "labelFunction", "type": "Function"}]}
+      ]
+  }

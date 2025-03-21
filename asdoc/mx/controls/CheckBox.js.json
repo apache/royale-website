@@ -31,5 +31,17 @@
         "namespace": "public",
         "bindable": ["change"],
         "details": ["override"],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["HTMLInputElement"]}  ]},
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "uint",
+        "qname": "disabledIconColor",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
         "deprecated": {}}]
   }

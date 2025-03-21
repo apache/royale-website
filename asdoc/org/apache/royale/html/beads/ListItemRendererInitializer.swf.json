@@ -52,7 +52,7 @@
             {  "tagName": "productversion",
                "values": ["Royale 0.9.7"]},
             {  "tagName": "royaleignorecoercion",
-               "values": ["HTMLInputElement", "org.apache.royale.core.IStrandWithPresentationModel", "org.apache.royale.core.IListPresentationModel"]},
+               "values": ["HTMLInputElement", "org.apache.royale.core.IStrandWithPresentationModel", "org.apache.royale.html.IListPresentationModel"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]},
       { "type": "method",

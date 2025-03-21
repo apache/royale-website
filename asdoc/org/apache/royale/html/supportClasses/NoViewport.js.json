@@ -1,0 +1,24 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.supportClasses.NoViewport",
+  "baseClassname": "org.apache.royale.html.supportClasses.Viewport"
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html.supportClasses.NoViewport",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "setScrollStyle",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "void",
+          "params": []}
+      ]
+  }

@@ -77,7 +77,7 @@
         "return": "Boolean",
         "qname": "selected",
         "namespace": "public",
-        "bindable": [],
+        "bindable": ["change"],
         "details": [],
         "deprecated": {},
           "description": "Whether or not the RadioButton instance is selected. Setting this property causes the currently selected RadioButton in the same group to lose the selection.",

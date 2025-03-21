@@ -2,7 +2,7 @@
   "qname": "mx.utils.ObjectUtil",
   "baseClassname": ""
   ,
-    "description": "The ObjectUtil class is an all-static class with methods for working with Objects within Flex. You do not create instances of ObjectUtil; instead you simply call static methods such as the <code>ObjectUtil.isSimple()</code> method.   JS PAYG : non-reflectable utility class, unused methods will be subject to deadcode elimination",
+    "description": "The ObjectUtil class is an all-static class with methods for working with Objects within Flex. You do not create instances of ObjectUtil; instead you simply call static methods such as the <code>ObjectUtil.isSimple()</code> method.   JS optimization : non-reflectable utility class, unused methods will be subject to dead-code elimination",
   "tags": [
   {  "tagName": "playerversion",
          "values": ["Flash 9", "AIR 1.1"]},

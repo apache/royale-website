@@ -1,0 +1,37 @@
+{ "type": "class",
+  "qname": "spark.effects.easing.Sine",
+  "baseClassname": "spark.effects.easing.EaseInOutBase"
+  ,
+    "description": "The Sine class defines easing functionality using a Sine function. Easing consists of two phases: the acceleration, or ease in phase, followed by the deceleration, or ease out phase. Use the <code>easeInFraction</code> property to specify the percentage of an animation accelerating.   <p>The <code>&lt;s:Sine&gt;</code> tag inherits all of the tag attributes of its of its superclass, and adds the following tag attributes:</p>  <pre>\\n &lt;s:Sine\\n id=&quot;ID&quot;\\n /&gt;\\n </pre>",
+  "tags": [
+  {  "tagName": "includeExample",
+         "values": ["examples/SinePowerEffectExample.mxml"]},
+      {  "tagName": "mxml",
+         "values": []},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10", "AIR 1.5"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 4"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "spark.effects.easing.Sine",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.  the <code>easeInFraction</code> property. The default value is <code>EasingFraction.IN_OUT</code>, which eases in for the first half of the time and eases out for the remainder.",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["easeInFraction Sets the value of"]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 10", "AIR 1.5"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 4"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": [{ "name": "easeInFraction", "type": "Number"}]}
+      ]
+  }

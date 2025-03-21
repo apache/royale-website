@@ -29,6 +29,15 @@
           "params": []}
       ,
       { "type": "method",
+        "qname": "selectedHandler",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "event", "type": "org.apache.royale.events.ItemClickedEvent"}]}
+      ,
+      { "type": "method",
         "qname": "handleItemAdded",
         "namespace": "protected",
         "bindable": [],

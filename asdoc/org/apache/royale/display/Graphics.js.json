@@ -8,6 +8,15 @@
          "values": []}  ],
   "members": [
   { "type": "method",
+        "qname": "setSuppressPathPointerEvents",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "value", "type": "Boolean"}]}
+      ,
+      { "type": "method",
         "qname": "getInstanceFor",
         "namespace": "public",
         "bindable": [],

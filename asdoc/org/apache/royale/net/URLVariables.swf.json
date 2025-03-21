@@ -1,0 +1,15 @@
+{ "type": "class",
+  "qname": "org.apache.royale.net.URLVariables",
+  "baseClassname": "flash.net.URLVariables"
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "URLVariables",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": [{ "name": "source", "type": "String"}]}
+      ]
+  }

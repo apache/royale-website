@@ -45,13 +45,13 @@
           "description": "",
         "tags": [
         {  "tagName": "playerversion",
-               "values": ["Flash 9", "AIR 1.1", "Flash 9", "AIR 1.1", "Flash 9", "AIR 1.1", "Flash 9", "AIR 1.1", "Flash 9", "AIR 1.1", "Flash 9", "AIR 1.1", "Flash 9", "AIR 1.1", "Flash 9", "AIR 1.1", "Flash 9", "AIR 1.1", "Flash 9", "AIR 1.1", "Flash 9", "AIR 1.1"]},
+               "values": ["Flash 9", "AIR 1.1", "Flash 9", "AIR 1.1", "Flash 9", "AIR 1.1"]},
             {  "tagName": "copy",
-               "values": ["mx.core.IUIComponent#enabled", "mx.core.IUIComponent#enabled", "mx.core.IUIComponent#enabled", "mx.core.IUIComponent#enabled", "mx.core.IUIComponent#enabled", "mx.core.IUIComponent#enabled", "mx.core.IUIComponent#enabled", "mx.core.IUIComponent#enabled", "mx.core.IUIComponent#enabled", "mx.core.IUIComponent#enabled", "mx.core.IUIComponent#enabled"]},
+               "values": ["mx.core.IUIComponent#enabled", "mx.core.IUIComponent#enabled", "mx.core.IUIComponent#enabled"]},
             {  "tagName": "productversion",
-               "values": ["Flex 3", "Flex 3", "Flex 3", "Flex 3", "Flex 3", "Flex 3", "Flex 3", "Flex 3", "Flex 3", "Flex 3", "Flex 3"]},
+               "values": ["Flex 3", "Flex 3", "Flex 3"]},
             {  "tagName": "langversion",
-               "values": ["3.0", "3.0", "3.0", "3.0", "3.0", "3.0", "3.0", "3.0", "3.0", "3.0", "3.0"]}  ]},
+               "values": ["3.0", "3.0", "3.0"]}  ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Boolean",
@@ -63,11 +63,11 @@
           "description": "Specifies whether this component is included in the layout of the parent container. If <code>true</code>, the object is included in its parent container's layout and is sized and positioned by its parent container as per its layout rules. If <code>false</code>, the object size and position are not affected by its parent container's layout.",
         "tags": [
         {  "tagName": "default",
-               "values": ["true", "true", "true"]},
+               "values": ["true", "true"]},
             {  "tagName": "playerversion",
-               "values": ["Flash 9", "AIR 1.1", "Flash 9", "AIR 1.1", "Flash 9", "AIR 1.1"]},
+               "values": ["Flash 9", "AIR 1.1", "Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
-               "values": ["Flex 3", "Flex 3", "Flex 3"]},
+               "values": ["Flex 3", "Flex 3"]},
             {  "tagName": "langversion",
-               "values": ["3.0", "3.0", "3.0"]}  ]}]
+               "values": ["3.0", "3.0"]}  ]}]
   }

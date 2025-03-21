@@ -1,0 +1,28 @@
+{ "type": "interface",
+  "qname": "spark.core.ISparkContainer",
+    "description": "",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10", "AIR 1.5"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.8"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "spark.layouts.supportClasses.LayoutBase",
+    "qname": "layout",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10", "AIR 1.5"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.9.8"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]}]
+  }

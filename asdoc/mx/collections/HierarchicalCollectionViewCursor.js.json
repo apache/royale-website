@@ -34,6 +34,23 @@
         { "name": "model", "type": "mx.collections.ICollectionView"},
         { "name": "hierarchicalData", "type": "mx.collections.IHierarchicalData"}]}
       ,
+      { "type": "method",
+        "qname": "finalizeThis",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Finalizes the cursor, to clean up resources. Required because weak references are not available in JS.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.8"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "void",
+          "params": []}
+      ,
       { "type": "accessor",
         "access": "read-only",
         "return": "int",

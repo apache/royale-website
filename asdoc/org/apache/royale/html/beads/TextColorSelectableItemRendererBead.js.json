@@ -1,0 +1,15 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.beads.TextColorSelectableItemRendererBead",
+  "baseClassname": "org.apache.royale.html.beads.SelectableItemRendererBeadBase"
+  ,
+    "description": "The TextColorSelectableItemRendererBead adjusts text color according to selection",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.8"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  ]
+  }

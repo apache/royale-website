@@ -29,5 +29,22 @@
         "deprecated": {},
           "return": "void",
           "params": [{ "name": "data", "type": "Object"}]}
+      ,
+      { "type": "method",
+        "qname": "execute",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "Static helper method for invoking the task in a single expression",
+        "tags": [
+        {  "tagName": "productversion",
+               "values": ["Royale 0.9.9"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "void",
+          "params": [{ "name": "tasks", "type": "Array"},
+        { "name": "callback", "type": "Function"},
+        { "name": "failEarly", "type": "Boolean"}]}
       ]
   }

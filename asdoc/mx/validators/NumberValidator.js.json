@@ -6,10 +6,10 @@
   "tags": [
   {  "tagName": "includeExample",
          "values": ["examples/NumberValidatorExample.mxml"]},
-      {  "tagName": "playerversion",
-         "values": ["Flash 9", "AIR 1.1"]},
       {  "tagName": "mxml",
          "values": []},
+      {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
       {  "tagName": "productversion",
          "values": ["Royale 0.9.3"]},
       {  "tagName": "langversion",

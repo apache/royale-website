@@ -65,7 +65,26 @@
             {  "tagName": "royaleignorecoercion",
                "values": ["org.apache.royale.core.IItemRendererClassFactory"]},
             {  "tagName": "langversion",
-               "values": ["3.0"]}  ]}]
+               "values": ["3.0"]}  ]},
+      { "type": "method",
+        "qname": "dataProviderChangeHandler",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "The IItemRendererOwnerView that should parent the ITextItemRenderers",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9"]},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["Array", "org.apache.royale.core.ILabelFieldItemRenderer", "org.apache.royale.events.IEventDispatcher", "org.apache.royale.core.IStrandWithModelView", "org.apache.royale.html.beads.IListView", "org.apache.royale.core.IIndexedItemRenderer"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "void",
+          "params": [{ "name": "event", "type": "org.apache.royale.events.Event"}]}
+      ]
   ,
   "events": [
   { "qname": "itemRendererCreated",

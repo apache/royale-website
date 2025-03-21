@@ -1,0 +1,47 @@
+{ "type": "class",
+  "qname": "org.apache.royale.jewel.VideoPlayer",
+  "baseClassname": "org.apache.royale.html5.VideoElement"
+  ,
+    "description": "VideoPlayer let you to play video with segments progressive download. You can also seek to an unloaded part and change playback rate",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 0.0", "AIR 0.0"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.jewel.VideoPlayer",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 0.0", "AIR 0.0"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "String",
+        "qname": "scaleMode",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "The scaleMode method set different ways of sizing the video content. You can set scaleMode to &quot;stretch&quot;, &quot;letterbox&quot;, or &quot;zoom&quot;  letterbox : will shrink or enlarge the video to fit in parent container keeping video aspect ratio zoom : will enlarge the video to fit all the parent container keeping aspect ratio (loosing partial video areas if video ratio is different from parent ratio) stretch : will shrink or enlarge the video to fill all the parent container (loosing video radio if video ratio is different from parent ratio)",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 0.0", "AIR 0.0"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  }

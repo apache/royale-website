@@ -1,6 +1,6 @@
 { "type": "class",
   "qname": "mx.containers.beads.AdvancedDataGridListVirtualListView",
-  "baseClassname": "org.apache.royale.html.beads.VirtualListView"
+  "baseClassname": "mx.containers.beads.VirtualListView"
   ,
     "description": "The CanvasLayout class is for internal use only.",
   "tags": [

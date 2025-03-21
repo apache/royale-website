@@ -18,7 +18,8 @@
         "details": [],
         "deprecated": {},
           "return": "",
-          "params": [{ "name": "weak", "type": "Boolean"}]}
+          "params": [{ "name": "weak", "type": "Boolean"},
+        { "name": "forceEnumerable", "type": "Boolean"}]}
       ,
       { "type": "method",
         "qname": "delete",
@@ -36,6 +37,24 @@
                "values": ["3.0"]}  ],
           "return": "void",
           "params": [{ "name": "key", "type": "Object"}]}
+      ,
+      { "type": "method",
+        "qname": "forEach",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Perform function for each pair.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.8"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "void",
+          "params": [{ "name": "callback", "type": "Function"},
+        { "name": "thisArg", "type": "Object"}]}
       ,
       { "type": "method",
         "qname": "get",

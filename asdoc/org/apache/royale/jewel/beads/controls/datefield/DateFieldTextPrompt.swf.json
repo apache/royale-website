@@ -1,6 +1,6 @@
 { "type": "class",
   "qname": "org.apache.royale.jewel.beads.controls.datefield.DateFieldTextPrompt",
-  "baseClassname": "org.apache.royale.jewel.beads.controls.textinput.TextPrompt"
+  "baseClassname": "org.apache.royale.jewel.beads.controls.TextInputSubControlTextPrompt"
   ,
     "description": "The DateFieldTextPrompt class is a specialty bead that can be used with any DateField control. The bead places a string into the sub TextInput component when there is no value associated with the text property.",
   "tags": [

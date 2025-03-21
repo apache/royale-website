@@ -1,0 +1,35 @@
+{ "type": "class",
+  "qname": "mx.controls.HorizontalList",
+  "baseClassname": "mx.controls.listClasses.TileBase"
+  ,
+    "description": "The HorizontalList control displays a horizontal list of items. If there are more items than can be displayed at once, it can display a horizontal scroll bar so the user can access all items in the list.  <p>The HorizontalList control has the following default sizing characteristics:</p> <table class=&quot;innertable&quot;> <tr> <th>Characteristic</th> <th>Description</th> </tr> <tr> <td>Default size</td> <td>Four columns, with size determined by the cell dimensions.</td> </tr> <tr> <td>Minimum size</td> <td>0 pixels.</td> </tr> <tr> <td>Maximum size</td> <td>5000 by 5000.</td> </tr> </table>   <p>The <code>&lt;mx:HorizontalList&gt;</code> tag inherits all of the tag attributes of its superclass and it adds no new tag attributes.</p>  <pre>\\n &lt;mx:HorizontalList/&gt\\n </pre>",
+  "tags": [
+  {  "tagName": "includeExample",
+         "values": ["examples/HorizontalListExample.mxml"]},
+      {  "tagName": "mxml",
+         "values": []},
+      {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.controls.HorizontalList",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ]
+  }

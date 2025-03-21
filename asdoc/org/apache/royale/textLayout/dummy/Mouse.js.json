@@ -19,5 +19,23 @@
           "return": "void",
           "params": [{ "name": "name", "type": "String"},
         { "name": "cursor", "type": "org.apache.royale.textLayout.dummy.MouseCursorData"}]}
+      ,
+      { "type": "method",
+        "qname": "show",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "return": "void",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "hide",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "return": "void",
+          "params": []}
       ]
   }

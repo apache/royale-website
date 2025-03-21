@@ -1,7 +1,8 @@
 { "type": "interface",
   "qname": "org.apache.royale.core.IMenu",
 "baseInterfaceNames": [
-"org.apache.royale.events.IEventDispatcher"]
+"org.apache.royale.events.IEventDispatcher", 
+"org.apache.royale.core.IHasDataProvider"]
 ,
   "members": [
   { "type": "accessor",
@@ -16,14 +17,6 @@
     "access": "read-write",
     "return": "String",
     "qname": "submenuField",
-    "namespace": "public",
-    "bindable": [],
-    "details": [],
-    "deprecated": {}},
-  { "type": "accessor",
-    "access": "read-write",
-    "return": "Object",
-    "qname": "dataProvider",
     "namespace": "public",
     "bindable": [],
     "details": [],

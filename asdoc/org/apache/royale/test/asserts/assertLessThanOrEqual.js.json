@@ -1,0 +1,11 @@
+{ "type": "method",
+  "qname": "org.apache.royale.test.asserts.assertLessThanOrEqual",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "Alias for org.apache.royale.test.Assert assertLessThanOrEqual method",
+    "return": "void",
+    "params": [{ "name": "actual", "type": "Number"},
+  { "name": "other", "type": "Number"},
+  { "name": "message", "type": "String"}]}

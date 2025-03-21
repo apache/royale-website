@@ -1,0 +1,10 @@
+{ "type": "method",
+  "qname": "org.apache.royale.utils.number.getPercent",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "Takes a numerator and denominator and returns the fraction described as a percent.",
+    "return": "Number",
+    "params": [{ "name": "numerator", "type": "Number"},
+  { "name": "denominator", "type": "Number"}]}

@@ -56,6 +56,7 @@
           "return": "void",
           "params": [{ "name": "eventType", "type": "String"},
         { "name": "handler", "type": "Function"},
-        { "name": "capture", "type": "Boolean"}]}
+        { "name": "capture", "type": "Boolean"},
+        { "name": "unListen", "type": "Boolean"}]}
       ]
   }

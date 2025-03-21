@@ -187,13 +187,13 @@
           "description": "The layout object for this container. This object is responsible for the measurement and layout of the visual elements in the container.",
         "tags": [
         {  "tagName": "default",
-               "values": ["spark.layouts.BasicLayout", "spark.layouts.BasicLayout"]},
+               "values": ["spark.layouts.BasicLayout", "spark.layouts.BasicLayout", "spark.layouts.BasicLayout"]},
             {  "tagName": "see",
-               "values": ["spark.layouts.supportClasses.LayoutBase", "spark.layouts.supportClasses.LayoutBase"]},
+               "values": ["spark.layouts.supportClasses.LayoutBase", "spark.layouts.supportClasses.LayoutBase", "spark.layouts.supportClasses.LayoutBase"]},
             {  "tagName": "playerversion",
-               "values": ["Flash 10", "AIR 1.5", "Flash 10", "AIR 1.5"]},
+               "values": ["Flash 10", "AIR 1.5", "Flash 10", "AIR 1.5", "Flash 10", "AIR 1.5"]},
             {  "tagName": "productversion",
-               "values": ["Royale 0.9.4", "Royale 0.9.4"]},
+               "values": ["Royale 0.9.4", "Royale 0.9.4", "Royale 0.9.4"]},
             {  "tagName": "langversion",
-               "values": ["3.0", "3.0"]}  ]}]
+               "values": ["3.0", "3.0", "3.0"]}  ]}]
   }

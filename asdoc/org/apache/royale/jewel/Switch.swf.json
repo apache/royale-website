@@ -1,0 +1,31 @@
+{ "type": "class",
+  "qname": "org.apache.royale.jewel.Switch",
+  "baseClassname": "org.apache.royale.jewel.CheckBox"
+  ,
+    "description": "The Jewel Switch consists of a lever that can be moved back and forth indicating a binary condition that will be set or unset when the user clicks or touches it. It can contain an optional label.  When a user clicks or touches this control or its associated text, the Switch changes its state from `active` to `inactive` or from `inactive` to `active`, communicating clearly the binary condition.  Switch can appear in groups (but not necesarily), and can be selected and deselected individually.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.8"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.jewel.Switch",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.8"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ]
+  }

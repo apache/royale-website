@@ -1,0 +1,17 @@
+{ "type": "method",
+  "qname": "org.apache.royale.functional.decorator.debounceLong",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "Returns a debounced function to run after a delay. If the function is invoked again within the delay period, the latest invocation of the function will be used and the delay will be reset to then.",
+  "tags": [
+  {  "tagName": "productversion",
+         "values": ["Royale 0.9.9"]},
+      {  "tagName": "royalesuppressexport",
+         "values": []},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+    "return": "Function",
+    "params": [{ "name": "method", "type": "Function"},
+  { "name": "delay", "type": "Number"}]}

@@ -33,7 +33,7 @@
         "return": "int",
         "qname": "rowCount",
         "namespace": "public",
-        "bindable": [],
+        "bindable": ["rowCountChanged"],
         "details": [],
         "deprecated": {},
           "description": "Maximum number of rows visible in the ComboBox popup list. If there are fewer items in the dataProvider, the ComboBox shows only as many items as there are in the dataProvider.",

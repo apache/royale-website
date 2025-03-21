@@ -150,7 +150,31 @@
             {  "tagName": "royaleignorecoercion",
                "values": ["org.apache.royale.events.IEventDispatcher"]},
             {  "tagName": "langversion",
-               "values": ["3.0"]}  ]}]
+               "values": ["3.0"]}  ]},
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "Function",
+        "qname": "approveDragStart",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Provides the ability to approve (or prevent) a mouseDown event being considered as the start of a drag sequence. This can be useful for renderers with some controls that must remain interactive, so that dragging is only supported by other parts of the renderer. The function should return true for the mouseDown event to be approved as the possible start of a drag sequence",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["value a function that takes a MouseEvent as a parameter, its boolean return value pre-approves a mouseDown event (or not)"]}  ]},
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "org.apache.royale.events.IEventDispatcher",
+        "qname": "topMostDispatcher",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.IUIBase"]}  ]}]
   ,
   "events": [
   { "qname": "dragStart",

@@ -1,0 +1,64 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html5.VideoElement",
+  "baseClassname": "org.apache.royale.html5.MediaElement"
+  ,
+    "description": "VideoElement provides special properties and methods for manipulating video objects. It also inherits properties and methods of MediaElement.  The list of supported media formats varies from one browser to the other. You should either provide your video in a single format that all the relevant browsers supports, or provide multiple video sources in enough different formats that all the browsers you need to support are covered.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 0.0", "AIR 0.0"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html5.VideoElement",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "requestFullscreen",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "request full screen",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 0.0", "AIR 0.0"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "void",
+          "params": []}
+      ]
+  ,
+  "events": [
+  { "qname": "enterpictureinpicture",
+        "type": "org.apache.royale.events.Event"
+      ,
+          "description": "Dispatched when the VideoElement enters picture-in-picture mode successfully.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 0.0", "AIR 0.0"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]},
+      { "qname": "leavepictureinpicture",
+        "type": "org.apache.royale.events.Event"
+      ,
+          "description": "Dispatched when the VideoElement leaves picture-in-picture mode successfully.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 0.0", "AIR 0.0"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  }

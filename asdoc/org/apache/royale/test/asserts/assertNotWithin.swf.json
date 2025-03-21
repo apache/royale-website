@@ -1,0 +1,12 @@
+{ "type": "method",
+  "qname": "org.apache.royale.test.asserts.assertNotWithin",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "Alias for org.apache.royale.test.Assert assertNotWithin method",
+    "return": "void",
+    "params": [{ "name": "actual", "type": "Number"},
+  { "name": "minimum", "type": "Number"},
+  { "name": "maximum", "type": "Number"},
+  { "name": "message", "type": "String"}]}

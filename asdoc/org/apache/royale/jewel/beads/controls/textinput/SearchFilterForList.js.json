@@ -1,6 +1,6 @@
 { "type": "class",
   "qname": "org.apache.royale.jewel.beads.controls.textinput.SearchFilterForList",
-  "baseClassname": "org.apache.royale.core.Bead"
+  "baseClassname": "org.apache.royale.core.DispatcherBead"
   ,
     "description": "The SearchFilterForList bead class is a specialty bead that can be used with a Jewel TextInput to filter options in other List component  Notice that the filtering is only visual, and the underlaying dataProvider is not filtered itself. To get a filtered view of the dataProvider you should use ArrayListView API.",
   "tags": [
@@ -68,6 +68,14 @@
           "return": "void",
           "params": [{ "name": "event", "type": "org.apache.royale.events.KeyboardEvent"}]}
       ,
+      { "type": "accessor",
+        "access": "read-only",
+        "return": "org.apache.royale.jewel.supportClasses.list.IListPresentationModel",
+        "qname": "presentationModel",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}},
       { "type": "method",
         "qname": "scrollToIndex",
         "namespace": "public",

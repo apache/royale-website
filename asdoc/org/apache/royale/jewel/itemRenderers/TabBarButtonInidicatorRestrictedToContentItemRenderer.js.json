@@ -34,7 +34,17 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
-          "description": "adding indicator to positioner makes the indicator fill all available space adding to &quot;span&quot; HTMLElement restrict indicator to content. Override this function in TabBarButtonItemRenderer subclasses",
+          "description": "We create an internal element with the text and make it invisible. So we position absolutely to the bottom and add the indicator to this internal element. In this way we can manage paddings and other things in extended renderers.",
+          "return": "void",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "updateInternalSize",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "updated internal size according to real content size",
           "return": "void",
           "params": []}
       ]

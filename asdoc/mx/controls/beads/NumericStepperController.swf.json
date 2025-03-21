@@ -1,0 +1,33 @@
+{ "type": "class",
+  "qname": "mx.controls.beads.NumericStepperController",
+  "baseClassname": ""
+  ,
+    "description": "The NumericStepperController class takes control of some lifecycle issues. Specifically, it makes sure the model is notified when content is ready so values can be initialized in the right order.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.10"]},
+      {  "tagName": "royaleignorecoercion",
+         "values": ["mx.core.UIComponent"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+        "access": "write-only",
+        "return": "org.apache.royale.core.IStrand",
+        "qname": "strand",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}},
+      { "type": "method",
+        "qname": "strandInitialized",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "event", "type": "mx.events.FlexEvent"}]}
+      ]
+  }

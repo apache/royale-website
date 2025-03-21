@@ -152,7 +152,7 @@
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]},
       { "type": "method",
-        "qname": "clone",
+        "qname": "cloneEvent",
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
@@ -167,7 +167,7 @@
                "values": ["Copy of this ChannelFaultEvent."]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ],
-          "return": "org.apache.royale.events.Event",
+          "return": "org.apache.royale.events.IRoyaleEvent",
           "params": []}
       ,
       { "type": "method",

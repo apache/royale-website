@@ -35,6 +35,18 @@
           "params": []}
       ,
       { "type": "accessor",
+        "access": "write-only",
+        "return": "String",
+        "qname": "verticalScrollPolicy",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "private",
+               "values": []}  ]},
+      { "type": "accessor",
         "access": "read-write",
         "return": "spark.core.IViewport",
         "qname": "viewport",
@@ -97,5 +109,29 @@
           "return": "void",
           "params": [{ "name": "w", "type": "Number"},
         { "name": "h", "type": "Number"}]}
-      ]
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "Number",
+        "qname": "measuredWidth",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "private",
+               "values": []}  ]},
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "Number",
+        "qname": "measuredHeight",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "private",
+               "values": []}  ]}]
   }

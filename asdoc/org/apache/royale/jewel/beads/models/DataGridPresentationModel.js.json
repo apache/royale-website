@@ -1,6 +1,6 @@
 { "type": "class",
   "qname": "org.apache.royale.jewel.beads.models.DataGridPresentationModel",
-  "baseClassname": "org.apache.royale.jewel.beads.models.ListPresentationModel"
+  "baseClassname": "org.apache.royale.jewel.beads.models.DataGridColumnListPresentationModel"
   ,
     "description": "The DataGridPresentationModel class contains the data to label the columns of the org.apache.royale.jewel.DataGrid along with the height of the rows or the align of column labels.",
   "tags": [
@@ -33,7 +33,7 @@
         "return": "Array",
         "qname": "columnLabels",
         "namespace": "public",
-        "bindable": [],
+        "bindable": ["columnLabelsChanged"],
         "details": [],
         "deprecated": {},
           "description": "The labels used in each column header.",

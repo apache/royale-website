@@ -18,7 +18,8 @@
         "details": [],
         "deprecated": {},
           "return": "",
-          "params": [{ "name": "weak", "type": "Boolean"}]}
+          "params": [{ "name": "weak", "type": "Boolean"},
+        { "name": "forceEnumerable", "type": "Boolean"}]}
       ,
       { "type": "field",
         "qname": "get",
@@ -55,6 +56,17 @@
                "values": []}  ]},
       { "type": "field",
         "qname": "delete",
+        "return": "Function",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royalesuppresspublicvarwarning",
+               "values": []}  ]},
+      { "type": "field",
+        "qname": "forEach",
         "return": "Function",
         "namespace": "public",
         "bindable": [],

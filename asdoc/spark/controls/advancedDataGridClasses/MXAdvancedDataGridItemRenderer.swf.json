@@ -43,7 +43,7 @@
       ,
       { "type": "accessor",
         "access": "read-write",
-        "return": "Object",
+        "return": "mx.controls.listClasses.BaseListData",
         "qname": "listData",
         "namespace": "public",
         "bindable": ["dataChange"],

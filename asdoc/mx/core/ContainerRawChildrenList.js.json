@@ -1,0 +1,24 @@
+{ "type": "class",
+  "qname": "mx.core.ContainerRawChildrenList",
+  "baseClassname": ""
+  ,
+    "description": "Helper class for the rawChildren property of the Container class. For descriptions of the properties and methods, see the IChildList interface.",
+  "tags": [
+  {  "tagName": "private",
+         "values": []},
+      {  "tagName": "see",
+         "values": ["mx.core.Container"]}  ],
+  "members": [
+  { "type": "accessor",
+        "access": "read-only",
+        "return": "int",
+        "qname": "numChildren",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "private",
+               "values": []}  ]}]
+  }

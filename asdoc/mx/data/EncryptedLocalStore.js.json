@@ -1,0 +1,26 @@
+{ "type": "class",
+  "qname": "mx.data.EncryptedLocalStore",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "getItem",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "return": "mx.utils.ByteArray",
+          "params": [{ "name": "name", "type": "String"}]}
+      ,
+      { "type": "method",
+        "qname": "setItem",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "name", "type": "String"},
+        { "name": "data", "type": "mx.utils.ByteArray"},
+        { "name": "stronglyBound", "type": "Boolean"}]}
+      ]
+  }

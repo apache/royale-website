@@ -15,6 +15,14 @@
   "members": [
   { "type": "accessor",
         "access": "read-write",
+        "return": "uint",
+        "qname": "defaultObjectEncoding",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {}},
+      { "type": "accessor",
+        "access": "read-write",
         "return": "org.apache.royale.utils.net.IDynamicPropertyWriter",
         "qname": "dynamicPropertyWriter",
         "namespace": "public",
@@ -58,9 +66,6 @@
           "params": []}
       ]
   }
-
-
-
 
 
 

@@ -168,6 +168,17 @@
                "values": ["Royale 0.9.8"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]},
+      { "qname": "routeComplete",
+        "type": "org.apache.royale.events.Event"
+      ,
+          "description": "Dispatched when the route is complete.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.8"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]},
       { "qname": "initBindings",
         "type": "org.apache.royale.events.Event"
       ,

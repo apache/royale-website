@@ -21,6 +21,14 @@
           "params": []}
       ,
       { "type": "accessor",
+        "access": "write-only",
+        "return": "Boolean",
+        "qname": "enabled",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}},
+      { "type": "accessor",
         "access": "read-write",
         "return": "Object",
         "qname": "data",
@@ -62,5 +70,21 @@
         "deprecated": {},
           "return": "String",
           "params": []}
-      ]
+      ,
+      { "type": "accessor",
+        "access": "read-only",
+        "return": "Boolean",
+        "qname": "canFold",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}},
+      { "type": "accessor",
+        "access": "read-only",
+        "return": "Boolean",
+        "qname": "canUnfold",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}}]
   }

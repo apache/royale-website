@@ -107,12 +107,6 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
-          "description": "",
-        "tags": [
-        {  "tagName": "royaleignorecoercion",
-               "values": ["org.apache.royale.core.IChild"]},
-            {  "tagName": "royaleemitcoercion",
-               "values": ["org.apache.royale.events.EventDispatcher"]}  ],
           "return": "goog.events.EventTarget",
           "params": []}
       ,

@@ -85,7 +85,20 @@
                "values": ["3.0"]}  ]}]
   ,
   "events": [
-  { "qname": "ready",
+  { "qname": "setup",
+        "type": "mx.events.ModuleEvent"
+      ,
+          "description": "Dispatched when information about the module is available (with the <code>info()</code> method), but the module is not yet ready.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "eventType",
+               "values": ["mx.events.ModuleEvent.SETUP"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]},
+      { "qname": "ready",
         "type": "mx.events.ModuleEvent"
       ,
           "description": "Dispatched when the module is finished loading.",
@@ -94,6 +107,19 @@
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "eventType",
                "values": ["mx.events.ModuleEvent.READY"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]},
+      { "qname": "error",
+        "type": "mx.events.ModuleEvent"
+      ,
+          "description": "Dispatched when the module throws an error.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "eventType",
+               "values": ["mx.events.ModuleEvent.ERROR"]},
             {  "tagName": "productversion",
                "values": ["Royale 0.9.3"]},
             {  "tagName": "langversion",

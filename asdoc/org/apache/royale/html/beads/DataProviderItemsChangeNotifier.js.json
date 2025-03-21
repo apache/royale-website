@@ -34,6 +34,10 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "The change handler function that will be called when change event is thrown",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.collections.IArrayList"]}  ],
           "return": "void",
           "params": [{ "name": "event", "type": "org.apache.royale.events.Event"}]}
       ]

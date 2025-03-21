@@ -239,5 +239,43 @@
           "params": [{ "name": "obj", "type": "mx.core.IUIComponent"},
         { "name": "width", "type": "Number"},
         { "name": "height", "type": "Number"}]}
+      ,
+      { "type": "method",
+        "qname": "setSizeFromChild",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "Set size of target based on size of child.  This sets the proper explicitXX and percentXX values either way (parent from child, or child from parent).  The values are different depending on which direction, but they are proper to handle all cases.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.8"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "void",
+          "params": [{ "name": "target", "type": "org.apache.royale.core.ILayoutChild"},
+        { "name": "child", "type": "org.apache.royale.core.ILayoutChild"}]}
+      ,
+      { "type": "method",
+        "qname": "setWidthFromChild",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "target", "type": "org.apache.royale.core.ILayoutChild"},
+        { "name": "child", "type": "org.apache.royale.core.ILayoutChild"}]}
+      ,
+      { "type": "method",
+        "qname": "setHeightFromChild",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "target", "type": "org.apache.royale.core.ILayoutChild"},
+        { "name": "child", "type": "org.apache.royale.core.ILayoutChild"}]}
       ]
   }

@@ -91,17 +91,5 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {},
-          "description": "Position of the <code>popUp</code> control when it is opened, relative to the PopUpAnchor component. Possible values are <code>&quot;left&quot;, &quot;right&quot;, &quot;above&quot;, &quot;below&quot;, &quot;center&quot;,</code> and <code>&quot;topLeft&quot;</code>.",
-        "tags": [
-        {  "tagName": "default",
-               "values": ["PopUpPosition.TOP_LEFT"]},
-            {  "tagName": "see",
-               "values": ["spark.components.PopUpPosition"]},
-            {  "tagName": "playerversion",
-               "values": ["Flash 10", "AIR 1.5"]},
-            {  "tagName": "productversion",
-               "values": ["Royale 0.9.4"]},
-            {  "tagName": "langversion",
-               "values": ["3.0"]}  ]}]
+        "deprecated": {}}]
   }

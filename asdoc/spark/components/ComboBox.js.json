@@ -17,7 +17,22 @@
       {  "tagName": "langversion",
          "values": ["3.0"]}  ],
   "members": [
-  { "type": "method",
+  { "type": "field",
+        "qname": "textInput",
+        "return": "spark.components.TextInput",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Optional skin part that holds the input text or the selectedItem text.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10", "AIR 1.5"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.4"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]},
+      { "type": "method",
         "qname": "spark.components.ComboBox",
         "namespace": "",
         "bindable": [],
@@ -65,11 +80,11 @@
           "description": "",
         "tags": [
         {  "tagName": "playerversion",
-               "values": ["Flash 9", "AIR 1.1", "Flash 9", "AIR 1.1", "Flash 9", "AIR 1.1", "Flash 9", "AIR 1.1", "Flash 9", "AIR 1.1", "Flash 9", "AIR 1.1", "Flash 9", "AIR 1.1", "Flash 9", "AIR 1.1"]},
+               "values": ["Flash 9", "AIR 1.1", "Flash 9", "AIR 1.1", "Flash 9", "AIR 1.1", "Flash 9", "AIR 1.1", "Flash 9", "AIR 1.1", "Flash 9", "AIR 1.1", "Flash 9", "AIR 1.1", "Flash 9", "AIR 1.1", "Flash 9", "AIR 1.1", "Flash 9", "AIR 1.1", "Flash 9", "AIR 1.1", "Flash 9", "AIR 1.1"]},
             {  "tagName": "copy",
-               "values": ["mx.core.IUIComponent#enabled", "mx.core.IUIComponent#enabled", "mx.core.IUIComponent#enabled", "mx.core.IUIComponent#enabled", "mx.core.IUIComponent#enabled", "mx.core.IUIComponent#enabled", "mx.core.IUIComponent#enabled", "mx.core.IUIComponent#enabled"]},
+               "values": ["mx.core.IUIComponent#enabled", "mx.core.IUIComponent#enabled", "mx.core.IUIComponent#enabled", "mx.core.IUIComponent#enabled", "mx.core.IUIComponent#enabled", "mx.core.IUIComponent#enabled", "mx.core.IUIComponent#enabled", "mx.core.IUIComponent#enabled", "mx.core.IUIComponent#enabled", "mx.core.IUIComponent#enabled", "mx.core.IUIComponent#enabled", "mx.core.IUIComponent#enabled"]},
             {  "tagName": "productversion",
-               "values": ["Flex 3", "Flex 3", "Flex 3", "Flex 3", "Flex 3", "Flex 3", "Flex 3", "Flex 3"]},
+               "values": ["Flex 3", "Flex 3", "Flex 3", "Flex 3", "Flex 3", "Flex 3", "Flex 3", "Flex 3", "Flex 3", "Flex 3", "Flex 3", "Flex 3"]},
             {  "tagName": "langversion",
-               "values": ["3.0", "3.0", "3.0", "3.0", "3.0", "3.0", "3.0", "3.0"]}  ]}]
+               "values": ["3.0", "3.0", "3.0", "3.0", "3.0", "3.0", "3.0", "3.0", "3.0", "3.0", "3.0", "3.0"]}  ]}]
   }

@@ -1,6 +1,6 @@
 { "type": "class",
   "qname": "org.apache.royale.jewel.beads.controls.button.InputButtonSize",
-  "baseClassname": ""
+  "baseClassname": "org.apache.royale.core.DispatcherBead"
   ,
     "description": "The InputButtonSize class implements input button size for controls like CheckBox or RadioButton that need to size the selectable button part.",
   "tags": [
@@ -73,7 +73,7 @@
         "qname": "strand",
         "namespace": "public",
         "bindable": [],
-        "details": [],
+        "details": ["override"],
         "deprecated": {},
           "description": "",
         "tags": [

@@ -28,4 +28,9 @@
           "return": "",
           "params": []}
       ]
+  ,
+  "events": [
+  { "qname": "effectEnd",
+        "type": "org.apache.royale.events.Event"
+      }]
   }

@@ -1,0 +1,13 @@
+{ "type": "method",
+  "qname": "org.apache.royale.html.util.getModelByType",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "",
+  "tags": [
+  {  "tagName": "royaleignorecoercion",
+         "values": ["org.apache.royale.core.IBeadModel", "org.apache.royale.core.IStrandWithModel"]}  ],
+    "return": "org.apache.royale.core.IBeadModel",
+    "params": [{ "name": "strand", "type": "org.apache.royale.core.IStrand"},
+  { "name": "type", "type": "Class"}]}

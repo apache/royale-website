@@ -28,6 +28,18 @@
         "details": [],
         "deprecated": {}},
       { "type": "accessor",
+        "access": "read-only",
+        "return": "Array",
+        "qname": "allTasks",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Returns all requested tasks in order specified.",
+        "tags": [
+        {  "tagName": "productversion",
+               "values": ["Royale 0.9.13"]}  ]},
+      { "type": "accessor",
         "access": "read-write",
         "return": "Boolean",
         "qname": "failEarly",
@@ -58,7 +70,7 @@
             {  "tagName": "langversion",
                "values": ["3.0"]}  ],
           "return": "void",
-          "params": [{ "name": "task", "type": "org.apache.royale.utils.async.AsyncTask"}]}
+          "params": [{ "name": "task", "type": "org.apache.royale.utils.async.IAsyncTask"}]}
       ,
       { "type": "field",
         "qname": "pendingTasks",
@@ -74,7 +86,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "",
+          "description": "Returns the completed tasks in order of completion",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -91,7 +103,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "",
+          "description": "Returns the failed tasks in order of failure",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -111,6 +123,24 @@
           "params": [{ "name": "data", "type": "Object"}]}
       ,
       { "type": "method",
+        "qname": "cancelTasks",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "void",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "cancel",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "void",
+          "params": []}
+      ,
+      { "type": "method",
         "qname": "setFinalStatus",
         "namespace": "protected",
         "bindable": [],
@@ -118,5 +148,22 @@
         "deprecated": {},
           "return": "void",
           "params": []}
+      ,
+      { "type": "method",
+        "qname": "execute",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "Static helper method for invoking the task in a single expression",
+        "tags": [
+        {  "tagName": "productversion",
+               "values": ["Royale 0.9.9"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "void",
+          "params": [{ "name": "tasks", "type": "Array"},
+        { "name": "callback", "type": "Function"},
+        { "name": "failEarly", "type": "Boolean"}]}
       ]
   }

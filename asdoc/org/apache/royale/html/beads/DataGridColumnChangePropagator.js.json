@@ -39,7 +39,7 @@
           "description": "",
         "tags": [
         {  "tagName": "royaleignorecoercion",
-               "values": ["org.apache.royale.events.IEventDispatcher"]}  ],
+               "values": ["org.apache.royale.events.IEventDispatcher", "org.apache.royale.core.IStrandWithModel"]}  ],
           "return": "void",
           "params": [{ "name": "e", "type": "org.apache.royale.events.Event"}]}
       ,
@@ -52,7 +52,7 @@
           "description": "",
         "tags": [
         {  "tagName": "royaleignorecoercion",
-               "values": ["org.apache.royale.core.IDataGridModel", "org.apache.royale.core.ISelectionModel", "org.apache.royale.html.beads.IDataGridView", "org.apache.royale.html.supportClasses.DataGridColumnList"]}  ],
+               "values": ["org.apache.royale.core.IDataGridModel", "org.apache.royale.core.IStrandWithModelView", "org.apache.royale.core.ISelectionModel", "org.apache.royale.html.beads.IDataGridView", "org.apache.royale.html.supportClasses.DataGridColumnList"]}  ],
           "return": "void",
           "params": [{ "name": "e", "type": "org.apache.royale.events.Event"}]}
       ]

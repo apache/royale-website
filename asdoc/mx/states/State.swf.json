@@ -50,5 +50,31 @@
             {  "tagName": "productversion",
                "values": ["Flex 3"]},
             {  "tagName": "langversion",
+               "values": ["3.0"]}  ]},
+      { "qname": "enterState",
+        "type": "mx.events.FlexEvent"
+      ,
+          "description": "Dispatched after a view state has been entered.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "eventType",
+               "values": ["mx.events.FlexEvent.ENTER_STATE"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]},
+      { "qname": "exitState",
+        "type": "mx.events.FlexEvent"
+      ,
+          "description": "Dispatched just before a view state is exited. This event is dispatched before the changes to the default view state have been removed.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "eventType",
+               "values": ["mx.events.FlexEvent.EXIT_STATE"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 3"]},
+            {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
   }

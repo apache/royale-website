@@ -10,21 +10,14 @@
          "values": []}  ],
   "members": [
   { "type": "field",
-        "qname": "DEFAULT",
+        "qname": "PERCENT",
         "return": "String",
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
         "deprecated": {}},
       { "type": "field",
-        "qname": "EXPLICIT_PERCENT",
-        "return": "String",
-        "namespace": "public",
-        "bindable": [],
-        "details": ["static"],
-        "deprecated": {}},
-      { "type": "field",
-        "qname": "EXPLICIT_PIXELS",
+        "qname": "PIXELS",
         "return": "String",
         "namespace": "public",
         "bindable": [],
@@ -41,6 +34,13 @@
         { "name": "type", "type": "String"},
         { "name": "denominator", "type": "org.apache.royale.jewel.supportClasses.datagrid.DataGridWidthDenominator"}]}
       ,
+      { "type": "field",
+        "qname": "value",
+        "return": "Number",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}},
       { "type": "field",
         "qname": "widthType",
         "return": "String",
@@ -90,12 +90,12 @@
           "params": []}
       ,
       { "type": "method",
-        "qname": "getValue",
+        "qname": "setDefault",
         "namespace": "public",
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "return": "Number",
+          "return": "void",
           "params": []}
       ,
       { "type": "method",
@@ -113,10 +113,6 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "",
-        "tags": [
-        {  "tagName": "royaleignorecoercion",
-               "values": ["org.apache.royale.core.HTMLElementWrapper;", "HTMLElement;"]}  ],
           "return": "void",
           "params": [{ "name": "content", "type": "org.apache.royale.core.ILayoutChild"}]}
       ,
@@ -129,13 +125,5 @@
           "return": "void",
           "params": [{ "name": "content", "type": "org.apache.royale.core.ILayoutChild"},
         { "name": "offset", "type": "Number"}]}
-      ,
-      { "type": "accessor",
-        "access": "read-write",
-        "return": "Number",
-        "qname": "value",
-        "namespace": "public",
-        "bindable": [],
-        "details": [],
-        "deprecated": {}}]
+      ]
   }

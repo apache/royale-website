@@ -1,0 +1,38 @@
+{ "type": "class",
+  "qname": "org.apache.royale.jewel.DropZone",
+  "baseClassname": "org.apache.royale.jewel.Group"
+  ,
+    "description": "The DropZone class defines an area on the screen into a which an object can be dragged and dropped to accomplish a task",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.10"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.jewel.DropZone",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ]
+  ,
+  "events": [
+  { "qname": "dropped",
+        "type": "org.apache.royale.jewel.events.DroppedEvent"
+      ,
+          "description": "Dispatched When the wizard reach to this page",
+        "tags": [
+        {  "tagName": "toplevel",
+               "values": []},
+            {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.6"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  }

@@ -1,0 +1,37 @@
+{ "type": "class",
+  "qname": "mx.controls.HSlider",
+  "baseClassname": "mx.controls.sliderClasses.Slider"
+  ,
+    "description": "The HSlider control lets users select a value by moving a slider thumb between the end points of the slider track. The current value of the slider is determined by the relative location of the thumb between the end points of the slider, corresponding to the slider's minimum and maximum values.  <p>The slider may allow a continuous range of values between its minimum and maximum values or it may be restricted to values at specific intervals between the minimum and maximum value. It may show tick marks at specified intervals along the track. These tick marks are independent of the allowed values of the slider. The slider may also use a data tip to display its current value.</p>  <p>The HSlider control has a horizontal direction. The slider track stretches from left to right, and the labels and tick marks are placed at the top or bottom of the track.</p>  <p>The HSlider control has the following default characteristics:</p> <table class=&quot;innertable&quot;> <tr> <th>Characteristic</th> <th>Description</th> </tr> <tr> <td>Default size</td> <td>250 pixels wide, high enough to hold the slider and any associated labels</td> </tr> <tr> <td>Minimum size</td> <td>None</td> </tr> <tr> <td>Maximum size</td> <td>None</td> </tr> </table>   <p>The <code>&lt;mx:HSlider&gt;</code> tag inherits all of the tag attributes of its superclass, and adds the following tag attribute:</p>  <pre>\\n &lt;mx:HSlider\\n <strong>Styles</strong>\\n dataTipPlacement=&quot;top&quot;\\n /&gt;\\n </pre> </p>",
+  "tags": [
+  {  "tagName": "includeExample",
+         "values": ["examples/SimpleImageHSlider.mxml"]},
+      {  "tagName": "see",
+         "values": ["mx.controls.VSlider", "mx.controls.sliderClasses.Slider", "mx.controls.sliderClasses.SliderThumb", "mx.controls.sliderClasses.SliderDataTip", "mx.controls.sliderClasses.SliderLabel"]},
+      {  "tagName": "mxml",
+         "values": []},
+      {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.controls.HSlider",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ]
+  }

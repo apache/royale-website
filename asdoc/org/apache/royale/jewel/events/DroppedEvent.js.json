@@ -1,0 +1,35 @@
+{ "type": "class",
+  "qname": "org.apache.royale.jewel.events.DroppedEvent",
+  "baseClassname": "org.apache.royale.events.Event"
+  ,
+    "description": "Programmatic (not user/UI) based wizard navigation events.",
+  "members": [
+  { "type": "field",
+        "qname": "DROPPED",
+        "return": "String",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {}},
+      { "type": "field",
+        "qname": "data",
+        "return": "Array",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royalesuppresspublicvarwarning",
+               "values": []}  ]},
+      { "type": "method",
+        "qname": "org.apache.royale.jewel.events.DroppedEvent",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": [{ "name": "type", "type": "String"},
+        { "name": "data", "type": "Array"}]}
+      ]
+  }

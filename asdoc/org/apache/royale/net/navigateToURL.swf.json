@@ -1,0 +1,12 @@
+{ "type": "method",
+  "qname": "org.apache.royale.net.navigateToURL",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "return": "void",
+    "params": [{ "name": "request", "type": "org.apache.royale.net.URLRequest"},
+  { "name": "windowName", "type": "String"}]}
+
+
+

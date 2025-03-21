@@ -1,0 +1,11 @@
+{ "type": "method",
+  "qname": "org.apache.royale.test.asserts.assertThrows",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "Alias for org.apache.royale.test.Assert assertThrows method",
+    "return": "void",
+    "params": [{ "name": "actual", "type": "Function"},
+  { "name": "type", "type": "Class"},
+  { "name": "message", "type": "String"}]}

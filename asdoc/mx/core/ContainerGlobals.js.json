@@ -1,0 +1,11 @@
+{ "type": "class",
+  "qname": "mx.core.ContainerGlobals",
+  "baseClassname": ""
+  ,
+    "description": "",
+  "tags": [
+  {  "tagName": "private",
+         "values": []}  ],
+  "members": [
+  ]
+  }

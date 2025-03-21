@@ -28,21 +28,13 @@
           "return": "",
           "params": []}
       ,
-      { "type": "accessor",
-        "access": "read-only",
-        "return": "int",
-        "qname": "dataProviderLength",
-        "namespace": "protected",
-        "bindable": [],
-        "details": ["override"],
-        "deprecated": {}},
       { "type": "method",
-        "qname": "getItemAt",
+        "qname": "createAllItemRenderers",
         "namespace": "protected",
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
-          "return": "Object",
-          "params": [{ "name": "index", "type": "int"}]}
+          "return": "void",
+          "params": [{ "name": "dataGroup", "type": "org.apache.royale.core.IItemRendererOwnerView"}]}
       ]
   }

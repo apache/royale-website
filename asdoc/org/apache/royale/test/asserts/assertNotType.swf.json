@@ -1,0 +1,11 @@
+{ "type": "method",
+  "qname": "org.apache.royale.test.asserts.assertNotType",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "Alias for org.apache.royale.test.Assert assertNotType method",
+    "return": "void",
+    "params": [{ "name": "value", "type": "*"},
+  { "name": "type", "type": "Class"},
+  { "name": "message", "type": "String"}]}

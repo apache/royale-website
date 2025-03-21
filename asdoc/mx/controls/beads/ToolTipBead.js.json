@@ -13,24 +13,6 @@
           "params": []}
       ,
       { "type": "accessor",
-        "access": "write-only",
-        "return": "org.apache.royale.core.IStrand",
-        "qname": "strand",
-        "namespace": "public",
-        "bindable": [],
-        "details": ["override"],
-        "deprecated": {},
-          "description": "",
-        "tags": [
-        {  "tagName": "playerversion",
-               "values": ["Flash 10.2", "AIR 2.6"]},
-            {  "tagName": "copy",
-               "values": ["org.apache.royale.core.IBead#strand"]},
-            {  "tagName": "productversion",
-               "values": ["Royale 0.0"]},
-            {  "tagName": "langversion",
-               "values": ["3.0"]}  ]},
-      { "type": "accessor",
         "access": "read-write",
         "return": "Boolean",
         "qname": "isError",
@@ -46,5 +28,14 @@
         "deprecated": {},
           "return": "void",
           "params": [{ "name": "event", "type": "org.apache.royale.events.MouseEvent"}]}
+      ,
+      { "type": "method",
+        "qname": "removeTip",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "void",
+          "params": []}
       ]
   }

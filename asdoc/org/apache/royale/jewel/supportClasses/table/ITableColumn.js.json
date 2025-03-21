@@ -81,7 +81,7 @@
         {  "tagName": "playerversion",
            "values": ["Flash 9", "AIR 1.1"]},
         {  "tagName": "productversion",
-           "values": ["Royale 0.10.0"]},
+           "values": ["Royale 0.9.8"]},
         {  "tagName": "langversion",
            "values": ["3.0"]}  ]},
   { "type": "accessor",

@@ -1,6 +1,6 @@
 { "type": "class",
   "qname": "org.apache.royale.jewel.beads.controls.Badge",
-  "baseClassname": ""
+  "baseClassname": "org.apache.royale.core.DispatcherBead"
   ,
     "description": "The Badge class provides a small status descriptors for UI elements.  A Badge is an onscreen notification element consists of a small circle, typically containing a number or other characters, that appears in proximity to another object",
   "tags": [
@@ -28,6 +28,14 @@
           "return": "",
           "params": []}
       ,
+      { "type": "field",
+        "qname": "badge",
+        "return": "org.apache.royale.jewel.Label",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "the internal instance of the badge"},
       { "type": "method",
         "qname": "createBadge",
         "namespace": "protected",
@@ -44,7 +52,7 @@
         "qname": "strand",
         "namespace": "public",
         "bindable": [],
-        "details": [],
+        "details": ["override"],
         "deprecated": {},
           "description": "",
         "tags": [

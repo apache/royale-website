@@ -29,12 +29,36 @@
           "params": []}
       ,
       { "type": "method",
+        "qname": "setupVisualsForItemRenderer",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "ir", "type": "org.apache.royale.core.IIndexedItemRenderer"}]}
+      ,
+      { "type": "method",
         "qname": "setPaddings",
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "padding in tabbar buttons always must to be applied to content (span) not to the button itself, since we have an indicator that can be restricted to content or take all available button space.",
           "return": "void",
           "params": [{ "name": "ir", "type": "org.apache.royale.core.IStrand"}]}
-      ]
+      ,
+      { "type": "field",
+        "qname": "DEFAULT_PADDING_LR",
+        "return": "Number",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {}},
+      { "type": "field",
+        "qname": "DEFAULT_PADDING_TB",
+        "return": "Number",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {}}]
   }

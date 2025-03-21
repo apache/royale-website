@@ -1,6 +1,6 @@
 { "type": "class",
   "qname": "mx.net.beads.FileUploaderUsingFormData",
-  "baseClassname": "org.apache.royale.file.beads.FileUploader"
+  "baseClassname": "mx.net.beads.FileUploader"
   ,
     "description": "This class does uploads using FormData in JS",
   "tags": [

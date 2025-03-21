@@ -1,0 +1,14 @@
+{ "type": "method",
+  "qname": "org.apache.royale.utils.object.classFromInstance",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "Returns the class definition of an instance of any object. The class can be used for instantiation without having to know the class type or for calling static methods. The implementation is platform specific. This function hides those implementaiot details.",
+  "tags": [
+  {  "tagName": "productversion",
+         "values": ["Royale 0.9.9"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+    "return": "Class",
+    "params": [{ "name": "instance", "type": "Object"}]}

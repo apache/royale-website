@@ -13,10 +13,6 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Constructor.",
-        "tags": [
-        {  "tagName": "param",
-               "values": ["message The assertion failure message", "error An optional error that caused the assertion failure"]}  ],
           "return": "",
           "params": [{ "name": "message", "type": "String"},
         { "name": "error", "type": "Error"}]}

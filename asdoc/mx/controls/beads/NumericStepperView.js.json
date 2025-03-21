@@ -29,5 +29,14 @@
         "deprecated": {},
           "return": "org.apache.royale.core.IUIBase",
           "params": []}
+      ,
+      { "type": "method",
+        "qname": "syncTextAndSpinner",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "event", "type": "org.apache.royale.events.Event"}]}
       ]
   }

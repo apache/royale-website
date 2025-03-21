@@ -1,0 +1,40 @@
+{ "type": "class",
+  "qname": "mx.graphics.ImageSnapshot",
+  "baseClassname": ""
+  ,
+    "description": "A helper class used to capture a snapshot of any Flash component that implements <code>flash.display.IBitmapDrawable</code>, including Flex UIComponents.  <p>An instance of this class can be sent as a RemoteObject to Adobe's LiveCycle Data Services to generate a PDF file of a client-side image. If you need to specify additional properties of the image beyond its <code>contentType</code>, <code>width</code>, and <code>height</code> properties, you should set name/value pairs on the <code>properties</code> object.</p>  <p>In earlier versions of Flex, you set these additional properties on the ImageSnapshot instance itself. This class is still dynamic in order to allow that, but in a future version of Flex it might no longer be dynamic.</p>",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "captureBitmapData",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "A utility method to grab a raw snapshot of a UI component as BitmapData.  <code>flash.display.IBitmapDrawable</code> interface.  the coordinates of the captured bitmap. If you do not want to apply a matrix transformation to the image, set this parameter to an identity matrix, created with the default new Matrix() constructor, or pass a null value.  object that you use to adjust the color values of the bitmap. If no object is supplied, the bitmap image's colors are not transformed. If you must pass this parameter but you do not want to transform the image, set this parameter to a ColorTransform object created with the default new ColorTransform() constructor.  class, specifying the blend mode to be applied to the resulting bitmap.  area of the source object to draw. If you do not supply this value, no clipping occurs and the entire source object is drawn.  BitmapData object is smoothed when scaled.  the source has no visible bounds.",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["source An object that implements the", "matrix A Matrix object used to scale, rotate, or translate", "colorTransform A ColorTransform", "blendMode A string value, from the flash.display.BlendMode", "clipRect A Rectangle object that defines the", "smoothing A Boolean value that determines whether a"]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 3"]},
+            {  "tagName": "return",
+               "values": ["A BitmapData object representing the captured snapshot or null if"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "Object",
+          "params": [{ "name": "source", "type": "Object"},
+        { "name": "matrix", "type": "mx.geom.Matrix"},
+        { "name": "colorTransform", "type": "Object"},
+        { "name": "blendMode", "type": "String"},
+        { "name": "clipRect", "type": "Object"},
+        { "name": "smoothing", "type": "Boolean"}]}
+      ]
+  }

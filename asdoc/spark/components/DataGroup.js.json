@@ -72,6 +72,24 @@
                "values": ["3.0"]}  ]},
       { "type": "accessor",
         "access": "read-write",
+        "return": "Function",
+        "qname": "itemRendererFunction",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Function that returns an item renderer IFactory for a specific item.  You should define an item renderer function similar to this sample function:  <pre>\\n function myItemRendererFunction(item:Object):IFactory</pre>",
+        "tags": [
+        {  "tagName": "default",
+               "values": ["null"]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 10", "AIR 1.5"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 4"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]},
+      { "type": "accessor",
+        "access": "read-write",
         "return": "mx.collections.IList",
         "qname": "dataProvider",
         "namespace": "public",
@@ -90,6 +108,21 @@
                "values": ["Flex 4"]},
             {  "tagName": "royaleignorecoercion",
                "values": ["mx.collections.IList"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  { "qname": "rendererAdd",
+        "type": "spark.events.RendererExistenceEvent"
+      ,
+          "description": "Dispatched when a renderer is added to this dataGroup. <code>event.renderer</code> is the renderer that was added.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10", "AIR 1.5"]},
+            {  "tagName": "eventType",
+               "values": ["spark.events.RendererExistenceEvent.RENDERER_ADD"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 4"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
   }
