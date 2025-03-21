@@ -1,0 +1,25 @@
+{ "type": "class",
+  "qname": "mx.controls.beads.ListView",
+  "baseClassname": "org.apache.royale.html.beads.ListView"
+  ,
+    "description": "The List class creates the visual elements of the org.apache.royale.html.List component. A List consists of the area to display the data (in the dataGroup), any scrollbars, and so forth.",
+  "tags": [
+  {  "tagName": "viewbead",
+         "values": []},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.10"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "selectionChangeHandler",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "event", "type": "org.apache.royale.events.Event"}]}
+      ]
+  }

@@ -1,0 +1,24 @@
+{ "type": "method",
+  "qname": "org.apache.royale.utils.object.objectsMatch",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "Checks whether objects of any type match. If deep is true, it will recursively check objects. level is used to prevent an endless loop with circular references. Maximum level of nesting is 100",
+  "tags": [
+  {  "tagName": "productversion",
+         "values": ["Royale 0.9.9"]},
+      {  "tagName": "royaleignorecoercion",
+         "values": ["Array", "Date"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]},
+      {  "tagName": "royalesuppressexport",
+         "values": []}  ],
+    "return": "Boolean",
+    "params": [{ "name": "first", "type": "*"},
+  { "name": "second", "type": "*"},
+  { "name": "deep", "type": "Boolean"},
+  { "name": "level", "type": "int"}]}
+
+
+

@@ -16,5 +16,23 @@
           "return": "org.apache.royale.events.MouseEvent",
           "params": [{ "name": "nativeEvent", "type": "Object"},
         { "name": "browserEvent", "type": "goog.events.BrowserEvent"}]}
+      ,
+      { "type": "method",
+        "qname": "pointerEventFilter",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "filter for MouseEvents represented by PointerEvents ('click' is known to be on in recent browser/OS combos)",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["nativeEvent the native browser event", "browserEvent the google BrowserEvent representation"]},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.events.IBrowserEvent"]},
+            {  "tagName": "return",
+               "values": ["null if not converted, otherwise a Royale MouseEvent"]}  ],
+          "return": "Object",
+          "params": [{ "name": "nativeEvent", "type": "Object"},
+        { "name": "browserEvent", "type": "goog.events.BrowserEvent"}]}
       ]
   }

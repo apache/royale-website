@@ -42,5 +42,23 @@
           "description": "",
         "tags": [
         {  "tagName": "private",
-               "values": []}  ]}]
+               "values": []}  ]},
+      { "type": "method",
+        "qname": "createElement",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "org.apache.royale.core.WrappedHTMLElement",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "Number",
+        "qname": "measuredHeight",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "svg clipPath rect text style rect path"}]
   }

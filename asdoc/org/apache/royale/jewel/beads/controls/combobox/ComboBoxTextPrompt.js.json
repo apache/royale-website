@@ -1,6 +1,6 @@
 { "type": "class",
   "qname": "org.apache.royale.jewel.beads.controls.combobox.ComboBoxTextPrompt",
-  "baseClassname": "org.apache.royale.jewel.beads.controls.textinput.TextPrompt"
+  "baseClassname": "org.apache.royale.jewel.beads.controls.TextInputSubControlTextPrompt"
   ,
     "description": "The ComboBoxTextPrompt class is a specialty bead that can be used with any ComboBox control. The bead places a string into the sub TextInput component when there is no value associated with the text property.",
   "tags": [
@@ -26,25 +26,6 @@
             {  "tagName": "langversion",
                "values": ["3.0"]}  ],
           "return": "",
-          "params": []}
-      ,
-      { "type": "method",
-        "qname": "updatePromptText",
-        "namespace": "protected",
-        "bindable": [],
-        "details": ["override"],
-        "deprecated": {},
-          "description": "",
-        "tags": [
-        {  "tagName": "playerversion",
-               "values": ["Flash 10.2", "AIR 2.6"]},
-            {  "tagName": "copy",
-               "values": ["org.apache.royale.jewel.beads.controls.textinput.TextPrompt#updatePromptText()"]},
-            {  "tagName": "productversion",
-               "values": ["Royale 0.9.7"]},
-            {  "tagName": "langversion",
-               "values": ["3.0"]}  ],
-          "return": "void",
           "params": []}
       ]
   }

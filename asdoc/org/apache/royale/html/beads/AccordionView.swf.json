@@ -41,5 +41,14 @@
           "description": "",
         "tags": [
         {  "tagName": "private",
-               "values": []}  ]}]
+               "values": []}  ]},
+      { "type": "method",
+        "qname": "itemsCreatedHandler",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "event", "type": "org.apache.royale.events.Event"}]}
+      ]
   }

@@ -8,6 +8,8 @@
          "values": ["Flash 10.2", "AIR 2.6"]},
       {  "tagName": "productversion",
          "values": ["Royale 0.0"]},
+      {  "tagName": "royalesupressexport",
+         "values": []},
       {  "tagName": "langversion",
          "values": ["3.0"]}  ],
   "members": [
@@ -21,5 +23,38 @@
           "params": [{ "name": "type", "type": "String"},
         { "name": "bubbles", "type": "Boolean"},
         { "name": "cancelable", "type": "Boolean"}]}
+      ,
+      { "type": "method",
+        "qname": "tagNativeEvent",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "A way to let a Royale Event 'hitch a ride' on a native browser event. Encapsulates the tagging/untagging support in this Utils class",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["nativeEvent the native event to tag with the Royale Event", "royaleEvent the Royale Event to accompany the native event (expected as a org.apache.royale.events.Event here)"]},
+            {  "tagName": "return",
+               "values": ["the native event passed it"]}  ],
+          "return": "Object",
+          "params": [{ "name": "nativeEvent", "type": "Object"},
+        { "name": "royaleEvent", "type": "Object"}]}
+      ,
+      { "type": "method",
+        "qname": "retrieveEvent",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "A way to retrieve a RoyaleEvent from a native browser event, if present. Encapsulates the tagging/untagging support in this Utils class",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["nativeEvent"]},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["goog.events.Event"]},
+            {  "tagName": "return",
+               "values": ["the resolved event instance"]}  ],
+          "return": "Object",
+          "params": [{ "name": "nativeEvent", "type": "Object"}]}
       ]
   }

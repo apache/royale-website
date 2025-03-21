@@ -1,0 +1,37 @@
+{ "type": "class",
+  "qname": "spark.components.beads.SparkSkinWithClipAndEnableScrollingViewport",
+  "baseClassname": "spark.components.beads.SparkSkinScrollingViewport"
+  ,
+    "description": "The viewport that loads a Spark Skin.",
+  "tags": [
+  {  "tagName": "private",
+         "values": []}  ],
+  "members": [
+  { "type": "method",
+        "qname": "spark.components.beads.SparkSkinWithClipAndEnableScrollingViewport",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "setScrollStyle",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "Subclasses override this method to change scrolling behavior",
+          "return": "void",
+          "params": []}
+      ]
+  }

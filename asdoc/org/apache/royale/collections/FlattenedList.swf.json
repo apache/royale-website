@@ -15,7 +15,7 @@
   "members": [
   { "type": "field",
         "qname": "hdata",
-        "return": "org.apache.royale.collections.HierarchicalData",
+        "return": "org.apache.royale.collections.IHierarchicalData",
         "namespace": "public",
         "bindable": [],
         "details": [],
@@ -42,7 +42,7 @@
             {  "tagName": "langversion",
                "values": ["3.0"]}  ],
           "return": "",
-          "params": [{ "name": "hdata", "type": "org.apache.royale.collections.HierarchicalData"}]}
+          "params": [{ "name": "hdata", "type": "org.apache.royale.collections.IHierarchicalData"}]}
       ,
       { "type": "method",
         "qname": "reset",
@@ -145,7 +145,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Returns the depth of the node with the root being zero.",
+          "description": "Returns the depth of the node with the root being zero.  Returning the depth from the HierachicalData allows for optimization in client code.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -163,6 +163,9 @@
         "details": ["override"],
         "deprecated": {},
           "description": "When adding items from outside FlattenedList, it needs to be added to the data structure as well.",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["Array"]}  ],
           "return": "void",
           "params": [{ "name": "item", "type": "Object"},
         { "name": "index", "type": "int"}]}
@@ -173,6 +176,10 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "When removing items from outside FlattenedList, it needs to be added to the data structure as well.",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["Array"]}  ],
           "return": "Object",
           "params": [{ "name": "index", "type": "int"}]}
       ]

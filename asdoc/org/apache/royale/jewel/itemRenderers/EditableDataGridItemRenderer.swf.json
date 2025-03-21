@@ -1,0 +1,53 @@
+{ "type": "class",
+  "qname": "org.apache.royale.jewel.itemRenderers.EditableDataGridItemRenderer",
+  "baseClassname": "org.apache.royale.jewel.itemRenderers.DataGridItemRenderer"
+  ,
+    "description": "The EditableDataGridItemRenderer defines the basic methods for a editable Item Renderer for a Jewel DataGrid Component.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.10"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.jewel.itemRenderers.EditableDataGridItemRenderer",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "goToEditMode",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Enter in edit mode (should be used by a specific ItemRender using for example a state)",
+          "return": "void",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "onEditModeClick",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "It's important to use a protected function to allows to override and run specific code on this phase (ex: validations)",
+          "return": "void",
+          "params": [{ "name": "event", "type": "org.apache.royale.events.Event"}]}
+      ,
+      { "type": "method",
+        "qname": "endEditMode",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Exit the edit mode (should be used by a specific ItemRender using for example a state)",
+          "return": "void",
+          "params": []}
+      ]
+  }

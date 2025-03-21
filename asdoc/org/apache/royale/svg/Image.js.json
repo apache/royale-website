@@ -143,5 +143,5 @@
           "description": "",
         "tags": [
         {  "tagName": "royaleignorecoercion",
-               "values": ["String", "HTMLElement", "String", "HTMLElement"]}  ]}]
+               "values": ["String", "HTMLElement"]}  ]}]
   }

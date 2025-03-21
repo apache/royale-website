@@ -1,6 +1,6 @@
 { "type": "class",
   "qname": "org.apache.royale.jewel.beads.controls.datefield.DateFieldDisabled",
-  "baseClassname": "org.apache.royale.jewel.beads.controls.Disabled"
+  "baseClassname": "org.apache.royale.jewel.beads.controls.TextInputAndButtonControlDisabled"
   ,
     "description": "The DateFieldDisabled bead class is a specialty bead that can be used to disable a Jewel DateField control. This disables all the internal native controls.",
   "tags": [
@@ -26,15 +26,6 @@
             {  "tagName": "langversion",
                "values": ["3.0"]}  ],
           "return": "",
-          "params": []}
-      ,
-      { "type": "method",
-        "qname": "updateHost",
-        "namespace": "protected",
-        "bindable": [],
-        "details": ["override"],
-        "deprecated": {},
-          "return": "void",
           "params": []}
       ]
   }

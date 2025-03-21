@@ -212,5 +212,17 @@
           "params": [{ "name": "x", "type": "Number"},
         { "name": "y", "type": "Number"},
         { "name": "radius", "type": "Number"}]}
+      ,
+      { "type": "method",
+        "qname": "beginBitmapFill",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "bitmap", "type": "flash.display.BitmapData"},
+        { "name": "matrix", "type": "mx.geom.Matrix"},
+        { "name": "repeat", "type": "Boolean"},
+        { "name": "smooth", "type": "Boolean"}]}
       ]
   }

@@ -62,6 +62,6 @@
         "details": [],
         "deprecated": {},
           "return": "void",
-          "params": [{ "name": "event", "type": "org.apache.royale.events.MouseEvent"}]}
+          "params": [{ "name": "event", "type": "org.apache.royale.events.Event"}]}
       ]
   }

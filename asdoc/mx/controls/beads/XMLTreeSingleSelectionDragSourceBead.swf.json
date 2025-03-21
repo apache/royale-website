@@ -1,0 +1,45 @@
+{ "type": "class",
+  "qname": "mx.controls.beads.XMLTreeSingleSelectionDragSourceBead",
+  "baseClassname": ""
+  ,
+    "description": "The XMLTreeSingleSelectionDragSourceBead handles drag source operaions special to XML data",
+  "tags": [
+  {  "tagName": "see",
+         "values": ["org.apache.royale.html.beads.SingleSelectionDropTargetBead."]},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.10"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.controls.beads.XMLTreeSingleSelectionDragSourceBead",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.10"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "write-only",
+        "return": "org.apache.royale.core.IStrand",
+        "qname": "strand",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "private",
+               "values": []}  ]}]
+  }

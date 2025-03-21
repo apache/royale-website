@@ -5,5 +5,12 @@
   "details": [],
   "deprecated": {},
     "description": "Provides data for a stand-in TypeDefinition of the native as3 type for javascript",
+  "tags": [
+  {  "tagName": "royaleignorecoercion",
+         "values": ["Class"]}  ],
     "return": "Object",
-    "params": [{ "name": "typeName", "type": "String"}]}
+    "params": [{ "name": "typeName", "type": "String"},
+  { "name": "nativeBase", "type": "Class"}]}
+
+
+

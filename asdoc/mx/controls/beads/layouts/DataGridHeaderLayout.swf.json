@@ -58,6 +58,10 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.IStrandWithModel"]}  ],
           "return": "Boolean",
           "params": []}
       ]

@@ -1,0 +1,46 @@
+{ "type": "class",
+  "qname": "org.apache.royale.jewel.beads.controls.BadgeWithMouseClick",
+  "baseClassname": "org.apache.royale.jewel.beads.controls.Badge"
+  ,
+    "description": "The Badge class provides a small status descriptors for UI elements.  A Badge is an onscreen notification element consists of a small circle, typically containing a number or other characters, that appears in proximity to another object  The BadgeWithMouseClick class is a Badge extension that dispatches the MouseClick Event.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.8"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.jewel.beads.controls.BadgeWithMouseClick",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.8"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "createBadge",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "used to create the badge ui element that will be a Label",
+          "return": "org.apache.royale.jewel.Label",
+          "params": []}
+      ]
+  ,
+  "events": [
+  { "qname": "click",
+        "type": "org.apache.royale.events.MouseEvent"
+      }]
+  }

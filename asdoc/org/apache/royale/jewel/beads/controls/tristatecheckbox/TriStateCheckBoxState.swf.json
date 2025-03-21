@@ -1,0 +1,15 @@
+{ "type": "class",
+  "qname": "org.apache.royale.jewel.beads.controls.tristatecheckbox.TriStateCheckBoxState",
+  "baseClassname": ""
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.jewel.beads.controls.tristatecheckbox.TriStateCheckBoxState",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ]
+  }

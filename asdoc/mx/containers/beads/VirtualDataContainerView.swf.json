@@ -1,0 +1,25 @@
+{ "type": "class",
+  "qname": "mx.containers.beads.VirtualDataContainerView",
+  "baseClassname": "org.apache.royale.html.beads.VirtualDataContainerView"
+  ,
+    "description": "The DataContainerView provides the visual elements for the DataContainer.",
+  "tags": [
+  {  "tagName": "viewbead",
+         "values": []},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.8"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.containers.beads.VirtualDataContainerView",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ]
+  }

@@ -33,15 +33,20 @@
           "params": [{ "name": "url", "type": "String"}]}
       ,
       { "type": "method",
+        "qname": "cancel",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "void",
+          "params": []}
+      ,
+      { "type": "method",
         "qname": "completeHandler",
         "namespace": "protected",
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "",
-        "tags": [
-        {  "tagName": "royaleignorecoercion",
-               "values": ["org.apache.royale.events.IEventDispatcher"]}  ],
           "return": "void",
           "params": [{ "name": "event", "type": "org.apache.royale.events.Event"}]}
       ,

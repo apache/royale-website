@@ -22,20 +22,5 @@
           "description": "",
         "tags": [
         {  "tagName": "royaleignorecoercion",
-               "values": ["Class", "org.apache.royale.core.IBeadModel"]}  ]},
-      { "type": "method",
-        "qname": "addBead",
-        "namespace": "public",
-        "bindable": [],
-        "details": ["override"],
-        "deprecated": {},
-          "description": "",
-        "tags": [
-        {  "tagName": "param",
-               "values": ["bead The new bead."]},
-            {  "tagName": "royaleignorecoercion",
-               "values": ["org.apache.royale.core.IBeadModel"]}  ],
-          "return": "void",
-          "params": [{ "name": "bead", "type": "org.apache.royale.core.IBead"}]}
-      ]
+               "values": ["Class", "org.apache.royale.core.IBeadModel"]}  ]}]
   }

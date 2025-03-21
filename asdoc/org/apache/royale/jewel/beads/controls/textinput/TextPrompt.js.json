@@ -1,6 +1,6 @@
 { "type": "class",
   "qname": "org.apache.royale.jewel.beads.controls.textinput.TextPrompt",
-  "baseClassname": "org.apache.royale.core.Bead"
+  "baseClassname": "org.apache.royale.core.DispatcherBead"
   ,
     "description": "The TextPrompt class is a specialty bead that can be used with any TextInput control. The bead places a string into the input field when there is no value associated with the text property.",
   "tags": [

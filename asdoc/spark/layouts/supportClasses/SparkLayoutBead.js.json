@@ -7,7 +7,7 @@
   {  "tagName": "playerversion",
          "values": ["Flash 10", "AIR 1.5"]},
       {  "tagName": "productversion",
-         "values": ["Flex 4"]},
+         "values": ["Royale 0.9.6"]},
       {  "tagName": "langversion",
          "values": ["3.0"]}  ],
   "members": [
@@ -22,7 +22,7 @@
         {  "tagName": "playerversion",
                "values": ["Flash 10", "AIR 1.5"]},
             {  "tagName": "productversion",
-               "values": ["Flex 4"]},
+               "values": ["Royale 0.9.6"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ],
           "return": "",

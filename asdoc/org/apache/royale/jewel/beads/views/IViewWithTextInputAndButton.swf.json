@@ -1,0 +1,47 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.jewel.beads.views.IViewWithTextInputAndButton",
+"baseInterfaceNames": [
+"org.apache.royale.core.IBeadView"]
+,
+    "description": "The IViewWithTextInputAndButton interface provides the protocol for any bead that creates the visual parts for a control containing a text area and a button.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.4"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-only",
+    "return": "org.apache.royale.jewel.supportClasses.textinput.TextInputBase",
+    "qname": "textinput",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "The sub-component used for the input area of the Control.",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.9.4"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]},
+  { "type": "accessor",
+    "access": "read-only",
+    "return": "org.apache.royale.core.IUIBase",
+    "qname": "button",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "The sub-component used for the button to activate the pop-up.",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.9.4"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]}]
+  }

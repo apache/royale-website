@@ -23,7 +23,8 @@
         {  "tagName": "royaleignorecoercion",
                "values": ["Object"]}  ],
           "return": "void",
-          "params": [{ "name": "host", "type": "org.apache.royale.core.IUIBase"}]}
+          "params": [{ "name": "host", "type": "org.apache.royale.core.IUIBase"},
+        { "name": "forPopup", "type": "mx.core.IFlexDisplayObject"}]}
       ,
       { "type": "method",
         "qname": "remove",
@@ -32,6 +33,7 @@
         "details": ["static"],
         "deprecated": {},
           "return": "void",
-          "params": [{ "name": "host", "type": "org.apache.royale.core.IUIBase"}]}
+          "params": [{ "name": "host", "type": "org.apache.royale.core.IUIBase"},
+        { "name": "forPopup", "type": "mx.core.IFlexDisplayObject"}]}
       ]
   }

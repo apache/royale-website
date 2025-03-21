@@ -1,0 +1,23 @@
+{ "type": "class",
+  "qname": "mx.controls.beads.DragBead",
+  "baseClassname": "org.apache.royale.html.beads.DragBead"
+  ,
+    "description": "",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.10"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mouseDownHandler",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "event", "type": "org.apache.royale.events.MouseEvent"}]}
+      ]
+  }

@@ -104,5 +104,36 @@
         "deprecated": {},
           "return": "void",
           "params": []}
+      ,
+      { "type": "method",
+        "qname": "timerEvent",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "org.apache.royale.events.Event",
+          "params": [{ "name": "evtType", "type": "String"}]}
+      ,
+      { "type": "method",
+        "qname": "repeatsFinished",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "void",
+          "params": []}
       ]
+  ,
+  "events": [
+  { "qname": "timer",
+        "type": "org.apache.royale.events.Event"
+      ,
+          "description": "Dispatched as requested via the delay and repeat count parameters in the constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
   }

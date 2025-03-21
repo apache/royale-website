@@ -47,7 +47,7 @@
             {  "tagName": "productversion",
                "values": ["Royale 0.0"]},
             {  "tagName": "royaleignorecoercion",
-               "values": ["org.apache.royale.core.IParent", "org.apache.royale.core.IRangeModel", "org.apache.royale.events.IEventDispatcher"]},
+               "values": ["org.apache.royale.core.IParent", "org.apache.royale.core.IRangeModel", "org.apache.royale.core.IStrandWithModel", "org.apache.royale.events.IEventDispatcher"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]},
       { "type": "accessor",

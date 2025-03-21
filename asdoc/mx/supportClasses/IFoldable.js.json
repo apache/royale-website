@@ -1,0 +1,20 @@
+{ "type": "interface",
+  "qname": "mx.supportClasses.IFoldable",
+  "members": [
+  { "type": "accessor",
+    "access": "read-only",
+    "return": "Boolean",
+    "qname": "canFold",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {}},
+  { "type": "accessor",
+    "access": "read-only",
+    "return": "Boolean",
+    "qname": "canUnfold",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {}}]
+  }

@@ -1,0 +1,68 @@
+{ "type": "class",
+  "qname": "mx.utils.Timer",
+  "baseClassname": "org.apache.royale.utils.Timer"
+  ,
+    "description": "The Timer class dispatches events based on a delay and repeat count.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.8"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]},
+      {  "tagName": "royalesuppresspublicvarwarning",
+         "values": []}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.utils.Timer",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": [{ "name": "delay", "type": "Number"},
+        { "name": "repeatCount", "type": "int"}]}
+      ,
+      { "type": "method",
+        "qname": "timerEvent",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "org.apache.royale.events.Event",
+          "params": [{ "name": "evtType", "type": "String"}]}
+      ,
+      { "type": "method",
+        "qname": "repeatsFinished",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "void",
+          "params": []}
+      ]
+  ,
+  "events": [
+  { "qname": "timerComplete",
+        "type": "mx.events.TimerEvent"
+      ,
+          "description": "Dispatched when timer stops",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.8"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]},
+      { "qname": "timer",
+        "type": "mx.events.TimerEvent"
+      ,
+          "description": "Dispatched as requested via the delay and repeat count parameters in the constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  }

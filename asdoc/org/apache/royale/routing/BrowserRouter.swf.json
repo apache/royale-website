@@ -27,15 +27,7 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {},
-          "description": "The base path of the application. If the appllication is being loaded from somewhere other than the domain root, this must be specified.",
-        "tags": [
-        {  "tagName": "playerversion",
-               "values": ["Flash 10.2", "AIR 2.6"]},
-            {  "tagName": "productversion",
-               "values": ["Royale 0.9.8"]},
-            {  "tagName": "langversion",
-               "values": ["3.0"]}  ]},
+        "deprecated": {}},
       { "type": "accessor",
         "access": "read-only",
         "return": "org.apache.royale.core.IStrand",
@@ -161,6 +153,17 @@
         "type": "org.apache.royale.events.Event"
       ,
           "description": "Dispatched when the state is changed.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.8"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]},
+      { "qname": "routeComplete",
+        "type": "org.apache.royale.events.Event"
+      ,
+          "description": "Dispatched when the route is complete.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

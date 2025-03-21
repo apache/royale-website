@@ -9,11 +9,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Constructor.  to wait before dispatching the event. the event.  If 0, keep dispatching forever.",
+          "description": "The Proxy class calls methods when properties are set and read and deleted.",
         "tags": [
-        {  "tagName": "param",
-               "values": ["delay The number of milliseconds", "repeatCount The number of times to dispatch"]},
-            {  "tagName": "playerversion",
+        {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
             {  "tagName": "productversion",
                "values": ["Royale 0.0"]},
@@ -75,7 +73,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "return": "Array",
+          "return": "Object",
           "params": []}
       ]
   }

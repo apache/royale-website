@@ -1,0 +1,11 @@
+{ "type": "method",
+  "qname": "org.apache.royale.test.asserts.assertMatch",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "Alias for org.apache.royale.test.Assert assertMatch method",
+    "return": "void",
+    "params": [{ "name": "value", "type": "String"},
+  { "name": "regExp", "type": "RegExp"},
+  { "name": "message", "type": "String"}]}

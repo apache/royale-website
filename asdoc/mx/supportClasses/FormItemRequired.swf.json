@@ -1,0 +1,23 @@
+{ "type": "class",
+  "qname": "mx.supportClasses.FormItemRequired",
+  "baseClassname": "mx.controls.Image"
+  ,
+    "description": "The FormItemRequired class is the default skin for the required indicator",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.8"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.supportClasses.FormItemRequired",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ]
+  }

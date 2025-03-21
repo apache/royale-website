@@ -1,6 +1,6 @@
 { "type": "class",
   "qname": "org.apache.royale.jewel.Table",
-  "baseClassname": "org.apache.royale.jewel.supportClasses.container.DataContainerBase"
+  "baseClassname": "org.apache.royale.jewel.DataContainer"
   ,
     "description": "The Table class represents an HTML <table> element.  This Table component uses a data mapper and item renderers to generate a Table from a data source, in opposite to SimpleTable component that is a declarative mxml.  As well, DataGrid is a more complex component",
   "tags": [
@@ -68,7 +68,7 @@
         "qname": "dataProvider",
         "namespace": "public",
         "bindable": [],
-        "details": [],
+        "details": ["override"],
         "deprecated": {},
           "description": "A list of data items that correspond to the rows in the table. Each table column is associated with a property of the data items to display that property in the table cells.  The default value is null.",
         "tags": [
@@ -131,7 +131,24 @@
             {  "tagName": "royaleignorecoercion",
                "values": ["org.apache.royale.core.ISelectionModel"]},
             {  "tagName": "langversion",
-               "values": ["3.0"]}  ]}]
+               "values": ["3.0"]}  ]},
+      { "type": "method",
+        "qname": "loadBeads",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "load necesary beads. This method can be override in subclasses to add other custom beads needed, so all requested beads be loaded before signal the &quot;beadsAdded&quot; event.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.8"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "void",
+          "params": []}
+      ]
   ,
   "events": [
   { "qname": "initComplete",

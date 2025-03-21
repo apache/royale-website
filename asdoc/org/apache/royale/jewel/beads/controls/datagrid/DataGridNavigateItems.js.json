@@ -1,0 +1,41 @@
+{ "type": "class",
+  "qname": "org.apache.royale.jewel.beads.controls.datagrid.DataGridNavigateItems",
+  "baseClassname": ""
+  ,
+    "description": "The DataGridNavigateItems bead class is a specialty bead that can be use with a Jewel DataGrid and VirtualDataGrid control in conjuntion with EditableItemRenderer for navigate between cells with keyboard",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.10"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.jewel.beads.controls.datagrid.DataGridNavigateItems",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "write-only",
+        "return": "org.apache.royale.core.IStrand",
+        "qname": "strand",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "copy",
+               "values": ["org.apache.royale.core.IBead#strand"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.10"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  }

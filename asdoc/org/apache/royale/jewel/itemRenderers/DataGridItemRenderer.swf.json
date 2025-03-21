@@ -2,7 +2,7 @@
   "qname": "org.apache.royale.jewel.itemRenderers.DataGridItemRenderer",
   "baseClassname": "org.apache.royale.jewel.itemRenderers.ListItemRenderer"
   ,
-    "description": "The DataGridItemRenderer defines the basic Item Renderer for a Jewel DataGrid Component. For now is just a ListItemRenderer that populates some values from Jewel DataGridColumn.",
+    "description": "The DataGridItemRenderer defines the basic Item Renderer for a Jewel DataGrid Component. For now is just a ListItemRenderer that populates some values from Jewel IDataGridColumn.",
   "tags": [
   {  "tagName": "playerversion",
          "values": ["Flash 10.2", "AIR 2.6"]},

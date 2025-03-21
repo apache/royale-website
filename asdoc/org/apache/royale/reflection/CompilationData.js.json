@@ -92,10 +92,6 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "",
-        "tags": [
-        {  "tagName": "royaleignorecoercion",
-               "values": ["Class"]}  ],
           "return": "",
           "params": [{ "name": "inspect", "type": "Object"}]}
       ,

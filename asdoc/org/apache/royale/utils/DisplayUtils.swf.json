@@ -98,5 +98,27 @@
           "params": [{ "name": "x", "type": "Number"},
         { "name": "y", "type": "Number"},
         { "name": "obj", "type": "org.apache.royale.core.IUIBase"}]}
+      ,
+      { "type": "method",
+        "qname": "containerContains",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "Determines if the potentialChild has the container somewhere in its parent hierarchy.",
+        "tags": [
+        {  "tagName": "param",
+               "values": ["container The container to check", "potentialChild The target to verify as part of the child tree below the container"]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.IRenderedObject"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "Boolean",
+          "params": [{ "name": "container", "type": "org.apache.royale.core.IParent"},
+        { "name": "potentialChild", "type": "org.apache.royale.core.IUIBase"}]}
       ]
   }

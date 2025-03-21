@@ -90,7 +90,7 @@
             {  "tagName": "productversion",
                "values": ["Royale 0.9"]},
             {  "tagName": "royaleignorecoercion",
-               "values": ["org.apache.royale.core.ISelectionModel", "org.apache.royale.events.IEventDispatcher", "org.apache.royale.html.beads.IListView"]},
+               "values": ["org.apache.royale.core.ISelectionModel", "org.apache.royale.events.IEventDispatcher", "org.apache.royale.html.beads.IListView", "org.apache.royale.core.IStrandWithModelView"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]},
       { "type": "method",

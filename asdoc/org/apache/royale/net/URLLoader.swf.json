@@ -2,7 +2,7 @@
   "qname": "org.apache.royale.net.URLLoader",
   "baseClassname": "org.apache.royale.net.URLLoaderBase"
   ,
-    "description": "The URLBinaryLoader class is a relatively low-level class designed to get binary data over HTTP the intent is to create similar classes for text and URL vars. If you need to use Binary requests (including POST), use URLBinaryLoader.",
+    "description": "The URLLoader class is a relatively low-level class designed to get data over HTTP.",
   "tags": [
   {  "tagName": "playerversion",
          "values": ["Flash 10.2", "AIR 2.6"]},
@@ -12,6 +12,13 @@
          "values": ["3.0"]}  ],
   "members": [
   { "type": "field",
+        "qname": "dataFormat",
+        "return": "String",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}},
+      { "type": "field",
         "qname": "bytesLoaded",
         "return": "uint",
         "namespace": "public",
@@ -128,6 +135,15 @@
           "return": "void",
           "params": [{ "name": "event", "type": "flash.events.Event"}]}
       ,
+      { "type": "method",
+        "qname": "swfLoadProgressHandler",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "e", "type": "flash.events.ProgressEvent"}]}
+      ,
       { "type": "accessor",
         "access": "read-only",
         "return": "String",
@@ -155,4 +171,28 @@
           "return": "void",
           "params": []}
       ]
+  ,
+  "events": [
+  { "qname": "progress",
+        "type": "org.apache.royale.events.ProgressEvent"
+      ,
+          "description": "Dispatched when the response is progressively loading.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]},
+      { "qname": "httpStatus",
+        "type": "org.apache.royale.events.ValueEvent"
+      ,
+          "description": "Dispatched when the http status is determined.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.0"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
   }

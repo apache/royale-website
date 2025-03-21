@@ -57,7 +57,7 @@
         "return": "Boolean",
         "qname": "selected",
         "namespace": "public",
-        "bindable": [],
+        "bindable": ["change"],
         "details": [],
         "deprecated": {},
           "description": "",

@@ -38,6 +38,7 @@
 "royalesuppressexport",
 "royalesuppresspublicvarwarning",
 "royalesuppressresolveuncertain",
+"royalesupressexport",
 "see",
 "spark.events.GridSelectionEventKind",
 "static",

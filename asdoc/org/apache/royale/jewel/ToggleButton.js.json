@@ -69,6 +69,15 @@
           "return": "org.apache.royale.core.WrappedHTMLElement",
           "params": []}
       ,
+      { "type": "method",
+        "qname": "clickHandler",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "event", "type": "org.apache.royale.events.Event"}]}
+      ,
       { "type": "accessor",
         "access": "read-write",
         "return": "org.apache.royale.core.IIcon",

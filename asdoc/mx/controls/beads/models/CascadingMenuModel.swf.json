@@ -78,7 +78,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The field in the data object that identifies sub-menus. The default is &quot;menu&quot;.",
+          "description": "The field in the data object that identifies sub-menus. The default is &quot;children&quot;.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},

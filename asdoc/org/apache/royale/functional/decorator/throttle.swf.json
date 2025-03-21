@@ -1,0 +1,17 @@
+{ "type": "method",
+  "qname": "org.apache.royale.functional.decorator.throttle",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "Limits the execution of a function to a maximum of once within the limit in ms. It the limit has expired since the last call, the function is executed immediately. Otherwise it is not executed at all.",
+  "tags": [
+  {  "tagName": "productversion",
+         "values": ["Royale 0.9.9"]},
+      {  "tagName": "royalesuppressexport",
+         "values": []},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+    "return": "Function",
+    "params": [{ "name": "method", "type": "Function"},
+  { "name": "limit", "type": "Number"}]}

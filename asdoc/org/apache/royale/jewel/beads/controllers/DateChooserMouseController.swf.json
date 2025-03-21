@@ -44,6 +44,8 @@
                "values": ["org.apache.royale.core.IBead#strand"]},
             {  "tagName": "productversion",
                "values": ["Royale 0.9.4"]},
+            {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.IStrandWithModel"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
   }

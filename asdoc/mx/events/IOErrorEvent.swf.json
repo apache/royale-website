@@ -4,14 +4,14 @@
   ,
     "description": "",
   "tags": [
-  {  "tagName": "royalesuppresspublicvarwarning",
-         "values": []},
-      {  "tagName": "playerversion",
+  {  "tagName": "playerversion",
          "values": ["Flash 9", "AIR 1.1"]},
       {  "tagName": "productversion",
          "values": ["Royale 0.9.3"]},
       {  "tagName": "langversion",
-         "values": ["3.0"]}  ],
+         "values": ["3.0"]},
+      {  "tagName": "royalesuppresspublicvarwarning",
+         "values": []}  ],
   "members": [
   { "type": "field",
         "qname": "IO_ERROR",

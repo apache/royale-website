@@ -118,7 +118,7 @@
           "description": "A convenience method to create an instance of the ValueChangeEvent.",
         "tags": [
         {  "tagName": "param",
-               "values": ["source The source of the object.", "name The name of the event.", "oldValue The value before it was changed.", "newValue The value after it was changed."]},
+               "values": ["source The source of the object.", "name The name of the property being changed", "oldValue The value before it was changed.", "newValue The value after it was changed."]},
             {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
             {  "tagName": "productversion",

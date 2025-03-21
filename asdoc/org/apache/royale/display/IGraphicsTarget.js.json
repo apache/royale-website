@@ -7,7 +7,7 @@
   "members": [
   { "type": "accessor",
     "access": "read-only",
-    "return": "SVGSVGElement",
+    "return": "SVGElement",
     "qname": "graphicsRenderTarget",
     "namespace": "public",
     "bindable": [],

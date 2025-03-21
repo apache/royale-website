@@ -28,6 +28,15 @@
           "return": "",
           "params": []}
       ,
+      { "type": "method",
+        "qname": "collectionChangeHandler",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "event", "type": "mx.events.CollectionEvent"}]}
+      ,
       { "type": "accessor",
         "access": "read-only",
         "return": "int",

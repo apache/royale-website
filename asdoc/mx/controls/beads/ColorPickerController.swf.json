@@ -1,0 +1,64 @@
+{ "type": "class",
+  "qname": "mx.controls.beads.ColorPickerController",
+  "baseClassname": "org.apache.royale.html.beads.controllers.ComboBoxController"
+  ,
+    "description": "The ColorPickerView class creates the visual elements of the org.apache.royale.html.ColorPicker component. The job of the view bead is to put together the parts of the ComboBox such as the color container and org.apache.royale.html.Button to trigger the pop-up.",
+  "tags": [
+  {  "tagName": "viewbead",
+         "values": []},
+      {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.10"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "finishSetup",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "event", "type": "org.apache.royale.events.Event"}]}
+      ,
+      { "type": "method",
+        "qname": "handleMouseUp",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.events.IEventDispatcher"]}  ],
+          "return": "void",
+          "params": [{ "name": "event", "type": "org.apache.royale.events.MouseEvent"}]}
+      ,
+      { "type": "method",
+        "qname": "handleMouseDown",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.events.IEventDispatcher"]}  ],
+          "return": "void",
+          "params": [{ "name": "event", "type": "org.apache.royale.events.MouseEvent"}]}
+      ,
+      { "type": "method",
+        "qname": "handleMouseOver",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.events.IEventDispatcher"]}  ],
+          "return": "void",
+          "params": [{ "name": "event", "type": "org.apache.royale.events.MouseEvent"}]}
+      ]
+  }

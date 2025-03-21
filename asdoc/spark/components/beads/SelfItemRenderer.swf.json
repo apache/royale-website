@@ -1,0 +1,31 @@
+{ "type": "class",
+  "qname": "spark.components.beads.SelfItemRenderer",
+  "baseClassname": "spark.components.supportClasses.ItemRenderer"
+  ,
+    "description": "The SelfItemRenderer class defines the Spark item renderer class these uses the item to render itself.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10", "AIR 1.5"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.8"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "spark.components.beads.SelfItemRenderer",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10", "AIR 1.5"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.8"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ]
+  }

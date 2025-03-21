@@ -40,5 +40,14 @@
     "deprecated": {},
       "return": "void",
       "params": [{ "name": "o", "type": "mx.managers.IFocusManagerComponent"}]}
+  ,
+  { "type": "method",
+    "qname": "activate",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "return": "void",
+      "params": []}
   ]
   }

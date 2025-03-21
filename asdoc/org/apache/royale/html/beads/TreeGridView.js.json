@@ -48,7 +48,7 @@
           "description": "The area used to hold the columns"},
       { "type": "accessor",
         "access": "read-only",
-        "return": "org.apache.royale.core.IUIBase",
+        "return": "org.apache.royale.core.IDataGridHeader",
         "qname": "header",
         "namespace": "public",
         "bindable": [],

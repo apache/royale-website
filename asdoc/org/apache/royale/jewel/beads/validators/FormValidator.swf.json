@@ -111,5 +111,14 @@
           "return": "void",
           "params": [{ "name": "below", "type": "org.apache.royale.jewel.Group"},
         { "name": "onlyVisible", "type": "Boolean"}]}
+      ,
+      { "type": "method",
+        "qname": "dispatchValidEvent",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "void",
+          "params": []}
       ]
   }

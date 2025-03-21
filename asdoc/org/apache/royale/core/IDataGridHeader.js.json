@@ -1,0 +1,33 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.core.IDataGridHeader",
+"baseInterfaceNames": [
+"org.apache.royale.core.IUIBase", 
+"org.apache.royale.core.IStrandWithModel", 
+"org.apache.royale.core.IHasDataProvider"]
+,
+    "description": "The IDataGridHeader is a marker interface that defines the header component part in a DataGrid.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.8"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+    "access": "read-write",
+    "return": "String",
+    "qname": "labelField",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {},
+      "description": "The property on the data item that the item renderer should renderer.",
+    "tags": [
+    {  "tagName": "playerversion",
+           "values": ["Flash 10.2", "AIR 2.6"]},
+        {  "tagName": "productversion",
+           "values": ["Royale 0.0"]},
+        {  "tagName": "langversion",
+           "values": ["3.0"]}  ]}]
+  }

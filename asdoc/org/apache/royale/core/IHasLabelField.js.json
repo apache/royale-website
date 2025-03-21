@@ -1,0 +1,12 @@
+{ "type": "interface",
+  "qname": "org.apache.royale.core.IHasLabelField",
+  "members": [
+  { "type": "accessor",
+    "access": "read-only",
+    "return": "String",
+    "qname": "labelField",
+    "namespace": "public",
+    "bindable": [],
+    "details": [],
+    "deprecated": {}}]
+  }

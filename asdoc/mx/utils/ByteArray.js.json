@@ -49,5 +49,20 @@
         "deprecated": {},
           "return": "void",
           "params": [{ "name": "object", "type": "*"}]}
-      ]
+      ,
+      { "type": "field",
+        "qname": "_objectEncoding",
+        "return": "uint",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}},
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "uint",
+        "qname": "objectEncoding",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}}]
   }

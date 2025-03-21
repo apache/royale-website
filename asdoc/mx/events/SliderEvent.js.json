@@ -163,7 +163,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Indicates the type of input action. The value is an event object of type flash.events.MouseEvent or flash.events.KeyboardEvent.",
+          "description": "Indicates the type of input action. The value is an event object of type mx.events.MouseEvent or mx.events.KeyboardEvent.",
         "tags": [
         {  "tagName": "see",
                "values": ["flash.events.MouseEvent", "flash.events.KeyboardEvent"]},

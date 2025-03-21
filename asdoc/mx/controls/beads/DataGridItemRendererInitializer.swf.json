@@ -29,12 +29,18 @@
           "params": []}
       ,
       { "type": "method",
-        "qname": "setupVisualsForItemRenderer",
+        "qname": "makeListData",
         "namespace": "protected",
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
-          "return": "void",
-          "params": [{ "name": "ir", "type": "org.apache.royale.core.IIndexedItemRenderer"}]}
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["mx.controls.dataGridClasses.DataGridColumn", "mx.controls.dataGridClasses.DataGridColumnList", "mx.controls.beads.models.DataGridColumnICollectionViewModel"]}  ],
+          "return": "mx.controls.listClasses.BaseListData",
+          "params": [{ "name": "data", "type": "Object"},
+        { "name": "uid", "type": "String"},
+        { "name": "rowNum", "type": "int"}]}
       ]
   }

@@ -1,0 +1,16 @@
+{ "type": "method",
+  "qname": "org.apache.royale.reflection.hasDefinitionWithName",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "A simple way to check if a name is defined before requesting its definition (which will throw a RTE if it is invalid)",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+    "return": "Boolean",
+    "params": [{ "name": "name", "type": "String"}]}

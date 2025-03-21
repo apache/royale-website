@@ -29,6 +29,15 @@
           "params": []}
       ,
       { "type": "method",
+        "qname": "itemClickedAction",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "void",
+          "params": []}
+      ,
+      { "type": "method",
         "qname": "columnsChangedHandler",
         "namespace": "protected",
         "bindable": [],
@@ -62,7 +71,7 @@
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
             {  "tagName": "productversion",
-               "values": ["Royale 0.10.0"]},
+               "values": ["Royale 0.9.8"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]},
       { "type": "field",
@@ -89,7 +98,7 @@
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
             {  "tagName": "productversion",
-               "values": ["Royale 0.10.0"]},
+               "values": ["Royale 0.9.8"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
   }

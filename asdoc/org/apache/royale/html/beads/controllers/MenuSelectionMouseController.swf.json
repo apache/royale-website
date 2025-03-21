@@ -90,6 +90,17 @@
           "params": [{ "name": "event", "type": "org.apache.royale.events.ItemClickedEvent"}]}
       ,
       { "type": "method",
+        "qname": "sendChangeEvent",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "private",
+          "return": "void",
+          "params": [{ "name": "menuDispatcher", "type": "org.apache.royale.events.IEventDispatcher"},
+        { "name": "itemClickedEvent", "type": "org.apache.royale.events.ItemClickedEvent"}]}
+      ,
+      { "type": "method",
         "qname": "findMenuDispatcher",
         "namespace": "protected",
         "bindable": [],
@@ -133,5 +144,14 @@
         "deprecated": {},
           "return": "void",
           "params": [{ "name": "menu", "type": "org.apache.royale.core.UIBase"}]}
+      ,
+      { "type": "method",
+        "qname": "addClickOutHandler",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "menu", "type": "Object"}]}
       ]
   }

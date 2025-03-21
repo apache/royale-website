@@ -84,5 +84,31 @@
   { "qname": "change",
         "type": "org.apache.royale.events.Event"
       ,
-          "description": "The change event is dispatched when the selectedDate is changed."}]
+          "description": "The change event is dispatched when the selectedDate is changed."},
+      { "qname": "popUpOpened",
+        "type": "org.apache.royale.events.Event"
+      ,
+          "description": "Dispatched when the popup is opened.",
+        "tags": [
+        {  "tagName": "toplevel",
+               "values": []},
+            {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.8"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]},
+      { "qname": "popUpClosed",
+        "type": "org.apache.royale.events.Event"
+      ,
+          "description": "Dispatched when the popup is closed.",
+        "tags": [
+        {  "tagName": "toplevel",
+               "values": []},
+            {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.8"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
   }

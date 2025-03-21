@@ -52,6 +52,6 @@
         "details": [],
         "deprecated": {},
           "return": "void",
-          "params": [{ "name": "event", "type": "org.apache.royale.events.CollectionEvent"}]}
+          "params": [{ "name": "event", "type": "mx.events.CollectionEvent"}]}
       ]
   }

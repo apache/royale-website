@@ -1,0 +1,30 @@
+{ "type": "class",
+  "qname": "mx.display.NativeMenu",
+  "baseClassname": "org.apache.royale.events.EventDispatcher"
+  ,
+  "members": [
+  { "type": "method",
+        "qname": "mx.display.NativeMenu",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ]
+  ,
+  "events": [
+  { "qname": "select",
+        "type": "org.apache.royale.events.Event"
+      ,
+          "description": "Dispatched when the component has finished its construction and has all initialization properties set.  <p>After the initialization phase, properties are processed, the component is measured, laid out, and drawn, after which the <code>creationComplete</code> event is dispatched.</p>",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "eventType",
+               "values": ["= org.apache.royale.events.Event.SELECT"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  }

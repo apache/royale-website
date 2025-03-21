@@ -5,7 +5,7 @@
     "description": "The VirtualComboBoxPopUpView class is a view bead for the VirtualComboBoxPopUp.  This class creates a VirtualList that will be pop up when the combo box needs to show the associated list",
   "tags": [
   {  "tagName": "viewbead",
-         "values": [""]}  ],
+         "values": []}  ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.jewel.beads.views.VirtualComboBoxPopUpView",
@@ -24,6 +24,14 @@
           "return": "",
           "params": []}
       ,
+      { "type": "accessor",
+        "access": "write-only",
+        "return": "org.apache.royale.core.IStrand",
+        "qname": "strand",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {}},
       { "type": "accessor",
         "access": "read-only",
         "return": "org.apache.royale.jewel.List",

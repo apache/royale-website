@@ -41,13 +41,13 @@
           "description": "",
         "tags": [
         {  "tagName": "playerversion",
-               "values": ["Flash 9", "AIR 1.1", "Flash 9", "AIR 1.1", "Flash 9", "AIR 1.1", "Flash 9", "AIR 1.1", "Flash 9", "AIR 1.1", "Flash 9", "AIR 1.1", "Flash 9", "AIR 1.1"]},
+               "values": ["Flash 9", "AIR 1.1", "Flash 9", "AIR 1.1", "Flash 9", "AIR 1.1", "Flash 9", "AIR 1.1", "Flash 9", "AIR 1.1", "Flash 9", "AIR 1.1", "Flash 9", "AIR 1.1", "Flash 9", "AIR 1.1", "Flash 9", "AIR 1.1", "Flash 9", "AIR 1.1"]},
             {  "tagName": "copy",
-               "values": ["mx.core.IUIComponent#enabled", "mx.core.IUIComponent#enabled", "mx.core.IUIComponent#enabled", "mx.core.IUIComponent#enabled", "mx.core.IUIComponent#enabled", "mx.core.IUIComponent#enabled", "mx.core.IUIComponent#enabled"]},
+               "values": ["mx.core.IUIComponent#enabled", "mx.core.IUIComponent#enabled", "mx.core.IUIComponent#enabled", "mx.core.IUIComponent#enabled", "mx.core.IUIComponent#enabled", "mx.core.IUIComponent#enabled", "mx.core.IUIComponent#enabled", "mx.core.IUIComponent#enabled", "mx.core.IUIComponent#enabled", "mx.core.IUIComponent#enabled"]},
             {  "tagName": "productversion",
-               "values": ["Flex 3", "Flex 3", "Flex 3", "Flex 3", "Flex 3", "Flex 3", "Flex 3"]},
+               "values": ["Flex 3", "Flex 3", "Flex 3", "Flex 3", "Flex 3", "Flex 3", "Flex 3", "Flex 3", "Flex 3", "Flex 3"]},
             {  "tagName": "langversion",
-               "values": ["3.0", "3.0", "3.0", "3.0", "3.0", "3.0", "3.0"]}  ]},
+               "values": ["3.0", "3.0", "3.0", "3.0", "3.0", "3.0", "3.0", "3.0", "3.0", "3.0"]}  ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Boolean",
@@ -101,7 +101,23 @@
             {  "tagName": "productversion",
                "values": ["Royale 0.0"]},
             {  "tagName": "langversion",
-               "values": ["3.0"]}  ]}]
+               "values": ["3.0"]}  ]},
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "Boolean",
+        "qname": "dropShadowVisible",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}},
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "String",
+        "qname": "verticalScrollPolicy",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}}]
   ,
   "events": [
   { "qname": "change",
@@ -116,5 +132,19 @@
             {  "tagName": "productversion",
                "values": ["Flex 3"]},
             {  "tagName": "langversion",
+               "values": ["3.0"]}  ]},
+      { "qname": "editorComplete",
+        "type": "org.apache.royale.events.Event"
+      ,
+          "description": "Dispatched when the editor is completely initialized. In JS, the editor may not initialize until after creationComplete and even applicationComplete events.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 3"]},
+            {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
   }
+
+
+

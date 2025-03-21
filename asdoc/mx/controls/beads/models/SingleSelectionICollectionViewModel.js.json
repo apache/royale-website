@@ -28,6 +28,13 @@
           "return": "",
           "params": []}
       ,
+      { "type": "field",
+        "qname": "_strand",
+        "return": "org.apache.royale.core.IStrand",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}},
       { "type": "accessor",
         "access": "write-only",
         "return": "org.apache.royale.core.IStrand",

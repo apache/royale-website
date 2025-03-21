@@ -1,0 +1,17 @@
+{ "type": "method",
+  "qname": "org.apache.royale.functional.decorator.delayFunction",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "Returns a function which when run will invoke the wrapped function after a delay. Defaults to 0 which will execute at the next opportune time. In JS this uses requestAnimationFrame",
+  "tags": [
+  {  "tagName": "productversion",
+         "values": ["Royale 0.9.9"]},
+      {  "tagName": "royalesuppressexport",
+         "values": []},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+    "return": "Function",
+    "params": [{ "name": "method", "type": "Function"},
+  { "name": "delay", "type": "Number"}]}

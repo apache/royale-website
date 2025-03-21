@@ -73,5 +73,17 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}}]
+        "deprecated": {}},
+      { "type": "accessor",
+        "access": "write-only",
+        "return": "mx.graphics.IStroke",
+        "qname": "borderStroke",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "private",
+               "values": []}  ]}]
   }

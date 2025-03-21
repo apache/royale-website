@@ -1,0 +1,32 @@
+{ "type": "class",
+  "qname": "org.apache.royale.net.beads.AMFClassAliasBead",
+  "baseClassname": "org.apache.royale.reflection.beads.ClassAliasBead"
+  ,
+    "description": "The AMFClassAliasBead class is an extension of the reflection ClassAliasBead and is useful where aliasing is for AMF serialization/deserialization support. It offers a simple option to reduce logging noise in JSRoyale debug builds by setting verboseLogging to false (it is true by default for debug builds). AMF Verbose logging is never present in JSRoyale release builds.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.9"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "accessor",
+        "access": "read-write",
+        "return": "Boolean",
+        "qname": "verboseLogging",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Whether or not AMF Verbose logging should be enabled in JSRoyale debug builds. AMF Verbose logging is never present in JSRoyale release builds.",
+        "tags": [
+        {  "tagName": "default",
+               "values": ["true"]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.9"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  }

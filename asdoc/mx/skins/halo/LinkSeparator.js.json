@@ -1,0 +1,31 @@
+{ "type": "class",
+  "qname": "mx.skins.halo.LinkSeparator",
+  "baseClassname": "mx.skins.ProgrammaticSkin"
+  ,
+    "description": "The skin for the separator between the Links in a LinkBar.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "mx.skins.halo.LinkSeparator",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Flex 3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ]
+  }

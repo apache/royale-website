@@ -1,0 +1,14 @@
+{ "type": "method",
+  "qname": "org.apache.royale.utils.async.taskToPromise",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "Utility function which takes a IAsyncTask and returns a Promise which resolves when the task completes or rejects if the task fails.  Useful for converting IAsyncTask to Promise based APIs.",
+  "tags": [
+  {  "tagName": "productversion",
+         "values": ["Royale 0.9.10"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+    "return": "Promise",
+    "params": [{ "name": "task", "type": "org.apache.royale.utils.async.IAsyncTask"}]}

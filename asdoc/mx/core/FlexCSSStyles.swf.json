@@ -26,5 +26,12 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
+        "deprecated": {}},
+      { "type": "field",
+        "qname": "skinClass",
+        "return": "*",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
         "deprecated": {}}]
   }

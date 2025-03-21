@@ -1,0 +1,44 @@
+{ "type": "class",
+  "qname": "spark.components.beads.TabBarItemRendererInitializer",
+  "baseClassname": "org.apache.royale.html.beads.HorizontalListItemRendererInitializer"
+  ,
+    "description": "The TabBarItemRendererInitializer class initializes item renderers in TabBar tab labels.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.8"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "spark.components.beads.TabBarItemRendererInitializer",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.8"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "method",
+        "qname": "setupVisualsForItemRenderer",
+        "namespace": "protected",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.UIBase"]}  ],
+          "return": "void",
+          "params": [{ "name": "ir", "type": "org.apache.royale.core.IIndexedItemRenderer"}]}
+      ]
+  }

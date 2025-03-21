@@ -1,0 +1,18 @@
+{ "type": "method",
+  "qname": "org.apache.royale.reflection.getAncestry",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "A utility function to return ancestry (base classes) as a set of qualified names.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.9"]},
+      {  "tagName": "royaleignorecoercion",
+         "values": ["Class"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+    "return": "Array",
+    "params": [{ "name": "value", "type": "Object"}]}

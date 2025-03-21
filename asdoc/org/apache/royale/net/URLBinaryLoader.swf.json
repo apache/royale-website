@@ -145,5 +145,22 @@
                "values": ["3.0"]}  ],
           "return": "void",
           "params": []}
+      ,
+      { "type": "method",
+        "qname": "getResponseHeader",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Returns the string value of a specific response header. The header name is case-insensitive.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.11"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "String",
+          "params": [{ "name": "name", "type": "String"}]}
       ]
   }

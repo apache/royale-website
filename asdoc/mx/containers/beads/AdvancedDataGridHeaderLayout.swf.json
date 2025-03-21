@@ -58,6 +58,12 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.IStrandWithModel", "org.apache.royale.html.beads.models.ButtonBarModel"]},
+            {  "tagName": "royaleemitcoercion",
+               "values": ["org.apache.royale.core.ILayoutChild"]}  ],
           "return": "Boolean",
           "params": []}
       ]

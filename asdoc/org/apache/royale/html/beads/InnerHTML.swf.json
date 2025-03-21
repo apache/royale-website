@@ -2,7 +2,7 @@
   "qname": "org.apache.royale.html.beads.InnerHTML",
   "baseClassname": ""
   ,
-    "description": "The InnerText bead class adds innetHTML text to a html tag.",
+    "description": "The InnerText bead class adds innerHTML text to a html tag.",
   "tags": [
   {  "tagName": "playerversion",
          "values": ["Flash 10.2", "AIR 2.6"]},

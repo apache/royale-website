@@ -1,0 +1,12 @@
+{ "type": "method",
+  "qname": "org.apache.royale.debugging.alreadyRecorded",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "If this method has been called with forObject previously, this method returns true, otherwise if this is the first time, it returns false",
+    "return": "Boolean",
+    "params": [{ "name": "forObject", "type": "Object"}]}
+
+
+

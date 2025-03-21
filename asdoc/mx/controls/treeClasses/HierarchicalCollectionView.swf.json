@@ -189,6 +189,16 @@
         "deprecated": {},
           "return": "void",
           "params": [{ "name": "node", "type": "Object"}]}
+      ,
+      { "type": "method",
+        "qname": "iCollectionViewGetItemAt",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "return": "Object",
+          "params": [{ "name": "coll", "type": "mx.collections.ICollectionView"},
+        { "name": "idx", "type": "uint"}]}
       ]
   }
 

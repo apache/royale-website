@@ -1,0 +1,16 @@
+{ "type": "method",
+  "qname": "org.apache.royale.reflection.getClosureQualifiedName",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "Returns the qualified name of a closure instance. Using this to compare against is recommended when checking for closures. It could insulate against future changes or future variation between targets",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+    "return": "String",
+    "params": []}

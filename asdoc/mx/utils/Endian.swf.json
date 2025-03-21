@@ -1,0 +1,28 @@
+{ "type": "class",
+  "qname": "mx.utils.Endian",
+  "baseClassname": ""
+  ,
+    "description": "The XMLUtil class is an all-static class with methods for working with XML within Flex. You do not create instances of XMLUtil; instead you simply call static methods such as the <code>XMLUtil.qnamesEqual()</code> method.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 9", "AIR 1.1"]},
+      {  "tagName": "productversion",
+         "values": ["Flex 3"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "field",
+        "qname": "BIG_ENDIAN",
+        "return": "String",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {}},
+      { "type": "field",
+        "qname": "LITTLE_ENDIAN",
+        "return": "String",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {}}]
+  }

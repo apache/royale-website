@@ -1,0 +1,47 @@
+{ "type": "class",
+  "qname": "org.apache.royale.jewel.beads.models.TabBarPresentationModel",
+  "baseClassname": "org.apache.royale.jewel.beads.models.ListPresentationModel"
+  ,
+    "description": "The TabBarPresentationModel holds values used by tabbar controls for presenting their user interfaces.",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 10.2", "AIR 2.6"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.9.8"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.jewel.beads.models.TabBarPresentationModel",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "constructor.",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.8"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ],
+          "return": "",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "Boolean",
+        "qname": "indicatorToOppositeSide",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "description": "Indicator is positioned by default at the bottom on horizontal tabbars, and to right on vertical tabbars. Setting this to &quot;true&quot;, make the indicator be positioned on top (horizontal tabbars), or left (vertical tabbars).",
+        "tags": [
+        {  "tagName": "playerversion",
+               "values": ["Flash 10.2", "AIR 2.6"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.8"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  }

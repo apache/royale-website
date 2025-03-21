@@ -4,7 +4,7 @@
   "bindable": [],
   "details": [],
   "deprecated": {},
-    "description": "The equivalent of flash.utils.getQualifiedSuperclassName.",
+    "description": "The equivalent of flash.utils.getQualifiedSuperclassName, except that qualified names do not include '::' between the package naming sequence and the definition name. The '.' is always used to separate parts of the qualified name. An example would be &quot;my.package.path.MyClassName&quot;",
   "tags": [
   {  "tagName": "playerversion",
          "values": ["Flash 10.2", "AIR 2.6"]},

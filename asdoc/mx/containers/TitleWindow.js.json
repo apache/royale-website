@@ -42,10 +42,29 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "",
+          "description": "Whether to display a Close button in the TitleWindow container. The default value is <code>false</code>. Set it to <code>true</code> to display the Close button. Selecting the Close button generates a <code>close</code> event, but does not close the TitleWindow container. You must write a handler for the <code>close</code> event and close the TitleWindow from within it.",
         "tags": [
-        {  "tagName": "private",
-               "values": []}  ]}]
+        {  "tagName": "default",
+               "values": ["false"]},
+            {  "tagName": "helpid",
+               "values": ["3986"]},
+            {  "tagName": "tiptext",
+               "values": ["If true, the close button is displayed"]},
+            {  "tagName": "playerversion",
+               "values": ["Flash 9", "AIR 1.1"]},
+            {  "tagName": "productversion",
+               "values": ["Royale 0.9.3"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]},
+      { "type": "method",
+        "qname": "addedToParent",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {},
+          "return": "void",
+          "params": []}
+      ]
   ,
   "events": [
   { "qname": "close",

@@ -9,12 +9,6 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "",
-        "tags": [
-        {  "tagName": "royaleignorecoercion",
-               "values": ["Namespace", "String"]},
-            {  "tagName": "royalenoimplicitstringconversion",
-               "values": []}  ],
           "return": "",
           "params": [{ "name": "prefixValue", "type": "*"},
         { "name": "uriValue", "type": "*"}]}
@@ -42,13 +36,7 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {},
-          "description": "Non-spec (specifically: non swf spec, is however consistent with ECMA-357). Used for internal performance reasons only (faster than Language.is checks)",
-        "tags": [
-        {  "tagName": "private",
-               "values": []},
-            {  "tagName": "royalesuppressexport",
-               "values": []}  ]},
+        "deprecated": {}},
       { "type": "method",
         "qname": "toString",
         "namespace": "public",

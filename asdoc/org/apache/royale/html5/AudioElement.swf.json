@@ -1,0 +1,23 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html5.AudioElement",
+  "baseClassname": "org.apache.royale.html5.MediaElement"
+  ,
+    "description": "The AudioElement class provides access to the properties of audio elements, as well as methods to manipulate them.  Some of the more commonly used properties of the audio element include src, currentTime, duration, paused, muted, and volume",
+  "tags": [
+  {  "tagName": "playerversion",
+         "values": ["Flash 0.0", "AIR 0.0"]},
+      {  "tagName": "productversion",
+         "values": ["Royale 0.0"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+  "members": [
+  { "type": "method",
+        "qname": "org.apache.royale.html5.AudioElement",
+        "namespace": "",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "",
+          "params": []}
+      ]
+  }

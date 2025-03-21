@@ -1,0 +1,18 @@
+{ "type": "method",
+  "qname": "org.apache.royale.utils.number.clamp",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "Returns the value constrained to the range defined by the minimum and maximum values.   <pre>\\n var value:Number = 5;\\n var min:Number = 0;\\n var max:Number = 10;\\n trace(clamp(value, min, max)); // 5\\n value = -5;\\n trace(clamp(value, min, max)); // 0\\n value = 15;\\n trace(clamp(value, min, max)); // 10\\n </pre>",
+  "tags": [
+  {  "tagName": "param",
+         "values": ["value The number to constrain.", "min The minimum value.", "max The maximum value."]},
+      {  "tagName": "return",
+         "values": ["The value constrained to the range defined by the minimum and maximum values."]},
+      {  "tagName": "example",
+         "values": []}  ],
+    "return": "Number",
+    "params": [{ "name": "value", "type": "Number"},
+  { "name": "min", "type": "Number"},
+  { "name": "max", "type": "Number"}]}

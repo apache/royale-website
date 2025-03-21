@@ -1,0 +1,42 @@
+{ "type": "class",
+  "qname": "org.apache.royale.html.beads.HandleImageLoadErrors",
+  "baseClassname": "org.apache.royale.core.DispatcherBead"
+  ,
+    "description": "Catches errors in loaded images anywhere in the hierarchy below the strand. Caught error can have global handling. Dispatches a ValueEvent which contains the caught event as its value.",
+  "members": [
+  { "type": "field",
+        "qname": "ERROR",
+        "return": "String",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {}},
+      { "type": "accessor",
+        "access": "write-only",
+        "return": "org.apache.royale.core.IStrand",
+        "qname": "strand",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["override"],
+        "deprecated": {}},
+      { "type": "method",
+        "qname": "handleError",
+        "namespace": "protected",
+        "bindable": [],
+        "details": [],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "ev", "type": "org.apache.royale.events.Event"}]}
+      ]
+  ,
+  "events": [
+  { "qname": "error",
+        "type": "org.apache.royale.events.ValueEvent"
+      ,
+          "description": "Dispatched when an image fails to load. The ValueEvent contains the caught error event https://developer.mozilla.org/en-US/docs/Web/API/Element/error_event",
+        "tags": [
+        {  "tagName": "productversion",
+               "values": ["Royale 0.9.9"]},
+            {  "tagName": "langversion",
+               "values": ["3.0"]}  ]}]
+  }

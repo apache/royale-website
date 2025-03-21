@@ -1,0 +1,14 @@
+{ "type": "method",
+  "qname": "org.apache.royale.utils.async.promiseToTask",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "Utility function which takes a Promise and returns a PromiseTask The task completes when the Promise resolves and fails when the Promise rejects.  Useful for using Promises in task based code.",
+  "tags": [
+  {  "tagName": "productversion",
+         "values": ["Royale 0.9.10"]},
+      {  "tagName": "langversion",
+         "values": ["3.0"]}  ],
+    "return": "org.apache.royale.utils.async.PromiseTask",
+    "params": [{ "name": "promise", "type": "Promise"}]}

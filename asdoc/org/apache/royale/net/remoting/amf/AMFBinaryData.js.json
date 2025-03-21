@@ -13,7 +13,41 @@
       {  "tagName": "royalesuppresspublicvarwarning",
          "values": []}  ],
   "members": [
-  { "type": "accessor",
+  { "type": "field",
+        "qname": "verboseLogging",
+        "return": "Boolean",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "description": "For swf target this is not available, but for js (and possible other future targets) setting it to false will avoid verbose logging in debug builds, that may slow down execution if logging is excessive."},
+      { "type": "method",
+        "qname": "installAlternateContext",
+        "namespace": "internal",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "return": "void",
+          "params": [{ "name": "clazz", "type": "Class"}]}
+      ,
+      { "type": "method",
+        "qname": "hasAMF0Support",
+        "namespace": "internal",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {},
+          "return": "Boolean",
+          "params": []}
+      ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "uint",
+        "qname": "defaultObjectEncoding",
+        "namespace": "public",
+        "bindable": [],
+        "details": ["static"],
+        "deprecated": {}},
+      { "type": "accessor",
         "access": "read-write",
         "return": "org.apache.royale.utils.net.IDynamicPropertyWriter",
         "qname": "dynamicPropertyWriter",
@@ -31,6 +65,14 @@
           "return": "",
           "params": [{ "name": "bytes", "type": "Object"}]}
       ,
+      { "type": "accessor",
+        "access": "read-write",
+        "return": "uint",
+        "qname": "objectEncoding",
+        "namespace": "public",
+        "bindable": [],
+        "details": [],
+        "deprecated": {}},
       { "type": "method",
         "qname": "writeObject",
         "namespace": "public",
@@ -50,9 +92,6 @@
           "params": []}
       ]
   }
-
-
-
 
 
 

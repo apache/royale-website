@@ -27,7 +27,11 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+        {  "tagName": "royaleignorecoercion",
+               "values": ["org.apache.royale.core.IStrand"]}  ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Number",
