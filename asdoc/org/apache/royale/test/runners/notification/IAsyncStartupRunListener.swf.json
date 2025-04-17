@@ -5,6 +5,8 @@
 "org.apache.royale.events.IEventDispatcher"]
 ,
     "description": "A listener that requires extra time to startup.",
+  "tags": [
+    ],
   "members": [
   { "type": "accessor",
     "access": "read-only",
@@ -14,5 +16,7 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
-      "description": "Indicates if the listener is ready or not."}]
+      "description": "Indicates if the listener is ready or not.",
+    "tags": [
+      ]}]
   }

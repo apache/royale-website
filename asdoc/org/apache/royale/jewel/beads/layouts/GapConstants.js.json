@@ -3,6 +3,8 @@
   "baseClassname": ""
   ,
     "description": "Jewel GapConstants must to be synced with _layout.sass values",
+  "tags": [
+    ],
   "members": [
   { "type": "field",
         "qname": "GAPS",
@@ -26,4 +28,7 @@
         "tags": [
         {  "tagName": "see",
                "values": ["$gap-step variable in _layout.sass"]}  ]}]
+  ,
+  "events": [
+  ]
   }

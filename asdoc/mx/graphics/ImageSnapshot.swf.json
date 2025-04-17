@@ -37,4 +37,7 @@
         { "name": "clipRect", "type": "Object"},
         { "name": "smoothing", "type": "Boolean"}]}
       ]
+  ,
+  "events": [
+  ]
   }

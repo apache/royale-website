@@ -34,6 +34,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "w", "type": "Number"},
         { "name": "h", "type": "Number"}]}
@@ -56,4 +59,7 @@
                "values": ["Flex 3", "Flex 3"]},
             {  "tagName": "langversion",
                "values": ["3.0", "3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

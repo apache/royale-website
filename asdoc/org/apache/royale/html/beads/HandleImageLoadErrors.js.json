@@ -3,6 +3,8 @@
   "baseClassname": "org.apache.royale.core.DispatcherBead"
   ,
     "description": "Catches errors in loaded images anywhere in the hierarchy below the strand. Caught error can have global handling. Dispatches a ValueEvent which contains the caught event as its value.",
+  "tags": [
+    ],
   "members": [
   { "type": "field",
         "qname": "ERROR",
@@ -10,7 +12,10 @@
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "write-only",
         "return": "org.apache.royale.core.IStrand",
@@ -18,13 +23,19 @@
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "handleError",
         "namespace": "protected",
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "ev", "type": "org.apache.royale.events.Event"}]}
       ]

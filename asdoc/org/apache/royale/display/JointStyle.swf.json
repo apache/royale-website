@@ -14,7 +14,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Specifies beveled joints in the joints parameter of the Graphics.lineStyle() method."},
+          "description": "Specifies beveled joints in the joints parameter of the Graphics.lineStyle() method.",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "MITER",
         "return": "String",
@@ -22,7 +24,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Specifies mitered joints in the joints parameter of the Graphics.lineStyle() method."},
+          "description": "Specifies mitered joints in the joints parameter of the Graphics.lineStyle() method.",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "ROUND",
         "return": "String",
@@ -30,5 +34,10 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Specifies round joints in the joints parameter of the Graphics.lineStyle() method."}]
+          "description": "Specifies round joints in the joints parameter of the Graphics.lineStyle() method.",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

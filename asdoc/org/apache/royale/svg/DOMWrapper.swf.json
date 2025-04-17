@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.svg.DOMWrapper",
   "baseClassname": "org.apache.royale.core.ContainerBase"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.svg.DOMWrapper",
@@ -16,4 +19,7 @@
           "return": "",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

@@ -337,6 +337,9 @@
           "params": [{ "name": "instance", "type": "mx.core.UIComponent"},
         { "name": "cache", "type": "mx.charts.chartClasses.InstanceCache"}]}
       ]
+  ,
+  "events": [
+  ]
   }
 
 

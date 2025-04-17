@@ -3,6 +3,8 @@
   "baseClassname": "org.apache.royale.html.Label"
   ,
     "description": "This class extends the standard Label and allows MXML content (ie, XML or HTML) to be displayed.",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.express.MXMLViewer",
@@ -10,6 +12,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ,
@@ -42,4 +47,7 @@
           "return": "org.apache.royale.core.WrappedHTMLElement",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

@@ -4,6 +4,8 @@
 "org.apache.royale.core.IBead"]
 ,
     "description": "A Viewport is a window onto an area of content. A viewport is given space in which to operate by a View bead. Viewports can control their area which is specified by the IViewportModel, adding scrollbars or whatever scrolling mechanism they want.",
+  "tags": [
+    ],
   "members": [
   { "type": "accessor",
     "access": "read-only",

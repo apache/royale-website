@@ -65,4 +65,7 @@
           "return": "org.apache.royale.events.IRoyaleEvent",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

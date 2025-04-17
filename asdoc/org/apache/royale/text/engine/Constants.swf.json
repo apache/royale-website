@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.text.engine.Constants",
   "baseClassname": ""
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "field",
         "qname": "MAX_LINE_WIDTH",
@@ -9,5 +12,11 @@
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}}]
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

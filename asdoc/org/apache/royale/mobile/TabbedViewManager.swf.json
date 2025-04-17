@@ -64,5 +64,8 @@
   "events": [
   { "qname": "viewChanged",
         "type": "org.apache.royale.events.Event"
-      }]
+      ,
+          "description": "",
+        "tags": [
+          ]}]
   }

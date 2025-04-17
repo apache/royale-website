@@ -1,5 +1,11 @@
 { "type": "interface",
   "qname": "org.apache.royale.textLayout.compose.IComposer",
+"baseInterfaceNames": [
+]
+,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
     "qname": "releaseAnyReferences",
@@ -7,6 +13,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": []}
   ,
@@ -16,6 +25,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "int",
       "params": [{ "name": "textFlow", "type": "org.apache.royale.textLayout.elements.ITextFlow"},
     { "name": "composeToPosition", "type": "int"},
@@ -27,6 +39,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "Number",
       "params": [{ "name": "line", "type": "org.apache.royale.textLayout.compose.ITextFlowLine"},
     { "name": "textLine", "type": "org.apache.royale.text.engine.ITextLine"}]}
@@ -38,7 +53,10 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-only",
     "return": "org.apache.royale.textLayout.container.IContainerController",
@@ -46,7 +64,10 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-only",
     "return": "org.apache.royale.textLayout.compose.ISWFContext",
@@ -54,5 +75,8 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}}]
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]}]
   }

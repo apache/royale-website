@@ -69,4 +69,7 @@
           "params": [{ "name": "msg", "type": "mx.messaging.messages.IMessage"},
         { "name": "responder", "type": "mx.rpc.IResponder"}]}
       ]
+  ,
+  "events": [
+  ]
   }

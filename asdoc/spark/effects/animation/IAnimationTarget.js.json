@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "spark.effects.animation.IAnimationTarget",
+"baseInterfaceNames": [
+]
+,
     "description": "The IAnimationTarget interface is implemented by classes that support the events for an Animation instance.",
   "tags": [
   {  "tagName": "see",

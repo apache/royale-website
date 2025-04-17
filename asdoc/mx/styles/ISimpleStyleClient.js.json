@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "mx.styles.ISimpleStyleClient",
+"baseInterfaceNames": [
+]
+,
     "description": "This interface describes the properties and methods that an object must implement so that it can participate in the style subsystem. This interface is intended to be used by classes that obtain their style values from other objects rather than through locally set values and type selectors. This interface is implemented by ProgrammaticSkin.",
   "tags": [
   {  "tagName": "see",

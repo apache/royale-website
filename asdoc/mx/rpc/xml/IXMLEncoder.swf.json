@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "mx.rpc.xml.IXMLEncoder",
+"baseInterfaceNames": [
+]
+,
     "description": "Encodes an ActionScript object graph to XML based on an XML schema.",
   "tags": [
   {  "tagName": "playerversion",

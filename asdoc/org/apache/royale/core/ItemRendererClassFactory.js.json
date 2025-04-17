@@ -34,7 +34,10 @@
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "write-only",
         "return": "org.apache.royale.core.IStrand",
@@ -199,4 +202,7 @@
           "params": [{ "name": "document", "type": "Object"},
         { "name": "id", "type": "String"}]}
       ]
+  ,
+  "events": [
+  ]
   }

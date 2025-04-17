@@ -4,6 +4,8 @@
 "org.apache.royale.utils.IBinaryDataOutput"]
 ,
     "description": "initial work on replacement for flash.utils.IDataOutput",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
     "qname": "writeObject",
@@ -11,6 +13,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "object", "type": "*"}]}
   ]

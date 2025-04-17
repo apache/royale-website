@@ -5,6 +5,8 @@
   "details": [],
   "deprecated": {},
     "description": "Alias for org.apache.royale.test.Assert assertNotWithin method",
+  "tags": [
+    ],
     "return": "void",
     "params": [{ "name": "actual", "type": "Number"},
   { "name": "minimum", "type": "Number"},

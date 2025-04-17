@@ -3,6 +3,8 @@
   "baseClassname": "org.apache.royale.textLayout.formats.TextLayoutFormat"
   ,
     "description": "This class extends TextLayoutFormat and add capabilities to hold privateData and userStyles.  @private",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.textLayout.elements.FlowValueHolder",
@@ -10,6 +12,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "initialValues", "type": "org.apache.royale.textLayout.elements.FlowValueHolder"}]}
       ,
@@ -20,13 +25,19 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "getPrivateData",
         "namespace": "public",
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "*",
           "params": [{ "name": "styleProp", "type": "String"}]}
       ,
@@ -36,8 +47,14 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "styleProp", "type": "String"},
         { "name": "newValue", "type": "*"}]}
       ]
+  ,
+  "events": [
+  ]
   }

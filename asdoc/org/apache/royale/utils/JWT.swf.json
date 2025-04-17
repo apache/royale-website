@@ -3,6 +3,8 @@
   "baseClassname": ""
   ,
     "description": "JWT (JSON Web Token) is a compact URL-safe means of representing claims to be transferred between two parties. More information about JWT can be found at https://jwt.io/ This class is used to decode a JWT token. When decoding, the token is stored in three parts: header, data and signature. The header and data are stored as JSON objects. The signature is stored as a string.  TODO: This class is not complete. It only decodes the header and data. It does not verify the signature at all. It also does not support encoding. We need an HMAC class to create and verify the signature. Important reading when this is implemented: https://auth0.com/blog/critical-vulnerabilities-in-json-web-token-libraries/",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.utils.JWT",
@@ -10,6 +12,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ,
@@ -19,21 +24,30 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "header",
         "return": "Object",
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "signature",
         "return": "String",
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "decode",
         "namespace": "public",
@@ -51,4 +65,7 @@
           "return": "org.apache.royale.utils.JWT",
           "params": [{ "name": "token", "type": "String"}]}
       ]
+  ,
+  "events": [
+  ]
   }

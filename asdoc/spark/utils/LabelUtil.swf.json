@@ -34,4 +34,7 @@
         { "name": "labelField", "type": "String"},
         { "name": "labelFunction", "type": "Function"}]}
       ]
+  ,
+  "events": [
+  ]
   }

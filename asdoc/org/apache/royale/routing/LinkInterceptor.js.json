@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.routing.LinkInterceptor",
   "baseClassname": "org.apache.royale.core.Bead"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.routing.LinkInterceptor",
@@ -9,6 +12,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ,
@@ -19,7 +25,10 @@
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "requireHash",
         "return": "Boolean",
@@ -27,5 +36,10 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "If requireHash is true, any link that does not start with hash will be handled by a browser redirect"}]
+          "description": "If requireHash is true, any link that does not start with hash will be handled by a browser redirect",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

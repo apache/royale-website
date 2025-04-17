@@ -65,5 +65,10 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Whether to apply a clip mask if the positions and/or sizes of this container's children extend outside the borders of this container.  If false, the children of this container remain visible when they are moved or sized outside the borders of this container. If true, the children of this container are clipped.  If clipContent is false, then scrolling is disabled for this container and scrollbars will not appear. If clipContent is true, then scrollbars will usually appear when the container's children extend outside the border of the container. For additional control over the appearance of scrollbars, see horizontalScrollPolicy and verticalScrollPolicy.  The default value is true."}]
+          "description": "Whether to apply a clip mask if the positions and/or sizes of this container's children extend outside the borders of this container.  If false, the children of this container remain visible when they are moved or sized outside the borders of this container. If true, the children of this container are clipped.  If clipContent is false, then scrolling is disabled for this container and scrollbars will not appear. If clipContent is true, then scrollbars will usually appear when the container's children extend outside the border of the container. For additional control over the appearance of scrollbars, see horizontalScrollPolicy and verticalScrollPolicy.  The default value is true.",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

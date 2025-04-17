@@ -15,6 +15,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.edit.IMemento",
           "params": [{ "name": "textFlow", "type": "org.apache.royale.textLayout.elements.ITextFlow"},
         { "name": "elemToSplit", "type": "org.apache.royale.textLayout.elements.IFlowGroupElement"},
@@ -26,6 +29,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.edit.IMemento",
           "params": [{ "name": "textFlow", "type": "org.apache.royale.textLayout.elements.ITextFlow"},
         { "name": "element1", "type": "org.apache.royale.textLayout.elements.IFlowGroupElement"},
@@ -37,6 +43,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.edit.IMemento",
           "params": [{ "name": "textFlow", "type": "org.apache.royale.textLayout.elements.ITextFlow"},
         { "name": "elemToAdd", "type": "org.apache.royale.textLayout.elements.IFlowElement"},
@@ -49,6 +58,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.edit.IMemento",
           "params": [{ "name": "textFlow", "type": "org.apache.royale.textLayout.elements.ITextFlow"},
         { "name": "elemToMove", "type": "org.apache.royale.textLayout.elements.IFlowElement"},
@@ -61,6 +73,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.edit.IMemento",
           "params": [{ "name": "textFlow", "type": "org.apache.royale.textLayout.elements.ITextFlow"},
         { "name": "elemtToRemoveParent", "type": "org.apache.royale.textLayout.elements.IFlowGroupElement"},
@@ -73,6 +88,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.edit.IMemento",
           "params": [{ "name": "textFlow", "type": "org.apache.royale.textLayout.elements.ITextFlow"},
         { "name": "absoluteStart", "type": "int"},
@@ -85,9 +103,15 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.edit.IMemento",
           "params": [{ "name": "textFlow", "type": "org.apache.royale.textLayout.elements.ITextFlow"},
         { "name": "absoluteStart", "type": "int"},
         { "name": "absoluteEnd", "type": "int"}]}
       ]
+  ,
+  "events": [
+  ]
   }

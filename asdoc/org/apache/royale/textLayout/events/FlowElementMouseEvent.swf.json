@@ -154,4 +154,7 @@
         { "name": "flowElement", "type": "org.apache.royale.textLayout.elements.IFlowElement"},
         { "name": "originalEvent", "type": "org.apache.royale.events.MouseEvent"}]}
       ]
+  ,
+  "events": [
+  ]
   }

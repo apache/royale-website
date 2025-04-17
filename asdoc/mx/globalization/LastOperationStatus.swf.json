@@ -281,4 +281,7 @@
                "values": ["Royale 0.9.8"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

@@ -17,6 +17,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ,
@@ -204,8 +207,14 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "thisObject", "type": "org.apache.royale.core.IUIBase"},
         { "name": "styles", "type": "Object"}]}
       ]
+  ,
+  "events": [
+  ]
   }

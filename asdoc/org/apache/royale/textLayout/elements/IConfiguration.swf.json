@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "org.apache.royale.textLayout.elements.IConfiguration",
+"baseInterfaceNames": [
+]
+,
     "description": "Read-only interface to a configuration object.  Used by TextFlow to guarantee it has an unchangeable configuration once its constructed.",
   "tags": [
   {  "tagName": "playerversion",
@@ -348,6 +351,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "org.apache.royale.textLayout.elements.IConfiguration",
       "params": []}
   ]

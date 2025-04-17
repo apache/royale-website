@@ -1,4 +1,13 @@
 { "type": "class",
   "qname": "org.apache.royale.html5.DateField",
   "baseClassname": "org.apache.royale.html.DateField"
+  ,
+    "description": "",
+  "tags": [
+    ],
+  "members": [
+  ]
+  ,
+  "events": [
+  ]
   }

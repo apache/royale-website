@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.text.engine.Fonts",
   "baseClassname": ""
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "accessor",
         "access": "read-only",
@@ -10,14 +13,23 @@
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "registerLoader",
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "loader", "type": "org.apache.royale.text.engine.IFontLoader"}]}
       ]
+  ,
+  "events": [
+  ]
   }

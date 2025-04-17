@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.graphics.SolidColor",
   "baseClassname": ""
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.graphics.SolidColor",
@@ -72,4 +75,7 @@
           "return": "String",
           "params": [{ "name": "value", "type": "org.apache.royale.graphics.IGraphicShape"}]}
       ]
+  ,
+  "events": [
+  ]
   }

@@ -2,6 +2,9 @@
   "qname": "mx.display.NativeMenu",
   "baseClassname": "org.apache.royale.events.EventDispatcher"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "mx.display.NativeMenu",
@@ -9,6 +12,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ]

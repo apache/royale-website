@@ -31,4 +31,7 @@
                "values": ["org.apache.royale.core.ILayoutChild"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

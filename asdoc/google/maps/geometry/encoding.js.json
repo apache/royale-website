@@ -54,4 +54,7 @@
           "return": "Array",
           "params": [{ "name": "encodedPath", "type": "String"}]}
       ]
+  ,
+  "events": [
+  ]
   }

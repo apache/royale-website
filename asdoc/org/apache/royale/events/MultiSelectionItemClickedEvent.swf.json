@@ -70,7 +70,13 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.events.IRoyaleEvent",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

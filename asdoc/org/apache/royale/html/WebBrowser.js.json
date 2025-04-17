@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.html.WebBrowser",
   "baseClassname": "org.apache.royale.core.UIBase"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.html.WebBrowser",
@@ -51,4 +54,7 @@
                "values": ["org.apache.royale.html.beads.models.WebBrowserModel"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

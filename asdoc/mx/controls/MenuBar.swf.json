@@ -81,7 +81,7 @@
           "description": "The hierarchy of objects that are displayed as MenuBar items and menus. The top-level children all become MenuBar items, and their children become the items in the menus and submenus.  The MenuBar control handles the source data object as follows: <p> <ul> <li>A String containing valid XML text is converted to an XML object.</li> <li>An XMLNode is converted to an XML object.</li> <li>An XMLList is converted to an XMLListCollection.</li> <li>Any object that implements the ICollectionView interface is cast to an ICollectionView.</li> <li>An Array is converted to an ArrayCollection.</li> <li>Any other type object is wrapped in an Array with the object as its sole entry.</li> </ul> </p>",
         "tags": [
         {  "tagName": "default",
-               "values": [""undefined""]},
+               "values": ["\"undefined\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
@@ -117,7 +117,7 @@
           "description": "The name of the field in the data provider that determines the icon to display for each menu item. By default, the MenuBar does not try to display icons along with the text in a menu item. By specifying an icon field, you can define a graphic that is created and displayed as an icon for a menu item.  <p>The MenuItemRenderer examines the data provider for a property of the name defined by the <code>iconField</code> property.  If the value of the property is a Class, it instantiates that class and expects it to be an instance of IFlexDisplayObject. If the value of the property is a String, it looks to see if a Class exists with that name in the application, and if it cannot find one, it looks for a property on the document with that name and expects that property to map to a Class.</p>",
         "tags": [
         {  "tagName": "default",
-               "values": [""icon""]},
+               "values": ["\"icon\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
@@ -135,7 +135,7 @@
           "description": "The name of the field in the data provider that determines the text to display for each menu item. If the data provider is an Array of Strings, Flex uses each string value as the label. If the data provider is an E4X XML object, you must set this property explicitly. as the text to display for each menu item.  Setting the <code>labelFunction</code> property overrides this property.",
         "tags": [
         {  "tagName": "default",
-               "values": [""label""]},
+               "values": ["\"label\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "label",
@@ -242,6 +242,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.core.ILayoutHost",
           "params": []}
       ]

@@ -37,7 +37,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Boolean",
@@ -46,7 +49,9 @@
         "bindable": ["openPopUp","closePopUp"],
         "details": [],
         "deprecated": {},
-          "description": "true, open the popup. close, close the popup"},
+          "description": "true, open the popup. close, close the popup",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "org.apache.royale.core.UIBase",
@@ -55,15 +60,21 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "the content to be instantiated inside the popup. Instead of setup this property, it can be declared through CSS using IPopUP royale bead css selector."}]
+          "description": "the content to be instantiated inside the popup. Instead of setup this property, it can be declared through CSS using IPopUP royale bead css selector.",
+        "tags": [
+          ]}]
   ,
   "events": [
   { "qname": "openPopUp",
         "type": "org.apache.royale.events.Event"
       ,
-          "description": "The openPopUp event is dispatched when the we want to open the popup"},
+          "description": "The openPopUp event is dispatched when the we want to open the popup",
+        "tags": [
+          ]},
       { "qname": "closePopUp",
         "type": "org.apache.royale.events.Event"
       ,
-          "description": "The closePopUp event is dispatched when the we want to close the popup"}]
+          "description": "The closePopUp event is dispatched when the we want to close the popup",
+        "tags": [
+          ]}]
   }

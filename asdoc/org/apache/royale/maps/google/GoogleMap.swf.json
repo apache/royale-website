@@ -19,6 +19,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ,
@@ -29,7 +32,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "google.maps.Marker",
@@ -37,7 +43,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Array",
@@ -45,13 +54,19 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "loadMap",
         "namespace": "public",
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "centerLat", "type": "Number"},
         { "name": "centerLong", "type": "Number"},
@@ -63,6 +78,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "zoomLevel", "type": "Number"}]}
       ,
@@ -72,6 +90,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "address", "type": "String"}]}
       ,
@@ -81,6 +102,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "location", "type": "google.maps.LatLng"}]}
       ,
@@ -90,6 +114,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -99,6 +126,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "address", "type": "String"}]}
       ,
@@ -108,6 +138,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "google.maps.Marker",
           "params": [{ "name": "location", "type": "google.maps.LatLng"}]}
       ,
@@ -117,6 +150,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "placeName", "type": "String"}]}
       ,
@@ -126,6 +162,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ]
@@ -133,23 +172,44 @@
   "events": [
   { "qname": "ready",
         "type": "org.apache.royale.events.Event"
-      },
+      ,
+          "description": "",
+        "tags": [
+          ]},
       { "qname": "centered",
         "type": "org.apache.royale.events.Event"
-      },
+      ,
+          "description": "",
+        "tags": [
+          ]},
       { "qname": "boundsChanged",
         "type": "org.apache.royale.events.Event"
-      },
+      ,
+          "description": "",
+        "tags": [
+          ]},
       { "qname": "zoomChanged",
         "type": "org.apache.royale.events.Event"
-      },
+      ,
+          "description": "",
+        "tags": [
+          ]},
       { "qname": "dragEnd",
         "type": "org.apache.royale.events.Event"
-      },
+      ,
+          "description": "",
+        "tags": [
+          ]},
       { "qname": "searchResult",
         "type": "org.apache.royale.events.Event"
-      },
+      ,
+          "description": "",
+        "tags": [
+          ]},
       { "qname": "markerClicked",
         "type": "org.apache.royale.events.MouseEvent"
-      }]
+      ,
+          "description": "",
+        "tags": [
+          ]}]
   }

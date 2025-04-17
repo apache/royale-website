@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.text.events.IMEEvent",
   "baseClassname": "org.apache.royale.events.Event"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "field",
         "qname": "IME_COMPOSITION",
@@ -9,34 +12,49 @@
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "IME_START_COMPOSITION",
         "return": "String",
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "text",
         "return": "String",
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "imeClient",
         "return": "org.apache.royale.text.ime.IIMEClient",
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "org.apache.royale.text.events.IMEEvent",
         "namespace": "",
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "type", "type": "String"},
         { "name": "bubbles", "type": "Boolean"},
@@ -61,4 +79,7 @@
           "return": "org.apache.royale.events.IRoyaleEvent",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

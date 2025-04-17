@@ -35,7 +35,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "the internal instance of the badge"},
+          "description": "the internal instance of the badge",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "createBadge",
         "namespace": "protected",
@@ -43,6 +45,8 @@
         "details": [],
         "deprecated": {},
           "description": "used to create the badge ui element that will be a Label",
+        "tags": [
+          ],
           "return": "org.apache.royale.jewel.Label",
           "params": []}
       ,
@@ -144,4 +148,7 @@
                "values": ["Royale 0.9.6"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

@@ -144,6 +144,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ]
@@ -151,8 +154,14 @@
   "events": [
   { "qname": "effectEnd",
         "type": "mx.events.EffectEvent"
-      },
+      ,
+          "description": "",
+        "tags": [
+          ]},
       { "qname": "effectUpdate",
         "type": "mx.events.EffectEvent"
-      }]
+      ,
+          "description": "",
+        "tags": [
+          ]}]
   }

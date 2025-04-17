@@ -47,4 +47,7 @@
           "return": "Number",
           "params": [{ "name": "value", "type": "Object"}]}
       ]
+  ,
+  "events": [
+  ]
   }

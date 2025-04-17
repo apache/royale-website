@@ -17,6 +17,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "name", "type": "String"},
         { "name": "isStatic", "type": "Boolean"},
@@ -31,7 +34,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The type that defined this method This could be an ancestor class of the method's containing TypeDefinition"},
+          "description": "The type that defined this method This could be an ancestor class of the method's containing TypeDefinition",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Array",
@@ -40,7 +45,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The collection of parameters defined for this method each parameter is represented by a ParameterDefinition instance"},
+          "description": "The collection of parameters defined for this method each parameter is represented by a ParameterDefinition instance",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "org.apache.royale.reflection.TypeDefinition",
@@ -49,7 +56,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The return type for this method note: a return type may be &quot;*&quot; or &quot;void&quot;"},
+          "description": "The return type for this method note: a return type may be &quot;*&quot; or &quot;void&quot;",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "getMethod",
         "namespace": "public",
@@ -72,7 +81,12 @@
         "details": [],
         "deprecated": {},
           "description": "A string representation of this method definition",
+        "tags": [
+          ],
           "return": "String",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

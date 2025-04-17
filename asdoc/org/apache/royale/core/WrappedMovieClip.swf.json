@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.core.WrappedMovieClip",
   "baseClassname": "flash.display.MovieClip"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "accessor",
         "access": "read-write",
@@ -26,5 +29,11 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}}]
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

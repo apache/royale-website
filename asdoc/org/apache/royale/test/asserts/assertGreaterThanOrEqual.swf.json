@@ -5,6 +5,8 @@
   "details": [],
   "deprecated": {},
     "description": "Alias for org.apache.royale.test.Assert assertGreaterThanOrEqual method",
+  "tags": [
+    ],
     "return": "void",
     "params": [{ "name": "actual", "type": "Number"},
   { "name": "other", "type": "Number"},

@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.textLayout.edit.mementos.AddElementMemento",
   "baseClassname": "org.apache.royale.textLayout.edit.mementos.BaseMemento"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.textLayout.edit.mementos.AddElementMemento",
@@ -9,6 +12,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "textFlow", "type": "org.apache.royale.textLayout.elements.ITextFlow"},
         { "name": "elemToAdd", "type": "org.apache.royale.textLayout.elements.IFlowElement"},
@@ -58,4 +64,7 @@
           "return": "*",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

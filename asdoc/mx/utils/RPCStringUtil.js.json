@@ -99,4 +99,7 @@
           "params": [{ "name": "str", "type": "String"},
         { "name": "rest", "type": "Array"}]}
       ]
+  ,
+  "events": [
+  ]
   }

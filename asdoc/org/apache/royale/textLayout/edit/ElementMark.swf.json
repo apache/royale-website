@@ -3,6 +3,8 @@
   "baseClassname": ""
   ,
     "description": "@private - Marks an element by its position in the hierarchy.",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.textLayout.edit.ElementMark",
@@ -10,6 +12,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "elem", "type": "org.apache.royale.textLayout.elements.IFlowElement"},
         { "name": "relativeStartPosition", "type": "int"}]}
@@ -21,7 +26,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "findElement",
         "namespace": "public",
@@ -35,4 +43,7 @@
           "return": "org.apache.royale.textLayout.elements.IFlowElement",
           "params": [{ "name": "textFlow", "type": "org.apache.royale.textLayout.elements.ITextFlow"}]}
       ]
+  ,
+  "events": [
+  ]
   }

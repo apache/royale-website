@@ -38,7 +38,12 @@
         "details": [],
         "deprecated": {},
           "description": "Note:  It is probably a TLF bug that, if delayedUpdates is true, we have to call updateAllControllers before doing a format operation to guarantee the correct results.",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.elements.TextFlow",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

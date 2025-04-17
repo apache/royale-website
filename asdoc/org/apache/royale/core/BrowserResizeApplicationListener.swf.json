@@ -96,4 +96,7 @@
                "values": ["org.apache.royale.core.IInitialViewApplication"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

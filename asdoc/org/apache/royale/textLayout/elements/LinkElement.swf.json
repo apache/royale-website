@@ -33,7 +33,10 @@
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "uint",
@@ -42,7 +45,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
-          "description": "@private"},
+          "description": "@private",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "addEventListener",
         "namespace": "public",
@@ -127,7 +132,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
-          "description": "@private"},
+          "description": "@private",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "String",
@@ -136,7 +143,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
-          "description": "@private"},
+          "description": "@private",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "String",
@@ -205,7 +214,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
-          "description": "@private TODO: Possible optimization - replace this with prototype chaining??"}]
+          "description": "@private TODO: Possible optimization - replace this with prototype chaining??",
+        "tags": [
+          ]}]
   ,
   "events": [
   { "qname": "mouseDown",

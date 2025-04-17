@@ -62,4 +62,7 @@
           "params": [{ "name": "amount", "type": "Number"},
         { "name": "index", "type": "int"}]}
       ]
+  ,
+  "events": [
+  ]
   }

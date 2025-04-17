@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.express.HSlider",
   "baseClassname": "org.apache.royale.html.Slider"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.express.HSlider",
@@ -9,7 +12,13 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

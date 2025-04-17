@@ -24,7 +24,13 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "fastCompression", "type": "Boolean"}]}
       ]
+  ,
+  "events": [
+  ]
   }

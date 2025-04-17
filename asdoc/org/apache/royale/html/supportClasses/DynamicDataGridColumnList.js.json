@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.html.supportClasses.DynamicDataGridColumnList",
   "baseClassname": "org.apache.royale.html.supportClasses.DataGridColumnList"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.html.supportClasses.DynamicDataGridColumnList",
@@ -9,7 +12,13 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

@@ -3,6 +3,8 @@
   "baseClassname": ""
   ,
     "description": "Common composer base class",
+  "tags": [
+    ],
   "members": [
   { "type": "field",
         "qname": "_parcelList",
@@ -10,7 +12,10 @@
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "org.apache.royale.textLayout.compose.ParcelList",
@@ -19,7 +24,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "List of areas we're composing into, matches the container's bounding box"},
+          "description": "List of areas we're composing into, matches the container's bounding box",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_curElement",
         "return": "org.apache.royale.textLayout.elements.IFlowLeafElement",
@@ -27,7 +34,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Element of current location"},
+          "description": "Element of current location",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_curElementStart",
         "return": "int",
@@ -35,7 +44,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Absolute start position of _curElement"},
+          "description": "Absolute start position of _curElement",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_curElementOffset",
         "return": "int",
@@ -43,7 +54,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Offset from element start to current location"},
+          "description": "Offset from element start to current location",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_curParaElement",
         "return": "org.apache.royale.textLayout.elements.IParagraphElement",
@@ -51,14 +64,19 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "ParagraphElement that contains the current location"},
+          "description": "ParagraphElement that contains the current location",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_curParaFormat",
         "return": "org.apache.royale.textLayout.formats.ITextLayoutFormat",
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_curParaStart",
         "return": "int",
@@ -66,7 +84,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Absolute start position of _curParaElement"},
+          "description": "Absolute start position of _curParaElement",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_curLineStart",
         "return": "int",
@@ -74,7 +94,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Absolute start position of the current line"},
+          "description": "Absolute start position of the current line",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_lastLineLeadingModel",
         "return": "String",
@@ -82,7 +104,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "leading model for the last line's para"},
+          "description": "leading model for the last line's para",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_lastLineLeading",
         "return": "Number",
@@ -90,7 +114,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "leading factor calculated for the line composed last."},
+          "description": "leading factor calculated for the line composed last.",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_lastLineDescent",
         "return": "Number",
@@ -98,7 +124,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "effective descent of the last line. This is the distance between a line's Roman baseline and"},
+          "description": "effective descent of the last line. This is the distance between a line's Roman baseline and",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_paragraphSpaceCarried",
         "return": "Number",
@@ -106,7 +134,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Amount of spaceAfter added to the previous line (used in calculating effective paragraphSpaceBefore/paragraphSpaceAfter"},
+          "description": "Amount of spaceAfter added to the previous line (used in calculating effective paragraphSpaceBefore/paragraphSpaceAfter",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_verticalSpaceCarried",
         "return": "Number",
@@ -114,7 +144,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Amount of vertical space added to the previous element (used in calculating vertical space collapse) *"},
+          "description": "Amount of vertical space added to the previous element (used in calculating vertical space collapse) *",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_blockProgression",
         "return": "String",
@@ -122,7 +154,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "BlockProgression - vertical horizontal etc. @see text.formats.BlockProgression"},
+          "description": "BlockProgression - vertical horizontal etc. @see text.formats.BlockProgression",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_atColumnStart",
         "return": "Boolean",
@@ -130,7 +164,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Are we at the top of the column?"},
+          "description": "Are we at the top of the column?",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_textIndent",
         "return": "Number",
@@ -138,7 +174,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Current textIndent amount, 0 if line is not the first"},
+          "description": "Current textIndent amount, 0 if line is not the first",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_contentLogicalExtent",
         "return": "Number",
@@ -146,7 +184,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Maximum horizontal extension from left/right edge of the parcel.  Alignment width for the parcel when measuring."},
+          "description": "Maximum horizontal extension from left/right edge of the parcel.  Alignment width for the parcel when measuring.",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_contentCommittedExtent",
         "return": "Number",
@@ -154,7 +194,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Commited extent any lines needing additional alignment must update this number"},
+          "description": "Commited extent any lines needing additional alignment must update this number",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_contentCommittedHeight",
         "return": "Number",
@@ -162,7 +204,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Committed logical height from floats"},
+          "description": "Committed logical height from floats",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_workingContentLogicalExtent",
         "return": "Number",
@@ -170,35 +214,49 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Maximum horizontal extension for the current line from left/right edge of the parcel."},
+          "description": "Maximum horizontal extension for the current line from left/right edge of the parcel.",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_workingContentExtent",
         "return": "Number",
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_workingContentHeight",
         "return": "Number",
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_workingTotalDepth",
         "return": "Number",
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_workingParcelIndex",
         "return": "int",
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_workingParcelLogicalTop",
         "return": "Number",
@@ -206,7 +264,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "logical top of the parcel, for the line in progress"},
+          "description": "logical top of the parcel, for the line in progress",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_accumulatedMinimumStart",
         "return": "Number",
@@ -214,7 +274,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Minimum starting coord for parcel bounds"},
+          "description": "Minimum starting coord for parcel bounds",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_parcelLogicalTop",
         "return": "Number",
@@ -222,7 +284,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Minimum starting coord for parcel bounds"},
+          "description": "Minimum starting coord for parcel bounds",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_parcelLeft",
         "return": "Number",
@@ -230,7 +294,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Minimum left edge coordinate across all the parcels in a controller"},
+          "description": "Minimum left edge coordinate across all the parcels in a controller",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_parcelTop",
         "return": "Number",
@@ -238,7 +304,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Minimum top edge across all the parcels in a controller"},
+          "description": "Minimum top edge across all the parcels in a controller",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_parcelRight",
         "return": "Number",
@@ -246,7 +314,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Maximum right edge coordinate across all the parcels in a controller"},
+          "description": "Maximum right edge coordinate across all the parcels in a controller",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_parcelBottom",
         "return": "Number",
@@ -254,7 +324,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Maximum bottom edge coordinate across all the parcels in a controller"},
+          "description": "Maximum bottom edge coordinate across all the parcels in a controller",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_textFlow",
         "return": "org.apache.royale.textLayout.elements.ITextFlow",
@@ -262,7 +334,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "owning textFlow of current compose"},
+          "description": "owning textFlow of current compose",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_flowComposer",
         "return": "org.apache.royale.textLayout.compose.IFlowComposer",
@@ -270,7 +344,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "flowComposer of current compose"},
+          "description": "flowComposer of current compose",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_rootElement",
         "return": "org.apache.royale.textLayout.elements.IContainerFormattedElement",
@@ -278,7 +354,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "rootElement of current compose"},
+          "description": "rootElement of current compose",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_stopComposePos",
         "return": "int",
@@ -286,7 +364,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "position to stop composing at"},
+          "description": "position to stop composing at",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_startController",
         "return": "org.apache.royale.textLayout.container.IContainerController",
@@ -294,7 +374,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "First damaged controller to begin composing"},
+          "description": "First damaged controller to begin composing",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_startComposePosition",
         "return": "int",
@@ -302,7 +384,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Beginning composition position.  Note this gets cleared once its been passed"},
+          "description": "Beginning composition position.  Note this gets cleared once its been passed",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_controllerVisibleBoundsXTW",
         "return": "int",
@@ -310,84 +394,119 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Visible area of the current controller. Used to determine which lines are going to be in view."},
+          "description": "Visible area of the current controller. Used to determine which lines are going to be in view.",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_controllerVisibleBoundsYTW",
         "return": "int",
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_controllerVisibleBoundsWidthTW",
         "return": "int",
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_controllerVisibleBoundsHeightTW",
         "return": "int",
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_forceILGs",
         "return": "Boolean",
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_lastGoodStart",
         "return": "int",
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_linePass",
         "return": "int",
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_paragraphContainsVisibleLines",
         "return": "Boolean",
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_savedLineSlug",
         "return": "org.apache.royale.textLayout.compose.Slug",
         "namespace": "protected",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_lineSlug",
         "return": "org.apache.royale.textLayout.compose.Slug",
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_floatSlug",
         "return": "org.apache.royale.textLayout.compose.Slug",
         "namespace": "protected",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_pushInFloats",
         "return": "Array",
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_curParcel",
         "return": "org.apache.royale.textLayout.compose.Parcel",
@@ -395,7 +514,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Parcel we are composing - used for keeping track of when it changes b/c parcelList.parcel may have advanced"},
+          "description": "Parcel we are composing - used for keeping track of when it changes b/c parcelList.parcel may have advanced",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_curParcelStart",
         "return": "int",
@@ -403,7 +524,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Start position of _curParcel"},
+          "description": "Start position of _curParcel",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_curInteractiveObjects",
         "return": "org.apache.royale.utils.ObjectMap",
@@ -411,7 +534,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "For interactive objects"},
+          "description": "For interactive objects",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_measuring",
         "return": "Boolean",
@@ -419,34 +544,48 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Are we measuring"},
+          "description": "Are we measuring",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_curLine",
         "return": "org.apache.royale.textLayout.compose.ITextFlowLine",
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_previousLine",
         "return": "org.apache.royale.text.engine.ITextLine",
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_listItemElement",
         "return": "org.apache.royale.textLayout.elements.IListItemElement",
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "createParcelList",
         "namespace": "protected",
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.compose.ParcelList",
           "params": []}
       ,
@@ -456,6 +595,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "list", "type": "org.apache.royale.textLayout.compose.ParcelList"}]}
       ,
@@ -467,7 +609,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Starting controller for skipping ahead"},
+          "description": "Starting controller for skipping ahead",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "initializeForComposer",
         "namespace": "protected",
@@ -491,6 +635,8 @@
         "details": [],
         "deprecated": {},
           "description": "Called when we are finished composing a line, and it is committed. Handler for derived classes to override default behavior.",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "block", "type": "org.apache.royale.textLayout.compose.ITextFlowTableBlock"}]}
       ,
@@ -501,6 +647,8 @@
         "details": [],
         "deprecated": {},
           "description": "Compose the flow into the text container. Starts at the root element, and composes elements until either there are no more elements, or the text container is full. It will compose only the lines which are marked invalid, so that existing lines that are unchanged are not recomposed.",
+        "tags": [
+          ],
           "return": "int",
           "params": [{ "name": "textFlow", "type": "org.apache.royale.textLayout.elements.ITextFlow"},
         { "name": "composeToPosition", "type": "int"},
@@ -514,13 +662,18 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Release line creation data during this compose"},
+          "description": "Release line creation data during this compose",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "composeInternal",
         "namespace": "protected",
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "composeRoot", "type": "org.apache.royale.textLayout.elements.IFlowGroupElement"},
         { "name": "absStart", "type": "int"}]}
@@ -531,6 +684,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "int",
           "params": [{ "name": "paragraph", "type": "org.apache.royale.textLayout.elements.IParagraphElement"}]}
       ,
@@ -541,6 +697,8 @@
         "details": [],
         "deprecated": {},
           "description": "Compose the lines in the paragraph. Updates the _paragraphContainsVisibleLines flag if the paragraph contains at least one visible line. Returns true if composition should continue, false if all space is used and composition should stop.",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": []}
       ,
@@ -551,6 +709,8 @@
         "details": [],
         "deprecated": {},
           "description": "Called when we are about to compose a line. Handler for derived classes to override default behavior.",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -560,6 +720,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": [{ "name": "textLine", "type": "org.apache.royale.text.engine.ITextLine"}]}
       ,
@@ -570,6 +733,8 @@
         "details": [],
         "deprecated": {},
           "description": "Called when we are finished composing a line, and it is committed. Handler for derived classes to override default behavior.",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "textLine", "type": "org.apache.royale.text.engine.ITextLine"}]}
       ,
@@ -579,6 +744,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "textLine", "type": "org.apache.royale.text.engine.ITextLine"}]}
       ,
@@ -588,6 +756,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": [{ "name": "startPos", "type": "int"}]}
       ,
@@ -597,6 +768,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -606,6 +780,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": [{ "name": "textLine", "type": "org.apache.royale.text.engine.ITextLine"}]}
       ,
@@ -615,6 +792,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "textLine", "type": "org.apache.royale.text.engine.ITextLine"}]}
       ,
@@ -638,6 +818,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": [{ "name": "elem", "type": "org.apache.royale.textLayout.elements.IInlineGraphicElement"},
         { "name": "afterLine", "type": "Boolean"}]}
@@ -648,6 +831,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.text.engine.ITextLine",
           "params": []}
       ,
@@ -657,6 +843,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": [{ "name": "textLine", "type": "org.apache.royale.text.engine.ITextLine"},
         { "name": "isNewLine", "type": "Boolean"},
@@ -668,6 +857,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Number",
           "params": [{ "name": "curElement", "type": "org.apache.royale.textLayout.elements.IFlowLeafElement"},
         { "name": "curElementStart", "type": "int"},
@@ -679,6 +871,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "curTextLine", "type": "org.apache.royale.text.engine.ITextLine"},
         { "name": "numberLine", "type": "org.apache.royale.text.engine.ITextLine"}]}
@@ -689,6 +884,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "curLine", "type": "org.apache.royale.textLayout.compose.ITextFlowLine"}]}
       ,
@@ -698,6 +896,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "canVerticalAlign", "type": "Boolean"},
         { "name": "nextParcel", "type": "org.apache.royale.textLayout.compose.Parcel"}]}
@@ -708,6 +909,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "controller", "type": "org.apache.royale.textLayout.container.IContainerController"}]}
       ,
@@ -717,6 +921,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": [{ "name": "controller", "type": "org.apache.royale.textLayout.container.IContainerController"},
         { "name": "nextParcel", "type": "org.apache.royale.textLayout.compose.Parcel"}]}
@@ -728,6 +935,8 @@
         "details": [],
         "deprecated": {},
           "description": "apply vj and adjust the parcel bounds",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "controller", "type": "org.apache.royale.textLayout.container.IContainerController"},
         { "name": "vjType", "type": "String"},
@@ -743,6 +952,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "controller", "type": "org.apache.royale.textLayout.container.IContainerController"}]}
       ,
@@ -752,6 +964,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -762,6 +977,8 @@
         "details": [],
         "deprecated": {},
           "description": "Go to next container",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -785,13 +1002,19 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "pushInsideListItemMargins",
         "namespace": "protected",
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "numberLine", "type": "org.apache.royale.text.engine.ITextLine"}]}
       ,
@@ -801,9 +1024,15 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "numberLine", "type": "org.apache.royale.text.engine.ITextLine"}]}
       ]
+  ,
+  "events": [
+  ]
   }
 
 

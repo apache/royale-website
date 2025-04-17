@@ -11,7 +11,7 @@
       {  "tagName": "commentary",
          "values": ["In Royale, the List component requires a data provider source and a class to be used as an itemRenderer to display the data.", "In the Royale Express package, data binding is prepackaged into the List component. The Royale Express List also includes support for scrolling as well as drag-and-drop."]},
       {  "tagName": "example",
-         "values": ["&lt;js:List dataProvider=&quot;{employees}&quot; itemRenderer=&quot;local.EmployeeCard&quot; /&gt;"]}  ],
+         "values": ["&lt;js:List dataProvider=\\\"{employees}\\\" itemRenderer=\\\"local.EmployeeCard\\\" /&gt;"]}  ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.express.List",
@@ -19,6 +19,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ,
@@ -29,7 +32,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Boolean",
@@ -37,13 +43,19 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "addedToParent",
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -65,4 +77,7 @@
                "values": ["org.apache.royale.core.IDataProviderModel", "org.apache.royale.core.IDataProviderModel"]},
             {  "tagName": "langversion",
                "values": ["3.0", "3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

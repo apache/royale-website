@@ -85,14 +85,20 @@
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_position",
         "return": "int",
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Object",
@@ -133,6 +139,8 @@
         "details": [],
         "deprecated": {},
           "description": "create a string representation of the binary data",
+        "tags": [
+          ],
           "return": "String",
           "params": []}
       ,
@@ -203,6 +211,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "bytes", "type": "ArrayBuffer"},
         { "name": "offset", "type": "uint"},
@@ -387,6 +398,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "bytes", "type": "ArrayBuffer"},
         { "name": "offset", "type": "uint"},
@@ -417,13 +431,19 @@
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "getTypedArray",
         "namespace": "protected",
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Uint8Array",
           "params": []}
       ,
@@ -433,13 +453,19 @@
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "getDataView",
         "namespace": "protected",
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "DataView",
           "params": []}
       ,
@@ -581,7 +607,10 @@
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "int",
@@ -604,6 +633,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "newSize", "type": "uint"}]}
       ,
@@ -740,6 +772,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "uint",
           "params": [{ "name": "offset", "type": "uint"},
         { "name": "newBytes", "type": "Uint8Array"}]}
@@ -750,8 +785,14 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Uint8Array",
           "params": [{ "name": "str", "type": "String"},
         { "name": "prependLength", "type": "Boolean"}]}
       ]
+  ,
+  "events": [
+  ]
   }

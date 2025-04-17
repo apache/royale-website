@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.graphics.SolidColorStroke",
   "baseClassname": ""
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.graphics.SolidColorStroke",
@@ -9,6 +12,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "color", "type": "uint"},
         { "name": "weight", "type": "Number"},
@@ -161,6 +167,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "weight", "type": "Number"},
         { "name": "color", "type": "uint"},
@@ -169,4 +178,7 @@
         { "name": "joints", "type": "String"},
         { "name": "miterLimit", "type": "Number"}]}
       ]
+  ,
+  "events": [
+  ]
   }

@@ -38,7 +38,10 @@
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "org.apache.royale.textLayout.factory.ITLFFactory",
@@ -46,7 +49,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "int",
@@ -55,7 +61,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "@private - count of interactive objects"},
+          "description": "@private - count of interactive objects",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "int",
@@ -64,7 +72,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "@private - count of interactive objects"},
+          "description": "@private - count of interactive objects",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "org.apache.royale.textLayout.elements.IConfiguration",
@@ -184,7 +194,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
-          "description": "@private"},
+          "description": "@private",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "String",
@@ -193,7 +205,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
-          "description": "@private"},
+          "description": "@private",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Array",
@@ -324,7 +338,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "@private This API peeks at the background manager.  Use when removing data as things go out of view or are recomposed."},
+          "description": "@private This API peeks at the background manager.  Use when removing data as things go out of view or are recomposed.",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "org.apache.royale.textLayout.elements.IFormatResolver",
@@ -378,6 +394,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": []}
       ]

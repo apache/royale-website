@@ -17,6 +17,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ,
@@ -27,7 +30,10 @@
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "int",
@@ -36,7 +42,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The number of data items to be added in each frame. The default is 20.  Depending on the complexity of the item renderers, the number can be adjusted to optimize speed and responsiveness."},
+          "description": "The number of data items to be added in each frame. The default is 20.  Depending on the complexity of the item renderers, the number can be adjusted to optimize speed and responsiveness.",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "setData",
         "namespace": "public",
@@ -44,6 +52,8 @@
         "details": [],
         "deprecated": {},
           "description": "Sets the dataProvider to the data of specified array.",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "data", "type": "Array"}]}
       ,
@@ -54,6 +64,8 @@
         "details": [],
         "deprecated": {},
           "description": "Appends data to the end of the dataProvider.",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "data", "type": "Array"}]}
       ,
@@ -65,5 +77,10 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The number of items that are pending to be added to the dataProvider."}]
+          "description": "The number of items that are pending to be added to the dataProvider.",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

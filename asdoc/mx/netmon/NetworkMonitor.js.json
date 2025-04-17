@@ -257,4 +257,7 @@
           "params": [{ "name": "faultMessage", "type": "Object"},
         { "name": "actualFault", "type": "Object"}]}
       ]
+  ,
+  "events": [
+  ]
   }

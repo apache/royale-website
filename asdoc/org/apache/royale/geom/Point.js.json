@@ -19,6 +19,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "x", "type": "Number"},
         { "name": "y", "type": "Number"}]}
@@ -29,20 +32,29 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "y",
         "return": "Number",
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "interpolate",
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.geom.Point",
           "params": [{ "name": "pt1", "type": "org.apache.royale.geom.Point"},
         { "name": "pt2", "type": "org.apache.royale.geom.Point"},
@@ -54,6 +66,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Number",
           "params": [{ "name": "pt1", "type": "org.apache.royale.geom.Point"},
         { "name": "pt2", "type": "org.apache.royale.geom.Point"}]}
@@ -64,6 +79,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.geom.Point",
           "params": [{ "name": "len", "type": "Number"},
         { "name": "angle", "type": "Number"}]}
@@ -75,13 +93,19 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "clone",
         "namespace": "public",
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.geom.Point",
           "params": []}
       ,
@@ -91,6 +115,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "dx", "type": "Number"},
         { "name": "dy", "type": "Number"}]}
@@ -101,6 +128,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": [{ "name": "toCompare", "type": "org.apache.royale.geom.Point"}]}
       ,
@@ -110,6 +140,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.geom.Point",
           "params": [{ "name": "v", "type": "org.apache.royale.geom.Point"}]}
       ,
@@ -119,6 +152,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.geom.Point",
           "params": [{ "name": "v", "type": "org.apache.royale.geom.Point"}]}
       ,
@@ -128,6 +164,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "thickness", "type": "Number"}]}
       ,
@@ -137,6 +176,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "String",
           "params": []}
       ,
@@ -146,6 +188,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "sourcePoint", "type": "org.apache.royale.geom.Point"}]}
       ,
@@ -155,8 +200,14 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "xa", "type": "Number"},
         { "name": "ya", "type": "Number"}]}
       ]
+  ,
+  "events": [
+  ]
   }

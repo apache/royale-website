@@ -235,7 +235,10 @@
         "namespace": "mx_internal",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "mx.messaging.ChannelSet",

@@ -42,4 +42,7 @@
                "values": ["org.apache.royale.core.UIBase;", "org.apache.royale.core.IViewport;"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

@@ -46,4 +46,7 @@
                "values": ["org.apache.royale.core.IUIBase"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

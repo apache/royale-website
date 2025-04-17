@@ -33,7 +33,10 @@
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "String",
@@ -130,7 +133,12 @@
         "details": [],
         "deprecated": {},
           "description": "Returns the fontSize from this element's properties. We multiply by yScale because the important dimension of the font size is the vertical size.",
+        "tags": [
+          ],
           "return": "Number",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

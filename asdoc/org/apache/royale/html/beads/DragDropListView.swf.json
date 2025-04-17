@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.html.beads.DragDropListView",
   "baseClassname": "org.apache.royale.html.beads.ListView"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.html.beads.DragDropListView",
@@ -34,4 +37,7 @@
                "values": []},
             {  "tagName": "royaleignorecoercion",
                "values": ["org.apache.royale.core.IContainer"]}  ]}]
+  ,
+  "events": [
+  ]
   }

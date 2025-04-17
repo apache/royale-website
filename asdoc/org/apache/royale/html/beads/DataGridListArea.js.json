@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.html.beads.DataGridListArea",
   "baseClassname": "org.apache.royale.html.Container"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.html.beads.DataGridListArea",
@@ -9,7 +12,13 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

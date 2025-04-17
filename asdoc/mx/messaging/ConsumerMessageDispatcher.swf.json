@@ -92,4 +92,7 @@
           "return": "void",
           "params": [{ "name": "consumer", "type": "mx.messaging.AbstractConsumer"}]}
       ]
+  ,
+  "events": [
+  ]
   }

@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.textLayout.edit.mementos.InternalSplitFGEMemento",
   "baseClassname": "org.apache.royale.textLayout.edit.mementos.BaseMemento"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.textLayout.edit.mementos.InternalSplitFGEMemento",
@@ -9,6 +12,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "textFlow", "type": "org.apache.royale.textLayout.elements.ITextFlow"},
         { "name": "target", "type": "org.apache.royale.textLayout.edit.ElementMark"},
@@ -22,13 +28,19 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "perform",
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "*",
           "params": [{ "name": "textFlow", "type": "org.apache.royale.textLayout.elements.ITextFlow"},
         { "name": "elemToSplit", "type": "org.apache.royale.textLayout.elements.IFlowElement"},
@@ -68,7 +80,13 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "*",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

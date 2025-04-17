@@ -21,7 +21,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Indicates whether this player is in a container that offers an external interface. If the external interface is available, this property is true; otherwise, it is false."},
+          "description": "Indicates whether this player is in a container that offers an external interface. If the external interface is available, this property is true; otherwise, it is false.",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Boolean",
@@ -30,7 +32,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Indicates whether the external interface should attempt to pass ActionScript exceptions to the current browser and JavaScript exceptions to the player. When running as a SWF: default is false. You must explicitly set this property to true to catch JavaScript exceptions in ActionScript and to catch ActionScript exceptions in JavaScript. When running as HTML, this is always true and cannot be changed."},
+          "description": "Indicates whether the external interface should attempt to pass ActionScript exceptions to the current browser and JavaScript exceptions to the player. When running as a SWF: default is false. You must explicitly set this property to true to catch JavaScript exceptions in ActionScript and to catch ActionScript exceptions in JavaScript. When running as HTML, this is always true and cannot be changed.",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "String",
@@ -39,7 +43,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Returns the id attribute of the Flash Player object if running as a SWF, or of the HTML element that is used for hooking up callback objects if running in HTML (default then is <code>ExternalInterface</code>). Read-only in SWF mode; read-write in JS mode. This needs to be set prior to any calls to <code>addCallback</code>."},
+          "description": "Returns the id attribute of the Flash Player object if running as a SWF, or of the HTML element that is used for hooking up callback objects if running in HTML (default then is <code>ExternalInterface</code>). Read-only in SWF mode; read-write in JS mode. This needs to be set prior to any calls to <code>addCallback</code>.",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "addCallback",
         "namespace": "public",
@@ -70,4 +76,7 @@
           "params": [{ "name": "functionName", "type": "String"},
         { "name": "args", "type": "Array"}]}
       ]
+  ,
+  "events": [
+  ]
   }

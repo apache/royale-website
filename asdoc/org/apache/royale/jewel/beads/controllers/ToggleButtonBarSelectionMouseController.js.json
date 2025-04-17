@@ -55,7 +55,12 @@
         "details": ["override"],
         "deprecated": {},
           "description": "If `toggleOnClick` is active, unselecting the current button will make selectedIndex -1",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "event", "type": "org.apache.royale.events.ItemClickedEvent"}]}
       ]
+  ,
+  "events": [
+  ]
   }

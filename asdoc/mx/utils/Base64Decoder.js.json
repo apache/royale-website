@@ -53,6 +53,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "mx.utils.ByteArray",
           "params": []}
       ,
@@ -62,6 +65,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "mx.utils.ByteArray",
           "params": []}
       ,
@@ -101,4 +107,7 @@
           "return": "mx.utils.ByteArray",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

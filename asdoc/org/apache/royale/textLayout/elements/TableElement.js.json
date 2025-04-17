@@ -15,20 +15,29 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "y",
         "return": "Number",
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "org.apache.royale.textLayout.elements.TableElement",
         "namespace": "",
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ,
@@ -39,7 +48,10 @@
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Boolean",
@@ -48,7 +60,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
-          "description": "@private"},
+          "description": "@private",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "String",
@@ -57,7 +71,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
-          "description": "@private"},
+          "description": "@private",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "*",
@@ -82,7 +98,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Total number of rows in the table. If set to a value lower than the current number of rows the rows at the end of the table are removed. If the set to a value greater than the current number of rows additional rows are added to the table."},
+          "description": "Total number of rows in the table. If set to a value lower than the current number of rows the rows at the end of the table are removed. If the set to a value greater than the current number of rows additional rows are added to the table.",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "int",
@@ -91,7 +109,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Total number of columns in the table. If set to a value lower than the current number of columns the columns at the end of the table are removed. If the set to a value greater than the current number of columns additional columns are added to the table."},
+          "description": "Total number of columns in the table. If set to a value lower than the current number of columns the columns at the end of the table are removed. If the set to a value greater than the current number of columns additional columns are added to the table.",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "int",
@@ -100,7 +120,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Total number of cells"},
+          "description": "Total number of cells",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "org.apache.royale.textLayout.formats.ITextLayoutFormat",
@@ -109,7 +131,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Gets the row format for new rows."},
+          "description": "Gets the row format for new rows.",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "org.apache.royale.textLayout.formats.ITextLayoutFormat",
@@ -118,7 +142,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Gets the column format for new columns."},
+          "description": "Gets the column format for new columns.",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "addChild",
         "namespace": "public",
@@ -206,6 +232,8 @@
         "details": [],
         "deprecated": {},
           "description": "Returns the column at the index specified or null if the index is out of range.",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.elements.ITableColElement",
           "params": [{ "name": "columnIndex", "type": "int"}]}
       ,
@@ -216,6 +244,8 @@
         "details": [],
         "deprecated": {},
           "description": "Returns the row at the index specified or null if the index is out of range.",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.elements.ITableRowElement",
           "params": [{ "name": "rowIndex", "type": "int"}]}
       ,
@@ -226,6 +256,8 @@
         "details": [],
         "deprecated": {},
           "description": "Return the index of the row provided or -1 if the row is not found.",
+        "tags": [
+          ],
           "return": "int",
           "params": [{ "name": "row", "type": "org.apache.royale.textLayout.elements.ITableRowElement"}]}
       ,
@@ -236,6 +268,8 @@
         "details": [],
         "deprecated": {},
           "description": "Returns a vector of the cells for the row specified.",
+        "tags": [
+          ],
           "return": "Vector.<org.apache.royale.textLayout.elements.ITableCellElement>",
           "params": [{ "name": "row", "type": "org.apache.royale.textLayout.elements.ITableRowElement"}]}
       ,
@@ -246,6 +280,8 @@
         "details": [],
         "deprecated": {},
           "description": "Returns a vector of the cells for the row specified.",
+        "tags": [
+          ],
           "return": "Array",
           "params": [{ "name": "row", "type": "org.apache.royale.textLayout.elements.ITableRowElement"}]}
       ,
@@ -256,6 +292,8 @@
         "details": [],
         "deprecated": {},
           "description": "Returns a vector of the cells for the row at the specified index.",
+        "tags": [
+          ],
           "return": "Vector.<org.apache.royale.textLayout.elements.ITableCellElement>",
           "params": [{ "name": "index", "type": "int"}]}
       ,
@@ -266,6 +304,8 @@
         "details": [],
         "deprecated": {},
           "description": "Returns an array of the cells for the row specified.",
+        "tags": [
+          ],
           "return": "Array",
           "params": [{ "name": "index", "type": "int"}]}
       ,
@@ -276,6 +316,8 @@
         "details": [],
         "deprecated": {},
           "description": "Returns a Vector of the TableCellElements for the column specified.",
+        "tags": [
+          ],
           "return": "Vector.<org.apache.royale.textLayout.elements.ITableCellElement>",
           "params": [{ "name": "column", "type": "org.apache.royale.textLayout.elements.ITableColElement"}]}
       ,
@@ -286,6 +328,8 @@
         "details": [],
         "deprecated": {},
           "description": "Returns a Vector of the TableCellElements for the column at the specified index.",
+        "tags": [
+          ],
           "return": "Vector.<org.apache.royale.textLayout.elements.ITableCellElement>",
           "params": [{ "name": "index", "type": "int"}]}
       ,
@@ -352,6 +396,8 @@
         "details": [],
         "deprecated": {},
           "description": "Inserts a row at the index specified. If the row is not provided it creates a new row containing the cells supplied or creates the cells based on the number of columns in the table.",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": [{ "name": "idx", "type": "int"},
         { "name": "row", "type": "org.apache.royale.textLayout.elements.ITableRowElement"},
@@ -364,6 +410,8 @@
         "details": [],
         "deprecated": {},
           "description": "Removes the row",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.elements.ITableRowElement",
           "params": [{ "name": "row", "type": "org.apache.royale.textLayout.elements.ITableRowElement"}]}
       ,
@@ -374,6 +422,8 @@
         "details": [],
         "deprecated": {},
           "description": "Removes the row and the cells it contains.",
+        "tags": [
+          ],
           "return": "Array",
           "params": [{ "name": "row", "type": "org.apache.royale.textLayout.elements.ITableRowElement"}]}
       ,
@@ -410,6 +460,8 @@
         "details": [],
         "deprecated": {},
           "description": "Removes all the rows and the cells.",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -433,6 +485,8 @@
         "details": [],
         "deprecated": {},
           "description": "Removes the column",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.elements.ITableColElement",
           "params": [{ "name": "column", "type": "org.apache.royale.textLayout.elements.ITableColElement"}]}
       ,
@@ -443,6 +497,8 @@
         "details": [],
         "deprecated": {},
           "description": "Removes the column and the cells it contains.",
+        "tags": [
+          ],
           "return": "Array",
           "params": [{ "name": "column", "type": "org.apache.royale.textLayout.elements.ITableColElement"}]}
       ,
@@ -453,6 +509,8 @@
         "details": [],
         "deprecated": {},
           "description": "Removes the column at the index specified",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.elements.ITableColElement",
           "params": [{ "name": "idx", "type": "int"}]}
       ,
@@ -504,6 +562,8 @@
         "details": [],
         "deprecated": {},
           "description": "Set the width of the specified column. The value can be a number or percent.",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": [{ "name": "columnIndex", "type": "int"},
         { "name": "value", "type": "*"}]}
@@ -515,6 +575,8 @@
         "details": [],
         "deprecated": {},
           "description": "Set the height of the specified row. The value can be a number or percent.",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": [{ "name": "rowIdx", "type": "int"},
         { "name": "value", "type": "*"}]}
@@ -526,6 +588,8 @@
         "details": [],
         "deprecated": {},
           "description": "Get the width of the column.",
+        "tags": [
+          ],
           "return": "*",
           "params": [{ "name": "columnIndex", "type": "int"}]}
       ,
@@ -549,6 +613,8 @@
         "details": [],
         "deprecated": {},
           "description": "returns the header rows for composition",
+        "tags": [
+          ],
           "return": "Vector.<Vector.<org.apache.royale.textLayout.elements.ITableCellElement>>",
           "params": []}
       ,
@@ -559,6 +625,8 @@
         "details": [],
         "deprecated": {},
           "description": "returns the footer rows for composition",
+        "tags": [
+          ],
           "return": "Vector.<Vector.<org.apache.royale.textLayout.elements.ITableCellElement>>",
           "params": []}
       ,
@@ -569,6 +637,8 @@
         "details": [],
         "deprecated": {},
           "description": "returns the body rows (sans header and footer cells) for composition",
+        "tags": [
+          ],
           "return": "Vector.<Vector.<org.apache.royale.textLayout.elements.ITableCellElement>>",
           "params": []}
       ,
@@ -579,6 +649,8 @@
         "details": [],
         "deprecated": {},
           "description": "returns a vector of table cells in the next row during composition",
+        "tags": [
+          ],
           "return": "Vector.<org.apache.royale.textLayout.elements.ITableCellElement>",
           "params": []}
       ,
@@ -589,6 +661,8 @@
         "details": [],
         "deprecated": {},
           "description": "Returns the next table cell after the supplied table cell",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.elements.ITableCellElement",
           "params": [{ "name": "tableCell", "type": "org.apache.royale.textLayout.elements.ITableCellElement"}]}
       ,
@@ -626,6 +700,8 @@
         "details": [],
         "deprecated": {},
           "description": "Computed height of the header cells",
+        "tags": [
+          ],
           "return": "Number",
           "params": []}
       ,
@@ -636,6 +712,8 @@
         "details": [],
         "deprecated": {},
           "description": "Computed height of the footer cells",
+        "tags": [
+          ],
           "return": "Number",
           "params": []}
       ,
@@ -646,6 +724,8 @@
         "details": [],
         "deprecated": {},
           "description": "Accepts a suggested table width and calculates the column widths.",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "suggestedWidth", "type": "Number"}]}
       ,
@@ -683,7 +763,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Returns the table width"},
+          "description": "Returns the table width",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Boolean",
@@ -692,7 +774,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Indicates elements in the table have been modified and the table must be recomposed."},
+          "description": "Indicates elements in the table have been modified and the table must be recomposed.",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "uint",
@@ -701,7 +785,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Returns the number of header rows in the table"},
+          "description": "Returns the number of header rows in the table",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "uint",
@@ -710,7 +796,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Returns the number of footer rows in the table"},
+          "description": "Returns the number of footer rows in the table",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "getFirstBlock",
         "namespace": "public",
@@ -718,6 +806,8 @@
         "details": [],
         "deprecated": {},
           "description": "Gets the first TextFlowTableBlock in the table.",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.compose.ITextFlowTableBlock",
           "params": []}
       ,
@@ -728,6 +818,8 @@
         "details": [],
         "deprecated": {},
           "description": "Gets the next TextFlowTableBlock.",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.compose.ITextFlowTableBlock",
           "params": []}
       ,
@@ -749,6 +841,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "String",
           "params": [{ "name": "relativeStart", "type": "int"},
         { "name": "relativeEnd", "type": "int"},
@@ -761,6 +856,8 @@
         "details": [],
         "deprecated": {},
           "description": "Returns a vector of table cell elements in the given cell range.",
+        "tags": [
+          ],
           "return": "Vector.<org.apache.royale.textLayout.elements.ITableCellElement>",
           "params": [{ "name": "anchorCoords", "type": "org.apache.royale.textLayout.elements.CellCoordinates"},
         { "name": "activeCoords", "type": "org.apache.royale.textLayout.elements.CellCoordinates"},
@@ -773,6 +870,8 @@
         "details": [],
         "deprecated": {},
           "description": "Finds the cell at the specified cell coordinates or null if no cell is found.",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.elements.ITableCellElement",
           "params": [{ "name": "coords", "type": "org.apache.royale.textLayout.elements.CellCoordinates"}]}
       ,
@@ -783,6 +882,8 @@
         "details": [],
         "deprecated": {},
           "description": "Adds the table cell container to the table block specified.",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "cell", "type": "org.apache.royale.textLayout.elements.ITableCellElement"},
         { "name": "block", "type": "org.apache.royale.textLayout.compose.ITextFlowTableBlock"}]}
@@ -794,6 +895,8 @@
         "details": [],
         "deprecated": {},
           "description": "Returns the table block for the given table cell.",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.compose.ITextFlowTableBlock",
           "params": [{ "name": "cell", "type": "org.apache.royale.textLayout.elements.ITableCellElement"}]}
       ,
@@ -805,7 +908,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Returns a vector of the table blocks."},
+          "description": "Returns a vector of the table blocks.",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "getTableBlocksInRange",
         "namespace": "public",
@@ -813,6 +918,8 @@
         "details": [],
         "deprecated": {},
           "description": "Returns a vector of the table blocks in the specified cell range.",
+        "tags": [
+          ],
           "return": "Vector.<org.apache.royale.textLayout.compose.ITextFlowTableBlock>",
           "params": [{ "name": "start", "type": "org.apache.royale.textLayout.elements.CellCoordinates"},
         { "name": "end", "type": "org.apache.royale.textLayout.elements.CellCoordinates"}]}
@@ -823,6 +930,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.elements.IFlowLeafElement",
           "params": [{ "name": "relativePosition", "type": "int"}]}
       ,
@@ -832,6 +942,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.elements.IFlowLeafElement",
           "params": []}
       ,
@@ -841,6 +954,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.elements.IFlowLeafElement",
           "params": []}
       ,
@@ -850,6 +966,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -860,6 +979,8 @@
         "details": [],
         "deprecated": {},
           "description": "Creates and returns a default row",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.elements.ITableRowElement",
           "params": [{ "name": "index", "type": "int"},
         { "name": "defaultRowFormat", "type": "org.apache.royale.textLayout.formats.ITextLayoutFormat"}]}
@@ -871,6 +992,8 @@
         "details": [],
         "deprecated": {},
           "description": "Creates and returns a default column",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.elements.TableColElement",
           "params": [{ "name": "index", "type": "int"},
         { "name": "defaultColumnFormat", "type": "org.apache.royale.textLayout.formats.ITextLayoutFormat"}]}
@@ -881,10 +1004,16 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "normalizeStart", "type": "uint"},
         { "name": "normalizeEnd", "type": "uint"}]}
       ]
+  ,
+  "events": [
+  ]
   }
 
 

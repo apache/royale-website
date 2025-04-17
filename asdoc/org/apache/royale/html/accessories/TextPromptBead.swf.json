@@ -64,4 +64,7 @@
                "values": ["HTMLInputElement", "org.apache.royale.core.UIBase;"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

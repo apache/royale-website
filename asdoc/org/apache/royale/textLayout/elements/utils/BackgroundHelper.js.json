@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.textLayout.elements.utils.BackgroundHelper",
   "baseClassname": ""
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "field",
         "qname": "BACKGROUND_MANAGER_CACHE",
@@ -9,5 +12,11 @@
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}}]
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

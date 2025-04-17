@@ -74,13 +74,19 @@
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "addedToParent",
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -146,7 +152,7 @@
           "description": "Specifies the layout mechanism used for this application. Applications can use <code>&quot;vertical&quot;</code>, <code>&quot;horizontal&quot;</code>, or <code>&quot;absolute&quot;</code> positioning. Vertical positioning lays out each child component vertically from the top of the application to the bottom in the specified order. Horizontal positioning lays out each child component horizontally from the left of the application to the right in the specified order. Absolute positioning does no automatic layout and requires you to explicitly define the location of each child component.",
         "tags": [
         {  "tagName": "default",
-               "values": [""vertical""]},
+               "values": ["\"vertical\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
@@ -175,6 +181,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -185,7 +194,10 @@
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Number",
@@ -254,7 +266,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": ""}]
+          "description": "",
+        "tags": [
+          ]}]
   ,
   "events": [
   { "qname": "applicationComplete",

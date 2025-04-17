@@ -3,6 +3,8 @@
   "baseClassname": "org.apache.royale.events.EventDispatcher"
   ,
     "description": "An emulation class to support the swf based Local SharedObject support. This implementation supports AMF encoded content (requires registerClassAlias before reading and writing to roundtrip instances of custom classes)",
+  "tags": [
+    ],
   "members": [
   { "type": "field",
         "qname": "_size",
@@ -10,7 +12,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "uint",
@@ -18,13 +23,19 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "getLocal",
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "mx.net.SharedObject",
           "params": [{ "name": "name", "type": "String"},
         { "name": "localPath", "type": "String"},
@@ -36,6 +47,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ,
@@ -62,6 +76,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -72,5 +89,11 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}}]
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

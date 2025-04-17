@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.net.Responder",
   "baseClassname": ""
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.net.Responder",
@@ -10,6 +13,8 @@
         "details": [],
         "deprecated": {},
           "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "onSuccess", "type": "Function"},
         { "name": "onFailure", "type": "Function"}]}
@@ -20,7 +25,13 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.net.Responder",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

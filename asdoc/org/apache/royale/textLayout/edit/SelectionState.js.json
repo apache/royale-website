@@ -74,7 +74,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "@private"},
+          "description": "@private",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "org.apache.royale.textLayout.elements.CellRange",
@@ -83,5 +85,10 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Range of table cells in selection (null if no cells selected)"}]
+          "description": "Range of table cells in selection (null if no cells selected)",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

@@ -139,7 +139,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "@private"},
+          "description": "@private",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "callbackWithTextLines",
         "namespace": "protected",
@@ -196,4 +198,7 @@
           "params": [{ "name": "truncateAtCharPosition", "type": "int"},
         { "name": "multiPara", "type": "Boolean"}]}
       ]
+  ,
+  "events": [
+  ]
   }

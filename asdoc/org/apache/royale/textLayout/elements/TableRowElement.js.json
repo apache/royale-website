@@ -15,55 +15,79 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "y",
         "return": "Number",
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "height",
         "return": "Number",
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "parcelIndex",
         "return": "int",
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "columnIndex",
         "return": "Number",
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "iMaxRowDepth",
         "return": "Number",
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "beyondParcel",
         "return": "Boolean",
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "org.apache.royale.textLayout.elements.TableRowElement",
         "namespace": "",
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "format", "type": "org.apache.royale.textLayout.formats.ITextLayoutFormat"}]}
       ,
@@ -74,7 +98,10 @@
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Boolean",
@@ -83,7 +110,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
-          "description": "@private"},
+          "description": "@private",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "String",
@@ -92,7 +121,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
-          "description": "@private"},
+          "description": "@private",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "getCells",
         "namespace": "public",
@@ -100,6 +131,8 @@
         "details": [],
         "deprecated": {},
           "description": "Returns a vector of table cell elements or null if the row contains no cells",
+        "tags": [
+          ],
           "return": "Vector.<org.apache.royale.textLayout.elements.ITableCellElement>",
           "params": []}
       ,
@@ -111,7 +144,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Get an array of cells or null if the row contains no cells"},
+          "description": "Get an array of cells or null if the row contains no cells",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "int",
@@ -120,7 +155,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Returns the number of cells in this row."},
+          "description": "Returns the number of cells in this row.",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "getCellAt",
         "namespace": "public",
@@ -128,6 +165,8 @@
         "details": [],
         "deprecated": {},
           "description": "Returns the cell at the specified index or null if out of range.",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.elements.ITableCellElement",
           "params": [{ "name": "index", "type": "int"}]}
       ,
@@ -138,6 +177,8 @@
         "details": [],
         "deprecated": {},
           "description": "Adds a table cell to the row",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.elements.ITableCellElement",
           "params": [{ "name": "cell", "type": "org.apache.royale.textLayout.elements.ITableCellElement"}]}
       ,
@@ -148,6 +189,8 @@
         "details": [],
         "deprecated": {},
           "description": "Adds a table cell to the row",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.elements.ITableCellElement",
           "params": [{ "name": "index", "type": "int"}]}
       ,
@@ -158,6 +201,8 @@
         "details": [],
         "deprecated": {},
           "description": "Get an estimate column count for this row. This is temporary. TODO loop through cells and check for column span.",
+        "tags": [
+          ],
           "return": "int",
           "params": []}
       ,
@@ -168,7 +213,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "int",
@@ -176,7 +224,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Boolean",
@@ -184,7 +235,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Number",
@@ -192,5 +246,11 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}}]
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

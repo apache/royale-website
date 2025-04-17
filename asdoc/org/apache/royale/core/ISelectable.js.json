@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "org.apache.royale.core.ISelectable",
+"baseInterfaceNames": [
+]
+,
     "description": "The ISelectable interface is a marker interface for indicating a class has a selected property.",
   "tags": [
   {  "tagName": "playerversion",

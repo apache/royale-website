@@ -35,7 +35,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The Snackbar component"},
+          "description": "The Snackbar component",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "write-only",
         "return": "org.apache.royale.core.IStrand",
@@ -61,6 +63,8 @@
         "details": [],
         "deprecated": {},
           "description": "Update the text when message changed.",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "event", "type": "org.apache.royale.events.Event"}]}
       ,
@@ -71,6 +75,8 @@
         "details": [],
         "deprecated": {},
           "description": "Show the action element or remove it, based on action text.",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "event", "type": "org.apache.royale.events.Event"}]}
       ,
@@ -81,7 +87,12 @@
         "details": [],
         "deprecated": {},
           "description": "Trigger event and dismiss the host when action clicked.",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "event", "type": "org.apache.royale.events.Event"}]}
       ]
+  ,
+  "events": [
+  ]
   }

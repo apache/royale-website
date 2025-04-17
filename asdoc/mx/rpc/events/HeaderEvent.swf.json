@@ -110,4 +110,7 @@
           "return": "String",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

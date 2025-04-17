@@ -26,7 +26,7 @@
           "description": "Error message for an invalid format string specified to the formatter. The localeChain property of the ResourceManager is used to resolve the default error message. If it is unable to find a value, it will return <code>null</code>. This can happen if none of the locales specified in the localeChain are compiled into the application.",
         "tags": [
         {  "tagName": "default",
-               "values": [""Invalid format""]},
+               "values": ["\"Invalid format\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
@@ -44,7 +44,7 @@
           "description": "Error messages for an invalid value specified to the formatter. The localeChain property of the ResourceManager is used to resolve the default error message. If it is unable to find a value, it will return <code>null</code>. This can happen if none of the locales specified in the localeChain are compiled into the application.",
         "tags": [
         {  "tagName": "default",
-               "values": [""Invalid value""]},
+               "values": ["\"Invalid value\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
@@ -106,4 +106,7 @@
           "return": "String",
           "params": [{ "name": "value", "type": "Object"}]}
       ]
+  ,
+  "events": [
+  ]
   }

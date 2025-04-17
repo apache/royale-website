@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "org.apache.royale.storage.IWebStorage",
+"baseInterfaceNames": [
+]
+,
     "description": "The IWebStorage interface provides a template for classes to use that wish to allow storage of small amounts of data into a web browser or perhaps on a mobile device.",
   "tags": [
   {  "tagName": "playerversion",

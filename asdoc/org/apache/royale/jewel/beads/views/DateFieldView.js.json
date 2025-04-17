@@ -54,7 +54,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "deprecated"},
+          "description": "deprecated",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "org.apache.royale.jewel.supportClasses.textinput.TextInputBase",
@@ -79,7 +81,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "deprecated"},
+          "description": "deprecated",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "getHost",
         "namespace": "protected",
@@ -117,14 +121,20 @@
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "DEFAULT_WIDTH",
         "return": "Number",
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "handleInitComplete",
         "namespace": "protected",
@@ -144,6 +154,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "event", "type": "org.apache.royale.events.Event"}]}
       ,
@@ -171,7 +184,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "deprecated"},
+          "description": "deprecated",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Boolean",
@@ -188,4 +203,7 @@
                "values": ["Royale 0.9.4"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

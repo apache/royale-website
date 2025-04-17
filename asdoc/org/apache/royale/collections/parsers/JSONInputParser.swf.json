@@ -30,4 +30,7 @@
           "return": "Array",
           "params": [{ "name": "s", "type": "String"}]}
       ]
+  ,
+  "events": [
+  ]
   }

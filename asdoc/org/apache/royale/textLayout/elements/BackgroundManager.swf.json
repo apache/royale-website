@@ -3,6 +3,8 @@
   "baseClassname": ""
   ,
     "description": "@private Manages bounds calculation and rendering of backgroundColor character format.",
+  "tags": [
+    ],
   "members": [
   { "type": "field",
         "qname": "BACKGROUND_MANAGER_CACHE",
@@ -10,55 +12,79 @@
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "TOP_EXCLUDED",
         "return": "String",
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "BOTTOM_EXCLUDED",
         "return": "String",
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "TOP_AND_BOTTOM_EXCLUDED",
         "return": "String",
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_lineDict",
         "return": "org.apache.royale.utils.ObjectMap",
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_blockElementDict",
         "return": "org.apache.royale.utils.ObjectMap",
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_rectArray",
         "return": "Array",
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "org.apache.royale.textLayout.elements.BackgroundManager",
         "namespace": "",
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ,
@@ -68,6 +94,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -77,6 +106,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "elem", "type": "org.apache.royale.textLayout.elements.IFlowElement"},
         { "name": "r", "type": "org.apache.royale.geom.Rectangle"},
@@ -89,6 +121,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "elem", "type": "org.apache.royale.textLayout.elements.IFlowElement"}]}
       ,
@@ -98,6 +133,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "tl", "type": "org.apache.royale.text.engine.ITextLine"},
         { "name": "fle", "type": "org.apache.royale.textLayout.elements.IFlowLeafElement"},
@@ -111,6 +149,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "tl", "type": "org.apache.royale.text.engine.ITextLine"},
         { "name": "numberLine", "type": "org.apache.royale.text.engine.ITextLine"}]}
@@ -121,6 +162,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "line", "type": "org.apache.royale.textLayout.compose.ITextFlowLine"}]}
       ,
@@ -130,6 +174,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "textFlow", "type": "org.apache.royale.textLayout.elements.ITextFlow"},
         { "name": "bgShape", "type": "org.apache.royale.graphics.IGraphicShape"},
@@ -142,6 +189,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "tl", "type": "org.apache.royale.text.engine.ITextLine"}]}
       ,
@@ -151,6 +201,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "controller", "type": "org.apache.royale.textLayout.container.IContainerController"}]}
       ,
@@ -160,7 +213,13 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Array",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

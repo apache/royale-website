@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.html.beads.controllers.ComboBoxController",
   "baseClassname": "org.apache.royale.core.Bead"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.html.beads.controllers.ComboBoxController",
@@ -9,6 +12,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ,
@@ -18,7 +24,10 @@
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "write-only",
         "return": "org.apache.royale.core.IStrand",
@@ -57,4 +66,7 @@
           "return": "void",
           "params": [{ "name": "event", "type": "org.apache.royale.events.MouseEvent"}]}
       ]
+  ,
+  "events": [
+  ]
   }

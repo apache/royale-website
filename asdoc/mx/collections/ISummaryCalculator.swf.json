@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "mx.collections.ISummaryCalculator",
+"baseInterfaceNames": [
+]
+,
     "description": "The ISummaryCalculator interface defines the interface implemented by custom summary calculator classes. An instance of a class that implements this interface can be passed to the <code>summaryOperation</code> property of the <code>SummaryField2</code> Class.  <p>Implement the methods of this interface in two groups. The first group consists of the <code>summaryCalculationBegin()</code>, <code>calculateSummary()</code>, and <code>returnSummary()</code> methods. Use these methods to compute summary of the values.</p>  <p>The second group consists of the <code>summaryOfSummaryCalculationBegin()</code>, <code>calculateSummaryOfSummary()</code>, and <code>returnSummaryOfSummary()</code> methods. Use these methods to compute summary of summary values.</p>",
   "tags": [
   {  "tagName": "see",

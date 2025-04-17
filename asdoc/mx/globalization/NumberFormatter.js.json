@@ -431,4 +431,7 @@
           "return": "Number",
           "params": [{ "name": "parseString", "type": "String"}]}
       ]
+  ,
+  "events": [
+  ]
   }

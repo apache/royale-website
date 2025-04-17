@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.utils.async.AsyncTask",
   "baseClassname": "org.apache.royale.events.EventDispatcher"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.utils.async.AsyncTask",
@@ -9,6 +12,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ,
@@ -18,35 +24,50 @@
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "PENDING",
         "return": "String",
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "COMPLETE",
         "return": "String",
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "CANCELED",
         "return": "String",
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "FAILED",
         "return": "String",
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "MIXED",
         "return": "String",
@@ -54,14 +75,19 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Used in compound tasks"},
+          "description": "Used in compound tasks",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_status",
         "return": "String",
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "String",
@@ -150,6 +176,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -193,6 +222,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "data", "type": "Object"}]}
       ,
@@ -235,6 +267,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "type", "type": "String"},
         { "name": "listener", "type": "Function"},
@@ -248,6 +283,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ]
@@ -256,11 +294,19 @@
   { "qname": "complete",
         "type": "org.apache.royale.events.Event"
       ,
-          "description": "AsyncTask is a base class for AsyncTasks which let the caller know when they are done. AsyncTask is an OOP replacement for Promises and simple callbacks which allows for strongly typed async requests with any kind of payload and behavior. AsyncTask must be subclassed to be used. The subclass must implement the `run` method to define the behavior when the task is &quot;run&quot;."},
+          "description": "AsyncTask is a base class for AsyncTasks which let the caller know when they are done. AsyncTask is an OOP replacement for Promises and simple callbacks which allows for strongly typed async requests with any kind of payload and behavior. AsyncTask must be subclassed to be used. The subclass must implement the `run` method to define the behavior when the task is &quot;run&quot;.",
+        "tags": [
+          ]},
       { "qname": "failed",
         "type": "org.apache.royale.events.Event"
-      },
+      ,
+          "description": "",
+        "tags": [
+          ]},
       { "qname": "done",
         "type": "org.apache.royale.events.Event"
-      }]
+      ,
+          "description": "",
+        "tags": [
+          ]}]
   }

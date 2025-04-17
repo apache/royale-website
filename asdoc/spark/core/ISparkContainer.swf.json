@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "spark.core.ISparkContainer",
+"baseInterfaceNames": [
+]
+,
     "description": "",
   "tags": [
   {  "tagName": "playerversion",

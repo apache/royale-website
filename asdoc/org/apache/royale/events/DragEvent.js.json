@@ -173,7 +173,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "org.apache.royale.events.DragEvent",
         "namespace": "",
@@ -241,4 +244,7 @@
           "params": [{ "name": "event", "type": "org.apache.royale.events.DragEvent"},
         { "name": "target", "type": "Object"}]}
       ]
+  ,
+  "events": [
+  ]
   }

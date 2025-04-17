@@ -1,5 +1,11 @@
 { "type": "interface",
   "qname": "org.apache.royale.promises.interfaces.IThenable",
+"baseInterfaceNames": [
+]
+,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
     "qname": "then",
@@ -7,6 +13,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "org.apache.royale.promises.interfaces.IThenable",
       "params": [{ "name": "onFulfilled", "type": "Function"},
     { "name": "onRejected", "type": "Function"}]}

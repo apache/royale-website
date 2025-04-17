@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "mx.binding.IBindingClient",
+"baseInterfaceNames": [
+]
+,
     "description": "This is used to mark documents, which have data bindings.",
   "tags": [
   {  "tagName": "playerversion",
@@ -7,4 +10,7 @@
       {  "tagName": "productversion",
          "values": ["Flex 3"]},
       {  "tagName": "langversion",
-         "values": ["3.0"]}  ]}
+         "values": ["3.0"]}  ],
+  "members": [
+  ]
+  }

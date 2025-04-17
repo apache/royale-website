@@ -59,8 +59,13 @@
         "details": [],
         "deprecated": {},
           "description": "@copy ITextExporter#export()",
+        "tags": [
+          ],
           "return": "Object",
           "params": [{ "name": "source", "type": "org.apache.royale.textLayout.elements.ITextFlow"},
         { "name": "conversionType", "type": "String"}]}
       ]
+  ,
+  "events": [
+  ]
   }

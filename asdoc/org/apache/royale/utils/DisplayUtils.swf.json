@@ -121,4 +121,7 @@
           "params": [{ "name": "container", "type": "org.apache.royale.core.IParent"},
         { "name": "potentialChild", "type": "org.apache.royale.core.IUIBase"}]}
       ]
+  ,
+  "events": [
+  ]
   }

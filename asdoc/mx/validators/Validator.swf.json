@@ -263,7 +263,7 @@
           "description": "Error message when a value is missing and the <code>required</code> property is <code>true</code>.",
         "tags": [
         {  "tagName": "default",
-               "values": [""This field is required.""]},
+               "values": ["\"This field is required.\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",

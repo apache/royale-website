@@ -1,6 +1,11 @@
 { "type": "interface",
   "qname": "org.apache.royale.jewel.beads.layouts.IGap",
+"baseInterfaceNames": [
+]
+,
     "description": "Jewel IGap is the interface used by Jewel Layouts that implement gaps.",
+  "tags": [
+    ],
   "members": [
   { "type": "accessor",
     "access": "read-write",

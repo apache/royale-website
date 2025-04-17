@@ -33,4 +33,7 @@
           "params": [{ "name": "source", "type": "Object"},
         { "name": "filterMap", "type": "Object"}]}
       ]
+  ,
+  "events": [
+  ]
   }

@@ -2,6 +2,9 @@
   "qname": "mx.events.utils.MouseEventConverter",
   "baseClassname": ""
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "convert",
@@ -17,4 +20,7 @@
           "params": [{ "name": "nativeEvent", "type": "Object"},
         { "name": "browserEvent", "type": "goog.events.BrowserEvent"}]}
       ]
+  ,
+  "events": [
+  ]
   }

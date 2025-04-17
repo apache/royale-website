@@ -131,6 +131,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "eventName", "type": "String"}]}
       ,
@@ -210,4 +213,7 @@
           "params": [{ "name": "document", "type": "Object"},
         { "name": "id", "type": "String"}]}
       ]
+  ,
+  "events": [
+  ]
   }

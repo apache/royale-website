@@ -49,4 +49,7 @@
           "return": "void",
           "params": [{ "name": "message", "type": "String"}]}
       ]
+  ,
+  "events": [
+  ]
   }

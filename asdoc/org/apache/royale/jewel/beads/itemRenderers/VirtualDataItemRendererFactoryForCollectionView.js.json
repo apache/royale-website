@@ -73,6 +73,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Object",
           "params": [{ "name": "index", "type": "int"}]}
       ]
@@ -80,5 +83,8 @@
   "events": [
   { "qname": "itemRendererCreated",
         "type": "org.apache.royale.events.ItemRendererEvent"
-      }]
+      ,
+          "description": "",
+        "tags": [
+          ]}]
   }

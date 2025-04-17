@@ -62,7 +62,10 @@
         "namespace": "mx_internal",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "emptyStroke",
         "return": "mx.graphics.IStroke",
@@ -135,4 +138,7 @@
           "params": [{ "name": "styleManager", "type": "mx.styles.IStyleManager2"},
         { "name": "name", "type": "String"}]}
       ]
+  ,
+  "events": [
+  ]
   }

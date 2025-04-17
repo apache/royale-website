@@ -15,6 +15,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "promise", "type": "Promise"}]}
       ,
@@ -50,7 +53,13 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "data", "type": "Object"}]}
       ]
+  ,
+  "events": [
+  ]
   }

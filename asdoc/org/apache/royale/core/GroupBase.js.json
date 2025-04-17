@@ -47,6 +47,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -57,6 +60,8 @@
         "details": [],
         "deprecated": {},
           "description": "Subclasses can override this method to declare whether they need a layout. Components which do not need a layout can avoid searching for layout beads",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": []}
       ,

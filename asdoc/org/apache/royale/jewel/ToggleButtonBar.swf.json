@@ -38,5 +38,10 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Specifies whether the currently selected button can be deselected by the user. By default, the currently selected button gets deselected automatically only when another button in the group is selected.  Setting this property to true lets the user deselect it. When the currently selected button is deselected, the selectedIndex property is set to -1."}]
+          "description": "Specifies whether the currently selected button can be deselected by the user. By default, the currently selected button gets deselected automatically only when another button in the group is selected.  Setting this property to true lets the user deselect it. When the currently selected button is deselected, the selectedIndex property is set to -1.",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

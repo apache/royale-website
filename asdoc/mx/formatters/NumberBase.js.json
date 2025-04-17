@@ -46,7 +46,7 @@
           "description": "Decimal separator character to use when parsing an input String.",
         "tags": [
         {  "tagName": "default",
-               "values": ["".""]},
+               "values": ["\".\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
@@ -64,7 +64,7 @@
           "description": "Decimal separator character to use when outputting formatted decimal numbers.",
         "tags": [
         {  "tagName": "default",
-               "values": ["".""]},
+               "values": ["\".\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
@@ -98,7 +98,7 @@
           "description": "Character to use as the thousands separator in the input String.",
         "tags": [
         {  "tagName": "default",
-               "values": ["",""]},
+               "values": ["\",\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
@@ -116,7 +116,7 @@
           "description": "Character to use as the thousands separator in the output String.",
         "tags": [
         {  "tagName": "default",
-               "values": ["",""]},
+               "values": ["\",\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
@@ -187,7 +187,7 @@
             {  "tagName": "productversion",
                "values": ["Flex 3"]},
             {  "tagName": "return",
-               "values": ["String representation of the input where "." is replaced"]},
+               "values": ["String representation of the input where \".\" is replaced"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ],
           "return": "String",
@@ -300,4 +300,7 @@
           "return": "String",
           "params": [{ "name": "value", "type": "String"}]}
       ]
+  ,
+  "events": [
+  ]
   }

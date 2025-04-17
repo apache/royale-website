@@ -35,21 +35,29 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The image contact"},
+          "description": "The image contact",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_imageWidth",
         "return": "Number",
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_imageHeight",
         "return": "Number",
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "write-only",
         "return": "Number",
@@ -124,4 +132,7 @@
                "values": ["Royale 0.8"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

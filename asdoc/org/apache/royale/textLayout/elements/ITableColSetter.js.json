@@ -1,5 +1,11 @@
 { "type": "interface",
   "qname": "org.apache.royale.textLayout.elements.ITableColSetter",
+"baseInterfaceNames": [
+]
+,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "accessor",
     "access": "write-only",
@@ -8,5 +14,8 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}}]
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]}]
   }

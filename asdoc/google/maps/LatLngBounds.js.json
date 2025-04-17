@@ -215,4 +215,7 @@
           "return": "google.maps.LatLng",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

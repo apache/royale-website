@@ -2,6 +2,9 @@
   "qname": "mx.net.supportClasses.ByteArrayFileLoader",
   "baseClassname": "org.apache.royale.file.beads.FileLoader"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "fileLoadHandler",
@@ -9,7 +12,13 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "event", "type": "org.apache.royale.events.Event"}]}
       ]
+  ,
+  "events": [
+  ]
   }

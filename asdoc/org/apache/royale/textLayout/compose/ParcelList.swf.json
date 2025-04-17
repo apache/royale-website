@@ -3,6 +3,8 @@
   "baseClassname": ""
   ,
     "description": "@private Used for composing text containers, keeps track of the areas that text in the flow is composed into.  ParcelList will always have one parcel, which corresponds to the container's bounding box.",
+  "tags": [
+    ],
   "members": [
   { "type": "field",
         "qname": "_flowComposer",
@@ -10,7 +12,10 @@
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_totalDepth",
         "return": "Number",
@@ -18,7 +23,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Current vertical position in the parcel."},
+          "description": "Current vertical position in the parcel.",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_hasContent",
         "return": "Boolean",
@@ -26,7 +33,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "whether the current parcel has any content"},
+          "description": "whether the current parcel has any content",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_parcelArray",
         "return": "Array",
@@ -34,21 +43,29 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The list of parcels that are available for text layout."},
+          "description": "The list of parcels that are available for text layout.",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_numParcels",
         "return": "int",
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_singleParcel",
         "return": "org.apache.royale.textLayout.compose.Parcel",
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_currentParcelIndex",
         "return": "int",
@@ -56,42 +73,59 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Index of the &quot;current&quot; parcel. These next two variables must be kept in sync."},
+          "description": "Index of the &quot;current&quot; parcel. These next two variables must be kept in sync.",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_currentParcel",
         "return": "org.apache.royale.textLayout.compose.Parcel",
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_insideListItemMargin",
         "return": "Number",
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_leftMargin",
         "return": "Number",
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_rightMargin",
         "return": "Number",
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_explicitLineBreaks",
         "return": "Boolean",
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_verticalText",
         "return": "Boolean",
@@ -99,7 +133,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "True if text is vertical (as for some Japanese & Chinese, false otherwise"},
+          "description": "True if text is vertical (as for some Japanese & Chinese, false otherwise",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "org.apache.royale.textLayout.compose.ParcelList",
         "namespace": "",
@@ -107,6 +143,8 @@
         "details": [],
         "deprecated": {},
           "description": "Constructor.",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ,
@@ -116,6 +154,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.compose.Parcel",
           "params": [{ "name": "idx", "type": "int"}]}
       ,
@@ -126,7 +167,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Boolean",
@@ -134,7 +178,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Number",
@@ -142,13 +189,19 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "addTotalDepth",
         "namespace": "public",
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Number",
           "params": [{ "name": "value", "type": "Number"}]}
       ,
@@ -158,6 +211,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -167,6 +223,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.compose.Parcel",
           "params": [{ "name": "column", "type": "org.apache.royale.geom.Rectangle"},
         { "name": "controller", "type": "org.apache.royale.textLayout.container.IContainerController"},
@@ -178,6 +237,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "int",
           "params": []}
       ,
@@ -187,6 +249,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.compose.Parcel",
           "params": []}
       ,
@@ -196,6 +261,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "controller", "type": "org.apache.royale.textLayout.container.IContainerController"},
         { "name": "cell", "type": "org.apache.royale.textLayout.elements.TableCellElement"}]}
@@ -206,6 +274,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "controllerToInitialize", "type": "org.apache.royale.textLayout.container.IContainerController"}]}
       ,
@@ -215,6 +286,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "composer", "type": "org.apache.royale.textLayout.compose.IFlowComposer"},
         { "name": "controllerStartIndex", "type": "int"},
@@ -228,13 +302,19 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "pushLeftMargin",
         "namespace": "public",
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "leftMargin", "type": "Number"}]}
       ,
@@ -244,6 +324,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "leftMargin", "type": "Number"}]}
       ,
@@ -254,13 +337,19 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "pushRightMargin",
         "namespace": "public",
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "rightMargin", "type": "Number"}]}
       ,
@@ -270,6 +359,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "rightMargin", "type": "Number"}]}
       ,
@@ -279,6 +371,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "margin", "type": "Number"}]}
       ,
@@ -288,6 +383,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "margin", "type": "Number"}]}
       ,
@@ -298,13 +396,19 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "getComposeXCoord",
         "namespace": "public",
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Number",
           "params": [{ "name": "o", "type": "org.apache.royale.geom.Rectangle"}]}
       ,
@@ -314,6 +418,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Number",
           "params": [{ "name": "o", "type": "org.apache.royale.geom.Rectangle"}]}
       ,
@@ -323,6 +430,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Number",
           "params": [{ "name": "o", "type": "org.apache.royale.geom.Rectangle"}]}
       ,
@@ -332,6 +442,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Number",
           "params": [{ "name": "o", "type": "org.apache.royale.geom.Rectangle"}]}
       ,
@@ -342,6 +455,8 @@
         "details": [],
         "deprecated": {},
           "description": "Returns true if the current parcel is the last.",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": []}
       ,
@@ -351,6 +466,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": []}
       ,
@@ -360,6 +478,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": [{ "name": "index", "type": "int"},
         { "name": "depth", "type": "Number"}]}
@@ -370,6 +491,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": []}
       ,
@@ -380,7 +504,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "getLineSlug",
         "namespace": "public",
@@ -406,10 +533,16 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": [{ "name": "slug", "type": "org.apache.royale.textLayout.compose.Slug"},
         { "name": "totalDepth", "type": "Number"},
         { "name": "width", "type": "Number"},
         { "name": "height", "type": "Number"}]}
       ]
+  ,
+  "events": [
+  ]
   }

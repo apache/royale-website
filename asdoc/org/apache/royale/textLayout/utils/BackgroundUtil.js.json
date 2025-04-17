@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.textLayout.utils.BackgroundUtil",
   "baseClassname": ""
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "collectTableBlock",
@@ -9,6 +12,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "_textFlow", "type": "org.apache.royale.textLayout.elements.ITextFlow"},
         { "name": "block", "type": "org.apache.royale.textLayout.compose.ITextFlowTableBlock"},
@@ -37,7 +43,13 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": [{ "name": "elem", "type": "org.apache.royale.textLayout.elements.IFlowElement"}]}
       ]
+  ,
+  "events": [
+  ]
   }

@@ -18,7 +18,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "The Enter or ↵ key (sometimes labeled Return)."},
+          "description": "The Enter or ↵ key (sometimes labeled Return).",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "TAB",
         "return": "String",
@@ -26,7 +28,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "The Horizontal Tab key, Tab."},
+          "description": "The Horizontal Tab key, Tab.",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "SPACE",
         "return": "String",
@@ -34,5 +38,10 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "The space key, Space Bar."}]
+          "description": "The space key, Space Bar.",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

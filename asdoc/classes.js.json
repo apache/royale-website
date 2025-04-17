@@ -3650,7 +3650,9 @@
     {  "tagName": "langversion",
        "values": ["3.0", "3.0"]}  ]},
 { "name": "mx.controls.beads.TitleBarTitle",
-  "description": "A specially styled Label used in TitleBar"},
+  "description": "A specially styled Label used in TitleBar",
+"tags": [
+  ]},
 { "name": "mx.controls.beads.ToolTipBead",
   "description": ""},
 { "name": "mx.controls.beads.TreeItemRendererInitializer",
@@ -6597,7 +6599,9 @@
 { "name": "mx.managers.FocusManager",
   "description": ""},
 { "name": "mx.managers.IActiveWindowManager",
-  "description": "Interface for subsystem that manages which focus manager is active when there is more than one IFocusManagerContainer on screen."},
+  "description": "Interface for subsystem that manages which focus manager is active when there is more than one IFocusManagerContainer on screen.",
+"tags": [
+  ]},
 { "name": "mx.managers.IBrowserManager",
   "description": "The interface that the shared instance of the BrowserManager implements. Applications listen for events, call methods, and access properties on the shared instance which is accessed with the <code>BrowserManager.getInstance()</code> method.",
 "tags": [
@@ -7273,14 +7277,18 @@
     {  "tagName": "royalesuppresspublicvarwarning",
        "values": []}  ]},
 { "name": "mx.net.SharedObject",
-  "description": "An emulation class to support the swf based Local SharedObject support. This implementation supports AMF encoded content (requires registerClassAlias before reading and writing to roundtrip instances of custom classes)"},
+  "description": "An emulation class to support the swf based Local SharedObject support. This implementation supports AMF encoded content (requires registerClassAlias before reading and writing to roundtrip instances of custom classes)",
+"tags": [
+  ]},
 { "name": "mx.net.SharedObjectFlushStatus",
   "description": "This class is not available for reflection in the javascript target",
 "tags": [
 {  "tagName": "royalesuppressexport",
        "values": []}  ]},
 { "name": "mx.net.SharedObjectJSON",
-  "description": "An lighter weight emulation class to support the swf based Local SharedObject support. This implementation does not support AMF encoded content. It is intended for javascript implementations that require persistence, but do not already have the AMF support dependency as part of the application"},
+  "description": "An lighter weight emulation class to support the swf based Local SharedObject support. This implementation does not support AMF encoded content. It is intended for javascript implementations that require persistence, but do not already have the AMF support dependency as part of the application",
+"tags": [
+  ]},
 { "name": "mx.net.Socket",
   "description": ""},
 { "name": "mx.net.URLLoader",
@@ -7726,7 +7734,9 @@
     {  "tagName": "langversion",
        "values": ["3.0", "3.0"]}  ]},
 { "name": "mx.rpc.remoting.CompressedRemoteObject",
-  "description": "A RemoteObject that performs automatic serialization/deserialization of results.  It deserializes the compressed ByteArray in order to optimize the transfer time. TODO improve to serialize the sending."},
+  "description": "A RemoteObject that performs automatic serialization/deserialization of results.  It deserializes the compressed ByteArray in order to optimize the transfer time. TODO improve to serialize the sending.",
+"tags": [
+  ]},
 { "name": "mx.rpc.remoting.Operation",
   "description": "An Operation used specifically by RemoteObjects. An Operation is an individual method on a service. An Operation can be called either by invoking the function of the same name on the service or by accessing the Operation as a property on the service and calling the <code>send()</code> method.",
 "tags": [
@@ -7777,9 +7787,13 @@
     {  "tagName": "langversion",
        "values": ["3.0", "3.0"]}  ]},
 { "name": "mx.rpc.soap.ISOAPDecoder",
-  "description": "Decodes the SOAP response for a particular operation."},
+  "description": "Decodes the SOAP response for a particular operation.",
+"tags": [
+  ]},
 { "name": "mx.rpc.soap.ISOAPEncoder",
-  "description": "An ISOAPEncoder is used to create SOAP 1.1 formatted requests for a web service operation. A WSDLOperation provides the definition of how a SOAP request should be formatted and therefore must be set before a call is made to encode()."},
+  "description": "An ISOAPEncoder is used to create SOAP 1.1 formatted requests for a web service operation. A WSDLOperation provides the definition of how a SOAP request should be formatted and therefore must be set before a call is made to encode().",
+"tags": [
+  ]},
 { "name": "mx.rpc.soap.LoadEvent",
   "description": "This event is dispatched when a WSDL XML document has loaded successfully.",
 "tags": [
@@ -8463,7 +8477,9 @@
     {  "tagName": "royalesuppressexport",
        "values": []}  ]},
 { "name": "mx.utils.PopUpUtil",
-  "description": "Helper functionality for working with pop-ups."},
+  "description": "Helper functionality for working with pop-ups.",
+"tags": [
+  ]},
 { "name": "mx.utils.RPCStringUtil",
   "description": "The RPCStringUtil class is a subset of StringUtil, removing methods that create dependency issues when RPC messages are in a bootstrap loader.",
 "tags": [
@@ -9505,7 +9521,9 @@
     {  "tagName": "langversion",
        "values": ["3.0", "3.0"]}  ]},
 { "name": "org.apache.royale.collections.ICollectionView",
-  "description": "The ICollectionView interface is implemented by classes that provide collection data."},
+  "description": "The ICollectionView interface is implemented by classes that provide collection data.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.collections.IHierarchicalData",
   "description": "The IHierarchicalData interface defines the interface used to represent hierarchical data as the data provider for a Royale component. Hierarchical data is data in a structure of parent and child data items.",
 "tags": [
@@ -9598,7 +9616,9 @@
     {  "tagName": "langversion",
        "values": ["3.0", "3.0"]}  ]},
 { "name": "org.apache.royale.collections.TreeData",
-  "description": "TreeData is used with tree or structured data classes. This class incorporates a HierarchicalData structure as its primary source, but then internally flattens it for presentation."},
+  "description": "TreeData is used with tree or structured data classes. This class incorporates a HierarchicalData structure as its primary source, but then internally flattens it for presentation.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.collections.converters.IItemConverter",
   "description": "The IItemConverter interface is the basic interface for converting a serialized data item to a data class instance.  This interface is generally used in a LazyCollection.",
 "tags": [
@@ -10071,7 +10091,9 @@
     {  "tagName": "langversion",
        "values": ["3.0", "3.0"]}  ]},
 { "name": "org.apache.royale.core.ICSSImpl",
-  "description": "A marker interface so the compiler knows whether to emit CSS"},
+  "description": "A marker interface so the compiler knows whether to emit CSS",
+"tags": [
+  ]},
 { "name": "org.apache.royale.core.ICascadingMenuModel",
   "description": "The ITextModel interface describes the minimum set of properties available to control that displays text.  More sophisticated controls often have models that extend ITextModel.",
 "tags": [
@@ -10815,7 +10837,9 @@
     {  "tagName": "langversion",
        "values": ["3.0", "3.0"]}  ]},
 { "name": "org.apache.royale.core.IScrollingViewport",
-  "description": "A ScrollingViewport is a Viewport that scrolls overflow content."},
+  "description": "A ScrollingViewport is a Viewport that scrolls overflow content.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.core.ISelectable",
   "description": "The ISelectable interface is a marker interface for indicating a class has a selected property.",
 "tags": [
@@ -11044,9 +11068,13 @@
     {  "tagName": "langversion",
        "values": ["3.0", "3.0"]}  ]},
 { "name": "org.apache.royale.core.IViewport",
-  "description": "A Viewport is a window onto an area of content. A viewport is given space in which to operate by a View bead. Viewports can control their area which is specified by the IViewportModel, adding scrollbars or whatever scrolling mechanism they want."},
+  "description": "A Viewport is a window onto an area of content. A viewport is given space in which to operate by a View bead. Viewports can control their area which is specified by the IViewportModel, adding scrollbars or whatever scrolling mechanism they want.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.core.IViewportModel",
-  "description": "A Viewport is the area of a Container set aside for displaying content and any scrolling controls. The ViewportModel caches the offsets required to compute the size of the Viewport."},
+  "description": "A Viewport is the area of a Container set aside for displaying content and any scrolling controls. The ViewportModel caches the offsets required to compute the size of the Viewport.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.core.ImageBase",
   "description": "The ImageBase class serves as a base class for components that displays a bitmap. The Image uses the following beads:  org.apache.royale.core.IBeadModel: the data model for the Image, including the url/binary property. org.apache.royale.core.IBeadView: constructs the visual elements of the component.",
 "tags": [
@@ -11438,7 +11466,9 @@
 { "name": "org.apache.royale.createjs.CheckBox",
   "description": ""},
 { "name": "org.apache.royale.createjs.Container",
-  "description": "CreateJS Container"},
+  "description": "CreateJS Container",
+"tags": [
+  ]},
 { "name": "org.apache.royale.createjs.Label",
   "description": ""},
 { "name": "org.apache.royale.createjs.TextButton",
@@ -12066,7 +12096,7 @@
     {  "tagName": "commentary",
        "values": ["The Royale DataGrid is very similar to the Flex DataGrid. You define the DataGrid using DataGridColumn, assigning to each column a field in the data provider and an itemRenderer to display the data.", "The Royale Express DataGrid is packaged with support for drag-and-drop and column re-ordering.", "The Royale DataGrid is very similar to the Flex DataGrid. You define the DataGrid using DataGridColumn, assigning to each column a field in the data provider and an itemRenderer to display the data.", "The Royale Express DataGrid is packaged with support for drag-and-drop and column re-ordering."]},
     {  "tagName": "example",
-       "values": ["&lt;js:DataGrid width=&quot;300&quot; height=&quot;400&quot;&gt;", "&nbsp;&nbsp;&lt;js:beads&gt;", "&nbsp;&nbsp;&nbsp;&lt;js:ConstantBinding", "&nbsp;&nbsp;&nbsp;&nbsp;sourceID=&quot;applicationModel&quot;", "&nbsp;&nbsp;&nbsp;&nbsp;sourcePropertyName=&quot;productList&quot;", "&nbsp;&nbsp;&nbsp;&nbsp;destinationPropertyName=&quot;dataProvider&quot; /&gt;", "&nbsp;&nbsp;&lt;/js:beads&gt;", "&nbsp;&nbsp;&lt;js:columns&gt;", "&nbsp;&nbsp;&nbsp;&lt;js:DataGridColumn label=&quot;Image&quot; dataField=&quot;image&quot; columnWidth=&quot;50&quot; itemRenderer=&quot;products.ProductItemRenderer&quot; /&gt;", "&nbsp;&nbsp;&nbsp;&lt;js:DataGridColumn label=&quot;Title&quot; dataField=&quot;title&quot; columnWidth=&quot;150&quot; /&gt;", "&nbsp;&nbsp;&nbsp;&lt;js:DataGridColumn label=&quot;Sales&quot; dataField=&quot;sales&quot; columnWidth=&quot;100&quot; /&gt;", "&nbsp;&nbsp;&lt;/js:columns&gt;", "&lt;/js:DataGrid&gt;", "&lt;js:DataGrid width=&quot;300&quot; height=&quot;400&quot;&gt;", "&nbsp;&nbsp;&lt;js:beads&gt;", "&nbsp;&nbsp;&nbsp;&lt;js:ConstantBinding", "&nbsp;&nbsp;&nbsp;&nbsp;sourceID=&quot;applicationModel&quot;", "&nbsp;&nbsp;&nbsp;&nbsp;sourcePropertyName=&quot;productList&quot;", "&nbsp;&nbsp;&nbsp;&nbsp;destinationPropertyName=&quot;dataProvider&quot; /&gt;", "&nbsp;&nbsp;&lt;/js:beads&gt;", "&nbsp;&nbsp;&lt;js:columns&gt;", "&nbsp;&nbsp;&nbsp;&lt;js:DataGridColumn label=&quot;Image&quot; dataField=&quot;image&quot; columnWidth=&quot;50&quot; itemRenderer=&quot;products.ProductItemRenderer&quot; /&gt;", "&nbsp;&nbsp;&nbsp;&lt;js:DataGridColumn label=&quot;Title&quot; dataField=&quot;title&quot; columnWidth=&quot;150&quot; /&gt;", "&nbsp;&nbsp;&nbsp;&lt;js:DataGridColumn label=&quot;Sales&quot; dataField=&quot;sales&quot; columnWidth=&quot;100&quot; /&gt;", "&nbsp;&nbsp;&lt;/js:columns&gt;", "&lt;/js:DataGrid&gt;"]}  ]},
+       "values": ["&lt;js:DataGrid width=\\\"300\\\" height=\\\"400\\\"&gt;", "&nbsp;&nbsp;&lt;js:beads&gt;", "&nbsp;&nbsp;&nbsp;&lt;js:ConstantBinding", "&nbsp;&nbsp;&nbsp;&nbsp;sourceID=\\\"applicationModel\\\"", "&nbsp;&nbsp;&nbsp;&nbsp;sourcePropertyName=\\\"productList\\\"", "&nbsp;&nbsp;&nbsp;&nbsp;destinationPropertyName=\\\"dataProvider\\\" /&gt;", "&nbsp;&nbsp;&lt;/js:beads&gt;", "&nbsp;&nbsp;&lt;js:columns&gt;", "&nbsp;&nbsp;&nbsp;&lt;js:DataGridColumn label=\\\"Image\\\" dataField=\\\"image\\\" columnWidth=\\\"50\\\" itemRenderer=\\\"products.ProductItemRenderer\\\" /&gt;", "&nbsp;&nbsp;&nbsp;&lt;js:DataGridColumn label=\\\"Title\\\" dataField=\\\"title\\\" columnWidth=\\\"150\\\" /&gt;", "&nbsp;&nbsp;&nbsp;&lt;js:DataGridColumn label=\\\"Sales\\\" dataField=\\\"sales\\\" columnWidth=\\\"100\\\" /&gt;", "&nbsp;&nbsp;&lt;/js:columns&gt;", "&lt;/js:DataGrid&gt;", "&lt;js:DataGrid width=\\\"300\\\" height=\\\"400\\\"&gt;", "&nbsp;&nbsp;&lt;js:beads&gt;", "&nbsp;&nbsp;&nbsp;&lt;js:ConstantBinding", "&nbsp;&nbsp;&nbsp;&nbsp;sourceID=\\\"applicationModel\\\"", "&nbsp;&nbsp;&nbsp;&nbsp;sourcePropertyName=\\\"productList\\\"", "&nbsp;&nbsp;&nbsp;&nbsp;destinationPropertyName=\\\"dataProvider\\\" /&gt;", "&nbsp;&nbsp;&lt;/js:beads&gt;", "&nbsp;&nbsp;&lt;js:columns&gt;", "&nbsp;&nbsp;&nbsp;&lt;js:DataGridColumn label=\\\"Image\\\" dataField=\\\"image\\\" columnWidth=\\\"50\\\" itemRenderer=\\\"products.ProductItemRenderer\\\" /&gt;", "&nbsp;&nbsp;&nbsp;&lt;js:DataGridColumn label=\\\"Title\\\" dataField=\\\"title\\\" columnWidth=\\\"150\\\" /&gt;", "&nbsp;&nbsp;&nbsp;&lt;js:DataGridColumn label=\\\"Sales\\\" dataField=\\\"sales\\\" columnWidth=\\\"100\\\" /&gt;", "&nbsp;&nbsp;&lt;/js:columns&gt;", "&lt;/js:DataGrid&gt;"]}  ]},
 { "name": "org.apache.royale.express.HContainer",
   "description": "This class extends Container and adds the HorizontalLayout bead for convenience.",
 "tags": [
@@ -12079,9 +12109,13 @@
 { "name": "org.apache.royale.express.HSlider",
   "description": ""},
 { "name": "org.apache.royale.express.HView",
-  "description": "This class extends View and adds the HorizontalLayout bead for convenience."},
+  "description": "This class extends View and adds the HorizontalLayout bead for convenience.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.express.ImageAndTextButton",
-  "description": "This class extends ImageAndTextButton and adds the toolTip bead as a convenience."},
+  "description": "This class extends ImageAndTextButton and adds the toolTip bead as a convenience.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.express.ImageButton",
   "description": "This class extends ImageButton and adds the toolTip bead as a convenience.",
 "tags": [
@@ -12101,11 +12135,15 @@
     {  "tagName": "commentary",
        "values": ["In Royale, the List component requires a data provider source and a class to be used as an itemRenderer to display the data.", "In the Royale Express package, data binding is prepackaged into the List component. The Royale Express List also includes support for scrolling as well as drag-and-drop.", "In Royale, the List component requires a data provider source and a class to be used as an itemRenderer to display the data.", "In the Royale Express package, data binding is prepackaged into the List component. The Royale Express List also includes support for scrolling as well as drag-and-drop."]},
     {  "tagName": "example",
-       "values": ["&lt;js:List dataProvider=&quot;{employees}&quot; itemRenderer=&quot;local.EmployeeCard&quot; /&gt;", "&lt;js:List dataProvider=&quot;{employees}&quot; itemRenderer=&quot;local.EmployeeCard&quot; /&gt;"]}  ]},
+       "values": ["&lt;js:List dataProvider=\\\"{employees}\\\" itemRenderer=\\\"local.EmployeeCard\\\" /&gt;", "&lt;js:List dataProvider=\\\"{employees}\\\" itemRenderer=\\\"local.EmployeeCard\\\" /&gt;"]}  ]},
 { "name": "org.apache.royale.express.MXMLItemRenderer",
-  "description": "This class extends MXMLItemRenderer and adds ItemRendererDataBinding for convenience."},
+  "description": "This class extends MXMLItemRenderer and adds ItemRendererDataBinding for convenience.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.express.MXMLViewer",
-  "description": "This class extends the standard Label and allows MXML content (ie, XML or HTML) to be displayed."},
+  "description": "This class extends the standard Label and allows MXML content (ie, XML or HTML) to be displayed.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.express.NumericStepper",
   "description": "The NumericStepper class is a component that displays a numeric value and up/down controls (using a org.apache.royale.html.Spinner) to increase and decrease the value by specific amounts. The NumericStepper uses the following beads:  org.apache.royale.core.IBeadModel: the data model for the component of type org.apache.royale.core.IRangeModel. org.apache.royale.core.IBeadView: constructs the parts of the component. org.apache.royale.core.IBeadController: handles the input events.",
 "tags": [
@@ -12127,7 +12165,9 @@
     {  "tagName": "commentary",
        "values": ["The Royale Express TextButton is pre-packaged with beads to do:", "<ul><li>enabled: Boolean</li><li>toolTip: String</li><li>secure: Boolean</li></ul>See also the Royale Express ImageButton and the Royale Express ImageAndTextButton.", "The Royale Express TextButton is pre-packaged with beads to do:", "<ul><li>enabled: Boolean</li><li>toolTip: String</li><li>secure: Boolean</li></ul>See also the Royale Express ImageButton and the Royale Express ImageAndTextButton."]}  ]},
 { "name": "org.apache.royale.express.TextInput",
-  "description": "This class extends the standard TextInput class and adds in the prompt, password, and numeric accessories (as needed) for convenience."},
+  "description": "This class extends the standard TextInput class and adds in the prompt, password, and numeric accessories (as needed) for convenience.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.express.VContainer",
   "description": "This class extends Container and adds the VerticalLayout bead for convenience.",
 "tags": [
@@ -12140,7 +12180,9 @@
 { "name": "org.apache.royale.express.VSlider",
   "description": ""},
 { "name": "org.apache.royale.express.VView",
-  "description": "This class extends View and adds the VerticalLayout bead for convenience."},
+  "description": "This class extends View and adds the VerticalLayout bead for convenience.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.express.View",
   "description": "This View extends the standard View and adds the ViewDataBinding bead for convenience.",
 "tags": [
@@ -12151,11 +12193,15 @@
     {  "tagName": "commentary",
        "values": ["Unlike Flex, the Royale Application has no visual aspect. Instead, Royale application's extend the View class which is most often the base class for application MXML components.", "The Royale Express View includes data binding. For convenience, Royale Express also provides HView (horizontal layout) and VView (vertical layout).", "Unlike Flex, the Royale Application has no visual aspect. Instead, Royale application's extend the View class which is most often the base class for application MXML components.", "The Royale Express View includes data binding. For convenience, Royale Express also provides HView (horizontal layout) and VView (vertical layout)."]}  ]},
 { "name": "org.apache.royale.express.beads.layouts.DataGridLayout",
-  "description": "This DataGridLayout class sizes and positions all of the elements of the DataGrid in the Express package. The ButtonBar header, the container content area for the the list columns, and the positioning and sizing of the list columns within that container. On top of the contain a drawing layer is floating to allow for the graphics of a drag-and-drop indicator."},
+  "description": "This DataGridLayout class sizes and positions all of the elements of the DataGrid in the Express package. The ButtonBar header, the container content area for the the list columns, and the positioning and sizing of the list columns within that container. On top of the contain a drawing layer is floating to allow for the graphics of a drag-and-drop indicator.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.express.beads.models.DataGridModel",
   "description": ""},
 { "name": "org.apache.royale.express.supportClasses.DataGridColumn",
-  "description": "This class defines how a column in the DataGrid should look, including the label for the column and its width. In particular, the width may be given as a fixed pixel size (e.g., &quot;80&quot;) or a percentage of the remaining space once all fixed-width columns have been taken into consideration (e.g., &quot;100%&quot;). That is, if the DataGrid has a width of 400 pixels with columns of &quot;50&quot;, &quot;100%&quot;, and &quot;80&quot;, the &quot;100%&quot; column is the remainder of 400-50-80 or 260. If the DataGrid is resized to 500 pixels, the outer columns remain at 50 and 80 pixels, but the middle column expands to 360 pixels given its &quot;100%&quot; value."},
+  "description": "This class defines how a column in the DataGrid should look, including the label for the column and its width. In particular, the width may be given as a fixed pixel size (e.g., &quot;80&quot;) or a percentage of the remaining space once all fixed-width columns have been taken into consideration (e.g., &quot;100%&quot;). That is, if the DataGrid has a width of 400 pixels with columns of &quot;50&quot;, &quot;100%&quot;, and &quot;80&quot;, the &quot;100%&quot; column is the remainder of 400-50-80 or 260. If the DataGrid is resized to 500 pixels, the outer columns remain at 50 and 80 pixels, but the middle column expands to 360 pixels given its &quot;100%&quot; value.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.file.FileProxy",
   "description": "The FileProxy class is where beads regarding file operations are added. Information about operations can be queried in the file model, or by listenening to events dispatched by beads.",
 "tags": [
@@ -13256,7 +13302,9 @@
     {  "tagName": "langversion",
        "values": ["3.0", "3.0"]}  ]},
 { "name": "org.apache.royale.html.accessories.StringDateFormatter",
-  "description": "Formats a date from a string Because of the compleixities of date formatting, this formatter does not differentiate between single digit formats and double digit formats for days and months."},
+  "description": "Formats a date from a string Because of the compleixities of date formatting, this formatter does not differentiate between single digit formats and double digit formats for days and months.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.html.accessories.TextPromptBead",
   "description": "The TextPromptBead class is a specialty bead that can be used with any TextInput control. The bead places a string into the input field when there is no value associated with the text property.",
 "tags": [
@@ -13660,7 +13708,9 @@
     {  "tagName": "langversion",
        "values": ["3.0", "3.0"]}  ]},
 { "name": "org.apache.royale.html.beads.DataItemRendererFactoryForCollectionView",
-  "description": "This class creates itemRenderer instances from the data contained within an ICollectionView"},
+  "description": "This class creates itemRenderer instances from the data contained within an ICollectionView",
+"tags": [
+  ]},
 { "name": "org.apache.royale.html.beads.DataItemRendererFactoryForColumnData",
   "description": "The DataItemRendererFactoryForColumnData class implents the org.apache.royale.core.IDataProviderItemRendererMapper interface and creates the itemRenderers for each cell in the org.apache.royale.html.DataGrid.",
 "tags": [
@@ -13925,7 +13975,9 @@
     {  "tagName": "langversion",
        "values": ["3.0", "3.0"]}  ]},
 { "name": "org.apache.royale.html.beads.HandleImageLoadErrors",
-  "description": "Catches errors in loaded images anywhere in the hierarchy below the strand. Caught error can have global handling. Dispatches a ValueEvent which contains the caught event as its value."},
+  "description": "Catches errors in loaded images anywhere in the hierarchy below the strand. Caught error can have global handling. Dispatches a ValueEvent which contains the caught event as its value.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.html.beads.HideColorSpectrumThumbWhenEmpty",
   "description": "The HideColorSpectrumThumbWhenEmpty bead can modifiy a color spectrum view to hide the thumb when it's empty",
 "tags": [
@@ -14370,7 +14422,9 @@
     {  "tagName": "langversion",
        "values": ["3.0", "3.0"]}  ]},
 { "name": "org.apache.royale.html.beads.ReusableDataItemRendererFactoryForCollectionView",
-  "description": "The ReusableDataItemRendererFactoryForCollectionView class will save removed itemRenderers and reuse them when new item renderers are needed. This is useful for large collections where creating new item renderers can be expensive. Using this class can drastically reduce rendering time at the expense of preventing the unused item renderers from being garbage collected.  In an unscientific test, using this class reduced rendering time by about a factor of 100 in some cases.  Item renderers must be able to be reused. Resetting the data property must properly reset the state and clean any event listeners from the old state."},
+  "description": "The ReusableDataItemRendererFactoryForCollectionView class will save removed itemRenderers and reuse them when new item renderers are needed. This is useful for large collections where creating new item renderers can be expensive. Using this class can drastically reduce rendering time at the expense of preventing the unused item renderers from being garbage collected.  In an unscientific test, using this class reduced rendering time by about a factor of 100 in some cases.  Item renderers must be able to be reused. Resetting the data property must properly reset the state and clean any event listeners from the old state.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.html.beads.ReversibleEllipsisOverflow",
   "description": "The ReversibleEllipsisOverflow class is a bead that can be used to stop the text from overflowing and display an ellipsis. It adds an option to revert the strand to its old state",
 "tags": [
@@ -14399,7 +14453,9 @@
     {  "tagName": "langversion",
        "values": ["3.0", "3.0"]}  ]},
 { "name": "org.apache.royale.html.beads.SelectionDataItemRendererFactoryForCollectionView",
-  "description": "This class is an extension of DataItemRendererFactoryForCollectionView for components using ISelectionModel that will need special handling of selected index for items added, removed or updated at runtime from the dataprovider."},
+  "description": "This class is an extension of DataItemRendererFactoryForCollectionView for components using ISelectionModel that will need special handling of selected index for items added, removed or updated at runtime from the dataprovider.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.html.beads.SensitiveMultiSelectionDropTargetBead",
   "description": "The SensitiveMultiSelectionDropTargetBead enables items to be dropped onto multi-selection List components. When the pointing device is in the first half of an item renderer it assumes the item is to be dropped on that item renderer. If it is on the second half it assumes the drop target is the next item renderer.",
 "tags": [
@@ -14619,7 +14675,9 @@
     {  "tagName": "langversion",
        "values": ["3.0", "3.0"]}  ]},
 { "name": "org.apache.royale.html.beads.TitleBarTitle",
-  "description": "A specially styled Label used in TitleBar"},
+  "description": "A specially styled Label used in TitleBar",
+"tags": [
+  ]},
 { "name": "org.apache.royale.html.beads.TreeGridListArea",
   "description": ""},
 { "name": "org.apache.royale.html.beads.TreeGridView",
@@ -14774,7 +14832,9 @@
     {  "tagName": "langversion",
        "values": ["3.0", "3.0"]}  ]},
 { "name": "org.apache.royale.html.beads.controllers.HDividedContainerMouseController",
-  "description": "This is the mouse controller for the HDividedContainer. This bead class tracks the mouse over a HDividedContainerDivider (its strand) causing the columns on either side of the divider to grow and shrink."},
+  "description": "This is the mouse controller for the HDividedContainer. This bead class tracks the mouse over a HDividedContainerDivider (its strand) causing the columns on either side of the divider to grow and shrink.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.html.beads.controllers.HSliderMouseController",
   "description": "The HSliderMouseController class bead handles mouse events on the org.apache.royale.html.Slider's component parts (thumb and track) and dispatches change events on behalf of the Slider (as well as co-ordinating visual changes (such as moving the thumb when the track has been tapped or clicked). Use this controller for horizontally oriented Sliders.",
 "tags": [
@@ -15449,7 +15509,9 @@
     {  "tagName": "langversion",
        "values": ["3.0", "3.0"]}  ]},
 { "name": "org.apache.royale.html.beads.models.MenuBarModel",
-  "description": "The model used by the MenuBar."},
+  "description": "The model used by the MenuBar.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.html.beads.models.MenuModel",
   "description": "The model used to support menus.",
 "tags": [
@@ -15469,7 +15531,9 @@
     {  "tagName": "langversion",
        "values": ["3.0", "3.0"]}  ]},
 { "name": "org.apache.royale.html.beads.models.MultiSelectionTreeModel",
-  "description": "The MultiSelectionTreeModel is used by Tree"},
+  "description": "The MultiSelectionTreeModel is used by Tree",
+"tags": [
+  ]},
 { "name": "org.apache.royale.html.beads.models.NonNullTextModel",
   "description": "The TextModel class is most basic data model for a component that displays text.  All Royale components that display text should also support HTML, although the Flash Player implementations may only support a subset of HTML.",
 "tags": [
@@ -15561,7 +15625,9 @@
     {  "tagName": "langversion",
        "values": ["3.0", "3.0"]}  ]},
 { "name": "org.apache.royale.html.beads.models.TreeModel",
-  "description": "The TreeModel is used by Tree"},
+  "description": "The TreeModel is used by Tree",
+"tags": [
+  ]},
 { "name": "org.apache.royale.html.beads.models.ValueToggleButtonModel",
   "description": "The ValueToggleButtonModel class bead extends the org.apache.royale.html.beads.models.ToggleButtonModel and adds value intended to represent a collection of similar org.apache.royale.html.Buttons such as org.apache.royale.html.RadioButtons.",
 "tags": [
@@ -16489,7 +16555,9 @@
     {  "tagName": "langversion",
        "values": ["3.0", "3.0"]}  ]},
 { "name": "org.apache.royale.html.supportClasses.PanelContent",
-  "description": "A Container specialized for the content area of a Panel. Needed for its type name"},
+  "description": "A Container specialized for the content area of a Panel. Needed for its type name",
+"tags": [
+  ]},
 { "name": "org.apache.royale.html.supportClasses.PanelLayoutProxy",
   "description": "The PanelLayoutProxy class is used by Panel in order for layouts to operate on the Panel itself. If Panel were being used, its numElements, getElementAt, etc. functions would actually redirect to its Container content. In order for a layout to work on the Panel directly (its TitleBar, Container, and ControlBar children), this proxy is used which will invoke the Panel's $numElements, $getElementAt, etc functions.",
 "tags": [
@@ -16682,9 +16750,13 @@
 { "name": "org.apache.royale.html5.DropDownList",
   "description": ""},
 { "name": "org.apache.royale.html5.Label",
-  "description": "Label probably should extend TextField directly, but the player's APIs for TextLine do not allow direct instantiation, and we might want to allow Labels to be declared and have their actual view be swapped out."},
+  "description": "Label probably should extend TextField directly, but the player's APIs for TextLine do not allow direct instantiation, and we might want to allow Labels to be declared and have their actual view be swapped out.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.html5.List",
-  "description": "Label probably should extend TextField directly, but the player's APIs for TextLine do not allow direct instantiation, and we might want to allow Labels to be declared and have their actual view be swapped out."},
+  "description": "Label probably should extend TextField directly, but the player's APIs for TextLine do not allow direct instantiation, and we might want to allow Labels to be declared and have their actual view be swapped out.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.html5.MediaElement",
   "description": "The MediaElement class adds the properties and methods needed to support basic media-related capabilities that are common to audio and video.",
 "tags": [
@@ -16975,9 +17047,13 @@
     {  "tagName": "langversion",
        "values": ["3.0", "3.0"]}  ]},
 { "name": "org.apache.royale.jewel.FormHeading",
-  "description": "FormHeading is a label, and option required indicator (no validation is implied) and a content with one or more controls"},
+  "description": "FormHeading is a label, and option required indicator (no validation is implied) and a content with one or more controls",
+"tags": [
+  ]},
 { "name": "org.apache.royale.jewel.FormItem",
-  "description": "FormItem is a label, and option required indicator (no validation is implied) and a content with one or more controls"},
+  "description": "FormItem is a label, and option required indicator (no validation is implied) and a content with one or more controls",
+"tags": [
+  ]},
 { "name": "org.apache.royale.jewel.Grid",
   "description": "The Grid class is a container that uses Grid Layout. Grid Layout need other immediate children to work as cells to host cell content.",
 "tags": [
@@ -17492,7 +17568,9 @@
     {  "tagName": "langversion",
        "values": ["3.0", "3.0"]}  ]},
 { "name": "org.apache.royale.jewel.WizardPage",
-  "description": "WizardPage is the main class for a page inside the WizardContent"},
+  "description": "WizardPage is the main class for a page inside the WizardContent",
+"tags": [
+  ]},
 { "name": "org.apache.royale.jewel.beads.controllers.AlertController",
   "description": "The AlertControler class bead handles the close event on the org.apache.royale.jewwl.Alert by removing the org.apache.royale.jewel.Alert from the display.",
 "tags": [
@@ -18223,9 +18301,13 @@
     {  "tagName": "langversion",
        "values": ["3.0", "3.0"]}  ]},
 { "name": "org.apache.royale.jewel.beads.controls.tristatecheckbox.TriStateCheckBoxLabelState",
-  "description": "The TriStateCheckBoxLabelState bead allows us to display a different Text for each state."},
+  "description": "The TriStateCheckBoxLabelState bead allows us to display a different Text for each state.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.jewel.beads.controls.tristatecheckbox.TriStateCheckBoxState",
-  "description": "The TriStateCheckBoxState bead allows to set a custom value for each state."},
+  "description": "The TriStateCheckBoxState bead allows to set a custom value for each state.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.jewel.beads.controls.tristatecheckbox.TriStateCheckBoxTooltipState",
   "description": ""},
 { "name": "org.apache.royale.jewel.beads.itemRenderers.ButtonBarItemRendererInitializer",
@@ -18238,7 +18320,9 @@
     {  "tagName": "langversion",
        "values": ["3.0", "3.0"]}  ]},
 { "name": "org.apache.royale.jewel.beads.itemRenderers.CRUDTableItemRendererFactoryForCollectionView",
-  "description": "This class creates itemRenderer instances from the data contained within an ICollectionView and generates the appropiate table structure with thead, tbody and table rows and cells to hold the columns and data in cells."},
+  "description": "This class creates itemRenderer instances from the data contained within an ICollectionView and generates the appropiate table structure with thead, tbody and table rows and cells to hold the columns and data in cells.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.jewel.beads.itemRenderers.ClassSelectorListHoverOnlySelectableItemRendererBead",
   "description": "UnselectableElement bead prevents selection but can be hovered",
 "tags": [
@@ -18280,7 +18364,9 @@
     {  "tagName": "langversion",
        "values": ["3.0", "3.0"]}  ]},
 { "name": "org.apache.royale.jewel.beads.itemRenderers.DropDownListItemRendererFactoryForCollectionView",
-  "description": "This class creates itemRenderer instances from the data contained within an ICollectionView"},
+  "description": "This class creates itemRenderer instances from the data contained within an ICollectionView",
+"tags": [
+  ]},
 { "name": "org.apache.royale.jewel.beads.itemRenderers.DropDownListItemRendererInitializer",
   "description": "The DropDownListItemRendererInitializer class initializes item renderers in DropDownList classes.",
 "tags": [
@@ -18385,7 +18471,9 @@
     {  "tagName": "langversion",
        "values": ["3.0", "3.0"]}  ]},
 { "name": "org.apache.royale.jewel.beads.itemRenderers.TableItemRendererFactoryForCollectionView",
-  "description": "This class creates itemRenderer instances from the data contained within an ICollectionView and generates the appropiate table structure with thead, tbody and table rows and cells to hold the columns and data in cells."},
+  "description": "This class creates itemRenderer instances from the data contained within an ICollectionView and generates the appropiate table structure with thead, tbody and table rows and cells to hold the columns and data in cells.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.jewel.beads.itemRenderers.TableItemRendererInitializer",
   "description": "The TableItemRendererInitializer class initializes item renderers in Table component.  By Default this works the same as ListItemRendererInitializer, but create a placeholder for it.",
 "tags": [
@@ -18461,7 +18549,9 @@
     {  "tagName": "langversion",
        "values": ["3.0", "3.0"]}  ]},
 { "name": "org.apache.royale.jewel.beads.layouts.GapConstants",
-  "description": "Jewel GapConstants must to be synced with _layout.sass values"},
+  "description": "Jewel GapConstants must to be synced with _layout.sass values",
+"tags": [
+  ]},
 { "name": "org.apache.royale.jewel.beads.layouts.GridCellLayout",
   "description": "The GridCellLayout class is the layout used for childrens in a Grid",
 "tags": [
@@ -18508,9 +18598,13 @@
     {  "tagName": "langversion",
        "values": ["3.0", "3.0"]}  ]},
 { "name": "org.apache.royale.jewel.beads.layouts.IGap",
-  "description": "Jewel IGap is the interface used by Jewel Layouts that implement gaps."},
+  "description": "Jewel IGap is the interface used by Jewel Layouts that implement gaps.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.jewel.beads.layouts.IVariableRowHeight",
-  "description": "Jewel IVariableRowHeight is the interface used by Jewel Layouts that implement gaps."},
+  "description": "Jewel IVariableRowHeight is the interface used by Jewel Layouts that implement gaps.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.jewel.beads.layouts.LayoutChildren",
   "description": "The LayoutChildren class is an ILayoutChildren implememntation that indicates layout classes like StyledLayoutBase to layout childrens",
 "tags": [
@@ -19250,9 +19344,13 @@
     {  "tagName": "langversion",
        "values": ["3.0", "3.0"]}  ]},
 { "name": "org.apache.royale.jewel.events.DroppedEvent",
-  "description": "Programmatic (not user/UI) based wizard navigation events."},
+  "description": "Programmatic (not user/UI) based wizard navigation events.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.jewel.events.WizardEvent",
-  "description": "Programmatic (not user/UI) based wizard navigation events."},
+  "description": "Programmatic (not user/UI) based wizard navigation events.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.jewel.itemRenderers.AlternateRowColorTableItemRendererInitializer",
   "description": "Note: This is just an experiment. Better use TableAlternateRowColor  The TableItemRendererInitializer class initializes item renderers in Table component.  By Default this works the same as ListItemRendererInitializer, but create a placeholder for it.",
 "tags": [
@@ -19681,7 +19779,9 @@
     {  "tagName": "royalesuppressexport",
        "values": []}  ]},
 { "name": "org.apache.royale.jewel.supportClasses.datagrid.IDataGridColumn",
-  "description": "Jewel IDataGridColumn is the interface used by components that define a column for data grid type components.  Define which renderer to use for each cell in the column, and other optional data like the width, the label (used in header), and the name of the field in the data containing the value to display in the column (for the simplest ItemRenderer)."},
+  "description": "Jewel IDataGridColumn is the interface used by components that define a column for data grid type components.  Define which renderer to use for each cell in the column, and other optional data like the width, the label (used in header), and the name of the field in the data containing the value to display in the column (for the simplest ItemRenderer).",
+"tags": [
+  ]},
 { "name": "org.apache.royale.jewel.supportClasses.datagrid.IDataGridColumnList",
   "description": "The Jewel IDataGridColumnList interface is a marker interface for Jewel DataGrid Column Lists",
 "tags": [
@@ -19833,7 +19933,9 @@
     {  "tagName": "langversion",
        "values": ["3.0", "3.0"]}  ]},
 { "name": "org.apache.royale.jewel.supportClasses.table.ITableColumn",
-  "description": "Jewel ITableColumn is the interface used by Jewel TableColumn in the Jewel Table.  Define which renderer to use for each cell in the table, and other optional data like the width, the label (used in header), and the name of the field in the data containing the value to display in the column (for the simplest ItemRenderer)."},
+  "description": "Jewel ITableColumn is the interface used by Jewel TableColumn in the Jewel Table.  Define which renderer to use for each cell in the table, and other optional data like the width, the label (used in header), and the name of the field in the data containing the value to display in the column (for the simplest ItemRenderer).",
+"tags": [
+  ]},
 { "name": "org.apache.royale.jewel.supportClasses.table.TBody",
   "description": "The TBody class is a building block of Jewel SimpleTable and Table components, is used in TableView and represents an HTML <tbody> element",
 "tags": [
@@ -21256,7 +21358,9 @@
     {  "tagName": "langversion",
        "values": ["3.0", "3.0"]}  ]},
 { "name": "org.apache.royale.mobile.TitleView",
-  "description": "The TitleView class represents a view in a mobile app that has a title and is typically used in a ViewManager."},
+  "description": "The TitleView class represents a view in a mobile app that has a title and is typically used in a ViewManager.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.mobile.ToggleSwitch",
   "description": "The ToggleSwitch is a UI control that displays on/off or yes/no states.",
 "tags": [
@@ -21395,7 +21499,9 @@
     {  "tagName": "langversion",
        "values": ["3.0", "3.0"]}  ]},
 { "name": "org.apache.royale.net.CompressedRemoteObject",
-  "description": "A RemoteObject that performs automatic serialization/deserialization of results.  It deserializes the compressed ByteArray in order to optimize the transfer time. TOOD improve to serialize the sending."},
+  "description": "A RemoteObject that performs automatic serialization/deserialization of results.  It deserializes the compressed ByteArray in order to optimize the transfer time. TOOD improve to serialize the sending.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.net.HTTPConstants",
   "description": ""},
 { "name": "org.apache.royale.net.HTTPHeader",
@@ -21425,11 +21531,15 @@
 { "name": "org.apache.royale.net.HTTPUtils",
   "description": ""},
 { "name": "org.apache.royale.net.RemoteObject",
-  "description": "This is the RemoteObject that has a similar behaviour that Flex RemoteObject and can be use with BlazeDS, LCDS or CF backends"},
+  "description": "This is the RemoteObject that has a similar behaviour that Flex RemoteObject and can be use with BlazeDS, LCDS or CF backends",
+"tags": [
+  ]},
 { "name": "org.apache.royale.net.Responder",
   "description": ""},
 { "name": "org.apache.royale.net.SimpleRemoteObject",
-  "description": "This is the most simple implementation os a RemoteObject it can be use with simple backends like AMFPHP. To use with BlazeDS better us RemoteObject since it manages clientId and small messages"},
+  "description": "This is the most simple implementation os a RemoteObject it can be use with simple backends like AMFPHP. To use with BlazeDS better us RemoteObject since it manages clientId and small messages",
+"tags": [
+  ]},
 { "name": "org.apache.royale.net.URLBinaryLoader",
   "description": "The URLBinaryLoader class is a relatively low-level class designed to get binary data over HTTP the intent is to create similar classes for text and URL vars.",
 "tags": [
@@ -21589,9 +21699,13 @@
     {  "tagName": "langversion",
        "values": ["3.0", "3.0"]}  ]},
 { "name": "org.apache.royale.net.remoting.Operation",
-  "description": "used by RemoteObject implementation"},
+  "description": "used by RemoteObject implementation",
+"tags": [
+  ]},
 { "name": "org.apache.royale.net.remoting.SimpleOperation",
-  "description": "used by SimpleRemoteObject implementation"},
+  "description": "used by SimpleRemoteObject implementation",
+"tags": [
+  ]},
 { "name": "org.apache.royale.net.remoting.amf.AMF0NetConnection",
   "description": "Send data via AMF to a server.",
 "tags": [
@@ -21959,7 +22073,9 @@
     {  "tagName": "langversion",
        "values": ["3.0", "3.0"]}  ]},
 { "name": "org.apache.royale.routing.ComponentRoute",
-  "description": "ComponentRoutes are declared in RouteToComponent beads. This maps a base name of a route path to a component class."},
+  "description": "ComponentRoutes are declared in RouteToComponent beads. This maps a base name of a route path to a component class.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.routing.EscapedFragmentBead",
   "description": "The EscapedFragmentBead class handles a special URL parameter that Google Search Crawlers use to verify search results.  This technique is deprecated so use of this bead should be obsolete by 2nd quarter 2018.",
 "tags": [
@@ -21997,13 +22113,17 @@
     {  "tagName": "langversion",
        "values": ["3.0", "3.0"]}  ]},
 { "name": "org.apache.royale.routing.IPathRouteBead",
-  "description": "Marker interface for a bead which parses the path part of path part of a route"},
+  "description": "Marker interface for a bead which parses the path part of path part of a route",
+"tags": [
+  ]},
 { "name": "org.apache.royale.routing.IRouter",
   "description": ""},
 { "name": "org.apache.royale.routing.LinkInterceptor",
   "description": ""},
 { "name": "org.apache.royale.routing.ParameterRoute",
-  "description": "ParameterRoutes are declared in (or added to) RouteToParamter beads. If the key exists in thge parameters, the callback will be called with the value as the argument to the function."},
+  "description": "ParameterRoutes are declared in (or added to) RouteToParamter beads. If the key exists in thge parameters, the callback will be called with the value as the argument to the function.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.routing.PathRouteBead",
   "description": ""},
 { "name": "org.apache.royale.routing.RouteState",
@@ -22011,7 +22131,9 @@
 { "name": "org.apache.royale.routing.RouteTitleLookup",
   "description": ""},
 { "name": "org.apache.royale.routing.RouteToComponent",
-  "description": "RouteToComponent is a bead designed for IRouter One or more routes should be assigned to the bead"},
+  "description": "RouteToComponent is a bead designed for IRouter One or more routes should be assigned to the bead",
+"tags": [
+  ]},
 { "name": "org.apache.royale.routing.RouteToParameters",
   "description": ""},
 { "name": "org.apache.royale.routing.RouteToState",
@@ -22173,11 +22295,17 @@
     {  "tagName": "langversion",
        "values": ["3.0", "3.0"]}  ]},
 { "name": "org.apache.royale.storage.file.IDataInput",
-  "description": "The File class provides access to a specific file on the device."},
+  "description": "The File class provides access to a specific file on the device.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.storage.file.IDataOutput",
-  "description": "The File class provides access to a specific file on the device."},
+  "description": "The File class provides access to a specific file on the device.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.storage.file.IDataStream",
-  "description": "The File class provides access to a specific file on the device."},
+  "description": "The File class provides access to a specific file on the device.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.storage.providers.AirStorageProvider",
   "description": "The AirStorageProvider class implements the IPermanentStorageProvider interface for saving files to a mobile device using the Adobe(tm) AIR platform.",
 "tags": [
@@ -22308,7 +22436,9 @@
     {  "tagName": "langversion",
        "values": ["3.0", "3.0"]}  ]},
 { "name": "org.apache.royale.svg.CompoundGraphic",
-  "description": "CompoundGraphic is a surface on which you can draw various graphic elements such as Rect, Circle, Ellipse, Path etc. Use this class if you want to draw multiple graphic shapes on a single container."},
+  "description": "CompoundGraphic is a surface on which you can draw various graphic elements such as Rect, Circle, Ellipse, Path etc. Use this class if you want to draw multiple graphic shapes on a single container.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.svg.DOMWrapper",
   "description": ""},
 { "name": "org.apache.royale.svg.DiffuseLightingFilterElement",
@@ -22368,7 +22498,9 @@
     {  "tagName": "langversion",
        "values": ["3.0", "3.0"]}  ]},
 { "name": "org.apache.royale.svg.GraphicContainer",
-  "description": "The default property uses when additional MXML content appears within an element's definition in an MXML file."},
+  "description": "The default property uses when additional MXML content appears within an element's definition in an MXML file.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.svg.GraphicShape",
   "description": ""},
 { "name": "org.apache.royale.svg.IChainableFilter",
@@ -22538,32 +22670,52 @@
 { "name": "org.apache.royale.svg.elements.Use",
   "description": ""},
 { "name": "org.apache.royale.test.Assert",
-  "description": "A set of assertion methods. Messages only displayed when an assert fails."},
+  "description": "A set of assertion methods. Messages only displayed when an assert fails.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.test.AssertionError",
   "description": "Error class used when assertions fail.",
 "tags": [
 {  "tagName": "see",
        "values": ["org.apache.royale.test.Assert", "org.apache.royale.test.Assert"]}  ]},
 { "name": "org.apache.royale.test.RoyaleUnitCore",
-  "description": "Simple entry point for running tests."},
+  "description": "Simple entry point for running tests.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.test.Runtime",
   "description": ""},
 { "name": "org.apache.royale.test.async.Async",
-  "description": "Helper functions for tests marked with <code>[Test(async)]</code> metadata."},
+  "description": "Helper functions for tests marked with <code>[Test(async)]</code> metadata.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.test.async.AsyncLocator",
-  "description": "Used for tests with <code>[Test(async)]</code> metadata."},
+  "description": "Used for tests with <code>[Test(async)]</code> metadata.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.test.async.IAsyncHandler",
-  "description": "Used for tests with <code>[Test(async)]</code> metadata."},
+  "description": "Used for tests with <code>[Test(async)]</code> metadata.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.test.bdd.IExpect",
-  "description": "Interface for BDD-style natural language assertions that may be chained together."},
+  "description": "Interface for BDD-style natural language assertions that may be chained together.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.test.listeners.BrowserConsoleListener",
-  "description": "Outputs the status of a test run to the debug console."},
+  "description": "Outputs the status of a test run to the debug console.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.test.listeners.CIListener",
-  "description": "Communicates with a socket server to integrate RoyaleUnit tests with a build system, such as <a href=&quot;https://apache.github.io/royale-docs/testing/royaleunit/run-unit-tests-with-ant&quot;>Apache Ant</a>."},
+  "description": "Communicates with a socket server to integrate RoyaleUnit tests with a build system, such as <a href=&quot;https://apache.github.io/royale-docs/testing/royaleunit/run-unit-tests-with-ant&quot;>Apache Ant</a>.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.test.listeners.FailureListener",
-  "description": "Determine if a test run fails or not."},
+  "description": "Determine if a test run fails or not.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.test.listeners.TraceListener",
-  "description": "Outputs the status of a test run to the debug console."},
+  "description": "Outputs the status of a test run to the debug console.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.test.runners.ITestRunner",
   "description": "An interface for test runner implementations, such as <code>MetadataRunner</code> and <code>SuiteRunner</code>.",
 "tags": [
@@ -22580,19 +22732,33 @@
 {  "tagName": "see",
        "values": ["org.apache.royale.test.runners.SuiteRunner", "org.apache.royale.test.runners.SuiteRunner"]}  ]},
 { "name": "org.apache.royale.test.runners.SuiteRunner",
-  "description": "A runner for test suites.  <p>Test suites should be annotated with <code>[Suite]</code> and <code>[RunWith(&quot;org.apache.royale.test.runners.SuiteRunner&quot;)]</code> metadata. To add test classes to the suite, define a public variable for each class, using the class as the variable type. You may also add other suite classes in the same way.</p>"},
+  "description": "A runner for test suites.  <p>Test suites should be annotated with <code>[Suite]</code> and <code>[RunWith(&quot;org.apache.royale.test.runners.SuiteRunner&quot;)]</code> metadata. To add test classes to the suite, define a public variable for each class, using the class as the variable type. You may also add other suite classes in the same way.</p>",
+"tags": [
+  ]},
 { "name": "org.apache.royale.test.runners.notification.Failure",
-  "description": "The result of a failed test."},
+  "description": "The result of a failed test.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.test.runners.notification.IAsyncStartupRunListener",
-  "description": "A listener that requires extra time to startup."},
+  "description": "A listener that requires extra time to startup.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.test.runners.notification.IRunListener",
-  "description": "Responds to events that occur during a test run."},
+  "description": "Responds to events that occur during a test run.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.test.runners.notification.IRunNotifier",
-  "description": "Listens for notifications from an <code>ITestRunner</code>."},
+  "description": "Listens for notifications from an <code>ITestRunner</code>.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.test.runners.notification.Result",
-  "description": "The result of a test run."},
+  "description": "The result of a test run.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.test.runners.notification.RunNotifier",
-  "description": "Listens for notifications from an <code>ITestRunner</code>."},
+  "description": "Listens for notifications from an <code>ITestRunner</code>.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.text.engine.BreakOpportunity",
   "description": ""},
 { "name": "org.apache.royale.text.engine.CFFHinting",
@@ -22751,16 +22917,22 @@
     {  "tagName": "langversion",
        "values": ["3.0", "3.0"]}  ]},
 { "name": "org.apache.royale.textLayout.compose.BaseCompose",
-  "description": "Common composer base class"},
+  "description": "Common composer base class",
+"tags": [
+  ]},
 { "name": "org.apache.royale.textLayout.compose.ComposeState",
   "description": "Keeps track of internal state during composition.  This is the simpler version, used when there are no floats, no wraps, no columns.",
 "tags": [
 {  "tagName": "private",
        "values": []}  ]},
 { "name": "org.apache.royale.textLayout.compose.FactoryComposer",
-  "description": "@private FactoryDisplayComposer - overridable"},
+  "description": "@private FactoryDisplayComposer - overridable",
+"tags": [
+  ]},
 { "name": "org.apache.royale.textLayout.compose.FloatCompositionData",
-  "description": "Contains information about the float that was generated by composition, and is used for composing and updating"},
+  "description": "Contains information about the float that was generated by composition, and is used for composing and updating",
+"tags": [
+  ]},
 { "name": "org.apache.royale.textLayout.compose.FlowComposerBase",
   "description": "The FlowComposerBase class is the base class for Text Layout Framework flow composer classes, which control the composition of text lines in ContainerController objects.  <p>FlowComposerBase is a utility class that implements methods and properties that are common to several types of flow composer. Application code would not typically instantiate or use this class (unless extending it to create a custom flow composer).</p>",
 "tags": [
@@ -22820,7 +22992,9 @@
 {  "tagName": "private",
        "values": []}  ]},
 { "name": "org.apache.royale.textLayout.compose.ParcelList",
-  "description": "@private Used for composing text containers, keeps track of the areas that text in the flow is composed into.  ParcelList will always have one parcel, which corresponds to the container's bounding box."},
+  "description": "@private Used for composing text containers, keeps track of the areas that text in the flow is composed into.  ParcelList will always have one parcel, which corresponds to the container's bounding box.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.textLayout.compose.SWFContext",
   "description": ""},
 { "name": "org.apache.royale.textLayout.compose.SimpleCompose",
@@ -22829,7 +23003,9 @@
 {  "tagName": "private",
        "values": []}  ]},
 { "name": "org.apache.royale.textLayout.compose.Slug",
-  "description": "A Slug is geomtrical line information, generated by a Parcel. It has data required for composition."},
+  "description": "A Slug is geomtrical line information, generated by a Parcel. It has data required for composition.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.textLayout.compose.StandardFlowComposer",
   "description": "The StandardFlowComposer class provides a standard composer and container manager.  <p>Each call to <code>compose()</code> or <code>updateAllControllers()</code> normalizes the text flow as a first step. The normalizing process checks the parts of the TextFlow object that were modified and takes the following steps: <ol> <li> Deletes empty FlowLeafElement and SubParagraphGroupElement objects.</li> <li> Merges sibling spans that have identical attributes.</li> <li> Adds an empty paragraph if a flow is empty.</li> </ol> </p>  <p>To use a StandardFlowComposer, assign it to the <code>flowComposer</code> property of a TextFlow object. Call the <code>updateAllControllers()</code> method to lay out and display the text in the containers attached to the flow composer.</p>  <p><b>Note:</b> For simple, static text flows, you can also use the one of the text line factory classes. These factory classes will typically create lines with less overhead than a flow composer, but do not support editing, dynamic changes, or user interaction.</p>",
 "tags": [
@@ -22858,7 +23034,9 @@
     {  "tagName": "langversion",
        "values": ["3.0", "3.0"]}  ]},
 { "name": "org.apache.royale.textLayout.compose.TextFlowTableBlock",
-  "description": ""},
+  "description": "",
+"tags": [
+  ]},
 { "name": "org.apache.royale.textLayout.compose.TextLineRecycler",
   "description": "The TextLineRecycler class provides support for recycling of TextLines.  Some player versions support a recreateTextLine.  Passing TextLines to the recycler makes them available for reuse.  This improves Player performance.",
 "tags": [
@@ -22867,7 +23045,9 @@
     {  "tagName": "langversion",
        "values": ["3.0", "3.0"]}  ]},
 { "name": "org.apache.royale.textLayout.compose.VerticalJustifier",
-  "description": "@private Adjust line positions according to verticalAlign settings.  Vertical alignment is perpendicular to the linebreak direction."},
+  "description": "@private Adjust line positions according to verticalAlign settings.  Vertical alignment is perpendicular to the linebreak direction.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.textLayout.compose.utils.AdornmentUtils",
   "description": ""},
 { "name": "org.apache.royale.textLayout.compose.utils.ContextUtil",
@@ -22936,7 +23116,9 @@
     {  "tagName": "langversion",
        "values": ["3.0", "3.0"]}  ]},
 { "name": "org.apache.royale.textLayout.conversion.BaseTextLayoutExporter",
-  "description": "Base export converter for TextLayout format."},
+  "description": "Base export converter for TextLayout format.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.textLayout.conversion.ConversionConstants",
   "description": ""},
 { "name": "org.apache.royale.textLayout.conversion.ConversionType",
@@ -22963,7 +23145,9 @@
     {  "tagName": "langversion",
        "values": ["3.0", "3.0"]}  ]},
 { "name": "org.apache.royale.textLayout.conversion.IFormatImporter",
-  "description": "Interface for exporting text content from a TextFlow to either a String or XML."},
+  "description": "Interface for exporting text content from a TextFlow to either a String or XML.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.textLayout.conversion.IHTMLImporter",
   "description": "This interface should be implemented by converters that import HTML or HTML-structured data. Clients that have explicitly created an importer using TextConverter.getImporter may control the import process by calling into these methods on the importer.",
 "tags": [
@@ -23050,7 +23234,9 @@
 {  "tagName": "private",
        "values": []}  ]},
 { "name": "org.apache.royale.textLayout.conversion.importers.CaseInsensitiveTLFFormatImporter",
-  "description": "Specialized to provide case insensitivity (as required by TEXT_FIELD_HTML_FORMAT) Keys need to be lower-cased. Values may or may not based on a flag passed to the constructor."},
+  "description": "Specialized to provide case insensitivity (as required by TEXT_FIELD_HTML_FORMAT) Keys need to be lower-cased. Values may or may not based on a flag passed to the constructor.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.textLayout.conversion.importers.FontImporter",
   "description": ""},
 { "name": "org.apache.royale.textLayout.conversion.importers.HtmlCustomParaFormatImporter",
@@ -23058,7 +23244,9 @@
 { "name": "org.apache.royale.textLayout.conversion.importers.TextFormatImporter",
   "description": ""},
 { "name": "org.apache.royale.textLayout.debug.Debugging",
-  "description": "@private"},
+  "description": "@private",
+"tags": [
+  ]},
 { "name": "org.apache.royale.textLayout.dummy.BitmapData",
   "description": ""},
 { "name": "org.apache.royale.textLayout.dummy.BoundsUtil",
@@ -23102,7 +23290,9 @@
     {  "tagName": "langversion",
        "values": ["3.0", "3.0"]}  ]},
 { "name": "org.apache.royale.textLayout.edit.ElementMark",
-  "description": "@private - Marks an element by its position in the hierarchy."},
+  "description": "@private - Marks an element by its position in the hierarchy.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.textLayout.edit.ElementRange",
   "description": "The ElementRange class represents the range of objects selected within a text flow.  <p>The beginning elements (such as <code>firstLeaf</code>) are always less than or equal to the end elements (in this case, <code>lastLeaf</code>) for each pair of values in an element range.</p>",
 "tags": [
@@ -23147,7 +23337,9 @@
     {  "tagName": "langversion",
        "values": ["3.0", "3.0"]}  ]},
 { "name": "org.apache.royale.textLayout.edit.Mark",
-  "description": "@private - not ready for prime time"},
+  "description": "@private - not ready for prime time",
+"tags": [
+  ]},
 { "name": "org.apache.royale.textLayout.edit.MementoList",
   "description": "The MementoList class is a meta-memento.  It encapuslates the concept of having a sequence of mementos behave as a memento.",
 "tags": [
@@ -23253,7 +23445,9 @@
 { "name": "org.apache.royale.textLayout.edit.mementos.TextRangeMemento",
   "description": ""},
 { "name": "org.apache.royale.textLayout.elements.BackgroundManager",
-  "description": "@private Manages bounds calculation and rendering of backgroundColor character format."},
+  "description": "@private Manages bounds calculation and rendering of backgroundColor character format.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.textLayout.elements.BreakElement",
   "description": "The BreakElement class defines a line break, which provides for creating a line break in the text without creating a new paragraph. It inserts a U+2028 character in the text of the paragraph.  <p><strong>Note</strong>: This class exists primarily to support break <br/> tags in MXML markup. To create line breaks, you can add newline characters (\\n) directly into the text like this:</p>  <listing version=&quot;3.0&quot; > spanElement1.text += '\\n'; </listing>  In markup, either FXG, TEXT_LAYOUT_FORMAT or MXML, you can simply insert a <br/> where you want the break.",
 "tags": [
@@ -23266,7 +23460,9 @@
 { "name": "org.apache.royale.textLayout.elements.CellContainer",
   "description": ""},
 { "name": "org.apache.royale.textLayout.elements.CellCoordinates",
-  "description": "Describes the location of table cell by row and column"},
+  "description": "Describes the location of table cell by row and column",
+"tags": [
+  ]},
 { "name": "org.apache.royale.textLayout.elements.CellRange",
   "description": "A read only class that describes a range of contiguous table cells. Such a range occurs when you select a section of table cells. The range consists of the anchor point of the selection, <code>anchorPosition</code>, and the point that is to be modified by actions, <code>activePosition</code>.  As block selections are modified and extended <code>anchorPosition</code> remains fixed and <code>activePosition</code> is modified. The anchor position may be placed in the text before or after the active position.",
 "tags": [
@@ -23341,7 +23537,9 @@
     {  "tagName": "langversion",
        "values": ["3.0", "3.0"]}  ]},
 { "name": "org.apache.royale.textLayout.elements.FlowValueHolder",
-  "description": "This class extends TextLayoutFormat and add capabilities to hold privateData and userStyles.  @private"},
+  "description": "This class extends TextLayoutFormat and add capabilities to hold privateData and userStyles.  @private",
+"tags": [
+  ]},
 { "name": "org.apache.royale.textLayout.elements.GlobalSettings",
   "description": "Configuration that applies to all TextFlow objects.",
 "tags": [
@@ -23560,7 +23758,9 @@
     {  "tagName": "langversion",
        "values": ["3.0", "3.0"]}  ]},
 { "name": "org.apache.royale.textLayout.elements.TableBlockContainer",
-  "description": "The sprite that contains the table cells."},
+  "description": "The sprite that contains the table cells.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.textLayout.elements.TableBodyElement",
   "description": "<p> TableBodyElement is an item in a TableElement. It most commonly contains one or more TableRowElement objects, A TableBodyElement always appears within a TableElement.</p>",
 "tags": [
@@ -23663,7 +23863,9 @@
 { "name": "org.apache.royale.textLayout.events.EditEvent",
   "description": ""},
 { "name": "org.apache.royale.textLayout.events.FlowElementEventDispatcher",
-  "description": "The ElementEventDispatcher class adds a simple tracking counter for event listeners to the core EventDispatcher class. This variable is tlf_internal, so internal code can check quickly if an EventDispatcher has any listeners attached at all."},
+  "description": "The ElementEventDispatcher class adds a simple tracking counter for event listeners to the core EventDispatcher class. This variable is tlf_internal, so internal code can check quickly if an EventDispatcher has any listeners attached at all.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.textLayout.events.FlowElementMouseEvent",
   "description": "A link element dispatches this event when it detects mouse activity. The Text Layout Framework includes this special version of mouse events because mouse events are generally unwanted when a flow element is embedded in an editable text flow, and because link elements are not in the display list (they are not DisplayObjects). <p>You can add an event listener to a link element to listen for this type of event. If you choose to cancel the event by calling <code>Event.preventDefault()</code>, the default behavior associated with the event will not occur. </p> <p>If you choose not to add an event listener to the link element, or your event listener function does not cancel the behavior, the event is again dispatched, but this time by the link element's associated TextFlow instance rather than by the link element itself. This provides a second opportunity to listen for this event with an event listener attached to the TextFlow. </p> <p>FlowElementMouseEvents are dispatched only when the text cannot be edited or when the control key is pressed concurrently with the mouse activity.</p> <p> The following six event types are dispatched only when the text cannot be edited or when the control key is pressed: <ul> <li><code>FlowElementMouseEvent.CLICK</code></li> <li><code>FlowElementMouseEvent.MOUSE_DOWN</code></li> <li><code>FlowElementMouseEvent.MOUSE_UP</code></li> <li><code>FlowElementMouseEvent.MOUSE_MOVE</code></li> <li><code>FlowElementMouseEvent.ROLL_OVER</code></li> <li><code>FlowElementMouseEvent.ROLL_OUT</code></li> </ul> </p>",
 "tags": [
@@ -23674,7 +23876,9 @@
     {  "tagName": "langversion",
        "values": ["3.0", "3.0"]}  ]},
 { "name": "org.apache.royale.textLayout.events.FlowElementMouseEventManager",
-  "description": "The ElementMouseEventManager class provides mouse element processing for visible FlowElements. The caller calls updateHitTests(), which traverses the FlowElement tree in the given character range, and collects hit test rectangles for FlowElements with active event mirrors, and LinkElements. The latter class exposes a number of mouse event handlers that this class calls directly. If no character range is supplied, the class makes an educated guess about the visible character range by inspecting the TextLine instances connected to the container widget as children.  In edit mode, moving the mouse over the element and clicking it should not activate it, but rather allow for editing. Passing in the value true as an argument to updateHitTests() requires the Ctrl key to be held down in order to pass mouse events on the FlowElements. If the user presses or releases the Ctrl key while the mouse is over the container widget (and the pressing of the Ctrl key is required for activation, the class simulates mouseOut and mouseOver events to inform the FlowElement underneath about the change. The class dispatches only FlowElementMouseEvents.  This class emits click events if the main mouse button is pressed and released over the same FlowElement.  The owner may choose to forward several mouse and keyboard events to this class so it does not need to listen to these events at the container itself. The constructor takes an array of event names that this class needs to listen to itself. The events that this class needs to listen to are MouseEvent.MOUSE_OVER, MouseEvent.MOUSE_OUT, MouseEvent.MOUSE_DOWN, MouseEvent.MOUSE_UP, MouseEvent.MOUSE_MOVE, KeyboardEvent.KEY_DOWN, and KeyboardEvent.KEY_UP. Note that MouseEvent.CLICK is not needed."},
+  "description": "The ElementMouseEventManager class provides mouse element processing for visible FlowElements. The caller calls updateHitTests(), which traverses the FlowElement tree in the given character range, and collects hit test rectangles for FlowElements with active event mirrors, and LinkElements. The latter class exposes a number of mouse event handlers that this class calls directly. If no character range is supplied, the class makes an educated guess about the visible character range by inspecting the TextLine instances connected to the container widget as children.  In edit mode, moving the mouse over the element and clicking it should not activate it, but rather allow for editing. Passing in the value true as an argument to updateHitTests() requires the Ctrl key to be held down in order to pass mouse events on the FlowElements. If the user presses or releases the Ctrl key while the mouse is over the container widget (and the pressing of the Ctrl key is required for activation, the class simulates mouseOut and mouseOver events to inform the FlowElement underneath about the change. The class dispatches only FlowElementMouseEvents.  This class emits click events if the main mouse button is pressed and released over the same FlowElement.  The owner may choose to forward several mouse and keyboard events to this class so it does not need to listen to these events at the container itself. The constructor takes an array of event names that this class needs to listen to itself. The events that this class needs to listen to are MouseEvent.MOUSE_OVER, MouseEvent.MOUSE_OUT, MouseEvent.MOUSE_DOWN, MouseEvent.MOUSE_UP, MouseEvent.MOUSE_MOVE, KeyboardEvent.KEY_DOWN, and KeyboardEvent.KEY_UP. Note that MouseEvent.CLICK is not needed.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.textLayout.events.FlowOperationEvent",
   "description": "A TextFlow instance dispatches this event just before an operation commences and again just after an operation completes. Although the event object dispatched in both cases is an instance of FlowOperationEvent, the events dispatched before and after an operation differ in significant ways.  <p>Before any operation is carried out, a TextFlow object dispatches a FlowOperationEvent with its <code>type</code> property set to <code>FlowOperationEvent.FLOW_OPERATION_BEGIN.</code> You can determine what type of operation is about to commence by checking the <code>operation</code> property. Events of type FLOW_OPERATION_BEGIN are cancellable, which means that if you decide that the operation should not proceed, you can call <code>Event.PreventDefault()</code> to cancel the operation. If you cancel the operation, the operation is not performed and the FLOW_OPERATION_END event is not dispatched. You may also choose to call back into the EditManager to do another operation before the operation that triggered the event is done. If you do this, the operations you initiate in your event handler will be undone as a single operation with the operation that triggered the event.</p>  <p>If you allow the operation to proceed, TextFlow will dispatch a FlowOperationEvent upon completion of the operation with its <code>type</code> property set to <code>FlowOperationEvent.FLOW_OPERATION_END</code>. This event is dispatched before Flash Player throws any errors that may have occurred as a result of the operation. This gives you an opportunity to process the error before Flash Player throws the error. You can access the error through the event's <code>error</code> property. If you choose to handle the error in your event handler, you can prevent Flash Player from throwing the error by cancelling the FLOW_OPERATION_END event by calling <code>Event.preventDefault()</code>. You may also choose to call back into the EditManager to do some additional operations. If you do this, the operations that result will be undone as a unit with the operation that triggered the event. </p>",
 "tags": [
@@ -23687,7 +23891,9 @@
 { "name": "org.apache.royale.textLayout.events.FocusEvent",
   "description": ""},
 { "name": "org.apache.royale.textLayout.events.ModelChange",
-  "description": "ModelChange values.  These are various types of model change. @private"},
+  "description": "ModelChange values.  These are various types of model change. @private",
+"tags": [
+  ]},
 { "name": "org.apache.royale.textLayout.events.ScrollEvent",
   "description": "Represents events that are dispatched when the TextFlow does automatic scrolling.",
 "tags": [
@@ -24346,27 +24552,41 @@
     {  "tagName": "langversion",
        "values": ["3.0", "3.0"]}  ]},
 { "name": "org.apache.royale.textLayout.property.ArrayProperty",
-  "description": "A property description with an Array value.@private"},
+  "description": "A property description with an Array value.@private",
+"tags": [
+  ]},
 { "name": "org.apache.royale.textLayout.property.BooleanPropertyHandler",
-  "description": "A property description with a Boolean value. @private"},
+  "description": "A property description with a Boolean value. @private",
+"tags": [
+  ]},
 { "name": "org.apache.royale.textLayout.property.CounterContentHandler",
   "description": ""},
 { "name": "org.apache.royale.textLayout.property.CounterPropHandler",
   "description": ""},
 { "name": "org.apache.royale.textLayout.property.EnumPropertyHandler",
-  "description": "An property description with an enumerated string as its value. @private"},
+  "description": "An property description with an enumerated string as its value. @private",
+"tags": [
+  ]},
 { "name": "org.apache.royale.textLayout.property.FormatPropertyHandler",
   "description": ""},
 { "name": "org.apache.royale.textLayout.property.IntPropertyHandler",
-  "description": "A property description with a Number as its value. @private"},
+  "description": "A property description with a Number as its value. @private",
+"tags": [
+  ]},
 { "name": "org.apache.royale.textLayout.property.NumberPropertyHandler",
-  "description": "A property description with a Number as its value. @private"},
+  "description": "A property description with a Number as its value. @private",
+"tags": [
+  ]},
 { "name": "org.apache.royale.textLayout.property.PercentPropertyHandler",
-  "description": "A property description with a Number or a Percent as its value. @private"},
+  "description": "A property description with a Number or a Percent as its value. @private",
+"tags": [
+  ]},
 { "name": "org.apache.royale.textLayout.property.PropConst",
   "description": ""},
 { "name": "org.apache.royale.textLayout.property.Property",
-  "description": "Base class of property metadata.  Each property in the various TextLayout attributes structures has a metadata singletion Property class instance.  The instance can be used to process the property to and from xml, find out range information and help with the attribute cascade.  The Property class also contains static functions"},
+  "description": "Base class of property metadata.  Each property in the various TextLayout attributes structures has a metadata singletion Property class instance.  The instance can be used to process the property to and from xml, find out range information and help with the attribute cascade.  The Property class also contains static functions",
+"tags": [
+  ]},
 { "name": "org.apache.royale.textLayout.property.PropertyFactory",
   "description": ""},
 { "name": "org.apache.royale.textLayout.property.PropertyHandler",
@@ -24376,13 +24596,21 @@
 { "name": "org.apache.royale.textLayout.property.SpacingLimitPropertyHandler",
   "description": ""},
 { "name": "org.apache.royale.textLayout.property.StringPropertyHandler",
-  "description": "A property handler with a String as its value @private"},
+  "description": "A property handler with a String as its value @private",
+"tags": [
+  ]},
 { "name": "org.apache.royale.textLayout.property.TabStopsProperty",
-  "description": "Property for tab stops. Extends ArrayProperty; setter takes a string representation of tab stops in addition to an array. @private"},
+  "description": "Property for tab stops. Extends ArrayProperty; setter takes a string representation of tab stops in addition to an array. @private",
+"tags": [
+  ]},
 { "name": "org.apache.royale.textLayout.property.UintPropertyHandler",
-  "description": "A property description with an unsigned integer as its value.  Typically used for color. @private"},
+  "description": "A property description with an unsigned integer as its value.  Typically used for color. @private",
+"tags": [
+  ]},
 { "name": "org.apache.royale.textLayout.property.UndefinedPropertyHandler",
-  "description": "An property description with an enumerated string as its value. @private"},
+  "description": "An property description with an enumerated string as its value. @private",
+"tags": [
+  ]},
 { "name": "org.apache.royale.textLayout.utils.BackgroundUtil",
   "description": ""},
 { "name": "org.apache.royale.textLayout.utils.CharacterUtil",
@@ -24408,7 +24636,9 @@
     {  "tagName": "langversion",
        "values": ["3.0", "3.0"]}  ]},
 { "name": "org.apache.royale.textLayout.utils.HitTestArea",
-  "description": "The HitTestArea class is a lightweight implementation of the Warnock algorithm for rectangles. It is used for hit-testing in FlowElements, which may contain multiple child elements. The algorithm attempts to set the logical midpoint to be outside of a bounding rectangle to avoid having to split too many rectangles. Note that the code is optimized for non-overlapping rectangles; the determination of the logical midpoint does not work well for overlapping rectangles because the algorithm breaks once it found a rectangle that contains the geometric midpoint.  The pseudocode for this algorithm is:  if !(point in this rectangle) return false; if !(hasKids) return true; determine the quadrant where the point is in (top left &quot;tl&quot;, top right &quot;tr&quot;, bottom left &quot;bl&quot;, or bottom right &quot;br&quot;); if this[quadrant] == null, return false; // no rectangle covers this area else return this[quadrant].hitTest(x,y);  To avoid having to create a 4-element array for the four quadrants, the code constructs the property name and accesses the property with dynamic lookup."},
+  "description": "The HitTestArea class is a lightweight implementation of the Warnock algorithm for rectangles. It is used for hit-testing in FlowElements, which may contain multiple child elements. The algorithm attempts to set the logical midpoint to be outside of a bounding rectangle to avoid having to split too many rectangles. Note that the code is optimized for non-overlapping rectangles; the determination of the logical midpoint does not work well for overlapping rectangles because the algorithm breaks once it found a rectangle that contains the geometric midpoint.  The pseudocode for this algorithm is:  if !(point in this rectangle) return false; if !(hasKids) return true; determine the quadrant where the point is in (top left &quot;tl&quot;, top right &quot;tr&quot;, bottom left &quot;bl&quot;, or bottom right &quot;br&quot;); if this[quadrant] == null, return false; // no rectangle covers this area else return this[quadrant].hitTest(x,y);  To avoid having to create a 4-element array for the four quadrants, the code constructs the property name and accesses the property with dynamic lookup.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.textLayout.utils.LocaleUtil",
   "description": "Utilities for managing and getting information about Locale based defaults. The methods of this class are static and must be called using the syntax <code>LocaleUtil.method(<em>parameter</em>)</code>.",
 "tags": [
@@ -24426,7 +24656,9 @@
 { "name": "org.apache.royale.textLayout.utils.NumberFactoryUtil",
   "description": ""},
 { "name": "org.apache.royale.textLayout.utils.Twips",
-  "description": "@private Internally, we work with Twips, which we consider to be 1/20 of a pixel. This is the same measurement as used within FTE (see the kTwipsPerPixel constant in flash/core/edittext.h).  Note that conversion between Pixels and Twips does not round-trip due to the loss of precision in the conversion to Twips."},
+  "description": "@private Internally, we work with Twips, which we consider to be 1/20 of a pixel. This is the same measurement as used within FTE (see the kTwipsPerPixel constant in flash/core/edittext.h).  Note that conversion between Pixels and Twips does not round-trip due to the loss of precision in the conversion to Twips.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.utils.AbsoluteLayoutTweener",
   "description": ""},
 { "name": "org.apache.royale.utils.AnimationUtil",
@@ -24439,7 +24671,9 @@
     {  "tagName": "langversion",
        "values": ["3.0", "3.0"]}  ]},
 { "name": "org.apache.royale.utils.Base64",
-  "description": "Implementation derived from: https://sociodox.com/base64.html available under MIT License.  By: Jean-Philippe Auclair : http://jpauclair.net Based on article: http://jpauclair.net/2010/01/09/base64-optimized-as3-lib/ Benchmark: This version: encode: 260ms decode: 255ms Blog version: encode: 322ms decode: 694ms as3Crypto encode: 6728ms decode: 4098ms  Encode: com.sociodox.utils.Base64 is 25.8x faster than as3Crypto Base64 Decode: com.sociodox.utils.Base64 is 16x faster than as3Crypto Base64  Optimize & Profile any Flash content with TheMiner ( http://www.sociodox.com/theminer )"},
+  "description": "Implementation derived from: https://sociodox.com/base64.html available under MIT License.  By: Jean-Philippe Auclair : http://jpauclair.net Based on article: http://jpauclair.net/2010/01/09/base64-optimized-as3-lib/ Benchmark: This version: encode: 260ms decode: 255ms Blog version: encode: 322ms decode: 694ms as3Crypto encode: 6728ms decode: 4098ms  Encode: com.sociodox.utils.Base64 is 25.8x faster than as3Crypto Base64 Decode: com.sociodox.utils.Base64 is 16x faster than as3Crypto Base64  Optimize & Profile any Flash content with TheMiner ( http://www.sociodox.com/theminer )",
+"tags": [
+  ]},
 { "name": "org.apache.royale.utils.BinaryData",
   "description": "The BinaryData class is a class that represents binary data.  The way browsers handle binary data varies.  This class abstracts those differences..",
 "tags": [
@@ -24566,9 +24800,13 @@
     {  "tagName": "langversion",
        "values": ["3.0", "3.0"]}  ]},
 { "name": "org.apache.royale.utils.IntUtil",
-  "description": "Contains reusable methods for operations pertaining to int values."},
+  "description": "Contains reusable methods for operations pertaining to int values.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.utils.JWT",
-  "description": "JWT (JSON Web Token) is a compact URL-safe means of representing claims to be transferred between two parties. More information about JWT can be found at https://jwt.io/ This class is used to decode a JWT token. When decoding, the token is stored in three parts: header, data and signature. The header and data are stored as JSON objects. The signature is stored as a string.  TODO: This class is not complete. It only decodes the header and data. It does not verify the signature at all. It also does not support encoding. We need an HMAC class to create and verify the signature. Important reading when this is implemented: https://auth0.com/blog/critical-vulnerabilities-in-json-web-token-libraries/"},
+  "description": "JWT (JSON Web Token) is a compact URL-safe means of representing claims to be transferred between two parties. More information about JWT can be found at https://jwt.io/ This class is used to decode a JWT token. When decoding, the token is stored in three parts: header, data and signature. The header and data are stored as JSON objects. The signature is stored as a string.  TODO: This class is not complete. It only decodes the header and data. It does not verify the signature at all. It also does not support encoding. We need an HMAC class to create and verify the signature. Important reading when this is implemented: https://auth0.com/blog/critical-vulnerabilities-in-json-web-token-libraries/",
+"tags": [
+  ]},
 { "name": "org.apache.royale.utils.JXON",
   "description": "JXON is a lightweight class for parsing and using simple XML. It gives access to children in the XML tree as an array of `children`. Attributes are an object `attribute` with the attribute key/value pairs. Namespaces are completely ignored. If you need more functionality such as E4X and advanced filtering, use the XML and XMLList classes instead. To parse XML, use JXON.parse(xmlStr) where xmlStr is a string of your XML.",
 "tags": [
@@ -24768,7 +25006,9 @@
 { "name": "org.apache.royale.utils.async.HttpDownloadTask",
   "description": ""},
 { "name": "org.apache.royale.utils.async.HttpRequestTask",
-  "description": "HttpRequestTask is an AsyncTask for making HTTP requests. You can access the result as well as the http status codes after the task completes. As in all tasks, it cleans up after itself, so memory leaks should be very uncommon."},
+  "description": "HttpRequestTask is an AsyncTask for making HTTP requests. You can access the result as well as the http status codes after the task completes. As in all tasks, it cleans up after itself, so memory leaks should be very uncommon.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.utils.async.HttpUploadTask",
   "description": ""},
 { "name": "org.apache.royale.utils.async.IAsyncTask",
@@ -24781,17 +25021,25 @@
     {  "tagName": "langversion",
        "values": ["3.0", "3.0"]}  ]},
 { "name": "org.apache.royale.utils.async.SequentialAsyncTask",
-  "description": "The SequentialAsyncTask runs a list of tasks in sequential order. Each sunsequent task is only run once the previous task is done. The previous task is used as the argument for the next task's run method. This enables the chaining of results."},
+  "description": "The SequentialAsyncTask runs a list of tasks in sequential order. Each sunsequent task is only run once the previous task is done. The previous task is used as the argument for the next task's run method. This enables the chaining of results.",
+"tags": [
+  ]},
 { "name": "org.apache.royale.utils.net.IDataInput",
-  "description": "initial work on replacement for flash.utils.IDataInput"},
+  "description": "initial work on replacement for flash.utils.IDataInput",
+"tags": [
+  ]},
 { "name": "org.apache.royale.utils.net.IDataOutput",
-  "description": "initial work on replacement for flash.utils.IDataOutput"},
+  "description": "initial work on replacement for flash.utils.IDataOutput",
+"tags": [
+  ]},
 { "name": "org.apache.royale.utils.net.IDynamicPropertyOutput",
   "description": ""},
 { "name": "org.apache.royale.utils.net.IDynamicPropertyWriter",
   "description": ""},
 { "name": "org.apache.royale.utils.net.IExternalizable",
-  "description": "replacement for flash.utils.IExternalizable"},
+  "description": "replacement for flash.utils.IExternalizable",
+"tags": [
+  ]},
 { "name": "org.apache.royale.utils.string.Base64",
   "description": "Base64 encoding/decoding that works cross browsers",
 "tags": [
@@ -25784,7 +26032,9 @@
 { "name": "spark.components.gridClasses.GridSortFieldSimple",
   "description": ""},
 { "name": "spark.components.gridClasses.GridView",
-  "description": "This class is internal to the DataGrid implementation.  A Grid element (child) that displays a rectangular region within the Grid. The GridView's region is defined by four GridViewLayout properties: viewRowIndex and viewColumnIndex - the origin of the region, viewRowCount and viewColumnCount - the size of the region.  The GridView contains GridLayers which contain all of the Grid's visual elements, the renderers, indicators, separators, etc.  GridViews are created automatically by the Grid class, based on the values of the lockedRowCount and lockedColumnCount Grid properties."},
+  "description": "This class is internal to the DataGrid implementation.  A Grid element (child) that displays a rectangular region within the Grid. The GridView's region is defined by four GridViewLayout properties: viewRowIndex and viewColumnIndex - the origin of the region, viewRowCount and viewColumnCount - the size of the region.  The GridView contains GridLayers which contain all of the Grid's visual elements, the renderers, indicators, separators, etc.  GridViews are created automatically by the Grid class, based on the values of the lockedRowCount and lockedColumnCount Grid properties.",
+"tags": [
+  ]},
 { "name": "spark.components.gridClasses.GridViewLayout",
   "description": "A virtual two dimensional layout for the Grid class.   This is not a general purpose layout, it's only intended to be use with GridView.",
 "tags": [
@@ -25892,7 +26142,9 @@
     {  "tagName": "langversion",
        "values": ["3.0", "3.0"]}  ]},
 { "name": "spark.components.supportClasses.DropDownListButton",
-  "description": ""},
+  "description": "",
+"tags": [
+  ]},
 { "name": "spark.components.supportClasses.GroupBase",
   "description": "The GroupBase class defines the base class for components that display visual elements. A group component does not control the layout of the visual items that it contains. Instead, the layout is handled by a separate layout component.   <p>The <code>&lt;s:GroupBase&gt;</code> tag inherits all of the tag attributes of its superclass and adds the following tag attributes:</p>  <pre>\\n &lt;s:GroupBase\\n <strong>Properties</strong>\\n autoLayout=&quot;true&quot;\\n clipAndEnableScrolling=&quot;false&quot;\\n horizontalScrollPosition=&quot;null&quot;\\n luminosityClip=&quot;false&quot;\\n luminosityInvert=&quot;false&quot;\\n layout=&quot;BasicLayout&quot;\\n mask=&quot;&quot;\\n maskType=&quot;clip&quot;\\n mouseEnabledWhereTransparent=&quot;true&quot;\\n resizeMode=&quot;noScale&quot;\\n verticalScrollPosition=&quot;no default&quot;\\n \\n <strong>Styles</strong>\\n accentColor=&quot;0x0099FF&quot;\\n alignmentBaseline=&quot;useDominantBaseline&quot;\\n alternatingItemColors=&quot;undefined&quot;\\n baselineShift=&quot;0&quot;\\n blockProgression=&quot;tb&quot;\\n breakOpportunity=&quot;auto&quot;\\n cffHinting=&quot;horizontalStem&quot;\\n chromeColor=&quot;0xCCCCCC&quot;\\n color=&quot;0x000000&quot;\\n contentBackgroundAlpha=&quot;1.0&quot;\\n contentBackgroundColor=&quot;0xFFFFFF&quot;\\n clearFloats=&quot;none&quot;\\n digitCase=&quot;default&quot;\\n digitWidth=&quot;default&quot;\\n direction=&quot;ltr&quot;\\n disabledAlpha=&quot;0.5&quot;\\n dominantBaseline=&quot;auto&quot;\\n firstBaselineOffset=&quot;auto&quot;\\n focusColor=&quot;0x70B2EE&quot;\\n focusedTextSelectionColor=&quot;A8C6EE&quot;\\n fontFamily=&quot;Arial&quot;\\n fontLookup=&quot;device&quot;\\n fontSize=&quot;12&quot;\\n fontStyle=&quot;normal&quot;\\n fontWeight=&quot;normal&quot;\\n inactiveTextSelectionColor=&quot;E8E8E8&quot;\\n justificationRule=&quot;auto&quot;\\n justificationStyle=&quot;auto&quot;\\n kerning=&quot;auto&quot;\\n leadingModel=&quot;auto&quot;\\n ligatureLevel=&quot;common&quot;\\n lineHeight=&quot;120%&quot;\\n lineThrough=&quot;false&quot;\\n listAutoPadding=&quot;40&quot;\\n listStylePosition=&quot;outside&quot;\\n listStyleType=&quot;disc&quot;\\n locale=&quot;en&quot;\\n paragraphEndIndent=&quot;0&quot;\\n paragraphSpaceAfter=&quot;0&quot;\\n paragraphSpaceBefore=&quot;0&quot;\\n paragraphStartIndent=&quot;0&quot;\\n renderingMode=&quot;cff&quot;\\n rollOverColor=&quot;0xCEDBEF&quot;\\n symbolColor=&quot;0x000000&quot;\\n tabStops=&quot;null&quot;\\n textAlign=&quot;start&quot;\\n textAlignLast=&quot;start&quot;\\n textAlpha=&quot;1&quot;\\n textDecoration=&quot;none&quot;\\n textIndent=&quot;0&quot;\\n textJustify=&quot;interWord&quot;\\n textRotation=&quot;auto&quot;\\n trackingLeft=&quot;0&quot;\\n trackingRight=&quot;0&quot;\\n typographicCase=&quot;default&quot;\\n unfocusedTextSelectionColor=&quot;0xE8E8E8&quot;\\n whiteSpaceCollapse=&quot;collapse&quot;\\n wordSpacing=&quot;100%,50%,150%&quot;\\n /&gt;\\n </pre>",
 "tags": [

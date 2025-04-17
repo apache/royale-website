@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.textLayout.container.ContainerUtil",
   "baseClassname": ""
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "getController",
@@ -9,9 +12,15 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.container.IContainerController",
           "params": [{ "name": "container", "type": "org.apache.royale.core.IParentIUIBase"},
         { "name": "width", "type": "Number"},
         { "name": "height", "type": "Number"}]}
       ]
+  ,
+  "events": [
+  ]
   }

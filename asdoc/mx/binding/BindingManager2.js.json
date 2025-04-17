@@ -109,4 +109,7 @@
           "return": "void",
           "params": [{ "name": "destinationString", "type": "String"}]}
       ]
+  ,
+  "events": [
+  ]
   }

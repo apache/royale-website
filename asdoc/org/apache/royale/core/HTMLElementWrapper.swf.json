@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.core.HTMLElementWrapper",
   "baseClassname": "flash.display.Sprite"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "addBead",
@@ -61,7 +64,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "allow access from overrides"},
+          "description": "allow access from overrides",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Object",
@@ -74,4 +79,7 @@
         "tags": [
         {  "tagName": "royaleignorecoercion",
                "values": ["Class", "org.apache.royale.core.IBeadModel"]}  ]}]
+  ,
+  "events": [
+  ]
   }

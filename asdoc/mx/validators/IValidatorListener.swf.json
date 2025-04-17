@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "mx.validators.IValidatorListener",
+"baseInterfaceNames": [
+]
+,
     "description": "The interface that components implement to support the Flex data validation mechanism. The UIComponent class implements this interface. Therefore, any subclass of UIComponent also implements it.",
   "tags": [
   {  "tagName": "playerversion",

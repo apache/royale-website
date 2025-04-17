@@ -3,6 +3,9 @@
 "baseInterfaceNames": [
 "org.apache.royale.graphics.IGraphicShape"]
 ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
     "qname": "clear",
@@ -27,6 +30,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "x", "type": "Number"},
     { "name": "y", "type": "Number"},
@@ -39,6 +45,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "x", "type": "Number"},
     { "name": "y", "type": "Number"},
@@ -53,6 +62,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "x", "type": "Number"},
     { "name": "y", "type": "Number"},
@@ -69,6 +81,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "x", "type": "Number"},
     { "name": "y", "type": "Number"},
@@ -91,6 +106,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "x", "type": "Number"},
     { "name": "y", "type": "Number"},
@@ -103,6 +121,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "x", "type": "Number"},
     { "name": "y", "type": "Number"},
@@ -114,6 +135,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "data", "type": "String"}]}
   ,
@@ -123,6 +147,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "data", "type": "org.apache.royale.graphics.PathBuilder"}]}
   ,
@@ -132,6 +159,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "Object",
       "params": [{ "name": "value", "type": "String"},
     { "name": "x", "type": "Number"},
@@ -144,7 +174,10 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-write",
     "return": "org.apache.royale.graphics.IStroke",
@@ -152,5 +185,8 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}}]
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]}]
   }

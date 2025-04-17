@@ -48,4 +48,7 @@
                "values": ["org.apache.royale.core.IStrandWithModel"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.textLayout.edit.mementos.TextRangeMemento",
   "baseClassname": "org.apache.royale.textLayout.edit.mementos.DeleteTextMemento"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.textLayout.edit.mementos.TextRangeMemento",
@@ -9,9 +12,15 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "textFlow", "type": "org.apache.royale.textLayout.elements.ITextFlow"},
         { "name": "absoluteStart", "type": "int"},
         { "name": "absoluteEnd", "type": "int"}]}
       ]
+  ,
+  "events": [
+  ]
   }

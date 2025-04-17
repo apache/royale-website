@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "mx.core.ITextFieldFactory",
+"baseInterfaceNames": [
+]
+,
     "description": "Interface to create instances of TextField and FTETextField. These are re-used so that there are no more than one of each per module factory.",
   "tags": [
   {  "tagName": "private",

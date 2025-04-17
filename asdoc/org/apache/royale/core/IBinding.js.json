@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "org.apache.royale.core.IBinding",
+"baseInterfaceNames": [
+]
+,
     "description": "IBinding interface is a &quot;marker&quot; for data-binding class that is optimized for simple assignments of one object's property to another object's property.",
   "tags": [
   {  "tagName": "playerversion",

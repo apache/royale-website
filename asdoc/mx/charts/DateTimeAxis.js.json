@@ -509,4 +509,7 @@
         { "name": "previousValue", "type": "Date"},
         { "name": "axis", "type": "mx.charts.DateTimeAxis"}]}
       ]
+  ,
+  "events": [
+  ]
   }

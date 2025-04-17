@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.graphics.SolidColor",
   "baseClassname": ""
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.graphics.SolidColor",
@@ -63,6 +66,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "g", "type": "flash.display.Graphics"},
         { "name": "targetBounds", "type": "flash.geom.Rectangle"},
@@ -74,7 +80,13 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "g", "type": "flash.display.Graphics"}]}
       ]
+  ,
+  "events": [
+  ]
   }

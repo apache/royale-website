@@ -22,6 +22,8 @@
         "details": [],
         "deprecated": {},
           "description": "Constructor",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ,
@@ -32,8 +34,13 @@
         "details": [],
         "deprecated": {},
           "description": "Gets the device current location. If successful, the onSuccess function is called with position parameter (see Cordova documentation). If failure, the onError function is called with an error parameter (.code and .message members).",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "onSuccess", "type": "Function"},
         { "name": "onError", "type": "Function"}]}
       ]
+  ,
+  "events": [
+  ]
   }

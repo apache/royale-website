@@ -1,4 +1,13 @@
 { "type": "class",
   "qname": "org.apache.royale.html5.TextArea",
   "baseClassname": "org.apache.royale.html.TextArea"
+  ,
+    "description": "",
+  "tags": [
+    ],
+  "members": [
+  ]
+  ,
+  "events": [
+  ]
   }

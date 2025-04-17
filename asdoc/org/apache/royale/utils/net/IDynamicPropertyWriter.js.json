@@ -1,5 +1,11 @@
 { "type": "interface",
   "qname": "org.apache.royale.utils.net.IDynamicPropertyWriter",
+"baseInterfaceNames": [
+]
+,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
     "qname": "writeDynamicProperties",

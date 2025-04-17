@@ -28,7 +28,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "org.apache.royale.utils.MockLayoutParent",
@@ -48,6 +51,8 @@
         "details": [],
         "deprecated": {},
           "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -58,6 +63,8 @@
         "details": [],
         "deprecated": {},
           "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -74,4 +81,7 @@
           "return": "void",
           "params": [{ "name": "event", "type": "org.apache.royale.events.Event"}]}
       ]
+  ,
+  "events": [
+  ]
   }

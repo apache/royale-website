@@ -41,7 +41,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "String",
@@ -53,7 +56,7 @@
           "description": "The prompt for the DropDownList control. The prompt is a String that is displayed in the DropDownList when <code>selectedIndex</code> = -1. It is usually a String such as &quot;Select one...&quot;. Selecting an item in the drop-down list replaces the prompt with the text from the selected item.",
         "tags": [
         {  "tagName": "default",
-               "values": [""""]},
+               "values": ["\"\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 10", "AIR 1.5"]},
             {  "tagName": "productversion",
@@ -84,4 +87,7 @@
         "tags": [
         {  "tagName": "private",
                "values": []}  ]}]
+  ,
+  "events": [
+  ]
   }

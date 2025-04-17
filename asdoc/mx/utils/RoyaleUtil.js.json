@@ -19,13 +19,19 @@
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "commitDeferred",
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": [{ "name": "commitPropertiesFunc", "type": "Function"}]}
       ,
@@ -35,8 +41,14 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "mx.core.IUIComponent",
           "params": [{ "name": "parent", "type": "mx.core.IChildList"},
         { "name": "name", "type": "String"}]}
       ]
+  ,
+  "events": [
+  ]
   }

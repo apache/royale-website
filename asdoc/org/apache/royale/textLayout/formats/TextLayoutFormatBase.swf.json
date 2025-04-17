@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.textLayout.formats.TextLayoutFormatBase",
   "baseClassname": ""
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "accessor",
         "access": "read-write",
@@ -21,6 +24,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "*",
           "params": [{ "name": "styleProp", "type": "String"}]}
       ,
@@ -1578,4 +1584,7 @@
                "values": ["RangeError when set value is not within range for this property"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

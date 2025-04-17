@@ -47,4 +47,7 @@
         { "name": "args", "type": "Array"},
         { "name": "thisArg", "type": "Object"}]}
       ]
+  ,
+  "events": [
+  ]
   }

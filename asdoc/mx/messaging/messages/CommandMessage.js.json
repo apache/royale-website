@@ -393,7 +393,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Header that indicates the message is a heartbeat."},
+          "description": "Header that indicates the message is a heartbeat.",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "mx.messaging.messages.CommandMessage",
         "namespace": "",
@@ -450,4 +452,7 @@
           "return": "String",
           "params": [{ "name": "op", "type": "uint"}]}
       ]
+  ,
+  "events": [
+  ]
   }

@@ -20,6 +20,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "mx.managers.IFocusManagerComponent",
       "params": [{ "name": "backward", "type": "Boolean"}]}
   ,
@@ -29,6 +32,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "mx.managers.IFocusManagerComponent",
       "params": []}
   ,
@@ -38,6 +44,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "o", "type": "mx.managers.IFocusManagerComponent"}]}
   ,
@@ -47,6 +56,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": []}
   ]

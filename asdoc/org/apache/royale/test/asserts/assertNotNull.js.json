@@ -5,6 +5,8 @@
   "details": [],
   "deprecated": {},
     "description": "Alias for org.apache.royale.test.Assert assertNotNull method",
+  "tags": [
+    ],
     "return": "void",
     "params": [{ "name": "value", "type": "*"},
   { "name": "message", "type": "String"}]}

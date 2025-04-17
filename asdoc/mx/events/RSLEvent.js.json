@@ -134,7 +134,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "True if the event is for loading a resourceModule instead of an RSL"},
+          "description": "True if the event is for loading a resourceModule instead of an RSL",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "loaderInfo",
         "return": "Object",
@@ -142,7 +144,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The loaderInfo associated with this event. This is only set in the RSLEvent.RSL_COMPLETE event. Otherwise loaderInfo will be null."},
+          "description": "The loaderInfo associated with this event. This is only set in the RSLEvent.RSL_COMPLETE event. Otherwise loaderInfo will be null.",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "rslIndex",
         "return": "int",
@@ -188,4 +192,7 @@
                "values": ["Flex 3"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

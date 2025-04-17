@@ -924,4 +924,7 @@
           "return": "Function",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

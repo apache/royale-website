@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.html.beads.TreeGridListArea",
   "baseClassname": "org.apache.royale.html.Container"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.html.beads.TreeGridListArea",
@@ -9,7 +12,13 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

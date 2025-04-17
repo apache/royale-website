@@ -184,4 +184,7 @@
           "return": "Boolean",
           "params": [{ "name": "keyCode", "type": "uint"}]}
       ]
+  ,
+  "events": [
+  ]
   }

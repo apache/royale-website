@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "org.apache.royale.utils.undo.IOperation",
+"baseInterfaceNames": [
+]
+,
     "description": "IOperation defines the interface for operations that can be undone and redone.",
   "tags": [
   {  "tagName": "playerversion",

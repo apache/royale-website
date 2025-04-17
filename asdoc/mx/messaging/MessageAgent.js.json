@@ -38,7 +38,9 @@
         "bindable": ["propertyChange"],
         "details": [],
         "deprecated": {},
-          "description": "Indicates if this MessageAgent is using an authenticated connection to its destination."},
+          "description": "Indicates if this MessageAgent is using an authenticated connection to its destination.",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "mx.messaging.ChannelSet",
@@ -140,7 +142,10 @@
         "namespace": "mx_internal",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Boolean",
@@ -149,7 +154,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Indicates if this MessageAgent needs to request configuration from the server."},
+          "description": "Indicates if this MessageAgent needs to request configuration from the server.",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "acknowledge",
         "namespace": "public",

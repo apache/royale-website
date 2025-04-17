@@ -30,4 +30,7 @@
           "return": "",
           "params": [{ "name": "msg", "type": "String"}]}
       ]
+  ,
+  "events": [
+  ]
   }

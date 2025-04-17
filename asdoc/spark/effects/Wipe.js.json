@@ -23,7 +23,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "direction",
         "return": "String",
@@ -62,4 +65,7 @@
           "return": "",
           "params": [{ "name": "target", "type": "Object"}]}
       ]
+  ,
+  "events": [
+  ]
   }

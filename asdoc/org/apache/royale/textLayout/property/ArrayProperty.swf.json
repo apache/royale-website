@@ -3,6 +3,8 @@
   "baseClassname": "org.apache.royale.textLayout.property.Property"
   ,
     "description": "A property description with an Array value.@private",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.textLayout.property.ArrayProperty",
@@ -10,6 +12,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "nameValue", "type": "String"},
         { "name": "defaultValue", "type": "Array"},
@@ -25,13 +30,18 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The type the members of the array are required to be."},
+          "description": "The type the members of the array are required to be.",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "checkArrayTypes",
         "namespace": "protected",
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": [{ "name": "val", "type": "Object"}]}
       ,
@@ -43,5 +53,10 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
-          "description": "@private"}]
+          "description": "@private",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

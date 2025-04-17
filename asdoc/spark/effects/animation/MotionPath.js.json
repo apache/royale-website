@@ -123,4 +123,7 @@
           "return": "Object",
           "params": [{ "name": "fraction", "type": "Number"}]}
       ]
+  ,
+  "events": [
+  ]
   }

@@ -1,3 +1,11 @@
 { "type": "interface",
   "qname": "org.apache.royale.routing.IPathRouteBead",
-    "description": "Marker interface for a bead which parses the path part of path part of a route"}
+"baseInterfaceNames": [
+]
+,
+    "description": "Marker interface for a bead which parses the path part of path part of a route",
+  "tags": [
+    ],
+  "members": [
+  ]
+  }

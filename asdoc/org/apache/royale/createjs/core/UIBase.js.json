@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.createjs.core.UIBase",
   "baseClassname": "org.apache.royale.core.UIHTMLElementWrapper"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.createjs.core.UIBase",
@@ -107,6 +110,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "goog.events.EventTarget",
           "params": []}
       ,
@@ -397,8 +403,14 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "String",
           "params": [{ "name": "value", "type": "uint"},
         { "name": "alpha", "type": "Number"}]}
       ]
+  ,
+  "events": [
+  ]
   }

@@ -3,6 +3,8 @@
   "baseClassname": ""
   ,
     "description": "This DataGridLayout class sizes and positions all of the elements of the DataGrid in the Express package. The ButtonBar header, the container content area for the the list columns, and the positioning and sizing of the list columns within that container. On top of the contain a drawing layer is floating to allow for the graphics of a drag-and-drop indicator.",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.express.beads.layouts.DataGridLayout",
@@ -56,4 +58,7 @@
           "return": "Boolean",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

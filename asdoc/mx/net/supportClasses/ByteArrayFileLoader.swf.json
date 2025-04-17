@@ -1,4 +1,13 @@
 { "type": "class",
   "qname": "mx.net.supportClasses.ByteArrayFileLoader",
   "baseClassname": "org.apache.royale.file.beads.FileLoader"
+  ,
+    "description": "",
+  "tags": [
+    ],
+  "members": [
+  ]
+  ,
+  "events": [
+  ]
   }

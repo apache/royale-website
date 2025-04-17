@@ -17,9 +17,15 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "bitmapData", "type": "flash.display.BitmapData"},
         { "name": "pixelSnapping", "type": "String"},
         { "name": "smoothing", "type": "Boolean"}]}
       ]
+  ,
+  "events": [
+  ]
   }

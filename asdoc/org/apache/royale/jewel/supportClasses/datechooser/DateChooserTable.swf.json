@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.jewel.supportClasses.datechooser.DateChooserTable",
   "baseClassname": "org.apache.royale.jewel.Table"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.jewel.supportClasses.datechooser.DateChooserTable",
@@ -9,7 +12,13 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

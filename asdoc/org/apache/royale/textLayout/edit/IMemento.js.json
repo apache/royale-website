@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "org.apache.royale.textLayout.edit.IMemento",
+"baseInterfaceNames": [
+]
+,
     "description": "The IMemento interface is returned by ModelEdit for undo of a specific action that represents part of an operation.",
   "tags": [
   {  "tagName": "playerversion",
@@ -15,6 +18,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "*",
       "params": []}
   ,
@@ -24,6 +30,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "*",
       "params": []}
   ]

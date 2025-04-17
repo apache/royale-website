@@ -57,7 +57,7 @@
           "description": "The weekday names for DateChooser control. Changing this property changes the day labels of the DateChooser control. Sunday is the first day (at index 0). The rest of the week names follow in the normal order.",
         "tags": [
         {  "tagName": "default",
-               "values": ["[ "S", "M", "T", "W", "T", "F", "S" ]."]},
+               "values": ["[ \"S\", \"M\", \"T\", \"W\", \"T\", \"F\", \"S\" ]."]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
@@ -197,7 +197,7 @@
           "description": "Names of the months displayed at the top of the DateChooser control. The <code>monthSymbol</code> property is appended to the end of the value specified by the <code>monthNames</code> property, which is useful in languages such as Japanese.  &quot;July&quot;, &quot;August&quot;, &quot;September&quot;, &quot;October&quot;, &quot;November&quot;, &quot;December&quot; ]",
         "tags": [
         {  "tagName": "default",
-               "values": ["[ "January", "February", "March", "April", "May", "June","]},
+               "values": ["[ \"January\", \"February\", \"March\", \"April\", \"May\", \"June\","]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
@@ -300,6 +300,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,

@@ -14,7 +14,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Specifies that the linear RGB interpolation method should be used. This means that an RGB color space based on a linear RGB color model is used."},
+          "description": "Specifies that the linear RGB interpolation method should be used. This means that an RGB color space based on a linear RGB color model is used.",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "RGB",
         "return": "String",
@@ -22,5 +24,10 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Specifies that the RGB interpolation method should be used. This means that the gradient is rendered with exponential sRGB (standard RGB) space. The sRGB space is a W3C-endorsed standard that defines a non-linear conversion between red, green, and blue component values and the actual intensity of the visible component color."}]
+          "description": "Specifies that the RGB interpolation method should be used. This means that the gradient is rendered with exponential sRGB (standard RGB) space. The sRGB space is a W3C-endorsed standard that defines a non-linear conversion between red, green, and blue component values and the actual intensity of the visible component color.",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

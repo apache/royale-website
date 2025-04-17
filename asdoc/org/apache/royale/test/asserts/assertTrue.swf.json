@@ -5,6 +5,8 @@
   "details": [],
   "deprecated": {},
     "description": "Alias for org.apache.royale.test.Assert assertTrue method",
+  "tags": [
+    ],
     "return": "void",
     "params": [{ "name": "condition", "type": "*"},
   { "name": "message", "type": "String"}]}

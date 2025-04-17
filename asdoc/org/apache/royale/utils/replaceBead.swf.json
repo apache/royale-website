@@ -4,6 +4,9 @@
   "bindable": [],
   "details": [],
   "deprecated": {},
+    "description": "",
+  "tags": [
+    ],
     "return": "org.apache.royale.core.IBead",
     "params": [{ "name": "strand", "type": "org.apache.royale.core.IStrand"},
   { "name": "bead", "type": "org.apache.royale.core.IBead"},

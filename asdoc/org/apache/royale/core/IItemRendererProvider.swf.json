@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "org.apache.royale.core.IItemRendererProvider",
+"baseInterfaceNames": [
+]
+,
     "description": "The IItemRendererProvider interface is implemented by classes that provide a ClassFactory for itemRenderers.",
   "tags": [
   {  "tagName": "see",

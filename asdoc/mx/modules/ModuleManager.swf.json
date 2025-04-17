@@ -32,4 +32,7 @@
           "return": "mx.modules.IModuleInfo",
           "params": [{ "name": "url", "type": "String"}]}
       ]
+  ,
+  "events": [
+  ]
   }

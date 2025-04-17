@@ -13,6 +13,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ,
@@ -58,4 +61,7 @@
         { "name": "value", "type": "*"},
         { "name": "restriction", "type": "XML"}]}
       ]
+  ,
+  "events": [
+  ]
   }

@@ -3,6 +3,8 @@
   "baseClassname": "mx.core.UITextField"
   ,
     "description": "A specially styled Label used in TitleBar",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "mx.controls.beads.TitleBarTitle",
@@ -10,7 +12,13 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

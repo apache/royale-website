@@ -63,11 +63,14 @@
           "description": "The text displayed by some navigator containers to represent this Container.  <p>For example, if this Container is a child of a TabNavigator, this string appears in the corresponding tab. If this Container is a child of an Accordion, this string appears in the corresponding header.</p>",
         "tags": [
         {  "tagName": "default",
-               "values": [""""]},
+               "values": ["\"\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 10", "AIR 1.5"]},
             {  "tagName": "productversion",
                "values": ["Royale 0.9.4"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

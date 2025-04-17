@@ -19,13 +19,19 @@
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "mx.events.IOErrorEvent",
         "namespace": "",
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "type", "type": "String"},
         { "name": "bubbles", "type": "Boolean"},
@@ -33,4 +39,7 @@
         { "name": "text", "type": "String"},
         { "name": "id", "type": "int"}]}
       ]
+  ,
+  "events": [
+  ]
   }

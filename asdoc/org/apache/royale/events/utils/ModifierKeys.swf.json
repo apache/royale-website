@@ -18,7 +18,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "The Alt (Alternative) key."},
+          "description": "The Alt (Alternative) key.",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "ALT_GRAPH",
         "return": "String",
@@ -26,7 +28,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "The AltGr or AltGraph (Alternate Graphics) key. Enables the ISO Level 3 shift modifier (where Shift is the level 2 modifier)."},
+          "description": "The AltGr or AltGraph (Alternate Graphics) key. Enables the ISO Level 3 shift modifier (where Shift is the level 2 modifier).",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "CAPS_LOCK",
         "return": "String",
@@ -34,7 +38,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "The Caps Lock key. Toggles the capital character lock on and off for subsequent input."},
+          "description": "The Caps Lock key. Toggles the capital character lock on and off for subsequent input.",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "CONTROL",
         "return": "String",
@@ -42,7 +48,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "The Control, Ctrl, or Ctl key. Alows typing control characters."},
+          "description": "The Control, Ctrl, or Ctl key. Alows typing control characters.",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "FN",
         "return": "String",
@@ -50,7 +58,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "The Fn (Function modifier) key. Used to allow generating function key (F1-F15, for instance) characters on keyboards without a dedicated function key area. Often handled in hardware so that events aren't generated for this key."},
+          "description": "The Fn (Function modifier) key. Used to allow generating function key (F1-F15, for instance) characters on keyboards without a dedicated function key area. Often handled in hardware so that events aren't generated for this key.",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "META",
         "return": "String",
@@ -58,7 +68,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "The Meta key. Allows issuing special command inputs. This is the Windows logo key, or the Command or ⌘ key on Mac keyboards."},
+          "description": "The Meta key. Allows issuing special command inputs. This is the Windows logo key, or the Command or ⌘ key on Mac keyboards.",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "NUM_LOCK",
         "return": "String",
@@ -66,7 +78,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "The NumLock (Number Lock) key. Toggles the numeric keypad between number entry some other mode (often directional arrows)."},
+          "description": "The NumLock (Number Lock) key. Toggles the numeric keypad between number entry some other mode (often directional arrows).",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "SCROLL_LOCK",
         "return": "String",
@@ -74,7 +88,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "The Scroll Lock key. Toggles beteen scrolling and cursor movement modes."},
+          "description": "The Scroll Lock key. Toggles beteen scrolling and cursor movement modes.",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "SHIFT",
         "return": "String",
@@ -82,7 +98,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "The Shift key. Modifies keystrokes to allow typing upper (or other) case letters, and to support typing punctuation and other special characters."},
+          "description": "The Shift key. Modifies keystrokes to allow typing upper (or other) case letters, and to support typing punctuation and other special characters.",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "SUPER",
         "return": "String",
@@ -90,7 +108,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "The Super key."},
+          "description": "The Super key.",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "SYMBOL",
         "return": "String",
@@ -98,7 +118,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "The Symbol modifier key (found on certain virtual keyboards)."},
+          "description": "The Symbol modifier key (found on certain virtual keyboards).",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "SYMBOL_LOCK",
         "return": "String",
@@ -106,5 +128,10 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "The Symbol Lock key."}]
+          "description": "The Symbol Lock key.",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

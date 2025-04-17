@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "org.apache.royale.text.ime.IIMEClient",
+"baseInterfaceNames": [
+]
+,
     "description": "Interface for IME (input method editor) clients.  Components based on the org.apache.royale.text.engine package must implement this interface to support editing text inline using an IME. This interface is not used with TextField objects. TextLayoutFramework (TLF) uses this interface to support inline IME, so clients using TLF do not need to implement this interface. <p>To support inline IME, set the <code>imeClient</code> property of an <code>ImeEvent.IME_START_COMPOSITION</code> event to an object which implements this interface.</p>",
   "tags": [
   {  "tagName": "see",

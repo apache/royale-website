@@ -84,14 +84,20 @@
         "namespace": "mx_internal",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "supposedToLoseFocus",
         "return": "Boolean",
         "namespace": "mx_internal",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "mx.controls.Menu",
@@ -254,6 +260,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -263,6 +272,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -347,7 +359,7 @@
           "description": "The name of the field in the data provider items to display as the label. By default the list looks for a property named <code>label</code> on each item and displays it. However, if the data objects do not contain a <code>label</code> property, you can set the <code>labelField</code> property to use a different property in the data object. An example would be &quot;FullName&quot; when viewing a set of people names fetched from a database.",
         "tags": [
         {  "tagName": "default",
-               "values": [""label""]},
+               "values": ["\"label\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
@@ -396,6 +408,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -459,7 +474,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "String",
@@ -487,7 +505,7 @@
           "description": "The name of the field in the data provider items to display as the label. By default the list looks for a property named <code>label</code> on each item and displays it. However, if the data objects do not contain a <code>label</code> property, you can set the <code>labelField</code> property to use a different property in the data object. An example would be &quot;FullName&quot; when viewing a set of people names fetched from a database.",
         "tags": [
         {  "tagName": "default",
-               "values": [""label""]},
+               "values": ["\"label\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
@@ -502,7 +520,10 @@
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "String",

@@ -3,6 +3,8 @@
   "baseClassname": ""
   ,
     "description": "ParameterRoutes are declared in (or added to) RouteToParamter beads. If the key exists in thge parameters, the callback will be called with the value as the argument to the function.",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.routing.ParameterRoute",
@@ -10,6 +12,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ,
@@ -20,7 +25,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Parameter key to use"},
+          "description": "Parameter key to use",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "defaultValue",
         "return": "String",
@@ -28,7 +35,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "If a default value is specified, the callback will be called with the default if no matching key is specified in the URL"},
+          "description": "If a default value is specified, the callback will be called with the default if no matching key is specified in the URL",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "title",
         "return": "String",
@@ -36,7 +45,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Optional window title"},
+          "description": "Optional window title",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "callback",
         "return": "Function",
@@ -44,5 +55,10 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Function to call if the parameter exists. (The value is supplied as an argument.)"}]
+          "description": "Function to call if the parameter exists. (The value is supplied as an argument.)",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

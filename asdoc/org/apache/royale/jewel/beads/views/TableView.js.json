@@ -34,6 +34,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -44,6 +47,8 @@
         "details": [],
         "deprecated": {},
           "description": "When columns change, trigger a data provider change to redo all table",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "event", "type": "org.apache.royale.events.Event"}]}
       ,
@@ -101,4 +106,7 @@
                "values": ["Royale 0.9.8"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

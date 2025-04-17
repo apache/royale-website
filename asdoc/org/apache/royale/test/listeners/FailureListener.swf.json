@@ -3,6 +3,8 @@
   "baseClassname": ""
   ,
     "description": "Determine if a test run fails or not.",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.test.listeners.FailureListener",
@@ -10,6 +12,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ,
@@ -21,5 +26,10 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Indicates of the test runner failed."}]
+          "description": "Indicates of the test runner failed.",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

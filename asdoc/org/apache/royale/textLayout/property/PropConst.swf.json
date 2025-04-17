@@ -1,4 +1,13 @@
 { "type": "class",
   "qname": "org.apache.royale.textLayout.property.PropConst",
   "baseClassname": ""
+  ,
+    "description": "",
+  "tags": [
+    ],
+  "members": [
+  ]
+  ,
+  "events": [
+  ]
   }

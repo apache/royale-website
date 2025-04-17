@@ -50,7 +50,10 @@
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "applyImageData",
         "namespace": "public",
@@ -64,4 +67,7 @@
           "return": "void",
           "params": [{ "name": "binaryDataAsString", "type": "String"}]}
       ]
+  ,
+  "events": [
+  ]
   }

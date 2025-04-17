@@ -36,5 +36,10 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
-          "description": "The dataProvider for a TreeGrid is TreeData which is created from HierarchicalData. You can set the dataProvider with TreeData or HierarchicalData and it will create a TreeData from that."}]
+          "description": "The dataProvider for a TreeGrid is TreeData which is created from HierarchicalData. You can set the dataProvider with TreeData or HierarchicalData and it will create a TreeData from that.",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

@@ -44,4 +44,7 @@
                "values": ["org.apache.royale.core.IBead#strand"]},
             {  "tagName": "royaleignorecoercion",
                "values": ["HTMLElement", "HTMLSpanElement", "HTMLButtonElement"]}  ]}]
+  ,
+  "events": [
+  ]
   }

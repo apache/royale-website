@@ -134,4 +134,7 @@
           "params": [{ "name": "oldValue", "type": "Object"},
         { "name": "field", "type": "mx.collections.SummaryField2"}]}
       ]
+  ,
+  "events": [
+  ]
   }

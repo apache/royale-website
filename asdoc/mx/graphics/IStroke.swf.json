@@ -1,5 +1,11 @@
 { "type": "interface",
   "qname": "mx.graphics.IStroke",
+"baseInterfaceNames": [
+]
+,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
     "qname": "apply",
@@ -7,6 +13,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "s", "type": "mx.display.Graphics"},
     { "name": "targetBounds", "type": "org.apache.royale.geom.Rectangle"},

@@ -19,6 +19,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Object",
           "params": [{ "name": "type", "type": "String"},
         { "name": "bubbles", "type": "Boolean"},
@@ -57,4 +60,7 @@
           "return": "Object",
           "params": [{ "name": "nativeEvent", "type": "Object"}]}
       ]
+  ,
+  "events": [
+  ]
   }

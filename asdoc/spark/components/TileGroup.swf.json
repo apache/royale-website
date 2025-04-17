@@ -47,7 +47,7 @@
           "description": "",
         "tags": [
         {  "tagName": "default",
-               "values": [""left""]},
+               "values": ["\"left\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 10", "AIR 1.5"]},
             {  "tagName": "copy",
@@ -107,7 +107,7 @@
           "description": "",
         "tags": [
         {  "tagName": "default",
-               "values": [""justify""]},
+               "values": ["\"justify\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 10", "AIR 1.5"]},
             {  "tagName": "copy",
@@ -147,7 +147,7 @@
           "description": "",
         "tags": [
         {  "tagName": "default",
-               "values": [""rows""]},
+               "values": ["\"rows\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 10", "AIR 1.5"]},
             {  "tagName": "copy",
@@ -307,7 +307,7 @@
           "description": "",
         "tags": [
         {  "tagName": "default",
-               "values": [""top""]},
+               "values": ["\"top\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 10", "AIR 1.5"]},
             {  "tagName": "copy",
@@ -367,7 +367,7 @@
           "description": "",
         "tags": [
         {  "tagName": "default",
-               "values": [""justify""]},
+               "values": ["\"justify\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 10", "AIR 1.5"]},
             {  "tagName": "copy",
@@ -396,4 +396,7 @@
                "values": ["Flex 4"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

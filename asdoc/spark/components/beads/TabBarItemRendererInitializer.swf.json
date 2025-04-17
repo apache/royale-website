@@ -41,4 +41,7 @@
           "return": "void",
           "params": [{ "name": "ir", "type": "org.apache.royale.core.IIndexedItemRenderer"}]}
       ]
+  ,
+  "events": [
+  ]
   }

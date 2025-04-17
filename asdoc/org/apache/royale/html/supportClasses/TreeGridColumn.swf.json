@@ -45,4 +45,7 @@
           "return": "org.apache.royale.core.IUIBase",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

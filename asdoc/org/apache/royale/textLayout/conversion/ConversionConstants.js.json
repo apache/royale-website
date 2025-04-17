@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.textLayout.conversion.ConversionConstants",
   "baseClassname": ""
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "field",
         "qname": "MERGE_TO_NEXT_ON_PASTE",
@@ -16,4 +19,7 @@
                "values": ["Flash 10", "AIR 1.5"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

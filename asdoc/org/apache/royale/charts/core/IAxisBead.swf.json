@@ -3,6 +3,9 @@
 "baseInterfaceNames": [
 "org.apache.royale.core.IBead"]
 ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "accessor",
     "access": "read-write",
@@ -28,7 +31,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
-      "description": "The stroke used for the axis line"},
+      "description": "The stroke used for the axis line",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-write",
     "return": "org.apache.royale.graphics.IStroke",
@@ -37,7 +42,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
-      "description": "The stroked used for the tick marks"},
+      "description": "The stroked used for the tick marks",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-write",
     "return": "org.apache.royale.charts.core.IAxisGroup",
@@ -46,5 +53,7 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
-      "description": "The group space to use as the drawing area for the axis parts (lines, ticks, labels, etc.)."}]
+      "description": "The group space to use as the drawing area for the axis parts (lines, ticks, labels, etc.).",
+    "tags": [
+      ]}]
   }

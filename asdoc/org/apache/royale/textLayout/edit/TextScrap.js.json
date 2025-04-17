@@ -17,7 +17,10 @@
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "org.apache.royale.textLayout.edit.TextScrap",
         "namespace": "",
@@ -90,6 +93,8 @@
         "details": [],
         "deprecated": {},
           "description": "Marks the TextScrap's content as being either plain or formatted",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "plainText", "type": "Boolean"}]}
       ,
@@ -108,4 +113,7 @@
           "return": "Boolean",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

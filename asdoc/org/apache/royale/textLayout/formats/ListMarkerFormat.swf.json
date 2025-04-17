@@ -18,7 +18,10 @@
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "org.apache.royale.textLayout.property.Property",
@@ -26,7 +29,10 @@
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "org.apache.royale.textLayout.property.Property",
@@ -34,7 +40,10 @@
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "org.apache.royale.textLayout.property.Property",
@@ -42,7 +51,10 @@
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "org.apache.royale.textLayout.property.Property",
@@ -50,7 +62,10 @@
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "org.apache.royale.textLayout.property.Property",
@@ -58,7 +73,10 @@
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "org.apache.royale.textLayout.formats.ListMarkerFormat",
         "namespace": "",
@@ -178,7 +196,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Property descriptions accessible by name. @private"},
+          "description": "Property descriptions accessible by name. @private",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "createListMarkerFormat",
         "namespace": "public",
@@ -200,4 +220,7 @@
           "return": "org.apache.royale.textLayout.formats.ListMarkerFormat",
           "params": [{ "name": "initialValues", "type": "Object"}]}
       ]
+  ,
+  "events": [
+  ]
   }

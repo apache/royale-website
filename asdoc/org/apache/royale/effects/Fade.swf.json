@@ -38,7 +38,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The target as the String id of a widget in an MXML Document."},
+          "description": "The target as the String id of a widget in an MXML Document.",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Number",
@@ -47,7 +49,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Starting alpha value.  If NaN, the current alpha value is used"},
+          "description": "Starting alpha value.  If NaN, the current alpha value is used",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Number",
@@ -56,13 +60,18 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Ending alpha value.  If NaN, the current alpha value is not changed"},
+          "description": "Ending alpha value.  If NaN, the current alpha value is not changed",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "setDocument",
         "namespace": "public",
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "document", "type": "Object"},
         { "name": "id", "type": "String"}]}
@@ -73,6 +82,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "value", "type": "Number"}]}
       ,
@@ -82,7 +94,13 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "value", "type": "Number"}]}
       ]
+  ,
+  "events": [
+  ]
   }

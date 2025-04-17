@@ -76,9 +76,15 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Array",
           "params": [{ "name": "x", "type": "Number"},
         { "name": "y", "type": "Number"},
         { "name": "sensitivity", "type": "Number"}]}
       ]
+  ,
+  "events": [
+  ]
   }

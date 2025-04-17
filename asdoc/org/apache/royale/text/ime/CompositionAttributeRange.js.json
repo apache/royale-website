@@ -91,4 +91,7 @@
         { "name": "selected", "type": "Boolean"},
         { "name": "converted", "type": "Boolean"}]}
       ]
+  ,
+  "events": [
+  ]
   }

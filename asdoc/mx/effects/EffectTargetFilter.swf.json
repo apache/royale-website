@@ -137,4 +137,7 @@
           "params": [{ "name": "propChanges", "type": "Array"},
         { "name": "instanceTarget", "type": "Object"}]}
       ]
+  ,
+  "events": [
+  ]
   }

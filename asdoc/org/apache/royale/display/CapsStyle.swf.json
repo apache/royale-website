@@ -14,7 +14,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Used to specify no caps in the caps parameter of the flash.display.Graphics.lineStyle() method."},
+          "description": "Used to specify no caps in the caps parameter of the flash.display.Graphics.lineStyle() method.",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "ROUND",
         "return": "String",
@@ -22,7 +24,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Used to specify round caps in the caps parameter of the flash.display.Graphics.lineStyle() method."},
+          "description": "Used to specify round caps in the caps parameter of the flash.display.Graphics.lineStyle() method.",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "SQUARE",
         "return": "String",
@@ -30,5 +34,10 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Used to specify square caps in the caps parameter of the flash.display.Graphics.lineStyle() method."}]
+          "description": "Used to specify square caps in the caps parameter of the flash.display.Graphics.lineStyle() method.",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

@@ -34,6 +34,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "ir", "type": "org.apache.royale.core.IIndexedItemRenderer"}]}
       ,
@@ -44,6 +47,8 @@
         "details": ["override"],
         "deprecated": {},
           "description": "padding in tabbar buttons always must to be applied to content (span) not to the button itself, since we have an indicator that can be restricted to content or take all available button space.",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "ir", "type": "org.apache.royale.core.IStrand"}]}
       ,
@@ -53,12 +58,21 @@
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "DEFAULT_PADDING_TB",
         "return": "Number",
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}}]
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

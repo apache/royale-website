@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.html.beads.DataGridButtonBarViewForMovableColumns",
   "baseClassname": "org.apache.royale.html.beads.DragDropListView"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.html.beads.DataGridButtonBarViewForMovableColumns",
@@ -32,4 +35,7 @@
         "tags": [
         {  "tagName": "private",
                "values": []}  ]}]
+  ,
+  "events": [
+  ]
   }

@@ -2,6 +2,9 @@
   "qname": "mx.net.FileReference",
   "baseClassname": "org.apache.royale.file.FileProxy"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "mx.net.FileReference",
@@ -9,6 +12,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ,
@@ -18,6 +24,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": [{ "name": "typeFilter", "type": "Array"}]}
       ,
@@ -27,6 +36,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -36,6 +48,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -45,6 +60,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "event", "type": "org.apache.royale.events.Event"}]}
       ,
@@ -55,13 +73,19 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "upload",
         "namespace": "public",
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "request", "type": "org.apache.royale.net.URLRequest"},
         { "name": "uploadDataFieldName", "type": "String"},
@@ -73,6 +97,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "request", "type": "org.apache.royale.net.URLRequest"},
         { "name": "defaultFileName", "type": "String"}]}
@@ -91,4 +118,7 @@
           "params": [{ "name": "data", "type": "*"},
         { "name": "defaultFileName", "type": "String"}]}
       ]
+  ,
+  "events": [
+  ]
   }

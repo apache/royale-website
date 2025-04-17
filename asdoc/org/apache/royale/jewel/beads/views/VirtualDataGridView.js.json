@@ -36,7 +36,13 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "column", "type": "org.apache.royale.core.StyledUIBase"}]}
       ]
+  ,
+  "events": [
+  ]
   }

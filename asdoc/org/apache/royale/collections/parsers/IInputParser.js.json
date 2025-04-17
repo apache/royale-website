@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "org.apache.royale.collections.parsers.IInputParser",
+"baseInterfaceNames": [
+]
+,
     "description": "The IInputParser interface is the basic interface for parsing data from a server or database into an array of items.  This interface is generally used in a LazyCollection.",
   "tags": [
   {  "tagName": "see",

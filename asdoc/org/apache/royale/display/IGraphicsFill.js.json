@@ -1,5 +1,11 @@
 { "type": "interface",
   "qname": "org.apache.royale.display.IGraphicsFill",
+"baseInterfaceNames": [
+]
+,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
     "qname": "apply",
@@ -7,6 +13,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "graphics", "type": "org.apache.royale.display.Graphics"},
     { "name": "element", "type": "SVGPathElement"}]}
@@ -17,6 +26,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "SVGPathElement",
       "params": [{ "name": "graphics", "type": "org.apache.royale.display.Graphics"},
     { "name": "element", "type": "SVGPathElement"}]}

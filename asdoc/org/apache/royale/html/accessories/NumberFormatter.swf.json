@@ -61,4 +61,7 @@
           "return": "String",
           "params": [{ "name": "value", "type": "Object"}]}
       ]
+  ,
+  "events": [
+  ]
   }

@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.display.UIGraphicsBase",
   "baseClassname": "org.apache.royale.core.UIBase"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "accessor",
         "access": "read-only",
@@ -10,5 +13,11 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}}]
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

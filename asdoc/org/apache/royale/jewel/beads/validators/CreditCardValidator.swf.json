@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.jewel.beads.validators.CreditCardValidator",
   "baseClassname": "org.apache.royale.jewel.beads.validators.StringValidator"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.jewel.beads.validators.CreditCardValidator",
@@ -31,7 +34,7 @@
           "description": "The set of formatting characters allowed in the <code>cardNumber</code> field.",
         "tags": [
         {  "tagName": "default",
-               "values": ["" -" (space and dash)"]},
+               "values": ["\" -\" (space and dash)"]},
             {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
             {  "tagName": "productversion",
@@ -49,7 +52,7 @@
           "description": "Error message when the <code>cardNumber</code> field contains invalid characters.",
         "tags": [
         {  "tagName": "default",
-               "values": [""Invalid characters in your credit card number. (Enter numbers only.)""]},
+               "values": ["\"Invalid characters in your credit card number. (Enter numbers only.)\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
             {  "tagName": "productversion",
@@ -67,7 +70,7 @@
           "description": "Error message when the credit card number is invalid.",
         "tags": [
         {  "tagName": "default",
-               "values": [""The credit card number is invalid.""]},
+               "values": ["\"The credit card number is invalid.\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
             {  "tagName": "productversion",
@@ -85,7 +88,7 @@
           "description": "Error message when the <code>cardNumber</code> field is empty.",
         "tags": [
         {  "tagName": "default",
-               "values": [""No credit card number is specified.""]},
+               "values": ["\"No credit card number is specified.\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
             {  "tagName": "productversion",
@@ -103,7 +106,7 @@
           "description": "Error message when the <code>cardType</code> field is blank.",
         "tags": [
         {  "tagName": "default",
-               "values": [""No credit card type is specified or the type is not valid.""]},
+               "values": ["\"No credit card type is specified or the type is not valid.\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
             {  "tagName": "productversion",
@@ -121,7 +124,7 @@
           "description": "Error message when the <code>cardNumber</code> field contains the wrong number of digits for the specified credit card type.",
         "tags": [
         {  "tagName": "default",
-               "values": [""Your credit card number contains the wrong number of digits.""]},
+               "values": ["\"Your credit card number contains the wrong number of digits.\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
             {  "tagName": "productversion",
@@ -139,7 +142,7 @@
           "description": "Error message the <code>cardType</code> field contains an invalid credit card type. You should use the predefined constants for the <code>cardType</code> field: <code>CreditCardValidatorCardType.MASTER_CARD</code>, <code>CreditCardValidatorCardType.VISA</code>, <code>CreditCardValidatorCardType.AMERICAN_EXPRESS</code>, <code>CreditCardValidatorCardType.DISCOVER</code>, or <code>CreditCardValidatorCardType.DINERS_CLUB</code>.",
         "tags": [
         {  "tagName": "default",
-               "values": [""Incorrect card type is specified.""]},
+               "values": ["\"Incorrect card type is specified.\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
             {  "tagName": "productversion",
@@ -153,7 +156,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Object",
@@ -203,4 +209,7 @@
           "return": "Boolean",
           "params": [{ "name": "event", "type": "org.apache.royale.events.Event"}]}
       ]
+  ,
+  "events": [
+  ]
   }

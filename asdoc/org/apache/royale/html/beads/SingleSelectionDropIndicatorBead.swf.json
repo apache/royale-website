@@ -65,4 +65,7 @@
         { "name": "width", "type": "Number"},
         { "name": "height", "type": "Number"}]}
       ]
+  ,
+  "events": [
+  ]
   }

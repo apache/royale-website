@@ -2,6 +2,9 @@
   "qname": "Promise",
   "baseClassname": ""
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "Promise",
@@ -9,6 +12,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "resolver", "type": "Function"}]}
       ,
@@ -18,6 +24,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Promise",
           "params": [{ "name": "promises", "type": "Array"}]}
       ,
@@ -27,6 +36,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Promise",
           "params": [{ "name": "promises", "type": "Array"}]}
       ,
@@ -36,6 +48,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Promise",
           "params": [{ "name": "reason", "type": "*"}]}
       ,
@@ -45,6 +60,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Promise",
           "params": [{ "name": "value", "type": "*"}]}
       ,
@@ -54,6 +72,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.promises.interfaces.IThenable",
           "params": [{ "name": "onFulfilled", "type": "Function"},
         { "name": "onRejected", "type": "Function"}]}
@@ -64,6 +85,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.promises.interfaces.IThenable",
           "params": [{ "name": "onRejected", "type": "Function"}]}
       ,
@@ -73,7 +97,13 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.promises.interfaces.IThenable",
           "params": [{ "name": "onFinally", "type": "Function"}]}
       ]
+  ,
+  "events": [
+  ]
   }

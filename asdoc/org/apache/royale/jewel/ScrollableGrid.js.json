@@ -9,4 +9,10 @@
       {  "tagName": "productversion",
          "values": ["Royale 0.9.6"]},
       {  "tagName": "langversion",
-         "values": ["3.0"]}  ]}
+         "values": ["3.0"]}  ],
+  "members": [
+  ]
+  ,
+  "events": [
+  ]
+  }

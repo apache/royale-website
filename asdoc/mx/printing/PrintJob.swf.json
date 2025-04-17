@@ -36,6 +36,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": []}
       ,
@@ -45,6 +48,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -54,10 +60,16 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "sprite", "type": "mx.core.UIComponent"},
         { "name": "printArea", "type": "org.apache.royale.geom.Rectangle"},
         { "name": "options", "type": "mx.printing.PrintJobOptions"},
         { "name": "frameNum", "type": "int"}]}
       ]
+  ,
+  "events": [
+  ]
   }

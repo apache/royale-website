@@ -13,6 +13,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.elements.IParagraphElement",
           "params": [{ "name": "textFlow", "type": "org.apache.royale.textLayout.elements.ITextFlow"},
         { "name": "startPos", "type": "int"},
@@ -103,6 +106,8 @@
         "details": ["static"],
         "deprecated": {},
           "description": "returns next paragraph in reading order after para. Used for merging paragraphs after delete.",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.elements.IParagraphElement",
           "params": [{ "name": "para", "type": "org.apache.royale.textLayout.elements.IParagraphElement"}]}
       ,
@@ -113,6 +118,8 @@
         "details": ["static"],
         "deprecated": {},
           "description": "if parent is a singleton element, deletes it, then repeats deletion of singletons up the parent chain.  Used after paragraph merge.",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.edit.IMemento",
           "params": [{ "name": "parent", "type": "org.apache.royale.textLayout.elements.IFlowGroupElement"}]}
       ,
@@ -123,6 +130,8 @@
         "details": ["static"],
         "deprecated": {},
           "description": "Joins this paragraph's next sibling to this if it is a paragraph",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.edit.IMemento",
           "params": [{ "name": "para", "type": "org.apache.royale.textLayout.elements.IParagraphElement"},
         { "name": "inSameParent", "type": "Boolean"}]}
@@ -134,6 +143,8 @@
         "details": ["static"],
         "deprecated": {},
           "description": "Joins this paragraph's next sibling to this if it is a paragraph",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.edit.MementoList",
           "params": [{ "name": "para", "type": "org.apache.royale.textLayout.elements.IParagraphElement"},
         { "name": "inSameParent", "type": "Boolean"}]}
@@ -145,6 +156,8 @@
         "details": ["static"],
         "deprecated": {},
           "description": "Joins this element2 to element1 -- all children of element2 added to end of element1",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.edit.IMemento",
           "params": [{ "name": "element1", "type": "org.apache.royale.textLayout.elements.IFlowGroupElement"},
         { "name": "element2", "type": "org.apache.royale.textLayout.elements.IFlowGroupElement"}]}
@@ -156,8 +169,13 @@
         "details": ["static"],
         "deprecated": {},
           "description": "Joins this element1 to element2 -- all children of element1 added to front of element2",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.edit.MementoList",
           "params": [{ "name": "element1", "type": "org.apache.royale.textLayout.elements.IFlowGroupElement"},
         { "name": "element2", "type": "org.apache.royale.textLayout.elements.IFlowGroupElement"}]}
       ]
+  ,
+  "events": [
+  ]
   }

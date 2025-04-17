@@ -17,6 +17,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "x", "type": "Number"},
         { "name": "y", "type": "Number"}]}
@@ -27,6 +30,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.geom.Point",
           "params": [{ "name": "pt1", "type": "org.apache.royale.geom.Point"},
         { "name": "pt2", "type": "org.apache.royale.geom.Point"},
@@ -38,6 +44,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Number",
           "params": [{ "name": "pt1", "type": "org.apache.royale.geom.Point"},
         { "name": "pt2", "type": "org.apache.royale.geom.Point"}]}
@@ -48,6 +57,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.geom.Point",
           "params": [{ "name": "len", "type": "Number"},
         { "name": "angle", "type": "Number"}]}
@@ -58,6 +70,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.geom.Point",
           "params": []}
       ,
@@ -67,6 +82,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.geom.Point",
           "params": [{ "name": "v", "type": "org.apache.royale.geom.Point"}]}
       ,
@@ -76,7 +94,13 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.geom.Point",
           "params": [{ "name": "v", "type": "org.apache.royale.geom.Point"}]}
       ]
+  ,
+  "events": [
+  ]
   }

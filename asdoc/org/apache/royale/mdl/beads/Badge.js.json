@@ -96,4 +96,7 @@
                "values": ["HTMLDivElement;", "HTMLSpanElement;", "HTMLElement;"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

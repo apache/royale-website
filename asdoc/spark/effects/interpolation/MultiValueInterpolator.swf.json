@@ -113,4 +113,7 @@
           "params": [{ "name": "baseValue", "type": "Object"},
         { "name": "decrementValue", "type": "Object"}]}
       ]
+  ,
+  "events": [
+  ]
   }

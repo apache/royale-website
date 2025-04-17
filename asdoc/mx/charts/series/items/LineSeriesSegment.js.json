@@ -130,4 +130,7 @@
           "return": "mx.charts.series.items.LineSeriesSegment",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

@@ -67,4 +67,7 @@
           "return": "void",
           "params": [{ "name": "contentSize", "type": "org.apache.royale.geom.Size"}]}
       ]
+  ,
+  "events": [
+  ]
   }

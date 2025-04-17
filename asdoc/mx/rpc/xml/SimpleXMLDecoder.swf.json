@@ -53,4 +53,7 @@
           "return": "String",
           "params": [{ "name": "xml", "type": "XML"}]}
       ]
+  ,
+  "events": [
+  ]
   }

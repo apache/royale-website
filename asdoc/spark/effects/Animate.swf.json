@@ -144,6 +144,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "type", "type": "String"},
         { "name": "listener", "type": "Function"},
@@ -179,5 +182,8 @@
                "values": ["3.0"]}  ]},
       { "qname": "effectEnd",
         "type": "mx.events.EffectEvent"
-      }]
+      ,
+          "description": "",
+        "tags": [
+          ]}]
   }

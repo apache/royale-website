@@ -3,6 +3,9 @@
 "baseInterfaceNames": [
 "org.apache.royale.core.IUIBase"]
 ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "accessor",
     "access": "read-write",

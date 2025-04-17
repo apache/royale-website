@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.textLayout.utils.CreateTLFUtil",
   "baseClassname": ""
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "createTLF",
@@ -9,8 +12,14 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.formats.TextLayoutFormat",
           "params": [{ "name": "localStyles", "type": "org.apache.royale.textLayout.formats.ITextLayoutFormat"},
         { "name": "parentPrototype", "type": "org.apache.royale.textLayout.formats.TextLayoutFormat"}]}
       ]
+  ,
+  "events": [
+  ]
   }

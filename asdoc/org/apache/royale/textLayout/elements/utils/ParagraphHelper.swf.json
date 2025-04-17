@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.textLayout.elements.utils.ParagraphHelper",
   "baseClassname": ""
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "getParagraph",
@@ -9,7 +12,13 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.elements.IParagraphElement",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

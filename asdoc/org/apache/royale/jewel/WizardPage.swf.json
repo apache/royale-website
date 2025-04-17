@@ -3,6 +3,8 @@
   "baseClassname": "org.apache.royale.jewel.SectionContent"
   ,
     "description": "WizardPage is the main class for a page inside the WizardContent",
+  "tags": [
+    ],
   "members": [
   { "type": "field",
         "qname": "LEFT_EFFECT",
@@ -10,14 +12,20 @@
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "RIGHT_EFFECT",
         "return": "String",
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "org.apache.royale.jewel.WizardPage",
         "namespace": "",
@@ -80,6 +88,8 @@
         "details": [],
         "deprecated": {},
           "description": "Determines whether a view is valid or not  defaults true if the form has no validation",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": []}
       ,
@@ -90,6 +100,8 @@
         "details": [],
         "deprecated": {},
           "description": "add listeners to wizard events when add this page to the wizard",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "wizard", "type": "org.apache.royale.jewel.Wizard"}]}
       ,
@@ -100,6 +112,8 @@
         "details": [],
         "deprecated": {},
           "description": "remove listeners to wizard events when remove this page from the wizard",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "wizard", "type": "org.apache.royale.jewel.Wizard"}]}
       ,
@@ -110,6 +124,8 @@
         "details": [],
         "deprecated": {},
           "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "event", "type": "org.apache.royale.events.Event"}]}
       ,
@@ -120,6 +136,8 @@
         "details": [],
         "deprecated": {},
           "description": "exit page",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -130,6 +148,8 @@
         "details": [],
         "deprecated": {},
           "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "event", "type": "org.apache.royale.events.Event"}]}
       ,
@@ -140,6 +160,8 @@
         "details": [],
         "deprecated": {},
           "description": "enter page",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -151,7 +173,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "show/hide wizard navigator previous button in the wizard for this page"},
+          "description": "show/hide wizard navigator previous button in the wizard for this page",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Boolean",
@@ -160,7 +184,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "show/hide wizard navigator next button in the wizard for this page"},
+          "description": "show/hide wizard navigator next button in the wizard for this page",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "handleNavigationRequest",
         "namespace": "protected",

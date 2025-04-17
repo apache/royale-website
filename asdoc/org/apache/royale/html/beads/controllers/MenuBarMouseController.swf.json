@@ -97,6 +97,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Object",
           "params": [{ "name": "obj", "type": "Object"},
         { "name": "fieldName", "type": "String"}]}
@@ -107,8 +110,14 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "menu", "type": "org.apache.royale.core.IMenu"},
         { "name": "component", "type": "org.apache.royale.core.IUIBase"}]}
       ]
+  ,
+  "events": [
+  ]
   }

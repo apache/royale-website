@@ -4,6 +4,9 @@
 "org.apache.royale.core.IRenderedObject", 
 "org.apache.royale.events.IEventDispatcher"]
 ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "accessor",
     "access": "read-only",
@@ -12,5 +15,8 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}}]
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]}]
   }

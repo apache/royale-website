@@ -420,6 +420,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": [{ "name": "seriesObject", "type": "Object"}]}
       ,
@@ -429,6 +432,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -438,6 +444,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Object",
           "params": []}
       ,
@@ -447,6 +456,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "mx.charts.chartClasses.IAxisRenderer",
           "params": []}
       ,
@@ -456,6 +468,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "mx.charts.chartClasses.IAxisRenderer",
           "params": []}
       ,
@@ -465,6 +480,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "mx.charts.chartClasses.IAxisRenderer",
           "params": []}
       ,
@@ -474,7 +492,13 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "mx.charts.chartClasses.IAxisRenderer",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

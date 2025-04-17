@@ -43,6 +43,8 @@
         "details": [],
         "deprecated": {},
           "description": "Constructor",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ,
@@ -66,6 +68,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.elements.TextFlow",
           "params": [{ "name": "xmlToParse", "type": "XML"},
         { "name": "textFlow", "type": "org.apache.royale.textLayout.elements.TextFlow"}]}
@@ -76,6 +81,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.elements.IDivElement",
           "params": [{ "name": "xmlToParse", "type": "XML"}]}
       ,
@@ -86,6 +94,8 @@
         "details": [],
         "deprecated": {},
           "description": "Create a table element from XML",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.elements.ITableElement",
           "params": [{ "name": "xmlToParse", "type": "XML"}]}
       ,
@@ -96,6 +106,8 @@
         "details": [],
         "deprecated": {},
           "description": "Create a table row element from XML",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.elements.TableRowElement",
           "params": [{ "name": "xmlToParse", "type": "XML"}]}
       ,
@@ -106,6 +118,8 @@
         "details": [],
         "deprecated": {},
           "description": "Create a table cell element from XML",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.elements.TableCellElement",
           "params": [{ "name": "xmlToParse", "type": "XML"}]}
       ,
@@ -116,6 +130,8 @@
         "details": ["override"],
         "deprecated": {},
           "description": "Create a paragraph element from XML",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.elements.IParagraphElement",
           "params": [{ "name": "xmlToParse", "type": "XML"}]}
       ,
@@ -126,6 +142,8 @@
         "details": [],
         "deprecated": {},
           "description": "Create a sub paragraph group element from XML",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.elements.SubParagraphGroupElement",
           "params": [{ "name": "xmlToParse", "type": "XML"}]}
       ,
@@ -136,6 +154,8 @@
         "details": [],
         "deprecated": {},
           "description": "Create a tate chu yoko element from XML",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.elements.TCYElement",
           "params": [{ "name": "xmlToParse", "type": "XML"}]}
       ,
@@ -161,6 +181,8 @@
         "details": ["override"],
         "deprecated": {},
           "description": "Create a span element from XML",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.elements.ISpanElement",
           "params": [{ "name": "xmlToParse", "type": "XML"}]}
       ,
@@ -171,6 +193,8 @@
         "details": [],
         "deprecated": {},
           "description": "Create an inline graphic from XML",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.elements.InlineGraphicElement",
           "params": [{ "name": "xmlToParse", "type": "XML"}]}
       ,
@@ -181,6 +205,8 @@
         "details": ["override"],
         "deprecated": {},
           "description": "Create a list element from XML",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.elements.IListElement",
           "params": [{ "name": "xmlToParse", "type": "XML"}]}
       ,
@@ -191,6 +217,8 @@
         "details": ["override"],
         "deprecated": {},
           "description": "Create a list item element from XML",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.elements.IListItemElement",
           "params": [{ "name": "xmlToParse", "type": "XML"}]}
       ,
@@ -201,6 +229,8 @@
         "details": [],
         "deprecated": {},
           "description": "Extract text format attributes",
+        "tags": [
+          ],
           "return": "Object",
           "params": [{ "name": "curAttrs", "type": "Object"},
         { "name": "importer", "type": "org.apache.royale.textLayout.conversion.TLFormatImporter"}]}
@@ -262,6 +292,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.utils.ObjectMap",
           "params": [{ "name": "xmlToParse", "type": "XML"}]}
       ,
@@ -271,6 +304,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "importFilter", "type": "org.apache.royale.textLayout.conversion.BaseTextLayoutImporter"},
         { "name": "xmlToParse", "type": "XML"},
@@ -282,6 +318,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "importFilter", "type": "org.apache.royale.textLayout.conversion.BaseTextLayoutImporter"},
         { "name": "xmlToParse", "type": "XML"},
@@ -293,6 +332,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "importFilter", "type": "org.apache.royale.textLayout.conversion.BaseTextLayoutImporter"},
         { "name": "xmlToParse", "type": "XML"},
@@ -304,6 +346,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.utils.ObjectMap",
           "params": [{ "name": "xmlToParse", "type": "XML"}]}
       ,
@@ -313,6 +358,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "importFilter", "type": "org.apache.royale.textLayout.conversion.BaseTextLayoutImporter"},
         { "name": "xmlToParse", "type": "XML"},
@@ -400,9 +448,14 @@
         "details": ["static"],
         "deprecated": {},
           "description": "Creates default text flow from the text value passed in. Used for table cell text flows. Used for testing. May be removed in the future.",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.elements.TextFlow",
           "params": [{ "name": "text", "type": "String"},
         { "name": "selectable", "type": "Boolean"},
         { "name": "editable", "type": "Boolean"}]}
       ]
+  ,
+  "events": [
+  ]
   }

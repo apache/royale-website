@@ -36,7 +36,10 @@
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "write-only",
         "return": "org.apache.royale.core.IValuesImpl",
@@ -319,7 +322,10 @@
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "start",
         "namespace": "public",
@@ -354,7 +360,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": ""}]
+          "description": "",
+        "tags": [
+          ]}]
   ,
   "events": [
   { "qname": "initialize",

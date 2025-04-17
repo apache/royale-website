@@ -45,4 +45,7 @@
           "return": "*",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

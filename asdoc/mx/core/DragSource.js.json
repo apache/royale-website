@@ -128,4 +128,7 @@
           "return": "Boolean",
           "params": [{ "name": "format", "type": "String"}]}
       ]
+  ,
+  "events": [
+  ]
   }

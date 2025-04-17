@@ -93,6 +93,9 @@
           "return": "Boolean",
           "params": [{ "name": "time", "type": "Number"}]}
       ]
+  ,
+  "events": [
+  ]
   }
 
 

@@ -49,4 +49,7 @@
           "return": "Object",
           "params": [{ "name": "params", "type": "Array"}]}
       ]
+  ,
+  "events": [
+  ]
   }

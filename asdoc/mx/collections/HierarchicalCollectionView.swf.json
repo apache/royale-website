@@ -254,6 +254,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "uid", "type": "String"}]}
       ,
@@ -263,6 +266,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "uid", "type": "String"},
         { "name": "parent", "type": "Object"},
@@ -410,4 +416,7 @@
           "params": [{ "name": "parent", "type": "Object"},
         { "name": "index", "type": "int"}]}
       ]
+  ,
+  "events": [
+  ]
   }

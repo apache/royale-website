@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.html.PanelTitleBar",
   "baseClassname": "org.apache.royale.html.TitleBar"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.html.PanelTitleBar",
@@ -10,7 +13,12 @@
         "details": [],
         "deprecated": {},
           "description": "A specially styled TitleBar for use in a Panel",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

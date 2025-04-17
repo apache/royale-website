@@ -41,4 +41,7 @@
           "return": "void",
           "params": [{ "name": "columnWidths", "type": "Array"}]}
       ]
+  ,
+  "events": [
+  ]
   }

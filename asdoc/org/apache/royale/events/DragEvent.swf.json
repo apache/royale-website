@@ -173,7 +173,10 @@
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Number",
@@ -181,7 +184,10 @@
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "org.apache.royale.events.DragEvent",
         "namespace": "",
@@ -256,6 +262,8 @@
         "details": ["static"],
         "deprecated": {},
           "description": "Calling this calls the static initializers",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -276,4 +284,7 @@
           "return": "org.apache.royale.events.IRoyaleEvent",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

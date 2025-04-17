@@ -86,7 +86,7 @@
           "description": "The character used to separate the whole from the fractional part of the number. Cannot be a digit and must be distinct from the <code>thousandsSeparator</code>.",
         "tags": [
         {  "tagName": "default",
-               "values": ["".""]},
+               "values": ["\".\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
@@ -104,7 +104,7 @@
           "description": "Type of number to be validated. Permitted values are <code>&quot;real&quot;</code> and <code>&quot;int&quot;</code>.  <p>In ActionScript, you can use the following constants to set this property: <code>NumberValidatorDomainType.REAL</code> or <code>NumberValidatorDomainType.INT</code>.</p>",
         "tags": [
         {  "tagName": "default",
-               "values": [""real""]},
+               "values": ["\"real\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
@@ -122,7 +122,7 @@
           "description": "Error message when the number must be an integer, as defined by the <code>domain</code> property.",
         "tags": [
         {  "tagName": "default",
-               "values": [""The number must be an integer.""]},
+               "values": ["\"The number must be an integer.\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
@@ -194,7 +194,7 @@
           "description": "The character used to separate thousands in the whole part of the number. Cannot be a digit and must be distinct from the <code>decimalSeparator</code>.",
         "tags": [
         {  "tagName": "default",
-               "values": ["",""]},
+               "values": ["\",\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
@@ -212,7 +212,7 @@
           "description": "Error message when the decimal separator character occurs more than once.",
         "tags": [
         {  "tagName": "default",
-               "values": [""The decimal separator can occur only once.""]},
+               "values": ["\"The decimal separator can occur only once.\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
@@ -230,7 +230,7 @@
           "description": "Error message when the value exceeds the <code>maxValue</code> property.",
         "tags": [
         {  "tagName": "default",
-               "values": [""The number entered is too large.""]},
+               "values": ["\"The number entered is too large.\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
@@ -248,7 +248,7 @@
           "description": "Error message when the value contains invalid characters.",
         "tags": [
         {  "tagName": "default",
-               "values": ["The input contains invalid characters.""]},
+               "values": ["The input contains invalid characters.\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
@@ -266,7 +266,7 @@
           "description": "Error message when the value contains invalid format characters, which means that it contains a digit or minus sign (-) as a separator character, or it contains two or more consecutive separator characters.",
         "tags": [
         {  "tagName": "default",
-               "values": [""One of the formatting parameters is invalid.""]},
+               "values": ["\"One of the formatting parameters is invalid.\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
@@ -284,7 +284,7 @@
           "description": "Error message when the value is less than <code>minValue</code>.",
         "tags": [
         {  "tagName": "default",
-               "values": [""The amount entered is too small.""]},
+               "values": ["\"The amount entered is too small.\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
@@ -302,7 +302,7 @@
           "description": "Error message when the value is negative and the <code>allowNegative</code> property is <code>false</code>.",
         "tags": [
         {  "tagName": "default",
-               "values": [""The amount may not be negative.""]},
+               "values": ["\"The amount may not be negative.\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
@@ -320,7 +320,7 @@
           "description": "Error message when the value has a precision that exceeds the value defined by the precision property.",
         "tags": [
         {  "tagName": "default",
-               "values": [""The amount entered has too many digits beyond the decimal point.""]},
+               "values": ["\"The amount entered has too many digits beyond the decimal point.\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
@@ -338,7 +338,7 @@
           "description": "Error message when the thousands separator is in the wrong location.",
         "tags": [
         {  "tagName": "default",
-               "values": [""The thousands separator must be followed by three digits.""]},
+               "values": ["\"The thousands separator must be followed by three digits.\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
@@ -366,4 +366,7 @@
           "return": "Array",
           "params": [{ "name": "value", "type": "Object"}]}
       ]
+  ,
+  "events": [
+  ]
   }

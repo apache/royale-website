@@ -59,4 +59,7 @@
                "values": ["org.apache.royale.core.IBinaryImageModel"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

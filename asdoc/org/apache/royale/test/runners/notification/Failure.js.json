@@ -3,6 +3,8 @@
   "baseClassname": ""
   ,
     "description": "The result of a failed test.",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.test.runners.notification.Failure",
@@ -11,6 +13,8 @@
         "details": [],
         "deprecated": {},
           "description": "Constructor.",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "description", "type": "String"},
         { "name": "exception", "type": "Error"}]}
@@ -23,7 +27,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The description of the test that failed."},
+          "description": "The description of the test that failed.",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Error",
@@ -32,7 +38,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The exception that caused the test to fail."},
+          "description": "The exception that caused the test to fail.",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "String",
@@ -41,7 +49,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The exception's stack trace."},
+          "description": "The exception's stack trace.",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "String",
@@ -50,5 +60,10 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The exception's message."}]
+          "description": "The exception's message.",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

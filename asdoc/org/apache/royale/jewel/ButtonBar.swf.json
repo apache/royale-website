@@ -50,4 +50,7 @@
                "values": ["org.apache.royale.jewel.beads.models.ButtonBarModel"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

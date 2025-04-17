@@ -34,6 +34,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "event", "type": "mx.events.CollectionEvent"}]}
       ,
@@ -44,13 +47,19 @@
         "namespace": "protected",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "getItemAt",
         "namespace": "protected",
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Object",
           "params": [{ "name": "index", "type": "int"}]}
       ]
@@ -58,5 +67,8 @@
   "events": [
   { "qname": "itemRendererCreated",
         "type": "org.apache.royale.events.ItemRendererEvent"
-      }]
+      ,
+          "description": "",
+        "tags": [
+          ]}]
   }

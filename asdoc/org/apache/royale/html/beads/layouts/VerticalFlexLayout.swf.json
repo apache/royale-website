@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.html.beads.layouts.VerticalFlexLayout",
   "baseClassname": "org.apache.royale.core.LayoutBase"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.html.beads.layouts.VerticalFlexLayout",
@@ -71,4 +74,7 @@
           "return": "Boolean",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

@@ -199,4 +199,7 @@
           "return": "void",
           "params": [{ "name": "toolTip", "type": "mx.core.IToolTip"}]}
       ]
+  ,
+  "events": [
+  ]
   }

@@ -3,6 +3,8 @@
   "baseClassname": "org.apache.royale.html.TextInput"
   ,
     "description": "This class extends the standard TextInput class and adds in the prompt, password, and numeric accessories (as needed) for convenience.",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.express.TextInput",
@@ -10,6 +12,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ,
@@ -21,7 +26,9 @@
         "bindable": ["promptChanged"],
         "details": [],
         "deprecated": {},
-          "description": "Displays a message to the user when the field is empty."},
+          "description": "Displays a message to the user when the field is empty.",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Boolean",
@@ -30,7 +37,9 @@
         "bindable": ["secureChanged"],
         "details": [],
         "deprecated": {},
-          "description": "Displays input as * to obsure the content."},
+          "description": "Displays input as * to obsure the content.",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Boolean",
@@ -39,7 +48,9 @@
         "bindable": ["numericChanged"],
         "details": [],
         "deprecated": {},
-          "description": "Allows only numeric values to be entered."},
+          "description": "Allows only numeric values to be entered.",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Boolean",
@@ -48,5 +59,10 @@
         "bindable": ["enabledChanged"],
         "details": [],
         "deprecated": {},
-          "description": "Can enable or disable interaction with the control."}]
+          "description": "Can enable or disable interaction with the control.",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

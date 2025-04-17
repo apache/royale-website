@@ -241,4 +241,7 @@
           "return": "Array",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

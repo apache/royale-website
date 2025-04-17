@@ -17,6 +17,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "e", "type": "org.apache.royale.core.WrappedHTMLElement"}]}
       ,
@@ -62,4 +65,7 @@
         "tags": [
         {  "tagName": "royaleignorecoercion",
                "values": ["org.apache.royale.core.WrappedHTMLElement"]}  ]}]
+  ,
+  "events": [
+  ]
   }

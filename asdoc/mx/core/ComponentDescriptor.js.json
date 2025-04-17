@@ -161,10 +161,13 @@
             {  "tagName": "productversion",
                "values": ["Flex 3"]},
             {  "tagName": "return",
-               "values": ["The string "ComponentDescriptor_" plus the value of the"]},
+               "values": ["The string \"ComponentDescriptor_\" plus the value of the"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ],
           "return": "String",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

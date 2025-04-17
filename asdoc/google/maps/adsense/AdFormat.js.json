@@ -205,4 +205,7 @@
         "tags": [
         {  "tagName": "see",
                "values": ["[google_maps_api_v3_11]"]}  ]}]
+  ,
+  "events": [
+  ]
   }

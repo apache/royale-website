@@ -100,7 +100,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The container space for lines, tick marks, etc."},
+          "description": "The container space for lines, tick marks, etc.",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "org.apache.royale.core.IStrand",
@@ -136,4 +138,7 @@
           "return": "void",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

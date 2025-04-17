@@ -139,4 +139,7 @@
           "params": [{ "name": "channelSet", "type": "mx.messaging.ChannelSet"},
         { "name": "destination", "type": "String"}]}
       ]
+  ,
+  "events": [
+  ]
   }

@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.textLayout.property.PropertyFactory",
   "baseClassname": ""
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "accessor",
         "access": "read-only",
@@ -10,7 +13,10 @@
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "org.apache.royale.textLayout.property.EnumPropertyHandler",
@@ -18,7 +24,10 @@
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "org.apache.royale.textLayout.property.UndefinedPropertyHandler",
@@ -26,7 +35,10 @@
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "org.apache.royale.textLayout.property.UintPropertyHandler",
@@ -34,7 +46,10 @@
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "org.apache.royale.textLayout.property.BooleanPropertyHandler",
@@ -42,7 +57,10 @@
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "org.apache.royale.textLayout.property.FormatPropertyHandler",
@@ -50,7 +68,10 @@
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "org.apache.royale.textLayout.property.FormatPropertyHandler",
@@ -58,13 +79,19 @@
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "bool",
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.property.Property",
           "params": [{ "name": "nameValue", "type": "String"},
         { "name": "defaultValue", "type": "Boolean"},
@@ -77,6 +104,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.property.Property",
           "params": [{ "name": "nameValue", "type": "String"},
         { "name": "defaultValue", "type": "String"},
@@ -89,6 +119,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.property.Property",
           "params": [{ "name": "nameValue", "type": "String"},
         { "name": "defaultValue", "type": "uint"},
@@ -101,6 +134,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.property.Property",
           "params": [{ "name": "nameValue", "type": "String"},
         { "name": "defaultValue", "type": "String"},
@@ -114,6 +150,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.property.Property",
           "params": [{ "name": "nameValue", "type": "String"},
         { "name": "defaultValue", "type": "Object"},
@@ -129,6 +168,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.property.Property",
           "params": [{ "name": "nameValue", "type": "String"},
         { "name": "defaultValue", "type": "Object"},
@@ -142,6 +184,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.property.Property",
           "params": [{ "name": "nameValue", "type": "String"},
         { "name": "defaultValue", "type": "Number"},
@@ -156,6 +201,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.property.Property",
           "params": [{ "name": "nameValue", "type": "String"},
         { "name": "defaultValue", "type": "Object"},
@@ -173,6 +221,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.property.Property",
           "params": [{ "name": "nameValue", "type": "String"},
         { "name": "defaultValue", "type": "Object"},
@@ -189,6 +240,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.property.Property",
           "params": [{ "name": "nameValue", "type": "String"},
         { "name": "defaultValue", "type": "Object"},
@@ -204,6 +258,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.property.Property",
           "params": [{ "name": "nameValue", "type": "String"},
         { "name": "defaultValue", "type": "Array"},
@@ -216,6 +273,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.property.Property",
           "params": [{ "name": "nameValue", "type": "String"},
         { "name": "defaultValue", "type": "Object"},
@@ -230,6 +290,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.property.Property",
           "params": [{ "name": "nameValue", "type": "String"},
         { "name": "defaultValue", "type": "Object"},
@@ -242,10 +305,16 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.property.Property",
           "params": [{ "name": "nameValue", "type": "String"},
         { "name": "defaultValue", "type": "Object"},
         { "name": "inherited", "type": "Boolean"},
         { "name": "categories", "type": "Vector.<String>"}]}
       ]
+  ,
+  "events": [
+  ]
   }

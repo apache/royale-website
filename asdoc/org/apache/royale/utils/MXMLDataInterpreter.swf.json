@@ -122,4 +122,7 @@
           "params": [{ "name": "host", "type": "Object"},
         { "name": "data", "type": "Array"}]}
       ]
+  ,
+  "events": [
+  ]
   }

@@ -34,6 +34,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "menu", "type": "org.apache.royale.core.IMenu"},
         { "name": "component", "type": "org.apache.royale.core.IUIBase"}]}
@@ -44,6 +47,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.events.IEventDispatcher",
           "params": []}
       ,
@@ -53,6 +59,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Object",
           "params": [{ "name": "node", "type": "Object"},
         { "name": "model", "type": "org.apache.royale.core.ICascadingMenuModel"}]}
@@ -63,8 +72,14 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": [{ "name": "node", "type": "Object"},
         { "name": "model", "type": "org.apache.royale.core.ICascadingMenuModel"}]}
       ]
+  ,
+  "events": [
+  ]
   }

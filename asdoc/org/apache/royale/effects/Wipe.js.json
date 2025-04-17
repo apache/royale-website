@@ -38,7 +38,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The target as the String id of a widget in an MXML Document."},
+          "description": "The target as the String id of a widget in an MXML Document.",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "String",
@@ -47,13 +49,18 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The direction of the Wipe.  &quot;up&quot; means the top will be the last part to disappear. &quot;down&quot; will reveal from the top down."},
+          "description": "The direction of the Wipe.  &quot;up&quot; means the top will be the last part to disappear. &quot;down&quot; will reveal from the top down.",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "setDocument",
         "namespace": "public",
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "document", "type": "Object"},
         { "name": "id", "type": "String"}]}
@@ -64,6 +71,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "value", "type": "Number"}]}
       ,
@@ -73,7 +83,13 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "value", "type": "Number"}]}
       ]
+  ,
+  "events": [
+  ]
   }

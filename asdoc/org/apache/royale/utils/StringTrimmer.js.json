@@ -17,6 +17,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "String",
           "params": [{ "name": "str", "type": "String"}]}
       ,
@@ -85,4 +88,7 @@
           "return": "Boolean",
           "params": [{ "name": "character", "type": "String"}]}
       ]
+  ,
+  "events": [
+  ]
   }

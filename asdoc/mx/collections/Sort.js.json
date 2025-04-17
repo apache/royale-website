@@ -227,7 +227,13 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "mx.collections.ISortField",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

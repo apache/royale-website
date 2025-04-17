@@ -3,6 +3,11 @@
   "baseClassname": ""
   ,
     "description": "Outputs the status of a test run to the debug console.",
+  "tags": [
+    ],
   "members": [
+  ]
+  ,
+  "events": [
   ]
   }

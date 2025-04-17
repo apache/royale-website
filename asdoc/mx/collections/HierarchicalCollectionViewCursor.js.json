@@ -325,4 +325,7 @@
           "return": "Object",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

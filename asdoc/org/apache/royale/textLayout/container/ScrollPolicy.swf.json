@@ -58,5 +58,10 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Shared definition of the scrollPolicy property. @private"}]
+          "description": "Shared definition of the scrollPolicy property. @private",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

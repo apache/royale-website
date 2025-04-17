@@ -48,4 +48,7 @@
           "params": [{ "name": "newWidth", "type": "Number"},
         { "name": "newHeight", "type": "Number"}]}
       ]
+  ,
+  "events": [
+  ]
   }

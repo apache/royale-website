@@ -121,4 +121,7 @@
           "return": "Array",
           "params": [{ "name": "value", "type": "Array"}]}
       ]
+  ,
+  "events": [
+  ]
   }

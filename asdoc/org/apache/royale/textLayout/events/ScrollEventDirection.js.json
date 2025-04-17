@@ -37,4 +37,7 @@
                "values": ["Flash 10.0", "AIR 2.0"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

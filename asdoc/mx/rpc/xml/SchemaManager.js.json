@@ -13,6 +13,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ,
@@ -23,7 +26,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "mx.rpc.xml.SchemaConstants",
@@ -47,7 +53,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "mx.rpc.xml.SchemaDatatypes",
@@ -55,13 +64,19 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "addNamespaces",
         "namespace": "public",
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "map", "type": "Object"}]}
       ,
@@ -105,6 +120,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Array",
           "params": []}
       ,
@@ -170,6 +188,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "QName",
           "params": [{ "name": "ncname", "type": "String"},
         { "name": "form", "type": "String"}]}
@@ -180,6 +201,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "QName",
           "params": [{ "name": "ncname", "type": "String"},
         { "name": "form", "type": "String"}]}
@@ -277,4 +301,7 @@
         { "name": "type", "type": "QName"},
         { "name": "restriction", "type": "XML"}]}
       ]
+  ,
+  "events": [
+  ]
   }

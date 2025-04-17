@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "org.apache.royale.textLayout.formats.ITextLayoutFormat",
+"baseInterfaceNames": [
+]
+,
     "description": "This interface provides read access to FlowElements-related properties.",
   "tags": [
   {  "tagName": "playerversion",

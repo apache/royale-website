@@ -38,7 +38,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "the content to be instantiated inside the popup. Instead of setup this property, it can be declared through CSS using IPopUP royale bead css selector.  this property is a proxy from the one in the strand"},
+          "description": "the content to be instantiated inside the popup. Instead of setup this property, it can be declared through CSS using IPopUP royale bead css selector.  this property is a proxy from the one in the strand",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "getHost",
         "namespace": "protected",
@@ -102,4 +104,7 @@
                "values": ["Royale 0.9.6"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

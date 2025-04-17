@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.graphics.GradientEntry",
   "baseClassname": ""
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.graphics.GradientEntry",
@@ -9,6 +12,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "alpha", "type": "Number"},
         { "name": "color", "type": "uint"},
@@ -64,4 +70,7 @@
                "values": ["Royale 0.3"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

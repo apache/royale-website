@@ -347,4 +347,7 @@
           "return": "String",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

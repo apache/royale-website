@@ -18,7 +18,10 @@
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "org.apache.royale.textLayout.compose.IFlowComposer",
@@ -27,5 +30,10 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "@private"}]
+          "description": "@private",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

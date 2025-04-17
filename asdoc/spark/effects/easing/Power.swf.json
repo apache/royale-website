@@ -53,4 +53,7 @@
           "params": [{ "name": "easeInFraction", "type": "Number"},
         { "name": "exponent", "type": "Number"}]}
       ]
+  ,
+  "events": [
+  ]
   }

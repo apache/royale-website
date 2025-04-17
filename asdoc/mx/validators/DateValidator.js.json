@@ -43,7 +43,7 @@
           "description": "The date format to validate the value against. &quot;MM&quot; is the month, &quot;DD&quot; is the day, and &quot;YYYY&quot; is the year. This String is case-sensitive.",
         "tags": [
         {  "tagName": "default",
-               "values": [""MM/DD/YYYY""]},
+               "values": ["\"MM/DD/YYYY\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
@@ -61,7 +61,7 @@
           "description": "Error message when the <code>inputFormat</code> property is not in the correct format.",
         "tags": [
         {  "tagName": "default",
-               "values": [""Configuration error: Incorrect formatting string.""]},
+               "values": ["\"Configuration error: Incorrect formatting string.\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
@@ -79,7 +79,7 @@
           "description": "Error message when a value is missing and the <code>required</code> property is <code>true</code>.",
         "tags": [
         {  "tagName": "default",
-               "values": [""This field is required.""]},
+               "values": ["\"This field is required.\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
@@ -97,11 +97,14 @@
           "description": "The set of formatting characters allowed for separating the month, day, and year values.",
         "tags": [
         {  "tagName": "default",
-               "values": [""/\\-. ""]},
+               "values": ["\"/\\-. \""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
                "values": ["Flex 3"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

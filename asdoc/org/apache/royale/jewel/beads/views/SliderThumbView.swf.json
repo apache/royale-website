@@ -52,4 +52,7 @@
                "values": ["org.apache.royale.core.WrappedHTMLElement"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

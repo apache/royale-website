@@ -143,4 +143,7 @@
           "return": "void",
           "params": [{ "name": "elementCount", "type": "int"}]}
       ]
+  ,
+  "events": [
+  ]
   }

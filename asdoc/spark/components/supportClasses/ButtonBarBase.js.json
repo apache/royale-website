@@ -146,4 +146,7 @@
         { "name": "enabledValue", "type": "Boolean"},
         { "name": "fieldName", "type": "String"}]}
       ]
+  ,
+  "events": [
+  ]
   }

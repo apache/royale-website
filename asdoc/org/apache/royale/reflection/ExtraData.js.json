@@ -19,7 +19,10 @@
         "namespace": "internal",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Boolean",
@@ -28,7 +31,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "this is non-reflectable"},
+          "description": "this is non-reflectable",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "reset",
         "namespace": "public",
@@ -36,6 +41,8 @@
         "details": ["static"],
         "deprecated": {},
           "description": "this is non-reflectable",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -46,6 +53,8 @@
         "details": ["static"],
         "deprecated": {},
           "description": "this is non-reflectable",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": [{ "name": "key", "type": "*"}]}
       ,
@@ -56,6 +65,8 @@
         "details": ["static"],
         "deprecated": {},
           "description": "this is non-reflectable",
+        "tags": [
+          ],
           "return": "Object",
           "params": [{ "name": "key", "type": "*"}]}
       ,
@@ -79,7 +90,12 @@
         "details": ["static"],
         "deprecated": {},
           "description": "this method itself is non-reflectable If an application requires reflection of default Native types and Royale synthetic types in javascript call this method near application startup, before reflection is used in any code  Use this to add corresponding reflection support for native js definitions that are used to correspond to common native as3 types (non-PAYG) If this method is never used, the dependencies inside it will not be included in release build",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

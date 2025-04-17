@@ -82,4 +82,7 @@
         { "name": "responder", "type": "org.apache.royale.net.Responder"},
         { "name": "params", "type": "Array"}]}
       ]
+  ,
+  "events": [
+  ]
   }

@@ -77,4 +77,7 @@
           "params": [{ "name": "rgb1", "type": "uint"},
         { "name": "rgb2", "type": "uint"}]}
       ]
+  ,
+  "events": [
+  ]
   }

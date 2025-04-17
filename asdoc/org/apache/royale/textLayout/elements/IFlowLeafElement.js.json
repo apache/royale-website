@@ -3,6 +3,9 @@
 "baseInterfaceNames": [
 "org.apache.royale.textLayout.elements.IFlowElement"]
 ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
     "qname": "getNextLeaf",
@@ -10,6 +13,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "org.apache.royale.textLayout.elements.IFlowLeafElement",
       "params": [{ "name": "elem", "type": "org.apache.royale.textLayout.elements.IFlowGroupElement"}]}
   ,
@@ -19,6 +25,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "org.apache.royale.geom.Rectangle",
       "params": [{ "name": "bp", "type": "String"},
     { "name": "textLine", "type": "org.apache.royale.text.engine.ITextLine"},
@@ -31,6 +40,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "Number",
       "params": [{ "name": "bp", "type": "String"}]}
   ,
@@ -40,6 +52,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "org.apache.royale.text.engine.FontMetrics",
       "params": []}
   ,
@@ -49,6 +64,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "org.apache.royale.textLayout.elements.IFlowLeafElement",
       "params": [{ "name": "elem", "type": "org.apache.royale.textLayout.elements.IFlowGroupElement"}]}
   ,
@@ -58,6 +76,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "Number",
       "params": []}
   ,
@@ -68,13 +89,19 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "method",
     "qname": "quickInitializeForSplit",
     "namespace": "public",
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "sibling", "type": "org.apache.royale.textLayout.elements.FlowLeafElement"},
     { "name": "newSpanLength", "type": "int"},

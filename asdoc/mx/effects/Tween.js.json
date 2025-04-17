@@ -34,4 +34,7 @@
         { "name": "updateFunction", "type": "Function"},
         { "name": "endFunction", "type": "Function"}]}
       ]
+  ,
+  "events": [
+  ]
   }

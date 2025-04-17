@@ -48,11 +48,14 @@
           "description": "The position of the child in the display list, relative to the object specified by the <code>relativeTo</code> property. Valid values are <code>&quot;before&quot;</code>, <code>&quot;after&quot;</code>, <code>&quot;firstChild&quot;</code>, and <code>&quot;lastChild&quot;</code>.",
         "tags": [
         {  "tagName": "default",
-               "values": [""lastChild""]},
+               "values": ["\"lastChild\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
                "values": ["Flex 3"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

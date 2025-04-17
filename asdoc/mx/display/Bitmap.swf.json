@@ -2,6 +2,9 @@
   "qname": "mx.display.Bitmap",
   "baseClassname": "flash.display.Bitmap"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "mx.display.Bitmap",
@@ -9,9 +12,15 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "bitmapData", "type": "flash.display.BitmapData"},
         { "name": "pixelSnapping", "type": "String"},
         { "name": "smoothing", "type": "Boolean"}]}
       ]
+  ,
+  "events": [
+  ]
   }

@@ -19,6 +19,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ,
@@ -28,6 +31,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "requestData", "type": "Object"}]}
       ,
@@ -82,4 +88,7 @@
           "return": "org.apache.royale.net.URLStream",
           "params": [{ "name": "callback", "type": "Function"}]}
       ]
+  ,
+  "events": [
+  ]
   }

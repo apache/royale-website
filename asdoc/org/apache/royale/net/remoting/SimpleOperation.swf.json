@@ -3,6 +3,8 @@
   "baseClassname": "org.apache.royale.events.EventDispatcher"
   ,
     "description": "used by SimpleRemoteObject implementation",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.net.remoting.SimpleOperation",
@@ -10,6 +12,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "name", "type": "String"},
         { "name": "remoteObject", "type": "org.apache.royale.net.SimpleRemoteObject"},
@@ -21,7 +26,13 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "mx.rpc.IResponder",
+"baseInterfaceNames": [
+]
+,
     "description": "This interface provides the contract for any service that needs to respond to remote or asynchronous calls.",
   "tags": [
   {  "tagName": "playerversion",

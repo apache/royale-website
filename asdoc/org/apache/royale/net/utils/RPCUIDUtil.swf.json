@@ -93,4 +93,7 @@
           "return": "org.apache.royale.utils.BinaryData",
           "params": [{ "name": "uid", "type": "String"}]}
       ]
+  ,
+  "events": [
+  ]
   }

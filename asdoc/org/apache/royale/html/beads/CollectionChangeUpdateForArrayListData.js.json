@@ -36,7 +36,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Label field"},
+          "description": "Label field",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "write-only",
         "return": "org.apache.royale.core.IStrand",
@@ -113,4 +115,7 @@
                "values": ["org.apache.royale.core.IDataProviderModel"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

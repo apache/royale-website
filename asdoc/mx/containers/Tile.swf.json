@@ -43,7 +43,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Number",
@@ -51,7 +54,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "String",
@@ -63,7 +69,7 @@
           "description": "Determines how children are placed in the container. Possible MXML values  are <code>&quot;horizontal&quot;</code> and <code>&quot;vertical&quot;</code>. In ActionScript, you can set the direction using the values TileDirection.HORIZONTAL or TileDirection.VERTICAL. The default value is <code>&quot;horizontal&quot;</code>. (If the container is a Legend container, which is a subclass of Tile, the default value is <code>&quot;vertical&quot;</code>.)  <p>The first child is always placed at the upper-left of the Tile container. If the <code>direction</code> is <code>&quot;horizontal&quot;</code>, the children are placed left-to-right in the topmost row, and then left-to-right in the second row, and so on. If the value is <code>&quot;vertical&quot;</code>, the children are placed top-to-bottom in the leftmost column, and then top-to-bottom in the second column, and so on.</p>",
         "tags": [
         {  "tagName": "default",
-               "values": [""horizontal""]},
+               "values": ["\"horizontal\""]},
             {  "tagName": "see",
                "values": ["TileDirection"]},
             {  "tagName": "playerversion",
@@ -149,4 +155,7 @@
           "params": [{ "name": "unscaledWidth", "type": "Number"},
         { "name": "unscaledHeight", "type": "Number"}]}
       ]
+  ,
+  "events": [
+  ]
   }

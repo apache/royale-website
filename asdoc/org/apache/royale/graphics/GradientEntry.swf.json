@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.graphics.GradientEntry",
   "baseClassname": ""
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.graphics.GradientEntry",
@@ -9,6 +12,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "alpha", "type": "Number"},
         { "name": "color", "type": "uint"},
@@ -71,6 +77,8 @@
         "details": [],
         "deprecated": {},
           "description": "Begin drawing the fill on the given shape's graphic object",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "g", "type": "flash.display.Graphics"}]}
       ,
@@ -81,7 +89,12 @@
         "details": [],
         "deprecated": {},
           "description": "End the fill",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "g", "type": "flash.display.Graphics"}]}
       ]
+  ,
+  "events": [
+  ]
   }

@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.graphics.QuadraticCurve",
   "baseClassname": ""
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.graphics.QuadraticCurve",
@@ -9,6 +12,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "controlX", "type": "Number"},
         { "name": "controlY", "type": "Number"},
@@ -21,6 +27,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "String",
           "params": []}
       ,
@@ -30,7 +39,13 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "g", "type": "flash.display.Graphics"}]}
       ]
+  ,
+  "events": [
+  ]
   }

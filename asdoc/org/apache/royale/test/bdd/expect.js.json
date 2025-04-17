@@ -5,6 +5,8 @@
   "details": [],
   "deprecated": {},
     "description": "Allows chaining of BDD-style assertions using natural language.",
+  "tags": [
+    ],
     "return": "org.apache.royale.test.bdd.IExpect",
     "params": [{ "name": "value", "type": "*"}]}
 

@@ -1,5 +1,11 @@
 { "type": "interface",
   "qname": "org.apache.royale.core.IHasDataProvider",
+"baseInterfaceNames": [
+]
+,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "accessor",
     "access": "read-write",

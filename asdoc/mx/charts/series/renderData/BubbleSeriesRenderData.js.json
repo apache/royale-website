@@ -31,4 +31,7 @@
           "params": [{ "name": "cache", "type": "Array"},
         { "name": "filteredCache", "type": "Array"}]}
       ]
+  ,
+  "events": [
+  ]
   }

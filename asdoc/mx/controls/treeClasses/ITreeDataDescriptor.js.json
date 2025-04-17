@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "mx.controls.treeClasses.ITreeDataDescriptor",
+"baseInterfaceNames": [
+]
+,
     "description": "Interface providing methods for parsing and adding nodes to a collection of data that is displayed by a Tree control.",
   "tags": [
   {  "tagName": "see",

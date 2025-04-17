@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "org.apache.royale.core.ILayoutParent",
+"baseInterfaceNames": [
+]
+,
     "description": "The ILayoutParent interface is implemented by those components that allow their children to be manipulated by a layout.",
   "tags": [
   {  "tagName": "playerversion",
@@ -15,6 +18,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "org.apache.royale.core.ILayoutHost",
       "params": []}
   ]

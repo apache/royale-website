@@ -1,5 +1,11 @@
 { "type": "interface",
   "qname": "org.apache.royale.textLayout.elements.IBackgroundManager",
+"baseInterfaceNames": [
+]
+,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
     "qname": "clearBlockRecord",
@@ -7,6 +13,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": []}
   ,
@@ -16,6 +25,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "elem", "type": "org.apache.royale.textLayout.elements.IFlowElement"},
     { "name": "r", "type": "org.apache.royale.geom.Rectangle"},
@@ -28,6 +40,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "elem", "type": "org.apache.royale.textLayout.elements.IFlowElement"}]}
   ,
@@ -37,6 +52,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "tl", "type": "org.apache.royale.text.engine.ITextLine"},
     { "name": "fle", "type": "org.apache.royale.textLayout.elements.IFlowLeafElement"},
@@ -50,6 +68,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "tl", "type": "org.apache.royale.text.engine.ITextLine"},
     { "name": "numberLine", "type": "org.apache.royale.text.engine.ITextLine"}]}
@@ -60,6 +81,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "line", "type": "org.apache.royale.textLayout.compose.ITextFlowLine"}]}
   ,
@@ -69,6 +93,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "*",
       "params": [{ "name": "line", "type": "org.apache.royale.text.engine.ITextLine"}]}
   ,
@@ -78,6 +105,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "textFlow", "type": "org.apache.royale.textLayout.elements.ITextFlow"},
     { "name": "bgShape", "type": "org.apache.royale.graphics.IGraphicShape"},
@@ -90,6 +120,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "tl", "type": "org.apache.royale.text.engine.ITextLine"}]}
   ,
@@ -99,6 +132,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "controller", "type": "org.apache.royale.textLayout.container.IContainerController"}]}
   ,
@@ -108,6 +144,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "Array",
       "params": []}
   ]

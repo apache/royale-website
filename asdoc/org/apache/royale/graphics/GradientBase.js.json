@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.graphics.GradientBase",
   "baseClassname": ""
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "field",
         "qname": "colors",
@@ -9,21 +12,30 @@
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "ratios",
         "return": "Array",
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "alphas",
         "return": "Array",
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "GRADIENT_DIMENSION",
         "return": "Number",
@@ -45,7 +57,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "generate uid"},
+          "description": "generate uid",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Array",
@@ -54,7 +68,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "An Array of GradientEntry objects defining the fill patterns for the gradient fill."},
+          "description": "An Array of GradientEntry objects defining the fill patterns for the gradient fill.",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Number",
@@ -81,7 +97,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The distance by which to translate each point along the x axis."},
+          "description": "The distance by which to translate each point along the x axis.",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Number",
@@ -90,5 +108,10 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The distance by which to translate each point along the y axis."}]
+          "description": "The distance by which to translate each point along the y axis.",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

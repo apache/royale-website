@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "mx.effects.IEffectTargetHost",
+"baseInterfaceNames": [
+]
+,
     "description": "The IEffectTargetHost interface defines the interface that lets you access the target list-based control of a data effect. All list-based controls implement this interface. This interface enables an instance of an effect class to communicate with the list-based control on which the effect is playing. This interface is also used for determining whether to play an effect based on if a data item is added, removed, or replaced in the target control.",
   "tags": [
   {  "tagName": "see",

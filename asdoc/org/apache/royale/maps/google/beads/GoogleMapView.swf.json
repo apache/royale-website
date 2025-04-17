@@ -3,6 +3,8 @@
   "baseClassname": "org.apache.royale.core.BeadViewBase"
   ,
     "description": "The AS3 version of GoogleMapView is geared toward its use with HTMLLoader for AIR.",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.maps.google.beads.GoogleMapView",
@@ -211,4 +213,7 @@
           "return": "void",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

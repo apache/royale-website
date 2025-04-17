@@ -52,8 +52,14 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": [{ "name": "listener", "type": "Object"},
         { "name": "eventObject", "type": "goog.events.BrowserEvent"}]}
       ]
+  ,
+  "events": [
+  ]
   }

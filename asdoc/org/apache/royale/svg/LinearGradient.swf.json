@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.svg.LinearGradient",
   "baseClassname": "org.apache.royale.graphics.GradientBase"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "accessor",
         "access": "read-write",
@@ -11,13 +14,18 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The horizontal scale of the gradient transform, which defines the width of the (unrotated) gradient"},
+          "description": "The horizontal scale of the gradient transform, which defines the width of the (unrotated) gradient",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "begin",
         "namespace": "public",
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "g", "type": "flash.display.Graphics"},
         { "name": "targetBounds", "type": "flash.geom.Rectangle"},
@@ -29,7 +37,13 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "g", "type": "flash.display.Graphics"}]}
       ]
+  ,
+  "events": [
+  ]
   }

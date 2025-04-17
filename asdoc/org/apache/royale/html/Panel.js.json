@@ -38,6 +38,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "c", "type": "org.apache.royale.core.IChild"},
         { "name": "dispatchEvent", "type": "Boolean"}]}
@@ -49,13 +52,19 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "$getElementAt",
         "namespace": "public",
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.core.IChild",
           "params": [{ "name": "index", "type": "int"}]}
       ,
@@ -125,5 +134,8 @@
   "events": [
   { "qname": "close",
         "type": "org.apache.royale.events.Event"
-      }]
+      ,
+          "description": "",
+        "tags": [
+          ]}]
   }

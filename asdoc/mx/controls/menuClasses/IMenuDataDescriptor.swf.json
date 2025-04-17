@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "mx.controls.menuClasses.IMenuDataDescriptor",
+"baseInterfaceNames": [
+]
+,
     "description": "The IMenuDataDescriptor interface defines the interface that a dataDescriptor for a Menu or MenuBar control must implement. The interface provides methods for parsing and modifyng a collection of data that is displayed by a Menu or MenuBar control.",
   "tags": [
   {  "tagName": "see",
@@ -258,5 +261,8 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}}]
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]}]
   }

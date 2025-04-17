@@ -3,6 +3,8 @@
   "baseClassname": "org.apache.royale.express.View"
   ,
     "description": "This class extends View and adds the HorizontalLayout bead for convenience.",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.express.HView",
@@ -10,7 +12,13 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

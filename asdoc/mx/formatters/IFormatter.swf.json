@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "mx.formatters.IFormatter",
+"baseInterfaceNames": [
+]
+,
     "description": "This interface specifies the method that a formatter object must implement to allow it to be used as the formatter property for UI controls such as the <code>AdvancedDataGridColumn</code>.",
   "tags": [
   {  "tagName": "see",

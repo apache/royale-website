@@ -13,6 +13,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ,
@@ -22,6 +25,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "mx.messaging.channels.amfx.AMFXResult",
           "params": [{ "name": "xml", "type": "XML"}]}
       ,
@@ -31,8 +37,14 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Object",
           "params": [{ "name": "xml", "type": "XML"},
         { "name": "context", "type": "mx.messaging.channels.amfx.AMFXContext"}]}
       ]
+  ,
+  "events": [
+  ]
   }

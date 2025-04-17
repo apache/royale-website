@@ -45,7 +45,7 @@
           "description": "The mask pattern. Possible values are <code>&quot;#####-####&quot;</code>, <code>&quot;##### ####&quot;</code>, <code>&quot;#####&quot;</code>, <code>&quot;###-###&quot;</code> and <code>&quot;### ###&quot;</code>.",
         "tags": [
         {  "tagName": "default",
-               "values": [""#####""]},
+               "values": ["\"#####\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
@@ -73,4 +73,7 @@
           "return": "String",
           "params": [{ "name": "value", "type": "Object"}]}
       ]
+  ,
+  "events": [
+  ]
   }

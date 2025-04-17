@@ -83,7 +83,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "This should be an implementation like ItemRendererMouseController"},
+          "description": "This should be an implementation like ItemRendererMouseController",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "createElement",
         "namespace": "protected",
@@ -97,4 +99,7 @@
           "return": "org.apache.royale.core.WrappedHTMLElement",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

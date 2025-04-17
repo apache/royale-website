@@ -26,6 +26,8 @@
         "details": ["static"],
         "deprecated": {},
           "description": "Return the short three letter name of a month. In most cases it's the first 3 letters.  TODO move short names to resource bundles.",
+        "tags": [
+          ],
           "return": "String",
           "params": [{ "name": "monthName", "type": "String"},
         { "name": "monthNames", "type": "Array"}]}
@@ -36,7 +38,10 @@
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "stringToDate",
         "namespace": "public",
@@ -76,7 +81,7 @@
             {  "tagName": "return",
                "values": ["The formatted date as a String."]},
             {  "tagName": "example",
-               "values": ["<pre>var todaysDate:String = DateField.dateToString(new Date(), "MM/DD/YYYY");</pre>"]},
+               "values": ["<pre>var todaysDate:String = DateField.dateToString(new Date(), \"MM/DD/YYYY\");</pre>"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ],
           "return": "String",
@@ -195,7 +200,7 @@
           "description": "The format of the displayed date in the text field. This property can contain any combination of <code>&quot;M&quot;</code>, <code>&quot;MM&quot;</code>, <code>&quot;MMM&quot;</code> (3 letter month names), <code>&quot;MMMM&quot;</code> (month names), <code>&quot;D&quot;</code>, <code>&quot;DD&quot;</code>, <code>&quot;YY&quot;</code>, <code>&quot;YYYY&quot;</code>, delimiter, and punctuation characters.  <p>Only upper case characters are supported.</p>",
         "tags": [
         {  "tagName": "default",
-               "values": [""MM/DD/YYYY""]},
+               "values": ["\"MM/DD/YYYY\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
@@ -424,6 +429,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -450,6 +458,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": [{ "name": "child", "type": "org.apache.royale.core.IUIBase"}]}
       ,
@@ -460,7 +471,10 @@
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}}]
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]}]
   ,
   "events": [
   { "qname": "change",

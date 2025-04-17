@@ -3,6 +3,8 @@
   "baseClassname": "org.apache.royale.textLayout.compose.TextFlowLine"
   ,
     "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.textLayout.compose.TextFlowTableBlock",
@@ -24,7 +26,10 @@
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "initialize",
         "namespace": "public",
@@ -49,6 +54,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "cont", "type": "org.apache.royale.textLayout.container.IContainerController"},
         { "name": "colNumber", "type": "int"}]}
@@ -60,7 +68,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The index of this block in the table text flow layout"},
+          "description": "The index of this block in the table text flow layout",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "getCellsInRange",
         "namespace": "public",
@@ -68,6 +78,8 @@
         "details": [],
         "deprecated": {},
           "description": "Returns a vector of table cell elements in the given cell range.",
+        "tags": [
+          ],
           "return": "Vector.<org.apache.royale.textLayout.elements.ITableCellElement>",
           "params": [{ "name": "anchorCoords", "type": "org.apache.royale.textLayout.elements.CellCoordinates"},
         { "name": "activeCoords", "type": "org.apache.royale.textLayout.elements.CellCoordinates"}]}
@@ -79,6 +91,8 @@
         "details": [],
         "deprecated": {},
           "description": "Clears the cells in the table block. Wraps clearCells().",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -89,6 +103,8 @@
         "details": [],
         "deprecated": {},
           "description": "Clears the cells in the table block",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -99,6 +115,8 @@
         "details": [],
         "deprecated": {},
           "description": "Adds a cell container to table container. This adds it to the display list. If the cell is already added it does not add it twice.",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "cell", "type": "org.apache.royale.textLayout.elements.CellContainer"}]}
       ,
@@ -108,6 +126,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "backgroundInfo", "type": "*"}]}
       ,
@@ -119,7 +140,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Container that displays this collection of cells"},
+          "description": "Container that displays this collection of cells",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "updateCompositionShapes",
         "namespace": "public",
@@ -127,6 +150,8 @@
         "details": [],
         "deprecated": {},
           "description": "Triggers drawing of composed cell contents",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -138,7 +163,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
-          "description": "Sets the height of the container"},
+          "description": "Sets the height of the container",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Number",
@@ -147,7 +174,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Sets the width of the container"},
+          "description": "Sets the width of the container",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Number",
@@ -156,7 +185,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
-          "description": "Sets the x position of the container"},
+          "description": "Sets the x position of the container",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Number",
@@ -165,7 +196,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
-          "description": "Sets the y value of the container"},
+          "description": "Sets the y value of the container",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "getTableCells",
         "namespace": "public",
@@ -173,6 +206,8 @@
         "details": [],
         "deprecated": {},
           "description": "Returns a vector of table cell elements.",
+        "tags": [
+          ],
           "return": "Vector.<org.apache.royale.textLayout.elements.ITableCellElement>",
           "params": []}
       ,
@@ -183,13 +218,19 @@
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "hiliteBlockSelection",
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "selObj", "type": "org.apache.royale.graphics.ICompoundGraphic"},
         { "name": "selFormat", "type": "org.apache.royale.textLayout.edit.SelectionFormat"},
@@ -206,5 +247,11 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}}]
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

@@ -62,4 +62,7 @@
           "return": "String",
           "params": [{ "name": "code", "type": "uint"}]}
       ]
+  ,
+  "events": [
+  ]
   }

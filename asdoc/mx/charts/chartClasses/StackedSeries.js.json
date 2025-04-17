@@ -308,4 +308,7 @@
           "return": "String",
           "params": [{ "name": "hitData", "type": "mx.charts.HitData"}]}
       ]
+  ,
+  "events": [
+  ]
   }

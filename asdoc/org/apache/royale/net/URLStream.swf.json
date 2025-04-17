@@ -14,6 +14,8 @@
         "details": [],
         "deprecated": {},
           "description": "constructor",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ,
@@ -55,7 +57,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The BinaryData reponse received from the request. This can be a response or an error response. The client should check the status to know how to interpret the response."},
+          "description": "The BinaryData reponse received from the request. This can be a response or an error response. The client should check the status to know how to interpret the response.",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "load",
         "namespace": "public",
@@ -335,4 +339,7 @@
           "return": "org.apache.royale.net.URLStream",
           "params": [{ "name": "callback", "type": "Function"}]}
       ]
+  ,
+  "events": [
+  ]
   }

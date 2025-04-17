@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "org.apache.royale.net.remoting.messages.IMessage",
+"baseInterfaceNames": [
+]
+,
     "description": "This interface defines the contract for message objects.",
   "tags": [
   {  "tagName": "playerversion",

@@ -36,13 +36,18 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "the list to filter"},
+          "description": "the list to filter",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "addListListeners",
         "namespace": "protected",
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -52,6 +57,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -75,7 +83,10 @@
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "scrollToIndex",
         "namespace": "public",
@@ -104,7 +115,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "the filter function to use to filter entries in the list  Notice that defaultFilterFunction receive a text string, while a custom filter function can receive the whole data object from the renderer so the user can make an kind of process over the data object and its subfields"},
+          "description": "the filter function to use to filter entries in the list  Notice that defaultFilterFunction receive a text string, while a custom filter function can receive the whole data object from the renderer so the user can make an kind of process over the data object and its subfields",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "useDecoration",
         "return": "Boolean",
@@ -112,7 +125,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "enables label decoration when filter"},
+          "description": "enables label decoration when filter",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "int",
@@ -121,7 +136,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "enables label decoration when filter"},
+          "description": "enables label decoration when filter",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "write-only",
         "return": "org.apache.royale.core.IStrand",
@@ -148,6 +165,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "event", "type": "org.apache.royale.events.Event"}]}
       ,
@@ -157,6 +177,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "event", "type": "org.apache.royale.events.Event"}]}
       ,
@@ -166,6 +189,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "event", "type": "org.apache.royale.events.KeyboardEvent"}]}
       ,
@@ -175,6 +201,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "input", "type": "Object"}]}
       ,
@@ -203,7 +232,7 @@
           "description": "Used to decorated the filtered text",
         "tags": [
         {  "tagName": "param",
-               "values": ["originalString, the original String", "toReplace, the string to replace", "decoration, the decoration to use, defaults to "strong""]},
+               "values": ["originalString, the original String", "toReplace, the string to replace", "decoration, the decoration to use, defaults to \"strong\""]},
             {  "tagName": "return",
                "values": ["the originalString with the replacement performed"]}  ],
           "return": "String",
@@ -219,6 +248,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "filterText", "type": "String"}]}
       ,
@@ -228,6 +260,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "item", "type": "Object"}]}
       ,
@@ -253,8 +288,14 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "int",
           "params": [{ "name": "a", "type": "int"},
         { "name": "b", "type": "int"}]}
       ]
+  ,
+  "events": [
+  ]
   }

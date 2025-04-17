@@ -19,9 +19,15 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "color", "type": "uint"},
         { "name": "ratio", "type": "Number"},
         { "name": "alpha", "type": "Number"}]}
       ]
+  ,
+  "events": [
+  ]
   }

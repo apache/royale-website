@@ -60,4 +60,7 @@
                "values": ["value"]},
             {  "tagName": "royaleignorecoercion",
                "values": ["HTMLElement", "HTMLSpanElement", "Text", "HTMLButtonElement"]}  ]}]
+  ,
+  "events": [
+  ]
   }

@@ -13,6 +13,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "httpService", "type": "mx.rpc.http.HTTPService"}]}
       ,
@@ -39,6 +42,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "event", "type": "mx.rpc.events.FaultEvent"}]}
       ,
@@ -48,6 +54,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "event", "type": "mx.rpc.events.ResultEvent"}]}
       ]
@@ -55,8 +64,14 @@
   "events": [
   { "qname": "fault",
         "type": "mx.rpc.events.FaultEvent"
-      },
+      ,
+          "description": "",
+        "tags": [
+          ]},
       { "qname": "wsdlLoad",
         "type": "mx.rpc.events.WSDLLoadEvent"
-      }]
+      ,
+          "description": "",
+        "tags": [
+          ]}]
   }

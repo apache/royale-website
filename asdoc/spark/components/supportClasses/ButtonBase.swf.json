@@ -43,7 +43,7 @@
           "description": "Text to appear on the ButtonBase control.  <p>If the label is wider than the ButtonBase control, the label is truncated and terminated by an ellipsis (...). The full label displays as a tooltip when the user moves the mouse over the control. If you have also set a tooltip by using the <code>tooltip</code> property, the tooltip is displayed rather than the label text.</p>  <p>This is the default ButtonBase property.</p>  <p>This property is a <code>String</code> typed facade to the <code>content</code> property.  This property is bindable and it shares dispatching the &quot;contentChange&quot; event with the <code>content</code> property.</p>",
         "tags": [
         {  "tagName": "default",
-               "values": [""""]},
+               "values": ["\"\""]},
             {  "tagName": "see",
                "values": ["#content"]},
             {  "tagName": "playerversion",
@@ -61,7 +61,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Boolean",
@@ -69,7 +72,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "String",
@@ -77,7 +83,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "String",
@@ -85,5 +94,11 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}}]
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

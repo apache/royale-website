@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.textLayout.property.CounterContentHandler",
   "baseClassname": "org.apache.royale.textLayout.property.PropertyHandler"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "accessor",
         "access": "read-only",
@@ -10,7 +13,10 @@
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Boolean",
@@ -18,13 +24,19 @@
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "toXMLString",
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "String",
           "params": [{ "name": "val", "type": "Object"}]}
       ,
@@ -34,6 +46,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "*",
           "params": [{ "name": "newVal", "type": "*"}]}
       ,
@@ -43,6 +58,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "String",
           "params": [{ "name": "s", "type": "String"}]}
       ,
@@ -53,7 +71,12 @@
         "details": ["override"],
         "deprecated": {},
           "description": "parse the input string and create a valid input value",
+        "tags": [
+          ],
           "return": "*",
           "params": [{ "name": "newVal", "type": "*"}]}
       ]
+  ,
+  "events": [
+  ]
   }

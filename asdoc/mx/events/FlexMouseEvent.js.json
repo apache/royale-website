@@ -2,6 +2,9 @@
   "qname": "mx.events.FlexMouseEvent",
   "baseClassname": "org.apache.royale.events.MouseEvent"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "field",
         "qname": "MOUSE_DOWN_OUTSIDE",
@@ -83,4 +86,7 @@
         { "name": "buttonDown", "type": "Boolean"},
         { "name": "delta", "type": "int"}]}
       ]
+  ,
+  "events": [
+  ]
   }

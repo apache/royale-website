@@ -3,6 +3,8 @@
   "baseClassname": ""
   ,
     "description": "The File class provides access to a specific file on the device.",
+  "tags": [
+    ],
   "members": [
   { "type": "field",
         "qname": "documentsDirectory",
@@ -10,20 +12,29 @@
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "dataDirectory",
         "return": "String",
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "org.apache.royale.storage.file.LocalFile",
         "namespace": "",
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "handle", "type": "Object"}]}
       ,
@@ -34,15 +45,24 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "resolvePath",
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.storage.file.LocalFile",
           "params": [{ "name": "directory", "type": "String"},
         { "name": "filename", "type": "String"}]}
       ]
+  ,
+  "events": [
+  ]
   }

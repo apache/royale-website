@@ -17,9 +17,15 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "rawData", "type": "Object"},
         { "name": "packageName", "type": "String"},
         { "name": "name", "type": "String"}]}
       ]
+  ,
+  "events": [
+  ]
   }

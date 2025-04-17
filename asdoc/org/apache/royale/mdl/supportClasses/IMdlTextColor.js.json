@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "org.apache.royale.mdl.supportClasses.IMdlTextColor",
+"baseInterfaceNames": [
+]
+,
     "description": "The IMdlTextColor interface must be implemented by any class that will apply textColor and textColorWeight provided by google style color.  https://material.google.com/style/color.html#color-color-palette https://gitlab.com/material/colors/blob/master/colors.html",
   "tags": [
   {  "tagName": "playerversion",

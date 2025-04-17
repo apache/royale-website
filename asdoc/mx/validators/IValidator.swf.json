@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "mx.validators.IValidator",
+"baseInterfaceNames": [
+]
+,
     "description": "This interface specifies the methods and properties that a Validator object must implement. <p>This interface allows to validate multiple data types like numbers, currency, phone numbers, zip codes etc that are defined in both mx and spark namespaces. The classes mx:Validator and spark:GlobaliationValidatorBase implement this interface. The validateAll() method in these classes use this interface type to call the validate() method on multiple validator objects.</p>",
   "tags": [
   {  "tagName": "see",

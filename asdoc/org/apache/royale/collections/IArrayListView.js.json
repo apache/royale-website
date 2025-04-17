@@ -3,6 +3,9 @@
 "baseInterfaceNames": [
 "org.apache.royale.collections.ICollectionView"]
 ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "accessor",
     "access": "read-write",

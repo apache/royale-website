@@ -176,4 +176,7 @@
           "return": "Object",
           "params": [{ "name": "key", "type": "String"}]}
       ]
+  ,
+  "events": [
+  ]
   }

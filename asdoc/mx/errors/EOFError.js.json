@@ -2,6 +2,9 @@
   "qname": "mx.errors.EOFError",
   "baseClassname": ""
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "mx.errors.EOFError",
@@ -20,4 +23,7 @@
           "return": "",
           "params": [{ "name": "message", "type": "String"}]}
       ]
+  ,
+  "events": [
+  ]
   }

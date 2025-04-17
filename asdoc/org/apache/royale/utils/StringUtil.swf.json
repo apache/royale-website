@@ -17,6 +17,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ,
@@ -196,4 +199,7 @@
           "params": [{ "name": "str", "type": "String"},
         { "name": "wordToSeach", "type": "String"}]}
       ]
+  ,
+  "events": [
+  ]
   }

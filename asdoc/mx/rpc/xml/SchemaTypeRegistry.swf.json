@@ -150,4 +150,7 @@
           "return": "void",
           "params": [{ "name": "type", "type": "Object"}]}
       ]
+  ,
+  "events": [
+  ]
   }

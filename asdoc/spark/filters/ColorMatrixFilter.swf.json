@@ -75,4 +75,7 @@
           "return": "Object",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

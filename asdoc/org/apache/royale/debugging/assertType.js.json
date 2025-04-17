@@ -5,6 +5,8 @@
   "details": [],
   "deprecated": {},
     "description": "asserts an object is of the desired type.",
+  "tags": [
+    ],
     "return": "void",
     "params": [{ "name": "obj", "type": "Object"},
   { "name": "type", "type": "Class"},

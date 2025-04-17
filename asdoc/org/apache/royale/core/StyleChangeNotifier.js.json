@@ -31,4 +31,7 @@
                "values": ["org.apache.royale.core.IStyleableObject", "org.apache.royale.events.IEventDispatcher"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

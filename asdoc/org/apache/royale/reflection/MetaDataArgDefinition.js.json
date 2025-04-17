@@ -17,6 +17,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "name", "type": "String"},
         { "name": "value", "type": "String"},
@@ -30,7 +33,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "reference to the MetaDataDefinition owner of this MetaDataArgDefinition"},
+          "description": "reference to the MetaDataDefinition owner of this MetaDataArgDefinition",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "String",
@@ -39,7 +44,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "the 'key' value of a metadata argument in [Event(name=&quot;boom&quot;)] the value for the 1st (only) argument is 'boom'"},
+          "description": "the 'key' value of a metadata argument in [Event(name=&quot;boom&quot;)] the value for the 1st (only) argument is 'boom'",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "String",
@@ -48,14 +55,22 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "the 'key' value of a metadata argument in [Event(name=&quot;boom&quot;)] the key for the 1st (only) argument is 'name'"},
+          "description": "the 'key' value of a metadata argument in [Event(name=&quot;boom&quot;)] the key for the 1st (only) argument is 'name'",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "toString",
         "namespace": "public",
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "String",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

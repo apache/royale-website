@@ -104,6 +104,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "c", "type": "org.apache.royale.core.IChild"},
         { "name": "dispatchEvent", "type": "Boolean"}]}
@@ -114,6 +117,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "c", "type": "org.apache.royale.core.IChild"},
         { "name": "index", "type": "int"},
@@ -125,6 +131,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "c", "type": "org.apache.royale.core.IChild"},
         { "name": "dispatchEvent", "type": "Boolean"}]}
@@ -135,6 +144,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "int",
           "params": [{ "name": "c", "type": "org.apache.royale.core.IChild"}]}
       ,
@@ -145,13 +157,19 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "getElementAt",
         "namespace": "public",
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.core.IChild",
           "params": [{ "name": "index", "type": "int"}]}
       ,
@@ -233,5 +251,11 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}}]
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

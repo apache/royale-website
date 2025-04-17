@@ -13,13 +13,19 @@
         "namespace": "mx_internal",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "generateAllowedErrors",
         "namespace": "mx_internal",
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Object",
           "params": []}
       ,
@@ -168,4 +174,7 @@
           "params": [{ "name": "commitEvent", "type": "Boolean"},
         { "name": "cloneIndex", "type": "int"}]}
       ]
+  ,
+  "events": [
+  ]
   }

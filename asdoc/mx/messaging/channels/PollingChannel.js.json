@@ -17,28 +17,40 @@
         "namespace": "protected",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "POLLING_INTERVAL_LEGACY",
         "return": "String",
         "namespace": "protected",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "PIGGYBACKING_ENABLED",
         "return": "String",
         "namespace": "protected",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "LOGIN_AFTER_DISCONNECT",
         "return": "String",
         "namespace": "protected",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "mx.messaging.channels.PollingChannel",
         "namespace": "",
@@ -66,7 +78,10 @@
         "namespace": "mx_internal",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Boolean",
@@ -200,6 +215,9 @@
           "return": "void",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }
 
 

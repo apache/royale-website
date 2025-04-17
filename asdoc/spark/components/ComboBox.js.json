@@ -68,7 +68,10 @@
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Boolean",
@@ -87,4 +90,7 @@
                "values": ["Flex 3", "Flex 3", "Flex 3", "Flex 3", "Flex 3", "Flex 3", "Flex 3", "Flex 3", "Flex 3", "Flex 3", "Flex 3", "Flex 3"]},
             {  "tagName": "langversion",
                "values": ["3.0", "3.0", "3.0", "3.0", "3.0", "3.0", "3.0", "3.0", "3.0", "3.0", "3.0", "3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

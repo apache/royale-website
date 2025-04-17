@@ -17,28 +17,40 @@
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "PROPORTIONAL_WIDTHS",
         "return": "Number",
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "PERCENT_WIDTHS",
         "return": "Number",
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "NATURAL_WIDTHS",
         "return": "Number",
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "org.apache.royale.html.beads.models.ButtonBarModel",
         "namespace": "",
@@ -80,5 +92,10 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Indicates how to interpret the values of the buttonWidths array.  PIXEL_WIDTHS: all of the values are exact pixel widths (unless a value is null). PROPORTIONAL_WIDTHS: all of the values are proportions. Use 1 to indicate normal, 2 to be 2x, etc. Use 0 (or null) to mean fixed default size."}]
+          "description": "Indicates how to interpret the values of the buttonWidths array.  PIXEL_WIDTHS: all of the values are exact pixel widths (unless a value is null). PROPORTIONAL_WIDTHS: all of the values are proportions. Use 1 to indicate normal, 2 to be 2x, etc. Use 0 (or null) to mean fixed default size.",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

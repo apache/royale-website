@@ -18,6 +18,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": []}
   ,
@@ -27,6 +30,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "Object",
       "params": [{ "name": "text", "type": "String"},
     { "name": "xpos", "type": "Number"},
@@ -41,6 +47,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "Object",
       "params": [{ "name": "text", "type": "String"},
     { "name": "xpos", "type": "Number"},
@@ -55,6 +64,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "originX", "type": "Number"},
     { "name": "originY", "type": "Number"},
@@ -69,6 +81,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "originX", "type": "Number"},
     { "name": "originY", "type": "Number"},

@@ -168,5 +168,8 @@
                "values": ["3.0"]}  ]},
       { "qname": "effectEnd",
         "type": "mx.events.EffectEvent"
-      }]
+      ,
+          "description": "",
+        "tags": [
+          ]}]
   }

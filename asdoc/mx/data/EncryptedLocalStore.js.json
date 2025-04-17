@@ -2,6 +2,9 @@
   "qname": "mx.data.EncryptedLocalStore",
   "baseClassname": ""
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "getItem",
@@ -9,6 +12,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "mx.utils.ByteArray",
           "params": [{ "name": "name", "type": "String"}]}
       ,
@@ -18,9 +24,15 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "name", "type": "String"},
         { "name": "data", "type": "mx.utils.ByteArray"},
         { "name": "stronglyBound", "type": "Boolean"}]}
       ]
+  ,
+  "events": [
+  ]
   }

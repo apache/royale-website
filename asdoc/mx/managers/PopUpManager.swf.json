@@ -109,7 +109,13 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "popUp", "type": "mx.core.IFlexDisplayObject"}]}
       ]
+  ,
+  "events": [
+  ]
   }

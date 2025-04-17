@@ -168,4 +168,7 @@
           "params": [{ "name": "document", "type": "Object"},
         { "name": "id", "type": "String"}]}
       ]
+  ,
+  "events": [
+  ]
   }

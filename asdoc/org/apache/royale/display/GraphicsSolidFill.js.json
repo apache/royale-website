@@ -15,20 +15,29 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "color",
         "return": "uint",
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "org.apache.royale.display.GraphicsSolidFill",
         "namespace": "",
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "color", "type": "uint"},
         { "name": "alpha", "type": "Number"}]}
@@ -39,6 +48,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "graphics", "type": "org.apache.royale.display.Graphics"},
         { "name": "element", "type": "SVGPathElement"}]}
@@ -49,8 +61,14 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "SVGPathElement",
           "params": [{ "name": "graphics", "type": "org.apache.royale.display.Graphics"},
         { "name": "element", "type": "SVGPathElement"}]}
       ]
+  ,
+  "events": [
+  ]
   }

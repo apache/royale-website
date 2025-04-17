@@ -370,6 +370,9 @@
         { "name": "collection", "type": "mx.collections.ICollectionView"},
         { "name": "model", "type": "Object"}]}
       ]
+  ,
+  "events": [
+  ]
   }
 
 

@@ -47,6 +47,9 @@
           "return": "void",
           "params": [{ "name": "textScrap", "type": "org.apache.royale.textLayout.edit.TextScrap"}]}
       ]
+  ,
+  "events": [
+  ]
   }
 
 

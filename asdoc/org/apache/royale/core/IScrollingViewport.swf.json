@@ -5,6 +5,8 @@
 "org.apache.royale.events.IEventDispatcher"]
 ,
     "description": "A ScrollingViewport is a Viewport that scrolls overflow content.",
+  "tags": [
+    ],
   "members": [
   { "type": "accessor",
     "access": "read-only",

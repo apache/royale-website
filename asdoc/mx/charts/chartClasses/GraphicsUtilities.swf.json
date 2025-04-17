@@ -17,6 +17,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "g", "type": "mx.display.Graphics"},
         { "name": "ls", "type": "mx.graphics.IStroke"}]}
@@ -55,7 +58,7 @@
           "description": "Draws a line connecting the datapoints using one of various forms.",
         "tags": [
         {  "tagName": "param",
-               "values": ["g     The Graphics object to draw into.", "pts   An Array of datapoints that define the line.", "start The index of the first point in the <code>pts</code> Array to use when drawing the line.", "end   The index of the last point, exclusive, to use when drawing the line.", "hProp The name of the property in the objects contained in the <code>pts</code> Array that defines the horizontal position of the points in the line.", "vProp The name of the property in the objects contained in the <code>pts</code> Array that defines the vertical position of the points in the line.", "stroke The Stroke used to render the line.", "form  The form to render the line with. Valid values are "segment","horizontal","vertical","step","reverseStep", or "curve". These forms are similar to the LineSeries class's <code>form</code> property.", "moveToStart Indicates whether to first move the pen to the beginning of the line before drawing. Pass <code>false</code> to use this function to continue a line in progress."]},
+               "values": ["g     The Graphics object to draw into.", "pts   An Array of datapoints that define the line.", "start The index of the first point in the <code>pts</code> Array to use when drawing the line.", "end   The index of the last point, exclusive, to use when drawing the line.", "hProp The name of the property in the objects contained in the <code>pts</code> Array that defines the horizontal position of the points in the line.", "vProp The name of the property in the objects contained in the <code>pts</code> Array that defines the vertical position of the points in the line.", "stroke The Stroke used to render the line.", "form  The form to render the line with. Valid values are \"segment\",\"horizontal\",\"vertical\",\"step\",\"reverseStep\", or \"curve\". These forms are similar to the LineSeries class's <code>form</code> property.", "moveToStart Indicates whether to first move the pen to the beginning of the line before drawing. Pass <code>false</code> to use this function to continue a line in progress."]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
@@ -141,4 +144,7 @@
           "return": "uint",
           "params": [{ "name": "f", "type": "Object"}]}
       ]
+  ,
+  "events": [
+  ]
   }

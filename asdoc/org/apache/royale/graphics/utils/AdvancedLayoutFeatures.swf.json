@@ -51,7 +51,10 @@
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Number",
@@ -429,4 +432,7 @@
         { "name": "postLayoutRotation", "type": "flash.geom.Vector3D"},
         { "name": "postLayoutTransformCenterPosition", "type": "flash.geom.Vector3D"}]}
       ]
+  ,
+  "events": [
+  ]
   }

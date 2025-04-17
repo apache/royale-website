@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "org.apache.royale.core.IMXMLDocument",
+"baseInterfaceNames": [
+]
+,
     "description": "The IMXMLDocument interface is an interface for a component that supports being written in MXML.",
   "tags": [
   {  "tagName": "playerversion",

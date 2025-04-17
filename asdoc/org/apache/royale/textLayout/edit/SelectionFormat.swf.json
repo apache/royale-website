@@ -191,4 +191,7 @@
           "return": "Boolean",
           "params": [{ "name": "selectionFormat", "type": "org.apache.royale.textLayout.edit.SelectionFormat"}]}
       ]
+  ,
+  "events": [
+  ]
   }

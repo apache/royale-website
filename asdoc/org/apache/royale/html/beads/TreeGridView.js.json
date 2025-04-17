@@ -36,7 +36,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "An array of List objects the comprise the columns of the DataGrid."},
+          "description": "An array of List objects the comprise the columns of the DataGrid.",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "org.apache.royale.core.IUIBase",
@@ -45,7 +47,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The area used to hold the columns"},
+          "description": "The area used to hold the columns",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "org.apache.royale.core.IDataGridHeader",
@@ -54,7 +58,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Returns the component used as the header for the DataGrid."},
+          "description": "Returns the component used as the header for the DataGrid.",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "write-only",
         "return": "org.apache.royale.core.IStrand",
@@ -81,7 +87,13 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

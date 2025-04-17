@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "mx.collections.ISort",
+"baseInterfaceNames": [
+]
+,
     "description": "The <code>ISort</code> interface defines the interface for classes that provide the sorting information required to sort the data of a collection view.",
   "tags": [
   {  "tagName": "see",

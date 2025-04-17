@@ -162,4 +162,7 @@
           "params": [{ "name": "patternValue", "type": "String"},
         { "name": "patternType", "type": "String"}]}
       ]
+  ,
+  "events": [
+  ]
   }

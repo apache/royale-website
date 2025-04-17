@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.html.supportClasses.TreeItemRenderer",
   "baseClassname": "org.apache.royale.html.supportClasses.StringItemRenderer"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.html.supportClasses.TreeItemRenderer",
@@ -52,4 +55,7 @@
                "values": ["Royale 0.0"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

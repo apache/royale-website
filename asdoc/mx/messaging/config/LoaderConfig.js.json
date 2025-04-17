@@ -13,6 +13,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "root", "type": "Object"}]}
       ,
@@ -71,7 +74,10 @@
         "namespace": "mx_internal",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "uint",
@@ -80,7 +86,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "If the LoaderConfig has been initialized, this should represent the top-level MovieClip's swfVersion."},
+          "description": "If the LoaderConfig has been initialized, this should represent the top-level MovieClip's swfVersion.",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "String",
@@ -97,4 +105,7 @@
                "values": ["Flex 3"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

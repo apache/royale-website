@@ -33,13 +33,19 @@
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "getText",
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "String",
           "params": [{ "name": "relativeStart", "type": "int"},
         { "name": "relativeEnd", "type": "int"},
@@ -312,4 +318,7 @@
           "return": "org.apache.royale.textLayout.elements.IFlowGroupElement",
           "params": [{ "name": "childIndex", "type": "int"}]}
       ]
+  ,
+  "events": [
+  ]
   }

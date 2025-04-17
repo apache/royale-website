@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.svg.LinearGradient",
   "baseClassname": "org.apache.royale.graphics.GradientBase"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "accessor",
         "access": "read-write",
@@ -11,7 +14,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The horizontal scale of the gradient transform, which defines the width of the (unrotated) gradient"},
+          "description": "The horizontal scale of the gradient transform, which defines the width of the (unrotated) gradient",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "addFillAttrib",
         "namespace": "public",
@@ -29,4 +34,7 @@
           "return": "String",
           "params": [{ "name": "value", "type": "org.apache.royale.graphics.IGraphicShape"}]}
       ]
+  ,
+  "events": [
+  ]
   }

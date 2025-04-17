@@ -5,6 +5,8 @@
   "details": [],
   "deprecated": {},
     "description": "Takes a numerator and denominator and returns the fraction described as a percent.",
+  "tags": [
+    ],
     "return": "Number",
     "params": [{ "name": "numerator", "type": "Number"},
   { "name": "denominator", "type": "Number"}]}

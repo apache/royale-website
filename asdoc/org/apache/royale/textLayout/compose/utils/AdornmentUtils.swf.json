@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.textLayout.compose.utils.AdornmentUtils",
   "baseClassname": ""
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "updateIMEAdornments",
@@ -25,6 +28,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Number",
           "params": [{ "name": "element", "type": "org.apache.royale.textLayout.elements.IFlowLeafElement"},
         { "name": "stOffset", "type": "Number"},
@@ -32,4 +38,7 @@
         { "name": "metrics", "type": "org.apache.royale.text.engine.FontMetrics"},
         { "name": "textLine", "type": "org.apache.royale.text.engine.ITextLine"}]}
       ]
+  ,
+  "events": [
+  ]
   }

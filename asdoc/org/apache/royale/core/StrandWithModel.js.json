@@ -67,4 +67,7 @@
           "return": "void",
           "params": [{ "name": "bead", "type": "org.apache.royale.core.IBead"}]}
       ]
+  ,
+  "events": [
+  ]
   }

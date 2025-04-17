@@ -17,6 +17,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ,
@@ -26,6 +29,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "document", "type": "Object"},
         { "name": "id", "type": "String"}]}
@@ -42,4 +48,7 @@
         "tags": [
         {  "tagName": "royaleignorecoercion",
                "values": ["org.apache.royale.events.IEventDispatcher"]}  ]}]
+  ,
+  "events": [
+  ]
   }

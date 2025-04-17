@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "org.apache.royale.collections.ISortField",
+"baseInterfaceNames": [
+]
+,
     "description": "The <code>ISortField</code> interface defines the interface for classes that are used with <code>ISort</code> classes, to provide the sorting information required to sort the specific fields or property in a collection view.",
   "tags": [
   {  "tagName": "playerversion",

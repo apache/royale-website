@@ -1,6 +1,11 @@
 { "type": "interface",
   "qname": "org.apache.royale.test.async.IAsyncHandler",
+"baseInterfaceNames": [
+]
+,
     "description": "Used for tests with <code>[Test(async)]</code> metadata.",
+  "tags": [
+    ],
   "members": [
   { "type": "accessor",
     "access": "read-only",
@@ -10,7 +15,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
-      "description": "Indicates if the body of the test function is currently executing."},
+      "description": "Indicates if the body of the test function is currently executing.",
+    "tags": [
+      ]},
   { "type": "method",
     "qname": "asyncHandler",
     "namespace": "public",
@@ -18,6 +25,8 @@
     "details": [],
     "deprecated": {},
       "description": "Sets the function to call after a delay.",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "eventListener", "type": "Function"},
     { "name": "delay", "type": "int"}]}

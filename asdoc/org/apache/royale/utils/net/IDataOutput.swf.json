@@ -3,4 +3,10 @@
 "baseInterfaceNames": [
 "org.apache.royale.utils.IBinaryDataOutput", 
 "flash.utils.IDataOutput"]
-}
+,
+    "description": "",
+  "tags": [
+    ],
+  "members": [
+  ]
+  }

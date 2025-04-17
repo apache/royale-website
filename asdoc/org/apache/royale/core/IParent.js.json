@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "org.apache.royale.core.IParent",
+"baseInterfaceNames": [
+]
+,
     "description": "The IParent interface is the basic interface for a component that contains subcomponents, including the application class.",
   "tags": [
   {  "tagName": "playerversion",

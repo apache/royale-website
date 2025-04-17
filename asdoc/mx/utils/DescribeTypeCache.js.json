@@ -36,7 +36,13 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Object",
           "params": [{ "name": "o", "type": "*"}]}
       ]
+  ,
+  "events": [
+  ]
   }

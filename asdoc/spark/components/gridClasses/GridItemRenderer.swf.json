@@ -22,6 +22,8 @@
         "details": ["static"],
         "deprecated": {},
           "description": "If the effective value of showDataTips has changed for this column, then set the renderer's toolTip property to a placeholder.  The real tooltip text is computed in the TOOL_TIP_SHOW handler below.",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "renderer", "type": "spark.components.gridClasses.IGridItemRenderer"}]}
       ,
@@ -32,6 +34,8 @@
         "details": ["static"],
         "deprecated": {},
           "description": "Shows the tooltip for one of the grid's item renderers. This is the handler for the <code>ToolTipEvent.TOOL_TIP_SHOW</code> event in GridItemRenderer, DefaultGridItemRenderer, and UITextFieldGridItemRenderer which are installed by the corresponding constructors. The item renderer's tool tip is computed just before it is shown.  If the item renderer's column <code>showDataTips<code> property is true, a placeholder tool tip is registered with the tool tip manager so that mouse handlers are put in place to detect when the tool tip should be shown by calling this handler.  This handler replaces the placeholder text with the actual text and resizes the tooltip before moving it into position. The tip is positioned over the item renderer with the origin of the tip at 0, 0, after accounting for the layoutDirection of the grid.  The current target is expected to implement IGridItemRenderer and IUIComponent.",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "event", "type": "mx.events.ToolTipEvent"}]}
       ,
@@ -265,7 +269,7 @@
           "description": "",
         "tags": [
         {  "tagName": "default",
-               "values": [""""]},
+               "values": ["\"\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 10", "AIR 2.5"]},
             {  "tagName": "copy",

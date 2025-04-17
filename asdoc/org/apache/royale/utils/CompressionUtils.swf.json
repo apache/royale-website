@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.utils.CompressionUtils",
   "baseClassname": ""
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.utils.CompressionUtils",
@@ -26,6 +29,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.utils.BinaryData",
           "params": [{ "name": "data", "type": "org.apache.royale.utils.BinaryData"}]}
       ,
@@ -35,7 +41,13 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.utils.BinaryData",
           "params": [{ "name": "data", "type": "org.apache.royale.utils.BinaryData"}]}
       ]
+  ,
+  "events": [
+  ]
   }

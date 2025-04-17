@@ -17,6 +17,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "name", "type": "String"},
         { "name": "rawData", "type": "Object"},
@@ -30,7 +33,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "reference to the owner of this MetaDataDefinition (either a class member MemberDefinitionBase, or a class TypeDefinition)"},
+          "description": "reference to the owner of this MetaDataDefinition (either a class member MemberDefinitionBase, or a class TypeDefinition)",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Array",
@@ -39,7 +44,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The argument pairs (if any) associated with a Metadata tag in [Event(name=&quot;boom&quot;)] the args array would be of length 1 the array contains MetaDataArgDefinitions"},
+          "description": "The argument pairs (if any) associated with a Metadata tag in [Event(name=&quot;boom&quot;)] the args array would be of length 1 the array contains MetaDataArgDefinitions",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "getArgsByKey",
         "namespace": "public",
@@ -68,4 +75,7 @@
           "return": "String",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

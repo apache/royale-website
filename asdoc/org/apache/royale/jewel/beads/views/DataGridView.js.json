@@ -36,14 +36,20 @@
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "sharedModel",
         "return": "org.apache.royale.core.IDataGridModel",
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "write-only",
         "return": "org.apache.royale.core.IStrand",
@@ -51,7 +57,10 @@
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "scrollToIndex",
         "namespace": "public",
@@ -79,6 +88,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -88,6 +100,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "event", "type": "org.apache.royale.events.Event"}]}
       ,
@@ -98,6 +113,8 @@
         "details": [],
         "deprecated": {},
           "description": "set the height of the column if necessary",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "column", "type": "org.apache.royale.core.StyledUIBase"}]}
       ,
@@ -107,6 +124,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -116,6 +136,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.jewel.supportClasses.datagrid.IDataGridColumnList",
           "params": [{ "name": "index", "type": "int"},
         { "name": "len", "type": "int"},
@@ -148,7 +171,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "An array of List objects the comprise the columns of the DataGrid."},
+          "description": "An array of List objects the comprise the columns of the DataGrid.",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "org.apache.royale.core.IUIBase",
@@ -157,7 +182,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The area used to hold the columns"},
+          "description": "The area used to hold the columns",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "org.apache.royale.core.IDataGridHeader",
@@ -166,7 +193,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Returns the component used as the header for the DataGrid."},
+          "description": "Returns the component used as the header for the DataGrid.",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "handleCollectionChanged",
         "namespace": "protected",
@@ -211,7 +240,13 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

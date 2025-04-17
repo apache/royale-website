@@ -18,7 +18,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Event type for DamageEvent"},
+          "description": "Event type for DamageEvent",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "org.apache.royale.textLayout.events.DamageEvent",
         "namespace": "",
@@ -83,4 +85,7 @@
                "values": ["Flash 10", "AIR 1.5"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

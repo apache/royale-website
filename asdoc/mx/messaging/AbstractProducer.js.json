@@ -158,4 +158,7 @@
           "return": "void",
           "params": [{ "name": "message", "type": "mx.messaging.messages.IMessage"}]}
       ]
+  ,
+  "events": [
+  ]
   }

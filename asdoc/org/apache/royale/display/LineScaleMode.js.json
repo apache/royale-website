@@ -14,7 +14,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "With this setting used as the scaleMode parameter of the lineStyle() method, the thickness of the line scales only horizontally."},
+          "description": "With this setting used as the scaleMode parameter of the lineStyle() method, the thickness of the line scales only horizontally.",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "NONE",
         "return": "String",
@@ -22,7 +24,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "With this setting used as the scaleMode parameter of the lineStyle() method, the thickness of the line never scales."},
+          "description": "With this setting used as the scaleMode parameter of the lineStyle() method, the thickness of the line never scales.",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "NORMAL",
         "return": "String",
@@ -30,7 +34,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "With this setting used as the scaleMode parameter of the lineStyle() method, the thickness of the line always scales when the object is scaled (the default)."},
+          "description": "With this setting used as the scaleMode parameter of the lineStyle() method, the thickness of the line always scales when the object is scaled (the default).",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "VERTICAL",
         "return": "String",
@@ -38,5 +44,10 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "With this setting used as the scaleMode parameter of the lineStyle() method, the thickness of the line scales only vertically."}]
+          "description": "With this setting used as the scaleMode parameter of the lineStyle() method, the thickness of the line scales only vertically.",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

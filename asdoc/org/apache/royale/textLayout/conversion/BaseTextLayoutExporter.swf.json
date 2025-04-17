@@ -3,6 +3,8 @@
   "baseClassname": "org.apache.royale.textLayout.conversion.ConverterBase"
   ,
     "description": "Base export converter for TextLayout format.",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.textLayout.conversion.BaseTextLayoutExporter",
@@ -10,6 +12,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "ns", "type": "Namespace"},
         { "name": "rootTag", "type": "XML"},
@@ -81,6 +86,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "destination", "type": "XML"},
         { "name": "span", "type": "org.apache.royale.textLayout.elements.SpanElement"},
@@ -111,7 +119,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Gets the regex that specifies characters in span text to be replaced with XML elements. Note: Each match is a single character"},
+          "description": "Gets the regex that specifies characters in span text to be replaced with XML elements. Note: Each match is a single character",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "getSpanTextReplacementXML",
         "namespace": "protected",
@@ -119,6 +129,8 @@
         "details": [],
         "deprecated": {},
           "description": "Gets the xml element used to represent a character in the export format",
+        "tags": [
+          ],
           "return": "XML",
           "params": [{ "name": "ch", "type": "String"}]}
       ,
@@ -160,6 +172,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "XMLList",
           "params": [{ "name": "exporter", "type": "org.apache.royale.textLayout.conversion.BaseTextLayoutExporter"},
         { "name": "flowParagraph", "type": "org.apache.royale.textLayout.elements.IParagraphFormattedElement"}]}
@@ -170,6 +185,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "XMLList",
           "params": [{ "name": "flowElement", "type": "org.apache.royale.textLayout.elements.IFlowElement"}]}
       ,
@@ -179,6 +197,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "XMLList",
           "params": [{ "name": "exporter", "type": "org.apache.royale.textLayout.conversion.BaseTextLayoutExporter"},
         { "name": "flowParagraph", "type": "org.apache.royale.textLayout.elements.IParagraphFormattedElement"}]}
@@ -189,6 +210,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "XMLList",
           "params": [{ "name": "flowElement", "type": "org.apache.royale.textLayout.elements.IFlowElement"}]}
       ,
@@ -383,7 +407,10 @@
         "namespace": "internal",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Object",
@@ -391,5 +418,11 @@
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}}]
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

@@ -17,6 +17,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ,
@@ -58,6 +61,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "renderedObject", "type": "org.apache.royale.core.IRenderedObject"}]}
       ,
@@ -67,7 +73,13 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "renderedObject", "type": "org.apache.royale.core.IRenderedObject"}]}
       ]
+  ,
+  "events": [
+  ]
   }

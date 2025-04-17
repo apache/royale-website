@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "org.apache.royale.jewel.supportClasses.ISelectableContent",
+"baseInterfaceNames": [
+]
+,
     "description": "ISelectableContent is the interface a container implements to mark as the current selected content",
   "tags": [
   {  "tagName": "playerversion",

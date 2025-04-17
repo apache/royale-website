@@ -47,4 +47,7 @@
                "values": ["BlazeDS 4", "LCDS 3"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

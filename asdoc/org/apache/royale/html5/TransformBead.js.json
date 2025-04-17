@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.html5.TransformBead",
   "baseClassname": "org.apache.royale.core.TransformBeadBase"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "transform",
@@ -16,4 +19,7 @@
           "return": "void",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

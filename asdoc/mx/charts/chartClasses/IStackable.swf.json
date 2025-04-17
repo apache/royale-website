@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "mx.charts.chartClasses.IStackable",
+"baseInterfaceNames": [
+]
+,
     "description": "The IStackable interface is implemented by any series that can be stacked. Stacking sets (ColumnSet, BarSet, AreaSet) require that any sub-series assigned to it when stacking implement this interface.",
   "tags": [
   {  "tagName": "playerversion",

@@ -55,4 +55,7 @@
           "params": [{ "name": "pt", "type": "org.apache.royale.geom.Point"},
         { "name": "local", "type": "Object"}]}
       ]
+  ,
+  "events": [
+  ]
   }

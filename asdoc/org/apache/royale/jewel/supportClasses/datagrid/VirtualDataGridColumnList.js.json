@@ -82,4 +82,7 @@
                "values": ["org.apache.royale.jewel.supportClasses.list.IListPresentationModel"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

@@ -33,4 +33,7 @@
           "params": [{ "name": "result", "type": "Function"},
         { "name": "fault", "type": "Function"}]}
       ]
+  ,
+  "events": [
+  ]
   }

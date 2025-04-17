@@ -3,6 +3,8 @@
   "baseClassname": "org.apache.royale.jewel.Group"
   ,
     "description": "FormItem is a label, and option required indicator (no validation is implied) and a content with one or more controls",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.jewel.FormItem",
@@ -99,6 +101,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "c", "type": "org.apache.royale.core.IChild"},
         { "name": "dispatchEvent", "type": "Boolean"}]}
@@ -110,13 +115,19 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "$getElementAt",
         "namespace": "public",
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.core.IChild",
           "params": [{ "name": "index", "type": "int"}]}
       ,
@@ -134,4 +145,7 @@
                "values": []},
             {  "tagName": "royaleignorecoercion",
                "values": ["org.apache.royale.html.beads.FormItemView"]}  ]}]
+  ,
+  "events": [
+  ]
   }

@@ -30,4 +30,7 @@
           "return": "",
           "params": [{ "name": "target", "type": "org.apache.royale.core.IUIBase"}]}
       ]
+  ,
+  "events": [
+  ]
   }

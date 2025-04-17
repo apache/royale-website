@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "org.apache.royale.textLayout.compose.IFlowComposer",
+"baseInterfaceNames": [
+]
+,
     "description": "IFlowComposer defines the interface for managing the layout and display of a text flow.  <p>Text flows displayed with a flow composer implementation can be dynamic and interactive. A flow composer manages one or more display controller. Each controller is associated with a display object container (such as a Sprite) through which the lines created for the text flow are ultimately displayed. The following diagram illustrates the relationship between TextFlow, IFlowComposer, ContainerController, and DisplayObjectContainer objects:</p>  <p><img src=&quot;../../../images/textLayout_singleController.gif&quot; alt=&quot;IFlowComposer&quot;></img></p>  <p>A flow composer calculates which portion of a text flow fits in each container and adds the appropriate text lines to the container's display object. The IFlowComposer interface defines separate methods for layout calculations and for updating the display. IFlowComposer also defines methods for incrementally composing and updating a text flow. These methods can be used to avoid blocking the user interface when updating long text flows.</p>  <p>In addition to managing text composition and display, a flow composer controls which container has focus, manages the display of the selection highlight (which can cross container boundaries), and provides direct access to all the TextLine objects in the flow.</p>  <p>To use an IFlowComposer implementation, assign an instance of that implementation to the <code>flowComposer</code> property of a TextFlow object. Call the <code>updateAllControllers()</code> method to lay out and display the text in the containers attached to the flow composer.</p>  <p><b>Note:</b> For simple, static text flows, you can also use the one of the text line factory classes. These factory classes will typically create lines with less overhead than a flow composer, but do not support editing, dynamic changes, or user interaction.</p>",
   "tags": [
   {  "tagName": "see",
@@ -31,6 +34,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "newRootElement", "type": "org.apache.royale.textLayout.elements.IContainerFormattedElement"}]}
   ,
@@ -526,6 +532,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "org.apache.royale.textLayout.elements.IBackgroundManager",
       "params": []}
   ,
@@ -536,13 +545,19 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "method",
     "qname": "addLine",
     "namespace": "public",
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "newLine", "type": "org.apache.royale.textLayout.compose.ITextFlowLine"},
     { "name": "workIndex", "type": "int"}]}
@@ -553,6 +568,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "org.apache.royale.text.engine.ITextLine",
       "params": [{ "name": "listItemElement", "type": "org.apache.royale.textLayout.elements.IListItemElement"},
     { "name": "curParaElement", "type": "org.apache.royale.textLayout.elements.IParagraphElement"},

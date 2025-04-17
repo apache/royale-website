@@ -3,6 +3,8 @@
   "baseClassname": ""
   ,
     "description": "Helper functions for tests marked with <code>[Test(async)]</code> metadata.",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "delayCall",
@@ -11,6 +13,8 @@
         "details": ["static"],
         "deprecated": {},
           "description": "Calls a function after a delay, measured in milliseconds.",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "testCase", "type": "Object"},
         { "name": "delayedFunction", "type": "Function"},
@@ -23,6 +27,8 @@
         "details": ["static"],
         "deprecated": {},
           "description": "If an event is not dispatched within the specified delay (measured in milliseconds), the test will fail.",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "testCase", "type": "Object"},
         { "name": "dispatcher", "type": "org.apache.royale.events.EventDispatcher"},
@@ -36,6 +42,8 @@
         "details": ["static"],
         "deprecated": {},
           "description": "Similar to <code>requireEvent()</code>, requires an event to be dispatched for the test to pass, but the arguments are also passed to a custom event handler that may perform additional checks.",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "testCase", "type": "Object"},
         { "name": "dispatcher", "type": "org.apache.royale.events.EventDispatcher"},
@@ -50,10 +58,15 @@
         "details": ["static"],
         "deprecated": {},
           "description": "If an event is dispatched within the specified delay, the test case will fail.",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "testCase", "type": "Object"},
         { "name": "dispatcher", "type": "org.apache.royale.events.EventDispatcher"},
         { "name": "eventName", "type": "String"},
         { "name": "timeout", "type": "int"}]}
       ]
+  ,
+  "events": [
+  ]
   }

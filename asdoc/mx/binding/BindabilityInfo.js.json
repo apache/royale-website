@@ -58,6 +58,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "mx.binding.BindabilityInfo",
           "params": [{ "name": "forTarget", "type": "Object"}]}
       ,
@@ -96,4 +99,7 @@
           "return": "Object",
           "params": [{ "name": "childName", "type": "String"}]}
       ]
+  ,
+  "events": [
+  ]
   }

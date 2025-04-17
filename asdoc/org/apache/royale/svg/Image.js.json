@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.svg.Image",
   "baseClassname": "org.apache.royale.core.ImageBase"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.svg.Image",
@@ -39,7 +42,10 @@
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "addImageElement",
         "namespace": "protected",
@@ -60,7 +66,10 @@
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "org.apache.royale.core.WrappedHTMLElement",
@@ -68,7 +77,10 @@
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "applyImageData",
         "namespace": "public",
@@ -88,6 +100,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "value", "type": "Number"},
         { "name": "noEvent", "type": "Boolean"}]}
@@ -98,6 +113,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "value", "type": "Number"},
         { "name": "noEvent", "type": "Boolean"}]}
@@ -108,6 +126,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "value", "type": "Number"}]}
       ,
@@ -117,6 +138,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "value", "type": "Number"}]}
       ,
@@ -144,4 +168,7 @@
         "tags": [
         {  "tagName": "royaleignorecoercion",
                "values": ["String", "HTMLElement"]}  ]}]
+  ,
+  "events": [
+  ]
   }
