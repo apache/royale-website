@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.graphics.MoveTo",
   "baseClassname": ""
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.graphics.MoveTo",
@@ -9,6 +12,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "x", "type": "Number"},
         { "name": "y", "type": "Number"}]}
@@ -19,6 +25,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "String",
           "params": []}
       ,
@@ -28,7 +37,13 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "ctx", "type": "Object"}]}
       ]
+  ,
+  "events": [
+  ]
   }

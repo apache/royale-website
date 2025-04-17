@@ -13,6 +13,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ,
@@ -51,7 +54,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "mx.rpc.soap.SOAPConstants",
@@ -59,7 +65,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "mx.rpc.wsdl.WSDLOperation",
@@ -67,7 +76,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "encodeRequest",
         "namespace": "public",
@@ -281,4 +293,7 @@
         { "name": "type", "type": "QName"},
         { "name": "definition", "type": "XML"}]}
       ]
+  ,
+  "events": [
+  ]
   }

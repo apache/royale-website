@@ -18,6 +18,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "binaryDataAsString", "type": "String"}]}
   ]

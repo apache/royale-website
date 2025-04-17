@@ -89,4 +89,7 @@
         { "name": "height", "type": "int"},
         { "name": "transparent", "type": "Boolean"}]}
       ]
+  ,
+  "events": [
+  ]
   }

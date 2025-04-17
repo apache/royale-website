@@ -163,4 +163,7 @@
           "return": "*",
           "params": [{ "name": "node", "type": "Object"}]}
       ]
+  ,
+  "events": [
+  ]
   }

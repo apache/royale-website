@@ -85,7 +85,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "play",
         "namespace": "public",
@@ -105,4 +108,7 @@
           "return": "void",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

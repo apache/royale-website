@@ -119,7 +119,7 @@
           "description": "The pattern string used by the DateTimeFormatter object to format dates and times.  <p>This pattern can be set in one of two ways:</p>  <ol> <li>By setting the <code>dateStyle</code> and <code>timeStyle</code> properties. </li> <li>By setting the <code>dateTimePattern</code> property.</li> </ol>  <p>If this property is assigned a value directly, as a side effect, the current time and date styles are overridden and set to the value <code>DateTimeStyle.CUSTOM</code>.</p>  <p>For a description of the pattern syntax, please see the <a href=&quot;..\\..\\flash\\globalization\\DateTimeFormatter.html#setDateTimePattern()&quot;> <code>flash.globalization.DateTimeFormatter.setDateTimePattern() </code></a> method.</p>",
         "tags": [
         {  "tagName": "default",
-               "values": [""EEEE, MMMM dd, yyyy h:mm:ss a""]},
+               "values": ["\"EEEE, MMMM dd, yyyy h:mm:ss a\""]},
             {  "tagName": "see",
                "values": ["#dateStyle", "#timeStyle"]},
             {  "tagName": "playerversion",
@@ -303,6 +303,9 @@
           "return": "Vector.<String>",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }
 
 

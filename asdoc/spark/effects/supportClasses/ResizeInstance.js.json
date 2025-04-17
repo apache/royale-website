@@ -136,4 +136,7 @@
                "values": ["Flex 4"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

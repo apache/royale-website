@@ -71,7 +71,7 @@
             {  "tagName": "royaleignorecoercion",
                "values": ["String"]},
             {  "tagName": "return",
-               "values": ["uint of the color. If value is "transparent" then uint.MAX_VALUE is returned."]},
+               "values": ["uint of the color. If value is \"transparent\" then uint.MAX_VALUE is returned."]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ],
           "return": "uint",
@@ -218,4 +218,7 @@
                "values": ["Royale 0.0"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

@@ -77,7 +77,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "label",
         "return": "String",
@@ -125,4 +128,7 @@
                "values": ["Royale 0.9.3"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

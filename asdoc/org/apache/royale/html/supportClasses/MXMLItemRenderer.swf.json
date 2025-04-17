@@ -50,6 +50,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.core.ILayoutHost",
           "params": []}
       ,
@@ -60,7 +63,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "adjustSize",
         "namespace": "public",
@@ -80,6 +86,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": []}
       ,
@@ -89,7 +98,13 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

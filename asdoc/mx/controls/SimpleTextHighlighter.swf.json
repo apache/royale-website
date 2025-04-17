@@ -36,6 +36,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -45,7 +48,10 @@
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "String",
@@ -72,13 +78,19 @@
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "removeHighlights",
         "namespace": "public",
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -89,6 +101,8 @@
         "details": [],
         "deprecated": {},
           "description": "can be overridden in subclasses",
+        "tags": [
+          ],
           "return": "org.apache.royale.html.supportClasses.HighlightTextSpan",
           "params": [{ "name": "begin", "type": "int"},
         { "name": "end", "type": "int"}]}
@@ -100,7 +114,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "removeHighlightForText",
         "namespace": "public",
@@ -108,6 +125,8 @@
         "details": [],
         "deprecated": {},
           "description": "Utility method for unHighlighting text.  returns true if highlighting occurred, false otherwise",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": [{ "name": "string", "type": "String"},
         { "name": "fromIndex", "type": "uint"},
@@ -119,6 +138,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": [{ "name": "containsIndex", "type": "uint"}]}
       ,
@@ -129,6 +151,8 @@
         "details": [],
         "deprecated": {},
           "description": "Utility method for highlighting text.  returns true if highlighting occurred, false otherwise",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": [{ "name": "string", "type": "String"},
         { "name": "fromIndex", "type": "uint"},
@@ -141,6 +165,8 @@
         "details": [],
         "deprecated": {},
           "description": "This method uses the same range logic as String.substr (begin: first char index, length: char count to be included) if 'single' is true, any previous highlights will be removed prior to the new highlight range being added  returns true if highlighting occurred, false otherwise",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": [{ "name": "begin", "type": "uint"},
         { "name": "length", "type": "uint"},
@@ -167,6 +193,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "event", "type": "org.apache.royale.events.Event"}]}
       ,
@@ -177,7 +206,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Boolean",
@@ -185,7 +217,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Boolean",
@@ -193,7 +228,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "textChangeHandler",
         "namespace": "public",

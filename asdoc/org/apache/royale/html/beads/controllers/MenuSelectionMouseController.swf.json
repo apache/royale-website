@@ -96,6 +96,8 @@
         "details": [],
         "deprecated": {},
           "description": "private",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "menuDispatcher", "type": "org.apache.royale.events.IEventDispatcher"},
         { "name": "itemClickedEvent", "type": "org.apache.royale.events.ItemClickedEvent"}]}
@@ -142,6 +144,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "menu", "type": "org.apache.royale.core.UIBase"}]}
       ,
@@ -151,7 +156,13 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "menu", "type": "Object"}]}
       ]
+  ,
+  "events": [
+  ]
   }

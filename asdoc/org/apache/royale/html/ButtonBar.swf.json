@@ -70,4 +70,7 @@
                "values": ["org.apache.royale.html.beads.models.ButtonBarModel"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

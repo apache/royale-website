@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.text.engine.GroupElement",
   "baseClassname": "org.apache.royale.text.engine.ContentElement"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.text.engine.GroupElement",
@@ -9,6 +12,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "elements", "type": "Vector.<org.apache.royale.text.engine.ContentElement>"},
         { "name": "elementFormat", "type": "org.apache.royale.text.engine.ElementFormat"},
@@ -22,13 +28,19 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "getElementAt",
         "namespace": "public",
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.text.engine.ContentElement",
           "params": [{ "name": "index", "type": "int"}]}
       ,
@@ -38,6 +50,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.text.engine.ContentElement",
           "params": [{ "name": "charIndex", "type": "int"}]}
       ,
@@ -47,6 +62,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "int",
           "params": [{ "name": "element", "type": "org.apache.royale.text.engine.ContentElement"}]}
       ,
@@ -56,6 +74,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.text.engine.GroupElement",
           "params": [{ "name": "beginIndex", "type": "int"},
         { "name": "endIndex", "type": "int"}]}
@@ -66,6 +87,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.text.engine.TextElement",
           "params": [{ "name": "beginIndex", "type": "int"},
         { "name": "endIndex", "type": "int"}]}
@@ -76,6 +100,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Vector.<org.apache.royale.text.engine.ContentElement>",
           "params": [{ "name": "beginIndex", "type": "int"},
         { "name": "endIndex", "type": "int"},
@@ -87,6 +114,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "value", "type": "Vector.<org.apache.royale.text.engine.ContentElement>"}]}
       ,
@@ -96,6 +126,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.text.engine.TextElement",
           "params": [{ "name": "elementIndex", "type": "int"},
         { "name": "splitIndex", "type": "int"}]}
@@ -106,6 +139,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "groupIndex", "type": "int"}]}
       ,
@@ -116,5 +152,11 @@
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}}]
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

@@ -5,6 +5,8 @@
   "details": [],
   "deprecated": {},
     "description": "Alias for org.apache.royale.test.Assert assertStrictlyEquals method",
+  "tags": [
+    ],
     "return": "void",
     "params": [{ "name": "actual", "type": "*"},
   { "name": "expected", "type": "*"},

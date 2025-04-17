@@ -18,6 +18,8 @@
         "details": [],
         "deprecated": {},
           "description": "The Royale Compiler will inject script elements into the index.html file.  Surround with &quot;inject_script&quot; tag as follows:  <inject_script> var meta = document.createElement(&quot;meta&quot;); meta.setAttribute(&quot;name&quot;, &quot;viewport&quot;); meta.setAttribute(&quot;content&quot;, &quot;width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0&quot;); document.head.appendChild(meta); var script = document.createElement(&quot;script&quot;); script.setAttribute(&quot;src&quot;, &quot;cordova.js&quot;); document.head.appendChild(script); </inject_script>",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ,
@@ -32,4 +34,7 @@
         "tags": [
         {  "tagName": "royalesuppresspublicvarwarning",
                "values": []}  ]}]
+  ,
+  "events": [
+  ]
   }

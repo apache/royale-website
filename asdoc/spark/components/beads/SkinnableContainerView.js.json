@@ -31,14 +31,23 @@
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "addViewport",
         "namespace": "protected",
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

@@ -1,4 +1,13 @@
 { "type": "class",
   "qname": "org.apache.royale.jquery.CheckBox",
   "baseClassname": "org.apache.royale.html.CheckBox"
+  ,
+    "description": "",
+  "tags": [
+    ],
+  "members": [
+  ]
+  ,
+  "events": [
+  ]
   }

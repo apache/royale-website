@@ -113,7 +113,7 @@
             {  "tagName": "productversion",
                "values": ["Flex 3"]},
             {  "tagName": "return",
-               "values": ["<code>true</code> if the URL starts with "http://", "https://", or "rtmp://"."]},
+               "values": ["<code>true</code> if the URL starts with \"http://\", \"https://\", or \"rtmp://\"."]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ],
           "return": "Boolean",
@@ -134,7 +134,7 @@
             {  "tagName": "productversion",
                "values": ["Flex 3"]},
             {  "tagName": "return",
-               "values": ["<code>true</code> if the URL starts with "https://"."]},
+               "values": ["<code>true</code> if the URL starts with \"https://\"."]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ],
           "return": "Boolean",
@@ -379,4 +379,7 @@
         { "name": "separator", "type": "String"},
         { "name": "decodeURL", "type": "Boolean"}]}
       ]
+  ,
+  "events": [
+  ]
   }

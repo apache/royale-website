@@ -32,4 +32,7 @@
           "return": "mx.managers.IBrowserManager",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

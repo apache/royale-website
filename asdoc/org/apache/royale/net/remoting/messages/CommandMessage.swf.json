@@ -395,7 +395,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Header that indicates the message is a heartbeat."},
+          "description": "Header that indicates the message is a heartbeat.",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "org.apache.royale.net.remoting.messages.CommandMessage",
         "namespace": "",
@@ -428,4 +430,7 @@
                "values": ["BlazeDS 4", "LCDS 3"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

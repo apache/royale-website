@@ -123,4 +123,7 @@
         { "name": "height", "type": "Number"},
         { "name": "lineStroke", "type": "org.apache.royale.graphics.IStroke"}]}
       ]
+  ,
+  "events": [
+  ]
   }

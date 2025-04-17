@@ -39,4 +39,7 @@
         { "name": "bubbles", "type": "Boolean"},
         { "name": "cancelable", "type": "Boolean"}]}
       ]
+  ,
+  "events": [
+  ]
   }

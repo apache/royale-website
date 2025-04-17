@@ -35,14 +35,20 @@
         "namespace": "protected",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_fixed",
         "return": "Boolean",
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Boolean",
@@ -75,4 +81,7 @@
                "values": ["Royale 0.9.4"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

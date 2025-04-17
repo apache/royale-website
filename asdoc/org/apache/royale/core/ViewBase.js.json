@@ -68,7 +68,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": ""}]
+          "description": "",
+        "tags": [
+          ]}]
   ,
   "events": [
   { "qname": "initComplete",

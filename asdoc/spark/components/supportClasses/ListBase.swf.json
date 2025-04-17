@@ -76,7 +76,7 @@
           "description": "The name of the field in the data provider items to display as the label.  If labelField is set to an empty string (&quot;&quot;), no field will be considered on the data provider to represent label.  The <code>labelFunction</code> property overrides this property.",
         "tags": [
         {  "tagName": "default",
-               "values": [""label""]},
+               "values": ["\"label\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 10", "AIR 1.5"]},
             {  "tagName": "productversion",

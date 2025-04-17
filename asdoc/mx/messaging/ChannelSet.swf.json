@@ -133,7 +133,9 @@
         "bindable": ["propertyChange"],
         "details": [],
         "deprecated": {},
-          "description": "Indicates whether the ChannelSet is connected."},
+          "description": "Indicates whether the ChannelSet is connected.",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Boolean",
@@ -158,7 +160,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The number of milliseconds between heartbeats sent to the remote host while this ChannelSet is actively connected but idle. Any outbound message traffic will delay heartbeats temporarily, with this number of milliseconds elapsing after the last sent message before the next heartbeat is issued. <p> This property is useful for applications that connect to a remote host to received pushed updates and are not actively sending any messages, but still wish to be notified of a dropped connection even when the networking layer fails to provide such notification directly. By issuing periodic heartbeats the client can force the networking layer to report a timeout if the underlying connection has dropped without notification and the application can respond to the disconnect appropriately. </p> <p> Any non-positive value disables heartbeats to the remote host. The default value is 0 indicating that heartbeats are disabled. If the application sets this value it should prefer a longer rather than shorter interval, to avoid placing unnecessary load on the remote host. As an illustrative example, low-level TCP socket keep-alives generally default to an interval of 2 hours. That is a longer interval than most applications that enable heartbeats will likely want to use, but it serves as a clear precedent to prefer a longer interval over a shorter interval. </p> <p> If the currently connected underlying Channel issues poll requests to the remote host, heartbeats are suppressed because the periodic poll requests effectively take their place.</p>"},
+          "description": "The number of milliseconds between heartbeats sent to the remote host while this ChannelSet is actively connected but idle. Any outbound message traffic will delay heartbeats temporarily, with this number of milliseconds elapsing after the last sent message before the next heartbeat is issued. <p> This property is useful for applications that connect to a remote host to received pushed updates and are not actively sending any messages, but still wish to be notified of a dropped connection even when the networking layer fails to provide such notification directly. By issuing periodic heartbeats the client can force the networking layer to report a timeout if the underlying connection has dropped without notification and the application can respond to the disconnect appropriately. </p> <p> Any non-positive value disables heartbeats to the remote host. The default value is 0 indicating that heartbeats are disabled. If the application sets this value it should prefer a longer rather than shorter interval, to avoid placing unnecessary load on the remote host. As an illustrative example, low-level TCP socket keep-alives generally default to an interval of 2 hours. That is a longer interval than most applications that enable heartbeats will likely want to use, but it serves as a clear precedent to prefer a longer interval over a shorter interval. </p> <p> If the currently connected underlying Channel issues poll requests to the remote host, heartbeats are suppressed because the periodic poll requests effectively take their place.</p>",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "String",

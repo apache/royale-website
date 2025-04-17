@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "org.apache.royale.core.IStyleObject",
+"baseInterfaceNames": [
+]
+,
     "description": "The IStyleObject interface is the interface for objects that contain style properties.",
   "tags": [
   {  "tagName": "playerversion",

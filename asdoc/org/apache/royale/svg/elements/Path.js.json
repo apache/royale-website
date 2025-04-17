@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.svg.elements.Path",
   "baseClassname": "org.apache.royale.svg.elements.SVGBase"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.svg.elements.Path",
@@ -9,6 +12,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ,
@@ -18,6 +24,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.core.WrappedHTMLElement",
           "params": []}
       ,
@@ -28,5 +37,11 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}}]
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

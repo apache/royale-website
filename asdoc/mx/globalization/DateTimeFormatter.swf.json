@@ -341,4 +341,7 @@
           "params": [{ "name": "dateStyle", "type": "String"},
         { "name": "timeStyle", "type": "String"}]}
       ]
+  ,
+  "events": [
+  ]
   }

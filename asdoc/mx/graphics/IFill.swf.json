@@ -1,5 +1,11 @@
 { "type": "interface",
   "qname": "mx.graphics.IFill",
+"baseInterfaceNames": [
+]
+,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
     "qname": "begin",

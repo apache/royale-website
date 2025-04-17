@@ -92,6 +92,9 @@
           "params": [{ "name": "xml", "type": "Object"},
         { "name": "notifiable", "type": "mx.utils.IXMLNotifiable"}]}
       ]
+  ,
+  "events": [
+  ]
   }
 
 

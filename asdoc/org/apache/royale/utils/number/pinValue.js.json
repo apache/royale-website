@@ -5,6 +5,8 @@
   "details": [],
   "deprecated": {},
     "description": "Pins the specified value between a specified maximum and minimum bounds. If the value is outside the bounds, the minimum or maximum is returned.",
+  "tags": [
+    ],
     "return": "Number",
     "params": [{ "name": "value", "type": "Number"},
   { "name": "minimum", "type": "Number"},

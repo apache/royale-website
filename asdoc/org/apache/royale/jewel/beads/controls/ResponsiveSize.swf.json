@@ -36,7 +36,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "the width of this control in phones"},
+          "description": "the width of this control in phones",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Number",
@@ -45,7 +47,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "the percent width of this control in phones"},
+          "description": "the percent width of this control in phones",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Number",
@@ -54,7 +58,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "the height of this control in phones"},
+          "description": "the height of this control in phones",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Number",
@@ -63,7 +69,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "the percent height of this control in phones"},
+          "description": "the percent height of this control in phones",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Number",
@@ -72,7 +80,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "the width of this control in tablets"},
+          "description": "the width of this control in tablets",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Number",
@@ -81,7 +91,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "the percent width of this control in tablets"},
+          "description": "the percent width of this control in tablets",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Number",
@@ -90,7 +102,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "the height of this control in tablets"},
+          "description": "the height of this control in tablets",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Number",
@@ -99,7 +113,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "the percent height of this control in tablets"},
+          "description": "the percent height of this control in tablets",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Number",
@@ -108,7 +124,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "the width of this control in desktops"},
+          "description": "the width of this control in desktops",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Number",
@@ -117,7 +135,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "the percent width of this control in desktops"},
+          "description": "the percent width of this control in desktops",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Number",
@@ -126,7 +146,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "the height of this control in desktops"},
+          "description": "the height of this control in desktops",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Number",
@@ -135,7 +157,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "the percent height of this control in desktops"},
+          "description": "the percent height of this control in desktops",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Number",
@@ -144,7 +168,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "the width of this control in widescreens"},
+          "description": "the width of this control in widescreens",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Number",
@@ -153,7 +179,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "the percent width of this control in widescreens"},
+          "description": "the percent width of this control in widescreens",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Number",
@@ -162,7 +190,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "the height of this control in widescreens"},
+          "description": "the height of this control in widescreens",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Number",
@@ -171,7 +201,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "the percent height of this control in widescreens"},
+          "description": "the percent height of this control in widescreens",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "write-only",
         "return": "org.apache.royale.core.IStrand",
@@ -192,4 +224,7 @@
                "values": ["org.apache.royale.core.IStrand;"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

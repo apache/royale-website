@@ -3,6 +3,9 @@
 "baseInterfaceNames": [
 "org.apache.royale.textLayout.elements.ITableFormattedElement"]
 ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "accessor",
     "access": "read-write",
@@ -11,7 +14,10 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-write",
     "return": "int",
@@ -19,7 +25,10 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-write",
     "return": "Number",
@@ -27,7 +36,10 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-write",
     "return": "Boolean",
@@ -35,7 +47,10 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-only",
     "return": "Array",
@@ -43,7 +58,10 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-only",
     "return": "int",
@@ -51,5 +69,8 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}}]
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]}]
   }

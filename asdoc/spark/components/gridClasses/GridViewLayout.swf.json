@@ -56,7 +56,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The Grid parent of this layout's target.   This property is set by the Grid when the target GridView is added/removed from the Grid."},
+          "description": "The Grid parent of this layout's target.   This property is set by the Grid when the target GridView is added/removed from the Grid.",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "spark.components.gridClasses.GridDimensionsView",
@@ -251,6 +253,8 @@
         "details": [],
         "deprecated": {},
           "description": "Return the visible item renderer at the specified GridView row,columnIndex.",
+        "tags": [
+          ],
           "return": "spark.components.gridClasses.IGridItemRenderer",
           "params": [{ "name": "rowIndex", "type": "int"},
         { "name": "columnIndex", "type": "int"}]}
@@ -261,6 +265,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "event", "type": "mx.events.CollectionEvent"}]}
       ,
@@ -271,6 +278,8 @@
         "details": [],
         "deprecated": {},
           "description": "Returns the Grid-relative bounds of the visible part of the target GridView.",
+        "tags": [
+          ],
           "return": "org.apache.royale.geom.Rectangle",
           "params": []}
       ,
@@ -319,6 +328,8 @@
         "details": [],
         "deprecated": {},
           "description": "Return the Grid-relative index of the first fully visible row: if the first rowIndex element of visibleRowIndices hasn't been completely scrolled into view, then return the second element.  If no rows are visible, return -1.  If only one row is visible, return its index.",
+        "tags": [
+          ],
           "return": "int",
           "params": []}
       ,
@@ -329,6 +340,8 @@
         "details": [],
         "deprecated": {},
           "description": "Return the Grid-relative index of the last fully visible row: if the last rowIndex element of visibleRowIndices hasn't been completely scrolled into view, then return the second to last element.  If no rows are visible, return -1.  If only one row is visible, return its index.",
+        "tags": [
+          ],
           "return": "int",
           "params": []}
       ,
@@ -372,6 +385,9 @@
           "params": [{ "name": "rowIndex", "type": "int"},
         { "name": "columnIndex", "type": "int"}]}
       ]
+  ,
+  "events": [
+  ]
   }
 
 

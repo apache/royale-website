@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "org.apache.royale.core.IScrollingLayoutParent",
+"baseInterfaceNames": [
+]
+,
     "description": "The IScrollingLayoutParent interface is an ILayoutParent that has traditional scrollbars.  The layout implementation often needs to know certain things about other objects in the component.",
   "tags": [
   {  "tagName": "playerversion",

@@ -3,6 +3,8 @@
   "baseClassname": ""
   ,
     "description": "Used for tests with <code>[Test(async)]</code> metadata.",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "setAsyncHandlerForTest",
@@ -11,6 +13,8 @@
         "details": ["static"],
         "deprecated": {},
           "description": "Called by the test runner before an async test has started.",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "test", "type": "Object"},
         { "name": "handler", "type": "org.apache.royale.test.async.IAsyncHandler"}]}
@@ -22,6 +26,8 @@
         "details": ["static"],
         "deprecated": {},
           "description": "Returns the current async handler for the specified test, or throws an exception if there is none.",
+        "tags": [
+          ],
           "return": "org.apache.royale.test.async.IAsyncHandler",
           "params": [{ "name": "test", "type": "Object"}]}
       ,
@@ -32,6 +38,8 @@
         "details": ["static"],
         "deprecated": {},
           "description": "Called by the test runner after an async test has completed.",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "test", "type": "Object"}]}
       ,
@@ -42,9 +50,14 @@
         "details": ["static"],
         "deprecated": {},
           "description": "Indicates if there is an async handler for the specified test.",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": [{ "name": "test", "type": "Object"}]}
       ]
+  ,
+  "events": [
+  ]
   }
 
 

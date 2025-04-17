@@ -137,5 +137,8 @@
   "events": [
   { "qname": "valueChange",
         "type": "org.apache.royale.events.Event"
-      }]
+      ,
+          "description": "",
+        "tags": [
+          ]}]
   }

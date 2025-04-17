@@ -34,14 +34,20 @@
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "ownerView",
         "return": "org.apache.royale.core.IItemRendererOwnerView",
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "write-only",
         "return": "org.apache.royale.core.IStrand",
@@ -68,7 +74,13 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "ir", "type": "org.apache.royale.core.IIndexedItemRenderer"}]}
       ]
+  ,
+  "events": [
+  ]
   }

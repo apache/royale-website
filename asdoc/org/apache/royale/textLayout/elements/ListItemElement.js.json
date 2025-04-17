@@ -19,7 +19,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
-          "description": "@private"},
+          "description": "@private",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "String",
@@ -28,7 +30,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
-          "description": "@private"},
+          "description": "@private",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "String",
@@ -36,5 +40,11 @@
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}}]
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

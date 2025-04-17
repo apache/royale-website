@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.text.engine.Kerning",
   "baseClassname": ""
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "field",
         "qname": "AUTO",
@@ -9,28 +12,43 @@
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "OFF",
         "return": "String",
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "ON",
         "return": "String",
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "org.apache.royale.text.engine.Kerning",
         "namespace": "",
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

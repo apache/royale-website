@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.utils.MD5",
   "baseClassname": ""
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "hash",
@@ -9,7 +12,13 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "String",
           "params": [{ "name": "value", "type": "String"}]}
       ]
+  ,
+  "events": [
+  ]
   }

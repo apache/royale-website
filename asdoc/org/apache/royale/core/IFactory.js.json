@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "org.apache.royale.core.IFactory",
+"baseInterfaceNames": [
+]
+,
     "description": "The IFactory interface is the basic interface used as the type for properties that specify a factory for item renderers and other scenarios where multiple copies of a custom class are generated.",
   "tags": [
   {  "tagName": "playerversion",

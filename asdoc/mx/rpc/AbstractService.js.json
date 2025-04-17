@@ -116,7 +116,10 @@
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Boolean",
@@ -158,6 +161,9 @@
         "bindable": ["operationsChange"],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "*",
           "params": [{ "name": "propName", "type": "String"}]}
       ,
@@ -167,6 +173,9 @@
         "bindable": ["operationsChange"],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "propName", "type": "String"},
         { "name": "value", "type": "*"}]}
@@ -177,6 +186,9 @@
         "bindable": ["operationsChange"],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": [{ "name": "propName", "type": "String"}]}
       ,
@@ -186,6 +198,9 @@
         "bindable": ["operationsChange"],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": [{ "name": "propName", "type": "String"}]}
       ,
@@ -195,6 +210,9 @@
         "bindable": ["operationsChange"],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "*",
           "params": [{ "name": "name", "type": "*"},
         { "name": "args", "type": "Array"}]}
@@ -205,6 +223,9 @@
         "bindable": ["operationsChange"],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Array",
           "params": []}
       ,
@@ -214,6 +235,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "String",
           "params": [{ "name": "name", "type": "Object"}]}
       ,
@@ -322,14 +346,20 @@
         "namespace": "mx_internal",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "asyncRequest",
         "return": "mx.rpc.AsyncRequest",
         "namespace": "mx_internal",
         "bindable": [],
         "details": [],
-        "deprecated": {}}]
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]}]
   ,
   "events": [
   { "qname": "invoke",

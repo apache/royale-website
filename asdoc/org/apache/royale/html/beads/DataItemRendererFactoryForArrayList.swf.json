@@ -35,14 +35,23 @@
         "namespace": "protected",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "getItemAt",
         "namespace": "protected",
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Object",
           "params": [{ "name": "i", "type": "int"}]}
       ]
+  ,
+  "events": [
+  ]
   }

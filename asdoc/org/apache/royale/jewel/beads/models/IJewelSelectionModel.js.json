@@ -19,7 +19,10 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-only",
     "return": "Boolean",
@@ -27,7 +30,10 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-write",
     "return": "Boolean",
@@ -35,13 +41,19 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "method",
     "qname": "setDataProvider__NoCheck",
     "namespace": "public",
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "value", "type": "Object"}]}
   ]

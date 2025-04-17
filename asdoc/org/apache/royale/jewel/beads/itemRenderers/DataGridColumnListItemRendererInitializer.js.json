@@ -34,7 +34,13 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "ir", "type": "org.apache.royale.core.IIndexedItemRenderer"}]}
       ]
+  ,
+  "events": [
+  ]
   }

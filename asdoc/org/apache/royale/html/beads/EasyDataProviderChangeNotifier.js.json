@@ -35,14 +35,23 @@
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "destinationChangedHandler",
         "namespace": "protected",
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "event", "type": "org.apache.royale.events.Event"}]}
       ]
+  ,
+  "events": [
+  ]
   }

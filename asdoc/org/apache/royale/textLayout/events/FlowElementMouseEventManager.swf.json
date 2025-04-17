@@ -3,6 +3,8 @@
   "baseClassname": ""
   ,
     "description": "The ElementMouseEventManager class provides mouse element processing for visible FlowElements. The caller calls updateHitTests(), which traverses the FlowElement tree in the given character range, and collects hit test rectangles for FlowElements with active event mirrors, and LinkElements. The latter class exposes a number of mouse event handlers that this class calls directly. If no character range is supplied, the class makes an educated guess about the visible character range by inspecting the TextLine instances connected to the container widget as children.  In edit mode, moving the mouse over the element and clicking it should not activate it, but rather allow for editing. Passing in the value true as an argument to updateHitTests() requires the Ctrl key to be held down in order to pass mouse events on the FlowElements. If the user presses or releases the Ctrl key while the mouse is over the container widget (and the pressing of the Ctrl key is required for activation, the class simulates mouseOut and mouseOver events to inform the FlowElement underneath about the change. The class dispatches only FlowElementMouseEvents.  This class emits click events if the main mouse button is pressed and released over the same FlowElement.  The owner may choose to forward several mouse and keyboard events to this class so it does not need to listen to these events at the container itself. The constructor takes an array of event names that this class needs to listen to itself. The events that this class needs to listen to are MouseEvent.MOUSE_OVER, MouseEvent.MOUSE_OUT, MouseEvent.MOUSE_DOWN, MouseEvent.MOUSE_UP, MouseEvent.MOUSE_MOVE, KeyboardEvent.KEY_DOWN, and KeyboardEvent.KEY_UP. Note that MouseEvent.CLICK is not needed.",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.textLayout.events.FlowElementMouseEventManager",
@@ -41,7 +43,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Retrieve the status of the flag that controls whether the Ctrl key is needed to activate event generation."},
+          "description": "Retrieve the status of the flag that controls whether the Ctrl key is needed to activate event generation.",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "updateHitTests",
         "namespace": "public",
@@ -68,6 +72,8 @@
         "details": [],
         "deprecated": {},
           "description": "Stop hit testing altogether. You must call this method if the FlowElement structure of the visible area has changed; you should also call this method if the visible area is rebuilt completely.",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -78,7 +84,12 @@
         "details": [],
         "deprecated": {},
           "description": "Dispatch the mouse and keyboard events that the owner sends.",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "evt", "type": "org.apache.royale.events.Event"}]}
       ]
+  ,
+  "events": [
+  ]
   }

@@ -1,6 +1,11 @@
 { "type": "interface",
   "qname": "mx.managers.IActiveWindowManager",
+"baseInterfaceNames": [
+]
+,
     "description": "Interface for subsystem that manages which focus manager is active when there is more than one IFocusManagerContainer on screen.",
+  "tags": [
+    ],
   "members": [
   { "type": "accessor",
     "access": "read-write",
@@ -10,7 +15,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
-      "description": "The number of modal windows.  <p>Modal windows don't allow clicking in another windows which would normally activate the FocusManager in that window.  The PopUpManager modifies this count as it creates and destroy modal windows.</p>"},
+      "description": "The number of modal windows.  <p>Modal windows don't allow clicking in another windows which would normally activate the FocusManager in that window.  The PopUpManager modifies this count as it creates and destroy modal windows.</p>",
+    "tags": [
+      ]},
   { "type": "method",
     "qname": "addFocusManager",
     "namespace": "public",

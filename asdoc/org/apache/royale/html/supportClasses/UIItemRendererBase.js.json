@@ -83,7 +83,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The name of the field within the data to use as a label. Some itemRenderers use this field to identify the value they should show while other itemRenderers ignore this if they are showing complex information."},
+          "description": "The name of the field within the data to use as a label. Some itemRenderers use this field to identify the value they should show while other itemRenderers ignore this if they are showing complex information.",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "int",

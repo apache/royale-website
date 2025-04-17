@@ -1,5 +1,11 @@
 { "type": "interface",
   "qname": "org.apache.royale.html.supportClasses.ICollapsible",
+"baseInterfaceNames": [
+]
+,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "accessor",
     "access": "read-only",
@@ -8,7 +14,10 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-only",
     "return": "Number",
@@ -16,13 +25,19 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "method",
     "qname": "collapse",
     "namespace": "public",
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": []}
   ,
@@ -33,5 +48,8 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}}]
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]}]
   }

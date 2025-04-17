@@ -17,21 +17,30 @@
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "RIGHT",
         "return": "String",
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "CENTER",
         "return": "String",
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "org.apache.royale.jewel.beads.controls.TextAlign",
         "namespace": "",
@@ -85,4 +94,7 @@
                "values": ["HTMLInputElement", "org.apache.royale.core.UIBase;"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

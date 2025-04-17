@@ -1,5 +1,11 @@
 { "type": "interface",
   "qname": "org.apache.royale.events.IBrowserEvent",
+"baseInterfaceNames": [
+]
+,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
     "qname": "wrapEvent",
@@ -7,6 +13,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "event", "type": "goog.events.BrowserEvent"}]}
   ]

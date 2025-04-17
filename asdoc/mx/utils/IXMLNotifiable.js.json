@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "mx.utils.IXMLNotifiable",
+"baseInterfaceNames": [
+]
+,
     "description": "The IXMLNotifiable interface.",
   "tags": [
   {  "tagName": "playerversion",

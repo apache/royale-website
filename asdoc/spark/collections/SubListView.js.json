@@ -18,6 +18,8 @@
         "details": [],
         "deprecated": {},
           "description": "Construct a SubListView and optionally specify the target list and the item interval this SubListView spans.",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "list", "type": "mx.collections.IList"},
         { "name": "startIndex", "type": "int"},
@@ -66,13 +68,19 @@
         "namespace": "public",
         "bindable": ["collectionChange"],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "addItem",
         "namespace": "public",
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "item", "type": "Object"}]}
       ,
@@ -82,6 +90,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "item", "type": "Object"},
         { "name": "index", "type": "int"}]}
@@ -92,6 +103,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Object",
           "params": [{ "name": "index", "type": "int"},
         { "name": "prefetch", "type": "int"}]}
@@ -102,6 +116,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "int",
           "params": [{ "name": "item", "type": "Object"}]}
       ,
@@ -111,6 +128,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "item", "type": "Object"},
         { "name": "property", "type": "Object"},
@@ -123,6 +143,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -132,6 +155,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": [{ "name": "item", "type": "Object"}]}
       ,
@@ -141,6 +167,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Object",
           "params": [{ "name": "index", "type": "int"}]}
       ,
@@ -150,6 +179,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Object",
           "params": [{ "name": "item", "type": "Object"},
         { "name": "index", "type": "int"}]}
@@ -160,7 +192,13 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Array",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

@@ -87,6 +87,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "group", "type": "org.apache.royale.jewel.Group"},
         { "name": "validateAction", "type": "Boolean"},
@@ -118,7 +121,13 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

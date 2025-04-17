@@ -50,4 +50,7 @@
           "params": [{ "name": "swfURL", "type": "String"},
         { "name": "htmlURL", "type": "String"}]}
       ]
+  ,
+  "events": [
+  ]
   }

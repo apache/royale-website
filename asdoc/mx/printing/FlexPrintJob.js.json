@@ -136,4 +136,7 @@
           "return": "void",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

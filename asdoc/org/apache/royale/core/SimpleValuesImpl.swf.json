@@ -17,6 +17,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ,
@@ -198,4 +201,7 @@
           "params": [{ "name": "ruleName", "type": "String"},
         { "name": "values", "type": "Object"}]}
       ]
+  ,
+  "events": [
+  ]
   }

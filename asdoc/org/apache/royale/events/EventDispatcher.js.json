@@ -17,6 +17,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "target", "type": "org.apache.royale.events.IEventDispatcher"}]}
       ,
@@ -26,6 +29,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": [{ "name": "type", "type": "String"}]}
       ,
@@ -48,6 +54,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": [{ "name": "type", "type": "Object"},
         { "name": "capture", "type": "Boolean"},
@@ -59,7 +68,13 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "String",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

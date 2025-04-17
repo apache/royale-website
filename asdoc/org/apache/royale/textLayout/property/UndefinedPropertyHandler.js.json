@@ -3,6 +3,8 @@
   "baseClassname": "org.apache.royale.textLayout.property.PropertyHandler"
   ,
     "description": "An property description with an enumerated string as its value. @private",
+  "tags": [
+    ],
   "members": [
   { "type": "accessor",
         "access": "read-only",
@@ -11,5 +13,11 @@
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}}]
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.textLayout.property.PropertyUtil",
   "baseClassname": ""
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "field",
         "qname": "errorHandler",
@@ -9,13 +12,19 @@
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "defaultErrorHandler",
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "p", "type": "org.apache.royale.textLayout.property.Property"},
         { "name": "value", "type": "Object"}]}
@@ -26,6 +35,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "String",
           "params": [{ "name": "p", "type": "org.apache.royale.textLayout.property.Property"},
         { "name": "value", "type": "Object"}]}
@@ -36,6 +48,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "*",
           "params": [{ "name": "currVal", "type": "*"},
         { "name": "concatVal", "type": "*"}]}
@@ -47,6 +62,8 @@
         "details": ["static"],
         "deprecated": {},
           "description": "Helper function to initialize all property values from defaults.",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "description", "type": "Object"},
         { "name": "current", "type": "Object"}]}
@@ -58,6 +75,8 @@
         "details": ["static"],
         "deprecated": {},
           "description": "Helper function to compare two sets of properties.",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": [{ "name": "description", "type": "Object"},
         { "name": "p1", "type": "Object"},
@@ -69,6 +88,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Object",
           "params": [{ "name": "formatClass", "type": "Class"},
         { "name": "description", "type": "Object"},
@@ -76,4 +98,7 @@
         { "name": "category", "type": "String"},
         { "name": "legacy", "type": "Boolean"}]}
       ]
+  ,
+  "events": [
+  ]
   }

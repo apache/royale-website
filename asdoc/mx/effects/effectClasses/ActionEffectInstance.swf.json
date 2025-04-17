@@ -83,4 +83,7 @@
           "return": "*",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

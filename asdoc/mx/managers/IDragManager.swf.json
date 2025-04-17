@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "mx.managers.IDragManager",
+"baseInterfaceNames": [
+]
+,
     "description": "",
   "tags": [
   {  "tagName": "private",
@@ -12,13 +15,19 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "method",
     "qname": "doDrag",
     "namespace": "public",
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "dragInitiator", "type": "mx.core.IUIComponent"},
     { "name": "dragSource", "type": "mx.core.DragSource"},
@@ -35,6 +44,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "target", "type": "mx.core.IUIComponent"}]}
   ,
@@ -44,6 +56,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "feedback", "type": "String"}]}
   ,
@@ -53,6 +68,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "String",
       "params": []}
   ,
@@ -62,6 +80,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": []}
   ]

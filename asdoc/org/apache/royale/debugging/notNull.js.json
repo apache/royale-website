@@ -5,5 +5,7 @@
   "details": [],
   "deprecated": {},
     "description": "Throws an error if the object is null.",
+  "tags": [
+    ],
     "return": "void",
     "params": [{ "name": "obj", "type": "Object"}]}

@@ -28,4 +28,7 @@
           "return": "",
           "params": [{ "name": "operationState", "type": "org.apache.royale.textLayout.edit.SelectionState"}]}
       ]
+  ,
+  "events": [
+  ]
   }

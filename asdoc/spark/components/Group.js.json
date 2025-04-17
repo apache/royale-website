@@ -52,6 +52,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -62,7 +65,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Number",
@@ -98,7 +104,7 @@
           "description": "A value from the BlendMode class that specifies which blend mode to use. A bitmap can be drawn internally in two ways. If you have a blend mode enabled or an external clipping mask, the bitmap is drawn by adding a bitmap-filled square shape to the vector render. If you attempt to set this property to an invalid value, Flash Player or Adobe AIR sets the value to <code>BlendMode.NORMAL</code>.  <p>A value of &quot;auto&quot; (the default) is specific to Group's use of blendMode and indicates that the underlying blendMode should be <code>BlendMode.NORMAL</code> except when <code>alpha</code> is not equal to either 0 or 1, when it is set to <code>BlendMode.LAYER</code>. This behavior ensures that groups have correct compositing of their graphic objects when the group is translucent.</p>",
         "tags": [
         {  "tagName": "default",
-               "values": [""auto""]},
+               "values": ["\"auto\""]},
             {  "tagName": "see",
                "values": ["flash.display.DisplayObject#blendMode", "flash.display.BlendMode"]},
             {  "tagName": "playerversion",
@@ -107,4 +113,7 @@
                "values": ["Flex 4"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

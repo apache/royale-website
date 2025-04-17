@@ -13,6 +13,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "httpService", "type": "mx.rpc.http.HTTPService"}]}
       ,
@@ -39,6 +42,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "schema", "type": "mx.rpc.xml.Schema"},
         { "name": "parentLocation", "type": "String"},
@@ -50,6 +56,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "schema", "type": "mx.rpc.xml.Schema"},
         { "name": "parentLocation", "type": "String"}]}
@@ -60,6 +69,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "event", "type": "mx.rpc.events.ResultEvent"}]}
       ]
@@ -67,8 +79,14 @@
   "events": [
   { "qname": "fault",
         "type": "mx.rpc.events.FaultEvent"
-      },
+      ,
+          "description": "",
+        "tags": [
+          ]},
       { "qname": "schemaLoad",
         "type": "mx.rpc.events.SchemaLoadEvent"
-      }]
+      ,
+          "description": "",
+        "tags": [
+          ]}]
   }

@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.graphics.CubicCurve",
   "baseClassname": ""
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.graphics.CubicCurve",
@@ -9,6 +12,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "controlX1", "type": "Number"},
         { "name": "controlY1", "type": "Number"},
@@ -23,6 +29,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "String",
           "params": []}
       ,
@@ -32,7 +41,13 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "g", "type": "flash.display.Graphics"}]}
       ]
+  ,
+  "events": [
+  ]
   }

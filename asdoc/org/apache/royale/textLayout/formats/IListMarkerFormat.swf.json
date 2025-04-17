@@ -18,7 +18,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
-      "description": "@copy ListMarkerFormat#counterReset"},
+      "description": "@copy ListMarkerFormat#counterReset",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-only",
     "return": "*",
@@ -27,7 +29,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
-      "description": "@copy ListMarkerFormat#counterIncrement"},
+      "description": "@copy ListMarkerFormat#counterIncrement",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-only",
     "return": "*",
@@ -36,7 +40,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
-      "description": "@copy ListMarkerFormat#beforeContent"},
+      "description": "@copy ListMarkerFormat#beforeContent",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-only",
     "return": "*",
@@ -45,7 +51,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
-      "description": "@copy ListMarkerFormat#content"},
+      "description": "@copy ListMarkerFormat#content",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-only",
     "return": "*",
@@ -54,7 +62,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
-      "description": "@copy ListMarkerFormat#afterContent"},
+      "description": "@copy ListMarkerFormat#afterContent",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-only",
     "return": "*",
@@ -63,5 +73,7 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
-      "description": "@copy ListMarkerFormat#suffix"}]
+      "description": "@copy ListMarkerFormat#suffix",
+    "tags": [
+      ]}]
   }

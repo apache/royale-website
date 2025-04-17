@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "mx.rpc.xml.IXMLSchemaInstance",
+"baseInterfaceNames": [
+]
+,
     "description": "An ActionScript type should implement this interface when it needs to instruct an XML Schema based encoder (such as the WebService SOAP client) which concrete type definition to use while encoding instances of the type.  <p>Note that anonymous ActionScript objects can also specify a qualified type by wrapping an object in an instance of mx.utils.ObjectProxy and setting the <code>object_proxy::type</code> property with the appropriate QName.</p>",
   "tags": [
   {  "tagName": "see",

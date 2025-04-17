@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.textLayout.container.TMContainerController",
   "baseClassname": "org.apache.royale.textLayout.container.ContainerController"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.textLayout.container.TMContainerController",
@@ -9,6 +12,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "container", "type": "org.apache.royale.core.IParentIUIBase"},
         { "name": "compositionWidth", "type": "Number"},
@@ -22,7 +28,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "createContextMenu",
         "namespace": "protected",
@@ -30,6 +39,8 @@
         "details": ["override"],
         "deprecated": {},
           "description": "Reroute to the TextContainerManger's override.  Reuse the one that's already been created.",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.dummy.ContextMenu",
           "params": []}
       ,
@@ -41,13 +52,18 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
-          "description": "@private"},
+          "description": "@private",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "getFirstTextLineChildIndex",
         "namespace": "protected",
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "int",
           "params": []}
       ,
@@ -57,6 +73,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "textLine", "type": "org.apache.royale.text.engine.ITextLine"},
         { "name": "index", "type": "int"}]}
@@ -67,6 +86,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "textLine", "type": "org.apache.royale.text.engine.ITextLine"}]}
       ,
@@ -76,6 +98,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "shape", "type": "org.apache.royale.core.IUIBase"}]}
       ,
@@ -85,6 +110,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "shape", "type": "org.apache.royale.core.IUIBase"}]}
       ,
@@ -94,6 +122,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "selectionContainer", "type": "org.apache.royale.core.IParentIUIBase"}]}
       ,
@@ -103,6 +134,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "selectionContainer", "type": "org.apache.royale.core.IParentIUIBase"}]}
       ,
@@ -112,6 +146,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "parent", "type": "org.apache.royale.core.IParentIUIBase"},
         { "name": "inlineGraphicElement", "type": "org.apache.royale.core.IUIBase"},
@@ -123,8 +160,14 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "parent", "type": "org.apache.royale.core.IParentIUIBase"},
         { "name": "inlineGraphicElement", "type": "org.apache.royale.core.IUIBase"}]}
       ]
+  ,
+  "events": [
+  ]
   }

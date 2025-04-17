@@ -17,7 +17,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Boolean",
@@ -26,7 +29,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "@private"},
+          "description": "@private",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "org.apache.royale.utils.ObjectMap",
@@ -34,7 +39,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Array",
@@ -42,7 +50,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Boolean",
@@ -84,7 +95,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "@private"},
+          "description": "@private",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "org.apache.royale.textLayout.compose.IFlowComposer",
@@ -109,7 +122,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "@private"},
+          "description": "@private",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "org.apache.royale.textLayout.container.ColumnState",
@@ -182,7 +197,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "@private"},
+          "description": "@private",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Boolean",
@@ -191,7 +208,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "@private"},
+          "description": "@private",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "setCompositionSize",
         "namespace": "public",
@@ -270,7 +289,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "@private"},
+          "description": "@private",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "int",
@@ -279,7 +300,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "@private"},
+          "description": "@private",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "int",
@@ -504,6 +527,8 @@
         "details": [],
         "deprecated": {},
           "description": "No mouse clicks or moves will be generated for the container unless it has a background covering its area.  Text Layout Framework wants those events so that clicking on a container will select the text in it.  This code adds or updates (on size change) that background for Sprite containers only. This may cause clients problems - definitely no hits is a problem - add this code to explore the issues - expect feedback.",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "justClear", "type": "Boolean"}]}
       ,
@@ -530,6 +555,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -1037,6 +1065,8 @@
         "details": [],
         "deprecated": {},
           "description": "Add cell selection shapes to the displaylist.",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "cells", "type": "Array"},
         { "name": "color", "type": "uint"},
@@ -1049,7 +1079,10 @@
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Boolean",
@@ -1058,7 +1091,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "@private"},
+          "description": "@private",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "updateGraphics",
         "namespace": "public",
@@ -1453,7 +1488,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "@private"},
+          "description": "@private",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Array",
@@ -1462,7 +1499,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "@private Return the array. Client code may add lines to the array."},
+          "description": "@private Return the array. Client code may add lines to the array.",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "int",
@@ -1471,7 +1510,12 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "@private"}]
+          "description": "@private",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }
 
 

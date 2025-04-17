@@ -41,7 +41,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Type of content for service requests. The default is <code>application/x-www-form-urlencoded</code> which sends requests like a normal HTTP POST with name-value pairs. <code>application/xml</code> send requests as XML."},
+          "description": "Type of content for service requests. The default is <code>application/x-www-form-urlencoded</code> which sends requests like a normal HTTP POST with name-value pairs. <code>application/xml</code> send requests as XML.",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "String",
@@ -145,7 +147,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "String",
@@ -218,6 +223,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "mx.messaging.ChannelSet",
           "params": []}
       ]

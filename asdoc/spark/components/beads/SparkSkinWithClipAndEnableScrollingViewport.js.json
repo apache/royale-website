@@ -31,7 +31,12 @@
         "details": ["override"],
         "deprecated": {},
           "description": "Subclasses override this method to change scrolling behavior",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

@@ -19,6 +19,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "event", "type": "org.apache.royale.events.Event"}]}
       ,
@@ -61,4 +64,7 @@
           "return": "void",
           "params": [{ "name": "event", "type": "org.apache.royale.events.MouseEvent"}]}
       ]
+  ,
+  "events": [
+  ]
   }

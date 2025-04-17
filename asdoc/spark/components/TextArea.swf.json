@@ -40,6 +40,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -73,7 +76,7 @@
         {  "tagName": "see",
                "values": ["spark.components.RichEditableText#text", "spark.components.supportClasses.StyleableStageText#text", "spark.components.RichEditableText#text", "spark.components.supportClasses.StyleableStageText#text"]},
             {  "tagName": "default",
-               "values": ["""", """"]},
+               "values": ["\"\"", "\"\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 10", "AIR 1.5", "Flash 10", "AIR 1.5"]},
             {  "tagName": "productversion",
@@ -185,7 +188,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "write-only",
         "return": "String",
@@ -193,5 +199,11 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}}]
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

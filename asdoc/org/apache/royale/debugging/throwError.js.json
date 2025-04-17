@@ -5,5 +5,7 @@
   "details": [],
   "deprecated": {},
     "description": "assert throws an error if the condition is not met.",
+  "tags": [
+    ],
     "return": "void",
     "params": [{ "name": "errorMessage", "type": "String"}]}

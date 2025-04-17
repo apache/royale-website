@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.routing.RouteToState",
   "baseClassname": "org.apache.royale.routing.PathRouteBead"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.routing.RouteToState",
@@ -9,6 +12,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ,
@@ -19,13 +25,19 @@
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "urlNeeded",
         "namespace": "protected",
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "ev", "type": "org.apache.royale.events.ValueEvent"}]}
       ,
@@ -36,5 +48,10 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The component whose state we sync. (Defaults to the strand of the router.)"}]
+          "description": "The component whose state we sync. (Defaults to the strand of the router.)",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

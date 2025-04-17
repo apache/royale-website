@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.svg.GraphicShape",
   "baseClassname": "org.apache.royale.core.UIBase"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "accessor",
         "access": "read-write",
@@ -42,6 +45,8 @@
         "details": [],
         "deprecated": {},
           "description": "Setting visuals after the element is added to the parent should have an effect (i.e. in MXML binding)",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -78,6 +83,8 @@
         "details": [],
         "deprecated": {},
           "description": "This is where the drawing methods get called from",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -87,6 +94,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -109,6 +119,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "value", "type": "String"}]}
       ,
@@ -184,4 +197,7 @@
           "return": "void",
           "params": [{ "name": "value", "type": "Number"}]}
       ]
+  ,
+  "events": [
+  ]
   }

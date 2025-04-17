@@ -148,6 +148,8 @@
         "details": [],
         "deprecated": {},
           "description": "The JavaScript entry point.",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "parameters", "type": "Object"}]}
       ,
@@ -201,5 +203,11 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}}]
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

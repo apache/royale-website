@@ -3,6 +3,8 @@
   "baseClassname": ""
   ,
     "description": "Describes the location of table cell by row and column",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.textLayout.elements.CellCoordinates",
@@ -27,7 +29,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The column the cell belongs to"},
+          "description": "The column the cell belongs to",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "int",
@@ -36,7 +40,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The row the cell belongs to"},
+          "description": "The row the cell belongs to",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "areEqual",
         "namespace": "public",
@@ -44,6 +50,8 @@
         "details": ["static"],
         "deprecated": {},
           "description": "Checks if two coordiates are in the same location",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": [{ "name": "coords1", "type": "org.apache.royale.textLayout.elements.CellCoordinates"},
         { "name": "coords2", "type": "org.apache.royale.textLayout.elements.CellCoordinates"}]}
@@ -55,6 +63,8 @@
         "details": [],
         "deprecated": {},
           "description": "Returns true if the column and row are greater than -1",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": []}
       ,
@@ -65,6 +75,8 @@
         "details": [],
         "deprecated": {},
           "description": "Creates a new CellCoordinates with the same row and column values",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.elements.CellCoordinates",
           "params": []}
       ,
@@ -74,5 +86,11 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}}]
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

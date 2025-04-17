@@ -91,4 +91,7 @@
         { "name": "buttonDown", "type": "Boolean"},
         { "name": "delta", "type": "int"}]}
       ]
+  ,
+  "events": [
+  ]
   }

@@ -13,6 +13,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ,
@@ -22,6 +25,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "encoder", "type": "mx.rpc.soap.SOAPEncoder"},
         { "name": "parent", "type": "XML"},
@@ -35,6 +41,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "decoder", "type": "mx.rpc.soap.SOAPDecoder"},
         { "name": "parent", "type": "*"},
@@ -48,19 +57,31 @@
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "keyQName",
         "return": "QName",
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "valueQName",
         "return": "QName",
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}}]
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

@@ -34,7 +34,10 @@
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "String",
@@ -76,7 +79,10 @@
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "createElement",
         "namespace": "protected",
@@ -90,4 +96,7 @@
           "return": "org.apache.royale.core.WrappedHTMLElement",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

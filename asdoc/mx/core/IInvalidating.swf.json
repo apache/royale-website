@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "mx.core.IInvalidating",
+"baseInterfaceNames": [
+]
+,
     "description": "The IInvalidating interface defines the interface for components that use invalidation to do delayed -- rather than immediate -- property commitment, measurement, drawing, and layout.",
   "tags": [
   {  "tagName": "playerversion",

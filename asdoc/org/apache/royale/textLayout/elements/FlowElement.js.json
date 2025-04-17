@@ -33,7 +33,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "initialized",
         "namespace": "public",
@@ -82,6 +85,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "width", "type": "Number"}]}
       ,
@@ -91,6 +97,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "color", "type": "uint"}]}
       ,
@@ -241,7 +250,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "@private"},
+          "description": "@private",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "org.apache.royale.textLayout.elements.IFlowGroupElement",
@@ -348,7 +359,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "@private"},
+          "description": "@private",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Boolean",
@@ -357,7 +370,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "@private"},
+          "description": "@private",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "org.apache.royale.textLayout.formats.ITextLayoutFormat",
@@ -392,6 +407,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.formats.ITextLayoutFormat",
           "params": []}
       ,
@@ -462,6 +480,8 @@
         "details": [],
         "deprecated": {},
           "description": "Called when an element is removed. Used for container elements to run any clean up code.",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -559,6 +579,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": []}
       ,
@@ -668,4 +691,7 @@
           "return": "void",
           "params": [{ "name": "len", "type": "int"}]}
       ]
+  ,
+  "events": [
+  ]
   }

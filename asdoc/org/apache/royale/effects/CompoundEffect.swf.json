@@ -35,7 +35,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The target."},
+          "description": "The target.",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Array",
@@ -44,7 +46,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The children."},
+          "description": "The children.",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Number",
@@ -52,13 +56,19 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "setDocument",
         "namespace": "public",
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "document", "type": "Object"},
         { "name": "id", "type": "String"}]}
@@ -69,6 +79,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "child", "type": "org.apache.royale.effects.IEffect"}]}
       ,
@@ -78,6 +91,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -87,6 +103,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -96,6 +115,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -105,6 +127,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -114,6 +139,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -123,6 +151,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -132,6 +163,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -141,6 +175,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "e", "type": "org.apache.royale.effects.IEffect"},
         { "name": "index", "type": "int"}]}
@@ -151,6 +188,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.effects.IEffect",
           "params": [{ "name": "index", "type": "int"}]}
       ,
@@ -160,6 +200,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "int",
           "params": [{ "name": "e", "type": "org.apache.royale.effects.IEffect"}]}
       ,
@@ -170,14 +213,23 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "removeChild",
         "namespace": "public",
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "e", "type": "org.apache.royale.effects.IEffect"}]}
       ]
+  ,
+  "events": [
+  ]
   }

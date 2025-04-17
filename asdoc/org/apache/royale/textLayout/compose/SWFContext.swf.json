@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.textLayout.compose.SWFContext",
   "baseClassname": ""
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "callInContext",
@@ -9,6 +12,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "*",
           "params": [{ "name": "fn", "type": "Function"},
         { "name": "thisArg", "type": "Object"},
@@ -22,7 +28,13 @@
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}}]
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }
 
 

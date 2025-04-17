@@ -46,4 +46,7 @@
                "values": ["EdgeMetrics with left, top, right, bottom thickness in pixels"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

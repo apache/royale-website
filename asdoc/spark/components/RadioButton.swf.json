@@ -93,7 +93,7 @@
           "description": "Specifies the name of the group to which this RadioButton component belongs, or specifies the value of the <code>id</code> property of a RadioButtonGroup component if this RadioButton is part of a group defined by a RadioButtonGroup component. All radio buttons with the same <code>groupName</code> property will be in the same tab group.  <p>When creating radio buttons to put in a RadioButtonGroup, it is advisable to use either the <code>group</code> property or the <code>groupName</code> property for all of the buttons.</p>",
         "tags": [
         {  "tagName": "default",
-               "values": [""radioGroup""]},
+               "values": ["\"radioGroup\""]},
             {  "tagName": "see",
                "values": ["#group", "mx.manager.IFocusManagerGroup#groupName"]},
             {  "tagName": "playerversion",
@@ -137,4 +137,7 @@
           "return": "void",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

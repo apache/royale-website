@@ -41,7 +41,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The skin part that defines the appearance of the close icon (a small x in the upper-right corner of the TitleWindow title bar). When clicked, the close icon dispatches a <code>close</code> event.  <p>Flex does not close the window automatically. To suport the close icon, you must create a handler for the <code>close</code> event and close the TitleWindow from that event handler.</p>  <p>Focus is disabled for this skin part.</p>"}]
+          "description": "The skin part that defines the appearance of the close icon (a small x in the upper-right corner of the TitleWindow title bar). When clicked, the close icon dispatches a <code>close</code> event.  <p>Flex does not close the window automatically. To suport the close icon, you must create a handler for the <code>close</code> event and close the TitleWindow from that event handler.</p>  <p>Focus is disabled for this skin part.</p>",
+        "tags": [
+          ]}]
   ,
   "events": [
   { "qname": "close",

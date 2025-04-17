@@ -19,14 +19,20 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "openNodes",
         "return": "Array",
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "org.apache.royale.collections.FlattenedList",
         "namespace": "",
@@ -136,6 +142,8 @@
         "details": [],
         "deprecated": {},
           "description": "Singles to the node that its state has changed and it should update itself",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "node", "type": "Object"}]}
       ,
@@ -183,4 +191,7 @@
           "return": "Object",
           "params": [{ "name": "index", "type": "int"}]}
       ]
+  ,
+  "events": [
+  ]
   }

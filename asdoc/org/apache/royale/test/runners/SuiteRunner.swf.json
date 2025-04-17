@@ -3,6 +3,8 @@
   "baseClassname": "org.apache.royale.test.runners.ParentRunner"
   ,
     "description": "A runner for test suites.  <p>Test suites should be annotated with <code>[Suite]</code> and <code>[RunWith(&quot;org.apache.royale.test.runners.SuiteRunner&quot;)]</code> metadata. To add test classes to the suite, define a public variable for each class, using the class as the variable type. You may also add other suite classes in the same way.</p>",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.test.runners.SuiteRunner",
@@ -11,6 +13,8 @@
         "details": [],
         "deprecated": {},
           "description": "Constructor.",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "suite", "type": "Class"}]}
       ,
@@ -26,4 +30,7 @@
         "tags": [
         {  "tagName": "private",
                "values": []}  ]}]
+  ,
+  "events": [
+  ]
   }

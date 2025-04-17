@@ -18,7 +18,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "The Accept, Commit, or OK key or button. Accepts the currently selected option or input method sequence conversion."},
+          "description": "The Accept, Commit, or OK key or button. Accepts the currently selected option or input method sequence conversion.",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "AGAIN",
         "return": "String",
@@ -26,7 +28,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "The Again key. Redoes or repeats a previous action."},
+          "description": "The Again key. Redoes or repeats a previous action.",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "ATTN",
         "return": "String",
@@ -34,7 +38,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "The Attn (Attention) key."},
+          "description": "The Attn (Attention) key.",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "CANCEL",
         "return": "String",
@@ -42,7 +48,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "The Cancel key."},
+          "description": "The Cancel key.",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "CONTEXT_MENU",
         "return": "String",
@@ -50,7 +58,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Shows the context menu. Typically found between the Windows (or OS) key and the Control key on the right side of the keyboard."},
+          "description": "Shows the context menu. Typically found between the Windows (or OS) key and the Control key on the right side of the keyboard.",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "ESCAPE",
         "return": "String",
@@ -58,7 +68,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "The Esc (Escape) key. Typically used as an exit, cancel, or &quot;escape this operation&quot; button. Historically, the Escape character was used to signal the start of a special control sequence of characters called an &quot;escape sequence.&quot;"},
+          "description": "The Esc (Escape) key. Typically used as an exit, cancel, or &quot;escape this operation&quot; button. Historically, the Escape character was used to signal the start of a special control sequence of characters called an &quot;escape sequence.&quot;",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "EXECUTE",
         "return": "String",
@@ -66,7 +78,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "The Execute key."},
+          "description": "The Execute key.",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "FIND",
         "return": "String",
@@ -74,7 +88,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "The Find key. Opens an interface (typically a dialog box) for performing a find/search operation."},
+          "description": "The Find key. Opens an interface (typically a dialog box) for performing a find/search operation.",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "FINISH",
         "return": "String",
@@ -82,7 +98,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "The Finish key."},
+          "description": "The Finish key.",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "HELP",
         "return": "String",
@@ -90,7 +108,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "The Help key. Opens or toggles the display of help information."},
+          "description": "The Help key. Opens or toggles the display of help information.",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "PAUSE",
         "return": "String",
@@ -98,7 +118,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "The Pause key. Pauses the current application or state, if applicable."},
+          "description": "The Pause key. Pauses the current application or state, if applicable.",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "PLAY",
         "return": "String",
@@ -106,7 +128,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "The Play key. Resumes a previously paused application, if applicable."},
+          "description": "The Play key. Resumes a previously paused application, if applicable.",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "PROPS",
         "return": "String",
@@ -114,7 +138,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "The Props (Properties) key."},
+          "description": "The Props (Properties) key.",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "SELECT",
         "return": "String",
@@ -122,7 +148,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "The Select key."},
+          "description": "The Select key.",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "ZOOM_IN",
         "return": "String",
@@ -130,7 +158,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "The ZoomIn key."},
+          "description": "The ZoomIn key.",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "ZOOM_OUT",
         "return": "String",
@@ -138,5 +168,10 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "The ZoomOut key."}]
+          "description": "The ZoomOut key.",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

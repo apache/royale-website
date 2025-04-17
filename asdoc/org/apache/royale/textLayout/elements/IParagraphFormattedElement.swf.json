@@ -2,4 +2,10 @@
   "qname": "org.apache.royale.textLayout.elements.IParagraphFormattedElement",
 "baseInterfaceNames": [
 "org.apache.royale.textLayout.elements.IFlowGroupElement"]
-}
+,
+    "description": "",
+  "tags": [
+    ],
+  "members": [
+  ]
+  }

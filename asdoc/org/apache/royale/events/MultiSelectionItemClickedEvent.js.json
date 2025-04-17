@@ -70,6 +70,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.events.IRoyaleEvent",
           "params": []}
       ,
@@ -97,4 +100,7 @@
           "params": [{ "name": "type", "type": "String"},
         { "name": "event", "type": "org.apache.royale.events.BrowserEvent"}]}
       ]
+  ,
+  "events": [
+  ]
   }

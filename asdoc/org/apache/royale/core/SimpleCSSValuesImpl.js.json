@@ -34,13 +34,19 @@
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "init",
         "namespace": "public",
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "main", "type": "Object"}]}
       ,
@@ -215,6 +221,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "*",
           "params": [{ "name": "prop", "type": "String"},
         { "name": "value", "type": "*"}]}
@@ -241,7 +250,10 @@
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Object",
@@ -249,7 +261,10 @@
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Object",
@@ -257,7 +272,10 @@
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "applyStyles",
         "namespace": "public",
@@ -442,6 +460,9 @@
         { "name": "hostHeight", "type": "Number"},
         { "name": "state", "type": "String"}]}
       ]
+  ,
+  "events": [
+  ]
   }
 
 

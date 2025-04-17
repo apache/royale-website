@@ -28,4 +28,7 @@
           "return": "void",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

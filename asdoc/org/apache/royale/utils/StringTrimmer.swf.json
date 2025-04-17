@@ -97,4 +97,7 @@
           "return": "Boolean",
           "params": [{ "name": "character", "type": "String"}]}
       ]
+  ,
+  "events": [
+  ]
   }

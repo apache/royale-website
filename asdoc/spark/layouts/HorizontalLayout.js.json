@@ -309,7 +309,7 @@
           "description": "The horizontal alignment of the content relative to the container's width. If the value is <code>&quot;left&quot;</code>, <code>&quot;right&quot;</code>, or <code>&quot;center&quot;</code> then the layout element is aligned relative to the container's <code>contentWidth</code> property.  <p>This property has no effect when <code>clipAndEnableScrolling</code> is true and the <code>contentWidth</code> is greater than the container's width.</p>  <p>This property does not affect the layout's measured size.</p>",
         "tags": [
         {  "tagName": "default",
-               "values": [""left""]},
+               "values": ["\"left\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 10", "AIR 1.5"]},
             {  "tagName": "productversion",
@@ -327,7 +327,7 @@
           "description": "The vertical alignment of layout elements.  <p>If the value is <code>&quot;bottom&quot;</code>, <code>&quot;middle&quot;</code>, or <code>&quot;top&quot;</code> then the layout elements are aligned relative to the container's <code>contentHeight</code> property.</p>  <p>If the value is <code>&quot;contentJustify&quot;</code> then the actual height of the layout element is set to the container's <code>contentHeight</code> property. The content height of the container is the height of the largest layout element. If all layout elements are smaller than the height of the container, then set the height of all the layout elements to the height of the container.</p>  <p>If the value is <code>&quot;justify&quot;</code> then the actual height of the layout elements is set to the container's height.</p>  <p>If the value is <code>&quot;baseline&quot;</code> then the elements are positioned such that their text is aligned to the maximum of the elements' text ascent.</p>",
         "tags": [
         {  "tagName": "default",
-               "values": [""top""]},
+               "values": ["\"top\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 10", "AIR 1.5"]},
             {  "tagName": "productversion",
@@ -375,6 +375,9 @@
           "return": "Number",
           "params": [{ "name": "index", "type": "int"}]}
       ]
+  ,
+  "events": [
+  ]
   }
 
 

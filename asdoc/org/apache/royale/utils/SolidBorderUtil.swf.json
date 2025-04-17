@@ -71,4 +71,7 @@
         { "name": "thicknessBottom", "type": "int"},
         { "name": "thicknessLeft", "type": "int"}]}
       ]
+  ,
+  "events": [
+  ]
   }

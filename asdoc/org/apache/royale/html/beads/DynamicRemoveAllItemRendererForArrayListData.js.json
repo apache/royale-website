@@ -122,4 +122,7 @@
                "values": ["org.apache.royale.core.IStrandWithModelView", "org.apache.royale.html.beads.IListView"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

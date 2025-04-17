@@ -3,6 +3,8 @@
   "baseClassname": ""
   ,
     "description": "ComponentRoutes are declared in RouteToComponent beads. This maps a base name of a route path to a component class.",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.routing.ComponentRoute",
@@ -10,6 +12,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ,
@@ -20,7 +25,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The component class to attach to the parent. I new one is instantiated each time we have a new route."},
+          "description": "The component class to attach to the parent. I new one is instantiated each time we have a new route.",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "baseName",
         "return": "String",
@@ -28,7 +35,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "This is the base name (leaf) of the route path."},
+          "description": "This is the base name (leaf) of the route path.",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "parent",
         "return": "org.apache.royale.core.IParent",
@@ -36,19 +45,30 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The parent to add the component to. (Defaults to the strand of the router.)"},
+          "description": "The parent to add the component to. (Defaults to the strand of the router.)",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "title",
         "return": "String",
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "defaultRoute",
         "return": "Boolean",
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}}]
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

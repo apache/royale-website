@@ -2,6 +2,9 @@
   "qname": "mx.managers.PopUpManagerModal",
   "baseClassname": "mx.core.UIComponent"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "mx.managers.PopUpManagerModal",
@@ -9,6 +12,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ,
@@ -32,8 +38,14 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "host", "type": "org.apache.royale.core.IUIBase"},
         { "name": "forPopup", "type": "mx.core.IFlexDisplayObject"}]}
       ]
+  ,
+  "events": [
+  ]
   }

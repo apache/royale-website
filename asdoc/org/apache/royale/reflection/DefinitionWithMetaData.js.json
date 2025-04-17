@@ -17,6 +17,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "name", "type": "String"},
         { "name": "rawData", "type": "Object"}]}
@@ -29,7 +32,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "gets a copy of the metadata collection array"},
+          "description": "gets a copy of the metadata collection array",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "retrieveMetaDataByName",
         "namespace": "public",
@@ -45,4 +50,7 @@
           "return": "Array",
           "params": [{ "name": "name", "type": "String"}]}
       ]
+  ,
+  "events": [
+  ]
   }

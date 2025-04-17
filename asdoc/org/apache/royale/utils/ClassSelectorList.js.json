@@ -17,6 +17,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "component", "type": "org.apache.royale.core.IUIBase"}]}
       ,
@@ -135,4 +138,7 @@
           "return": "void",
           "params": [{ "name": "names", "type": "String"}]}
       ]
+  ,
+  "events": [
+  ]
   }

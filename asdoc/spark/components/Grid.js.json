@@ -391,7 +391,10 @@
         "namespace": "mx_internal",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "mx.core.IFactory",
@@ -920,7 +923,9 @@
         "bindable": ["showCaretChanged"],
         "details": [],
         "deprecated": {},
-          "description": "Determines if the caret is visible. TBD: when is this property automatically set?"},
+          "description": "Determines if the caret is visible. TBD: when is this property automatically set?",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Boolean",
@@ -1750,7 +1755,10 @@
         "namespace": "mx_internal",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "int",
@@ -1758,7 +1766,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Boolean",
@@ -1766,7 +1777,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Boolean",
@@ -1774,7 +1788,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}}]
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]}]
   ,
   "events": [
   { "qname": "gridMouseDown",

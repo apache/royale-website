@@ -35,7 +35,10 @@
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Array",
@@ -65,4 +68,7 @@
           "return": "void",
           "params": [{ "name": "operation", "type": "org.apache.royale.textLayout.operations.FlowOperation"}]}
       ]
+  ,
+  "events": [
+  ]
   }

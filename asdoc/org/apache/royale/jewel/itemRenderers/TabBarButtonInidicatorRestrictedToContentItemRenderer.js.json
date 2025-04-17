@@ -35,6 +35,8 @@
         "details": ["override"],
         "deprecated": {},
           "description": "We create an internal element with the text and make it invisible. So we position absolutely to the bottom and add the indicator to this internal element. In this way we can manage paddings and other things in extended renderers.",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -45,7 +47,12 @@
         "details": [],
         "deprecated": {},
           "description": "updated internal size according to real content size",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

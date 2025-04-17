@@ -51,5 +51,7 @@
   { "qname": "change",
         "type": "org.apache.royale.events.Event"
       ,
-          "description": "The change event is dispatched when the selectedDate is changed."}]
+          "description": "The change event is dispatched when the selectedDate is changed.",
+        "tags": [
+          ]}]
   }

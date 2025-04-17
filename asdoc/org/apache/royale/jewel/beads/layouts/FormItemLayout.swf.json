@@ -71,4 +71,7 @@
           "return": "Boolean",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "org.apache.royale.textLayout.container.ISandboxSupport",
+"baseInterfaceNames": [
+]
+,
     "description": "Interface to support TLF content in a sub-application. When an application is loaded in an untrusted context, mouse events that occur outside of the untrusted application's bounds are not delivered. Clients can handle this by implementing ISandboxSupport.",
   "tags": [
   {  "tagName": "see",

@@ -3,6 +3,8 @@
   "baseClassname": "org.apache.royale.jewel.Group"
   ,
     "description": "FormHeading is a label, and option required indicator (no validation is implied) and a content with one or more controls",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.jewel.FormHeading",
@@ -57,4 +59,7 @@
                "values": ["Royale 0.9.4"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

@@ -1,4 +1,13 @@
 { "type": "class",
   "qname": "org.apache.royale.svg.TransformBead",
   "baseClassname": "org.apache.royale.core.TransformBeadBase"
+  ,
+    "description": "",
+  "tags": [
+    ],
+  "members": [
+  ]
+  ,
+  "events": [
+  ]
   }

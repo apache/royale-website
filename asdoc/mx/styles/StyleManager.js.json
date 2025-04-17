@@ -49,4 +49,7 @@
           "return": "mx.styles.IStyleManager2",
           "params": [{ "name": "moduleFactory", "type": "mx.core.IFlexModuleFactory"}]}
       ]
+  ,
+  "events": [
+  ]
   }

@@ -17,6 +17,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ,
@@ -119,9 +122,15 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "obj", "type": "Object"},
         { "name": "name", "type": "String"},
         { "name": "value", "type": "*"}]}
       ]
+  ,
+  "events": [
+  ]
   }

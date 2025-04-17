@@ -170,4 +170,7 @@
           "params": [{ "name": "path", "type": "Object"},
         { "name": "opt_radius", "type": "Number"}]}
       ]
+  ,
+  "events": [
+  ]
   }

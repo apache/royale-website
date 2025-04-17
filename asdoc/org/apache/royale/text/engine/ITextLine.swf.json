@@ -3,6 +3,9 @@
 "baseInterfaceNames": [
 "org.apache.royale.core.IParentIUIBase"]
 ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "accessor",
     "access": "read-only",
@@ -11,7 +14,10 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-only",
     "return": "int",
@@ -19,7 +25,10 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-only",
     "return": "String",
@@ -27,7 +36,10 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-only",
     "return": "Boolean",
@@ -35,7 +47,10 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-only",
     "return": "Number",
@@ -43,7 +58,10 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-write",
     "return": "Boolean",
@@ -51,7 +69,10 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-only",
     "return": "Boolean",
@@ -59,7 +80,10 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-only",
     "return": "Boolean",
@@ -67,7 +91,10 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-only",
     "return": "org.apache.royale.text.engine.ITextLine",
@@ -75,7 +102,10 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-only",
     "return": "org.apache.royale.text.engine.ITextLine",
@@ -83,7 +113,10 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-only",
     "return": "int",
@@ -91,7 +124,10 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-only",
     "return": "Number",
@@ -99,7 +135,10 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-only",
     "return": "org.apache.royale.text.engine.ITextBlock",
@@ -107,7 +146,10 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-only",
     "return": "int",
@@ -115,7 +157,10 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-only",
     "return": "Number",
@@ -123,7 +168,10 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-only",
     "return": "Number",
@@ -131,7 +179,10 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-only",
     "return": "Number",
@@ -139,7 +190,10 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-only",
     "return": "Number",
@@ -147,7 +201,10 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-only",
     "return": "Number",
@@ -155,7 +212,10 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-only",
     "return": "Number",
@@ -163,7 +223,10 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-write",
     "return": "*",
@@ -171,7 +234,10 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-write",
     "return": "String",
@@ -179,7 +245,10 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-write",
     "return": "org.apache.royale.text.engine.ITextLine",
@@ -187,13 +256,19 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "method",
     "qname": "dump",
     "namespace": "public",
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "String",
       "params": []}
   ,
@@ -203,6 +278,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "int",
       "params": [{ "name": "atomIndex", "type": "int"}]}
   ,
@@ -212,6 +290,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "org.apache.royale.geom.Rectangle",
       "params": [{ "name": "atomIndex", "type": "int"}]}
   ,
@@ -221,6 +302,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "Number",
       "params": [{ "name": "atomIndex", "type": "int"}]}
   ,
@@ -230,6 +314,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "org.apache.royale.core.IUIBase",
       "params": [{ "name": "atomIndex", "type": "int"}]}
   ,
@@ -239,6 +326,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "int",
       "params": [{ "name": "charIndex", "type": "int"}]}
   ,
@@ -248,6 +338,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "int",
       "params": [{ "name": "stageX", "type": "Number"},
     { "name": "stageY", "type": "Number"}]}
@@ -258,6 +351,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "int",
       "params": [{ "name": "atomIndex", "type": "int"}]}
   ,
@@ -267,6 +363,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "int",
       "params": [{ "name": "atomIndex", "type": "int"}]}
   ,
@@ -276,6 +375,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "String",
       "params": [{ "name": "atomIndex", "type": "int"}]}
   ,
@@ -285,6 +387,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "Boolean",
       "params": [{ "name": "atomIndex", "type": "int"}]}
   ,
@@ -294,6 +399,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "Number",
       "params": [{ "name": "baseline", "type": "String"}]}
   ,
@@ -303,6 +411,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "Number",
       "params": []}
   ,
@@ -312,6 +423,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "org.apache.royale.geom.Rectangle",
       "params": [{ "name": "ref", "type": "Object"}]}
   ]

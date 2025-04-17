@@ -33,7 +33,10 @@
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Boolean",
@@ -42,7 +45,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
-          "description": "@private"},
+          "description": "@private",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "String",
@@ -51,7 +56,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
-          "description": "@private"},
+          "description": "@private",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "String",
@@ -92,7 +99,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Specifies whether this SpanElement object terminates the paragraph. The SpanElement object that terminates a paragraph has an extra, hidden character at the end. This character is added automatically by the component and is included in the value of the <code>textLength</code> property."},
+          "description": "Specifies whether this SpanElement object terminates the paragraph. The SpanElement object that terminates a paragraph has an extra, hidden character at the end. This character is added automatically by the component and is included in the value of the <code>textLength</code> property.",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "replaceText",
         "namespace": "public",
@@ -114,4 +123,7 @@
         { "name": "relativeEndPosition", "type": "int"},
         { "name": "textValue", "type": "String"}]}
       ]
+  ,
+  "events": [
+  ]
   }

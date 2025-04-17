@@ -3,6 +3,8 @@
   "baseClassname": "org.apache.royale.events.EventDispatcher"
   ,
     "description": "TreeData is used with tree or structured data classes. This class incorporates a HierarchicalData structure as its primary source, but then internally flattens it for presentation.",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.collections.TreeData",
@@ -10,6 +12,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "source", "type": "org.apache.royale.collections.HierarchicalData"}]}
       ,
@@ -19,6 +24,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": [{ "name": "node", "type": "Object"}]}
       ,
@@ -28,6 +36,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": [{ "name": "node", "type": "Object"}]}
       ,
@@ -37,6 +48,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "node", "type": "Object"}]}
       ,
@@ -46,6 +60,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "node", "type": "Object"}]}
       ,
@@ -55,6 +72,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "int",
           "params": [{ "name": "node", "type": "Object"}]}
       ,
@@ -65,13 +85,19 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "getItemAt",
         "namespace": "public",
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Object",
           "params": [{ "name": "index", "type": "int"}]}
       ,
@@ -81,6 +107,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "int",
           "params": [{ "name": "item", "type": "Object"}]}
       ,
@@ -90,6 +119,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "item", "type": "Object"}]}
       ,
@@ -99,6 +131,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "item", "type": "Object"},
         { "name": "index", "type": "int"}]}
@@ -109,6 +144,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Object",
           "params": [{ "name": "item", "type": "Object"},
         { "name": "index", "type": "int"}]}
@@ -119,6 +157,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": [{ "name": "item", "type": "Object"}]}
       ,
@@ -128,6 +169,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Object",
           "params": [{ "name": "index", "type": "int"}]}
       ,
@@ -137,6 +181,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -146,6 +193,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "item", "type": "Object"}]}
       ,
@@ -155,7 +205,13 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "index", "type": "int"}]}
       ]
+  ,
+  "events": [
+  ]
   }

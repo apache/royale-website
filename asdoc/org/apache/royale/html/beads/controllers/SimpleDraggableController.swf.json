@@ -132,7 +132,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "allows explicitly setting a parent that can be dragged by this bead being active on one of its children (e.g. use case: panel draggable from its header)"}]
+          "description": "allows explicitly setting a parent that can be dragged by this bead being active on one of its children (e.g. use case: panel draggable from its header)",
+        "tags": [
+          ]}]
   ,
   "events": [
   { "qname": "dragStart",

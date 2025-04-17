@@ -68,7 +68,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A view can host popups that will be part of the layout."}]
+          "description": "A view can host popups that will be part of the layout.",
+        "tags": [
+          ]}]
   ,
   "events": [
   { "qname": "initComplete",

@@ -69,4 +69,7 @@
           "return": "void",
           "params": [{ "name": "inst", "type": "mx.effects.IEffectInstance"}]}
       ]
+  ,
+  "events": [
+  ]
   }

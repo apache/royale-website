@@ -603,7 +603,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Boolean",
@@ -646,6 +649,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -655,6 +661,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "event", "type": "mx.events.AdvancedDataGridEvent"}]}
       ,
@@ -723,7 +732,7 @@
           "description": "Indicates whether or not the user can edit items in the data provider.  <p>If <code>&quot;item&quot;</code>, the item renderers in the control are editable. The user can click on an item renderer to open an editor.</p>  <p>If <code>&quot;item group&quot;</code>, the item renderers and grouping headers can be edited.</p>  <p>If <code>&quot;item summary&quot;</code>, the item renderers and summary cells can be edited.</p>  <p>You can combine these values. For example, <code>editable = &quot;item group summary&quot;</code>. Note that item editing has to be enabled if enabling group or summary editing.</p>  <p>If you specify an empty String, no editing is allowed.</p>  <p>The values <code>&quot;true&quot;</code> and <code>&quot;false&quot;</code> correspond to item editing and no editing.</p>  <p>A value of <code>&quot;all&quot;</code> means everything is editable.</p>  <p>You can turn off editing for individual columns of the AdvancedDataGrid control using the <code>AdvancedDataGridColumn.editable</code> property, or by handling the <code>itemEditBeginning</code> and <code>itemEditBegin</code> events.</p>",
         "tags": [
         {  "tagName": "default",
-               "values": [""""]},
+               "values": ["\"\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
@@ -813,7 +822,10 @@
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "headerInfos",
         "return": "Array",
@@ -880,6 +892,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "HTMLElement",
           "params": []}
       ,
@@ -889,6 +904,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "HTMLElement",
           "params": []}
       ]

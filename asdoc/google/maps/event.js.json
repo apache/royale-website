@@ -169,4 +169,7 @@
         { "name": "handler", "type": "Function"},
         { "name": "opt_capture", "type": "Boolean"}]}
       ]
+  ,
+  "events": [
+  ]
   }

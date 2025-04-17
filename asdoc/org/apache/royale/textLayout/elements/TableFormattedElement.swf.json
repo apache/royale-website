@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.textLayout.elements.TableFormattedElement",
   "baseClassname": "org.apache.royale.textLayout.elements.ContainerFormattedElement"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.textLayout.elements.TableFormattedElement",
@@ -9,6 +12,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ,
@@ -24,4 +30,7 @@
         "tags": [
         {  "tagName": "royaleignorecoercion",
                "values": ["org.apache.royale.textLayout.elements.ITableElement"]}  ]}]
+  ,
+  "events": [
+  ]
   }

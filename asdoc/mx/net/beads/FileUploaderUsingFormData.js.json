@@ -51,7 +51,13 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "url", "type": "String"}]}
       ]
+  ,
+  "events": [
+  ]
   }

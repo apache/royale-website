@@ -379,4 +379,7 @@
           "return": "Object",
           "params": [{ "name": "latlng", "type": "google.maps.LatLng"}]}
       ]
+  ,
+  "events": [
+  ]
   }

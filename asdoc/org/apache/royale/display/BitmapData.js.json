@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.display.BitmapData",
   "baseClassname": ""
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "fromCanvas",
@@ -42,6 +45,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "String",
           "params": []}
       ,
@@ -52,7 +58,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "uint",
@@ -60,7 +69,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Boolean",
@@ -68,7 +80,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "encode",
         "namespace": "public",
@@ -122,6 +137,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -131,6 +149,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -140,6 +161,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "uint",
           "params": [{ "name": "x", "type": "int"},
         { "name": "y", "type": "int"}]}
@@ -150,6 +174,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "uint",
           "params": [{ "name": "x", "type": "int"},
         { "name": "y", "type": "int"}]}
@@ -160,6 +187,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.display.BitmapData",
           "params": []}
       ,
@@ -184,13 +214,19 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "dispose",
         "namespace": "public",
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -200,6 +236,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "sourceBitmapData", "type": "org.apache.royale.display.BitmapData"},
         { "name": "sourceRect", "type": "org.apache.royale.geom.Rectangle"},
@@ -214,6 +253,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "source", "type": "Object"},
         { "name": "matrix", "type": "org.apache.royale.geom.Matrix"},
@@ -222,4 +264,7 @@
         { "name": "clipRect", "type": "org.apache.royale.geom.Rectangle"},
         { "name": "smoothing", "type": "Boolean"}]}
       ]
+  ,
+  "events": [
+  ]
   }

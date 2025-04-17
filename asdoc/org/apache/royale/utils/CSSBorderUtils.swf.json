@@ -36,4 +36,7 @@
         { "name": "drawBackground", "type": "Boolean"},
         { "name": "clear", "type": "Boolean"}]}
       ]
+  ,
+  "events": [
+  ]
   }

@@ -3,6 +3,8 @@
   "baseClassname": "org.apache.royale.html.Label"
   ,
     "description": "A specially styled Label used in TitleBar",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.html.beads.TitleBarTitle",
@@ -10,7 +12,13 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

@@ -1,5 +1,11 @@
 { "type": "interface",
   "qname": "org.apache.royale.events.IEventDispatcher",
+"baseInterfaceNames": [
+]
+,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
     "qname": "addEventListener",
@@ -7,6 +13,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "type", "type": "String"},
     { "name": "handler", "type": "Function"},
@@ -19,6 +28,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "type", "type": "String"},
     { "name": "handler", "type": "Function"},
@@ -31,6 +43,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "Boolean",
       "params": [{ "name": "type", "type": "String"}]}
   ,
@@ -40,6 +55,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "Boolean",
       "params": [{ "name": "event", "type": "Object"}]}
   ]

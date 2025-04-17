@@ -43,4 +43,7 @@
         { "name": "uid", "type": "String"},
         { "name": "rowNum", "type": "int"}]}
       ]
+  ,
+  "events": [
+  ]
   }

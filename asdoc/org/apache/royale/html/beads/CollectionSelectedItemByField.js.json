@@ -17,7 +17,10 @@
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "org.apache.royale.html.beads.CollectionSelectedItemByField",
         "namespace": "",
@@ -94,6 +97,8 @@
         "details": [],
         "deprecated": {},
           "description": "This bead allows update the selected item of the component through the entered field",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -110,4 +115,7 @@
           "return": "void",
           "params": [{ "name": "event", "type": "org.apache.royale.events.Event"}]}
       ]
+  ,
+  "events": [
+  ]
   }

@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "org.apache.royale.core.ILayoutView",
+"baseInterfaceNames": [
+]
+,
     "description": "The ILayoutView interface is implemented by any component that has ILayoutChild children.",
   "tags": [
   {  "tagName": "playerversion",

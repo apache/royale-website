@@ -56,4 +56,7 @@
           "return": "void",
           "params": [{ "name": "event", "type": "Event"}]}
       ]
+  ,
+  "events": [
+  ]
   }

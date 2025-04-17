@@ -5,6 +5,8 @@
   "details": [],
   "deprecated": {},
     "description": "Traces a warning if the condition is not met.",
+  "tags": [
+    ],
     "return": "void",
     "params": [{ "name": "condition", "type": "Boolean"},
   { "name": "message", "type": "String"}]}

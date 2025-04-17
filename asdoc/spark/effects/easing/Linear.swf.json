@@ -92,4 +92,7 @@
           "return": "Number",
           "params": [{ "name": "fraction", "type": "Number"}]}
       ]
+  ,
+  "events": [
+  ]
   }

@@ -28,4 +28,7 @@
           "return": "org.apache.royale.events.KeyboardEvent",
           "params": [{ "name": "oldEvent", "type": "flash.events.KeyboardEvent"}]}
       ]
+  ,
+  "events": [
+  ]
   }

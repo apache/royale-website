@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.textLayout.edit.mementos.MoveElementMemento",
   "baseClassname": "org.apache.royale.textLayout.edit.mementos.BaseMemento"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.textLayout.edit.mementos.MoveElementMemento",
@@ -9,6 +12,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "textFlow", "type": "org.apache.royale.textLayout.elements.ITextFlow"},
         { "name": "elemBeforeMove", "type": "org.apache.royale.textLayout.edit.ElementMark"},
@@ -24,6 +30,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "*",
           "params": [{ "name": "textFlow", "type": "org.apache.royale.textLayout.elements.ITextFlow"},
         { "name": "elem", "type": "org.apache.royale.textLayout.elements.IFlowElement"},
@@ -57,4 +66,7 @@
           "return": "*",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

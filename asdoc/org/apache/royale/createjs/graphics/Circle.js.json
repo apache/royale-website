@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.createjs.graphics.Circle",
   "baseClassname": "org.apache.royale.createjs.graphics.GraphicShape"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "accessor",
         "access": "read-write",
@@ -51,4 +54,7 @@
                "values": ["Royale 0.0"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

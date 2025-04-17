@@ -3,6 +3,8 @@
   "baseClassname": "org.apache.royale.html.supportClasses.MXMLItemRenderer"
   ,
     "description": "This class extends MXMLItemRenderer and adds ItemRendererDataBinding for convenience.",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.express.MXMLItemRenderer",
@@ -10,7 +12,13 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

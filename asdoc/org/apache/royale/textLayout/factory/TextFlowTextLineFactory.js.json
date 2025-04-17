@@ -52,5 +52,10 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "@private Test hook: Sets a callback function for getting the truncated text flow. This function is only called if truncation is performed. It takes a single parameter which will have the following value: null, if nothing fits A text flow representing the truncated text (containing inital text from the original text flow followed by the truncation indicator), otherwise"}]
+          "description": "@private Test hook: Sets a callback function for getting the truncated text flow. This function is only called if truncation is performed. It takes a single parameter which will have the following value: null, if nothing fits A text flow representing the truncated text (containing inital text from the original text flow followed by the truncation indicator), otherwise",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

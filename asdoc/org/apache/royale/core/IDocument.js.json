@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "org.apache.royale.core.IDocument",
+"baseInterfaceNames": [
+]
+,
     "description": "The IDocument interface is the basic interface for objects that can be tags in an MXML document and need to know about the host document.  It is similar to the IMXMLObject interface in the Flex SDK.",
   "tags": [
   {  "tagName": "playerversion",

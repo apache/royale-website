@@ -2,6 +2,9 @@
   "qname": "spark.primitives.BitmapImage",
   "baseClassname": "mx.controls.Image"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "accessor",
         "access": "write-only",
@@ -10,5 +13,11 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}}]
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

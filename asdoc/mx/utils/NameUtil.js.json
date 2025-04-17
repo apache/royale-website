@@ -53,4 +53,7 @@
           "return": "String",
           "params": [{ "name": "object", "type": "Object"}]}
       ]
+  ,
+  "events": [
+  ]
   }

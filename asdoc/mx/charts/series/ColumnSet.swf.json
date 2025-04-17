@@ -200,4 +200,7 @@
           "params": [{ "name": "dimension", "type": "String"},
         { "name": "requiredFields", "type": "uint"}]}
       ]
+  ,
+  "events": [
+  ]
   }

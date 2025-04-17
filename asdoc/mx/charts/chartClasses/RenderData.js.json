@@ -143,4 +143,7 @@
           "return": "mx.charts.chartClasses.RenderData",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

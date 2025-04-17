@@ -13,6 +13,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "styleManager", "type": "mx.styles.StyleManagerImpl"},
         { "name": "factoryFunctions", "type": "Object"},
@@ -41,7 +44,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Object",
@@ -49,7 +55,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Object",
@@ -57,7 +66,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Object",
@@ -409,7 +421,7 @@
           "description": "Adds a color name to the list of aliases for colors.  If you later access this color name, the value is not case-sensitive.",
         "tags": [
         {  "tagName": "param",
-               "values": ["colorName The name of the color to add to the list; for example, "blue".", "colorValue Color value, for example, 0x0000FF."]},
+               "values": ["colorName The name of the color to add to the list; for example, \"blue\".", "colorValue Color value, for example, 0x0000FF."]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
@@ -502,6 +514,9 @@
           "return": "Boolean",
           "params": [{ "name": "value", "type": "*"}]}
       ]
+  ,
+  "events": [
+  ]
   }
 
 

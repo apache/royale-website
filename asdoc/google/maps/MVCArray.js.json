@@ -186,4 +186,7 @@
           "return": "Array",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

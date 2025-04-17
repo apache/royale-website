@@ -34,6 +34,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -43,7 +46,13 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "view", "type": "org.apache.royale.mobile.IViewManagerView"}]}
       ]
+  ,
+  "events": [
+  ]
   }

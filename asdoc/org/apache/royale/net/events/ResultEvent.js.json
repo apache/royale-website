@@ -19,24 +19,36 @@
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "data",
         "return": "Object",
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "org.apache.royale.net.events.ResultEvent",
         "namespace": "",
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "type", "type": "String"},
         { "name": "resultData", "type": "Object"},
         { "name": "bubbles", "type": "Boolean"},
         { "name": "cancelable", "type": "Boolean"}]}
       ]
+  ,
+  "events": [
+  ]
   }

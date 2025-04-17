@@ -13,6 +13,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ,
@@ -22,6 +25,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "encoder", "type": "mx.rpc.soap.SOAPEncoder"},
         { "name": "parent", "type": "XML"},
@@ -35,6 +41,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "decoder", "type": "mx.rpc.soap.SOAPDecoder"},
         { "name": "parent", "type": "*"},
@@ -42,4 +51,7 @@
         { "name": "value", "type": "*"},
         { "name": "restriction", "type": "XML"}]}
       ]
+  ,
+  "events": [
+  ]
   }

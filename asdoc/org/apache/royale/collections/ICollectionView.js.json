@@ -4,6 +4,8 @@
 "org.apache.royale.collections.ICollection"]
 ,
     "description": "The ICollectionView interface is implemented by classes that provide collection data.",
+  "tags": [
+    ],
   "members": [
   { "type": "accessor",
     "access": "read-only",
@@ -12,13 +14,19 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "method",
     "qname": "getItemIndex",
     "namespace": "public",
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "int",
       "params": [{ "name": "item", "type": "Object"}]}
   ,
@@ -28,6 +36,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "item", "type": "Object"}]}
   ,
@@ -37,6 +48,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "item", "type": "Object"},
     { "name": "index", "type": "int"}]}
@@ -47,6 +61,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "Object",
       "params": [{ "name": "item", "type": "Object"},
     { "name": "index", "type": "int"}]}
@@ -57,6 +74,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "Boolean",
       "params": [{ "name": "item", "type": "Object"}]}
   ,
@@ -66,6 +86,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "Object",
       "params": [{ "name": "index", "type": "int"}]}
   ,
@@ -75,6 +98,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": []}
   ,
@@ -84,6 +110,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "item", "type": "Object"}]}
   ,
@@ -93,6 +122,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "index", "type": "int"}]}
   ]

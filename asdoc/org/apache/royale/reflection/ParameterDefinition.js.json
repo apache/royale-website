@@ -17,6 +17,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "index", "type": "uint"},
         { "name": "rawData", "type": "Object"},
@@ -30,7 +33,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "reference to the MethodDefinition owner of this ParameterDefinition"},
+          "description": "reference to the MethodDefinition owner of this ParameterDefinition",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "org.apache.royale.reflection.TypeDefinition",
@@ -39,7 +44,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The type of this parameter"},
+          "description": "The type of this parameter",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Boolean",
@@ -48,7 +55,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Whether this parameter is optional (has a default value) or not"},
+          "description": "Whether this parameter is optional (has a default value) or not",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "uint",
@@ -57,7 +66,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The 1-based index of this parameter in its owner function/method"},
+          "description": "The 1-based index of this parameter in its owner function/method",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "toString",
         "namespace": "public",
@@ -65,7 +76,12 @@
         "details": [],
         "deprecated": {},
           "description": "A string representation of this parameter definition",
+        "tags": [
+          ],
           "return": "String",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

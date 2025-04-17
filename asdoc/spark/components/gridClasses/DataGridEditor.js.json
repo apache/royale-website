@@ -243,4 +243,7 @@
           "return": "void",
           "params": [{ "name": "event", "type": "mx.events.MouseEvent"}]}
       ]
+  ,
+  "events": [
+  ]
   }

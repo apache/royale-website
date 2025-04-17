@@ -3,6 +3,9 @@
 "baseInterfaceNames": [
 "org.apache.royale.textLayout.elements.IFlowLeafElement"]
 ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "accessor",
     "access": "read-only",
@@ -11,13 +14,19 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "method",
     "qname": "setEffectiveFloat",
     "namespace": "public",
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "floatValue", "type": "String"}]}
   ,
@@ -28,13 +37,19 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "method",
     "qname": "elementHeightWithMarginsAndPadding",
     "namespace": "public",
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "Number",
       "params": []}
   ,
@@ -44,6 +59,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "Number",
       "params": []}
   ,
@@ -54,7 +72,10 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-only",
     "return": "Number",
@@ -62,7 +83,10 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-only",
     "return": "org.apache.royale.core.IParentIUIBase",
@@ -70,7 +94,10 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-only",
     "return": "org.apache.royale.core.IUIBase",
@@ -78,13 +105,19 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "method",
     "qname": "getTypographicAscent",
     "namespace": "public",
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "Number",
       "params": [{ "name": "textLine", "type": "org.apache.royale.text.engine.ITextLine"}]}
   ,
@@ -95,7 +128,10 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-write",
     "return": "*",
@@ -103,7 +139,10 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-only",
     "return": "String",
@@ -111,7 +150,10 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "write-only",
     "return": "*",
@@ -119,7 +161,10 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "write-only",
     "return": "Object",
@@ -127,5 +172,8 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}}]
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]}]
   }

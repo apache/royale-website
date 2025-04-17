@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.graphics.utils.PathHelper",
   "baseClassname": ""
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "getSegments",
@@ -9,6 +12,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "flash.display.GraphicsPath",
           "params": [{ "name": "data", "type": "String"},
         { "name": "x", "type": "Number"},
@@ -20,9 +26,15 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "flash.geom.Rectangle",
           "params": [{ "name": "data", "type": "String"}]}
       ]
+  ,
+  "events": [
+  ]
   }
 
 

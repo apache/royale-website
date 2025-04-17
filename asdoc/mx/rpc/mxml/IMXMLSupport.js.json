@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "mx.rpc.mxml.IMXMLSupport",
+"baseInterfaceNames": [
+]
+,
     "description": "Implementing this interface means that an RPC service can be used in an MXML document by using MXML tags.",
   "tags": [
   {  "tagName": "playerversion",

@@ -18,7 +18,10 @@
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "getDefinition",
         "namespace": "public",
@@ -57,6 +60,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.reflection.TypeDefinition",
           "params": [{ "name": "name", "type": "String"},
         { "name": "rawData", "type": "Object"}]}
@@ -68,6 +74,8 @@
         "details": [],
         "deprecated": {},
           "description": "The static TypeDefinitions.getDefinition method is the primary access to TypeDefinitions. Although the constructor does not have a lock to prevent use (for performance reasons), using it directly is discouraged. Most of the time you should retrieve TypeDefinitions with org.apache.royale.reflection.describeType()",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "name", "type": "String"},
         { "name": "rawData", "type": "Object"}]}
@@ -78,7 +86,10 @@
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "String",
@@ -87,7 +98,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The type of definition this TypeDefinition describes values can be &quot;class&quot;, &quot;interface&quot;, &quot;unknown&quot; This can sometimes be different between swf and js targets."},
+          "description": "The type of definition this TypeDefinition describes values can be &quot;class&quot;, &quot;interface&quot;, &quot;unknown&quot; This can sometimes be different between swf and js targets.",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Boolean",
@@ -96,7 +109,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "convenience check for whether this definition represents a Class or instance of a Class"},
+          "description": "convenience check for whether this definition represents a Class or instance of a Class",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Boolean",
@@ -105,14 +120,19 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "convenience check for whether this definition represents an interface"},
+          "description": "convenience check for whether this definition represents an interface",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_packageName",
         "return": "String",
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "String",
@@ -121,7 +141,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The package name for this TypeDefinition"},
+          "description": "The package name for this TypeDefinition",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "String",
@@ -130,7 +152,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The qualified name for this TypeDefinition"},
+          "description": "The qualified name for this TypeDefinition",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "getClass",
         "namespace": "public",
@@ -166,7 +190,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A MethodDefinition representing the constructor for a &quot;class&quot; kind TypeDefinition For an interface this returns null."},
+          "description": "A MethodDefinition representing the constructor for a &quot;class&quot; kind TypeDefinition For an interface this returns null.",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Array",
@@ -187,7 +213,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "returns the full set of interfaces that this class implements or that this interface extends, depending on the 'kind' value (&quot;interface&quot; or &quot;class&quot;)"},
+          "description": "returns the full set of interfaces that this class implements or that this interface extends, depending on the 'kind' value (&quot;interface&quot; or &quot;class&quot;)",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Array",
@@ -196,7 +224,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The static variables associated with a &quot;class&quot; kind TypeDefinition An array of VariableDefinition instances"},
+          "description": "The static variables associated with a &quot;class&quot; kind TypeDefinition An array of VariableDefinition instances",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Array",
@@ -205,7 +235,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The static accessors associated with a &quot;class&quot; kind TypeDefinition An array of AccessorDefinition instances"},
+          "description": "The static accessors associated with a &quot;class&quot; kind TypeDefinition An array of AccessorDefinition instances",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Array",
@@ -214,7 +246,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The static methods associated with a &quot;class&quot; kind TypeDefinition An array of MethodDefinition instances"},
+          "description": "The static methods associated with a &quot;class&quot; kind TypeDefinition An array of MethodDefinition instances",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Array",
@@ -223,7 +257,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The instance variables associated with a &quot;class&quot; kind TypeDefinition An array of VariableDefinition instances"},
+          "description": "The instance variables associated with a &quot;class&quot; kind TypeDefinition An array of VariableDefinition instances",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Array",
@@ -232,7 +268,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The instance accessors associated with a &quot;class&quot; kind TypeDefinition An array of AccessorDefinition instances"},
+          "description": "The instance accessors associated with a &quot;class&quot; kind TypeDefinition An array of AccessorDefinition instances",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Array",
@@ -241,13 +279,18 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The instance methods associated with a &quot;class&quot; kind TypeDefinition An array of MethodDefinition instances"},
+          "description": "The instance methods associated with a &quot;class&quot; kind TypeDefinition An array of MethodDefinition instances",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "getCollection",
         "namespace": "protected",
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Array",
           "params": [{ "name": "collection", "type": "String"},
         { "name": "type", "type": "String"},
@@ -283,4 +326,7 @@
           "return": "String",
           "params": [{ "name": "collections", "type": "Array"}]}
       ]
+  ,
+  "events": [
+  ]
   }

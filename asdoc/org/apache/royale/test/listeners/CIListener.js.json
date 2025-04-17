@@ -3,6 +3,8 @@
   "baseClassname": "org.apache.royale.events.EventDispatcher"
   ,
     "description": "Communicates with a socket server to integrate RoyaleUnit tests with a build system, such as <a href=&quot;https://apache.github.io/royale-docs/testing/royaleunit/run-unit-tests-with-ant&quot;>Apache Ant</a>.",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.test.listeners.CIListener",
@@ -11,6 +13,8 @@
         "details": [],
         "deprecated": {},
           "description": "Constructor.",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "port", "type": "uint"},
         { "name": "server", "type": "String"}]}
@@ -21,49 +25,70 @@
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_port",
         "return": "uint",
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_server",
         "return": "String",
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "lastTestFailed",
         "return": "Boolean",
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "socketTimeOutTimer",
         "return": "org.apache.royale.utils.Timer",
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "lastTestTime",
         "return": "Number",
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_ready",
         "return": "Boolean",
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Boolean",
@@ -76,6 +101,9 @@
         "tags": [
         {  "tagName": "inheritDoc",
                "values": []}  ]}]
+  ,
+  "events": [
+  ]
   }
 
 

@@ -28,4 +28,7 @@
           "return": "Array",
           "params": [{ "name": "range", "type": "org.apache.royale.textLayout.elements.TextRange"}]}
       ]
+  ,
+  "events": [
+  ]
   }

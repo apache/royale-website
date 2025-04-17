@@ -4,5 +4,8 @@
   "bindable": [],
   "details": [],
   "deprecated": {},
+    "description": "",
+  "tags": [
+    ],
     "return": "Object",
     "params": [{ "name": "obj", "type": "Object"}]}

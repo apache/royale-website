@@ -44,6 +44,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Array",
           "params": [{ "name": "validator", "type": "mx.validators.ZipCodeValidator"},
         { "name": "value", "type": "Object"},
@@ -77,7 +80,7 @@
           "description": "The set of formatting characters allowed in the ZIP code. This can not have digits or alphabets [a-z A-Z].",
         "tags": [
         {  "tagName": "default",
-               "values": ["" -"."]},
+               "values": ["\" -\"."]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
@@ -113,7 +116,7 @@
           "description": "Error message when the ZIP code contains invalid characters.",
         "tags": [
         {  "tagName": "default",
-               "values": [""The ZIP code contains invalid characters.""]},
+               "values": ["\"The ZIP code contains invalid characters.\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
@@ -131,7 +134,7 @@
           "description": "Error message when the <code>domain</code> property contains an invalid value.",
         "tags": [
         {  "tagName": "default",
-               "values": [""The domain parameter is invalid. It must be either 'US Only' or 'US or Canada'.""]},
+               "values": ["\"The domain parameter is invalid. It must be either 'US Only' or 'US or Canada'.\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
@@ -149,7 +152,7 @@
           "description": "Error message for an invalid Canadian postal code.",
         "tags": [
         {  "tagName": "default",
-               "values": [""The Canadian postal code must be formatted 'A1B 2C3'.""]},
+               "values": ["\"The Canadian postal code must be formatted 'A1B 2C3'.\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
@@ -167,7 +170,7 @@
           "description": "Error message for an invalid US ZIP code.",
         "tags": [
         {  "tagName": "default",
-               "values": [""The ZIP code must be 5 digits or 5+4 digits.""]},
+               "values": ["\"The ZIP code must be 5 digits or 5+4 digits.\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
@@ -185,7 +188,7 @@
           "description": "Error message for an incorrectly formatted ZIP code.",
         "tags": [
         {  "tagName": "default",
-               "values": [""The ZIP+4 code must be formatted '12345-6789'.""]},
+               "values": ["\"The ZIP+4 code must be formatted '12345-6789'.\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
@@ -213,4 +216,7 @@
           "return": "Array",
           "params": [{ "name": "value", "type": "Object"}]}
       ]
+  ,
+  "events": [
+  ]
   }

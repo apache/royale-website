@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "mx.automation.IAutomationObject",
+"baseInterfaceNames": [
+]
+,
     "description": "The IAutomationObject interface defines the interface for a delegate object that implements automation for a component.",
   "tags": [
   {  "tagName": "playerversion",

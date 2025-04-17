@@ -204,8 +204,14 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "String",
           "params": [{ "name": "className", "type": "String"},
         { "name": "args", "type": "Array"}]}
       ]
+  ,
+  "events": [
+  ]
   }

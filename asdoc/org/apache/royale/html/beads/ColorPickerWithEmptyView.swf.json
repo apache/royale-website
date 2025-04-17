@@ -19,7 +19,13 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

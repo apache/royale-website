@@ -433,4 +433,7 @@
           "return": "org.apache.royale.geom.Rectangle",
           "params": [{ "name": "dropLocation", "type": "spark.layouts.supportClasses.DropLocation"}]}
       ]
+  ,
+  "events": [
+  ]
   }

@@ -181,5 +181,8 @@
   "events": [
   { "qname": "close",
         "type": "org.apache.royale.events.CloseEvent"
-      }]
+      ,
+          "description": "",
+        "tags": [
+          ]}]
   }

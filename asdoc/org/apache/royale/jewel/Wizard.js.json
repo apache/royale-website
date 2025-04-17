@@ -35,7 +35,7 @@
         {  "tagName": "see",
                "values": ["org.apache.royale.jewel.WizardContent.selectedContent"]},
             {  "tagName": "param",
-               "values": ["stepName, that is the "id" of the content (the WizardPage) to activate"]}  ],
+               "values": ["stepName, that is the \"id\" of the content (the WizardPage) to activate"]}  ],
           "return": "void",
           "params": [{ "name": "stepName", "type": "String"}]}
       ,
@@ -45,6 +45,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.jewel.beads.models.WizardStep",
           "params": [{ "name": "name", "type": "String"}]}
       ,
@@ -132,7 +135,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "the pages of the wizard"},
+          "description": "the pages of the wizard",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "org.apache.royale.jewel.beads.models.WizardStep",
@@ -169,6 +174,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "c", "type": "org.apache.royale.core.IChild"},
         { "name": "dispatchEvent", "type": "Boolean"}]}
@@ -180,13 +188,19 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "$getElementAt",
         "namespace": "public",
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.core.IChild",
           "params": [{ "name": "index", "type": "int"}]}
       ]

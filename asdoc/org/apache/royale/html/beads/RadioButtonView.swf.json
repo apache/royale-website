@@ -102,5 +102,10 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The selection state of the RadioButton"}]
+          "description": "The selection state of the RadioButton",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

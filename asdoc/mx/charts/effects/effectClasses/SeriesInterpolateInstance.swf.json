@@ -32,4 +32,7 @@
           "return": "",
           "params": [{ "name": "target", "type": "Object"}]}
       ]
+  ,
+  "events": [
+  ]
   }

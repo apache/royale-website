@@ -70,6 +70,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "String",
           "params": [{ "name": "value", "type": "Object"}]}
       ,
@@ -86,4 +89,7 @@
           "return": "org.apache.royale.core.WrappedHTMLElement",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

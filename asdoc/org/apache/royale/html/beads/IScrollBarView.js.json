@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "org.apache.royale.html.beads.IScrollBarView",
+"baseInterfaceNames": [
+]
+,
     "description": "The IScrollBarView interface is the interface for views for the org.apache.royale.html.supportClasses.ScrollBar.",
   "tags": [
   {  "tagName": "playerversion",

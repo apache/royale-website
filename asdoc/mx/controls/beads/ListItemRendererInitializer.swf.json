@@ -34,6 +34,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.core.IBeadController",
           "params": []}
       ,
@@ -44,7 +47,10 @@
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "makeListData",
         "namespace": "protected",
@@ -79,7 +85,13 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "ir", "type": "org.apache.royale.core.IIndexedItemRenderer"}]}
       ]
+  ,
+  "events": [
+  ]
   }

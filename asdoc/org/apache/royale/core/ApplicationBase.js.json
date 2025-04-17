@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.core.ApplicationBase",
   "baseClassname": "org.apache.royale.core.HTMLElementWrapper"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.core.ApplicationBase",
@@ -165,4 +168,7 @@
                "values": ["Royale 0.0"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

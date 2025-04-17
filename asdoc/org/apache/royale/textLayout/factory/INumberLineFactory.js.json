@@ -3,6 +3,9 @@
 "baseInterfaceNames": [
 "org.apache.royale.textLayout.factory.IStringTextLineFactory"]
 ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "accessor",
     "access": "write-only",
@@ -11,7 +14,10 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "write-only",
     "return": "org.apache.royale.textLayout.compose.ISWFContext",
@@ -19,7 +25,10 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-write",
     "return": "String",
@@ -27,7 +36,10 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "write-only",
     "return": "org.apache.royale.textLayout.formats.ITextLayoutFormat",
@@ -35,7 +47,10 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "write-only",
     "return": "org.apache.royale.textLayout.formats.ITextLayoutFormat",
@@ -43,7 +58,10 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "write-only",
     "return": "org.apache.royale.textLayout.formats.ITextLayoutFormat",
@@ -51,7 +69,10 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "write-only",
     "return": "String",
@@ -59,13 +80,19 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "method",
     "qname": "createTextLines",
     "namespace": "public",
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "arg", "type": "Function"}]}
   ,
@@ -75,6 +102,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": []}
   ,
@@ -85,5 +115,8 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}}]
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]}]
   }

@@ -35,4 +35,7 @@
         { "name": "size", "type": "int"},
         { "name": "padRight", "type": "Boolean"}]}
       ]
+  ,
+  "events": [
+  ]
   }

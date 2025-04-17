@@ -211,4 +211,7 @@
           "return": "void",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "org.apache.royale.events.IRoyaleEvent",
+"baseInterfaceNames": [
+]
+,
     "description": "This class simply wraps flash.events.Event so that no flash packages are needed on the JS side. At runtime, this class is not always the event object that is dispatched.  In most cases we are dispatching DOMEvents instead, so as long as you don't actually check the typeof(event) it will work",
   "tags": [
   {  "tagName": "playerversion",

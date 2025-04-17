@@ -99,7 +99,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Function",
@@ -436,6 +439,9 @@
           "params": [{ "name": "instance", "type": "mx.core.UIComponent"},
         { "name": "cache", "type": "mx.charts.chartClasses.InstanceCache"}]}
       ]
+  ,
+  "events": [
+  ]
   }
 
 

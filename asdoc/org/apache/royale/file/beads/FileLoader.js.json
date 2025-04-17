@@ -36,6 +36,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "event", "type": "org.apache.royale.events.Event"}]}
       ,
@@ -69,4 +72,7 @@
         "tags": [
         {  "tagName": "royaleignorecoercion",
                "values": ["org.apache.royale.file.IFileModel", "org.apache.royale.file.FileProxy"]}  ]}]
+  ,
+  "events": [
+  ]
   }

@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "org.apache.royale.textLayout.elements.IFormatResolver",
+"baseInterfaceNames": [
+]
+,
     "description": "Interface to a format resolver. An implementation allows you to attach a styling mechanism of your choosing, such as Flex CSS styling and named styles, to a ITextFlow.",
   "tags": [
   {  "tagName": "see",

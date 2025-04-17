@@ -3,6 +3,9 @@
 "baseInterfaceNames": [
 "org.apache.royale.textLayout.elements.IContainerFormattedElement"]
 ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
     "qname": "normalizeNeedsInitialParagraph",
@@ -10,6 +13,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "Boolean",
       "params": []}
   ,
@@ -19,6 +25,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "org.apache.royale.textLayout.formats.IListMarkerFormat",
       "params": []}
   ,
@@ -28,6 +37,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "int",
       "params": [{ "name": "listMarkerFormat", "type": "org.apache.royale.textLayout.formats.IListMarkerFormat"}]}
   ]

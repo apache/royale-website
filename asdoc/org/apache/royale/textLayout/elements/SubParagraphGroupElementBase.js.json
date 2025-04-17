@@ -48,7 +48,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "@private"},
+          "description": "@private",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Boolean",
@@ -57,5 +59,10 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "@private SubParagraphGroupElement allow deep nesting, but LinkElements and TCYElements do not allow nesting (you can't have a link inside another link no matter how many group elements are in between). This function is called only from within the class hierarchy to find out whether"}]
+          "description": "@private SubParagraphGroupElement allow deep nesting, but LinkElements and TCYElements do not allow nesting (you can't have a link inside another link no matter how many group elements are in between). This function is called only from within the class hierarchy to find out whether",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

@@ -34,7 +34,10 @@
         "namespace": "mx_internal",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "mx.core.IInvalidating",
@@ -185,6 +188,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "document", "type": "Object"},
         { "name": "id", "type": "String"}]}
@@ -208,4 +214,7 @@
           "return": "void",
           "params": [{ "name": "w", "type": "Number"}]}
       ]
+  ,
+  "events": [
+  ]
   }

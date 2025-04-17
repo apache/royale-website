@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.core.TransformCompoundModel",
   "baseClassname": "org.apache.royale.core.TransformModel"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "accessor",
         "access": "write-only",
@@ -10,5 +13,11 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}}]
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

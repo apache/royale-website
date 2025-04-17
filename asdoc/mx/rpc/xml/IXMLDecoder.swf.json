@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "mx.rpc.xml.IXMLDecoder",
+"baseInterfaceNames": [
+]
+,
     "description": "Decodes an XML document to an ActionScript object graph based on XML Schema definitions.",
   "tags": [
   {  "tagName": "playerversion",

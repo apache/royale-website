@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.core.ElementWrapper",
   "baseClassname": "org.apache.royale.events.EventDispatcher"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "field",
         "qname": "converterMap",
@@ -43,7 +46,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "An optimization to skip the getter of the element property"},
+          "description": "An optimization to skip the getter of the element property",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "org.apache.royale.core.WrappedHTMLElement",
@@ -51,14 +56,20 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_beads",
         "return": "Vector.<org.apache.royale.core.IBead>",
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "addBead",
         "namespace": "public",
@@ -108,6 +119,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "type", "type": "String"},
         { "name": "handler", "type": "Function"},
@@ -120,6 +134,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "type", "type": "String"},
         { "name": "handler", "type": "Function"},
@@ -132,6 +149,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": [{ "name": "type", "type": "String"}]}
       ,
@@ -148,4 +168,7 @@
           "return": "Boolean",
           "params": [{ "name": "e", "type": "Object"}]}
       ]
+  ,
+  "events": [
+  ]
   }

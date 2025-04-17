@@ -4,6 +4,9 @@
   "bindable": [],
   "details": [],
   "deprecated": {},
+    "description": "",
+  "tags": [
+    ],
     "return": "SVGElement",
     "params": [{ "name": "elementName", "type": "String"},
   { "name": "noPointerEvents", "type": "Boolean"}]}

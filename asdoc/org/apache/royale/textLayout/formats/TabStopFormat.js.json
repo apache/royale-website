@@ -19,7 +19,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Property descriptions accessible by name. @private"},
+          "description": "Property descriptions accessible by name. @private",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "org.apache.royale.textLayout.formats.ITabStopFormat",
@@ -286,4 +288,7 @@
                "values": ["a singleton instance of ITabStopFormat that is populated with default values."]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

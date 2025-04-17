@@ -208,4 +208,7 @@
           "return": "mx.messaging.messages.ErrorMessage",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

@@ -143,4 +143,7 @@
           "return": "Boolean",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

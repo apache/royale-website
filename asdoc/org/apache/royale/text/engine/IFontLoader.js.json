@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "org.apache.royale.text.engine.IFontLoader",
+"baseInterfaceNames": [
+]
+,
     "description": "",
   "tags": [
   {  "tagName": "author",
@@ -11,6 +14,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "Boolean",
       "params": [{ "name": "family", "type": "String"},
     { "name": "style", "type": "String"}]}
@@ -21,6 +27,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "org.apache.royale.text.engine.IFont",
       "params": [{ "name": "family", "type": "String"},
     { "name": "style", "type": "String"}]}
@@ -31,6 +40,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "Vector.<org.apache.royale.text.engine.IFont>",
       "params": [{ "name": "family", "type": "String"}]}
   ,
@@ -40,6 +52,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "org.apache.royale.text.engine.IFont",
       "params": [{ "name": "url", "type": "String"}]}
   ,
@@ -49,6 +64,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "org.apache.royale.text.engine.IFont",
       "params": [{ "name": "data", "type": "org.apache.royale.utils.BinaryData"}]}
   ,
@@ -58,6 +76,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "font", "type": "org.apache.royale.text.engine.IFont"}]}
   ]

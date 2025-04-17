@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.textLayout.compose.utils.FactoryHelper",
   "baseClassname": ""
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "getComposer",
@@ -9,6 +12,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.compose.IFactoryComposer",
           "params": []}
       ,
@@ -18,12 +24,21 @@
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "staticComposer",
         "return": "org.apache.royale.textLayout.compose.ISimpleCompose",
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}}]
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

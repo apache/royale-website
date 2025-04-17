@@ -3,6 +3,8 @@
   "baseClassname": ""
   ,
     "description": "Contains reusable methods for operations pertaining to int values.",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "rol",
@@ -62,4 +64,7 @@
           "params": [{ "name": "n", "type": "int"},
         { "name": "bigEndian", "type": "Boolean"}]}
       ]
+  ,
+  "events": [
+  ]
   }

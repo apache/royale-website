@@ -18,7 +18,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Graphic appears inline in the text (doesn't float)."},
+          "description": "Graphic appears inline in the text (doesn't float).",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "LEFT",
         "return": "String",
@@ -26,7 +28,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Graphic floats on the left side of the text."},
+          "description": "Graphic floats on the left side of the text.",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "RIGHT",
         "return": "String",
@@ -34,7 +38,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Graphic floats on the right side of the text."},
+          "description": "Graphic floats on the right side of the text.",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "START",
         "return": "String",
@@ -42,7 +48,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Graphic floats on the leading side of the text (left if paragraph direction is &quot;ltr&quot;, right if paragraph direction is &quot;rtl&quot;)."},
+          "description": "Graphic floats on the leading side of the text (left if paragraph direction is &quot;ltr&quot;, right if paragraph direction is &quot;rtl&quot;).",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "END",
         "return": "String",
@@ -50,5 +58,10 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Graphic floats on the trailing side of the text (right if paragraph direction is &quot;ltr&quot;, left if paragraph direction is &quot;rtl&quot;)."}]
+          "description": "Graphic floats on the trailing side of the text (right if paragraph direction is &quot;ltr&quot;, left if paragraph direction is &quot;rtl&quot;).",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

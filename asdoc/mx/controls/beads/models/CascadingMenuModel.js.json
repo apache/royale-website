@@ -2,6 +2,9 @@
   "qname": "mx.controls.beads.models.CascadingMenuModel",
   "baseClassname": "mx.controls.beads.models.SingleSelectionICollectionViewModel"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "mx.controls.beads.models.CascadingMenuModel",
@@ -9,6 +12,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ,
@@ -19,7 +25,10 @@
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Array",
@@ -86,4 +95,7 @@
                "values": ["Royale 0.9"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

@@ -152,6 +152,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -175,4 +178,7 @@
           "params": [{ "name": "w", "type": "Number"},
         { "name": "h", "type": "Number"}]}
       ]
+  ,
+  "events": [
+  ]
   }

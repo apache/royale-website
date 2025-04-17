@@ -13,7 +13,10 @@
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "org.apache.royale.textLayout.compose.SimpleCompose",
         "namespace": "",
@@ -21,6 +24,8 @@
         "details": [],
         "deprecated": {},
           "description": "Constructor.",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ,
@@ -30,6 +35,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "composer", "type": "org.apache.royale.textLayout.compose.IFlowComposer"},
         { "name": "composeToPosition", "type": "int"},
@@ -42,6 +50,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "canVerticalAlign", "type": "Boolean"},
         { "name": "nextParcel", "type": "org.apache.royale.textLayout.compose.Parcel"}]}
@@ -52,6 +63,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": [{ "name": "textLine", "type": "org.apache.royale.text.engine.ITextLine"}]}
       ,
@@ -62,6 +76,8 @@
         "details": ["override"],
         "deprecated": {},
           "description": "Called when we are finished composing a line. Handler for derived classes to override default behavior.",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "textLine", "type": "org.apache.royale.text.engine.ITextLine"}]}
       ,
@@ -72,7 +88,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Function",
@@ -81,7 +100,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Callback to the client to reset a line when its being rebroken"},
+          "description": "Callback to the client to reset a line when its being rebroken",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "finalParcelAdjustment",
         "namespace": "protected",
@@ -89,6 +110,8 @@
         "details": ["override"],
         "deprecated": {},
           "description": "Final adjustment on the content bounds.",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "controller", "type": "org.apache.royale.textLayout.container.IContainerController"}]}
       ,
@@ -98,6 +121,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -108,7 +134,13 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}}]
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }
 
 

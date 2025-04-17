@@ -3,6 +3,8 @@
   "baseClassname": "org.apache.royale.utils.async.CompoundAsyncTask"
   ,
     "description": "The SequentialAsyncTask runs a list of tasks in sequential order. Each sunsequent task is only run once the previous task is done. The previous task is used as the argument for the next task's run method. This enables the chaining of results.",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.utils.async.SequentialAsyncTask",
@@ -27,6 +29,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "data", "type": "Object"}]}
       ,
@@ -47,4 +52,7 @@
         { "name": "callback", "type": "Function"},
         { "name": "failEarly", "type": "Boolean"}]}
       ]
+  ,
+  "events": [
+  ]
   }

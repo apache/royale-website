@@ -66,7 +66,7 @@
             {  "tagName": "productversion",
                "values": ["Flex 3"]},
             {  "tagName": "return",
-               "values": ["When this function finishes executing, a "size" property"]},
+               "values": ["When this function finishes executing, a \"size\" property"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ],
           "return": "Number",
@@ -115,4 +115,7 @@
           "params": [{ "name": "parent", "type": "org.apache.royale.core.ILayoutView"},
         { "name": "spaceForChildren", "type": "Number"}]}
       ]
+  ,
+  "events": [
+  ]
   }

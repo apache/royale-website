@@ -66,4 +66,7 @@
           "return": "Boolean",
           "params": [{ "name": "charCode", "type": "int"}]}
       ]
+  ,
+  "events": [
+  ]
   }

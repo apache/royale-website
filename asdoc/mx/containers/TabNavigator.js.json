@@ -80,4 +80,7 @@
                "values": []},
             {  "tagName": "royaleignorecoercion",
                "values": ["org.apache.royale.html.beads.TabNavigatorView"]}  ]}]
+  ,
+  "events": [
+  ]
   }

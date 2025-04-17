@@ -13,7 +13,10 @@
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "org.apache.royale.textLayout.conversion.PlainTextImporter",
         "namespace": "",
@@ -21,6 +24,8 @@
         "details": [],
         "deprecated": {},
           "description": "Constructor",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ,
@@ -31,6 +36,8 @@
         "details": [],
         "deprecated": {},
           "description": "@copy ITextImporter#importToFlow()",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.elements.ITextFlow",
           "params": [{ "name": "source", "type": "Object"}]}
       ,
@@ -65,4 +72,7 @@
           "return": "org.apache.royale.textLayout.elements.ITextFlow",
           "params": [{ "name": "source", "type": "String"}]}
       ]
+  ,
+  "events": [
+  ]
   }

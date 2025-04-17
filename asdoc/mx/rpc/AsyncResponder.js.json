@@ -32,4 +32,7 @@
         { "name": "fault", "type": "Function"},
         { "name": "token", "type": "Object"}]}
       ]
+  ,
+  "events": [
+  ]
   }

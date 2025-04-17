@@ -172,4 +172,7 @@
           "return": "String",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

@@ -207,6 +207,8 @@
         "details": [],
         "deprecated": {},
           "description": "Handles changes to properties of the MapModel. When this value is changed, the map itself has its zoom changed. This will trigger an event on the map that will be handled by functions above.",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "event", "type": "org.apache.royale.events.Event"}]}
       ,
@@ -223,4 +225,7 @@
           "return": "void",
           "params": [{ "name": "marker", "type": "google.maps.Marker"}]}
       ]
+  ,
+  "events": [
+  ]
   }

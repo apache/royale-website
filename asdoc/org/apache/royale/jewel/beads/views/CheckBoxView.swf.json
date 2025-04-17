@@ -17,7 +17,10 @@
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "org.apache.royale.jewel.beads.views.CheckBoxView",
         "namespace": "",
@@ -141,4 +144,7 @@
           "return": "void",
           "params": [{ "name": "icon", "type": "flash.display.Shape"}]}
       ]
+  ,
+  "events": [
+  ]
   }

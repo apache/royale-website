@@ -17,7 +17,7 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "constructor.  <inject_script> var link = document.createElement(&quot;link&quot;); link.setAttribute(&quot;rel&quot;, &quot;stylesheet&quot;); link.setAttribute(&quot;type&quot;, &quot;text/css&quot;); link.setAttribute(&quot;href&quot;, &quot;https://fonts.googleapis.com/icon?family=Material+Icons&quot;); document.head.appendChild(link); </inject_script>",
+          "description": "constructor.",
         "tags": [
         {  "tagName": "playerversion",
                "values": ["Flash 10.2", "AIR 2.6"]},
@@ -44,4 +44,7 @@
                "values": ["Royale 0.9.7"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

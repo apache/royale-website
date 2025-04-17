@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "org.apache.royale.utils.IEffectsGenerator",
+"baseInterfaceNames": [
+]
+,
     "description": "The IEffectsGenerator interface is the basic interface for classes generating tweener effects.",
   "tags": [
   {  "tagName": "playerversion",

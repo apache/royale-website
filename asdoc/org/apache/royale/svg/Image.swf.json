@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.svg.Image",
   "baseClassname": "org.apache.royale.core.ImageBase"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.svg.Image",
@@ -20,4 +23,7 @@
           "return": "",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

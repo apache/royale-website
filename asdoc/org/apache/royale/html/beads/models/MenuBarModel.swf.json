@@ -3,6 +3,8 @@
   "baseClassname": "org.apache.royale.html.beads.models.ArraySelectionModel"
   ,
     "description": "The model used by the MenuBar.",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.html.beads.models.MenuBarModel",
@@ -10,6 +12,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ,
@@ -29,4 +34,7 @@
                "values": ["Royale 0.9"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

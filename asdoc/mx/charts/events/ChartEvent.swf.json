@@ -64,4 +64,7 @@
         { "name": "triggerEvent", "type": "org.apache.royale.events.MouseEvent"},
         { "name": "target", "type": "mx.charts.chartClasses.ChartBase"}]}
       ]
+  ,
+  "events": [
+  ]
   }

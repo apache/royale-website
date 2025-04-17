@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.textLayout.property.FormatPropertyHandler",
   "baseClassname": "org.apache.royale.textLayout.property.PropertyHandler"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "accessor",
         "access": "read-only",
@@ -10,7 +13,10 @@
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Function",
@@ -18,7 +24,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "owningHandlerCheck",
         "namespace": "public",
@@ -26,6 +35,8 @@
         "details": ["override"],
         "deprecated": {},
           "description": "Attempts to handle Object as key value pairs - strings fail",
+        "tags": [
+          ],
           "return": "*",
           "params": [{ "name": "newVal", "type": "*"}]}
       ,
@@ -35,7 +46,13 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "*",
           "params": [{ "name": "newVal", "type": "*"}]}
       ]
+  ,
+  "events": [
+  ]
   }

@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.charts.beads.layouts.ChartBaseLayout",
   "baseClassname": "org.apache.royale.core.LayoutBase"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.charts.beads.layouts.ChartBaseLayout",
@@ -9,6 +12,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ,
@@ -94,4 +100,7 @@
                "values": ["Royale 0.0"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

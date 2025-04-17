@@ -17,6 +17,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "x", "type": "Number"},
         { "name": "y", "type": "Number"},
@@ -29,6 +32,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.geom.Rectangle",
           "params": []}
       ,
@@ -39,7 +45,10 @@
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "org.apache.royale.geom.Point",
@@ -47,7 +56,10 @@
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "org.apache.royale.geom.Point",
@@ -55,13 +67,19 @@
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "intersection",
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.geom.Rectangle",
           "params": [{ "name": "toIntersect", "type": "org.apache.royale.geom.Rectangle"}]}
       ,
@@ -71,6 +89,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.geom.Rectangle",
           "params": [{ "name": "toUnion", "type": "org.apache.royale.geom.Rectangle"}]}
       ,
@@ -80,6 +101,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.geom.Rectangle",
           "params": [{ "name": "str", "type": "String"}]}
       ,
@@ -89,7 +113,13 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.geom.Rectangle",
           "params": [{ "name": "obj", "type": "Object"}]}
       ]
+  ,
+  "events": [
+  ]
   }

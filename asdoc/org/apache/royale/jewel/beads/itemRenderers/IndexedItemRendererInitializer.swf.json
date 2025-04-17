@@ -54,6 +54,8 @@
         "details": [],
         "deprecated": {},
           "description": "set padding for this renderer.  try to retrieve paddings from the item renderer. If not exits create one with default padding setting",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "ir", "type": "org.apache.royale.core.IStrand"}]}
       ,
@@ -63,5 +65,11 @@
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}}]
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

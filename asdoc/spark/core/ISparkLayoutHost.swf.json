@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "spark.core.ISparkLayoutHost",
+"baseInterfaceNames": [
+]
+,
     "description": "The ISparkLayoutHost interface is an extension of ILayoutHost for Spark container views that have an IBeadLayout.  The layout implementation often needs to know certain things about other objects in the view.",
   "tags": [
   {  "tagName": "playerversion",

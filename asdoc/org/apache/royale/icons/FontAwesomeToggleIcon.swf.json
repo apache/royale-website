@@ -35,6 +35,8 @@
         "details": ["override"],
         "deprecated": {},
           "description": "update font awesome style.",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -44,14 +46,20 @@
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_oldFaSelectedStyle",
         "return": "String",
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "String",
@@ -100,4 +108,7 @@
                "values": ["Royale 0.9.7"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

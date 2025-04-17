@@ -71,7 +71,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Boolean",
@@ -361,7 +364,7 @@
           "description": "The text String displayed by this component.  <p>Setting this property affects the <code>textFlow</code> property and vice versa.</p>  <p>If you set the <code>text</code> to a String such as <code>&quot;Hello World&quot;</code> and get the <code>textFlow</code>, it will be a TextFlow containing a single ParagraphElement with a single SpanElement.</p>  <p>If you set the <code>text</code> to null, it will be set to the default value which is an empty string.</p>  <p>If the text contains explicit line breaks -- CR (&quot;\\r&quot;), LF (&quot;\\n&quot;), or CR+LF (&quot;\\r\\n&quot;) -- then the content will be set to a TextFlow which contains multiple paragraphs, each with one span.</p>  <p>If you set the <code>textFlow</code> and get the <code>text</code>, the text in each paragraph will be separated by a single LF (&quot;\\n&quot;).</p>  <p>Setting this property also affects the properties specifying the control's scroll position and the text selection. It resets the <code>horizontalScrollPosition</code> and <code>verticalScrollPosition</code> to 0. Starting with Royale 0.9.4, the <code>selectionAnchorPosition</code> and <code>selectionActivePosition</code> are preserved. Previously, the <code>selectionAnchorPosition</code> and <code>selectionActivePosition</code> were set to -1 to clear the selection.</p>",
         "tags": [
         {  "tagName": "default",
-               "values": [""""]},
+               "values": ["\"\""]},
             {  "tagName": "see",
                "values": ["spark.components.RichEditableText#textFlow", "spark.components.RichEditableText#horizontalScrollPosition", "spark.components.RichEditableText#verticalScrollPosition", "spark.components.RichEditableText#selectionAnchorPosition", "spark.components.RichEditableText#selectionActivePosition"]},
             {  "tagName": "playerversion",
@@ -542,7 +545,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}}]
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]}]
   ,
   "events": [
   { "qname": "change",

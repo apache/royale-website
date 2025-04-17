@@ -63,7 +63,10 @@
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "String",
@@ -75,7 +78,7 @@
           "description": "Name of the field in the <code>dataProvider</code> Array that contains the text to show for each menu item. The <code>labelFunction</code> property, if set, overrides this property. If the data provider is an Array of Strings, Flex uses each String value as the label. If the data provider is an E4X XML object, you must set this property explicitly; for example, use &#064;label to specify the <code>label</code> attribute.",
         "tags": [
         {  "tagName": "default",
-               "values": [""label""]},
+               "values": ["\"label\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
@@ -88,13 +91,19 @@
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "addedToParent",
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ]

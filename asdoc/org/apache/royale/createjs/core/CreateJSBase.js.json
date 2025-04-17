@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.createjs.core.CreateJSBase",
   "baseClassname": "org.apache.royale.createjs.core.UIBase"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "accessor",
         "access": "read-write",
@@ -99,4 +102,7 @@
         "tags": [
         {  "tagName": "royaleignorecoercion",
                "values": ["createjs.Container", "createjs.Container"]}  ]}]
+  ,
+  "events": [
+  ]
   }

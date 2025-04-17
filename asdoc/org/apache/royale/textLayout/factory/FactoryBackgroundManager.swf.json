@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.textLayout.factory.FactoryBackgroundManager",
   "baseClassname": "org.apache.royale.textLayout.elements.BackgroundManager"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "finalizeLine",
@@ -9,7 +12,13 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "line", "type": "org.apache.royale.textLayout.compose.ITextFlowLine"}]}
       ]
+  ,
+  "events": [
+  ]
   }

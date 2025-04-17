@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.text.html.TextLine",
   "baseClassname": "org.apache.royale.html.elements.Div"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.text.html.TextLine",
@@ -9,6 +12,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "textBlock", "type": "org.apache.royale.text.engine.ITextBlock"},
         { "name": "beginIndex", "type": "int"}]}
@@ -33,7 +39,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "int",
@@ -53,7 +62,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Boolean",
@@ -61,7 +73,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Number",
@@ -69,7 +84,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Boolean",
@@ -77,7 +95,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Boolean",
@@ -85,7 +106,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Boolean",
@@ -93,7 +117,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "org.apache.royale.text.engine.ITextLine",
@@ -101,7 +128,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "org.apache.royale.text.engine.ITextLine",
@@ -109,7 +139,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "int",
@@ -117,7 +150,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Number",
@@ -125,7 +161,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "org.apache.royale.text.engine.ITextBlock",
@@ -133,7 +172,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "int",
@@ -141,7 +183,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Number",
@@ -173,7 +218,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Number",
@@ -181,7 +229,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Number",
@@ -189,7 +240,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Number",
@@ -197,7 +251,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "*",
@@ -205,7 +262,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "String",
@@ -213,7 +273,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "dump",
         "namespace": "public",
@@ -221,6 +284,8 @@
         "details": [],
         "deprecated": {},
           "description": "Not sure if we need this.",
+        "tags": [
+          ],
           "return": "String",
           "params": []}
       ,
@@ -231,6 +296,8 @@
         "details": [],
         "deprecated": {},
           "description": "Gets the bidirectional level of the atom at the specified index. The FTE system seems to make no sense. Here's the &quot;explanation&quot;:  Gets the bidirectional level of the atom at the specified index. Determined by a combination of TextBlock.bidiLevel and the Unicode bidirectional properties of the characters that form the line.  For example, if you start a text block with some Hebrew text, you set TextBlock.bidiLevel to 1, establishing a default of right to left. If within the text you have a quote in English (left to right), that text has an AtomBidiLevel of 2. If within the English you have a bit of Arabic (right to left), AtomBidiLevel for that run goes to 3. If within the Arabic a number (left to right) occurs, the AtomBidiLevel setting for the number is 4. It does not matter in which line the atoms end up; the Hebrew atoms are AtomBidiLevel 1, the English atoms are AtomBidiLevel 2, Arabic atoms are AtomBidiLevel 3, and the number atoms are AtomBidiLevel 4.  After further research. it seems like it's being faithful to the unicode spec which allows up 125 levels of bidi nesting. Full details here: http://www.unicode.org/reports/tr9/ I'm not sure why this is important from a client perspective. Maybe to properly handle cursor management? Either way, using it is pretty straight-forward: level % 2 should be 0 for ltr and 1 for rtl.",
+        "tags": [
+          ],
           "return": "int",
           "params": [{ "name": "atomIndex", "type": "int"}]}
       ,
@@ -240,6 +307,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.geom.Rectangle",
           "params": [{ "name": "ref", "type": "Object"}]}
       ,
@@ -262,6 +332,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Number",
           "params": [{ "name": "atomIndex", "type": "int"}]}
       ,
@@ -271,6 +344,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.core.IUIBase",
           "params": [{ "name": "atomIndex", "type": "int"}]}
       ,
@@ -280,6 +356,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "int",
           "params": [{ "name": "charIndex", "type": "int"}]}
       ,
@@ -289,6 +368,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "int",
           "params": [{ "name": "localX", "type": "Number"},
         { "name": "localY", "type": "Number"}]}
@@ -299,6 +381,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "int",
           "params": [{ "name": "atomIndex", "type": "int"}]}
       ,
@@ -308,6 +393,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "int",
           "params": [{ "name": "atomIndex", "type": "int"}]}
       ,
@@ -317,6 +405,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "String",
           "params": [{ "name": "atomIndex", "type": "int"}]}
       ,
@@ -326,6 +417,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": [{ "name": "atomIndex", "type": "int"}]}
       ,
@@ -335,6 +429,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Number",
           "params": [{ "name": "baseline", "type": "String"}]}
       ,
@@ -345,14 +442,23 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "getAdornmentOffsetBase",
         "namespace": "public",
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Number",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

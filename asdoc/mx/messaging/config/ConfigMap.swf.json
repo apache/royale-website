@@ -221,4 +221,7 @@
           "params": [{ "name": "name", "type": "*"},
         { "name": "value", "type": "*"}]}
       ]
+  ,
+  "events": [
+  ]
   }

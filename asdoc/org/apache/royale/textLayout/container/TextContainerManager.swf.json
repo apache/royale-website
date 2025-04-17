@@ -35,7 +35,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "@private"},
+          "description": "@private",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "int",
@@ -44,7 +46,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "@private"},
+          "description": "@private",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "int",
@@ -53,7 +57,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "@private"},
+          "description": "@private",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "org.apache.royale.textLayout.container.TextContainerManager",
         "namespace": "",
@@ -163,7 +169,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Sets the format when display just a string.  If displaying a ITextFlow this has no immediate effect.  The supplied ITextLayoutFormat is not copied.  Modifying it without calling this setter has indeterminate effects."},
+          "description": "Sets the format when display just a string.  If displaying a ITextFlow this has no immediate effect.  The supplied ITextLayoutFormat is not copied.  Modifying it without calling this setter has indeterminate effects.",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Number",
@@ -380,6 +388,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "textLine", "type": "org.apache.royale.text.engine.ITextLine"}]}
       ,
@@ -577,6 +588,8 @@
         "details": [],
         "deprecated": {},
           "description": "Returns the focusedSelectionFormat - by default get it from the configuration. This can be overridden in the subclass to supply a different SelectionFormat",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.edit.SelectionFormat",
           "params": []}
       ,
@@ -587,6 +600,8 @@
         "details": [],
         "deprecated": {},
           "description": "Returns the inactiveSelectionFormat - by default get it from the configuration This can be overridden in the subclass to supply a different SelectionFormat",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.edit.SelectionFormat",
           "params": []}
       ,

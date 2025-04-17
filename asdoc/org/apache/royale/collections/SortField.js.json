@@ -232,6 +232,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": [{ "name": "object", "type": "Object"}]}
       ,
@@ -241,6 +244,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "*",
           "params": [{ "name": "obj", "type": "Object"}]}
       ,
@@ -280,4 +286,7 @@
           "params": [{ "name": "a", "type": "Object"},
         { "name": "b", "type": "Object"}]}
       ]
+  ,
+  "events": [
+  ]
   }

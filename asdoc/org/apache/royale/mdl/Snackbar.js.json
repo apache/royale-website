@@ -65,5 +65,8 @@
   "events": [
   { "qname": "action",
         "type": "org.apache.royale.events.Event"
-      }]
+      ,
+          "description": "",
+        "tags": [
+          ]}]
   }

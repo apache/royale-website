@@ -30,6 +30,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": [{ "name": "p1", "type": "org.apache.royale.textLayout.formats.ITextLayoutFormat"},
         { "name": "p2", "type": "org.apache.royale.textLayout.formats.ITextLayoutFormat"}]}
@@ -41,7 +44,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "*",
@@ -49,7 +55,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "*",
@@ -72,6 +81,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.edit.PointFormat",
           "params": [{ "name": "original", "type": "org.apache.royale.textLayout.edit.PointFormat"}]}
       ,
@@ -81,7 +93,13 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.edit.PointFormat",
           "params": [{ "name": "element", "type": "org.apache.royale.textLayout.elements.IFlowElement"}]}
       ]
+  ,
+  "events": [
+  ]
   }

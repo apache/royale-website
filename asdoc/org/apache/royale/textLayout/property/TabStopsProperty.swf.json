@@ -3,6 +3,8 @@
   "baseClassname": "org.apache.royale.textLayout.property.ArrayProperty"
   ,
     "description": "Property for tab stops. Extends ArrayProperty; setter takes a string representation of tab stops in addition to an array. @private",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.textLayout.property.TabStopsProperty",
@@ -10,6 +12,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "nameValue", "type": "String"},
         { "name": "defaultValue", "type": "Array"},
@@ -23,8 +28,13 @@
         "details": ["override"],
         "deprecated": {},
           "description": "Helper function when setting the property",
+        "tags": [
+          ],
           "return": "*",
           "params": [{ "name": "currVal", "type": "*"},
         { "name": "newVal", "type": "*"}]}
       ]
+  ,
+  "events": [
+  ]
   }

@@ -76,4 +76,7 @@
           "params": [{ "name": "xml", "type": "XML"},
         { "name": "attrQName", "type": "QName"}]}
       ]
+  ,
+  "events": [
+  ]
   }

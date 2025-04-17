@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.textLayout.utils.NumberFactoryUtil",
   "baseClassname": ""
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "getNumberFactory",
@@ -9,7 +12,13 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.factory.INumberLineFactory",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

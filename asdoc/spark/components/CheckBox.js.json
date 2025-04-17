@@ -66,7 +66,10 @@
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Boolean",
@@ -74,7 +77,10 @@
         "namespace": "public",
         "bindable": ["change"],
         "details": ["override"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Number",
@@ -87,4 +93,7 @@
         "tags": [
         {  "tagName": "private",
                "values": []}  ]}]
+  ,
+  "events": [
+  ]
   }

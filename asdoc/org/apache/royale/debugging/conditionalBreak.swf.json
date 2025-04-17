@@ -5,5 +5,7 @@
   "details": [],
   "deprecated": {},
     "description": "If the condition is not met, the code will break into the debugger.",
+  "tags": [
+    ],
     "return": "void",
     "params": [{ "name": "condition", "type": "Boolean"}]}

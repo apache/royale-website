@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.graphics.PathBuilder",
   "baseClassname": ""
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.graphics.PathBuilder",
@@ -60,6 +63,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "ctx", "type": "Object"}]}
       ,
@@ -234,4 +240,7 @@
         { "name": "bottomRightRadiusX", "type": "Number"},
         { "name": "bottomRightRadiusY", "type": "Number"}]}
       ]
+  ,
+  "events": [
+  ]
   }

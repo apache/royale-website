@@ -35,7 +35,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Boolean",
@@ -67,7 +70,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "String",
@@ -75,7 +81,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "String",
@@ -83,7 +92,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "String",
@@ -92,13 +104,18 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Component state: checked - unchecked - indeterminate"},
+          "description": "Component state: checked - unchecked - indeterminate",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "applyState",
         "namespace": "protected",
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "value", "type": "String"}]}
       ,
@@ -108,6 +125,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -120,7 +140,7 @@
           "description": "",
         "tags": [
         {  "tagName": "return",
-               "values": ["true, if the component is in "state" selected"]}  ],
+               "values": ["true, if the component is in \"state\" selected"]}  ],
           "return": "Boolean",
           "params": []}
       ,
@@ -133,7 +153,7 @@
           "description": "",
         "tags": [
         {  "tagName": "return",
-               "values": ["true, if the component is in "state" unselected"]}  ],
+               "values": ["true, if the component is in \"state\" unselected"]}  ],
           "return": "Boolean",
           "params": []}
       ,
@@ -146,7 +166,7 @@
           "description": "",
         "tags": [
         {  "tagName": "return",
-               "values": ["true, if the component is in "state" indeterminate"]}  ],
+               "values": ["true, if the component is in \"state\" indeterminate"]}  ],
           "return": "Boolean",
           "params": []}
       ,
@@ -191,7 +211,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "HTMLInputElement",
@@ -231,7 +254,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "a Text node added to the checkbox HTMLSpanElement. It's creation is deferred since Checkboxes sometimes are used without labels."},
+          "description": "a Text node added to the checkbox HTMLSpanElement. It's creation is deferred since Checkboxes sometimes are used without labels.",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "createElement",
         "namespace": "protected",

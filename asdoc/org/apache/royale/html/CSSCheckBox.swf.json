@@ -71,7 +71,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}}]
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]}]
   ,
   "events": [
   { "qname": "change",

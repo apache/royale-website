@@ -143,4 +143,7 @@
           "params": [{ "name": "str", "type": "String"},
         { "name": "restrict", "type": "String"}]}
       ]
+  ,
+  "events": [
+  ]
   }

@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.jewel.beads.controls.tristatecheckbox.TriStateCheckBoxLabelState",
   "baseClassname": ""
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.jewel.beads.controls.tristatecheckbox.TriStateCheckBoxLabelState",
@@ -9,7 +12,13 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

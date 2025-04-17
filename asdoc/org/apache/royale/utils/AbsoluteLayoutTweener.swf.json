@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.utils.AbsoluteLayoutTweener",
   "baseClassname": "org.apache.royale.utils.LayoutTweener"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.utils.AbsoluteLayoutTweener",
@@ -9,8 +12,14 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "sourceLayout", "type": "org.apache.royale.core.IBeadLayout"},
         { "name": "sourceLayoutParent", "type": "org.apache.royale.core.ILayoutParent"}]}
       ]
+  ,
+  "events": [
+  ]
   }

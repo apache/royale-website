@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "org.apache.royale.textLayout.formats.ITabStopFormat",
+"baseInterfaceNames": [
+]
+,
     "description": "This interface provides read access to tab stop-related properties.",
   "tags": [
   {  "tagName": "playerversion",

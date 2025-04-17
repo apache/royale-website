@@ -18,7 +18,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "The down arrow key."},
+          "description": "The down arrow key.",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "LEFT",
         "return": "String",
@@ -26,7 +28,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "The left arrow key."},
+          "description": "The left arrow key.",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "RIGHT",
         "return": "String",
@@ -34,7 +38,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "The right arrow key."},
+          "description": "The right arrow key.",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "UP",
         "return": "String",
@@ -42,7 +48,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "The up arrow key."},
+          "description": "The up arrow key.",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "END",
         "return": "String",
@@ -50,7 +58,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "The End key. Moves to the end of content."},
+          "description": "The End key. Moves to the end of content.",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "HOME",
         "return": "String",
@@ -58,7 +68,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "The Home key. Moves to the start of content."},
+          "description": "The Home key. Moves to the start of content.",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "PAGE_DOWN",
         "return": "String",
@@ -66,7 +78,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "The Page Down (or PgDn) key. Scrolls down or displays the next page of content."},
+          "description": "The Page Down (or PgDn) key. Scrolls down or displays the next page of content.",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "PAGE_UP",
         "return": "String",
@@ -74,5 +88,10 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "The Page Up (or PgUp) key. Scrolls up or displays the previous page of content."}]
+          "description": "The Page Up (or PgUp) key. Scrolls up or displays the previous page of content.",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

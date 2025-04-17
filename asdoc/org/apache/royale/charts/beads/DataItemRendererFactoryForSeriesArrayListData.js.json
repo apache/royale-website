@@ -34,7 +34,13 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Object",
           "params": [{ "name": "index", "type": "int"}]}
       ]
+  ,
+  "events": [
+  ]
   }

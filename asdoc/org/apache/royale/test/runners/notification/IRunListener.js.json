@@ -1,6 +1,11 @@
 { "type": "interface",
   "qname": "org.apache.royale.test.runners.notification.IRunListener",
+"baseInterfaceNames": [
+]
+,
     "description": "Responds to events that occur during a test run.",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
     "qname": "testStarted",
@@ -9,6 +14,8 @@
     "details": [],
     "deprecated": {},
       "description": "Called when an individual test has started.",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "description", "type": "String"}]}
   ,
@@ -19,6 +26,8 @@
     "details": [],
     "deprecated": {},
       "description": "Called when an individual test has finished, regardless of whether it has passed or failed.",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "description", "type": "String"}]}
   ,
@@ -29,6 +38,8 @@
     "details": [],
     "deprecated": {},
       "description": "Called when an individual test has failed.",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "failure", "type": "org.apache.royale.test.runners.notification.Failure"}]}
   ,
@@ -39,6 +50,8 @@
     "details": [],
     "deprecated": {},
       "description": "Called when an individual test was ignored.",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "description", "type": "String"}]}
   ,
@@ -49,6 +62,8 @@
     "details": [],
     "deprecated": {},
       "description": "Called when a test run has started.",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "description", "type": "String"}]}
   ,
@@ -59,6 +74,8 @@
     "details": [],
     "deprecated": {},
       "description": "Called when a test run has finished.",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "result", "type": "org.apache.royale.test.runners.notification.Result"}]}
   ]

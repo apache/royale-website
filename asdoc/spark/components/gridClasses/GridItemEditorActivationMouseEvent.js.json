@@ -73,4 +73,7 @@
                "values": ["Flex 5.0"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

@@ -45,7 +45,7 @@
           "description": "Aligns currency symbol to the left side or the right side of the formatted number. Permitted values are <code>&quot;left&quot;</code> and <code>&quot;right&quot;</code>.",
         "tags": [
         {  "tagName": "default",
-               "values": [""left""]},
+               "values": ["\"left\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
@@ -63,7 +63,7 @@
           "description": "Character to use as a currency symbol for a formatted number. You can use one or more characters to represent the currency symbol; for example, &quot;$&quot; or &quot;YEN&quot;. You can also use empty spaces to add space between the currency character and the formatted number. When the number is a negative value, the currency symbol appears between the number and the minus sign or parentheses.",
         "tags": [
         {  "tagName": "default",
-               "values": [""$""]},
+               "values": ["\"$\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
@@ -81,7 +81,7 @@
           "description": "Decimal separator character to use when parsing an input string.",
         "tags": [
         {  "tagName": "default",
-               "values": ["".""]},
+               "values": ["\".\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
@@ -99,7 +99,7 @@
           "description": "Decimal separator character to use when outputting formatted decimal numbers.",
         "tags": [
         {  "tagName": "default",
-               "values": ["".""]},
+               "values": ["\".\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
@@ -155,7 +155,7 @@
           "description": "Character to use as the thousands separator in the input String.",
         "tags": [
         {  "tagName": "default",
-               "values": ["",""]},
+               "values": ["\",\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
@@ -173,7 +173,7 @@
           "description": "Character to use as the thousands separator in the output string.",
         "tags": [
         {  "tagName": "default",
-               "values": ["",""]},
+               "values": ["\",\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
@@ -237,4 +237,7 @@
           "return": "String",
           "params": [{ "name": "value", "type": "Object"}]}
       ]
+  ,
+  "events": [
+  ]
   }

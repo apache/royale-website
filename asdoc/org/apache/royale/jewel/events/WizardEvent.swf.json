@@ -3,6 +3,8 @@
   "baseClassname": "org.apache.royale.events.Event"
   ,
     "description": "Programmatic (not user/UI) based wizard navigation events.",
+  "tags": [
+    ],
   "members": [
   { "type": "field",
         "qname": "REQUEST_NAVIGATE_TO_STEP",
@@ -10,21 +12,30 @@
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "REQUEST_NAVIGATE_NEXT_STEP",
         "return": "String",
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "REQUEST_NAVIGATE_PREVIOUS_STEP",
         "return": "String",
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "stepName",
         "return": "String",
@@ -42,8 +53,14 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "type", "type": "String"},
         { "name": "stepName", "type": "String"}]}
       ]
+  ,
+  "events": [
+  ]
   }

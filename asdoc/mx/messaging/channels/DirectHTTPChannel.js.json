@@ -97,6 +97,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "msgResp", "type": "mx.messaging.MessageResponder"}]}
       ,
@@ -106,11 +109,17 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "credentials", "type": "String"},
         { "name": "agent", "type": "mx.messaging.MessageAgent"},
         { "name": "charset", "type": "String"}]}
       ]
+  ,
+  "events": [
+  ]
   }
 
 

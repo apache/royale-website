@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "org.apache.royale.textLayout.conversion.ITextImporter",
+"baseInterfaceNames": [
+]
+,
     "description": "Interface for importing text content into a TextFlow from an external source. The TextConverter class creates importers with no constructor arguments.",
   "tags": [
   {  "tagName": "see",

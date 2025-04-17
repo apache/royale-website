@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "org.apache.royale.textLayout.edit.IInteractionEventHandler",
+"baseInterfaceNames": [
+]
+,
     "description": "The IInteractionEventHandler interface defines the event handler functions that are handled by a Text Layout Framework selection or edit manager.",
   "tags": [
   {  "tagName": "playerversion",

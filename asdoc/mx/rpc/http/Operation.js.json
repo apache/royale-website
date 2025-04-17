@@ -81,6 +81,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "s", "type": "mx.rpc.AbstractService"}]}
       ,
@@ -185,4 +188,7 @@
                "values": ["Flex 3"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

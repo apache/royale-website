@@ -140,4 +140,7 @@
           "return": "org.apache.royale.charts.core.IChartItemRenderer",
           "params": [{ "name": "point", "type": "org.apache.royale.geom.Point"}]}
       ]
+  ,
+  "events": [
+  ]
   }

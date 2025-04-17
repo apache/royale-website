@@ -50,7 +50,10 @@
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "org.apache.royale.html.elements.Select",
@@ -58,14 +61,20 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_labelDisplay",
         "return": "HTMLLabelElement",
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "HTMLLabelElement",
@@ -149,5 +158,8 @@
   "events": [
   { "qname": "change",
         "type": "org.apache.royale.events.Event"
-      }]
+      ,
+          "description": "",
+        "tags": [
+          ]}]
   }

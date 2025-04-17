@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.utils.Proxy",
   "baseClassname": "org.apache.royale.events.EventDispatcher"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.utils.Proxy",
@@ -26,6 +29,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "*",
           "params": [{ "name": "propName", "type": "String"}]}
       ,
@@ -35,6 +41,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "propName", "type": "String"},
         { "name": "value", "type": "*"}]}
@@ -45,6 +54,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "*",
           "params": [{ "name": "propName", "type": "*"},
         { "name": "args", "type": "Array"}]}
@@ -55,6 +67,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": [{ "name": "propName", "type": "String"}]}
       ,
@@ -64,6 +79,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": [{ "name": "propName", "type": "String"}]}
       ,
@@ -73,7 +91,13 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Object",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

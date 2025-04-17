@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.textLayout.elements.TableLeafElement",
   "baseClassname": "org.apache.royale.textLayout.elements.FlowLeafElement"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.textLayout.elements.TableLeafElement",
@@ -9,6 +12,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "table", "type": "org.apache.royale.textLayout.elements.TableElement"}]}
       ,
@@ -19,7 +25,10 @@
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Boolean",
@@ -28,7 +37,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
-          "description": "@private"},
+          "description": "@private",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "String",
@@ -37,7 +48,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
-          "description": "@private"},
+          "description": "@private",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "String",
@@ -45,13 +58,19 @@
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "getNextLeaf",
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.elements.IFlowLeafElement",
           "params": [{ "name": "limitElement", "type": "org.apache.royale.textLayout.elements.IFlowGroupElement"}]}
       ,
@@ -61,6 +80,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.elements.IFlowLeafElement",
           "params": [{ "name": "limitElement", "type": "org.apache.royale.textLayout.elements.IFlowGroupElement"}]}
       ,
@@ -71,7 +93,10 @@
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "int",
@@ -79,7 +104,10 @@
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "org.apache.royale.textLayout.elements.IFlowGroupElement",
@@ -87,13 +115,19 @@
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "getTextFlow",
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.elements.ITextFlow",
           "params": []}
       ,
@@ -103,6 +137,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.elements.IParagraphElement",
           "params": []}
       ,
@@ -112,7 +149,13 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "int",
           "params": [{ "name": "ancestorElement", "type": "org.apache.royale.textLayout.elements.IFlowElement"}]}
       ]
+  ,
+  "events": [
+  ]
   }

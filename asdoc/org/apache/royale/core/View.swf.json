@@ -17,6 +17,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ,
@@ -76,4 +79,7 @@
                "values": ["3.0"]},
             {  "tagName": "royalesuppresspublicvarwarning",
                "values": []}  ]}]
+  ,
+  "events": [
+  ]
   }

@@ -1,4 +1,13 @@
 { "type": "class",
   "qname": "org.apache.royale.jewel.VideoPlayer",
   "baseClassname": ""
+  ,
+    "description": "",
+  "tags": [
+    ],
+  "members": [
+  ]
+  ,
+  "events": [
+  ]
   }

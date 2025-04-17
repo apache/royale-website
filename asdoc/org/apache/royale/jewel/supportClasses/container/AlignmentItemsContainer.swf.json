@@ -35,7 +35,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "the layout to use in this group"},
+          "description": "the layout to use in this group",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "String",
@@ -100,4 +102,7 @@
                "values": ["Royale 0.9.8"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

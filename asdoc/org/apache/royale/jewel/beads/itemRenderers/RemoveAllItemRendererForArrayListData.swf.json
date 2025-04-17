@@ -70,6 +70,8 @@
         "details": [],
         "deprecated": {},
           "description": "This method is called when List is composed to conform a DataGrid In that case DataGrid uses RemoveAllDataGridItemRendererForArrayListData, that add this bead to the each column List and calls this method at initialization time.",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -122,4 +124,7 @@
                "values": ["Royale 0.9.4"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

@@ -13,6 +13,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ,
@@ -41,6 +44,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Number",
           "params": [{ "name": "obj", "type": "mx.core.IUIComponent"}]}
       ,
@@ -69,6 +75,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Number",
           "params": [{ "name": "obj", "type": "mx.core.IUIComponent"}]}
       ,
@@ -97,6 +106,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Number",
           "params": [{ "name": "obj", "type": "mx.core.IUIComponent"}]}
       ,
@@ -167,6 +179,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Number",
           "params": [{ "name": "obj", "type": "mx.core.IUIComponent"}]}
       ,
@@ -195,6 +210,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Number",
           "params": [{ "name": "obj", "type": "mx.core.IUIComponent"}]}
       ,
@@ -264,6 +282,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "target", "type": "org.apache.royale.core.ILayoutChild"},
         { "name": "child", "type": "org.apache.royale.core.ILayoutChild"}]}
@@ -274,8 +295,14 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "target", "type": "org.apache.royale.core.ILayoutChild"},
         { "name": "child", "type": "org.apache.royale.core.ILayoutChild"}]}
       ]
+  ,
+  "events": [
+  ]
   }

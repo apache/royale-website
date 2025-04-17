@@ -99,7 +99,10 @@
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "createElement",
         "namespace": "protected",
@@ -121,7 +124,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
-          "description": "since we have a div surronding the main input, we need to route the class assignaments to div"}]
+          "description": "since we have a div surronding the main input, we need to route the class assignaments to div",
+        "tags": [
+          ]}]
   ,
   "events": [
   { "qname": "change",

@@ -3,6 +3,8 @@
   "baseClassname": "org.apache.royale.textLayout.conversion.TLFormatImporter"
   ,
     "description": "Specialized to provide case insensitivity (as required by TEXT_FIELD_HTML_FORMAT) Keys need to be lower-cased. Values may or may not based on a flag passed to the constructor.",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.textLayout.conversion.importers.CaseInsensitiveTLFFormatImporter",
@@ -10,6 +12,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "classType", "type": "Class"},
         { "name": "description", "type": "Object"},
@@ -21,6 +26,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": [{ "name": "key", "type": "String"},
         { "name": "val", "type": "String"}]}
@@ -31,7 +39,13 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "*",
           "params": [{ "name": "key", "type": "String"}]}
       ]
+  ,
+  "events": [
+  ]
   }

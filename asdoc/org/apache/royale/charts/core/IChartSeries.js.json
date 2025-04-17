@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "org.apache.royale.charts.core.IChartSeries",
+"baseInterfaceNames": [
+]
+,
     "description": "The IChartSeries interface is the basic interface for any type of chart data series.",
   "tags": [
   {  "tagName": "playerversion",

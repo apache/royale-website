@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.createjs.graphics.GraphicShape",
   "baseClassname": "org.apache.royale.createjs.core.CreateJSBase"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "createElement",
@@ -16,4 +19,7 @@
           "return": "org.apache.royale.core.WrappedHTMLElement",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

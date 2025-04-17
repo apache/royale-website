@@ -58,4 +58,7 @@
         { "name": "host", "type": "Object"},
         { "name": "chain", "type": "Object"}]}
       ]
+  ,
+  "events": [
+  ]
   }

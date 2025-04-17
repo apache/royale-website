@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.text.engine.TextElement",
   "baseClassname": "org.apache.royale.text.engine.ContentElement"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.text.engine.TextElement",
@@ -9,6 +12,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "text", "type": "String"},
         { "name": "elementFormat", "type": "org.apache.royale.text.engine.ElementFormat"},
@@ -22,7 +28,10 @@
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "String",
@@ -30,7 +39,10 @@
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "org.apache.royale.text.engine.ElementFormat",
@@ -38,16 +50,25 @@
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "replaceText",
         "namespace": "public",
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "beginIndex", "type": "int"},
         { "name": "endIndex", "type": "int"},
         { "name": "newText", "type": "String"}]}
       ]
+  ,
+  "events": [
+  ]
   }

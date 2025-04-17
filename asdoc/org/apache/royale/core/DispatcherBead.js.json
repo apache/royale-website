@@ -13,6 +13,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "target", "type": "org.apache.royale.events.IEventDispatcher"}]}
       ,
@@ -58,4 +61,7 @@
         { "name": "handler", "type": "Function"},
         { "name": "capture", "type": "Boolean"}]}
       ]
+  ,
+  "events": [
+  ]
   }

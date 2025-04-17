@@ -159,6 +159,8 @@
         "details": ["static"],
         "deprecated": {},
           "description": "no export (allow dead code elimination if never used):",
+        "tags": [
+          ],
           "return": "*",
           "params": [{ "name": "val", "type": "*"}]}
       ,
@@ -168,20 +170,29 @@
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "CHECK_INDEX",
         "return": "String",
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "isSynthType",
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": [{ "name": "def", "type": "Object"}]}
       ,
@@ -240,10 +251,15 @@
         "details": ["static"],
         "deprecated": {},
           "description": "Support for legacy vectorEmulationClass=Array approach.  no export (allow dead code elimination if never used):",
+        "tags": [
+          ],
           "return": "Array",
           "params": [{ "name": "size", "type": "int"},
         { "name": "baseType", "type": "String"}]}
       ]
+  ,
+  "events": [
+  ]
   }
 
 

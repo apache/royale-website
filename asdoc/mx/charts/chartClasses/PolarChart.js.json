@@ -174,4 +174,7 @@
           "return": "mx.charts.ChartItem",
           "params": [{ "name": "direction", "type": "String"}]}
       ]
+  ,
+  "events": [
+  ]
   }

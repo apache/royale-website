@@ -5,6 +5,8 @@
   "details": [],
   "deprecated": {},
     "description": "Alias for org.apache.royale.test.Assert assertThrows method",
+  "tags": [
+    ],
     "return": "void",
     "params": [{ "name": "actual", "type": "Function"},
   { "name": "type", "type": "Class"},

@@ -58,4 +58,7 @@
           "params": [{ "name": "format", "type": "String"},
         { "name": "source", "type": "Object"}]}
       ]
+  ,
+  "events": [
+  ]
   }

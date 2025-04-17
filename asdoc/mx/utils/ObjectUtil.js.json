@@ -197,7 +197,10 @@
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "getClassInfo",
         "namespace": "public",
@@ -321,7 +324,7 @@
           "description": "Returns the value at the end of the property chain <code>path</code>. If the value cannot be reached due to null links on the chain, <code>undefined</code> is returned.   if it cannot be reached, or the object itself when <code>path</code> is empty.",
         "tags": [
         {  "tagName": "param",
-               "values": ["obj The object at the beginning of the property chain", "path The path to inspect (e.g. "address.street")"]},
+               "values": ["obj The object at the beginning of the property chain", "path The path to inspect (e.g. \"address.street\")"]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
@@ -343,7 +346,7 @@
           "description": "Sets a new value at the end of the property chain <code>path</code>. If the value cannot be reached due to null links on the chain, <code>false</code> is returned.   <code>false</code> otherwise. Note that the function does not use a try/catch block. You can implement one in the calling function if there's a risk of type mismatch or other errors during the assignment.",
         "tags": [
         {  "tagName": "param",
-               "values": ["obj The object at the beginning of the property chain", "path The path to traverse (e.g. "address.street")", "newValue The value to set (e.g. "Fleet Street")"]},
+               "values": ["obj The object at the beginning of the property chain", "path The path to traverse (e.g. \"address.street\")", "newValue The value to set (e.g. \"Fleet Street\")"]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
@@ -357,6 +360,9 @@
         { "name": "path", "type": "Array"},
         { "name": "newValue", "type": "*"}]}
       ]
+  ,
+  "events": [
+  ]
   }
 
 

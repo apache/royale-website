@@ -3,6 +3,8 @@
   "baseClassname": "org.apache.royale.events.Event"
   ,
     "description": "Programmatic (not user/UI) based wizard navigation events.",
+  "tags": [
+    ],
   "members": [
   { "type": "field",
         "qname": "DROPPED",
@@ -10,7 +12,10 @@
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "data",
         "return": "Array",
@@ -28,8 +33,14 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "type", "type": "String"},
         { "name": "data", "type": "Array"}]}
       ]
+  ,
+  "events": [
+  ]
   }

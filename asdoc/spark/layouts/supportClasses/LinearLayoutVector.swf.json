@@ -53,27 +53,39 @@
         "namespace": "internal",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "BLOCK_SHIFT",
         "return": "uint",
         "namespace": "internal",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "BLOCK_MASK",
         "return": "uint",
         "namespace": "internal",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "spark.layouts.supportClasses.LinearLayoutVector",
         "namespace": "",
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "majorAxis", "type": "uint"}]}
       ,
@@ -408,6 +420,8 @@
         "details": [],
         "deprecated": {},
           "description": "Clear all cached state, reset length to zero.",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -417,7 +431,13 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "String",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

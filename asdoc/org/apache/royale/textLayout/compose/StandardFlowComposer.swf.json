@@ -312,6 +312,8 @@
         "details": [],
         "deprecated": {},
           "description": "Returns true if composition is necessary, false otherwise",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": []}
       ,
@@ -364,4 +366,7 @@
           "return": "Boolean",
           "params": [{ "name": "index", "type": "int"}]}
       ]
+  ,
+  "events": [
+  ]
   }

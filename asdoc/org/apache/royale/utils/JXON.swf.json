@@ -13,6 +13,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ,
@@ -23,7 +26,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Static flag to ignore whitespace text nodes"},
+          "description": "Static flag to ignore whitespace text nodes",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "name",
         "return": "String",
@@ -31,7 +36,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The tag name of the element"},
+          "description": "The tag name of the element",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "children",
         "return": "Array",
@@ -39,7 +46,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Children are iterable. Children can be either JXON objects or Strings."},
+          "description": "Children are iterable. Children can be either JXON objects or Strings.",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "attributes",
         "return": "Object",
@@ -47,7 +56,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Attributes are saved as an object so simple dot or bracket notation can be used to retrieve attribute values."},
+          "description": "Attributes are saved as an object so simple dot or bracket notation can be used to retrieve attribute values.",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "getChild",
         "namespace": "public",
@@ -55,6 +66,8 @@
         "details": [],
         "deprecated": {},
           "description": "Returns an array of all children whose tag name matches the name.",
+        "tags": [
+          ],
           "return": "Array",
           "params": [{ "name": "name", "type": "String"}]}
       ,
@@ -65,6 +78,8 @@
         "details": [],
         "deprecated": {},
           "description": "Returns a simplified string of the contents of the xml. The tag and all attributes are left out.",
+        "tags": [
+          ],
           "return": "String",
           "params": []}
       ,
@@ -75,6 +90,8 @@
         "details": [],
         "deprecated": {},
           "description": "Returns the object structure as a string including tags and attributes. Namespaces, comments and processing instructions are lost.",
+        "tags": [
+          ],
           "return": "String",
           "params": []}
       ,
@@ -85,7 +102,12 @@
         "details": ["static"],
         "deprecated": {},
           "description": "Use `parse()` to convert an XML string into a JXON object.",
+        "tags": [
+          ],
           "return": "org.apache.royale.utils.JXON",
           "params": [{ "name": "xmlStr", "type": "String"}]}
       ]
+  ,
+  "events": [
+  ]
   }

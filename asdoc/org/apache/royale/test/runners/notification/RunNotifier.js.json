@@ -3,6 +3,8 @@
   "baseClassname": ""
   ,
     "description": "Listens for notifications from an <code>ITestRunner</code>.",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.test.runners.notification.RunNotifier",
@@ -11,6 +13,8 @@
         "details": [],
         "deprecated": {},
           "description": "Constructor.",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ,
@@ -144,4 +148,7 @@
           "return": "void",
           "params": [{ "name": "result", "type": "org.apache.royale.test.runners.notification.Result"}]}
       ]
+  ,
+  "events": [
+  ]
   }

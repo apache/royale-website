@@ -61,7 +61,7 @@
           "description": "The name of the color property on the target object affected by this animation. A color property is a property that takes 32-bit color value.",
         "tags": [
         {  "tagName": "default",
-               "values": [""color""]},
+               "values": ["\"color\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 10", "AIR 1.5"]},
             {  "tagName": "productversion",
@@ -99,4 +99,7 @@
         "tags": [
         {  "tagName": "private",
                "values": []}  ]}]
+  ,
+  "events": [
+  ]
   }

@@ -2,4 +2,10 @@
   "qname": "org.apache.royale.textLayout.elements.IBreakElement",
 "baseInterfaceNames": [
 "org.apache.royale.textLayout.elements.ISpecialCharacterElement"]
-}
+,
+    "description": "",
+  "tags": [
+    ],
+  "members": [
+  ]
+  }

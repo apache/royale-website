@@ -17,9 +17,15 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "component", "type": "org.apache.royale.core.IUIBase"},
         { "name": "xoffset", "type": "Number"},
         { "name": "yoffset", "type": "Number"}]}
       ]
+  ,
+  "events": [
+  ]
   }

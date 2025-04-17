@@ -53,5 +53,11 @@
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}}]
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

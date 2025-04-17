@@ -161,4 +161,7 @@
           "return": "Object",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

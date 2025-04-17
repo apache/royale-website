@@ -120,4 +120,7 @@
           "return": "org.apache.royale.core.IBead",
           "params": [{ "name": "value", "type": "org.apache.royale.core.IBead"}]}
       ]
+  ,
+  "events": [
+  ]
   }

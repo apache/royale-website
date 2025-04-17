@@ -155,7 +155,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": ""}]
+          "description": "",
+        "tags": [
+          ]}]
   ,
   "events": [
   { "qname": "applicationComplete",

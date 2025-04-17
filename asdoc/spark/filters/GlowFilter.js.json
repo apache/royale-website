@@ -118,4 +118,7 @@
           "return": "Object",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

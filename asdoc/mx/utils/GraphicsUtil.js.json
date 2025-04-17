@@ -71,4 +71,7 @@
         { "name": "bottomRightRadiusX", "type": "Number"},
         { "name": "bottomRightRadiusY", "type": "Number"}]}
       ]
+  ,
+  "events": [
+  ]
   }

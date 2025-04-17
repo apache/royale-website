@@ -38,4 +38,7 @@
           "params": [{ "name": "request", "type": "Object"},
         { "name": "callback", "type": "Object"}]}
       ]
+  ,
+  "events": [
+  ]
   }

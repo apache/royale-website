@@ -127,6 +127,9 @@
           "return": "void",
           "params": [{ "name": "fileName", "type": "String"}]}
       ]
+  ,
+  "events": [
+  ]
   }
 
 

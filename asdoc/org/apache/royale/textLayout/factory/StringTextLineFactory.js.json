@@ -137,5 +137,10 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "@private Gets the text that is composed in the preceding call to <code>createTextLines</code> If no truncation is performed, a string equal to <code>text</code> is returned. If truncation is performed, but nothing fits, an empty string is returned. Otherwise, a substring of <code>text</code> followed by the truncation indicator is returned."}]
+          "description": "@private Gets the text that is composed in the preceding call to <code>createTextLines</code> If no truncation is performed, a string equal to <code>text</code> is returned. If truncation is performed, but nothing fits, an empty string is returned. Otherwise, a substring of <code>text</code> followed by the truncation indicator is returned.",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

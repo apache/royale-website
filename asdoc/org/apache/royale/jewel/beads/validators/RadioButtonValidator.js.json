@@ -61,4 +61,7 @@
           "return": "Boolean",
           "params": [{ "name": "event", "type": "org.apache.royale.events.Event"}]}
       ]
+  ,
+  "events": [
+  ]
   }

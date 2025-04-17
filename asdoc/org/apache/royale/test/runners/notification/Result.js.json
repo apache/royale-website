@@ -3,6 +3,8 @@
   "baseClassname": ""
   ,
     "description": "The result of a test run.",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.test.runners.notification.Result",
@@ -11,6 +13,8 @@
         "details": [],
         "deprecated": {},
           "description": "Constructor.",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ,
@@ -22,7 +26,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The number of tests that failed."},
+          "description": "The number of tests that failed.",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Vector.<org.apache.royale.test.runners.notification.Failure>",
@@ -31,7 +37,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The collection of test failures."},
+          "description": "The collection of test failures.",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "int",
@@ -40,7 +48,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The number of tests that were ignored."},
+          "description": "The number of tests that were ignored.",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "int",
@@ -49,7 +59,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The number of tests that were run, whether they passed or failed."},
+          "description": "The number of tests that were run, whether they passed or failed.",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Number",
@@ -58,7 +70,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The total run time of the test run, in milliseconds."},
+          "description": "The total run time of the test run, in milliseconds.",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Boolean",
@@ -67,7 +81,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Indicates if the test run was successful or not."},
+          "description": "Indicates if the test run was successful or not.",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "createListener",
         "namespace": "public",
@@ -75,9 +91,14 @@
         "details": [],
         "deprecated": {},
           "description": "For internal use only.",
+        "tags": [
+          ],
           "return": "org.apache.royale.test.runners.notification.IRunListener",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }
 
 

@@ -116,4 +116,7 @@
         { "name": "level", "type": "int"},
         { "name": "error", "type": "Error"}]}
       ]
+  ,
+  "events": [
+  ]
   }

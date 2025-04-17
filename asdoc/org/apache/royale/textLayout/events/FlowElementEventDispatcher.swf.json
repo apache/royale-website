@@ -3,6 +3,11 @@
   "baseClassname": "org.apache.royale.events.EventDispatcher"
   ,
     "description": "The ElementEventDispatcher class adds a simple tracking counter for event listeners to the core EventDispatcher class. This variable is tlf_internal, so internal code can check quickly if an EventDispatcher has any listeners attached at all.",
+  "tags": [
+    ],
   "members": [
+  ]
+  ,
+  "events": [
   ]
   }

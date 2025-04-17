@@ -2,6 +2,9 @@
   "qname": "mx.utils.ByteArray",
   "baseClassname": "flash.utils.ByteArray"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "ByteArray",
@@ -9,7 +12,13 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

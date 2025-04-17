@@ -45,7 +45,7 @@
           "description": "Text label for the FormItem. This label appears to the left of the child components of the form item. The position of the label is controlled by the <code>textAlign</code> style property.",
         "tags": [
         {  "tagName": "default",
-               "values": [""""]},
+               "values": ["\"\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
@@ -179,6 +179,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -188,6 +191,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "w", "type": "Number"},
         { "name": "h", "type": "Number"}]}
@@ -206,6 +212,9 @@
                "values": []},
             {  "tagName": "royaleignorecoercion",
                "values": ["mx.containers.beads.FormItemView"]}  ]}]
+  ,
+  "events": [
+  ]
   }
 
 

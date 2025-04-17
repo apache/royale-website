@@ -50,4 +50,7 @@
                "values": ["org.apache.royale.core.IIndexedItemRenderer", "org.apache.royale.core.UIBase"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

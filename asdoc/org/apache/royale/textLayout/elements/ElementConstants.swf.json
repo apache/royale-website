@@ -2,6 +2,12 @@
   "qname": "org.apache.royale.textLayout.elements.ElementConstants",
   "baseClassname": ""
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
+  ]
+  ,
+  "events": [
   ]
   }

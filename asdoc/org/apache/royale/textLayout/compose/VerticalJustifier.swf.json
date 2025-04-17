@@ -3,6 +3,8 @@
   "baseClassname": ""
   ,
     "description": "@private Adjust line positions according to verticalAlign settings.  Vertical alignment is perpendicular to the linebreak direction.",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "applyVerticalAlignmentToColumn",
@@ -25,6 +27,9 @@
         { "name": "beginFloatIndex", "type": "int"},
         { "name": "endFloatIndex", "type": "int"}]}
       ]
+  ,
+  "events": [
+  ]
   }
 
 

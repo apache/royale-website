@@ -32,5 +32,8 @@
   "events": [
   { "qname": "effectEnd",
         "type": "org.apache.royale.events.Event"
-      }]
+      ,
+          "description": "",
+        "tags": [
+          ]}]
   }

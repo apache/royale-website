@@ -1,4 +1,13 @@
 { "type": "class",
   "qname": "org.apache.royale.textLayout.utils.ConfigUtils",
   "baseClassname": ""
+  ,
+    "description": "",
+  "tags": [
+    ],
+  "members": [
+  ]
+  ,
+  "events": [
+  ]
   }

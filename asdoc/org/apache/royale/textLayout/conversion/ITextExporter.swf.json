@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "org.apache.royale.textLayout.conversion.ITextExporter",
+"baseInterfaceNames": [
+]
+,
     "description": "Interface for exporting text content from a TextFlow instance to a given format, which may for example be String or XML format, or a user-defined format. Exporters support the getting and setting of properties to control the export of data. These properties are implemented as public properties, but the direct access of these properties should be avoided, since a user might replace the converter class in the TextConverter registry, causing a downcast to fail.",
   "tags": [
   {  "tagName": "playerversion",
@@ -79,5 +82,7 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
-      "description": "Accesses the config options for the exporter."}]
+      "description": "Accesses the config options for the exporter.",
+    "tags": [
+      ]}]
   }

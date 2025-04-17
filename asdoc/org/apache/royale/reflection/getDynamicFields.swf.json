@@ -4,6 +4,9 @@
   "bindable": [],
   "details": [],
   "deprecated": {},
+    "description": "",
+  "tags": [
+    ],
     "return": "Array",
     "params": [{ "name": "inspect", "type": "Object"},
   { "name": "includePredicate", "type": "Function"},

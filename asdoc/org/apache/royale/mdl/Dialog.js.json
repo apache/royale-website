@@ -115,10 +115,16 @@
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}}]
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]}]
   ,
   "events": [
   { "qname": "close",
         "type": "org.apache.royale.events.Event"
-      }]
+      ,
+          "description": "",
+        "tags": [
+          ]}]
   }

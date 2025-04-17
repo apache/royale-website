@@ -121,4 +121,7 @@
           "return": "void",
           "params": [{ "name": "target", "type": "flash.events.IEventDispatcher"}]}
       ]
+  ,
+  "events": [
+  ]
   }

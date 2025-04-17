@@ -79,6 +79,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "String",
           "params": []}
       ,
@@ -179,4 +182,7 @@
           "return": "String",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

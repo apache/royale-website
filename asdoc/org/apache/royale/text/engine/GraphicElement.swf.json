@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.text.engine.GraphicElement",
   "baseClassname": "org.apache.royale.text.engine.ContentElement"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.text.engine.GraphicElement",
@@ -9,6 +12,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "graphic", "type": "org.apache.royale.core.IUIBase"},
         { "name": "elementWidth", "type": "Number"},
@@ -23,19 +29,31 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "elementWidth",
         "return": "Number",
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "graphic",
         "return": "org.apache.royale.core.IUIBase",
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}}]
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

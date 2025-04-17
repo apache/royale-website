@@ -1,4 +1,13 @@
 { "type": "class",
   "qname": "org.apache.royale.jewel.AudioPlayer",
   "baseClassname": ""
+  ,
+    "description": "",
+  "tags": [
+    ],
+  "members": [
+  ]
+  ,
+  "events": [
+  ]
   }

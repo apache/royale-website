@@ -163,7 +163,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The IVisualElement class used to render the horizontal separator between locked and unlocked rows."},
+          "description": "The IVisualElement class used to render the horizontal separator between locked and unlocked rows.",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "rowBackground",
         "return": "mx.core.IFactory",
@@ -405,7 +407,7 @@
           "description": "The type of mouse event that starts an editor session. Must be one of values in <code>GridItemEditorMouseEvent</code>. This value provides a default value for each column of a DataGrid. A different value can be specified on a grid column to override the default.",
         "tags": [
         {  "tagName": "default",
-               "values": [""singleClickOnSelectedCell""]},
+               "values": ["\"singleClickOnSelectedCell\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 11", "AIR 3.0"]},
             {  "tagName": "productversion",
@@ -1008,7 +1010,10 @@
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "spark.components.gridClasses.CellPosition",
@@ -1733,6 +1738,8 @@
         "details": [],
         "deprecated": {},
           "description": "Create the data grid editor. Overriding this function will allow the complete replacement of the data grid editor.",
+        "tags": [
+          ],
           "return": "spark.components.gridClasses.DataGridEditor",
           "params": []}
       ,

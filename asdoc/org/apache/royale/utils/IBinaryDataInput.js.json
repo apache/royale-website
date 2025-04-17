@@ -1,5 +1,11 @@
 { "type": "interface",
   "qname": "org.apache.royale.utils.IBinaryDataInput",
+"baseInterfaceNames": [
+]
+,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
     "qname": "readBinaryData",
@@ -7,6 +13,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "bytes", "type": "org.apache.royale.utils.BinaryData"},
     { "name": "offset", "type": "uint"},
@@ -18,6 +27,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "Boolean",
       "params": []}
   ,
@@ -27,6 +39,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "int",
       "params": []}
   ,
@@ -36,6 +51,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "uint",
       "params": []}
   ,
@@ -45,6 +63,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "int",
       "params": []}
   ,
@@ -54,6 +75,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "uint",
       "params": []}
   ,
@@ -63,6 +87,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "int",
       "params": []}
   ,
@@ -72,6 +99,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "uint",
       "params": []}
   ,
@@ -81,6 +111,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "Number",
       "params": []}
   ,
@@ -90,6 +123,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "Number",
       "params": []}
   ,
@@ -99,6 +135,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "String",
       "params": []}
   ,
@@ -108,6 +147,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "String",
       "params": [{ "name": "length", "type": "uint"}]}
   ,
@@ -118,7 +160,10 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-write",
     "return": "String",
@@ -126,5 +171,8 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}}]
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]}]
   }

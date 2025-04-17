@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "mx.core.IMXMLObject",
+"baseInterfaceNames": [
+]
+,
     "description": "The IMXMLObject interface defines the APIs that a non-visual component must implement in order to work properly with the MXML compiler. Currently, the only supported method is the <code>initialized()</code> method.",
   "tags": [
   {  "tagName": "playerversion",

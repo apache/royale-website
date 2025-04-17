@@ -52,6 +52,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "event", "type": "org.apache.royale.events.Event"}]}
       ,
@@ -63,5 +66,10 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "the current responsive size. read only"}]
+          "description": "the current responsive size. read only",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

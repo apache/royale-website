@@ -13,6 +13,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ,
@@ -40,4 +43,7 @@
         "tags": [
         {  "tagName": "copy",
                "values": ["org.apache.royale.core.IViewportModel"]}  ]}]
+  ,
+  "events": [
+  ]
   }

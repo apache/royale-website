@@ -3,6 +3,8 @@
   "baseClassname": "org.apache.royale.core.Bead"
   ,
     "description": "This is the mouse controller for the HDividedContainer. This bead class tracks the mouse over a HDividedContainerDivider (its strand) causing the columns on either side of the divider to grow and shrink.",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.html.beads.controllers.HDividedContainerMouseController",
@@ -33,4 +35,7 @@
         "tags": [
         {  "tagName": "copy",
                "values": ["org.apache.royale.core.IStrand#strand"]}  ]}]
+  ,
+  "events": [
+  ]
   }

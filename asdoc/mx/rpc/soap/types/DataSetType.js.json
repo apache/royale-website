@@ -13,6 +13,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ,
@@ -22,6 +25,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "encoder", "type": "mx.rpc.soap.SOAPEncoder"},
         { "name": "parent", "type": "XML"},
@@ -29,4 +35,7 @@
         { "name": "value", "type": "*"},
         { "name": "restriction", "type": "XML"}]}
       ]
+  ,
+  "events": [
+  ]
   }

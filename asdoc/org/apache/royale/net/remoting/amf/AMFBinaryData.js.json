@@ -20,13 +20,18 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "For swf target this is not available, but for js (and possible other future targets) setting it to false will avoid verbose logging in debug builds, that may slow down execution if logging is excessive."},
+          "description": "For swf target this is not available, but for js (and possible other future targets) setting it to false will avoid verbose logging in debug builds, that may slow down execution if logging is excessive.",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "installAlternateContext",
         "namespace": "internal",
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "clazz", "type": "Class"}]}
       ,
@@ -36,6 +41,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": []}
       ,
@@ -46,7 +54,10 @@
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "org.apache.royale.utils.net.IDynamicPropertyWriter",
@@ -55,13 +66,18 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Allows greater control over the serialization of dynamic properties of dynamic objects. When this property is set to null, the default value, dynamic properties are serialized using native code, which writes all dynamic properties excluding those whose value is a function. This value is called only for properties of a dynamic object (objects declared within a dynamic class) or for objects declared using the new operator. You can use this property to exclude properties of dynamic objects from serialization; to write values to properties of dynamic objects; or to create new properties for dynamic objects. To do so, set this property to an object that implements the IDynamicPropertyWriter interface. For more information, see the IDynamicPropertyWriter interface."},
+          "description": "Allows greater control over the serialization of dynamic properties of dynamic objects. When this property is set to null, the default value, dynamic properties are serialized using native code, which writes all dynamic properties excluding those whose value is a function. This value is called only for properties of a dynamic object (objects declared within a dynamic class) or for objects declared using the new operator. You can use this property to exclude properties of dynamic objects from serialization; to write values to properties of dynamic objects; or to create new properties for dynamic objects. To do so, set this property to an object that implements the IDynamicPropertyWriter interface. For more information, see the IDynamicPropertyWriter interface.",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "org.apache.royale.net.remoting.amf.AMFBinaryData",
         "namespace": "",
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "bytes", "type": "Object"}]}
       ,
@@ -72,13 +88,19 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "writeObject",
         "namespace": "public",
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "v", "type": "*"}]}
       ,
@@ -88,9 +110,15 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "*",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }
 
 

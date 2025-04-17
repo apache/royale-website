@@ -29,6 +29,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "para", "type": "org.apache.royale.textLayout.elements.IParagraphElement"},
         { "name": "paraSelBegIdx", "type": "int"},
@@ -61,6 +64,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "flowRoot", "type": "org.apache.royale.textLayout.elements.ITextFlow"},
         { "name": "begChange", "type": "int"},
@@ -74,6 +80,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "flowRoot", "type": "org.apache.royale.textLayout.elements.ITextFlow"},
         { "name": "begChange", "type": "int"},
@@ -113,6 +122,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "flowRoot", "type": "org.apache.royale.textLayout.elements.ITextFlow"},
         { "name": "begSel", "type": "int"},
@@ -158,6 +170,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "flowRoot", "type": "org.apache.royale.textLayout.elements.ITextFlow"},
         { "name": "begSel", "type": "int"},
@@ -170,6 +185,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "flowRoot", "type": "org.apache.royale.textLayout.elements.ITextFlow"},
         { "name": "begIdx", "type": "int"},
@@ -182,6 +200,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "flowRoot", "type": "org.apache.royale.textLayout.elements.ITextFlow"},
         { "name": "begIdx", "type": "int"},
@@ -196,7 +217,12 @@
         "details": ["static"],
         "deprecated": {},
           "description": "obj is created by cacheContainerStyleInformation",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "obj", "type": "Object"}]}
       ]
+  ,
+  "events": [
+  ]
   }

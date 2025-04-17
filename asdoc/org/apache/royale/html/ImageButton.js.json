@@ -73,4 +73,7 @@
                "values": ["org.apache.royale.core.IImageButton#imageElement", "Element", "HTMLImageElement"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

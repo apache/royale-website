@@ -13,6 +13,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "name", "type": "String"}]}
       ,
@@ -38,6 +41,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Object",
           "params": []}
       ,
@@ -47,6 +53,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "operation", "type": "mx.rpc.wsdl.WSDLOperation"}]}
       ,
@@ -56,7 +65,13 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "mx.rpc.wsdl.WSDLOperation",
           "params": [{ "name": "name", "type": "String"}]}
       ]
+  ,
+  "events": [
+  ]
   }

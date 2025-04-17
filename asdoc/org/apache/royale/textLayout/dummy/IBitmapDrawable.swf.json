@@ -1,4 +1,13 @@
 { "type": "class",
   "qname": "org.apache.royale.textLayout.dummy.IBitmapDrawable",
   "baseClassname": ""
+  ,
+    "description": "",
+  "tags": [
+    ],
+  "members": [
+  ]
+  ,
+  "events": [
+  ]
   }

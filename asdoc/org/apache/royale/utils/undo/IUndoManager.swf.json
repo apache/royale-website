@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "org.apache.royale.utils.undo.IUndoManager",
+"baseInterfaceNames": [
+]
+,
     "description": "IUndoManager defines the interface for managing the undo and redo stacks.  <p>An undo manager maintains a stack of operations that can be undone and redone.</p>",
   "tags": [
   {  "tagName": "playerversion",

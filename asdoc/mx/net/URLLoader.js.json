@@ -38,7 +38,13 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": [{ "name": "event", "type": "Object"}]}
       ]
+  ,
+  "events": [
+  ]
   }

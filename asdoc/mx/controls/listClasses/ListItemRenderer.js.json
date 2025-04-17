@@ -17,6 +17,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ,
@@ -60,13 +63,18 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The name of the field within the data to use as a label. Some itemRenderers use this field to identify the value they should show while other itemRenderers ignore this if they are showing complex information."},
+          "description": "The name of the field within the data to use as a label. Some itemRenderers use this field to identify the value they should show while other itemRenderers ignore this if they are showing complex information.",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "getComponentDispatcher",
         "namespace": "protected",
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.events.IEventDispatcher",
           "params": []}
       ,
@@ -92,6 +100,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "String",
           "params": [{ "name": "value", "type": "Object"}]}
       ,
@@ -134,7 +145,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Boolean",
@@ -142,5 +156,11 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}}]
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

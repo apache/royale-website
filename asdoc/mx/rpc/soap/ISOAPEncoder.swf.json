@@ -4,6 +4,8 @@
 "mx.rpc.xml.IXMLEncoder"]
 ,
     "description": "An ISOAPEncoder is used to create SOAP 1.1 formatted requests for a web service operation. A WSDLOperation provides the definition of how a SOAP request should be formatted and therefore must be set before a call is made to encode().",
+  "tags": [
+    ],
   "members": [
   { "type": "accessor",
     "access": "read-write",
@@ -13,7 +15,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
-      "description": "Determines whether the encoder should ignore whitespace when constructing an XML representation of a SOAP request. The default should be <code>true</code> and thus whitespace not preserved. If an XML Schema type definition specifies a <code>whiteSpace</code> restriction set to <code>preserve</code> then ignoreWhitespace must first be set to false. Conversely, if a type <code>whiteSpace</code> restriction is set to <code>replace</code> or <code>collapse</code> then that setting will be honored even if ignoreWhitespace is set to <code>false</code>."},
+      "description": "Determines whether the encoder should ignore whitespace when constructing an XML representation of a SOAP request. The default should be <code>true</code> and thus whitespace not preserved. If an XML Schema type definition specifies a <code>whiteSpace</code> restriction set to <code>preserve</code> then ignoreWhitespace must first be set to false. Conversely, if a type <code>whiteSpace</code> restriction is set to <code>replace</code> or <code>collapse</code> then that setting will be honored even if ignoreWhitespace is set to <code>false</code>.",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-write",
     "return": "mx.rpc.wsdl.WSDLOperation",
@@ -22,7 +26,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
-      "description": "A WSDLOperation defines the SOAP binding styles and specifies how to encode a SOAP request."},
+      "description": "A WSDLOperation defines the SOAP binding styles and specifies how to encode a SOAP request.",
+    "tags": [
+      ]},
   { "type": "method",
     "qname": "encodeRequest",
     "namespace": "public",

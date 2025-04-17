@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "mx.logging.ILoggingTarget",
+"baseInterfaceNames": [
+]
+,
     "description": "All logger target implementations within the logging framework must implement this interface.",
   "tags": [
   {  "tagName": "playerversion",

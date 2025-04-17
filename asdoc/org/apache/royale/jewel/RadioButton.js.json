@@ -116,7 +116,10 @@
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "HTMLInputElement",
@@ -155,7 +158,10 @@
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "createElement",
         "namespace": "protected",
@@ -203,4 +209,7 @@
         { "name": "opt_capture", "type": "Boolean"},
         { "name": "opt_handlerScope", "type": "Object"}]}
       ]
+  ,
+  "events": [
+  ]
   }

@@ -69,4 +69,7 @@
           "return": "void",
           "params": [{ "name": "responder", "type": "mx.rpc.IResponder"}]}
       ]
+  ,
+  "events": [
+  ]
   }

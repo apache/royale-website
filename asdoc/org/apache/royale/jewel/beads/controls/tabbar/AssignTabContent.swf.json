@@ -34,7 +34,10 @@
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "write-only",
         "return": "org.apache.royale.core.IStrand",
@@ -62,6 +65,8 @@
         "details": [],
         "deprecated": {},
           "description": "This bead adds the content to the tabbar parent, other strategies could be done extending this bead.",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -110,4 +115,7 @@
                "values": ["Royale 0.9.6"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

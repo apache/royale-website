@@ -3,6 +3,9 @@
 "baseInterfaceNames": [
 "org.apache.royale.graphics.IGraphicShape"]
 ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "accessor",
     "access": "read-write",

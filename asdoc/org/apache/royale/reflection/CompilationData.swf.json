@@ -57,6 +57,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "inspect", "type": "Object"}]}
       ,
@@ -85,7 +88,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": ""},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "uint",
@@ -94,7 +99,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "the compilation flags applicable to the inspected item"},
+          "description": "the compilation flags applicable to the inspected item",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "toString",
         "namespace": "public",
@@ -102,7 +109,12 @@
         "details": [],
         "deprecated": {},
           "description": "A string representation of this CompilationData definition",
+        "tags": [
+          ],
           "return": "String",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

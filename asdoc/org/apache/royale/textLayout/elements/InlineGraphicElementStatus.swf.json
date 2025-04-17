@@ -76,4 +76,7 @@
                "values": ["Flash 10", "AIR 1.5"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

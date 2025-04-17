@@ -4,5 +4,8 @@
   "bindable": [],
   "details": [],
   "deprecated": {},
+    "description": "",
+  "tags": [
+    ],
     "return": "void",
     "params": [{ "name": "component", "type": "org.apache.royale.core.ILayoutChild"}]}

@@ -34,8 +34,14 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "url", "type": "String"},
         { "name": "options", "type": "String"}]}
       ]
+  ,
+  "events": [
+  ]
   }

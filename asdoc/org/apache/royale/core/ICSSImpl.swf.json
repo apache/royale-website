@@ -1,3 +1,11 @@
 { "type": "interface",
   "qname": "org.apache.royale.core.ICSSImpl",
-    "description": "A marker interface so the compiler knows whether to emit CSS"}
+"baseInterfaceNames": [
+]
+,
+    "description": "A marker interface so the compiler knows whether to emit CSS",
+  "tags": [
+    ],
+  "members": [
+  ]
+  }

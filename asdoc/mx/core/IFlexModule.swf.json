@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "mx.core.IFlexModule",
+"baseInterfaceNames": [
+]
+,
     "description": "The IFlexModule interface is used as an optional contract with IFlexModuleFactory. When an IFlexModule instance is created with the IFlexModuleFactory, the factory stores a reference to itself after creation.",
   "tags": [
   {  "tagName": "playerversion",

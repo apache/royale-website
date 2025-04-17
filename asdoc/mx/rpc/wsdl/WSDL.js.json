@@ -34,7 +34,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "mx.rpc.xml.SchemaConstants",
@@ -42,7 +45,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "mx.rpc.soap.SOAPConstants",
@@ -50,7 +56,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Namespace",
@@ -58,7 +67,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "mx.rpc.wsdl.WSDLConstants",
@@ -66,7 +78,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "XML",
@@ -89,6 +104,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "targetNamespace", "type": "Namespace"},
         { "name": "wsdl", "type": "mx.rpc.wsdl.WSDL"}]}
@@ -99,6 +117,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "schema", "type": "mx.rpc.xml.Schema"}]}
       ,
@@ -108,6 +129,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "mx.rpc.wsdl.WSDLOperation",
           "params": [{ "name": "operationName", "type": "String"},
         { "name": "serviceName", "type": "String"},
@@ -155,7 +179,13 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "XML",
           "params": [{ "name": "targetNamespace", "type": "Namespace"}]}
       ]
+  ,
+  "events": [
+  ]
   }

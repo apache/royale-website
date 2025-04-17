@@ -89,5 +89,8 @@
   "events": [
   { "qname": "itemRendererCreated",
         "type": "org.apache.royale.events.ItemRendererEvent"
-      }]
+      ,
+          "description": "",
+        "tags": [
+          ]}]
   }

@@ -35,6 +35,8 @@
         "details": ["override"],
         "deprecated": {},
           "description": "used to create the badge ui element that will be a Label",
+        "tags": [
+          ],
           "return": "org.apache.royale.jewel.Label",
           "params": []}
       ]
@@ -42,5 +44,8 @@
   "events": [
   { "qname": "click",
         "type": "org.apache.royale.events.MouseEvent"
-      }]
+      ,
+          "description": "",
+        "tags": [
+          ]}]
   }

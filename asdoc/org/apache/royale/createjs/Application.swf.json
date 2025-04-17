@@ -12,6 +12,9 @@
          "values": ["Royale 0.0"]},
       {  "tagName": "langversion",
          "values": ["3.0"]}  ],
+  "members": [
+  ]
+  ,
   "events": [
   { "qname": "initialize",
         "type": "org.apache.royale.events.Event"

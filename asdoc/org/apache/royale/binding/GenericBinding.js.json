@@ -126,7 +126,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "write-only",
         "return": "org.apache.royale.core.IStrand",
@@ -185,4 +188,7 @@
           "params": [{ "name": "value", "type": "Object"},
         { "name": "getFromSource", "type": "Boolean"}]}
       ]
+  ,
+  "events": [
+  ]
   }

@@ -17,6 +17,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Object",
           "params": [{ "name": "data", "type": "String"}]}
       ,
@@ -57,4 +60,7 @@
         { "name": "propName", "type": "String"},
         { "name": "value", "type": "*"}]}
       ]
+  ,
+  "events": [
+  ]
   }

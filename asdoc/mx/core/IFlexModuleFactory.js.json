@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "mx.core.IFlexModuleFactory",
+"baseInterfaceNames": [
+]
+,
     "description": "The IFlexModuleFactory interface represents the contract expected for bootstrapping Flex applications and dynamically loaded modules.  <p>Calling the <code>info()</code> method is legal immediately after the <code>complete</code> event is dispatched.</p>  <p>A well-behaved module dispatches a <code>ready</code> event when it is safe to call the <code>create()</code> method.</p>",
   "tags": [
   {  "tagName": "playerversion",

@@ -156,7 +156,7 @@
           "description": "Determines the direction in which the axis is rendered. Possible values are <code>normal</code>, and <code>inverted</code>.  All derived classes should take care of the way min and max are set depending on <code>direction</code>.  All series should take care of the way it is rendered depending on the <code>direction</code> of its underlying axis.",
         "tags": [
         {  "tagName": "default",
-               "values": [""normal""]},
+               "values": ["\"normal\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
@@ -658,4 +658,7 @@
           "params": [{ "name": "min", "type": "Number"},
         { "name": "max", "type": "Number"}]}
       ]
+  ,
+  "events": [
+  ]
   }

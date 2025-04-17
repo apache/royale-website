@@ -71,4 +71,7 @@
         { "name": "oldValue", "type": "Object"},
         { "name": "newValue", "type": "Object"}]}
       ]
+  ,
+  "events": [
+  ]
   }

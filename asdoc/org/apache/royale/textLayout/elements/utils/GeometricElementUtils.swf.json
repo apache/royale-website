@@ -2,6 +2,12 @@
   "qname": "org.apache.royale.textLayout.elements.utils.GeometricElementUtils",
   "baseClassname": ""
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
+  ]
+  ,
+  "events": [
   ]
   }

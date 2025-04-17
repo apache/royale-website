@@ -1,2 +1,11 @@
 { "type": "interface",
-  "qname": "org.apache.royale.textLayout.factory.ITextLineFactory"}
+  "qname": "org.apache.royale.textLayout.factory.ITextLineFactory",
+"baseInterfaceNames": [
+]
+,
+    "description": "",
+  "tags": [
+    ],
+  "members": [
+  ]
+  }

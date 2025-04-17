@@ -17,7 +17,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Errors encountered while parsing. Value is a vector of Strings."},
+          "description": "Errors encountered while parsing. Value is a vector of Strings.",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Boolean",
@@ -26,7 +28,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "@copy ITextImporter#throwOnError()"},
+          "description": "@copy ITextImporter#throwOnError()",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Boolean",
@@ -35,7 +39,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "@copy ITextImporter#useClipboardAnnotations()"},
+          "description": "@copy ITextImporter#useClipboardAnnotations()",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "org.apache.royale.textLayout.conversion.ImportExportConfiguration",
@@ -44,5 +50,10 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Returns the import and export configuration."}]
+          "description": "Returns the import and export configuration.",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

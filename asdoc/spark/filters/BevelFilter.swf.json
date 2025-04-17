@@ -196,4 +196,7 @@
           "return": "mx.filters.IBitmapFilter",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

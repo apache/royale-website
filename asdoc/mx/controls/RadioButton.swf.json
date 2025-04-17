@@ -70,6 +70,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "type", "type": "String"},
         { "name": "listener", "type": "Function"},
@@ -100,7 +103,7 @@
           "description": "The RadioButtonGroup object to which this RadioButton belongs.",
         "tags": [
         {  "tagName": "default",
-               "values": [""undefined""]},
+               "values": ["\"undefined\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
@@ -118,13 +121,13 @@
           "description": "Specifies the name of the group to which this RadioButton control belongs, or specifies the value of the <code>id</code> property of a RadioButtonGroup control if this RadioButton is part of a group defined by a RadioButtonGroup control.",
         "tags": [
         {  "tagName": "default",
-               "values": [""undefined""]},
+               "values": ["\"undefined\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
                "values": ["Flex 3"]},
             {  "tagName": "throws",
-               "values": ["ArgumentError Throws an ArgumentError if you are using Flex 4 or later and the groupName starts with the string "_fx_"."]},
+               "values": ["ArgumentError Throws an ArgumentError if you are using Flex 4 or later and the groupName starts with the string \"_fx_\"."]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]},
       { "type": "accessor",
@@ -151,6 +154,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -166,4 +172,7 @@
         "tags": [
         {  "tagName": "private",
                "values": []}  ]}]
+  ,
+  "events": [
+  ]
   }

@@ -2,6 +2,9 @@
   "qname": "mx.display.Graphics",
   "baseClassname": ""
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "accessor",
         "access": "read-only",
@@ -47,6 +50,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "color", "type": "uint"},
         { "name": "alpha", "type": "Number"}]}
@@ -71,6 +77,8 @@
         "details": [],
         "deprecated": {},
           "description": "JS needs some way to know the stroke is starting if there isn't going to be an beginFill call",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -81,6 +89,8 @@
         "details": [],
         "deprecated": {},
           "description": "JS needs some way to know the stroke is done if there isn't going to be an endFill call",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -90,6 +100,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "type", "type": "String"},
         { "name": "colors", "type": "Array"},
@@ -106,6 +119,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "thickness", "type": "Number"},
         { "name": "color", "type": "uint"},
@@ -122,6 +138,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "x", "type": "Number"},
         { "name": "y", "type": "Number"}]}
@@ -132,6 +151,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "x", "type": "Number"},
         { "name": "y", "type": "Number"}]}
@@ -142,6 +164,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "controlX", "type": "Number"},
         { "name": "controlY", "type": "Number"},
@@ -219,10 +244,16 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "bitmap", "type": "flash.display.BitmapData"},
         { "name": "matrix", "type": "mx.geom.Matrix"},
         { "name": "repeat", "type": "Boolean"},
         { "name": "smooth", "type": "Boolean"}]}
       ]
+  ,
+  "events": [
+  ]
   }

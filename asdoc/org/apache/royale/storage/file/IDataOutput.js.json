@@ -4,6 +4,8 @@
 "org.apache.royale.storage.file.IDataStream"]
 ,
     "description": "The File class provides access to a specific file on the device.",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
     "qname": "writeText",
@@ -11,6 +13,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "text", "type": "String"}]}
   ,
@@ -20,6 +25,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": []}
   ]

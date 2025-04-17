@@ -19,41 +19,59 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "viewRowIndex",
         "return": "int",
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "viewColumnIndex",
         "return": "int",
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "viewRowCount",
         "return": "int",
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "viewColumnCount",
         "return": "int",
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "spark.components.gridClasses.GridDimensionsView",
         "namespace": "",
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "gridDimensions", "type": "spark.components.gridClasses.GridDimensions"},
         { "name": "viewRowIndex", "type": "int"},
@@ -68,7 +86,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "int",
@@ -76,7 +97,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Number",
@@ -84,7 +108,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Number",
@@ -92,7 +119,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Number",
@@ -100,7 +130,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Number",
@@ -108,7 +141,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Boolean",
@@ -116,7 +152,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Number",
@@ -124,7 +163,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Number",
@@ -132,7 +174,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Number",
@@ -141,7 +186,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Return the Grid X coordinate of the GridDimensionView's viewRow,ColumnIndex origin."},
+          "description": "Return the Grid X coordinate of the GridDimensionView's viewRow,ColumnIndex origin.",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Number",
@@ -150,13 +197,18 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Return the Grid Y coordinate of the GridDimensionView's viewRow,ColumnIndex origin."},
+          "description": "Return the Grid Y coordinate of the GridDimensionView's viewRow,ColumnIndex origin.",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "getRowHeight",
         "namespace": "public",
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Number",
           "params": [{ "name": "row", "type": "int"}]}
       ,
@@ -166,6 +218,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "row", "type": "int"},
         { "name": "height", "type": "Number"}]}
@@ -176,6 +231,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Number",
           "params": [{ "name": "col", "type": "int"}]}
       ,
@@ -185,6 +243,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "col", "type": "int"},
         { "name": "width", "type": "Number"}]}
@@ -195,6 +256,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Number",
           "params": [{ "name": "row", "type": "int"},
         { "name": "col", "type": "int"}]}
@@ -205,6 +269,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "row", "type": "int"},
         { "name": "col", "type": "int"},
@@ -216,6 +283,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.geom.Rectangle",
           "params": [{ "name": "row", "type": "int"},
         { "name": "col", "type": "int"}]}
@@ -226,6 +296,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Number",
           "params": [{ "name": "row", "type": "int"},
         { "name": "col", "type": "int"}]}
@@ -236,6 +309,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Number",
           "params": [{ "name": "row", "type": "int"},
         { "name": "col", "type": "int"}]}
@@ -246,6 +322,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.geom.Rectangle",
           "params": [{ "name": "row", "type": "int"}]}
       ,
@@ -255,6 +334,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.geom.Rectangle",
           "params": [{ "name": "row", "type": "int"}]}
       ,
@@ -264,6 +346,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.geom.Rectangle",
           "params": [{ "name": "col", "type": "int"}]}
       ,
@@ -273,6 +358,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "int",
           "params": [{ "name": "viewX", "type": "Number"},
         { "name": "viewY", "type": "Number"}]}
@@ -283,6 +371,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "int",
           "params": [{ "name": "localX", "type": "Number"},
         { "name": "localY", "type": "Number"}]}
@@ -293,6 +384,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Number",
           "params": [{ "name": "columnCountOverride", "type": "int"},
         { "name": "startColumnIndex", "type": "int"}]}
@@ -303,6 +397,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Number",
           "params": [{ "name": "rowCountOverride", "type": "int"},
         { "name": "startRowIndex", "type": "int"}]}
@@ -313,6 +410,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Number",
           "params": [{ "name": "columnCountOverride", "type": "int"},
         { "name": "startColumnIndex", "type": "int"}]}
@@ -323,6 +423,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Number",
           "params": [{ "name": "rowCountOverride", "type": "int"},
         { "name": "startRowIndex", "type": "int"}]}
@@ -333,6 +436,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Number",
           "params": [{ "name": "columnIndex", "type": "int"}]}
       ,
@@ -342,6 +448,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "columnIndex", "type": "int"},
         { "name": "value", "type": "Number"}]}
@@ -352,6 +461,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Number",
           "params": [{ "name": "columnIndex", "type": "int"}]}
       ,
@@ -361,6 +473,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "columnIndex", "type": "int"},
         { "name": "value", "type": "Number"}]}
@@ -371,7 +486,13 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "String",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

@@ -3,6 +3,9 @@
 "baseInterfaceNames": [
 "org.apache.royale.textLayout.elements.ITableFormattedElement"]
 ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "accessor",
     "access": "read-write",
@@ -11,7 +14,10 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-write",
     "return": "int",
@@ -19,7 +25,10 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-only",
     "return": "int",
@@ -27,7 +36,10 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-write",
     "return": "org.apache.royale.textLayout.formats.ITextLayoutFormat",
@@ -35,7 +47,10 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-write",
     "return": "org.apache.royale.textLayout.formats.ITextLayoutFormat",
@@ -43,13 +58,19 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "method",
     "qname": "addRow",
     "namespace": "public",
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "format", "type": "org.apache.royale.textLayout.formats.ITextLayoutFormat"}]}
   ,
@@ -59,6 +80,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "idx", "type": "int"},
     { "name": "format", "type": "org.apache.royale.textLayout.formats.ITextLayoutFormat"}]}
@@ -69,6 +93,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "format", "type": "org.apache.royale.textLayout.formats.ITextLayoutFormat"}]}
   ,
@@ -78,6 +105,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "idx", "type": "int"},
     { "name": "format", "type": "org.apache.royale.textLayout.formats.ITextLayoutFormat"}]}
@@ -88,6 +118,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "org.apache.royale.textLayout.elements.ITableColElement",
       "params": [{ "name": "columnIndex", "type": "int"}]}
   ,
@@ -97,6 +130,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "org.apache.royale.textLayout.elements.ITableRowElement",
       "params": [{ "name": "rowIndex", "type": "int"}]}
   ,
@@ -106,6 +142,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "int",
       "params": [{ "name": "row", "type": "org.apache.royale.textLayout.elements.ITableRowElement"}]}
   ,
@@ -115,6 +154,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "Vector.<org.apache.royale.textLayout.elements.ITableCellElement>",
       "params": [{ "name": "row", "type": "org.apache.royale.textLayout.elements.ITableRowElement"}]}
   ,
@@ -124,6 +166,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "Array",
       "params": [{ "name": "row", "type": "org.apache.royale.textLayout.elements.ITableRowElement"}]}
   ,
@@ -133,6 +178,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "Vector.<org.apache.royale.textLayout.elements.ITableCellElement>",
       "params": [{ "name": "index", "type": "int"}]}
   ,
@@ -142,6 +190,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "Array",
       "params": [{ "name": "index", "type": "int"}]}
   ,
@@ -151,6 +202,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "Vector.<org.apache.royale.textLayout.elements.ITableCellElement>",
       "params": [{ "name": "column", "type": "org.apache.royale.textLayout.elements.ITableColElement"}]}
   ,
@@ -160,6 +214,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "Vector.<org.apache.royale.textLayout.elements.ITableCellElement>",
       "params": [{ "name": "index", "type": "int"}]}
   ,
@@ -169,6 +226,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "Boolean",
       "params": []}
   ,
@@ -178,6 +238,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "Boolean",
       "params": [{ "name": "column", "type": "org.apache.royale.textLayout.elements.TableColElement"},
     { "name": "cells", "type": "Array"}]}
@@ -188,6 +251,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "Boolean",
       "params": [{ "name": "idx", "type": "int"},
     { "name": "column", "type": "org.apache.royale.textLayout.elements.TableColElement"},
@@ -199,6 +265,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "Boolean",
       "params": [{ "name": "row", "type": "org.apache.royale.textLayout.elements.ITableRowElement"},
     { "name": "cells", "type": "Array"}]}
@@ -209,6 +278,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "Boolean",
       "params": [{ "name": "idx", "type": "int"},
     { "name": "row", "type": "org.apache.royale.textLayout.elements.ITableRowElement"},
@@ -220,6 +292,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "org.apache.royale.textLayout.elements.ITableRowElement",
       "params": [{ "name": "row", "type": "org.apache.royale.textLayout.elements.ITableRowElement"}]}
   ,
@@ -229,6 +304,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "Array",
       "params": [{ "name": "row", "type": "org.apache.royale.textLayout.elements.ITableRowElement"}]}
   ,
@@ -238,6 +316,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "org.apache.royale.textLayout.elements.ITableRowElement",
       "params": [{ "name": "idx", "type": "int"}]}
   ,
@@ -247,6 +328,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "Array",
       "params": [{ "name": "idx", "type": "int"}]}
   ,
@@ -256,6 +340,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": []}
   ,
@@ -265,6 +352,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": []}
   ,
@@ -274,6 +364,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "org.apache.royale.textLayout.elements.ITableColElement",
       "params": [{ "name": "column", "type": "org.apache.royale.textLayout.elements.ITableColElement"}]}
   ,
@@ -283,6 +376,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "Array",
       "params": [{ "name": "column", "type": "org.apache.royale.textLayout.elements.ITableColElement"}]}
   ,
@@ -292,6 +388,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "org.apache.royale.textLayout.elements.ITableColElement",
       "params": [{ "name": "idx", "type": "int"}]}
   ,
@@ -301,6 +400,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "Array",
       "params": [{ "name": "idx", "type": "int"}]}
   ,
@@ -310,6 +412,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": []}
   ,
@@ -319,6 +424,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "Boolean",
       "params": [{ "name": "columnIndex", "type": "int"},
     { "name": "value", "type": "*"}]}
@@ -329,6 +437,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "Boolean",
       "params": [{ "name": "rowIdx", "type": "int"},
     { "name": "value", "type": "*"}]}
@@ -339,6 +450,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "*",
       "params": [{ "name": "columnIndex", "type": "int"}]}
   ,
@@ -348,6 +462,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": []}
   ,
@@ -357,6 +474,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "Vector.<Vector.<org.apache.royale.textLayout.elements.ITableCellElement>>",
       "params": []}
   ,
@@ -366,6 +486,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "Vector.<Vector.<org.apache.royale.textLayout.elements.ITableCellElement>>",
       "params": []}
   ,
@@ -375,6 +498,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "Vector.<Vector.<org.apache.royale.textLayout.elements.ITableCellElement>>",
       "params": []}
   ,
@@ -384,6 +510,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "Vector.<org.apache.royale.textLayout.elements.ITableCellElement>",
       "params": []}
   ,
@@ -393,6 +522,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "org.apache.royale.textLayout.elements.ITableCellElement",
       "params": [{ "name": "tableCell", "type": "org.apache.royale.textLayout.elements.ITableCellElement"}]}
   ,
@@ -402,6 +534,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "org.apache.royale.textLayout.elements.ITableCellElement",
       "params": [{ "name": "tableCell", "type": "org.apache.royale.textLayout.elements.ITableCellElement"}]}
   ,
@@ -411,6 +546,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "org.apache.royale.textLayout.elements.ITableCellElement",
       "params": [{ "name": "rowIndex", "type": "int"},
     { "name": "columnIndex", "type": "int"}]}
@@ -421,6 +559,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "Number",
       "params": []}
   ,
@@ -430,6 +571,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "Number",
       "params": []}
   ,
@@ -439,6 +583,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "suggestedWidth", "type": "Number"}]}
   ,
@@ -448,6 +595,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "Vector.<org.apache.royale.textLayout.elements.ITableCellElement>",
       "params": []}
   ,
@@ -457,6 +607,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "Array",
       "params": []}
   ,
@@ -467,7 +620,10 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-write",
     "return": "Boolean",
@@ -475,7 +631,10 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-write",
     "return": "uint",
@@ -483,7 +642,10 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-write",
     "return": "uint",
@@ -491,13 +653,19 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "method",
     "qname": "getFirstBlock",
     "namespace": "public",
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "org.apache.royale.textLayout.compose.ITextFlowTableBlock",
       "params": []}
   ,
@@ -507,6 +675,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "org.apache.royale.textLayout.compose.ITextFlowTableBlock",
       "params": []}
   ,
@@ -516,6 +687,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "Vector.<org.apache.royale.textLayout.elements.ITableCellElement>",
       "params": [{ "name": "anchorCoords", "type": "org.apache.royale.textLayout.elements.CellCoordinates"},
     { "name": "activeCoords", "type": "org.apache.royale.textLayout.elements.CellCoordinates"},
@@ -527,6 +701,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "org.apache.royale.textLayout.elements.ITableCellElement",
       "params": [{ "name": "coords", "type": "org.apache.royale.textLayout.elements.CellCoordinates"}]}
   ,
@@ -536,6 +713,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "cell", "type": "org.apache.royale.textLayout.elements.ITableCellElement"},
     { "name": "block", "type": "org.apache.royale.textLayout.compose.ITextFlowTableBlock"}]}
@@ -546,6 +726,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "org.apache.royale.textLayout.compose.ITextFlowTableBlock",
       "params": [{ "name": "cell", "type": "org.apache.royale.textLayout.elements.ITableCellElement"}]}
   ,
@@ -556,13 +739,19 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "method",
     "qname": "getTableBlocksInRange",
     "namespace": "public",
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "Vector.<org.apache.royale.textLayout.compose.ITextFlowTableBlock>",
       "params": [{ "name": "start", "type": "org.apache.royale.textLayout.elements.CellCoordinates"},
     { "name": "end", "type": "org.apache.royale.textLayout.elements.CellCoordinates"}]}
@@ -573,6 +762,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "org.apache.royale.textLayout.elements.ITableRowElement",
       "params": [{ "name": "index", "type": "int"},
     { "name": "defaultRowFormat", "type": "org.apache.royale.textLayout.formats.ITextLayoutFormat"}]}
@@ -583,6 +775,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "org.apache.royale.textLayout.elements.TableColElement",
       "params": [{ "name": "index", "type": "int"},
     { "name": "defaultColumnFormat", "type": "org.apache.royale.textLayout.formats.ITextLayoutFormat"}]}

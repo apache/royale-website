@@ -36,7 +36,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "stop the animation to indicate load end"},
+          "description": "stop the animation to indicate load end",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "write-only",
         "return": "Boolean",
@@ -45,5 +47,10 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "start the animation to indicate a loading state"}]
+          "description": "start the animation to indicate a loading state",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

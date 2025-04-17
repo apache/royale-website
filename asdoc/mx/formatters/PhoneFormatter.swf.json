@@ -45,11 +45,14 @@
           "description": "String that contains mask characters that represent a specified phone number format.",
         "tags": [
         {  "tagName": "default",
-               "values": [""(###) ###-####""]},
+               "values": ["\"(###) ###-####\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
                "values": ["Flex 3"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

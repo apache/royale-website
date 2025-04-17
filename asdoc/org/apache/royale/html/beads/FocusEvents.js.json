@@ -69,8 +69,14 @@
   "events": [
   { "qname": "focusIn",
         "type": "org.apache.royale.events.FocusEvent"
-      },
+      ,
+          "description": "",
+        "tags": [
+          ]},
       { "qname": "focusOut",
         "type": "org.apache.royale.events.FocusEvent"
-      }]
+      ,
+          "description": "",
+        "tags": [
+          ]}]
   }

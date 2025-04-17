@@ -5,6 +5,8 @@
   "details": [],
   "deprecated": {},
     "description": "Alias for org.apache.royale.test.Assert assertNotMatch method",
+  "tags": [
+    ],
     "return": "void",
     "params": [{ "name": "value", "type": "String"},
   { "name": "regExp", "type": "RegExp"},

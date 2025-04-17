@@ -3,6 +3,8 @@
   "baseClassname": "spark.components.Button"
   ,
     "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "spark.components.supportClasses.DropDownListButton",
@@ -27,6 +29,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "w", "type": "Number"},
         { "name": "h", "type": "Number"}]}
@@ -39,5 +44,10 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
-          "description": "svg clipPath rect text style rect path"}]
+          "description": "svg clipPath rect text style rect path",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

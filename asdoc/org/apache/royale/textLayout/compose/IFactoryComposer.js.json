@@ -3,6 +3,9 @@
 "baseInterfaceNames": [
 "org.apache.royale.textLayout.compose.IFlowComposer"]
 ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
     "qname": "callTheComposer",
@@ -10,6 +13,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "org.apache.royale.textLayout.container.IContainerController",
       "params": [{ "name": "absoluteEndPosition", "type": "int"},
     { "name": "controllerEndIndex", "type": "int"}]}

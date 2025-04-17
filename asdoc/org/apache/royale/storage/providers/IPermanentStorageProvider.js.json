@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "org.apache.royale.storage.providers.IPermanentStorageProvider",
+"baseInterfaceNames": [
+]
+,
     "description": "This interface provides the template for creating classes the work with the permanent storages API of the native system.",
   "tags": [
   {  "tagName": "playerversion",

@@ -125,6 +125,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -173,4 +176,7 @@
         { "name": "token", "type": "mx.rpc.AsyncToken"},
         { "name": "msg", "type": "mx.messaging.messages.IMessage"}]}
       ]
+  ,
+  "events": [
+  ]
   }

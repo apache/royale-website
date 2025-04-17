@@ -18,21 +18,29 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "array of FlowElementInfo objects (key = name, value = FlowElementInfo)"},
+          "description": "array of FlowElementInfo objects (key = name, value = FlowElementInfo)",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "flowElementClassList",
         "return": "Object",
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "classToNameMap",
         "return": "Object",
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "whiteSpaceCollapse",
         "return": "String",
@@ -59,4 +67,7 @@
           "return": "",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

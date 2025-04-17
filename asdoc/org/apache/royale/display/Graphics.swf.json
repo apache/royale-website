@@ -13,6 +13,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.display.Graphics",
           "params": [{ "name": "target", "type": "org.apache.royale.display.IGraphicsTarget"}]}
       ,
@@ -37,6 +40,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "target", "type": "org.apache.royale.display.IGraphicsTarget"}]}
       ,
@@ -59,6 +65,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "color", "type": "uint"},
         { "name": "alpha", "type": "Number"}]}
@@ -69,6 +78,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -78,6 +90,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "type", "type": "String"},
         { "name": "colors", "type": "Array"},
@@ -94,6 +109,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "bitmap", "type": "flash.display.BitmapData"},
         { "name": "matrix", "type": "flash.geom.Matrix"},
@@ -106,6 +124,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "bitmap", "type": "flash.display.BitmapData"},
         { "name": "matrix", "type": "flash.geom.Matrix"},
@@ -118,6 +139,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "type", "type": "String"},
         { "name": "colors", "type": "Array"},
@@ -134,6 +158,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "thickness", "type": "Number"},
         { "name": "color", "type": "uint"},
@@ -150,6 +177,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "x", "type": "Number"},
         { "name": "y", "type": "Number"}]}
@@ -160,6 +190,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "x", "type": "Number"},
         { "name": "y", "type": "Number"}]}
@@ -170,6 +203,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "controlX", "type": "Number"},
         { "name": "controlY", "type": "Number"},
@@ -182,6 +218,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "controlX1", "type": "Number"},
         { "name": "controlY1", "type": "Number"},
@@ -196,6 +235,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "x", "type": "Number"},
         { "name": "y", "type": "Number"},
@@ -208,6 +250,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "x", "type": "Number"},
         { "name": "y", "type": "Number"},
@@ -222,6 +267,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "x", "type": "Number"},
         { "name": "y", "type": "Number"},
@@ -238,6 +286,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "x", "type": "Number"},
         { "name": "y", "type": "Number"},
@@ -250,11 +301,17 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "x", "type": "Number"},
         { "name": "y", "type": "Number"},
         { "name": "radius", "type": "Number"}]}
       ]
+  ,
+  "events": [
+  ]
   }
 
 

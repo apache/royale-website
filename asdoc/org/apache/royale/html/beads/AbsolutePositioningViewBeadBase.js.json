@@ -71,4 +71,7 @@
         { "name": "x", "type": "Number"},
         { "name": "y", "type": "Number"}]}
       ]
+  ,
+  "events": [
+  ]
   }

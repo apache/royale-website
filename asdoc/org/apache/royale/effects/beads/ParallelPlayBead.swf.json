@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.effects.beads.ParallelPlayBead",
   "baseClassname": ""
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.effects.beads.ParallelPlayBead",
@@ -9,6 +12,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ,
@@ -24,4 +30,7 @@
         "tags": [
         {  "tagName": "royaleignorecoercion",
                "values": ["org.apache.royale.effects.ICompoundEffect"]}  ]}]
+  ,
+  "events": [
+  ]
   }

@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "spark.effects.easing.IEaser",
+"baseInterfaceNames": [
+]
+,
     "description": "The IEaser interface is implemented by classes that provide time-easing functionality for the Animation class. Implementors are responsible for the single function, <code>ease()</code>, which takes and returns a fraction according to the easing behavior desired. As a simple example, LinearEase simply returns the same input fraction, since there is no easing performed by that easer. As another example, a reversing easer could be written which returned the inverse fraction, (1 - <code>fraction</code>).  <p>By easing the fractional values of the time elapsed in an animation, these classes are easing the resulting values of the animation, but they only have to deal with the fractional value of time instead of any specific object types.</p>",
   "tags": [
   {  "tagName": "see",

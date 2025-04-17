@@ -163,6 +163,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": [{ "name": "node", "type": "Object"}]}
       ,
@@ -172,6 +175,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "node", "type": "Object"}]}
       ,
@@ -181,6 +187,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "node", "type": "Object"}]}
       ,
@@ -190,7 +199,13 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "int",
           "params": [{ "name": "node", "type": "Object"}]}
       ]
+  ,
+  "events": [
+  ]
   }

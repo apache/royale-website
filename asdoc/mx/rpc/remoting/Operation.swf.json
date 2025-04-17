@@ -135,6 +135,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "ro", "type": "mx.rpc.AbstractService"}]}
       ,
@@ -144,6 +147,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "mx.rpc.AsyncToken",
           "params": [{ "name": "message", "type": "mx.messaging.messages.IMessage"},
         { "name": "token", "type": "mx.rpc.AsyncToken"}]}
@@ -154,6 +160,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "mx.rpc.AsyncToken",
           "params": [{ "name": "event", "type": "mx.messaging.events.MessageEvent"}]}
       ,
@@ -163,6 +172,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": [{ "name": "message", "type": "mx.messaging.messages.IMessage"},
         { "name": "token", "type": "mx.rpc.AsyncToken"}]}
@@ -173,6 +185,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "event", "type": "mx.messaging.events.MessageEvent"}]}
       ,
@@ -182,5 +197,11 @@
         "namespace": "mx_internal",
         "bindable": [],
         "details": [],
-        "deprecated": {}}]
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

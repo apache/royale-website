@@ -3,6 +3,8 @@
   "baseClassname": "org.apache.royale.createjs.core.UIBase"
   ,
     "description": "CreateJS Container",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.createjs.Container",
@@ -28,7 +30,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Array",
@@ -154,4 +159,7 @@
                "values": ["Royale 0.0"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ]}]
+  ,
+  "events": [
+  ]
   }

@@ -3,6 +3,9 @@
 "baseInterfaceNames": [
 "org.apache.royale.textLayout.elements.IFlowElement"]
 ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
     "qname": "findLeaf",
@@ -10,6 +13,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "org.apache.royale.textLayout.elements.IFlowLeafElement",
       "params": [{ "name": "childRelativePos", "type": "int"}]}
   ,
@@ -19,6 +25,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "org.apache.royale.textLayout.elements.IFlowLeafElement",
       "params": []}
   ,
@@ -28,6 +37,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "org.apache.royale.textLayout.elements.IFlowLeafElement",
       "params": []}
   ,
@@ -37,6 +49,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "int",
       "params": [{ "name": "begStart", "type": "int"}]}
   ,
@@ -46,6 +61,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "org.apache.royale.textLayout.elements.IFlowElement",
       "params": [{ "name": "begChildIdx", "type": "int"}]}
   ,
@@ -55,6 +73,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "int",
       "params": [{ "name": "child", "type": "org.apache.royale.textLayout.elements.IFlowElement"}]}
   ,
@@ -65,13 +86,19 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "method",
     "qname": "addChildAt",
     "namespace": "public",
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "org.apache.royale.textLayout.elements.IFlowElement",
       "params": [{ "name": "index", "type": "uint"},
     { "name": "elem", "type": "org.apache.royale.textLayout.elements.IFlowElement"}]}
@@ -82,6 +109,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "org.apache.royale.textLayout.elements.IFlowGroupElement",
       "params": [{ "name": "childIdx", "type": "int"}]}
   ,
@@ -91,6 +121,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "beginChildIndex", "type": "int"},
     { "name": "endChildIndex", "type": "int"},
@@ -103,13 +136,19 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "method",
     "qname": "addChild",
     "namespace": "public",
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "org.apache.royale.textLayout.elements.IFlowElement",
       "params": [{ "name": "child", "type": "org.apache.royale.textLayout.elements.IFlowElement"}]}
   ,
@@ -119,6 +158,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "org.apache.royale.textLayout.elements.IFlowElement",
       "params": [{ "name": "child", "type": "org.apache.royale.textLayout.elements.IFlowElement"}]}
   ,
@@ -128,6 +170,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "org.apache.royale.textLayout.elements.IFlowElement",
       "params": [{ "name": "index", "type": "uint"}]}
   ,
@@ -137,6 +182,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "Boolean",
       "params": []}
   ,
@@ -146,6 +194,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "child", "type": "org.apache.royale.textLayout.elements.IFlowElement"},
     { "name": "block", "type": "org.apache.royale.text.engine.ContentElement"}]}
@@ -156,6 +207,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "child", "type": "org.apache.royale.textLayout.elements.IFlowElement"},
     { "name": "block", "type": "org.apache.royale.text.engine.ContentElement"}]}
@@ -166,6 +220,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "Boolean",
       "params": [{ "name": "elem", "type": "org.apache.royale.textLayout.elements.IFlowElement"}]}
   ,
@@ -175,6 +232,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "org.apache.royale.textLayout.elements.IFlowLeafElement",
       "params": [{ "name": "limitElement", "type": "org.apache.royale.textLayout.elements.IFlowGroupElement"},
     { "name": "child", "type": "org.apache.royale.textLayout.elements.IFlowElement"}]}
@@ -185,6 +245,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "org.apache.royale.textLayout.elements.IFlowLeafElement",
       "params": [{ "name": "limitElement", "type": "org.apache.royale.textLayout.elements.IFlowGroupElement"},
     { "name": "child", "type": "org.apache.royale.textLayout.elements.IFlowElement"}]}
@@ -195,6 +258,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "org.apache.royale.text.engine.GroupElement",
       "params": [{ "name": "pos", "type": "int"}]}
   ,
@@ -204,6 +270,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "child", "type": "org.apache.royale.textLayout.elements.IFlowElement"},
     { "name": "newChild", "type": "org.apache.royale.textLayout.elements.IFlowElement"}]}

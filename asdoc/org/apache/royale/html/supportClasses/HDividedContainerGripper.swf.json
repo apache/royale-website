@@ -42,4 +42,7 @@
                "values": ["org.apache.royale.core.IStrand#strand"]},
             {  "tagName": "royaleignorecoercion",
                "values": ["org.apache.royale.core.UIBase"]}  ]}]
+  ,
+  "events": [
+  ]
   }

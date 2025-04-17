@@ -1,4 +1,13 @@
 { "type": "class",
   "qname": "org.apache.royale.html5.ComboBox",
   "baseClassname": "org.apache.royale.html.ComboBox"
+  ,
+    "description": "",
+  "tags": [
+    ],
+  "members": [
+  ]
+  ,
+  "events": [
+  ]
   }

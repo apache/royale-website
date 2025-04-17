@@ -50,5 +50,8 @@
   "events": [
   { "qname": "close",
         "type": "org.apache.royale.events.Event"
-      }]
+      ,
+          "description": "",
+        "tags": [
+          ]}]
   }

@@ -63,4 +63,7 @@
           "params": [{ "name": "value", "type": "Number"},
         { "name": "symbol", "type": "String"}]}
       ]
+  ,
+  "events": [
+  ]
   }

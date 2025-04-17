@@ -851,4 +851,7 @@
           "return": "void",
           "params": [{ "name": "event", "type": "mx.events.CollectionEvent"}]}
       ]
+  ,
+  "events": [
+  ]
   }

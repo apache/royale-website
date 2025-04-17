@@ -130,10 +130,13 @@
             {  "tagName": "productversion",
                "values": ["Flex 3"]},
             {  "tagName": "return",
-               "values": ["Returns the String "SOAPFault" plus the faultCode, faultString, and"]},
+               "values": ["Returns the String \"SOAPFault\" plus the faultCode, faultString, and"]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ],
           "return": "String",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

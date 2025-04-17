@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "org.apache.royale.utils.IClassSelectorListSupport",
+"baseInterfaceNames": [
+]
+,
     "description": "The IClassSelectorList interface stablish the contract methods for componnets that use ClassSelectorList to deal with class selector names",
   "tags": [
   {  "tagName": "playerversion",

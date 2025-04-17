@@ -13,13 +13,19 @@
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "setCORSCredentialsChecker",
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "checker", "type": "Function"}]}
       ,
@@ -30,6 +36,8 @@
         "details": [],
         "deprecated": {},
           "description": "constructor",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ,
@@ -71,7 +79,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The BinaryData reponse received from the request. This can be a response or an error response. The client should check the status to know how to interpret the response."},
+          "description": "The BinaryData reponse received from the request. This can be a response or an error response. The client should check the status to know how to interpret the response.",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "load",
         "namespace": "public",
@@ -114,6 +124,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -124,6 +137,8 @@
         "details": [],
         "deprecated": {},
           "description": "send is a protected function in js so a subclass can attach an upload listener without rewriting the whole load() function",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "requestData", "type": "Object"}]}
       ,
@@ -319,4 +334,7 @@
           "return": "org.apache.royale.net.URLStream",
           "params": [{ "name": "callback", "type": "Function"}]}
       ]
+  ,
+  "events": [
+  ]
   }

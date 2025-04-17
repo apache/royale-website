@@ -2,4 +2,12 @@
   "qname": "mx.utils.PopUpUtil",
   "baseClassname": ""
   ,
-    "description": "Helper functionality for working with pop-ups."}
+    "description": "Helper functionality for working with pop-ups.",
+  "tags": [
+    ],
+  "members": [
+  ]
+  ,
+  "events": [
+  ]
+  }

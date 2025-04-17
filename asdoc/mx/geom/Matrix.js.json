@@ -19,6 +19,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "a", "type": "Number"},
         { "name": "b", "type": "Number"},
@@ -27,4 +30,7 @@
         { "name": "tx", "type": "Number"},
         { "name": "ty", "type": "Number"}]}
       ]
+  ,
+  "events": [
+  ]
   }

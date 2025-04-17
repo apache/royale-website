@@ -30,4 +30,7 @@
           "return": "",
           "params": [{ "name": "original", "type": "org.apache.royale.core.IRenderedObject"}]}
       ]
+  ,
+  "events": [
+  ]
   }

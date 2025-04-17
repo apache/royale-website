@@ -15,6 +15,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "format", "type": "org.apache.royale.textLayout.formats.ITextLayoutFormat"}]}
       ,
@@ -25,7 +28,10 @@
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Boolean",
@@ -34,7 +40,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
-          "description": "@private"},
+          "description": "@private",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "String",
@@ -43,7 +51,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
-          "description": "@private"},
+          "description": "@private",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Vector.<org.apache.royale.textLayout.elements.ITableCellElement>",
@@ -52,7 +62,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Get a Vector of cells or null if the column contains no cells"},
+          "description": "Get a Vector of cells or null if the column contains no cells",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "int",
@@ -61,7 +73,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Returns the number of cells in this column."},
+          "description": "Returns the number of cells in this column.",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Number",
@@ -69,7 +83,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "int",
@@ -77,5 +94,11 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}}]
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

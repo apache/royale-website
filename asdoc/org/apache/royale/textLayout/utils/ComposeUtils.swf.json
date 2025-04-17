@@ -2,6 +2,12 @@
   "qname": "org.apache.royale.textLayout.utils.ComposeUtils",
   "baseClassname": ""
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
+  ]
+  ,
+  "events": [
   ]
   }

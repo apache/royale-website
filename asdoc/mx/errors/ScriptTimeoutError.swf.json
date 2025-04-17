@@ -2,6 +2,9 @@
   "qname": "mx.errors.ScriptTimeoutError",
   "baseClassname": "flash.errors.ScriptTimeoutError"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "mx.errors.ScriptTimeoutError",
@@ -20,4 +23,7 @@
           "return": "",
           "params": [{ "name": "message", "type": "String"}]}
       ]
+  ,
+  "events": [
+  ]
   }

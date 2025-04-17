@@ -43,7 +43,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A reference to the visual element that displays this FormItem's label."},
+          "description": "A reference to the visual element that displays this FormItem's label.",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "sequenceLabelDisplay",
         "return": "spark.core.IDisplayText",
@@ -51,7 +53,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A reference to the visual element that displays the FormItem's sequenceLabel."},
+          "description": "A reference to the visual element that displays the FormItem's sequenceLabel.",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "helpContentGroup",
         "return": "spark.components.Group",
@@ -59,7 +63,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A reference to the Group that contains the FormItem's helpContentGroup."},
+          "description": "A reference to the Group that contains the FormItem's helpContentGroup.",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "errorTextDisplay",
         "return": "spark.core.IDisplayText",
@@ -67,14 +73,19 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "A reference to the visual element that display the FormItem's error strings."},
+          "description": "A reference to the visual element that display the FormItem's error strings.",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_elementErrorStrings",
         "return": "Vector.<String>",
         "namespace": "mx_internal",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Vector.<String>",
@@ -120,7 +131,7 @@
           "description": "Text label for the FormItem. For example, a FormItem used to input an address might have the label of &quot;Address&quot;.",
         "tags": [
         {  "tagName": "default",
-               "values": [""""]},
+               "values": ["\"\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 10", "AIR 2.5"]},
             {  "tagName": "productversion",
@@ -156,7 +167,7 @@
           "description": "The number of the form item in the form.",
         "tags": [
         {  "tagName": "default",
-               "values": [""""]},
+               "values": ["\"\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 10", "AIR 2.5"]},
             {  "tagName": "productversion",
@@ -192,4 +203,7 @@
           "return": "void",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

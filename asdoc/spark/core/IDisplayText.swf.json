@@ -23,7 +23,7 @@
       "description": "The text displayed by this text component.  <p>The formatting of this text is controlled by CSS styles. The supported styles depend on the subclass.</p>",
     "tags": [
     {  "tagName": "default",
-           "values": [""""]},
+           "values": ["\"\""]},
         {  "tagName": "playerversion",
            "values": ["Flash 10.1", "AIR 2.0"]},
         {  "tagName": "productversion",

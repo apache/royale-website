@@ -17,8 +17,14 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "String",
           "params": [{ "name": "host", "type": "Object"},
         { "name": "url", "type": "String"}]}
       ]
+  ,
+  "events": [
+  ]
   }

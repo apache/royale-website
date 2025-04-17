@@ -2,4 +2,10 @@
   "qname": "org.apache.royale.utils.net.IExternalizable",
 "baseInterfaceNames": [
 "flash.utils.IExternalizable"]
-}
+,
+    "description": "",
+  "tags": [
+    ],
+  "members": [
+  ]
+  }

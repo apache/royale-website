@@ -40,4 +40,7 @@
         "tags": [
         {  "tagName": "royaleignorecoercion",
                "values": ["Class", "org.apache.royale.core.UIBase"]}  ]}]
+  ,
+  "events": [
+  ]
   }

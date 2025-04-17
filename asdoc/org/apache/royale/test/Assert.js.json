@@ -3,6 +3,8 @@
   "baseClassname": ""
   ,
     "description": "A set of assertion methods. Messages only displayed when an assert fails.",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "assertStrictlyEquals",
@@ -11,6 +13,8 @@
         "details": ["static"],
         "deprecated": {},
           "description": "Asserts that the provided values are strictly equal (equivalent to the <code>===</code> operator).",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "actual", "type": "*"},
         { "name": "expected", "type": "*"},
@@ -23,6 +27,8 @@
         "details": ["static"],
         "deprecated": {},
           "description": "Asserts that the provided values are not strictly equal (equivalent to the <code>!==</code> operator).",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "actual", "type": "*"},
         { "name": "expected", "type": "*"},
@@ -65,6 +71,8 @@
         "details": ["static"],
         "deprecated": {},
           "description": "Asserts that the provided value is true (equivalent to testing the value in an <code>if(value)</code> statement).  <p>Note: Type coercion may occur. The assertion will pass for any value that is considered <em>truthy</em>. For strict comparison to true, without type coercion, use <code>assertStrictlyEquals(value, true, message)</code> instead.</p>",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "value", "type": "*"},
         { "name": "message", "type": "String"}]}
@@ -76,6 +84,8 @@
         "details": ["static"],
         "deprecated": {},
           "description": "Asserts that the provided value is false (equivalent to testing the value in an <code>if(!value)</code> statement).  <p>Note: Type coercion may occur. The assertion will pass for any value that is considered <em>falsy</em>. For strict comparison to false, without type coercion, use <code>assertStrictlyEquals(value, false, message)</code> instead.</p>",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "value", "type": "*"},
         { "name": "message", "type": "String"}]}
@@ -87,6 +97,8 @@
         "details": ["static"],
         "deprecated": {},
           "description": "Asserts that the provided value is null (equivalent to testing the value in an <code>if(value == null)</code> statement).  <p>Note: Type coercion may occur. The assertion will pass for any value that is considered <em>nullish</em>. For strict comparison to null, without type coercion, use <code>assertStrictlyEquals(value, null, message)</code> instead.</p>",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "actual", "type": "*"},
         { "name": "message", "type": "String"}]}
@@ -98,6 +110,8 @@
         "details": ["static"],
         "deprecated": {},
           "description": "Asserts that the provided value is not null (equivalent to testing the value in an <code>if(value != null)</code> statement).  <p>Note: Type coercion may occur. The assertion will fail for any value that is considered <em>nullish</em>. For strict comparison to null, without type coercion, use <code>assertNotStrictlyEquals(value, null, message)</code> instead.</p>",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "actual", "type": "*"},
         { "name": "message", "type": "String"}]}
@@ -109,6 +123,8 @@
         "details": ["static"],
         "deprecated": {},
           "description": "Asserts that the provided value is NaN (equivalent to testing the value in an <code>if(isNaN(value))</code> statement).",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "actual", "type": "Number"},
         { "name": "message", "type": "String"}]}
@@ -120,6 +136,8 @@
         "details": ["static"],
         "deprecated": {},
           "description": "Asserts that the provided value is between a minimum and maximum value (inclusive). Equivalent to testing the value in an <code>if(value >= minimum && value <= maximum)</code> statement.",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "actual", "type": "Number"},
         { "name": "minimum", "type": "Number"},
@@ -133,6 +151,8 @@
         "details": ["static"],
         "deprecated": {},
           "description": "Asserts that the provided value is not between a minimum and maximum value (inclusive). Equivalent to testing the value in an <code>if(value < minimum || value > maximum)</code> statement.",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "actual", "type": "Number"},
         { "name": "minimum", "type": "Number"},
@@ -146,6 +166,8 @@
         "details": ["static"],
         "deprecated": {},
           "description": "Asserts that the provided value is less than another value. Equivalent to testing the value in an <code>if(value < other)</code> statement.",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "actual", "type": "Number"},
         { "name": "other", "type": "Number"},
@@ -158,6 +180,8 @@
         "details": ["static"],
         "deprecated": {},
           "description": "Asserts that the provided value is greater than another value. Equivalent to testing the value in an <code>if(value > other)</code> statement.",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "actual", "type": "Number"},
         { "name": "other", "type": "Number"},
@@ -170,6 +194,8 @@
         "details": ["static"],
         "deprecated": {},
           "description": "Asserts that the provided value is less or equal to than another value. Equivalent to testing the value in an <code>if(value <= other)</code> statement.",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "actual", "type": "Number"},
         { "name": "other", "type": "Number"},
@@ -182,6 +208,8 @@
         "details": ["static"],
         "deprecated": {},
           "description": "Asserts that the provided value is greater than or equal to another value. Equivalent to testing the value in an <code>if(value >= other)</code> statement.",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "actual", "type": "Number"},
         { "name": "other", "type": "Number"},
@@ -194,6 +222,8 @@
         "details": ["static"],
         "deprecated": {},
           "description": "Asserts that the provided value is of a type. Equivalent to testing the value in an <code>if(value is type)</code> statement.",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "actual", "type": "*"},
         { "name": "type", "type": "Class"},
@@ -206,6 +236,8 @@
         "details": ["static"],
         "deprecated": {},
           "description": "Asserts that the provided value is not of a type. Equivalent to testing the value in an <code>if(!(value is type))</code> statement.",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "actual", "type": "*"},
         { "name": "type", "type": "Class"},
@@ -218,6 +250,8 @@
         "details": ["static"],
         "deprecated": {},
           "description": "Asserts that the provided value matches a regular expression. Equivalent to testing the value in an <code>if(regExp.test(value))</code> statement.",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "actual", "type": "String"},
         { "name": "regExp", "type": "RegExp"},
@@ -230,6 +264,8 @@
         "details": ["static"],
         "deprecated": {},
           "description": "Asserts that the provided value does not match a regular expression. Equivalent to testing the value in an <code>if(!regExp.test(value))</code> statement.",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "actual", "type": "String"},
         { "name": "regExp", "type": "RegExp"},
@@ -242,6 +278,8 @@
         "details": ["static"],
         "deprecated": {},
           "description": "Asserts that the provided function throws.  <p>Equivalent to <code>[Test(expected=&quot;RangeError&quot;)]</code></p>",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "fn", "type": "Function"},
         { "name": "type", "type": "Class"},
@@ -254,6 +292,8 @@
         "details": ["static"],
         "deprecated": {},
           "description": "Fails.",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "message", "type": "String"},
         { "name": "sourceError", "type": "Error"}]}
@@ -265,6 +305,8 @@
         "details": ["static"],
         "deprecated": {},
           "description": "Fails if the condition is true.  <p>Note: Type coercion may occur. The assertion will fail for any value that is considered <em>truthy</em>. For strict comparison to true, without type coercion, use <code>failStrictlyEquals(value, true, message)</code> instead.</p>",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "condition", "type": "*"},
         { "name": "message", "type": "String"}]}
@@ -276,6 +318,8 @@
         "details": ["static"],
         "deprecated": {},
           "description": "Fails if the condition is false.  <p>Note: Type coercion may occur. The assertion will fail for any value that is considered <em>falsy</em>. For strict comparison to false, without type coercion, use <code>failStrictlyEquals(value, false, message)</code> instead.</p>",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "condition", "type": "*"},
         { "name": "message", "type": "String"}]}
@@ -317,6 +361,8 @@
         "details": ["static"],
         "deprecated": {},
           "description": "Fails if the values are strictly equal.",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "actual", "type": "*"},
         { "name": "expected", "type": "*"},
@@ -329,6 +375,8 @@
         "details": ["static"],
         "deprecated": {},
           "description": "Fails if the values are not strictly equal.",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "actual", "type": "*"},
         { "name": "expected", "type": "*"},
@@ -341,6 +389,8 @@
         "details": ["static"],
         "deprecated": {},
           "description": "Fails if the value is null.  <p>Note: Type coercion may occur. The assertion will fail for any value that is considered <em>nullish</em>. For strict comparison to null, without type coercion, use <code>failStrictlyEquals(value, null, message)</code> instead.</p>",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "object", "type": "*"},
         { "name": "message", "type": "String"}]}
@@ -352,6 +402,8 @@
         "details": ["static"],
         "deprecated": {},
           "description": "Fails if the value is not null.  <p>Note: Type coercion may occur. The assertion will pass for any value that is considered <em>nullish</em>. For strict comparison to null, without type coercion, use <code>failNotStrictlyEquals(value, null, message)</code> instead.</p>",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "object", "type": "*"},
         { "name": "message", "type": "String"}]}
@@ -363,6 +415,8 @@
         "details": ["static"],
         "deprecated": {},
           "description": "Fails if the value is NaN.",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "actual", "type": "Number"},
         { "name": "message", "type": "String"}]}
@@ -374,6 +428,8 @@
         "details": ["static"],
         "deprecated": {},
           "description": "Fails if the provided value is between a minimum and maximum value (inclusive).",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "actual", "type": "Number"},
         { "name": "minimum", "type": "Number"},
@@ -387,6 +443,8 @@
         "details": ["static"],
         "deprecated": {},
           "description": "Fails if the provided value is not between a minimum and maximum value (inclusive).",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "actual", "type": "Number"},
         { "name": "minimum", "type": "Number"},
@@ -400,6 +458,8 @@
         "details": ["static"],
         "deprecated": {},
           "description": "Fails if the provided value is less than another value.",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "actual", "type": "Number"},
         { "name": "other", "type": "Number"},
@@ -412,6 +472,8 @@
         "details": ["static"],
         "deprecated": {},
           "description": "Fails if the provided value is greater than another value.",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "actual", "type": "Number"},
         { "name": "other", "type": "Number"},
@@ -424,6 +486,8 @@
         "details": ["static"],
         "deprecated": {},
           "description": "Fails if the provided value is less than or equal to another value.",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "actual", "type": "Number"},
         { "name": "other", "type": "Number"},
@@ -436,6 +500,8 @@
         "details": ["static"],
         "deprecated": {},
           "description": "Fails if the provided value is greater than or equal to another value.",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "actual", "type": "Number"},
         { "name": "other", "type": "Number"},
@@ -448,6 +514,8 @@
         "details": ["static"],
         "deprecated": {},
           "description": "Fails if the provided value is of a type.",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "actual", "type": "*"},
         { "name": "type", "type": "Class"},
@@ -460,6 +528,8 @@
         "details": ["static"],
         "deprecated": {},
           "description": "Fails if the provided value is not of a type.",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "actual", "type": "*"},
         { "name": "type", "type": "Class"},
@@ -472,6 +542,8 @@
         "details": ["static"],
         "deprecated": {},
           "description": "Fails if the provided value matches a regular expression.",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "actual", "type": "String"},
         { "name": "regExp", "type": "RegExp"},
@@ -484,6 +556,8 @@
         "details": ["static"],
         "deprecated": {},
           "description": "Fails if the provided value does not match a regular expression.",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "actual", "type": "String"},
         { "name": "regExp", "type": "RegExp"},
@@ -496,9 +570,14 @@
         "details": ["static"],
         "deprecated": {},
           "description": "Fails if the provided function throws.",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "fn", "type": "Function"},
         { "name": "type", "type": "Class"},
         { "name": "message", "type": "String"}]}
       ]
+  ,
+  "events": [
+  ]
   }

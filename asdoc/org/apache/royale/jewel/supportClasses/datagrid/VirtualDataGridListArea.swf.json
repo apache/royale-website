@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.jewel.supportClasses.datagrid.VirtualDataGridListArea",
   "baseClassname": "org.apache.royale.jewel.supportClasses.datagrid.DataGridListArea"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.jewel.supportClasses.datagrid.VirtualDataGridListArea",
@@ -9,7 +12,13 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

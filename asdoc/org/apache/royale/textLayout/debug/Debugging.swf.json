@@ -2,4 +2,12 @@
   "qname": "org.apache.royale.textLayout.debug.Debugging",
   "baseClassname": ""
   ,
-    "description": "@private"}
+    "description": "@private",
+  "tags": [
+    ],
+  "members": [
+  ]
+  ,
+  "events": [
+  ]
+  }

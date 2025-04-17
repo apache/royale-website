@@ -1,5 +1,11 @@
 { "type": "interface",
   "qname": "org.apache.royale.textLayout.factory.ITLFFactory",
+"baseInterfaceNames": [
+]
+,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "accessor",
     "access": "read-only",
@@ -8,13 +14,19 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "method",
     "qname": "getRect",
     "namespace": "public",
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "org.apache.royale.graphics.IRect",
       "params": [{ "name": "blendMode", "type": "String"}]}
   ,
@@ -24,6 +36,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "org.apache.royale.graphics.ICompoundGraphic",
       "params": [{ "name": "blendMode", "type": "String"}]}
   ,
@@ -33,6 +48,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "org.apache.royale.core.IParentIUIBase",
       "params": []}
   ,
@@ -43,13 +61,19 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "method",
     "qname": "getBlendMode",
     "namespace": "public",
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "String",
       "params": [{ "name": "obj", "type": "Object"}]}
   ,
@@ -59,6 +83,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "obj", "type": "Object"},
     { "name": "value", "type": "String"}]}

@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.textLayout.dummy.BoundsUtil",
   "baseClassname": ""
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "getBounds",
@@ -9,8 +12,14 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.geom.Rectangle",
           "params": [{ "name": "child", "type": "org.apache.royale.core.IUIBase"},
         { "name": "parent", "type": "org.apache.royale.core.IUIBase"}]}
       ]
+  ,
+  "events": [
+  ]
   }

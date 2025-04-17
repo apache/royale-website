@@ -17,6 +17,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "target", "type": "Object"}]}
       ,
@@ -26,14 +29,20 @@
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_labelField",
         "return": "String",
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "String",
@@ -42,14 +51,19 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Label field"},
+          "description": "Label field",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "tabsIdField",
         "return": "String",
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "write-only",
         "return": "org.apache.royale.core.IStrand",
@@ -116,5 +130,8 @@
   "events": [
   { "qname": "itemRendererCreated",
         "type": "org.apache.royale.events.ItemRendererEvent"
-      }]
+      ,
+          "description": "",
+        "tags": [
+          ]}]
   }

@@ -3,6 +3,8 @@
   "baseClassname": "org.apache.royale.textLayout.property.PropertyHandler"
   ,
     "description": "An property description with an enumerated string as its value. @private",
+  "tags": [
+    ],
   "members": [
   { "type": "accessor",
         "access": "read-only",
@@ -11,13 +13,19 @@
         "namespace": "public",
         "bindable": [],
         "details": ["override"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "org.apache.royale.textLayout.property.EnumPropertyHandler",
         "namespace": "",
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "propArray", "type": "Array"}]}
       ,
@@ -29,5 +37,10 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Returns object whose properties are the legal enum values"}]
+          "description": "Returns object whose properties are the legal enum values",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

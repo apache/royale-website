@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "org.apache.royale.core.IHasImage",
+"baseInterfaceNames": [
+]
+,
     "description": "The IHasImage interface describes the minimum set of properties available to a component with an image.",
   "tags": [
   {  "tagName": "playerversion",
@@ -16,5 +19,8 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}}]
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]}]
   }

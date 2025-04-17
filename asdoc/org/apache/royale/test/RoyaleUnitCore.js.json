@@ -3,6 +3,8 @@
   "baseClassname": "org.apache.royale.events.EventDispatcher"
   ,
     "description": "Simple entry point for running tests.",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.test.RoyaleUnitCore",
@@ -11,6 +13,8 @@
         "details": [],
         "deprecated": {},
           "description": "Constructor.",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ,
@@ -21,6 +25,8 @@
         "details": [],
         "deprecated": {},
           "description": "Requests that the runner stops running the tests. Phrased politely because the test that is currently running may not be interrupted before completing.",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -31,6 +37,8 @@
         "details": [],
         "deprecated": {},
           "description": "Adds a run listener.",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "listener", "type": "org.apache.royale.test.runners.notification.IRunListener"}]}
       ,
@@ -41,9 +49,14 @@
         "details": [],
         "deprecated": {},
           "description": "Removes a run listener.",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "listener", "type": "org.apache.royale.test.runners.notification.IRunListener"}]}
       ]
+  ,
+  "events": [
+  ]
   }
 
 

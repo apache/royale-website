@@ -70,4 +70,7 @@
           "params": [{ "name": "w", "type": "Number"},
         { "name": "h", "type": "Number"}]}
       ]
+  ,
+  "events": [
+  ]
   }

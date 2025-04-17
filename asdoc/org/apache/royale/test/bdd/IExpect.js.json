@@ -1,6 +1,11 @@
 { "type": "interface",
   "qname": "org.apache.royale.test.bdd.IExpect",
+"baseInterfaceNames": [
+]
+,
     "description": "Interface for BDD-style natural language assertions that may be chained together.",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
     "qname": "equal",
@@ -319,7 +324,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
-      "description": "Negates all assertions that follow in the chain."},
+      "description": "Negates all assertions that follow in the chain.",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-only",
     "return": "org.apache.royale.test.bdd.IExpect",
@@ -376,7 +383,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
-      "description": "Chainable getter to improve readability without altering the assertion."},
+      "description": "Chainable getter to improve readability without altering the assertion.",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-only",
     "return": "org.apache.royale.test.bdd.IExpect",
@@ -385,7 +394,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
-      "description": "Chainable getter to improve readability without altering the assertion."},
+      "description": "Chainable getter to improve readability without altering the assertion.",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-only",
     "return": "org.apache.royale.test.bdd.IExpect",
@@ -394,7 +405,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
-      "description": "Chainable getter to improve readability without altering the assertion."},
+      "description": "Chainable getter to improve readability without altering the assertion.",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-only",
     "return": "org.apache.royale.test.bdd.IExpect",
@@ -403,7 +416,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
-      "description": "Chainable getter to improve readability without altering the assertion."},
+      "description": "Chainable getter to improve readability without altering the assertion.",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-only",
     "return": "org.apache.royale.test.bdd.IExpect",
@@ -412,7 +427,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
-      "description": "Chainable getter to improve readability without altering the assertion."},
+      "description": "Chainable getter to improve readability without altering the assertion.",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-only",
     "return": "org.apache.royale.test.bdd.IExpect",
@@ -421,7 +438,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
-      "description": "Chainable getter to improve readability without altering the assertion."},
+      "description": "Chainable getter to improve readability without altering the assertion.",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-only",
     "return": "org.apache.royale.test.bdd.IExpect",
@@ -430,7 +449,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
-      "description": "Chainable getter to improve readability without altering the assertion."},
+      "description": "Chainable getter to improve readability without altering the assertion.",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-only",
     "return": "org.apache.royale.test.bdd.IExpect",
@@ -439,7 +460,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
-      "description": "Chainable getter to improve readability without altering the assertion."},
+      "description": "Chainable getter to improve readability without altering the assertion.",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-only",
     "return": "org.apache.royale.test.bdd.IExpect",
@@ -448,7 +471,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
-      "description": "Chainable getter to improve readability without altering the assertion."},
+      "description": "Chainable getter to improve readability without altering the assertion.",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-only",
     "return": "org.apache.royale.test.bdd.IExpect",
@@ -457,7 +482,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
-      "description": "Chainable getter to improve readability without altering the assertion."},
+      "description": "Chainable getter to improve readability without altering the assertion.",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-only",
     "return": "org.apache.royale.test.bdd.IExpect",
@@ -466,7 +493,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
-      "description": "Chainable getter to improve readability without altering the assertion."},
+      "description": "Chainable getter to improve readability without altering the assertion.",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-only",
     "return": "org.apache.royale.test.bdd.IExpect",
@@ -475,7 +504,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
-      "description": "Chainable getter to improve readability without altering the assertion."},
+      "description": "Chainable getter to improve readability without altering the assertion.",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-only",
     "return": "org.apache.royale.test.bdd.IExpect",
@@ -484,7 +515,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
-      "description": "Chainable getter to improve readability without altering the assertion."},
+      "description": "Chainable getter to improve readability without altering the assertion.",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-only",
     "return": "org.apache.royale.test.bdd.IExpect",
@@ -493,7 +526,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
-      "description": "Chainable getter to improve readability without altering the assertion."},
+      "description": "Chainable getter to improve readability without altering the assertion.",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-only",
     "return": "org.apache.royale.test.bdd.IExpect",
@@ -502,5 +537,7 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
-      "description": "Chainable getter to improve readability without altering the assertion."}]
+      "description": "Chainable getter to improve readability without altering the assertion.",
+    "tags": [
+      ]}]
   }

@@ -17,6 +17,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "table", "type": "org.apache.royale.textLayout.elements.ITableElement"},
         { "name": "anchorCoords", "type": "org.apache.royale.textLayout.elements.CellCoordinates"},
@@ -50,7 +53,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The TableElement of the selection."},
+          "description": "The TableElement of the selection.",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "org.apache.royale.textLayout.elements.CellCoordinates",
@@ -59,7 +64,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Anchor point of the current selection, as a CellCoordinates in the TableElement."},
+          "description": "Anchor point of the current selection, as a CellCoordinates in the TableElement.",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "org.apache.royale.textLayout.elements.CellCoordinates",
@@ -68,5 +75,10 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Active end of the current selection, as a CellCoordinates in the TableElement."}]
+          "description": "Active end of the current selection, as a CellCoordinates in the TableElement.",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }

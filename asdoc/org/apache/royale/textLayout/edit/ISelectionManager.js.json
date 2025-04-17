@@ -35,13 +35,19 @@
     "namespace": "public",
     "bindable": [],
     "details": [],
-    "deprecated": {}},
+    "deprecated": {},
+      "description": "",
+    "tags": [
+      ]},
   { "type": "method",
     "qname": "hasCellRangeSelection",
     "namespace": "public",
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "Boolean",
       "params": []}
   ,
@@ -51,6 +57,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "anchorCoords", "type": "org.apache.royale.textLayout.elements.CellCoordinates"},
     { "name": "activeCoords", "type": "org.apache.royale.textLayout.elements.CellCoordinates"}]}
@@ -61,6 +70,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "org.apache.royale.textLayout.elements.CellRange",
       "params": []}
   ,
@@ -70,6 +82,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "void",
       "params": [{ "name": "range", "type": "org.apache.royale.textLayout.elements.CellRange"}]}
   ,
@@ -81,7 +96,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
-      "description": "Anchor point of the current cell selection, as coordinates within the table."},
+      "description": "Anchor point of the current cell selection, as coordinates within the table.",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-write",
     "return": "org.apache.royale.textLayout.elements.CellCoordinates",
@@ -90,7 +107,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
-      "description": "Active end of the current cell selection, as coordinates within the table."},
+      "description": "Active end of the current cell selection, as coordinates within the table.",
+    "tags": [
+      ]},
   { "type": "accessor",
     "access": "read-only",
     "return": "int",
@@ -645,6 +664,9 @@
     "bindable": [],
     "details": [],
     "deprecated": {},
+      "description": "",
+    "tags": [
+      ],
       "return": "org.apache.royale.textLayout.edit.ISelectionManager",
       "params": [{ "name": "sharedUndo", "type": "Boolean"}]}
   ]

@@ -24,7 +24,10 @@
         "namespace": "mx_internal",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "mx.controls.advancedDataGridClasses.AdvancedDataGridColumn",
         "namespace": "",
@@ -51,7 +54,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Number",
@@ -59,7 +65,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "uint",
@@ -67,7 +76,10 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "editorHeightOffset",
         "return": "Number",
@@ -222,4 +234,7 @@
           "return": "mx.controls.advancedDataGridClasses.AdvancedDataGridColumn",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

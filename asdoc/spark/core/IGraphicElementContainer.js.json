@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "spark.core.IGraphicElementContainer",
+"baseInterfaceNames": [
+]
+,
     "description": "The IGraphicElementContainer is the minimal contract for a container class to support <code>IGraphicElement</code> children.  <p>Typically instead of directly implementing this interface, a developer would sub-class Group which already implements the IGraphicElementContainer interface.</p>",
   "tags": [
   {  "tagName": "see",

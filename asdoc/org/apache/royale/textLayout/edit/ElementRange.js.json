@@ -225,4 +225,7 @@
         { "name": "absoluteStart", "type": "int"},
         { "name": "absoluteEnd", "type": "int"}]}
       ]
+  ,
+  "events": [
+  ]
   }

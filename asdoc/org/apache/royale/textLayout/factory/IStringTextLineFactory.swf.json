@@ -2,4 +2,10 @@
   "qname": "org.apache.royale.textLayout.factory.IStringTextLineFactory",
 "baseInterfaceNames": [
 "org.apache.royale.textLayout.factory.ITextLineFactory"]
-}
+,
+    "description": "",
+  "tags": [
+    ],
+  "members": [
+  ]
+  }

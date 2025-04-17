@@ -68,14 +68,20 @@
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "textNode",
         "return": "Text",
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "createElement",
         "namespace": "protected",
@@ -89,4 +95,7 @@
           "return": "org.apache.royale.core.WrappedHTMLElement",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

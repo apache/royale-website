@@ -34,7 +34,13 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "dataGroup", "type": "org.apache.royale.core.IItemRendererOwnerView"}]}
       ]
+  ,
+  "events": [
+  ]
   }

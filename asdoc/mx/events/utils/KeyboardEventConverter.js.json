@@ -31,4 +31,7 @@
           "params": [{ "name": "nativeEvent", "type": "Object"},
         { "name": "browserEvent", "type": "goog.events.BrowserEvent"}]}
       ]
+  ,
+  "events": [
+  ]
   }

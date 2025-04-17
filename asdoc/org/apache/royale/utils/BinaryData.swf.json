@@ -89,7 +89,10 @@
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-only",
         "return": "Object",
@@ -130,6 +133,8 @@
         "details": [],
         "deprecated": {},
           "description": "create a string representation of the binary data",
+        "tags": [
+          ],
           "return": "String",
           "params": []}
       ,
@@ -200,6 +205,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "bytes", "type": "flash.utils.ByteArray"},
         { "name": "offset", "type": "uint"},
@@ -384,6 +392,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "bytes", "type": "flash.utils.ByteArray"},
         { "name": "offset", "type": "uint"},
@@ -689,6 +700,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "String",
           "params": [{ "name": "length", "type": "uint"},
         { "name": "charSet", "type": "String"}]}
@@ -699,8 +713,14 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "value", "type": "String"},
         { "name": "charSet", "type": "String"}]}
       ]
+  ,
+  "events": [
+  ]
   }

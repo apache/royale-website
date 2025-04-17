@@ -17,6 +17,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ,
@@ -26,6 +29,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "value", "type": "String"}]}
       ,
@@ -42,4 +48,7 @@
           "return": "org.apache.royale.core.WrappedHTMLElement",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

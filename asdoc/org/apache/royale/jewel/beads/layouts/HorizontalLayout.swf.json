@@ -84,7 +84,10 @@
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Number",
@@ -109,7 +112,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Specifies whether layout elements are allocated their preferred height. Setting this property to false specifies fixed height rows.  If false, the actual height of each layout element is the value of rowHeight. The default value is true.  Note: From Flex but we should see what to do in Royale -> Setting this property to false causes the layout to ignore the layout elements' percentHeight property."},
+          "description": "Specifies whether layout elements are allocated their preferred height. Setting this property to false specifies fixed height rows.  If false, the actual height of each layout element is the value of rowHeight. The default value is true.  Note: From Flex but we should see what to do in Royale -> Setting this property to false causes the layout to ignore the layout elements' percentHeight property.",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "layout",
         "namespace": "public",
@@ -125,4 +130,7 @@
           "return": "Boolean",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

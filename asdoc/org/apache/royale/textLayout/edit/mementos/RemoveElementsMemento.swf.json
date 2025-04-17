@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.textLayout.edit.mementos.RemoveElementsMemento",
   "baseClassname": "org.apache.royale.textLayout.edit.mementos.BaseMemento"
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.textLayout.edit.mementos.RemoveElementsMemento",
@@ -26,6 +29,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "*",
           "params": [{ "name": "textFlow", "type": "org.apache.royale.textLayout.elements.ITextFlow"},
         { "name": "parent", "type": "org.apache.royale.textLayout.elements.IFlowGroupElement"},
@@ -59,4 +65,7 @@
           "return": "*",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

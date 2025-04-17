@@ -3,6 +3,8 @@
   "baseClassname": "spark.components.Group"
   ,
     "description": "This class is internal to the DataGrid implementation.  A Grid element (child) that displays a rectangular region within the Grid. The GridView's region is defined by four GridViewLayout properties: viewRowIndex and viewColumnIndex - the origin of the region, viewRowCount and viewColumnCount - the size of the region.  The GridView contains GridLayers which contain all of the Grid's visual elements, the renderers, indicators, separators, etc.  GridViews are created automatically by the Grid class, based on the values of the lockedRowCount and lockedColumnCount Grid properties.",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "spark.components.gridClasses.GridView",
@@ -11,6 +13,8 @@
         "details": [],
         "deprecated": {},
           "description": "Creates a GridView group with its layout set to a private GridView specific value.",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ,
@@ -22,7 +26,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Return this GridView's GridViewLayout."},
+          "description": "Return this GridView's GridViewLayout.",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "containsMouseEvent",
         "namespace": "public",
@@ -30,6 +36,8 @@
         "details": [],
         "deprecated": {},
           "description": "True if this GridView's bounds contain the event.  Currently this method does not account for the possibility that this GridView has been rotated or scaled.",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": [{ "name": "event", "type": "mx.events.MouseEvent"}]}
       ,
@@ -40,6 +48,8 @@
         "details": [],
         "deprecated": {},
           "description": "Returns the view-relative index of the next GridColumn.visible==true column after index. Returns -1 if there are no more visible columns. To find the first GridColumn.visible==true column index, use getNextVisibleColumnIndex(-1).",
+        "tags": [
+          ],
           "return": "int",
           "params": [{ "name": "index", "type": "int"}]}
       ,
@@ -50,7 +60,12 @@
         "details": [],
         "deprecated": {},
           "description": "Returns the view-relative index of the previous GridColumn.visible==true column before index. Returns -1 if there are no more visible columns. To find the last GridColumn.visible==true column index, use getPreviousVisibleColumnIndex(columns.length).",
+        "tags": [
+          ],
           "return": "int",
           "params": [{ "name": "index", "type": "int"}]}
       ]
+  ,
+  "events": [
+  ]
   }

@@ -38,6 +38,9 @@
         "bindable": [],
         "details": ["override"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": []}
       ,
@@ -106,7 +109,7 @@
           "description": "Data used to populate the navigator control. The type of data can either be a ViewStack container or an Array.  <p>When you use a ViewStack container, the <code>label</code> and <code>icon</code> properties of the ViewStack container's children are used to populate the navigation items, as in the following example:</p>  <pre>\\n &lt;mx:LinkBar dataProvider=&quot;{vs}&quot;/&gt;\\n &lt;mx:ViewStack id=&quot;vs&quot;&gt;\\n &lt;mx:VBox label=&quot;Accounts&quot; icon=&quot;account_icon&quot;/&gt;\\n &lt;mx:VBox label=&quot;Leads&quot; icon=&quot;leads_icon&quot;/&gt;\\n &lt;/mx:ViewStack&gt; </pre>  <p>The LinkBar control contains two links: &quot;Accounts&quot; and &quot;Leads,&quot; each with its own icon as specified on the VBox tags. When you click a link, the ViewStack container navigates to the corresponding view.</p>  <p>When you use an Array, the <code>labelField</code> property determines the name of the <code>dataProvider</code> field to use as the label for each navigation item; the <code>iconField</code> property determines the name of the <code>dataProvider</code> field to use as the icon for each navigation item. If you use an Array of Strings, the <code>labelField</code> property is ignored.</p>",
         "tags": [
         {  "tagName": "default",
-               "values": [""undefined""]},
+               "values": ["\"undefined\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
@@ -124,7 +127,7 @@
           "description": "Name of the the field in the <code>dataProvider</code> object to use as the enabled label.",
         "tags": [
         {  "tagName": "default",
-               "values": [""enabled""]},
+               "values": ["\"enabled\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 11.1", "AIR 3.4"]},
             {  "tagName": "productversion",
@@ -142,7 +145,7 @@
           "description": "Name of the field in the <code>dataProvider</code> object to display as the icon for each navigation item.",
         "tags": [
         {  "tagName": "default",
-               "values": [""icon""]},
+               "values": ["\"icon\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
@@ -160,7 +163,7 @@
           "description": "Name of the field in the <code>dataProvider</code> object to display as the label for each navigation item.",
         "tags": [
         {  "tagName": "default",
-               "values": [""label""]},
+               "values": ["\"label\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",
@@ -214,7 +217,7 @@
           "description": "Name of the the field in the <code>dataProvider</code> object to display as the tooltip label.",
         "tags": [
         {  "tagName": "default",
-               "values": [""toolTip""]},
+               "values": ["\"toolTip\""]},
             {  "tagName": "playerversion",
                "values": ["Flash 9", "AIR 1.1"]},
             {  "tagName": "productversion",

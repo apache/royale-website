@@ -36,7 +36,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The HTMLElement used to position the component."},
+          "description": "The HTMLElement used to position the component.",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_model",
         "return": "Object",
@@ -44,7 +46,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "allow access from overrides"},
+          "description": "allow access from overrides",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Object",

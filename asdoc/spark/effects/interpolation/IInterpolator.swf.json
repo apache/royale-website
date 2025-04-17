@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "spark.effects.interpolation.IInterpolator",
+"baseInterfaceNames": [
+]
+,
     "description": "The IInterpolator interface is implemented by classes that calculate values for the Animation class. The Animation class can handle parametric interpolation between Number values and arrays of Number values, but it cannot handle different types of interpolation, or interpolation between different types of values. Implementors of this interface can provide arbitrary interpolation capabilities so that Animations can be created between arbitrary values.",
   "tags": [
   {  "tagName": "playerversion",

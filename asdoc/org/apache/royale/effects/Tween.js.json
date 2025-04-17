@@ -111,7 +111,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Final value of the animation."},
+          "description": "Final value of the animation.",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Number",
@@ -120,7 +122,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Initial value of the animation."},
+          "description": "Initial value of the animation.",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "listener",
         "return": "Object",
@@ -298,14 +302,26 @@
   "events": [
   { "qname": "tweenEnd",
         "type": "org.apache.royale.events.ValueEvent"
-      },
+      ,
+          "description": "",
+        "tags": [
+          ]},
       { "qname": "tweenStart",
         "type": "org.apache.royale.events.ValueEvent"
-      },
+      ,
+          "description": "",
+        "tags": [
+          ]},
       { "qname": "tweenUpdate",
         "type": "org.apache.royale.events.ValueEvent"
-      },
+      ,
+          "description": "",
+        "tags": [
+          ]},
       { "qname": "effectEnd",
         "type": "org.apache.royale.events.Event"
-      }]
+      ,
+          "description": "",
+        "tags": [
+          ]}]
   }

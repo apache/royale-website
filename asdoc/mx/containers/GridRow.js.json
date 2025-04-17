@@ -54,4 +54,7 @@
           "params": [{ "name": "unscaledWidth", "type": "Number"},
         { "name": "unscaledHeight", "type": "Number"}]}
       ]
+  ,
+  "events": [
+  ]
   }

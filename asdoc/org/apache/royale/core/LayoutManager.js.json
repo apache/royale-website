@@ -45,4 +45,7 @@
           "return": "void",
           "params": [{ "name": "callback", "type": "Function"}]}
       ]
+  ,
+  "events": [
+  ]
   }

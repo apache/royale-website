@@ -23,6 +23,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "mx.core.IUIComponent",
           "params": [{ "name": "index", "type": "int"}]}
       ,
@@ -85,7 +88,7 @@
           "description": "Determines how children are placed in the container. Possible MXML values  are <code>&quot;horizontal&quot;</code> and <code>&quot;vertical&quot;</code>. In ActionScript, you can set the direction using the values TileDirection.HORIZONTAL or TileDirection.VERTICAL. The default value is <code>&quot;horizontal&quot;</code>. (If the container is a Legend container, which is a subclass of Tile, the default value is <code>&quot;vertical&quot;</code>.)  <p>The first child is always placed at the upper-left of the Tile container. If the <code>direction</code> is <code>&quot;horizontal&quot;</code>, the children are placed left-to-right in the topmost row, and then left-to-right in the second row, and so on. If the value is <code>&quot;vertical&quot;</code>, the children are placed top-to-bottom in the leftmost column, and then top-to-bottom in the second column, and so on.</p>",
         "tags": [
         {  "tagName": "default",
-               "values": [""horizontal""]},
+               "values": ["\"horizontal\""]},
             {  "tagName": "see",
                "values": ["TileDirection"]},
             {  "tagName": "playerversion",
@@ -486,7 +489,7 @@
             "description": "The text displayed by some navigator containers to represent this Container.  <p>For example, if this Container is a child of a TabNavigator, this string appears in the corresponding tab. If this Container is a child of an Accordion, this string appears in the corresponding header.</p>",
           "tags": [
           {  "tagName": "default",
-                 "values": [""""]},
+                 "values": ["\"\""]},
               {  "tagName": "playerversion",
                  "values": ["Flash 9", "AIR 1.1"]},
               {  "tagName": "productversion",
@@ -1019,7 +1022,10 @@
           "namespace": "mx_internal",
           "bindable": [],
           "details": [],
-          "deprecated": {}},
+          "deprecated": {},
+            "description": "",
+          "tags": [
+            ]},
         { "type": "method",
           "qname": "executeChildBindings",
           "namespace": "public",

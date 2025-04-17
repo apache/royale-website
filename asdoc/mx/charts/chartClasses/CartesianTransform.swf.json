@@ -134,4 +134,7 @@
         { "name": "yField", "type": "String"},
         { "name": "yConvertedField", "type": "String"}]}
       ]
+  ,
+  "events": [
+  ]
   }

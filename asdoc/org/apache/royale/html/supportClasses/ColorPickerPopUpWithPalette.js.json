@@ -19,7 +19,10 @@
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "org.apache.royale.html.supportClasses.ColorPickerPopUpWithPalette",
         "namespace": "",
@@ -49,4 +52,7 @@
         "tags": [
         {  "tagName": "royaleignorecoercion",
                "values": ["Class", "org.apache.royale.core.IBeadModel", "Class", "org.apache.royale.core.IBeadModel", "Class", "org.apache.royale.core.IBeadModel"]}  ]}]
+  ,
+  "events": [
+  ]
   }

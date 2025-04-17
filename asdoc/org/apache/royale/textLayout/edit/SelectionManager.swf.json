@@ -17,7 +17,10 @@
         "namespace": "public",
         "bindable": [],
         "details": ["static"],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "SelectTable",
         "return": "String",
@@ -25,7 +28,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Cursor for selection of table"},
+          "description": "Cursor for selection of table",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "SelectTableRow",
         "return": "String",
@@ -33,7 +38,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Cursor for selection of table row"},
+          "description": "Cursor for selection of table row",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "SelectTableColumn",
         "return": "String",
@@ -41,21 +48,29 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
-          "description": "Cursor for selection of table column"},
+          "description": "Cursor for selection of table column",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_subManager",
         "return": "org.apache.royale.textLayout.edit.ISelectionManager",
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "_superManager",
         "return": "org.apache.royale.textLayout.edit.ISelectionManager",
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "org.apache.royale.textLayout.elements.ITableElement",
@@ -63,13 +78,19 @@
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "hasCellRangeSelection",
         "namespace": "public",
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Boolean",
           "params": []}
       ,
@@ -80,6 +101,8 @@
         "details": [],
         "deprecated": {},
           "description": "Select a table cell text flow",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "cell", "type": "org.apache.royale.textLayout.elements.ITableCellElement"}]}
       ,
@@ -90,6 +113,8 @@
         "details": [],
         "deprecated": {},
           "description": "Select a table cell.",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "cell", "type": "org.apache.royale.textLayout.elements.ITableCellElement"}]}
       ,
@@ -100,6 +125,8 @@
         "details": [],
         "deprecated": {},
           "description": "Select table cells at the specified index.",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "table", "type": "org.apache.royale.textLayout.elements.ITableElement"},
         { "name": "rowIndex", "type": "int"},
@@ -112,6 +139,8 @@
         "details": [],
         "deprecated": {},
           "description": "Select table cells at the specified index",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "cells", "type": "Vector.<org.apache.royale.textLayout.elements.ITableCellElement>"}]}
       ,
@@ -122,6 +151,8 @@
         "details": [],
         "deprecated": {},
           "description": "Select the specified table row.",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "row", "type": "org.apache.royale.textLayout.elements.ITableRowElement"}]}
       ,
@@ -132,6 +163,8 @@
         "details": [],
         "deprecated": {},
           "description": "Select a table row at the specified index",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "table", "type": "org.apache.royale.textLayout.elements.ITableElement"},
         { "name": "index", "type": "int"}]}
@@ -156,6 +189,8 @@
         "details": [],
         "deprecated": {},
           "description": "Select a table column.",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "column", "type": "org.apache.royale.textLayout.elements.ITableColElement"}]}
       ,
@@ -166,6 +201,8 @@
         "details": [],
         "deprecated": {},
           "description": "Select a table column at the specified index",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "table", "type": "org.apache.royale.textLayout.elements.ITableElement"},
         { "name": "index", "type": "int"}]}
@@ -177,6 +214,8 @@
         "details": [],
         "deprecated": {},
           "description": "Selects the table columns provided",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "columns", "type": "Array"}]}
       ,
@@ -187,6 +226,8 @@
         "details": [],
         "deprecated": {},
           "description": "Select all cells in a table.",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "table", "type": "org.apache.royale.textLayout.elements.ITableElement"}]}
       ,
@@ -197,6 +238,8 @@
         "details": [],
         "deprecated": {},
           "description": "Select a range of table cells.",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "anchorCoords", "type": "org.apache.royale.textLayout.elements.CellCoordinates"},
         { "name": "activeCoords", "type": "org.apache.royale.textLayout.elements.CellCoordinates"}]}
@@ -207,6 +250,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.elements.CellRange",
           "params": []}
       ,
@@ -216,6 +262,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "range", "type": "org.apache.royale.textLayout.elements.CellRange"}]}
       ,
@@ -227,7 +276,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "The format that will be applied to inserted text.  TBD: pointFormat needs to be extended to remember user styles and &quot;undefine&quot; of formats from calls to IEditManager.undefineFormat with leafFormat values on a point selection."},
+          "description": "The format that will be applied to inserted text.  TBD: pointFormat needs to be extended to remember user styles and &quot;undefine&quot; of formats from calls to IEditManager.undefineFormat with leafFormat values on a point selection.",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "org.apache.royale.textLayout.edit.SelectionManager",
         "namespace": "",
@@ -566,7 +617,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "@private - returns the selectionFormatState.  @see org.apache.royale.textLayout.edit.SelectionFormatState"},
+          "description": "@private - returns the selectionFormatState.  @see org.apache.royale.textLayout.edit.SelectionFormatState",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "setFocus",
         "namespace": "public",
@@ -1262,7 +1315,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Anchor point of the current cell selection, as coordinates within the table."},
+          "description": "Anchor point of the current cell selection, as coordinates within the table.",
+        "tags": [
+          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "org.apache.royale.textLayout.elements.CellCoordinates",
@@ -1271,21 +1326,29 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "Active end of the current cell selection, as coordinates within the table."},
+          "description": "Active end of the current cell selection, as coordinates within the table.",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "selectTableCursorPoints",
         "return": "Vector.<Number>",
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "selectTableCursorDrawCommands",
         "return": "Vector.<int>",
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "method",
         "qname": "createSelectTableCursor",
         "namespace": "public",
@@ -1293,6 +1356,8 @@
         "details": [],
         "deprecated": {},
           "description": "Create a select table cursor",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.dummy.MouseCursorData",
           "params": []}
       ,
@@ -1303,6 +1368,8 @@
         "details": [],
         "deprecated": {},
           "description": "Create a select row cursor",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.dummy.MouseCursorData",
           "params": []}
       ,
@@ -1313,6 +1380,8 @@
         "details": [],
         "deprecated": {},
           "description": "Create a select table column cursor",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.dummy.MouseCursorData",
           "params": []}
       ,
@@ -1322,7 +1391,13 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.textLayout.edit.ISelectionManager",
           "params": [{ "name": "sharedUndo", "type": "Boolean"}]}
       ]
+  ,
+  "events": [
+  ]
   }

@@ -134,4 +134,7 @@
           "return": "void",
           "params": [{ "name": "icon", "type": "flash.display.Shape"}]}
       ]
+  ,
+  "events": [
+  ]
   }

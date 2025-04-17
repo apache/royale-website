@@ -72,6 +72,8 @@
         "details": [],
         "deprecated": {},
           "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.jewel.Label",
           "params": [{ "name": "labelText", "type": "String"}]}
       ,
@@ -82,6 +84,8 @@
         "details": [],
         "deprecated": {},
           "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "event", "type": "org.apache.royale.events.Event"}]}
       ,
@@ -92,7 +96,12 @@
         "details": [],
         "deprecated": {},
           "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "event", "type": "org.apache.royale.events.Event"}]}
       ]
+  ,
+  "events": [
+  ]
   }

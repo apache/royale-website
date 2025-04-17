@@ -55,7 +55,7 @@
           "description": "Defines the anti-aliasing setting for the UITextField class. The possible values are <code>&quot;normal&quot;</code> (<code>flash.text.AntiAliasType.NORMAL</code>) and <code>&quot;advanced&quot;</code> (<code>flash.text.AntiAliasType.ADVANCED</code>).  <p>The default value is <code>&quot;advanced&quot;</code>, which enables advanced anti-aliasing for the embedded font. Set this property to <code>&quot;normal&quot;</code> to disable the advanced anti-aliasing.</p>  <p>This property has no effect for system fonts.</p>  <p>This property applies to all the text in a UITextField object; you cannot apply it to some characters and not others.</p>",
         "tags": [
         {  "tagName": "default",
-               "values": [""advanced""]},
+               "values": ["\"advanced\""]},
             {  "tagName": "see",
                "values": ["flash.text.AntiAliasType"]},
             {  "tagName": "playerversion",
@@ -91,7 +91,7 @@
           "description": "Defines the grid-fitting setting for the UITextField class. The possible values are <code>&quot;none&quot;</code> (<code>flash.text.GridFitType.NONE</code>), <code>&quot;pixel&quot;</code> (<code>flash.text.GridFitType.PIXEL</code>), and <code>&quot;subpixel&quot;</code> (<code>flash.text.GridFitType.SUBPIXEL</code>).  <p>This property only applies when you are using an embedded font and the <code>fontAntiAliasType</code> property is set to <code>&quot;advanced&quot;</code>.</p>  <p>This property has no effect for system fonts.</p>  <p>This property applies to all the text in a UITextField object; you cannot apply it to some characters and not others.</p>",
         "tags": [
         {  "tagName": "default",
-               "values": [""pixel""]},
+               "values": ["\"pixel\""]},
             {  "tagName": "see",
                "values": ["flash.text.GridFitType"]},
             {  "tagName": "playerversion",
@@ -220,4 +220,7 @@
           "params": [{ "name": "htmlText", "type": "String"},
         { "name": "roundUp", "type": "Boolean"}]}
       ]
+  ,
+  "events": [
+  ]
   }

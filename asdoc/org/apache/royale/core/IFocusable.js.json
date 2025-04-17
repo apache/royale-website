@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "org.apache.royale.core.IFocusable",
+"baseInterfaceNames": [
+]
+,
     "description": "The IFocusable interface should be implemented by any component that can get the focus",
   "tags": [
   {  "tagName": "playerversion",

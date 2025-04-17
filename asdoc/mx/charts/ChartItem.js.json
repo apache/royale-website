@@ -219,4 +219,7 @@
           "return": "mx.charts.ChartItem",
           "params": []}
       ]
+  ,
+  "events": [
+  ]
   }

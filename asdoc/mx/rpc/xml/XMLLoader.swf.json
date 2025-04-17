@@ -13,6 +13,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": [{ "name": "httpService", "type": "mx.rpc.http.HTTPService"}]}
       ,
@@ -39,6 +42,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "void",
           "params": [{ "name": "httpService", "type": "mx.rpc.http.HTTPService"}]}
       ,
@@ -48,6 +54,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "mx.rpc.AsyncToken",
           "params": [{ "name": "location", "type": "String"}]}
       ,
@@ -57,6 +66,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "String",
           "params": [{ "name": "location", "type": "String"},
         { "name": "parentLocation", "type": "String"}]}
@@ -101,20 +113,32 @@
         "namespace": "protected",
         "bindable": [],
         "details": [],
-        "deprecated": {}},
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]},
       { "type": "field",
         "qname": "loadsOutstanding",
         "return": "int",
         "namespace": "public",
         "bindable": [],
         "details": [],
-        "deprecated": {}}]
+        "deprecated": {},
+          "description": "",
+        "tags": [
+          ]}]
   ,
   "events": [
   { "qname": "fault",
         "type": "mx.rpc.events.FaultEvent"
-      },
+      ,
+          "description": "",
+        "tags": [
+          ]},
       { "qname": "xmlLoad",
         "type": "mx.rpc.events.XMLLoadEvent"
-      }]
+      ,
+          "description": "",
+        "tags": [
+          ]}]
   }

@@ -1,5 +1,8 @@
 { "type": "interface",
   "qname": "org.apache.royale.utils.IEmphasis",
+"baseInterfaceNames": [
+]
+,
     "description": "The IEmphasis is the interface a jewel control implements to get diferent jewel look and feels. Jewel has PRIMARY, SECONDARY and EMPHASIZED emphasis look and feels.",
   "tags": [
   {  "tagName": "playerversion",

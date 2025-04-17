@@ -2,6 +2,9 @@
   "qname": "org.apache.royale.utils.MoveGenerator",
   "baseClassname": ""
   ,
+    "description": "",
+  "tags": [
+    ],
   "members": [
   { "type": "method",
         "qname": "org.apache.royale.utils.MoveGenerator",
@@ -9,6 +12,9 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "",
           "params": []}
       ,
@@ -18,8 +24,14 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "org.apache.royale.effects.IEffect",
           "params": [{ "name": "source", "type": "org.apache.royale.core.ILayoutChild"},
         { "name": "destination", "type": "org.apache.royale.core.ILayoutChild"}]}
       ]
+  ,
+  "events": [
+  ]
   }

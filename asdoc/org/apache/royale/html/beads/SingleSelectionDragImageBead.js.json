@@ -61,10 +61,13 @@
             {  "tagName": "productversion",
                "values": ["Royale 0.8"]},
             {  "tagName": "return",
-               "values": ["UIBase The "dragImage" to use."]},
+               "values": ["UIBase The \"dragImage\" to use."]},
             {  "tagName": "langversion",
                "values": ["3.0"]}  ],
           "return": "org.apache.royale.core.UIBase",
           "params": [{ "name": "ir", "type": "org.apache.royale.core.IItemRenderer"}]}
       ]
+  ,
+  "events": [
+  ]
   }

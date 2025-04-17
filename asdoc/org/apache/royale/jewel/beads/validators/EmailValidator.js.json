@@ -17,6 +17,9 @@
         "bindable": [],
         "details": ["static"],
         "deprecated": {},
+          "description": "",
+        "tags": [
+          ],
           "return": "Array",
           "params": [{ "name": "value", "type": "Object"}]}
       ,
@@ -86,4 +89,7 @@
           "return": "Boolean",
           "params": [{ "name": "event", "type": "org.apache.royale.events.Event"}]}
       ]
+  ,
+  "events": [
+  ]
   }

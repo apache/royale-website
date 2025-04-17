@@ -38,5 +38,10 @@
         "bindable": [],
         "details": [],
         "deprecated": {},
-          "description": "This is a proxy accessor for Image src property that complies with IIcon interface"}]
+          "description": "This is a proxy accessor for Image src property that complies with IIcon interface",
+        "tags": [
+          ]}]
+  ,
+  "events": [
+  ]
   }
