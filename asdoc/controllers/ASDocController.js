@@ -97,6 +97,9 @@ controllers.ASDocController.prototype.controllers_ASDocController_removeTagHandl
 controllers.ASDocController.prototype.controllers_ASDocController_packageChangedHandler = function(event) {
   var /** @type {string} */ sym = this.controllers_ASDocController_mainView.currentPackage;
   this.controllers_ASDocController_model.currentPackage = sym;
+  if (this.controllers_ASDocController_mainView.currentState == "packageDetail") {
+    this.controllers_ASDocController_model.currentClass = null;
+  }
 };
 
 

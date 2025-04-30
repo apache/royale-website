@@ -8,7 +8,7 @@
  */
 
 goog.provide('ASDocMainView');
-/* Royale Dependency List: org.apache.royale.states.State,org.apache.royale.html.Group,org.apache.royale.html.beads.layouts.VerticalLayout,org.apache.royale.html.List,org.apache.royale.html.Label,org.apache.royale.html.beads.layouts.HorizontalLayout,org.apache.royale.html.beads.layouts.OneFlexibleChildHorizontalLayoutForOverflow,org.apache.royale.html.DataContainer,org.apache.royale.html.beads.models.ListPresentationModel,org.apache.royale.html.MultilineLabel,org.apache.royale.binding.ViewDataBinding,org.apache.royale.html.beads.layouts.OneFlexibleChildVerticalLayoutForOverflow,org.apache.royale.routing.HashChangeNotifierBeadWithTitle,org.apache.royale.routing.EscapedFragmentBead,org.apache.royale.core.CallLaterBead,org.apache.royale.site.DocTopBar,org.apache.royale.html.beads.layouts.FlexibleFirstChildHorizontalLayout,org.apache.royale.html.Spacer,org.apache.royale.html.TextInput,org.apache.royale.html.CheckBox,org.apache.royale.html.beads.layouts.LayoutChangeNotifier,org.apache.royale.html.Container,org.apache.royale.html.supportClasses.ScrollingViewport,AttributeRenderer,ClassPickerHashAnchorStringItemRenderer,EventDetailRenderer,EventSummaryRenderer,HashAnchorStringItemRenderer,MethodDetailRenderer,MethodSummaryRenderer,OptionalHashAnchorStringItemRenderer,PropertyDetailRenderer,SummaryRenderer,models.ASDocModel,org.apache.royale.core.ClassFactory,org.apache.royale.events.DetailEvent,org.apache.royale.events.Event,org.apache.royale.events.MouseEvent,org.apache.royale.geom.Point,org.apache.royale.html.PopUpList,org.apache.royale.states.AddItems,org.apache.royale.utils.PointUtils,org.apache.royale.utils.string.sanitizeHtml,org.apache.royale.utils.Language*/
+/* Royale Dependency List: org.apache.royale.states.State,org.apache.royale.html.Group,org.apache.royale.html.beads.layouts.VerticalLayout,org.apache.royale.html.List,org.apache.royale.html.Label,org.apache.royale.html.beads.layouts.HorizontalLayout,org.apache.royale.html.elements.A,org.apache.royale.html.beads.layouts.OneFlexibleChildHorizontalLayoutForOverflow,org.apache.royale.html.DataContainer,org.apache.royale.html.beads.models.ListPresentationModel,org.apache.royale.html.MultilineLabel,org.apache.royale.binding.ViewDataBinding,org.apache.royale.html.beads.layouts.OneFlexibleChildVerticalLayoutForOverflow,org.apache.royale.routing.HashChangeNotifierBeadWithTitle,org.apache.royale.routing.EscapedFragmentBead,org.apache.royale.core.CallLaterBead,org.apache.royale.site.DocTopBar,org.apache.royale.html.beads.layouts.FlexibleFirstChildHorizontalLayout,org.apache.royale.html.Spacer,org.apache.royale.html.TextInput,org.apache.royale.html.CheckBox,org.apache.royale.html.beads.layouts.LayoutChangeNotifier,org.apache.royale.html.Container,org.apache.royale.html.supportClasses.ScrollingViewport,AttributeRenderer,ClassPickerHashAnchorStringItemRenderer,EventDetailRenderer,EventSummaryRenderer,HashAnchorStringItemRenderer,MethodDetailRenderer,MethodSummaryRenderer,OptionalHashAnchorStringItemRenderer,PropertyDetailRenderer,SummaryRenderer,models.ASDocModel,org.apache.royale.core.ClassFactory,org.apache.royale.events.DetailEvent,org.apache.royale.events.Event,org.apache.royale.events.MouseEvent,org.apache.royale.geom.Point,org.apache.royale.html.PopUpList,org.apache.royale.states.AddItems,org.apache.royale.utils.PointUtils,org.apache.royale.utils.string.sanitizeHtml,org.apache.royale.utils.Language*/
 goog.provide('ASDocMainView.AltBGRenderer');
 
 goog.require('org.apache.royale.site.DocPage');
@@ -40,7 +40,7 @@ ASDocMainView = function() {
    * @private
    * @type {org.apache.royale.html.beads.layouts.VerticalLayout}
    */
-  this.$ID_11_15;
+  this.$ID_11_16;
   
   /**
    * @private
@@ -64,7 +64,7 @@ ASDocMainView = function() {
    * @private
    * @type {org.apache.royale.html.Label}
    */
-  this.$ID_11_16;
+  this.$ID_11_18;
   
   /**
    * @private
@@ -82,29 +82,29 @@ ASDocMainView = function() {
    * @private
    * @type {org.apache.royale.html.beads.layouts.VerticalLayout}
    */
-  this.$ID_11_17;
+  this.$ID_11_19;
   
   /**
    * @private
    * @type {org.apache.royale.html.Group}
    */
-  this.$ID_11_20;
+  this.$ID_11_22;
   
   /**
    * @private
    * @type {org.apache.royale.html.beads.layouts.HorizontalLayout}
    */
-  this.$ID_11_18;
+  this.$ID_11_20;
   
   /**
    * @private
    * @type {org.apache.royale.html.Label}
    */
-  this.$ID_11_19;
+  this.$ID_11_21;
   
   /**
    * @private
-   * @type {org.apache.royale.html.Label}
+   * @type {org.apache.royale.html.elements.A}
    */
   this.packageName_;
   
@@ -112,43 +112,43 @@ ASDocMainView = function() {
    * @private
    * @type {org.apache.royale.html.Group}
    */
-  this.$ID_11_24;
+  this.$ID_11_26;
   
   /**
    * @private
    * @type {org.apache.royale.html.beads.layouts.HorizontalLayout}
    */
-  this.$ID_11_21;
-  
-  /**
-   * @private
-   * @type {org.apache.royale.html.Label}
-   */
-  this.$ID_11_22;
-  
-  /**
-   * @private
-   * @type {org.apache.royale.html.Label}
-   */
   this.$ID_11_23;
   
   /**
    * @private
-   * @type {org.apache.royale.html.Group}
+   * @type {org.apache.royale.html.Label}
    */
-  this.$ID_11_28;
+  this.$ID_11_24;
   
   /**
    * @private
-   * @type {org.apache.royale.html.beads.layouts.OneFlexibleChildHorizontalLayoutForOverflow}
+   * @type {org.apache.royale.html.Label}
    */
   this.$ID_11_25;
   
   /**
    * @private
+   * @type {org.apache.royale.html.Group}
+   */
+  this.$ID_11_30;
+  
+  /**
+   * @private
+   * @type {org.apache.royale.html.beads.layouts.OneFlexibleChildHorizontalLayoutForOverflow}
+   */
+  this.$ID_11_27;
+  
+  /**
+   * @private
    * @type {org.apache.royale.html.Label}
    */
-  this.$ID_11_26;
+  this.$ID_11_28;
   
   /**
    * @private
@@ -160,7 +160,7 @@ ASDocMainView = function() {
    * @private
    * @type {org.apache.royale.html.beads.layouts.HorizontalLayout}
    */
-  this.$ID_11_27;
+  this.$ID_11_29;
   
   /**
    * @private
@@ -172,7 +172,7 @@ ASDocMainView = function() {
    * @private
    * @type {org.apache.royale.html.beads.models.ListPresentationModel}
    */
-  this.$ID_11_29;
+  this.$ID_11_31;
   
   /**
    * @private
@@ -184,31 +184,13 @@ ASDocMainView = function() {
    * @private
    * @type {org.apache.royale.html.Label}
    */
-  this.$ID_11_30;
-  
-  /**
-   * @private
-   * @type {org.apache.royale.html.List}
-   */
-  this.publicPropertyList_;
-  
-  /**
-   * @private
-   * @type {org.apache.royale.html.beads.models.ListPresentationModel}
-   */
-  this.$ID_11_31;
-  
-  /**
-   * @private
-   * @type {org.apache.royale.html.Label}
-   */
   this.$ID_11_32;
   
   /**
    * @private
    * @type {org.apache.royale.html.List}
    */
-  this.publicMethodList_;
+  this.publicPropertyList_;
   
   /**
    * @private
@@ -226,7 +208,7 @@ ASDocMainView = function() {
    * @private
    * @type {org.apache.royale.html.List}
    */
-  this.publicEventList_;
+  this.publicMethodList_;
   
   /**
    * @private
@@ -242,9 +224,9 @@ ASDocMainView = function() {
   
   /**
    * @private
-   * @type {org.apache.royale.html.DataContainer}
+   * @type {org.apache.royale.html.List}
    */
-  this.propertyDetails_;
+  this.publicEventList_;
   
   /**
    * @private
@@ -262,7 +244,7 @@ ASDocMainView = function() {
    * @private
    * @type {org.apache.royale.html.DataContainer}
    */
-  this.constructorDetails_;
+  this.propertyDetails_;
   
   /**
    * @private
@@ -280,7 +262,7 @@ ASDocMainView = function() {
    * @private
    * @type {org.apache.royale.html.DataContainer}
    */
-  this.MethodDetails_;
+  this.constructorDetails_;
   
   /**
    * @private
@@ -298,7 +280,7 @@ ASDocMainView = function() {
    * @private
    * @type {org.apache.royale.html.DataContainer}
    */
-  this.EventDetails_;
+  this.MethodDetails_;
   
   /**
    * @private
@@ -308,15 +290,57 @@ ASDocMainView = function() {
   
   /**
    * @private
-   * @type {org.apache.royale.binding.ViewDataBinding}
+   * @type {org.apache.royale.html.Label}
+   */
+  this.$ID_11_44;
+  
+  /**
+   * @private
+   * @type {org.apache.royale.html.DataContainer}
+   */
+  this.EventDetails_;
+  
+  /**
+   * @private
+   * @type {org.apache.royale.html.beads.models.ListPresentationModel}
+   */
+  this.$ID_11_45;
+  
+  /**
+   * @private
+   * @type {org.apache.royale.states.State}
    */
   this.$ID_11_4;
   
   /**
    * @private
-   * @type {org.apache.royale.html.beads.layouts.OneFlexibleChildVerticalLayoutForOverflow}
+   * @type {org.apache.royale.html.Group}
+   */
+  this.pacakgeDetailListPane_;
+  
+  /**
+   * @private
+   * @type {org.apache.royale.html.beads.layouts.VerticalLayout}
+   */
+  this.$ID_11_17;
+  
+  /**
+   * @private
+   * @type {org.apache.royale.html.List}
+   */
+  this.packageDetailPaneList_;
+  
+  /**
+   * @private
+   * @type {org.apache.royale.binding.ViewDataBinding}
    */
   this.$ID_11_5;
+  
+  /**
+   * @private
+   * @type {org.apache.royale.html.beads.layouts.OneFlexibleChildVerticalLayoutForOverflow}
+   */
+  this.$ID_11_6;
   
   /**
    * @private
@@ -340,7 +364,7 @@ ASDocMainView = function() {
    * @private
    * @type {org.apache.royale.site.DocTopBar}
    */
-  this.$ID_11_6;
+  this.$ID_11_7;
   
   /**
    * @private
@@ -352,7 +376,7 @@ ASDocMainView = function() {
    * @private
    * @type {org.apache.royale.html.beads.layouts.FlexibleFirstChildHorizontalLayout}
    */
-  this.$ID_11_7;
+  this.$ID_11_8;
   
   /**
    * @private
@@ -364,13 +388,13 @@ ASDocMainView = function() {
    * @private
    * @type {org.apache.royale.html.Spacer}
    */
-  this.$ID_11_8;
+  this.$ID_11_9;
   
   /**
    * @private
    * @type {org.apache.royale.html.Label}
    */
-  this.$ID_11_9;
+  this.$ID_11_10;
   
   /**
    * @private
@@ -406,13 +430,13 @@ ASDocMainView = function() {
    * @private
    * @type {org.apache.royale.html.beads.layouts.OneFlexibleChildHorizontalLayoutForOverflow}
    */
-  this.$ID_11_10;
+  this.$ID_11_11;
   
   /**
    * @private
    * @type {org.apache.royale.html.beads.layouts.LayoutChangeNotifier}
    */
-  this.$ID_11_11;
+  this.$ID_11_12;
   
   /**
    * @private
@@ -424,7 +448,7 @@ ASDocMainView = function() {
    * @private
    * @type {org.apache.royale.html.beads.layouts.VerticalLayout}
    */
-  this.$ID_11_12;
+  this.$ID_11_13;
   
   /**
    * @private
@@ -448,13 +472,13 @@ ASDocMainView = function() {
    * @private
    * @type {org.apache.royale.html.beads.layouts.VerticalLayout}
    */
-  this.$ID_11_13;
+  this.$ID_11_14;
   
   /**
    * @private
    * @type {org.apache.royale.html.supportClasses.ScrollingViewport}
    */
-  this.$ID_11_14;
+  this.$ID_11_15;
   
   /**
    * @private
@@ -487,7 +511,7 @@ ASDocMainView = function() {
       1,
       '_id',
       true,
-      '$ID_11_15',
+      '$ID_11_16',
       0,
       0,
       null
@@ -525,7 +549,7 @@ ASDocMainView = function() {
       3,
       '_id',
       true,
-      '$ID_11_16',
+      '$ID_11_18',
       'className',
       true,
       'loading',
@@ -554,7 +578,7 @@ ASDocMainView = function() {
       1,
       '_id',
       true,
-      '$ID_11_17',
+      '$ID_11_19',
       0,
       0,
       null
@@ -566,7 +590,7 @@ ASDocMainView = function() {
       2,
       '_id',
       true,
-      '$ID_11_20',
+      '$ID_11_22',
       'beads',
       null,
       [
@@ -574,7 +598,7 @@ ASDocMainView = function() {
         1,
         '_id',
         true,
-        '$ID_11_18',
+        '$ID_11_20',
         0,
         0,
         null
@@ -586,7 +610,7 @@ ASDocMainView = function() {
         3,
         '_id',
         true,
-        '$ID_11_19',
+        '$ID_11_21',
         'className',
         true,
         'detailCaption',
@@ -596,7 +620,7 @@ ASDocMainView = function() {
         0,
         0,
         null,
-        org.apache.royale.html.Label,
+        org.apache.royale.html.elements.A,
         2,
         'id',
         true,
@@ -612,7 +636,7 @@ ASDocMainView = function() {
       2,
       '_id',
       true,
-      '$ID_11_24',
+      '$ID_11_26',
       'beads',
       null,
       [
@@ -620,7 +644,7 @@ ASDocMainView = function() {
         1,
         '_id',
         true,
-        '$ID_11_21',
+        '$ID_11_23',
         0,
         0,
         null
@@ -629,16 +653,13 @@ ASDocMainView = function() {
       0,
       [
         org.apache.royale.html.Label,
-        3,
+        2,
         '_id',
         true,
-        '$ID_11_22',
+        '$ID_11_24',
         'className',
         true,
         'detailCaption',
-        'text',
-        true,
-        'Class',
         0,
         0,
         null,
@@ -646,7 +667,7 @@ ASDocMainView = function() {
         2,
         '_id',
         true,
-        '$ID_11_23',
+        '$ID_11_25',
         'className',
         true,
         'detailInfo',
@@ -658,7 +679,7 @@ ASDocMainView = function() {
       2,
       '_id',
       true,
-      '$ID_11_28',
+      '$ID_11_30',
       'beads',
       null,
       [
@@ -666,7 +687,7 @@ ASDocMainView = function() {
         2,
         '_id',
         true,
-        '$ID_11_25',
+        '$ID_11_27',
         'flexibleChild',
         true,
         'inheritance',
@@ -681,7 +702,7 @@ ASDocMainView = function() {
         3,
         '_id',
         true,
-        '$ID_11_26',
+        '$ID_11_28',
         'className',
         true,
         'detailCaption',
@@ -712,7 +733,7 @@ ASDocMainView = function() {
           1,
           '_id',
           true,
-          '$ID_11_27',
+          '$ID_11_29',
           0,
           0,
           null
@@ -742,7 +763,7 @@ ASDocMainView = function() {
         2,
         '_id',
         true,
-        '$ID_11_29',
+        '$ID_11_31',
         'rowHeight',
         true,
         NaN,
@@ -771,7 +792,7 @@ ASDocMainView = function() {
       3,
       '_id',
       true,
-      '$ID_11_30',
+      '$ID_11_32',
       'text',
       true,
       'Public Properties',
@@ -802,7 +823,7 @@ ASDocMainView = function() {
         2,
         '_id',
         true,
-        '$ID_11_31',
+        '$ID_11_33',
         'rowHeight',
         true,
         NaN,
@@ -817,7 +838,7 @@ ASDocMainView = function() {
       3,
       '_id',
       true,
-      '$ID_11_32',
+      '$ID_11_34',
       'text',
       true,
       'Public Methods',
@@ -848,7 +869,7 @@ ASDocMainView = function() {
         2,
         '_id',
         true,
-        '$ID_11_33',
+        '$ID_11_35',
         'rowHeight',
         true,
         NaN,
@@ -863,7 +884,7 @@ ASDocMainView = function() {
       3,
       '_id',
       true,
-      '$ID_11_34',
+      '$ID_11_36',
       'text',
       true,
       'Events',
@@ -894,7 +915,7 @@ ASDocMainView = function() {
         2,
         '_id',
         true,
-        '$ID_11_35',
+        '$ID_11_37',
         'rowHeight',
         true,
         NaN,
@@ -909,7 +930,7 @@ ASDocMainView = function() {
       3,
       '_id',
       true,
-      '$ID_11_36',
+      '$ID_11_38',
       'text',
       true,
       'Property Details',
@@ -940,52 +961,6 @@ ASDocMainView = function() {
         2,
         '_id',
         true,
-        '$ID_11_37',
-        'rowHeight',
-        true,
-        NaN,
-        0,
-        0,
-        null
-      ],
-      0,
-      0,
-      null,
-      org.apache.royale.html.Label,
-      3,
-      '_id',
-      true,
-      '$ID_11_38',
-      'text',
-      true,
-      'Constructor Details',
-      'className',
-      true,
-      'sectionLabel',
-      0,
-      0,
-      null,
-      org.apache.royale.html.DataContainer,
-      5,
-      'id',
-      true,
-      'constructorDetails',
-      'className',
-      true,
-      'detailList',
-      'itemRenderer',
-      true,
-      new org.apache.royale.core.ClassFactory(MethodDetailRenderer),
-      'percentWidth',
-      true,
-      100.0,
-      'beads',
-      null,
-      [
-        org.apache.royale.html.beads.models.ListPresentationModel,
-        2,
-        '_id',
-        true,
         '$ID_11_39',
         'rowHeight',
         true,
@@ -1004,7 +979,7 @@ ASDocMainView = function() {
       '$ID_11_40',
       'text',
       true,
-      'Method Details',
+      'Constructor Details',
       'className',
       true,
       'sectionLabel',
@@ -1015,7 +990,7 @@ ASDocMainView = function() {
       5,
       'id',
       true,
-      'MethodDetails',
+      'constructorDetails',
       'className',
       true,
       'detailList',
@@ -1050,6 +1025,52 @@ ASDocMainView = function() {
       '$ID_11_42',
       'text',
       true,
+      'Method Details',
+      'className',
+      true,
+      'sectionLabel',
+      0,
+      0,
+      null,
+      org.apache.royale.html.DataContainer,
+      5,
+      'id',
+      true,
+      'MethodDetails',
+      'className',
+      true,
+      'detailList',
+      'itemRenderer',
+      true,
+      new org.apache.royale.core.ClassFactory(MethodDetailRenderer),
+      'percentWidth',
+      true,
+      100.0,
+      'beads',
+      null,
+      [
+        org.apache.royale.html.beads.models.ListPresentationModel,
+        2,
+        '_id',
+        true,
+        '$ID_11_43',
+        'rowHeight',
+        true,
+        NaN,
+        0,
+        0,
+        null
+      ],
+      0,
+      0,
+      null,
+      org.apache.royale.html.Label,
+      3,
+      '_id',
+      true,
+      '$ID_11_44',
+      'text',
+      true,
       'Event Details',
       'className',
       true,
@@ -1078,7 +1099,7 @@ ASDocMainView = function() {
         2,
         '_id',
         true,
-        '$ID_11_43',
+        '$ID_11_45',
         'rowHeight',
         true,
         NaN,
@@ -1086,6 +1107,44 @@ ASDocMainView = function() {
         0,
         null
       ],
+      0,
+      0,
+      null
+    ]],
+    [org.apache.royale.html.Group,
+    3,
+    'id',
+    true,
+    'pacakgeDetailListPane',
+    'percentWidth',
+    true,
+    100.0,
+    'beads',
+    null,
+    [
+      org.apache.royale.html.beads.layouts.VerticalLayout,
+      1,
+      '_id',
+      true,
+      '$ID_11_17',
+      0,
+      0,
+      null
+    ],
+    0,
+    0,
+    [
+      org.apache.royale.html.List,
+      3,
+      'id',
+      true,
+      'packageDetailPaneList',
+      'className',
+      true,
+      'paneList',
+      'itemRenderer',
+      true,
+      new org.apache.royale.core.ClassFactory(ASDocMainView.AltBGRenderer),
       0,
       0,
       null
@@ -1213,6 +1272,41 @@ ASDocMainView = function() {
       ],
       0,
       0,
+      null,
+      org.apache.royale.states.State,
+      3,
+      '_id',
+      true,
+      '$ID_11_4',
+      'name',
+      true,
+      'packageDetail',
+      'overrides',
+      null,
+      [
+        org.apache.royale.states.AddItems,
+        5,
+        'itemsDescriptorIndex',
+        true,
+        3,
+        'destination',
+        true,
+        'rightSide',
+        'propertyName',
+        true,
+        'mxmlContent',
+        'position',
+        true,
+        'after',
+        'relativeTo',
+        true,
+        'baseName',
+        0,
+        0,
+        null
+      ],
+      0,
+      0,
       null
     ],
     'beads',
@@ -1222,7 +1316,7 @@ ASDocMainView = function() {
       1,
       '_id',
       true,
-      '$ID_11_4',
+      '$ID_11_5',
       0,
       0,
       null,
@@ -1230,7 +1324,7 @@ ASDocMainView = function() {
       2,
       '_id',
       true,
-      '$ID_11_5',
+      '$ID_11_6',
       'flexibleChild',
       true,
       'topContainer',
@@ -1448,6 +1542,7 @@ ASDocMainView.prototype.ASDocMainView_hashChanged = function() {
 ASDocMainView.prototype.ASDocMainView_updateView = function(hash) {
   if (!hash)
     this.currentState = "packages"; else {
+    hash = decodeURIComponent(hash);
     var /** @type {string} */ delimiter = models.ASDocModel.DELIMITER;
     var /** @type {number} */ c = (hash.indexOf(delimiter)) >> 0;
     if (c == -1) {
@@ -1477,6 +1572,7 @@ ASDocMainView.prototype.ASDocMainView_updateView = function(hash) {
       this.router.title = title;
       this.ASDocMainView_classChangedHandler();
     } else {
+      this.currentState = "packageDetail";
       this.packageList.selectedItem = hash;
       this.router.title = hash;
       this.ASDocMainView_packageChangedHandler();
@@ -1826,6 +1922,32 @@ Object.defineProperties(ASDocMainView.prototype, /** @lends {ASDocMainView.proto
       }
     }
   },
+  pacakgeDetailListPane: {
+    /** @this {ASDocMainView} */
+    get: function() {
+      return this.pacakgeDetailListPane_;
+    },
+    /** @this {ASDocMainView} */
+    set: function(value) {
+      if (value != this.pacakgeDetailListPane_) {
+        this.pacakgeDetailListPane_ = value;
+        this.dispatchEvent(org.apache.royale.events.ValueChangeEvent.createUpdateEvent(this, 'pacakgeDetailListPane', null, value));
+      }
+    }
+  },
+  packageDetailPaneList: {
+    /** @this {ASDocMainView} */
+    get: function() {
+      return this.packageDetailPaneList_;
+    },
+    /** @this {ASDocMainView} */
+    set: function(value) {
+      if (value != this.packageDetailPaneList_) {
+        this.packageDetailPaneList_ = value;
+        this.dispatchEvent(org.apache.royale.events.ValueChangeEvent.createUpdateEvent(this, 'packageDetailPaneList', null, value));
+      }
+    }
+  },
   router: {
     /** @this {ASDocMainView} */
     get: function() {
@@ -2034,7 +2156,7 @@ Object.defineProperties(ASDocMainView.prototype, /** @lends {ASDocMainView.proto
           1,
           '_id',
           true,
-          '$ID_11_6',
+          '$ID_11_7',
           0,
           0,
           null,
@@ -2056,7 +2178,7 @@ Object.defineProperties(ASDocMainView.prototype, /** @lends {ASDocMainView.proto
             1,
             '_id',
             true,
-            '$ID_11_7',
+            '$ID_11_8',
             0,
             0,
             null
@@ -2085,7 +2207,7 @@ Object.defineProperties(ASDocMainView.prototype, /** @lends {ASDocMainView.proto
             2,
             '_id',
             true,
-            '$ID_11_8',
+            '$ID_11_9',
             'width',
             true,
             20,
@@ -2096,7 +2218,7 @@ Object.defineProperties(ASDocMainView.prototype, /** @lends {ASDocMainView.proto
             3,
             '_id',
             true,
-            '$ID_11_9',
+            '$ID_11_10',
             'text',
             true,
             'Find a class',
@@ -2175,7 +2297,7 @@ Object.defineProperties(ASDocMainView.prototype, /** @lends {ASDocMainView.proto
             2,
             '_id',
             true,
-            '$ID_11_10',
+            '$ID_11_11',
             'flexibleChild',
             true,
             'rightSide',
@@ -2186,7 +2308,7 @@ Object.defineProperties(ASDocMainView.prototype, /** @lends {ASDocMainView.proto
             2,
             '_id',
             true,
-            '$ID_11_11',
+            '$ID_11_12',
             'initialValue',
             true,
             'null',
@@ -2218,7 +2340,7 @@ Object.defineProperties(ASDocMainView.prototype, /** @lends {ASDocMainView.proto
               1,
               '_id',
               true,
-              '$ID_11_12',
+              '$ID_11_13',
               0,
               0,
               null
@@ -2282,7 +2404,7 @@ Object.defineProperties(ASDocMainView.prototype, /** @lends {ASDocMainView.proto
               1,
               '_id',
               true,
-              '$ID_11_13',
+              '$ID_11_14',
               0,
               0,
               null,
@@ -2290,7 +2412,7 @@ Object.defineProperties(ASDocMainView.prototype, /** @lends {ASDocMainView.proto
               1,
               '_id',
               true,
-              '$ID_11_14',
+              '$ID_11_15',
               0,
               0,
               null
@@ -2331,16 +2453,26 @@ Object.defineProperties(ASDocMainView.prototype, /** @lends {ASDocMainView.proto
  * @export
  */
 ASDocMainView.prototype._bindings = [
-17,
+20,
 ["applicationModel", "packageList"],
 null,
 ["packagePaneList", "dataProvider"],
+["applicationModel", "classList"],
+null,
+["packageDetailPaneList", "dataProvider"],
 ["applicationModel", "currentPackage"],
 null,
 ["packageName", "text"],
+/** @this {ASDocMainView} */
+function() { return "#!" + org.apache.royale.utils.Language.as(this.applicationModel, models.ASDocModel, true).currentPackage; },
+null,
+["packageName", "href"],
+["applicationModel", "currentSymbolType"],
+null,
+["$ID_11_24", "text"],
 ["applicationModel", "currentClass"],
 null,
-["$ID_11_23", "text"],
+["$ID_11_25", "text"],
 ["applicationModel", "inheritance"],
 null,
 ["inheritance", "dataProvider"],
@@ -2374,7 +2506,7 @@ null,
 ["EventDetails", "dataProvider"],
 ["applicationModel", "packageList"],
 null,
-["$ID_11_11", "watchedProperty"],
+["$ID_11_12", "watchedProperty"],
 ["applicationModel", "packageList"],
 null,
 ["packageList", "dataProvider"],
@@ -2382,99 +2514,106 @@ null,
 null,
 ["classList", "dataProvider"],
 /** @this {ASDocMainView} */
-function() { return this.currentState == 'packages' ? 'All Packages' : org.apache.royale.utils.Language.as(this.applicationModel, models.ASDocModel, true).currentClass; },
+function() { return this.currentState == 'packages' ? 'All Packages' : this.currentState == 'packageDetail' ? org.apache.royale.utils.Language.as(this.applicationModel, models.ASDocModel, true).currentPackage : org.apache.royale.utils.Language.as(this.applicationModel, models.ASDocModel, true).currentClass; },
 null,
 ["baseName", "text"],
 0,
 2,
 "applicationModel",
 "modelChanged",
-[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],
+[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,19],
 null,
 [
 1,
 2,
 "packageList",
 "packageListChanged",
-[0,13,14],
+[0,16,17],
 null,
 null,
 2,
 2,
-"currentPackage",
+"classList",
 "currentPackageChanged",
-1,
+[1,18],
 null,
 null,
 3,
 2,
-"currentClass",
-"currentClassChanged",
-[2,16],
+"currentPackage",
+"currentPackageChanged",
+[2,3,19],
 null,
 null,
 4,
 2,
-"inheritance",
+"currentSymbolType",
 "currentDataChanged",
-3,
+4,
 null,
 null,
 5,
 2,
-"attributes",
-"currentDataChanged",
-4,
+"currentClass",
+"currentClassChanged",
+[5,19],
 null,
 null,
 6,
 2,
-"description",
+"inheritance",
 "currentDataChanged",
-5,
+6,
 null,
 null,
 7,
 2,
-"publicProperties",
+"attributes",
 "currentDataChanged",
-[6,9],
+7,
 null,
 null,
 8,
 2,
-"publicMethods",
+"description",
 "currentDataChanged",
-[7,11],
+8,
 null,
 null,
 9,
 2,
-"publicEvents",
+"publicProperties",
 "currentDataChanged",
-[8,12],
+[9,12],
 null,
 null,
 10,
 2,
-"constructorList",
+"publicMethods",
 "currentDataChanged",
-10,
+[10,14],
 null,
 null,
 11,
 2,
-"classList",
-"currentPackageChanged",
-15,
+"publicEvents",
+"currentDataChanged",
+[11,15],
+null,
+null,
+12,
+2,
+"constructorList",
+"currentDataChanged",
+13,
 null,
 null,
 null],
-12,
+13,
 2,
 "currentState",
 "currentStateChange",
-16,
+[19,19],
 null,
 null];
 /**
@@ -2505,7 +2644,7 @@ ASDocMainView.prototype.ROYALE_REFLECTION_INFO = function () {
         'packagePaneList': { type: 'org.apache.royale.html.List', access: 'readwrite', declaredBy: 'ASDocMainView'},
         'loadingPane': { type: 'org.apache.royale.html.Group', access: 'readwrite', declaredBy: 'ASDocMainView'},
         'detailsPane': { type: 'org.apache.royale.html.Group', access: 'readwrite', declaredBy: 'ASDocMainView'},
-        'packageName': { type: 'org.apache.royale.html.Label', access: 'readwrite', declaredBy: 'ASDocMainView'},
+        'packageName': { type: 'org.apache.royale.html.elements.A', access: 'readwrite', declaredBy: 'ASDocMainView'},
         'inheritance': { type: 'org.apache.royale.html.List', access: 'readwrite', declaredBy: 'ASDocMainView'},
         'attributes': { type: 'org.apache.royale.html.DataContainer', access: 'readwrite', declaredBy: 'ASDocMainView'},
         'description': { type: 'org.apache.royale.html.MultilineLabel', access: 'readwrite', declaredBy: 'ASDocMainView'},
@@ -2516,6 +2655,8 @@ ASDocMainView.prototype.ROYALE_REFLECTION_INFO = function () {
         'constructorDetails': { type: 'org.apache.royale.html.DataContainer', access: 'readwrite', declaredBy: 'ASDocMainView'},
         'MethodDetails': { type: 'org.apache.royale.html.DataContainer', access: 'readwrite', declaredBy: 'ASDocMainView'},
         'EventDetails': { type: 'org.apache.royale.html.DataContainer', access: 'readwrite', declaredBy: 'ASDocMainView'},
+        'pacakgeDetailListPane': { type: 'org.apache.royale.html.Group', access: 'readwrite', declaredBy: 'ASDocMainView'},
+        'packageDetailPaneList': { type: 'org.apache.royale.html.List', access: 'readwrite', declaredBy: 'ASDocMainView'},
         'router': { type: 'org.apache.royale.routing.HashChangeNotifierBeadWithTitle', access: 'readwrite', declaredBy: 'ASDocMainView'},
         'efb': { type: 'org.apache.royale.routing.EscapedFragmentBead', access: 'readwrite', declaredBy: 'ASDocMainView'},
         'clb': { type: 'org.apache.royale.core.CallLaterBead', access: 'readwrite', declaredBy: 'ASDocMainView'},

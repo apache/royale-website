@@ -1,0 +1,11 @@
+{ "type": "method",
+  "qname": "mx.utils.escapeMultiByte",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "The escapeMultiByte function is intended as an emulation of the corresponding legacy flash.utils api function, and for js is always assuming System.useCodePage = false;",
+  "tags": [
+    ],
+    "return": "String",
+    "params": [{ "name": "inputStr", "type": "String"}]}
