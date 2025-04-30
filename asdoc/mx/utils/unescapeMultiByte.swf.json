@@ -1,0 +1,17 @@
+{ "type": "method",
+  "qname": "mx.utils.unescapeMultiByte",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "This unescapeMultiByte function for swf will always behave as if System.useCodePage = false;",
+  "tags": [
+  {  "tagName": "param",
+         "values": ["str"]},
+      {  "tagName": "return",
+         "values": []}  ],
+    "return": "String",
+    "params": [{ "name": "str", "type": "String"}]}
+
+
+

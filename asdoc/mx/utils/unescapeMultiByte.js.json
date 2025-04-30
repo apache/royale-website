@@ -1,0 +1,14 @@
+{ "type": "method",
+  "qname": "mx.utils.unescapeMultiByte",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "The unescapeMultiByte function is intended as an emulation of the corresponding legacy flash.utils api function, and for javascript is always assuming System.useCodePage = false;",
+  "tags": [
+    ],
+    "return": "String",
+    "params": [{ "name": "str", "type": "String"}]}
+
+
+

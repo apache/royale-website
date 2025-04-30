@@ -1,0 +1,14 @@
+{ "type": "method",
+  "qname": "mx.utils.escapeMultiByte",
+  "namespace": "public",
+  "bindable": [],
+  "details": [],
+  "deprecated": {},
+    "description": "This escapeMultiByte function for swf will always behave as if System.useCodePage = false;",
+  "tags": [
+  {  "tagName": "param",
+         "values": ["{String} str The input string to be escaped."]},
+      {  "tagName": "return",
+         "values": ["{String} The escaped string with multi-byte characters properly encoded."]}  ],
+    "return": "String",
+    "params": [{ "name": "str", "type": "String"}]}

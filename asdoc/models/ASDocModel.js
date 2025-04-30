@@ -520,7 +520,7 @@ models.ASDocModel.prototype.models_ASDocModel_classCompleteHandler = function(ev
     this.models_ASDocModel_app.service.addEventListener("complete", org.apache.royale.utils.Language.closure(this.models_ASDocModel_classCompleteHandler, this, 'models_ASDocModel_classCompleteHandler'));
     this.models_ASDocModel_app.service.url = this.models_ASDocModel_computeFileName(data.baseClassname);
     this.models_ASDocModel_app.service.send();
-  } else if (data.type == "interface" && data.baseInterfaceNames && data.baseInterfaceNames[0]["indexOf"]("flash.") != 0 && data.baseInterfaceNames[0]["indexOf"]("goog.") != 0) {
+  } else if (data.type == "interface" && data.baseInterfaceNames && data.baseInterfaceNames.length > 0 && data.baseInterfaceNames[0]["indexOf"]("flash.") != 0 && data.baseInterfaceNames[0]["indexOf"]("goog.") != 0) {
     this.models_ASDocModel_app.service.addEventListener("ioError", org.apache.royale.utils.Language.closure(this.models_ASDocModel_classIOErrorHandler, this, 'models_ASDocModel_classIOErrorHandler'));
     this.models_ASDocModel_app.service.addEventListener("complete", org.apache.royale.utils.Language.closure(this.models_ASDocModel_completeInterfaceHandler, this, 'models_ASDocModel_completeInterfaceHandler'));
     this.models_ASDocModel_extensions = data.baseInterfaceNames;
@@ -536,11 +536,18 @@ models.ASDocModel.prototype.models_ASDocModel_classCompleteHandler = function(ev
  * @private
  */
 models.ASDocModel.prototype.models_ASDocModel_loadClassForNextPlatform = function() {
+  var /** @type {string} */ urlQname = null;
   if (this.models_ASDocModel_platformList.length) {
     this.models_ASDocModel_currentPlatform = org.apache.royale.utils.Language.string(this.models_ASDocModel_platformList.shift());
     this.models_ASDocModel_app.service.addEventListener("ioError", org.apache.royale.utils.Language.closure(this.models_ASDocModel_classIOErrorHandler, this, 'models_ASDocModel_classIOErrorHandler'));
     this.models_ASDocModel_app.service.addEventListener("complete", org.apache.royale.utils.Language.closure(this.models_ASDocModel_classCompleteHandler, this, 'models_ASDocModel_classCompleteHandler'));
-    this.models_ASDocModel_app.service.url = this.models_ASDocModel_computeFileName(this.models_ASDocModel__currentPackage + "." + this.models_ASDocModel__currentClass);
+    //var /** @type {string} */ urlQname = null;
+    if (this.models_ASDocModel__currentPackage != "Top Level") {
+      urlQname = this.models_ASDocModel__currentPackage + "." + this.models_ASDocModel__currentClass;
+    } else {
+      urlQname = this.models_ASDocModel__currentClass;
+    }
+    this.models_ASDocModel_app.service.url = this.models_ASDocModel_computeFileName(urlQname);
     this.models_ASDocModel_app.service.send();
   } else {
     org.apache.royale.utils.Language.sortOn(this.models_ASDocModel__publicMethods, "qname");
@@ -701,10 +708,17 @@ models.ASDocModel.prototype.models_ASDocModel_extensions = null;
  * @private
  */
 models.ASDocModel.prototype.models_ASDocModel_loadInterfaceForNextPlatform = function() {
+  var /** @type {string} */ urlQname = null;
   if (this.models_ASDocModel_platformList.length) {
     this.models_ASDocModel_currentPlatform = org.apache.royale.utils.Language.string(this.models_ASDocModel_platformList.shift());
     this.models_ASDocModel_app.service.addEventListener("complete", org.apache.royale.utils.Language.closure(this.models_ASDocModel_completeInterfaceHandler, this, 'models_ASDocModel_completeInterfaceHandler'));
-    this.models_ASDocModel_app.service.url = this.models_ASDocModel_computeFileName(this.models_ASDocModel__currentPackage + "." + this.models_ASDocModel__currentClass);
+    //var /** @type {string} */ urlQname = null;
+    if (this.models_ASDocModel__currentPackage != "Top Level") {
+      urlQname = this.models_ASDocModel__currentPackage + "." + this.models_ASDocModel__currentClass;
+    } else {
+      urlQname = this.models_ASDocModel__currentClass;
+    }
+    this.models_ASDocModel_app.service.url = this.models_ASDocModel_computeFileName(urlQname);
     this.models_ASDocModel_app.service.send();
   } else {
     org.apache.royale.utils.Language.sortOn(this.models_ASDocModel__publicMethods, "qname");
@@ -1011,6 +1025,7 @@ models.ASDocModel.prototype.get__currentPackage = function() {
 models.ASDocModel.prototype.set__currentPackage = function(value) {
   if (value != this.models_ASDocModel__currentPackage) {
     this.models_ASDocModel__currentPackage = value;
+    this.currentClass = null;
     var /** @type {Object} */ packageData = this.models_ASDocModel_allPackages[value];
     var /** @type {Array} */ arr = [];
     for (var /** @type {string} */ p in packageData) {
@@ -1053,17 +1068,26 @@ models.ASDocModel.prototype.get__currentClass = function() {
 
 
 models.ASDocModel.prototype.set__currentClass = function(value) {
+  var /** @type {string} */ urlQname = null;
   if (value != this.models_ASDocModel__currentClass) {
     this.models_ASDocModel__currentClass = value;
+    this.models_ASDocModel__currentClassData = null;
     var /** @type {Object} */ packageData = this.models_ASDocModel_allPackages[this.models_ASDocModel__currentPackage];
     this.dispatchEvent(new org.apache.royale.events.Event("currentClassChanged"));
-    this.models_ASDocModel_platformList = this.platforms.slice();
-    this.models_ASDocModel_currentPlatform = org.apache.royale.utils.Language.string(this.models_ASDocModel_platformList.shift());
-    this.models_ASDocModel_app.service.addEventListener("ioError", org.apache.royale.utils.Language.closure(this.models_ASDocModel_classIOErrorHandler, this, 'models_ASDocModel_classIOErrorHandler'));
-    this.models_ASDocModel_app.service.addEventListener("complete", org.apache.royale.utils.Language.closure(this.models_ASDocModel_classCompleteHandler, this, 'models_ASDocModel_classCompleteHandler'));
-    this.models_ASDocModel_app.service.url = this.models_ASDocModel_computeFileName(this.models_ASDocModel__currentPackage + "." + this.models_ASDocModel__currentClass);
-    this.models_ASDocModel_app.service.send();
-    this.models_ASDocModel__currentClassData = null;
+    if (this.models_ASDocModel__currentClass) {
+      this.models_ASDocModel_platformList = this.platforms.slice();
+      this.models_ASDocModel_currentPlatform = org.apache.royale.utils.Language.string(this.models_ASDocModel_platformList.shift());
+      this.models_ASDocModel_app.service.addEventListener("ioError", org.apache.royale.utils.Language.closure(this.models_ASDocModel_classIOErrorHandler, this, 'models_ASDocModel_classIOErrorHandler'));
+      this.models_ASDocModel_app.service.addEventListener("complete", org.apache.royale.utils.Language.closure(this.models_ASDocModel_classCompleteHandler, this, 'models_ASDocModel_classCompleteHandler'));
+      //var /** @type {string} */ urlQname = null;
+      if (this.models_ASDocModel__currentPackage != "Top Level") {
+        urlQname = this.models_ASDocModel__currentPackage + "." + this.models_ASDocModel__currentClass;
+      } else {
+        urlQname = this.models_ASDocModel__currentClass;
+      }
+      this.models_ASDocModel_app.service.url = this.models_ASDocModel_computeFileName(urlQname);
+      this.models_ASDocModel_app.service.send();
+    }
   }
 };
 
@@ -1129,7 +1153,33 @@ models.ASDocModel.prototype.description;
 
 
 models.ASDocModel.prototype.get__description = function() {
+  if (!this.models_ASDocModel__currentClassData) {
+    return null;
+  }
   return org.apache.royale.utils.Language.string(this.models_ASDocModel__currentClassData["description"]);
+};
+
+
+/**
+ * @nocollapse
+ * @export
+ * @type {string}
+ */
+models.ASDocModel.prototype.currentSymbolType;
+
+
+models.ASDocModel.prototype.get__currentSymbolType = function() {
+  if (!this.models_ASDocModel__currentClassData) {
+    return null;
+  }
+  switch (this.models_ASDocModel__currentClassData["type"]) {
+    case "class":
+      return "Class";
+    case "interface":
+      return "Interface";
+    default:
+      return "Symbol";
+  }
 };
 
 
@@ -1317,6 +1367,11 @@ get: models.ASDocModel.prototype.get__publicEvents},
 description: {
 get: models.ASDocModel.prototype.get__description},
 /**
+ * @type {string}
+ */
+currentSymbolType: {
+get: models.ASDocModel.prototype.get__currentSymbolType},
+/**
  * @type {Array}
  */
 inheritance: {
@@ -1366,6 +1421,7 @@ models.ASDocModel.prototype.ROYALE_REFLECTION_INFO = function () {
         'constructorList': { type: 'Array', access: 'readonly', declaredBy: 'models.ASDocModel'},
         'publicEvents': { type: 'Array', access: 'readonly', declaredBy: 'models.ASDocModel'},
         'description': { type: 'String', access: 'readonly', declaredBy: 'models.ASDocModel'},
+        'currentSymbolType': { type: 'String', access: 'readonly', declaredBy: 'models.ASDocModel'},
         'inheritance': { type: 'Array', access: 'readonly', declaredBy: 'models.ASDocModel'},
         'attributes': { type: 'Array', access: 'readonly', declaredBy: 'models.ASDocModel'},
         'filterTags': { type: 'Array', access: 'readwrite', declaredBy: 'models.ASDocModel'}

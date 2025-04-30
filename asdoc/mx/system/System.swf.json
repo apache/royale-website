@@ -56,16 +56,6 @@
           "description": "",
         "tags": [
           ]},
-      { "type": "field",
-        "qname": "_useCodePage",
-        "return": "Boolean",
-        "namespace": "public",
-        "bindable": [],
-        "details": ["static"],
-        "deprecated": {},
-          "description": "",
-        "tags": [
-          ]},
       { "type": "accessor",
         "access": "read-write",
         "return": "Boolean",
