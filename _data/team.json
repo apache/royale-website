@@ -38,7 +38,9 @@
     "title": "PMC",
     "url": "https://bowlerhat.dev",
     "imgUrl": "/img/team/joshtynjala.jpg",
-    "twitter": "https://twitter.com/joshtynjala"
+    "twitter": "https://twitter.com/joshtynjala",
+    "bluesky": "https://bsky.app/profile/joshtynjala.bsky.social",
+    "mastodon": "https://mastodon.social/@joshtynjala"
   },
   {
     "name": "Michael Schmalle",
