@@ -17,22 +17,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: blob: 'unsafe-inline' https://www.apachecon.com/ https://www.communityovercode.org/ https://analytics.apache.org/; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://analytics.apache.org/ https://www.apachecon.com/; style-src 'self' 'unsafe-inline' data:; frame-ancestors 'self'; frame-src 'self' data: blob:; img-src 'self' data: https://*.apache.org/ https://www.apachecon.com/; worker-src 'self' data: blob:;">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="Custom Template for injecting custom style CSS">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" type="text/css" href="BE0012_Using_external_javascript_libraries_in_Apache_Royale.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
-<script type="text/javascript">
- var script = document.createElement("script");
- script.setAttribute("src", "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js");
- document.head.appendChild(script);
- var link = document.createElement("link");
- link.setAttribute("rel", "stylesheet");
- link.setAttribute("title", "Atom One Dark");
- link.setAttribute("type", "text/css");
- link.setAttribute("href", "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-dark.min.css");
- document.head.appendChild(link);
-</script>
+	<link rel="stylesheet" type="text/css" href="css/dialog-polyfill.min.css">
+	<link rel="stylesheet" type="text/css" href="css/atom-one-dark.min.css">
+	<script type="text/javascript" src="scripts/dialog-polyfill.min.js"></script>
+	<script type="text/javascript" src="scripts/web-animations.min.js"></script>
+	<script type="text/javascript" src="scripts/highlight.min.js"></script>
 	<script type="text/javascript" src="./BE0012_Using_external_javascript_libraries_in_Apache_Royale.js"></script>
 
 </head>
