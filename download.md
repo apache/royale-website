@@ -16,15 +16,15 @@ Download the compiled (binary) version of Royale using the links below.
 To create JavaScript applications with Royale, download from here:
 
 <div class="btn-group">
-<a class="btn btn-download" href="https://www.apache.org/dyn/closer.lua/royale/0.9.12/binaries/apache-royale-0.9.12-bin-js.tar.gz"><i class="fa fa-download"></i> Apache Royale JS-Only 0.9.12 (TAR.GZ)</a>
-<a class="btn btn-download" href="https://www.apache.org/dyn/closer.lua/royale/0.9.12/binaries/apache-royale-0.9.12-bin-js.zip"><i class="fa fa-download"></i> Apache Royale JS-Only 0.9.12 (ZIP)</a>
+<a class="btn btn-download" href="https://www.apache.org/dyn/closer.lua/royale/0.9.12/binaries/apache-royale-0.9.12-bin-js.tar.gz"><i class="fa-solid fa-download"></i> Apache Royale JS-Only 0.9.12 (TAR.GZ)</a>
+<a class="btn btn-download" href="https://www.apache.org/dyn/closer.lua/royale/0.9.12/binaries/apache-royale-0.9.12-bin-js.zip"><i class="fa-solid fa-download"></i> Apache Royale JS-Only 0.9.12 (ZIP)</a>
 </div>
 
 To create JavaScript and SWF applications with Royale, download from here:
 
 <div class="btn-group">
-<a class="btn btn-download" href="https://www.apache.org/dyn/closer.lua/royale/0.9.12/binaries/apache-royale-0.9.12-bin-js-swf.tar.gz"><i class="fa fa-download"></i> Apache Royale JS/SWF 0.9.12 (TAR.GZ)</a>
-<a class="btn btn-download" href="https://www.apache.org/dyn/closer.lua/royale/0.9.12/binaries/apache-royale-0.9.12-bin-js-swf.zip"><i class="fa fa-download"></i> Apache Royale JS/SWF 0.9.12 (ZIP)</a>
+<a class="btn btn-download" href="https://www.apache.org/dyn/closer.lua/royale/0.9.12/binaries/apache-royale-0.9.12-bin-js-swf.tar.gz"><i class="fa-solid fa-download"></i> Apache Royale JS/SWF 0.9.12 (TAR.GZ)</a>
+<a class="btn btn-download" href="https://www.apache.org/dyn/closer.lua/royale/0.9.12/binaries/apache-royale-0.9.12-bin-js-swf.zip"><i class="fa-solid fa-download"></i> Apache Royale JS/SWF 0.9.12 (ZIP)</a>
 </div>
 
 Copy the contents of the download into a directory on your computer, then connect it to the IDE you are using.

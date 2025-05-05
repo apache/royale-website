@@ -15,8 +15,8 @@ permalink: "blog{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber
 {% endfor %}
 
 {% if pagination.href.previous %}
-<a class="btn btn-quiet" href="{{ pagination.href.previous }}"><i class="fa fa-arrow-left"></i> Newer Posts</a>
+<a class="btn btn-quiet" href="{{ pagination.href.previous }}"><i class="fa-solid fa-arrow-left"></i> Newer Posts</a>
 {% endif %}
 {% if pagination.href.next %}
-<a class="btn btn-quiet" href="{{ pagination.href.next }}">Older Posts <i class="fa fa-arrow-right"></i></a>
+<a class="btn btn-quiet" href="{{ pagination.href.next }}">Older Posts <i class="fa-solid fa-arrow-right"></i></a>
 {% endif %}

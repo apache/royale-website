@@ -54,5 +54,5 @@ We provide nightly build packages to allow contributors to test the latest chang
 
 > These nightly builds are generated from our development branch, which means the distributions may not be fully functional and/or could contain bugs. **We strongly recommend not to use this nightly builds in production environments.**
 
-- [<i class="fa fa-external-link"></i> Download royale-asjs artifacts](https://nightlies.apache.org/Royale/Royale-asjs/)
+- [<i class="fa-solid fa-external-link"></i> Download royale-asjs artifacts](https://nightlies.apache.org/Royale/Royale-asjs/)
 </ul>

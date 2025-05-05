@@ -57,4 +57,4 @@ The result of this code snippet is the following:
 
 Full project with source code can be found [here](https://github.com/apache/royale-asjs/tree/develop/examples/blog/BE0002_Using_Jewel_Alert_Control):
 
-<a class="btn btn-download" href="https://github.com/apache/royale-asjs/tree/develop/examples/blog/BE0002_Using_Jewel_Alert_Control"><i class="fa fa-download"></i> Project Source Code</a>
+<a class="btn btn-download" href="https://github.com/apache/royale-asjs/tree/develop/examples/blog/BE0002_Using_Jewel_Alert_Control"><i class="fa-solid fa-download"></i> Project Source Code</a>

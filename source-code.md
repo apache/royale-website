@@ -12,8 +12,8 @@ The current version of Apache Royale is **0.9.12**, released in **December 2024*
 Download the source code for Royale from one of the Apache mirror sites:
 
 <div class="btn-group">
-<a class="btn btn-download" href="http://www.apache.org/dyn/closer.lua/royale/0.9.12/apache-royale-0.9.12-src.tar.gz"><i class="fa fa-download"></i> Apache Royale 0.9.12 Source (TAR.GZ)</a>
-<a class="btn btn-download" href="http://www.apache.org/dyn/closer.lua/royale/0.9.12/apache-royale-0.9.12-src.zip"><i class="fa fa-download"></i> Apache Royale 0.9.12 Source (ZIP)</a>
+<a class="btn btn-download" href="http://www.apache.org/dyn/closer.lua/royale/0.9.12/apache-royale-0.9.12-src.tar.gz"><i class="fa-solid fa-download"></i> Apache Royale 0.9.12 Source (TAR.GZ)</a>
+<a class="btn btn-download" href="http://www.apache.org/dyn/closer.lua/royale/0.9.12/apache-royale-0.9.12-src.zip"><i class="fa-solid fa-download"></i> Apache Royale 0.9.12 Source (ZIP)</a>
 </div>
 
 ## Older Releases

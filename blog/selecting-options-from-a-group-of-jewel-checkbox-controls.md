@@ -81,4 +81,4 @@ The result of this code snippet is the following:
 
 Full project with source code can be found [here](https://github.com/apache/royale-asjs/tree/develop/examples/blog/BE0007_Selecting_options_from_a_group_of_jewel_checkbox_controls):
 
-<a class="btn btn-download" href="https://github.com/apache/royale-asjs/tree/develop/examples/blog/BE0007_Selecting_options_from_a_group_of_jewel_checkbox_controls"><i class="fa fa-download"></i> Project Source Code</a>
+<a class="btn btn-download" href="https://github.com/apache/royale-asjs/tree/develop/examples/blog/BE0007_Selecting_options_from_a_group_of_jewel_checkbox_controls"><i class="fa-solid fa-download"></i> Project Source Code</a>

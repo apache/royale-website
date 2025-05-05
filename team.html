@@ -32,19 +32,25 @@ title: "Team"
         {% if item.url %}</a>{% endif %}
     </h2>
     <p>{{ item.title }}</p>
-    {% if item.facebook or item.twitter or item.linkedin or item.email %}
+    {% if item.facebook or item.twitter or item.bluesky or item.mastodon or item.linkedin or item.email %}
     <ul class="social-links">
       {% if item.facebook %}
-      <li><a href="{{item.facebook}}"><i class="fa fa-facebook-square"></i></a></li>
+      <li><a href="{{item.facebook}}"><i class="fa-brands fa-facebook-square"></i></a></li>
       {% endif %}
       {% if item.twitter %}
-      <li><a href="{{item.twitter}}"><i class="fa fa-twitter-square"></i></a></li>
+      <li><a href="{{item.twitter}}"><i class="fa-brands fa-twitter-square"></i></a></li>
+      {% endif %}
+      {% if item.bluesky %}
+      <li><a href="{{item.bluesky}}"><i class="fa-brands fa-square-bluesky"></i></a></li>
+      {% endif %}
+      {% if item.mastodon %}
+      <li><a href="{{item.mastodon}}"><i class="fa-brands fa-mastodon"></i></a></li>
       {% endif %}
       {% if item.linkedin %}
-      <li><a href="{{item.linkedin}}"><i class="fa fa-linkedin"></i></a></li>
+      <li><a href="{{item.linkedin}}"><i class="fa-brands fa-linkedin"></i></a></li>
       {% endif %}
       {% if item.email %}
-      <li><a href="mailto:{{item.email}}"><i class="fa fa-envelope"></i></a></li>
+      <li><a href="mailto:{{item.email}}"><i class="fa-solid fa-envelope"></i></a></li>
       {% endif %}
     </ul>
     {% endif %}
@@ -74,19 +80,25 @@ title: "Team"
         {% if item.url %}</a>{% endif %}
     </h2>
     <p>{{ item.title }}</p>
-    {% if item.facebook or item.twitter or item.linkedin or item.email %}
+    {% if item.facebook or item.twitter or item.bluesky or item.mastodon or item.linkedin or item.email %}
     <ul class="social-links">
       {% if item.facebook %}
-      <li><a href="{{item.facebook}}"><i class="fa fa-facebook-square"></i></a></li>
+      <li><a href="{{item.facebook}}"><i class="fa-brands fa-facebook-square"></i></a></li>
       {% endif %}
       {% if item.twitter %}
-      <li><a href="{{item.twitter}}"><i class="fa fa-twitter-square"></i></a></li>
+      <li><a href="{{item.twitter}}"><i class="fa-brands fa-twitter-square"></i></a></li>
+      {% endif %}
+      {% if item.bluesky %}
+      <li><a href="{{item.bluesky}}"><i class="fa-brands fa-square-bluesky"></i></a></li>
+      {% endif %}
+      {% if item.mastodon %}
+      <li><a href="{{item.mastodon}}"><i class="fa-brands fa-mastodon"></i></a></li>
       {% endif %}
       {% if item.linkedin %}
-      <li><a href="{{item.linkedin}}"><i class="fa fa-linkedin"></i></a></li>
+      <li><a href="{{item.linkedin}}"><i class="fa-brands fa-linkedin"></i></a></li>
       {% endif %}
       {% if item.email %}
-      <li><a href="mailto:{{item.email}}"><i class="fa fa-envelope"></i></a></li>
+      <li><a href="mailto:{{item.email}}"><i class="fa-solid fa-envelope"></i></a></li>
       {% endif %}
     </ul>
     {% endif %}
@@ -116,19 +128,25 @@ title: "Team"
         {% if item.url %}</a>{% endif %}
     </h2>
     <p>{{ item.title }}</p>
-    {% if item.facebook or item.twitter or item.linkedin or item.email %}
+    {% if item.facebook or item.twitter or item.bluesky or item.mastodon or item.linkedin or item.email %}
     <ul class="social-links">
       {% if item.facebook %}
-      <li><a href="{{item.facebook}}"><i class="fa fa-facebook-square"></i></a></li>
+      <li><a href="{{item.facebook}}"><i class="fa-brands fa-facebook-square"></i></a></li>
       {% endif %}
       {% if item.twitter %}
-      <li><a href="{{item.twitter}}"><i class="fa fa-twitter-square"></i></a></li>
+      <li><a href="{{item.twitter}}"><i class="fa-brands fa-twitter-square"></i></a></li>
+      {% endif %}
+      {% if item.bluesky %}
+      <li><a href="{{item.bluesky}}"><i class="fa-brands fa-square-bluesky"></i></a></li>
+      {% endif %}
+      {% if item.mastodon %}
+      <li><a href="{{item.mastodon}}"><i class="fa-brands fa-mastodon"></i></a></li>
       {% endif %}
       {% if item.linkedin %}
-      <li><a href="{{item.linkedin}}"><i class="fa fa-linkedin"></i></a></li>
+      <li><a href="{{item.linkedin}}"><i class="fa-brands fa-linkedin"></i></a></li>
       {% endif %}
       {% if item.email %}
-      <li><a href="mailto:{{item.email}}"><i class="fa fa-envelope"></i></a></li>
+      <li><a href="mailto:{{item.email}}"><i class="fa-solid fa-envelope"></i></a></li>
       {% endif %}
     </ul>
     {% endif %}

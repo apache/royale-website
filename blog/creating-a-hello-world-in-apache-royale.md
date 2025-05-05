@@ -46,4 +46,4 @@ The result of this "Hello World" code snippet is the following:
 
 Full project with source code can be found [here](https://github.com/apache/royale-asjs/tree/develop/examples/blog/BE0001_Hello_World):
 
-<a class="btn btn-download" href="https://github.com/apache/royale-asjs/tree/develop/examples/blog/BE0001_Hello_World"><i class="fa fa-download"></i> Project Source Code</a>
+<a class="btn btn-download" href="https://github.com/apache/royale-asjs/tree/develop/examples/blog/BE0001_Hello_World"><i class="fa-solid fa-download"></i> Project Source Code</a>

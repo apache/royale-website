@@ -104,4 +104,4 @@ The result of this code snippet is the following:
 
 Full project with source code can be found [here](https://github.com/apache/royale-asjs/tree/develop/examples/blog/BE0008_Using_View_States_to_show_or_hide_content):
 
-<a class="btn btn-download" href="https://github.com/apache/royale-asjs/tree/develop/examples/blog/BE0008_Using_View_States_to_show_or_hide_content"><i class="fa fa-download"></i> Project Source Code</a>
+<a class="btn btn-download" href="https://github.com/apache/royale-asjs/tree/develop/examples/blog/BE0008_Using_View_States_to_show_or_hide_content"><i class="fa-solid fa-download"></i> Project Source Code</a>

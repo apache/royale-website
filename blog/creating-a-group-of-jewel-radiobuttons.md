@@ -74,4 +74,4 @@ The result of this code snippet is the following:
 
 Full project with source code can be found [here](https://github.com/apache/royale-asjs/tree/develop/examples/blog/BE0005_Creating_a_group_of_Jewel_RadioButtons):
 
-<a class="btn btn-download" href="https://github.com/apache/royale-asjs/tree/develop/examples/blog/BE0005_Creating_a_group_of_Jewel_RadioButtons"><i class="fa fa-download"></i> Project Source Code</a>
+<a class="btn btn-download" href="https://github.com/apache/royale-asjs/tree/develop/examples/blog/BE0005_Creating_a_group_of_Jewel_RadioButtons"><i class="fa-solid fa-download"></i> Project Source Code</a>
