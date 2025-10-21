@@ -1,4 +1,4 @@
 {
 	"eleventyExcludeFromCollections": true,
-	"layout": "content-only.html"
+	"layout": ""
 }
