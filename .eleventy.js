@@ -3,7 +3,11 @@ const CleanCSS = require("clean-css");
 const sass = require("sass");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 
-module.exports = function (eleventyConfig) {
+/**
+ * @typedef {import('@11ty/eleventy/UserConfig').default} UserConfig
+ */
+
+module.exports = /** @param eleventyConfig {UserConfig} */ function (eleventyConfig) {
   // filters are used to modify the data used by a template
   eleventyConfig.addLiquidFilter("getNewestCollectionItemDate", pluginRss.getNewestCollectionItemDate);
   eleventyConfig.addLiquidFilter("dateToRfc3339", pluginRss.dateToRfc3339);
