@@ -127,11 +127,20 @@
   .topMenu > li > a:hover
     background-color: #e7e7e7
 
-  .topbar-right:hover .topMenu
-    display: flex
-    z-index: 1000
 
 @media (max-width: 599px)
   .topbar-left
     div
       width: 140px
+
+@media screen and (max-width: 840px)
+  .topMenu
+    display: none
+    flex-direction: column
+    position: absolute
+    right: 10px
+    top: 70px
+    z-index: 1000
+
+  .topMenu.is-open
+    display: flex

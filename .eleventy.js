@@ -30,6 +30,7 @@ module.exports = /** @param eleventyConfig {UserConfig} */ function (eleventyCon
   // be sure to add the directory to .eleventyignore
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("fnt");
+  eleventyConfig.addPassthroughCopy("js");
   eleventyConfig.addPassthroughCopy(".htaccess");
   eleventyConfig.addPassthroughCopy("robots.txt");
   eleventyConfig.addPassthroughCopy("asdoc");
