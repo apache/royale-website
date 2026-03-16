@@ -1,4 +1,4 @@
-const htmlmin = require("html-minifier");
+const htmlmin = require("html-minifier-next");
 const CleanCSS = require("clean-css");
 const sass = require("sass");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
